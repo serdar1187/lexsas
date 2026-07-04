@@ -1,0 +1,6 @@
+.superpowers/
+docs/cv-source.md
+_ziptmp/
+*.bak
+Thumbs.db
+.DS_Store
