@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 420" fill="none" role="img" aria-hidden="true">
+  <!-- infinity motif, muted -->
+  <circle cx="90" cy="80" r="34" stroke="#DFDDD8" stroke-width="1.5" stroke-dasharray="1.5 6" stroke-linecap="round"/>
+  <circle cx="82" cy="80" r="8" stroke="#C9C7C2" stroke-width="2.5"/>
+  <circle cx="98" cy="80" r="8" stroke="#C9C7C2" stroke-width="2.5"/>
+
+  <!-- clock ring: solid on the left, dissolving on the right -->
+  <path d="M 90 210 A 110 110 0 0 1 200 100" stroke="#2FA05A" stroke-width="10" stroke-linecap="round"/>
+  <path d="M 200 320 A 110 110 0 0 1 90 210" stroke="#F5B301" stroke-width="10" stroke-linecap="round"/>
+  <path d="M 255 305 A 110 110 0 0 1 200 320" stroke="#E8503A" stroke-width="10" stroke-linecap="round"/>
+  <path d="M 200 100 A 110 110 0 0 1 255 115" stroke="#DBD9D4" stroke-width="10" stroke-linecap="round"/>
+
+  <!-- ticks, solid side only -->
+  <line x1="102" y1="210" x2="112" y2="210" stroke="#C9C7C2" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="115" y1="259" x2="124" y2="254" stroke="#C9C7C2" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="115" y1="161" x2="124" y2="166" stroke="#C9C7C2" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="151" y1="125" x2="156" y2="134" stroke="#C9C7C2" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="151" y1="295" x2="156" y2="286" stroke="#C9C7C2" stroke-width="2.5" stroke-linecap="round"/>
+
+  <!-- hands -->
+  <line x1="200" y1="210" x2="146" y2="179" stroke="#22272C" stroke-width="7" stroke-linecap="round"/>
+  <line x1="200" y1="210" x2="244" y2="134" stroke="#22272C" stroke-width="5" stroke-linecap="round"/>
+  <circle cx="200" cy="210" r="7" fill="#22272C"/>
+
+  <!-- dissolve field: mostly muted, a few brand accents -->
+  <circle cx="285" cy="120" r="5" fill="#C9C7C2"/>
+  <circle cx="300" cy="150" r="4" fill="#D9D7D2"/>
+  <circle cx="315" cy="100" r="3.5" fill="#C9C7C2"/>
+  <circle cx="320" cy="180" r="5" fill="#D9D7D2"/>
+  <circle cx="335" cy="140" r="3" fill="#C9C7C2"/>
+  <circle cx="340" cy="220" r="4.5" fill="#D9D7D2"/>
+  <circle cx="355" cy="90" r="2.5" fill="#C9C7C2"/>
+  <circle cx="360" cy="170" r="3.5" fill="#D9D7D2"/>
+  <circle cx="375" cy="250" r="3" fill="#C9C7C2"/>
+  <circle cx="380" cy="130" r="4" fill="#D9D7D2"/>
+  <circle cx="395" cy="200" r="2.5" fill="#C9C7C2"/>
+  <circle cx="400" cy="80" r="2" fill="#D9D7D2"/>
+  <circle cx="410" cy="160" r="3" fill="#C9C7C2"/>
+  <circle cx="425" cy="230" r="2.5" fill="#D9D7D2"/>
+  <circle cx="430" cy="110" r="2" fill="#C9C7C2"/>
+  <circle cx="445" cy="190" r="2.5" fill="#D9D7D2"/>
+  <circle cx="460" cy="140" r="2" fill="#C9C7C2"/>
+  <circle cx="470" cy="260" r="2" fill="#D9D7D2"/>
+  <circle cx="485" cy="100" r="2" fill="#C9C7C2"/>
+  <circle cx="495" cy="210" r="2.5" fill="#D9D7D2"/>
+  <circle cx="510" cy="170" r="2" fill="#C9C7C2"/>
+  <circle cx="520" cy="120" r="1.8" fill="#D9D7D2"/>
+  <circle cx="530" cy="240" r="1.8" fill="#C9C7C2"/>
+  <circle cx="300" cy="250" r="4" fill="#D9D7D2"/>
+  <circle cx="330" cy="280" r="3" fill="#C9C7C2"/>
+  <circle cx="365" cy="300" r="2.5" fill="#D9D7D2"/>
+  <circle cx="310" cy="130" r="4.5" fill="#2E7CF6"/>
+  <circle cx="450" cy="220" r="3" fill="#2E7CF6"/>
+  <circle cx="345" cy="190" r="4" fill="#2FA05A"/>
+  <circle cx="500" cy="140" r="2.5" fill="#2FA05A"/>
+  <circle cx="295" cy="210" r="4" fill="#E8503A"/>
+  <circle cx="420" cy="270" r="2.5" fill="#E8503A"/>
+  <circle cx="370" cy="110" r="3.5" fill="#F5B301"/>
+  <circle cx="480" cy="180" r="2.5" fill="#F5B301"/>
+
+  <!-- sparse texture -->
+  <circle cx="40" cy="360" r="2" fill="#E3E1DC"/>
+  <circle cx="60" cy="150" r="2" fill="#E3E1DC"/>
+  <circle cx="535" cy="60" r="2" fill="#E3E1DC"/>
+</svg>

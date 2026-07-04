@@ -758,6 +758,38 @@ button:focus-visible {
   padding-bottom: var(--space-section-desktop);
 }
 
+/* ---------- Decorative page art ---------- */
+.intro-art {
+  max-width: 380px;
+  margin: 36px auto 0;
+}
+
+.intro-art img,
+.error-art img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+@media (min-width: 980px) {
+  .page-intro--split {
+    display: grid;
+    grid-template-columns: 1.2fr 0.8fr;
+    gap: 48px;
+    align-items: center;
+  }
+
+  .intro-art {
+    max-width: none;
+    margin: 0;
+  }
+}
+
+.error-art {
+  max-width: 320px;
+  margin-bottom: 8px;
+}
+
 .error-page p {
   margin-top: 10px;
   font-size: 1.1rem;
