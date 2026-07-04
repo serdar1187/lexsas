@@ -11,8 +11,17 @@ law, regulation and AI: a senior in-house legal leader (Amazon Turkey Legal Dire
 ex-eBay, ex-PMI, ex-White & Case) offering **informational consultancy** on legal
 technology, AI governance and regulated digital markets.
 
-Positioning line (concept, copywriters refine): *"Legal judgment for the age of AI"* /
-TR: *"Yapay zeka çağı için hukuki muhakeme"*. The site itself must demonstrate the
+**Canonical positioning (owner's LinkedIn, Founder of Lexsas, Mar 2026-present,
+verbatim source; site copy aligns with this but rewrites without em-dashes):**
+"An AI legal-tech venture focused on legal workflow automation and advisory.
+I design and advise on AI-enabled tools that streamline legal and regulatory work:
+intake, document and knowledge workflows, research, and compliance operations,
+with privacy, IP and governance guardrails built in. Bridging 20+ years of
+hands-on legal and regulatory leadership with practical, responsible AI adoption
+for legal teams."
+
+LEXSAS is therefore presented as a venture founded in 2026 by Asım Serdar Yılmaz,
+who speaks in first person as its founder. The site itself must demonstrate the
 expertise: restrained, precise, technically flawless.
 
 ## 2. Non-negotiable constraints
@@ -28,7 +37,16 @@ expertise: restrained, precise, technically flawless.
    This is an absolute owner rule for all copy, both languages, including meta tags.
 5. **Tone:** concrete, factual, quietly confident. No hype adjectives ("cutting-edge",
    "world-class", "passionate"), no marketing exclamation, no AI-sounding smoothness.
-   Short sentences are fine. Numbers and specifics beat adjectives.
+   Short sentences are fine.
+6. **No bragging numbers (owner decision 2026-07-04).** No monetary amounts
+   (USD/EUR/TL) and no percentage claims anywhere in site copy, both languages,
+   including the article. Achievements are described qualitatively ("closed with no
+   penalty", "materially reduced", "Turkey's first approved data transfer
+   undertaking"). This is a consultancy site, not a CV or job-search page.
+7. **Theme priority (owner decision 2026-07-04).** Legal Tech, AI and workflow
+   automation for legal work are the lead theme of the whole site, starting with the
+   hero and the first focus areas. Career history supports the theme; it does not
+   lead. Detailed experience lives only on the About page.
 
 ## 3. Compliance guardrails (copy rules)
 
@@ -124,8 +142,10 @@ use). Nowhere else. The site reads as monochrome ink-on-paper at first glance.
 - **Practice areas:** grid 3×2 (1col mobile), plain cards: hairline border 1px
   var(--line), radius 12px, padding 28px, background var(--card), NO shadows.
   H3 + 2 sentences.
-- **Selected outcomes:** 2×2 grid of cards, each with a big stat line (serif, 1.5rem)
-  and 2-sentence explanation; 3px left border in one brand color per card.
+- **Approach:** 3 cards in one row (1col mobile), each with a short serif statement
+  (1.25rem) and 2 sentences; 3px left border accents: blue, yellow, green.
+- **Experience band:** single centered block, max-width 62ch: short heading, one
+  general paragraph (no figures), one text link with `→` arrow to the About page.
 - **CV timeline (about):** vertical line 1px var(--line) on left, entries with a 9px
   ink dot, date range in `.kicker` style, role + company H3, 3-5 condensed bullets.
 - **Articles index:** simple list, each item: date (kicker style), linked title
@@ -157,24 +177,33 @@ Copywriters produce final copy for BOTH languages following these skeletons.
 Source of truth for facts: the owner's CV (provided in the task prompt).
 
 ### Home
-1. Hero: positioning as senior legal counsel for AI-era regulatory complexity.
-2. Credibility strip (4 facts).
-3. "What I do": 6 areas: AI governance & compliance; e-commerce & platform
-   regulation; data protection & data sovereignty (KVKK/GDPR); payments & fintech
-   regulation; competition & digital markets; legal ops & GenAI transformation.
-4. "Selected outcomes": 4 cards: Turkey's first approved Data Transfer Undertaking
-   (KVKK); payments licensing exemption model (BDDK) with multi-million USD cost
-   avoidance; competition investigation closed with no penalty (~USD 20M exposure);
-   95% administrative fine reduction (Ministry of Trade).
-5. Latest insight teaser (links to seed article).
-6. Contact CTA band.
+1. Hero: positioning around Legal Tech, AI and workflow automation for legal work,
+   backed by senior regulatory judgment. Not a CV pitch.
+2. Credibility strip (4 short facts, no figures beyond "20+ years").
+3. "Focus areas": 6 areas IN THIS ORDER:
+   (1) Legal Tech & AI Workflow Automation, (2) AI Governance & Regulatory
+   Compliance, (3) GenAI Transformation for Legal Teams (legal ops, build vs buy,
+   adoption), (4) Data Protection & Data Sovereignty (KVKK/GDPR), (5) E-commerce &
+   Platform Regulation (incl. payments touchpoints), (6) Competition & Digital
+   Markets (incl. algorithmic accountability).
+4. "Approach": 3 items, e.g. practitioner not vendor; guardrails that enable speed
+   ("yes, if"); measurable pilots with human review. Copywriters refine.
+5. Experience band: one general paragraph (20+ years in-house, global technology
+   and marketplace businesses, regulated markets, board roles; NO company-by-company
+   detail, NO figures) + link to About.
+6. Latest insight teaser (links to seed article).
+7. Contact CTA band.
 
 ### About
 1. Narrative bio, 3-4 paragraphs: 20+ years, arc from White & Case to Amazon,
    regulated-markets thread, AI governance and legal innovation focus.
 2. Full CV timeline: Amazon (2019-), eBay/GittiGidiyor (2012-2019), PMI Dubai/
    Lausanne (2008-2012), White & Case Ankara (2005-2008). 4-5 bullets each,
-   condensed from CV, no confidential detail beyond CV.
+   condensed from CV, no confidential detail beyond CV, and per constraint 6 no
+   monetary amounts or percentages: notable matters (first approved KVKK data
+   transfer undertaking, payments licensing exemption model, competition file
+   closed with no penalty, materially reduced administrative fine) are described
+   qualitatively inside the relevant job's bullets.
 3. Board & governance roles; Education (HBS Exec Ed, Mercy College MSc Internet
    Business, Ankara University Law); Courses (LSE AI Law Policy & Governance, WIPO
    series); Affiliations (Ankara Bar); Languages.

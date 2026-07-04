@@ -9,7 +9,9 @@ value text (plain text, or inline HTML like <a>, <em> where noted)
 ```
 
 Rules for all values: no em-dashes (— or –) anywhere; no exclamation marks;
-no hype adjectives; the owner's phone number must never appear.
+no hype adjectives; the owner's phone number must never appear; no monetary
+amounts and no percentage claims anywhere (spec constraint 6); Legal Tech / AI /
+workflow automation is the lead theme (spec constraint 7).
 
 ## Shared (used on every page)
 - NAV_HOME, NAV_ABOUT, NAV_INSIGHTS, NAV_CONTACT: nav labels
@@ -24,10 +26,13 @@ no hype adjectives; the owner's phone number must never appear.
 - CRED_1..CRED_4: credibility strip facts, each <=6 words
 - AREAS_H2: section heading
 - AREA_1_TITLE..AREA_6_TITLE and AREA_1_BODY..AREA_6_BODY:
-  six practice areas per spec section 6, body = 2 sentences each
-- OUTCOMES_H2: section heading
-- OUT_1_STAT..OUT_4_STAT: short stat/headline line (<=8 words)
-- OUT_1_BODY..OUT_4_BODY: 2 sentences each, company-neutral phrasing
+  six focus areas per spec section 6 (Legal Tech & AI Workflow Automation leads),
+  body = 2 sentences each
+- APPROACH_H2: section heading
+- APPROACH_1_TITLE..APPROACH_3_TITLE: short serif statement (<=6 words)
+- APPROACH_1_BODY..APPROACH_3_BODY: 2 sentences each
+- EXP_H2: short heading; EXP_BODY: one general paragraph, 2-3 sentences, no
+  company-by-company detail, no figures; EXP_LINK: link text to the About page
 - INSIGHT_H2: heading; INSIGHT_DATE (e.g. "July 2026" / "Temmuz 2026");
   INSIGHT_TITLE; INSIGHT_SUMMARY (1 sentence); INSIGHT_MORE (link text)
 - CTA_H2; CTA_BODY (1-2 sentences); CTA_LINK (link text)
@@ -37,6 +42,9 @@ no hype adjectives; the owner's phone number must never appear.
 - ABOUT_KICKER; ABOUT_H1
 - BIO_P1..BIO_P4: narrative bio paragraphs
 - TIMELINE_H2
+- JOB_0 (Lexsas, current): JOB_0_DATES ("2026-present" / "2026-günümüz"),
+  JOB_0_ROLE (Founder / Kurucu), JOB_0_COMPANY (LEXSAS), JOB_0_B1..JOB_0_B3:
+  three bullets from the canonical positioning in spec section 1
 - JOB_1 (Amazon): JOB_1_DATES, JOB_1_ROLE, JOB_1_COMPANY, JOB_1_B1..JOB_1_B5
 - JOB_2 (eBay/GittiGidiyor): JOB_2_DATES, JOB_2_ROLE, JOB_2_COMPANY, JOB_2_B1..JOB_2_B4
 - JOB_3 (PMI): JOB_3_DATES, JOB_3_ROLE, JOB_3_COMPANY, JOB_3_B1..JOB_3_B4
