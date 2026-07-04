@@ -27,19 +27,19 @@ Bu sitedeki içerik yalnızca genel bilgilendirme amaçlıdır ve hukuki tavsiye
 ## Home (index)
 
 #### {{HOME_TITLE}}
-LEXSAS · Hukukta yapay zeka ve iş akışı otomasyonu
+LEXSAS · Hukuki iş akışı otomasyonu ve yapay zeka danışmanlığı
 
 #### {{HOME_META_DESC}}
-Hukuk teknolojisi, yapay zeka yönetişimi ve hukuk ekiplerinde üretken yapay zeka dönüşümü üzerine bilgilendirici danışmanlık.
+Hukuki işi hızlandıran yapay zeka destekli araçlar ve danışmanlık: talep karşılama, doküman ve bilgi iş akışları, uyum operasyonları.
 
 #### {{HOME_KICKER}}
-HUKUK TEKNOLOJİSİ VE YAPAY ZEKA
+YAPAY ZEKA LEGAL-TECH GİRİŞİMİ
 
 #### {{HERO_H1}}
-Hukuk işine yapay zekayı sorumlu biçimde yerleştirmek.
+Hukuki işi hızlandıran yapay zeka, korkuluklar baştan gömülü.
 
 #### {{HERO_LEDE}}
-Hukuk ekiplerinin talep karşılama, bilgi erişimi ve ilk taslak süreçlerini yapay zekayla sadeleştirmelerine yardımcı oluyorum. Bunu, düzenlenen pazarlarda yirmi yılı aşkın şirket içi hukuk deneyimine ve denetime dayanıklı korkuluklara dayandırıyorum. Amaç, hızı korurken sorumluluğu ve gizliliği yerinde tutmak.
+LEXSAS'ı 2026'da, hukuki ve regülatif işi hızlandıran yapay zeka destekli araçlar tasarlamak ve bu konuda danışmanlık vermek için kurdum. Talep karşılama, doküman ve bilgi iş akışları, araştırma ve uyum operasyonları üzerine çalışıyorum; gizlilik, fikri mülkiyet ve yönetişim korkuluklarını baştan gömülü tutuyorum. Yirmi yılı aşkın hukuk ve regülasyon liderliğini, hukuk ekipleri için pratik ve sorumlu yapay zeka adaptasyonuyla birleştiriyorum.
 
 #### {{HERO_CTA}}
 İletişime geçin
@@ -63,13 +63,13 @@ Ankara Barosu
 Hukuk teknolojisi ve yapay zeka iş akışı otomasyonu
 
 #### {{AREA_1_BODY}}
-Talep karşılama, bilgi erişimi ve ilk taslak süreçlerini yapay zeka araçlarıyla düzenliyorum. Amaç, tekrar eden işi sadeleştirmek ve hukukçunun zamanını gerçekten yargı isteyen işlere ayırmak.
+Talep karşılama, doküman ve bilgi iş akışları, araştırma ve uyum operasyonlarını hızlandıran yapay zeka destekli araçlar tasarlıyorum. Tekrar eden işi sadeleştirip hukukçunun zamanını gerçekten yargı isteyen işlere ayırmayı hedefliyorum.
 
 #### {{AREA_2_TITLE}}
 Yapay zeka yönetişimi ve regülasyon uyumu
 
 #### {{AREA_2_BODY}}
-Yapay zeka sistemleri için sorumluluk, insan incelemesi ve belgeleme içeren yönetişim çerçeveleri kuruyorum. Amaç, ekiplerin denetime dayanıklı korkuluklar içinde hareket edebilmesi.
+Gizlilik, fikri mülkiyet ve yönetişim korkuluklarını araçların içine baştan gömüyorum. Sorumluluk, insan incelemesi ve belgeleme içeren, denetime dayanıklı çerçeveler kuruyorum.
 
 #### {{AREA_3_TITLE}}
 Hukuk ekipleri için üretken yapay zeka dönüşümü
@@ -173,10 +173,28 @@ Kariyerim Ankara'da White & Case bünyesinde, düzenlenen sektörlerdeki sınır
 Çalışmalarımın ortak ipliği düzenlenen pazarlar oldu. Rekabet, tüketici koruma, ödemeler, veri koruma, aracı sorumluluğu ve kurumsal yönetişim gibi alanlarda, düzenleyici belirsizliği işletmenin ilerleyebileceği somut yollara çevirmeye odaklandım. Rekabet Kurumu, KVKK, Ticaret Bakanlığı, RTÜK ve TCMB gibi kurumlar önünde temsil bu işin sürekli parçası oldu.
 
 #### {{BIO_P4}}
-Son yıllarda odağım yapay zeka yönetişimi ve hukuk teknolojisine kaydı. AWS Bedrock üzerinde üretken yapay zeka destekli hukuk araçlarının geliştirilmesine katkı verdim, talep karşılama ve bilgi erişimi süreçlerini sadeleştiren, dış avukat bağımlılığını azaltmayı hedefleyen çözümler üzerinde çalıştım. Bu deneyimi, sitedeki bilgilendirme amaçlı çalışmalarla paylaşıyorum.
+Son yıllarda odağım yapay zeka yönetişimi ve hukuk teknolojisine kaydı. Amazon'da AWS Bedrock üzerinde üretken yapay zeka destekli hukuk araçlarının geliştirilmesine katkı verdim, talep karşılama ve bilgi erişimi süreçlerini sadeleştiren, dış avukat bağımlılığını azaltmayı hedefleyen çözümler üzerinde çalıştım. 2026'da bu deneyimi bağımsız bir zemine taşıyarak LEXSAS'ı kurdum: hukuki ve regülatif işi hızlandıran, korkulukları baştan gömülü yapay zeka araçları tasarlayan ve bu konuda danışmanlık veren bir girişim.
 
 #### {{TIMELINE_H2}}
 Kariyer
+
+#### {{JOB_0_DATES}}
+2026-günümüz
+
+#### {{JOB_0_ROLE}}
+Kurucu
+
+#### {{JOB_0_COMPANY}}
+LEXSAS
+
+#### {{JOB_0_B1}}
+Hukuki iş akışı otomasyonuna ve danışmanlığa odaklı bir yapay zeka legal-tech girişimi kurdum; hukuki ve regülatif işi hızlandırmak temel amaç.
+
+#### {{JOB_0_B2}}
+Talep karşılama, doküman ve bilgi iş akışları, araştırma ve uyum operasyonları için yapay zeka destekli araçlar tasarlıyor ve bu konuda danışmanlık veriyorum.
+
+#### {{JOB_0_B3}}
+Gizlilik, fikri mülkiyet ve yönetişim korkuluklarını araçların içine baştan gömüyorum; 20+ yıllık hukuk ve regülasyon liderliğini sorumlu yapay zeka adaptasyonuyla birleştiriyorum.
 
 #### {{JOB_1_DATES}}
 2019-günümüz

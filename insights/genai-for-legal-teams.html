@@ -3,14 +3,14 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>{{ARTICLE_TITLE}}</title>
-<meta name="description" content="{{ARTICLE_META_DESC}}">
+<title>What generative AI actually changes for in-house legal teams</title>
+<meta name="description" content="A practitioner view on where generative AI helps in-house legal work, what stays human, and how to run it responsibly.">
 <link rel="canonical" href="https://lexsas.com/insights/genai-for-legal-teams.html">
 <link rel="alternate" hreflang="en" href="https://lexsas.com/insights/genai-for-legal-teams.html">
 <link rel="alternate" hreflang="tr" href="https://lexsas.com/tr/yazilar/hukuk-ekiplerinde-uretken-yapay-zeka.html">
 <link rel="alternate" hreflang="x-default" href="https://lexsas.com/insights/genai-for-legal-teams.html">
-<meta property="og:title" content="{{ARTICLE_TITLE}}">
-<meta property="og:description" content="{{ARTICLE_META_DESC}}">
+<meta property="og:title" content="What generative AI actually changes for in-house legal teams">
+<meta property="og:description" content="A practitioner view on where generative AI helps in-house legal work, what stays human, and how to run it responsibly.">
 <meta property="og:image" content="https://lexsas.com/assets/brand/lexsas-avatar-white-1024.png">
 <meta property="og:type" content="article">
 <link rel="icon" href="/assets/brand/favicon-32.png" sizes="32x32" type="image/png">
@@ -36,10 +36,10 @@
       <span>lexsas</span>
     </a>
     <nav class="nav">
-      <a href="/index.html">{{NAV_HOME}}</a>
-      <a href="/about.html">{{NAV_ABOUT}}</a>
-      <a href="/insights.html" aria-current="page">{{NAV_INSIGHTS}}</a>
-      <a href="/contact.html">{{NAV_CONTACT}}</a>
+      <a href="/index.html">Home</a>
+      <a href="/about.html">About</a>
+      <a href="/insights.html" aria-current="page">Insights</a>
+      <a href="/contact.html">Contact</a>
       <a class="lang-toggle" href="/tr/yazilar/hukuk-ekiplerinde-uretken-yapay-zeka.html">TR</a>
     </nav>
   </div>
@@ -49,15 +49,34 @@
 <main>
   <section class="shell" style="padding-top: 64px;">
     <div class="article-header">
-      <a class="back-link" href="/insights.html">&larr; {{NAV_INSIGHTS}}</a>
-      <span class="kicker">{{ARTICLE_DATE}} &middot; {{ARTICLE_READTIME}}</span>
-      <h1>{{ARTICLE_TITLE}}</h1>
+      <a class="back-link" href="/insights.html">&larr; Insights</a>
+      <span class="kicker">July 2026 &middot; 6 min read</span>
+      <h1>What generative AI actually changes for in-house legal teams</h1>
     </div>
   </section>
 
   <section class="shell" style="padding-top: 0;">
     <div class="article-body">
-      {{ARTICLE_BODY_HTML}}
+      <p>Most writing on generative AI in legal work falls into one of two camps. One promises that the work of a legal department is about to be automated away. The other insists that nothing serious can change, because law is judgment and judgment cannot be delegated to a model. In an in-house team that has actually built and run these tools, neither camp is quite right. The useful question is narrower: what does generative AI change, what does it leave untouched, and how do you run it so it helps rather than quietly creating risk.</p>
+      <h2>What does not change</h2>
+      <p>Start with what stays put, because it is the part people skip. The duty to reach a defensible answer does not move. A model can draft a position, but a lawyer still owns it, signs off on it, and answers for it if a regulator asks. Privilege, confidentiality and conflicts do not relax because a tool is in the loop. If anything they get harder, since a poorly configured system can move sensitive material to places it should never be.</p>
+      <p>Judgment about risk appetite does not change either. Deciding how much regulatory ambiguity a business can carry, and on what terms, is a matter of context, relationships and history that no model holds. The same is true of the harder calls: when to escalate, when to say no, when to say yes with conditions. Those decisions are the actual job, and generative AI does not touch them.</p>
+      <p>It is worth saying this plainly, because the point gets lost in product demonstrations. A regulator does not accept "the tool produced it" as an answer, and neither does a board. The lawyer is still accountable. That fact should shape every design choice that follows: the question is not whether to use these tools but how to place them so they support an accountable human rather than obscure one.</p>
+      <h2>What actually changes</h2>
+      <p>What does change is the work that surrounds those decisions, and there is a great deal of it. Three areas stand out in practice.</p>
+      <p>The first is intake. A large share of an in-house team's time goes to routing questions, restating them clearly, and gathering the facts needed to answer. A well-scoped model can triage a request, ask for the missing pieces, and hand the lawyer a clean brief instead of a vague email. That does not decide anything. It removes the friction before the deciding starts.</p>
+      <p>The second is knowledge retrieval. In-house teams sit on years of prior advice, playbooks and precedent that are hard to search when they are needed. Retrieval over that material, done carefully, means a lawyer can find how the team handled a similar question two years ago in seconds rather than hours. The value is not a generated answer. It is fast access to the team's own reasoning.</p>
+      <p>The third is first drafts. Standard clauses, routine responses, summaries of long filings and initial cuts of internal memos are all work where a model can produce a serviceable starting point. The lawyer then edits, corrects and takes ownership. When we built generative AI tooling on AWS Bedrock, the first-phase target was a meaningful, measured reduction in manual workload on exactly this kind of task, together with less routine dependence on outside counsel. The point was never to remove the lawyer. It was to move the lawyer's time toward the work that needs a lawyer.</p>
+      <h2>How to run it responsibly</h2>
+      <p>The gap between a useful tool and a liability is almost entirely in how it is run. A few rules have held up.</p>
+      <ul>
+      <li>Set guardrails before capability. Decide what data the system may touch, where outputs may go, and what it must never do, and enforce that in configuration rather than in a policy document nobody reads.</li>
+      <li>Keep human review on anything that leaves the team. A generated draft is an input to a lawyer, not an output to a client or regulator. The review step is where ownership actually attaches.</li>
+      <li>Run measurable pilots. Pick one workflow, define what good looks like before you start, and measure it. A pilot that cannot show whether it saved time or introduced errors has told you nothing.</li>
+      <li>Track errors honestly. Models are confidently wrong in ways that look plausible. You need a way to catch that, and a team that treats a wrong answer as a finding rather than an embarrassment.</li>
+      </ul>
+      <p>One more point on outside counsel, because it is where the economics show up first. Much of what a legal team sends outside is volume rather than hard law: routine research, first-pass review and drafting that goes out because there is no internal capacity, not because the question needs a specialist. Move a share of that in-house with the right tooling and the spend falls, while the genuinely difficult matters still go to the firms that should handle them.</p>
+      <p>None of this requires believing the hype, and none of it requires dismissing the technology. Generative AI does not change what a legal team is for. It changes how much of the surrounding work has to be done by hand, which is worth a lot if you are honest about where the judgment still has to sit. The teams that get value from it stay skeptical about the claims, specific about the workflow, and patient enough to prove each step before trusting it with the next.</p>
     </div>
   </section>
 </main>
@@ -75,9 +94,9 @@
       </svg>
       <span class="kicker">lexsas</span>
     </div>
-    <p class="footer-disclaimer">{{FOOTER_DISCLAIMER}}</p>
+    <p class="footer-disclaimer">This site is for general information only. It is not legal advice and does not create an attorney-client relationship. All views are personal and do not represent any current or former employer.</p>
     <div class="footer-meta footer-links">
-      <span>{{FOOTER_META}}</span>
+      <span>© 2026 LEXSAS · Istanbul</span>
       <a href="https://www.linkedin.com/in/asimserdaryilmaz/">linkedin.com/in/asimserdaryilmaz</a>
     </div>
   </div>

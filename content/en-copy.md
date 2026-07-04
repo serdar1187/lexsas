@@ -1,6 +1,6 @@
 # English copy (en-copy.md)
 
-One value per token, in the format `#### {{TOKEN}}` followed by the value.
+One value per token: a heading line with the token name in double braces, then the value.
 
 ## Shared
 
@@ -153,7 +153,7 @@ Get in touch
 About · LEXSAS
 
 #### {{ABOUT_META_DESC}}
-Asim Serdar Yilmaz: 20+ years in-house across Amazon, eBay, PMI and White & Case, working at the intersection of law, regulation and AI.
+Asim Serdar Yilmaz, founder of LEXSAS: 20+ years in-house across Amazon, eBay, PMI and White & Case, now focused on AI for legal work.
 
 #### {{ABOUT_KICKER}}
 ABOUT
@@ -171,10 +171,28 @@ I started in private practice at White & Case in Ankara, on cross-border M&A, pr
 The thread through all of it is regulated markets. I have spent years turning regulatory ambiguity into paths a business can actually take, and building what I think of as "yes, if" guardrails: controls that let a team move at speed while protecting the enterprise over the long term. Much of that has meant sitting across the table from competition authorities, data protection regulators, media regulators and ministries.
 
 #### {{BIO_P4}}
-More recently my focus has shifted toward AI governance and legal innovation. I have co-developed generative AI tooling for legal work on AWS Bedrock and led risk-prioritisation methods that other teams later adopted. This site is where I write about that intersection of law, regulation and AI, as informational consultancy rather than legal representation.
+The current chapter is LEXSAS, the AI legal-tech venture I founded in 2026, focused on legal workflow automation and advisory. It grew out of years of building generative AI tooling for legal work, on AWS Bedrock among other platforms, and of seeing where adoption succeeds and where it quietly fails. This site is where I write about that intersection of law, regulation and AI, as informational consultancy rather than legal representation.
 
 #### {{TIMELINE_H2}}
 Career
+
+#### {{JOB_0_DATES}}
+2026-present
+
+#### {{JOB_0_ROLE}}
+Founder
+
+#### {{JOB_0_COMPANY}}
+LEXSAS, Istanbul
+
+#### {{JOB_0_B1}}
+An AI legal-tech venture focused on legal workflow automation and advisory for legal and regulatory teams.
+
+#### {{JOB_0_B2}}
+Designs and advises on AI-enabled tooling across the legal workflow: intake, document and knowledge management, research and compliance operations.
+
+#### {{JOB_0_B3}}
+Builds privacy, IP and governance guardrails into every tool from the start, pairing 20+ years of in-house legal and regulatory leadership with responsible AI adoption.
 
 #### {{JOB_1_DATES}}
 2019-present
@@ -346,7 +364,7 @@ July 2026
 <p>What does change is the work that surrounds those decisions, and there is a great deal of it. Three areas stand out in practice.</p>
 <p>The first is intake. A large share of an in-house team's time goes to routing questions, restating them clearly, and gathering the facts needed to answer. A well-scoped model can triage a request, ask for the missing pieces, and hand the lawyer a clean brief instead of a vague email. That does not decide anything. It removes the friction before the deciding starts.</p>
 <p>The second is knowledge retrieval. In-house teams sit on years of prior advice, playbooks and precedent that are hard to search when they are needed. Retrieval over that material, done carefully, means a lawyer can find how the team handled a similar question two years ago in seconds rather than hours. The value is not a generated answer. It is fast access to the team's own reasoning.</p>
-<p>The third is first drafts. Standard clauses, routine responses, summaries of long filings and initial cuts of internal memos are all work where a model can produce a serviceable starting point. The lawyer then edits, corrects and takes ownership. When we built generative AI tooling on AWS Bedrock, the target for the first phase was a roughly 30% reduction in manual workload on exactly this kind of task, and a measurable reduction in routine outside counsel dependency. The point was never to remove the lawyer. It was to move the lawyer's time toward the work that needs a lawyer.</p>
+<p>The third is first drafts. Standard clauses, routine responses, summaries of long filings and initial cuts of internal memos are all work where a model can produce a serviceable starting point. The lawyer then edits, corrects and takes ownership. When we built generative AI tooling on AWS Bedrock, the first-phase target was a meaningful, measured reduction in manual workload on exactly this kind of task, together with less routine dependence on outside counsel. The point was never to remove the lawyer. It was to move the lawyer's time toward the work that needs a lawyer.</p>
 <h2>How to run it responsibly</h2>
 <p>The gap between a useful tool and a liability is almost entirely in how it is run. A few rules have held up.</p>
 <ul>
