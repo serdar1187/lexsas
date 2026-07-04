@@ -34,6 +34,7 @@ Case (Associate, Ankara). Ankara Bar. Languages: Turkish, English.
 - [AI is quietly redrawing the legal industry](https://lexsas.com/insights/ai-reshaping-legal-industry.html)
 - [The billable hour is running out of logic](https://lexsas.com/insights/beyond-the-billable-hour.html)
 - [Contact](https://lexsas.com/contact.html): serdar@lexsas.com
+- [LinkedIn](https://lexsas.com/linkedin.html): latest LinkedIn post and profile link
 - Turkish versions: [Ana Sayfa](https://lexsas.com/tr/index.html), [Hakkında](https://lexsas.com/tr/hakkinda.html), [Yazılar](https://lexsas.com/tr/yazilar.html), [İletişim](https://lexsas.com/tr/iletisim.html)
 
 ## Contact
