@@ -5,6 +5,6 @@ _ziptmp/
 Thumbs.db
 .DS_Store
 
-# Local brand/profile materials. NOT committed: this repo is published verbatim
-# to lexsas.com by GitHub Pages, so anything committed here becomes a public URL.
-malzemeler/
+# Nested private repo (brand/profile materials). Never committed here: this repo is
+# published verbatim to lexsas.com by GitHub Pages, so any committed file becomes a public URL.
+lexsas-tools/
