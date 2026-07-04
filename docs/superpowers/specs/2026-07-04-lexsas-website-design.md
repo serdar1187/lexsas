@@ -223,7 +223,8 @@ zero em-dashes.
 
 ### Contact
 Short paragraph: what kinds of questions are welcome (advisory, speaking,
-board/AI-governance). Email: serdarim@gmail.com (mailto link). LinkedIn:
+board/AI-governance). Email: serdar@lexsas.com (mailto link; requires domain
+email forwarding via MX records at the DNS provider). LinkedIn:
 https://www.linkedin.com/in/asimserdaryilmaz/. Location: Istanbul, Turkey.
 No form (static site).
 

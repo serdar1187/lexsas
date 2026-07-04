@@ -72,6 +72,6 @@ workflow automation is the lead theme (spec constraint 7).
 - CONTACT_EMAIL_LABEL (e.g. "Email"); CONTACT_LINKEDIN_LABEL; CONTACT_LOCATION_LABEL
 - CONTACT_LOCATION_VALUE (e.g. "Istanbul, Turkey" / "İstanbul, Türkiye")
 
-Fixed values (NOT tokens, scaffold hardcodes): email serdarim@gmail.com,
+Fixed values (NOT tokens, scaffold hardcodes): email serdar@lexsas.com,
 LinkedIn https://www.linkedin.com/in/asimserdaryilmaz/, wordmark "lexsas",
 language toggle labels "EN"/"TR", canonical URLs on https://lexsas.com.
