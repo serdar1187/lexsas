@@ -4,3 +4,7 @@ _ziptmp/
 *.bak
 Thumbs.db
 .DS_Store
+
+# Local brand/profile materials. NOT committed: this repo is published verbatim
+# to lexsas.com by GitHub Pages, so anything committed here becomes a public URL.
+malzemeler/
