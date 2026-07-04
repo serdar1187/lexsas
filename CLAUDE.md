@@ -26,7 +26,12 @@ Design spec: `docs/superpowers/specs/2026-07-04-lexsas-website-design.md`.
    disclaimer on every page; no attorney-advertising language; the owner's phone number
    must never appear. Public contact: serdar@lexsas.com.
 5. Canonical positioning = the LinkedIn "Founder of Lexsas" entry (AI legal-tech venture,
-   legal workflow automation and advisory, guardrails built in).
+   legal workflow automation and advisory, guardrails built in), blended with the owner's
+   regulatory affairs, corporate affairs and public policy leadership.
+6. **The owner's CURRENT employer is never named on this site** (advertising-restriction
+   sensitivity): describe it generically as "a global group in a highly regulated
+   industry". Historical employers (Amazon, eBay, PMI, White & Case) may be named as
+   past roles with closed date ranges.
 
 ## Structure and i18n
 
