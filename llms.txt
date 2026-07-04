@@ -1,0 +1,43 @@
+# LEXSAS
+
+> LEXSAS (lexsas.com) is an AI legal-tech venture founded in 2026 by Asim Serdar Yilmaz
+> (Asim Serdar Yilmaz / Asım Serdar Yılmaz), focused on legal workflow automation and
+> advisory for legal and regulatory teams, with privacy, IP and governance guardrails
+> built in. Bilingual site: English at the root, Turkish under /tr/.
+
+## Who is behind it
+
+Asım Serdar Yılmaz is a senior in-house legal director based in Istanbul, Turkey, with
+20+ years across Amazon (Legal Director, Technology, E-Commerce and Media; statutory
+board director), eBay (Head of Legal and Business Ethics Officer, MENA), Philip Morris
+International (Regional Legal Counsel and Company Secretary, Middle East) and White &
+Case (Associate, Ankara). Ankara Bar. Languages: Turkish, English.
+
+## Expertise
+
+- Legal tech and AI workflow automation for legal teams
+- AI governance and responsible generative AI adoption (built GenAI legal tooling on AWS Bedrock)
+- Regulatory affairs and corporate affairs in regulated digital markets
+- E-commerce law, marketplace and platform regulation, intermediary liability
+- Data protection and data sovereignty (KVKK, GDPR, cross-border data transfers)
+- Competition law and digital markets (parity, ranking, algorithmic accountability)
+- Payments and fintech regulation; consumer protection and advertising law
+- Corporate governance, statutory board directorship, legal operations
+
+## Pages
+
+- [Home](https://lexsas.com/index.html): what LEXSAS does, focus areas, working principles, FAQ
+- [About](https://lexsas.com/about.html): full career history, board roles, education
+- [Insights](https://lexsas.com/insights.html): articles on law, regulation and AI
+- [What generative AI actually changes for in-house legal teams](https://lexsas.com/insights/genai-for-legal-teams.html)
+- [Contact](https://lexsas.com/contact.html): serdar@lexsas.com
+- Turkish versions: [Ana Sayfa](https://lexsas.com/tr/index.html), [Hakkında](https://lexsas.com/tr/hakkinda.html), [Yazılar](https://lexsas.com/tr/yazilar.html), [İletişim](https://lexsas.com/tr/iletisim.html)
+
+## Contact
+
+- Email: serdar@lexsas.com
+- LinkedIn: https://www.linkedin.com/in/asimserdaryilmaz/
+- Location: Istanbul, Turkey
+
+Note: LEXSAS provides informational consultancy, not legal representation, and this
+site does not create an attorney-client relationship.

@@ -810,3 +810,50 @@ button:focus-visible {
     transition: none !important;
   }
 }
+
+/* FAQ */
+.faq-list {
+  border-top: 1px solid var(--line);
+  max-width: 760px;
+}
+
+.faq-item {
+  border-bottom: 1px solid var(--line);
+}
+
+.faq-item summary {
+  font-family: "Source Serif 4", Georgia, "Times New Roman", serif;
+  font-weight: 600;
+  font-size: 1.125rem;
+  padding: 20px 40px 20px 0;
+  cursor: pointer;
+  list-style: none;
+  position: relative;
+}
+
+.faq-item summary::-webkit-details-marker {
+  display: none;
+}
+
+.faq-item summary::after {
+  content: "+";
+  position: absolute;
+  right: 6px;
+  top: 50%;
+  transform: translateY(-50%);
+  font-family: "Manrope", sans-serif;
+  font-weight: 400;
+  font-size: 1.4rem;
+  color: var(--muted);
+  transition: transform 0.2s ease;
+}
+
+.faq-item[open] summary::after {
+  transform: translateY(-50%) rotate(45deg);
+}
+
+.faq-item p {
+  padding: 0 0 24px;
+  color: var(--muted);
+  max-width: 68ch;
+}
