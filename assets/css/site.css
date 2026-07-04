@@ -201,6 +201,31 @@ button:focus-visible {
   padding-bottom: calc(var(--space-section-desktop) * 0.6);
 }
 
+.hero-art {
+  max-width: 520px;
+  margin: 44px auto 0;
+}
+
+.hero-art img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+@media (min-width: 980px) {
+  .hero {
+    display: grid;
+    grid-template-columns: 1.1fr 0.9fr;
+    gap: 56px;
+    align-items: center;
+  }
+
+  .hero-art {
+    max-width: none;
+    margin: 0;
+  }
+}
+
 .hero h1 {
   font-size: clamp(2.3rem, 5vw, 3.4rem);
   margin-top: 14px;
