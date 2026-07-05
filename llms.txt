@@ -40,6 +40,8 @@ Case (Associate, Ankara). Ankara Bar. Languages: Turkish, English.
 - [LinkedIn](https://lexsas.com/linkedin.html): latest LinkedIn post and profile link
 - Turkish versions: [Ana Sayfa](https://lexsas.com/tr/index.html), [Hakkında](https://lexsas.com/tr/hakkinda.html), [Yazılar](https://lexsas.com/tr/yazilar.html), [İletişim](https://lexsas.com/tr/iletisim.html)
 
+Full page-by-page content dump: https://lexsas.com/llms-full.txt
+
 ## Contact
 
 - Email: serdar@lexsas.com

@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<channel>
+  <title>LEXSAS Insights</title>
+  <link>https://lexsas.com/</link>
+  <atom:link href="https://lexsas.com/feed.xml" rel="self" type="application/rss+xml"/>
+  <description>Short practitioner notes on legal tech, AI governance, regulatory affairs and regulated digital markets, by Asim Serdar Yilmaz (LEXSAS).</description>
+  <language>en</language>
+  <lastBuildDate>Sat, 05 Jul 2026 09:00:00 GMT</lastBuildDate>
+  <item>
+    <title>The billable hour is running out of logic</title>
+    <link>https://lexsas.com/insights/beyond-the-billable-hour.html</link>
+    <guid isPermaLink="true">https://lexsas.com/insights/beyond-the-billable-hour.html</guid>
+    <description>AI deflates the hour itself. Why next generation law firms are pricing the work, not the time.</description>
+    <pubDate>Sat, 04 Jul 2026 12:00:00 GMT</pubDate>
+    <category>insights-en</category>
+  </item>
+  <item>
+    <title>AI is quietly redrawing the legal industry</title>
+    <link>https://lexsas.com/insights/ai-reshaping-legal-industry.html</link>
+    <guid isPermaLink="true">https://lexsas.com/insights/ai-reshaping-legal-industry.html</guid>
+    <description>Adoption doubled in a year, exposure is among the highest of any sector, and the advantage is shifting from headcount to workflow design.</description>
+    <pubDate>Sat, 04 Jul 2026 12:00:00 GMT</pubDate>
+    <category>insights-en</category>
+  </item>
+  <item>
+    <title>Where a lawyer's hours actually go</title>
+    <link>https://lexsas.com/insights/where-legal-hours-go.html</link>
+    <guid isPermaLink="true">https://lexsas.com/insights/where-legal-hours-go.html</guid>
+    <description>Most of a lawyer's day is not legal judgment. What legal workflow automation actually recovers, with the numbers behind it.</description>
+    <pubDate>Sat, 04 Jul 2026 12:00:00 GMT</pubDate>
+    <category>insights-en</category>
+  </item>
+  <item>
+    <title>What generative AI actually changes for in-house legal teams</title>
+    <link>https://lexsas.com/insights/genai-for-legal-teams.html</link>
+    <guid isPermaLink="true">https://lexsas.com/insights/genai-for-legal-teams.html</guid>
+    <description>A practitioner view on where generative AI helps in-house legal work, what stays human, and how to run it responsibly.</description>
+    <pubDate>Sat, 04 Jul 2026 12:00:00 GMT</pubDate>
+    <category>insights-en</category>
+  </item>
+  <item>
+    <title>Saatlik ücretin mantığı tükeniyor</title>
+    <link>https://lexsas.com/tr/yazilar/saatlik-ucretin-otesi.html</link>
+    <guid isPermaLink="true">https://lexsas.com/tr/yazilar/saatlik-ucretin-otesi.html</guid>
+    <description>Yapay zeka saatin kendisini değersizleştiriyor. Yeni nesil hukuk büroları neden zamanı değil işi fiyatlıyor.</description>
+    <pubDate>Sat, 04 Jul 2026 12:00:00 GMT</pubDate>
+    <category>insights-tr</category>
+  </item>
+  <item>
+    <title>Yapay zeka hukuk sektörünü sessizce yeniden çiziyor</title>
+    <link>https://lexsas.com/tr/yazilar/yapay-zeka-hukuku-yeniden-ciziyor.html</link>
+    <guid isPermaLink="true">https://lexsas.com/tr/yazilar/yapay-zeka-hukuku-yeniden-ciziyor.html</guid>
+    <description>Benimseme bir yılda ikiye katlandı, maruziyet sektörlerin en yükseklerinden. Avantaj kadrodan iş akışı tasarımına kayıyor.</description>
+    <pubDate>Sat, 04 Jul 2026 12:00:00 GMT</pubDate>
+    <category>insights-tr</category>
+  </item>
+  <item>
+    <title>Hukukçunun saatleri gerçekte nereye gidiyor</title>
+    <link>https://lexsas.com/tr/yazilar/hukuki-isin-saatleri.html</link>
+    <guid isPermaLink="true">https://lexsas.com/tr/yazilar/hukuki-isin-saatleri.html</guid>
+    <description>Avukatın gününün çoğu hukuki muhakeme değil. Hukuki iş akışı otomasyonunun geri kazandırdıkları, rakamlarıyla.</description>
+    <pubDate>Sat, 04 Jul 2026 12:00:00 GMT</pubDate>
+    <category>insights-tr</category>
+  </item>
+  <item>
+    <title>Hukuk ekiplerinde üretken yapay zeka: gerçekte ne değişiyor?</title>
+    <link>https://lexsas.com/tr/yazilar/hukuk-ekiplerinde-uretken-yapay-zeka.html</link>
+    <guid isPermaLink="true">https://lexsas.com/tr/yazilar/hukuk-ekiplerinde-uretken-yapay-zeka.html</guid>
+    <description>Üretken yapay zekanın şirket içi hukuk ekiplerinde neyi değiştirdiği, neyi değiştirmediği ve sorumlu yürütmenin nasıl kurulduğu üzerine.</description>
+    <pubDate>Sat, 04 Jul 2026 12:00:00 GMT</pubDate>
+    <category>insights-tr</category>
+  </item>
+</channel>
+</rss>

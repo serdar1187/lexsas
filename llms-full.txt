@@ -1,0 +1,237 @@
+# LEXSAS - full site content for AI agents (llms-full.txt)
+# Generated 2026-07-05. Canonical summary: https://lexsas.com/llms.txt
+
+============================================================
+## Home (EN)  <https://lexsas.com/index.html>
+============================================================
+AI LEGAL TECH
+Legal workflow automation, with the guardrails built in
+LEXSAS is the AI legal-tech venture I founded in 2026. I design and advise on tools that take the manual work out of legal and regulatory operations, from intake and document workflows to research and compliance, with privacy, IP and governance guardrails in place from the start. Behind the tooling sit 20+ years of hands-on legal and regulatory leadership in-house.
+Get in touch
+20+ years in-house
+Amazon, eBay, PMI, White & Case
+Statutory board director
+Ankara Bar
+Focus areas
+Legal tech and AI workflow automation
+Designing and advising on AI-enabled tooling for legal work: intake, document and knowledge workflows, research and compliance operations. The aim is fewer manual steps without a lower standard of review.
+AI governance and regulatory compliance
+Privacy, IP and governance guardrails that ship with the tool rather than after it, alongside model oversight, human review and documentation. I work on the line between what a policy says and what a team can actually operate.
+GenAI transformation for legal teams
+Legal operations strategy for generative AI: where to start, what to build versus buy, and how responsible adoption actually happens. I have co-developed GenAI legal tooling in-house on AWS Bedrock and run the pilots that followed.
+Data protection and data sovereignty
+Cross-border data transfer and localisation questions under KVKK and GDPR, including how to keep transfers lawful when a regulator changes its position. I have executed a first-in-market data transfer undertaking under KVKK.
+E-commerce and platform regulation
+Marketplace and platform rules across consumer protection, advertising, intermediary liability and payments touchpoints. This includes licensing perimeter questions and the controls that keep a platform compliant at scale.
+Competition and digital markets
+Antitrust strategy for platforms, covering parity clauses, ranking practices and algorithmic accountability. I have led a competition defense on pricing algorithms through to file closure with no penalty.
+How I work
+Practitioner, not vendor
+I have built and run these tools inside a legal team, not sold them. Advice starts from what a workflow actually looks like, not from a product roadmap.
+Guardrails that enable speed
+The useful answer is rarely a flat yes or no; it is yes, if. Well-designed controls let a team move quickly while protecting the business over the long term.
+Measurable pilots, human review
+Every AI deployment should begin as a pilot with a defined measure of success and a person owning the output. If it cannot show what it changed, it has not earned a wider rollout.
+Experience
+I have spent 20+ years in-house with global technology and marketplace businesses, blending legal directorship with regulatory affairs, corporate affairs and public policy leadership, most of it in regulated markets and much of it across the table from regulators. That includes statutory board roles and leading legal functions through investigations, licensing questions and market entry. The detail is on the About page.
+Full background
+Latest insight
+July 2026
+The billable hour is running out of logic
+AI deflates the hour itself. Next generation firms price the work, not the time.
+Read the article
+Common questions
+What does LEXSAS do?
+LEXSAS is an AI legal-tech venture focused on legal workflow automation and advisory. It designs AI-enabled tooling for legal and regulatory teams, from intake and document workflows to research and compliance operations, and advises on responsible adoption with privacy, IP and governance guardrails built in.
+Which areas does the advisory work cover?
+Legal technology and AI governance, regulatory affairs and corporate affairs in regulated digital markets, e-commerce and platform regulation, data protection under KVKK and GDPR, and competition questions in digital markets. Behind it sit 20+ years of in-house work as legal director and regulatory affairs leader with global technology, consumer and marketplace businesses.
+Who is behind LEXSAS?
+Asim Serdar Yilmaz, founder of LEXSAS and a senior legal and regulatory affairs leader with more than two decades in-house at Amazon, eBay and Philip Morris International, following private practice at White & Case. The full background is on the About page.
+Do you work in English and Turkish?
+Yes. Advisory, writing and speaking are available in both languages, from Istanbul and remotely.
+Is this legal representation?
+No. LEXSAS provides informational consultancy on legal technology, AI governance and regulatory strategy. It is not a law firm and does not provide legal representation.
+Get in touch
+I am happy to talk through advisory questions on AI governance, regulated digital markets or legal operations. Speaking and board or governance conversations are welcome too.
+Get in touch
+
+============================================================
+## About (EN)  <https://lexsas.com/about.html>
+============================================================
+ABOUT
+Two decades inside regulated technology businesses
+I am Asim Serdar Yilmaz, a senior in-house legal leader based in Istanbul. Over more than 20 years I have advised global technology, consumer and regulated businesses across Turkey and the Middle East, in retail and marketplace, streaming and media, advertising, payments, data and IP. My work tends to sit where a business wants to move quickly and a regulator wants to move carefully.
+I started in private practice at White & Case in Ankara, on cross-border M&A, privatisations and IP in regulated sectors. From there I moved in-house: first into a strict, high-scrutiny compliance environment at Philip Morris International across the Middle East, then into e-commerce at eBay's Turkey and MENA business, and from 2019 to 2026 as Legal Director for Amazon Turkey. In 2026 I moved from legal into regulatory affairs, and today I lead the regulatory agenda within the corporate affairs function of a global group in a highly regulated industry.
+The thread through all of it is regulated markets. I have spent years turning regulatory ambiguity into paths a business can actually take, and building what I think of as "yes, if" guardrails: controls that let a team move at speed while protecting the enterprise over the long term. Much of that has meant sitting across the table from competition authorities, data protection regulators, media regulators and ministries.
+The other current chapter is LEXSAS, the AI legal-tech venture I founded in 2026, focused on legal workflow automation and advisory. It blends what the career built in layers: legal directorship, regulatory affairs, corporate affairs and public policy, now paired with hands-on AI governance. It grew out of years of building generative AI tooling for legal work, on AWS Bedrock among other platforms, and of seeing where adoption succeeds and where it quietly fails. This site is where I write about that intersection of law, regulation and AI, as informational consultancy rather than legal representation.
+Career
+2026-present
+Founder
+LEXSAS, Istanbul
+An AI legal-tech venture focused on legal workflow automation and advisory for legal and regulatory teams.
+Designs and advises on AI-enabled tooling across the legal workflow: intake, document and knowledge management, research and compliance operations.
+Builds privacy, IP and governance guardrails into every tool from the start, pairing 20+ years of in-house legal and regulatory leadership with responsible AI adoption.
+2026-present
+Regulatory Affairs Director
+A global group in a highly regulated consumer industry, Istanbul
+Leads the regulatory agenda within the corporate affairs function, as functional lead in one of the most heavily regulated consumer sectors.
+Regulatory strategy, horizon scanning and regulatory-change analysis for the Turkish market, supporting public policy and government relations work.
+Applies AI governance discipline to regulatory operations: monitoring, analysis and institutional knowledge workflows, with guardrails built in.
+2019-2026
+Legal Director, Technology, E-Commerce and Media; Board Director
+Amazon Turkey, Istanbul
+End-to-end retail and marketplace counsel: commercial contracting, consumer law, advertising, product compliance, supply chain, payments, privacy and disputes.
+Regulatory representation before RTUK, the Turkish Competition Authority, the Ministry of Trade, the Ministry of Industry and Technology, the KVKK Authority and the Central Bank, including a Ministry of Trade investigation resolved with a materially reduced administrative fine.
+Led the response to a KVKK order on cross-border data transfers: negotiated a timeline extension and executed Turkey's first approved Data Transfer Undertaking, keeping transfers lawful without operational disruption.
+Competition and digital markets strategy on parity and MFN, ranking and Buy Box practices, and algorithmic accountability, including a pricing-algorithms investigation closed with no administrative penalty.
+Statutory Board Director for multiple Amazon entities in Turkey, including Prime Video Turkey and Project Kuiper, under Turkish company law. Co-developed GenAI legal tooling on AWS Bedrock to streamline intake and knowledge workflows and reduce outside counsel dependency.
+2012-2019
+Head of Legal and Business Ethics Officer, Middle East and North Africa
+eBay Turkey (GittiGidiyor), Istanbul
+Regional legal leadership for e-commerce marketplace operations across Turkey and MENA: consumer protection, advertising, payments, IP and commercial transactions.
+Head of Public Policy, representing the company before regulators and industry bodies, including the TOBB E-Commerce Assembly.
+Payments and fintech: designed and secured regulator approval for a commercial agent exemption model enabling marketplace payment collection and seller payouts without a full payment institution license, materially reducing compliance cost and later reused in subsequent marketplace operations.
+Regional Business Ethics Officer under the FCPA and UK Bribery Act: Code of Conduct training, third-party due diligence and internal investigations.
+2008-2012
+Regional Legal Counsel and Company Secretary, Middle East; Legal Counsel, Global Functions
+Philip Morris International, Dubai and Lausanne
+Advised commercial teams across 12 Middle East markets under strict advertising bans and Ministry of Health regulations.
+Route-to-market and distribution architecture: distribution, key account and trade marketing arrangements, with templates and controls.
+Company Secretary for regional entities, coordinating external counsel across 12 jurisdictions.
+Global anti-corruption governance from the Lausanne headquarters, including executive risk reporting under the FCPA and UK Bribery Act.
+2005-2008
+Associate
+White & Case LLP, Ankara
+Cross-border M&A and privatisations in regulated sectors including telecoms, energy and banking.
+IP work: trademark clearance, prosecution, cancellations and oppositions, licensing and NDAs.
+Regulated industries advisory across energy and infrastructure, environmental and administrative law.
+Disputes and labor matters before Turkish courts. Recognised by The Legal 500 as an IP law expert.
+Board and governance
+Between 2019 and 2026 I served as a statutory Board Director and authorised representative for multiple Amazon entities in Turkey, including Prime Video Turkey and Project Kuiper, under Turkish company law. Earlier I was a Deputy Board Member of the e-Commerce Commercial Enterprises Association. These roles carried director duties and liability under the Turkish Commercial Code.
+Education
+Executive Education Program, Harvard Business School (2018-2019)
+MSc, Internet Business, Mercy College, New York (2002-2004)
+BA in Law, Ankara University School of Law (1995-2001)
+Courses and seminars
+AI Law, Policy and Governance, London School of Economics
+WIPO: E-Commerce and IP; Arbitration and Mediation; Trademarks and Designs; Copyright
+Intellectual and Industrial Property Rights Program, Ankara University
+Ankara Bar Association. Languages: Turkish (native), English (fluent).
+
+============================================================
+## Insights (EN)  <https://lexsas.com/insights.html>
+============================================================
+INSIGHTS
+Notes on law, regulation and AI
+Short, practitioner pieces on the questions I keep returning to: how AI governance works in practice, how regulated digital markets are changing, and where legal operations can genuinely improve.
+July 2026
+The billable hour is running out of logic
+AI deflates the hour itself. Next generation firms price the work, not the time.
+July 2026
+AI is quietly redrawing the legal industry
+Adoption doubled in a year. The advantage is shifting from headcount to judgment and workflow design.
+July 2026
+Where a lawyer's hours actually go
+The average lawyer bills a fraction of the day. What workflow automation recovers, and how to start.
+July 2026
+What generative AI actually changes for in-house legal teams
+Where generative AI earns its place in legal work, and where careful human judgment still has to sit.
+
+============================================================
+## LinkedIn (EN)  <https://lexsas.com/linkedin.html>
+============================================================
+LINKEDIN
+Notes from my LinkedIn feed
+I post short observations on AI policy, legal tech and regulated digital markets. The latest one is below; the rest live on LinkedIn.
+Asim Serdar Yilmaz
+July 2026
+On June 12, the AI sitting inside a lot of everyday workflows just stopped working.
+On June 26, OpenAI previewed GPT-5.6 Sol to a small group of trusted partners. OpenAI stated: "We don't believe this kind of government access process should become the long-term default."
+On June 12, 2026, Anthropic removed access to its frontier AI models Fable 5 and Mythos 5. Its statement: "We are complying with the government's legal directive and are removing access to Fable 5 and Mythos 5 for all users." Export controls were lifted on July 1.
+Epictetus sorted things into what we control and what we don't. I quote that line more often than I live by it. June was the opening scene where the camera lingers on a pistol for a moment, then moves on. We all know that pistol goes off before the credits.
+My read: AI bans are joining a sanctions toolkit the world already knows. A year or two from now, a cutoff would not play out like frozen offshore accounts. It could bring ordinary life close to a standstill. An explicit AI policy and open-source fallbacks are the hedge. The next episode will show who prepared.
+#AIPolicy - #DigitalSovereignty - #AIGeopolitics - #TechDiplomacy
+View the post on LinkedIn
+Follow along
+New posts appear on LinkedIn first. Follow me there for short, practitioner takes between the longer pieces on this site.
+Follow on LinkedIn
+
+============================================================
+## Contact (EN)  <https://lexsas.com/contact.html>
+============================================================
+CONTACT
+Get in touch
+I welcome advisory questions on AI governance, regulated digital markets and legal operations. I am also glad to discuss speaking, and board or AI-governance roles. This is informational consultancy, not legal representation.
+Email
+serdar@lexsas.com
+LinkedIn
+linkedin.com/in/asimserdaryilmaz
+Location
+Istanbul, Turkey
+
+============================================================
+## Article: What generative AI actually changes for in-house legal teams  <https://lexsas.com/insights/genai-for-legal-teams.html>
+============================================================
+Insights
+July 2026 - 6 min read
+What generative AI actually changes for in-house legal teams
+Most writing on generative AI in legal work falls into one of two camps. One promises that the work of a legal department is about to be automated away. The other insists that nothing serious can change, because law is judgment and judgment cannot be delegated to a model. In an in-house team that has actually built and run these tools, neither camp is quite right. The useful question is narrower: what does generative AI change, what does it leave untouched, and how do you run it so it helps rather than quietly creating risk.
+What does not change
+Start with what stays put, because it is the part people skip. The duty to reach a defensible answer does not move. A model can draft a position, but a lawyer still owns it, signs off on it, and answers for it if a regulator asks. Privilege, confidentiality and conflicts do not relax because a tool is in the loop. If anything they get harder, since a poorly configured system can move sensitive material to places it should never be.
+Judgment about risk appetite does not change either. Deciding how much regulatory ambiguity a business can carry, and on what terms, is a matter of context, relationships and history that no model holds. The same is true of the harder calls: when to escalate, when to say no, when to say yes with conditions. Those decisions are the actual job, and generative AI does not touch them.
+It is worth saying this plainly, because the point gets lost in product demonstrations. A regulator does not accept "the tool produced it" as an answer, and neither does a board. The lawyer is still accountable. That fact should shape every design choice that follows: the question is not whether to use these tools but how to place them so they support an accountable human rather than obscure one.
+What actually changes
+What does change is the work that surrounds those decisions, and there is a great deal of it. Three areas stand out in practice.
+The first is intake. A large share of an in-house team's time goes to routing questions, restating them clearly, and gathering the facts needed to answer. A well-scoped model can triage a request, ask for the missing pieces, and hand the lawyer a clean brief instead of a vague email. That does not decide anything. It removes the friction before the deciding starts.
+The second is knowledge retrieval. In-house teams sit on years of prior advice, playbooks and precedent that are hard to search when they are needed. Retrieval over that material, done carefully, means a lawyer can find how the team handled a similar question two years ago in seconds rather than hours. The value is not a generated answer. It is fast access to the team's own reasoning.
+The third is first drafts. Standard clauses, routine responses, summaries of long filings and initial cuts of internal memos are all work where a model can produce a serviceable starting point. The lawyer then edits, corrects and takes ownership. When we built generative AI tooling on AWS Bedrock, the first-phase target was a meaningful, measured reduction in manual workload on exactly this kind of task, together with less routine dependence on outside counsel. The point was never to remove the lawyer. It was to move the lawyer's time toward the work that needs a lawyer.
+How to run it responsibly
+The gap between a useful tool and a liability is almost entirely in how it is run. A few rules have held up.
+Set guardrails before capability. Decide what data the system may touch, where outputs may go, and what it must never do, and enforce that in configuration rather than in a policy document nobody reads.
+Keep human review on anything that leaves the team. A generated draft is an input to a lawyer, not an output to a client or regulator. The review step is where ownership actually attaches.
+Run measurable pilots. Pick one workflow, define what good looks like before you start, and measure it. A pilot that cannot show whether it saved time or introduced errors has told you nothing.
+Track errors honestly. Models are confidently wrong in ways that look plausible. You need a way to catch that, and a team that treats a wrong answer as a finding rather than an embarrassment.
+One more point on outside counsel, because it is where the economics show up first. Much of what a legal team sends outside is volume rather than hard law: routine research, first-pass review and drafting that goes out because there is no internal capacity, not because the question needs a specialist. Move a share of that in-house with the right tooling and the spend falls, while the genuinely difficult matters still go to the firms that should handle them.
+None of this requires believing the hype, and none of it requires dismissing the technology. Generative AI does not change what a legal team is for. It changes how much of the surrounding work has to be done by hand, which is worth a lot if you are honest about where the judgment still has to sit. The teams that get value from it stay skeptical about the claims, specific about the workflow, and patient enough to prove each step before trusting it with the next.
+
+============================================================
+## Article: Where a lawyer's hours actually go  <https://lexsas.com/insights/where-legal-hours-go.html>
+============================================================
+Insights
+July 2026 - 2 min read
+Where a lawyer's hours actually go
+Ask a legal team where its time goes and the honest answer is rarely "judgment". Clio's Legal Trends Report puts the average lawyer's billed time at around 2.6 hours of an eight hour day, a utilisation rate of roughly a third. The rest disappears into intake, chasing documents, status updates and administrative work that no client ever asked to buy.
+That is the real case for legal workflow automation. The point is not replacing lawyers. It is recovering the hours that never involved lawyering in the first place. Thomson Reuters' Future of Professionals report estimates that AI could free up nearly 240 hours per professional each year, roughly six working weeks returned to the work that actually needs a lawyer.
+In practice the gains come from unglamorous places: a triaged intake queue instead of a vague inbox, retrieval over the team's own precedent, first drafts of routine documents. None of it decides anything. All of it clears the runway for the decisions.
+The discipline matters more than the tooling. Start with one workflow, measure it honestly, and expand only when the numbers hold.
+Sources
+Clio, Legal Trends Report (2025)
+Thomson Reuters Institute, Future of Professionals Report (2025)
+
+============================================================
+## Article: AI is quietly redrawing the legal industry  <https://lexsas.com/insights/ai-reshaping-legal-industry.html>
+============================================================
+Insights
+July 2026 - 2 min read
+AI is quietly redrawing the legal industry
+Legal work sits near the top of most AI exposure charts. Goldman Sachs estimated in 2023 that around 44 percent of legal tasks could be automated by AI, second only to office and administrative support. Two years on, that estimate reads less like a provocation and more like a project plan.
+Adoption has caught up. Thomson Reuters reports generative AI use at 41 percent of law firms and 47 percent of corporate legal departments, roughly double the levels of a year earlier. In a single budget cycle the tools moved from pilot to plumbing.
+What changes is not whether lawyers exist but what surrounds them. Research and first drafts compress from days to hours. Knowledge that lived in inboxes becomes retrievable. The traditional leverage model, many juniors billing many hours, loses its arithmetic. The differentiator shifts from headcount to judgment, and to the quality of the workflows and guardrails around the tools.
+The organisations pulling ahead treat this as an operations question, with pilots, measurement and governance. The ones falling behind treat it as procurement. The technology is the easy part; redesigning the work is the transformation.
+Sources
+Goldman Sachs research on AI and work tasks, reported by CNBC (2023)
+Thomson Reuters Institute, State of the US Legal Market (2026)
+
+============================================================
+## Article: The billable hour is running out of logic  <https://lexsas.com/insights/beyond-the-billable-hour.html>
+============================================================
+Insights
+July 2026 - 2 min read
+The billable hour is running out of logic
+The billable hour survived every earlier wave of legal technology because efficiency and revenue pulled in opposite directions: a faster lawyer earned less. Generative AI breaks that truce. Clio's Legal Trends Report estimates that around 74 percent of the work law firms currently bill by the hour is exposed to automation. When the hour itself deflates, pricing by the hour stops making sense.
+Clients have already voted. In the same research, 71 percent say they would rather pay a flat fee for an entire matter than watch a meter run. A new generation of AI-native legal businesses, Eudia among the most visible, is building directly on that preference, selling defined outcomes at fixed fees rather than time.
+What replaces the hour is a menu rather than a single model: flat fees per matter, subscriptions for ongoing counsel, value-based pricing for results. The common thread is that the client buys an outcome, and the efficiency gain belongs to whoever built the better workflow.
+For firms the strategic point is blunt. Price the work, and your own automation becomes margin. Price the time, and it becomes your client's discount.
+Sources
+Clio, Legal Trends Report (2024)
+Fortune, on Eudia and fixed fee legal services (2025)
