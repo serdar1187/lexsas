@@ -929,3 +929,64 @@ button:focus-visible {
   font-size: 0.85rem;
   margin: 4px 0 20px;
 }
+
+/* Portrait (duotone, gradient ring echoing the logo arcs) */
+.bio-portrait {
+  float: right;
+  width: 208px;
+  height: 208px;
+  margin: 6px 0 20px 32px;
+  border-radius: 50%;
+  padding: 3px;
+  background: conic-gradient(from 45deg, var(--blue), var(--red), var(--yellow), var(--green), var(--blue));
+}
+
+.bio-portrait img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  border: 4px solid var(--paper);
+}
+
+@media (max-width: 720px) {
+  .bio-portrait {
+    float: none;
+    margin: 0 auto 28px;
+  }
+}
+
+/* Article byline and next-article link */
+.article-byline {
+  color: var(--muted);
+  font-size: 0.9rem;
+  margin-top: 10px;
+}
+
+.article-next {
+  margin-top: 28px;
+}
+
+.article-next a {
+  font-weight: 600;
+  border-bottom: 1.5px solid var(--ink);
+  padding-bottom: 2px;
+}
+
+/* Typography polish */
+h1, h2, .insight-title {
+  text-wrap: balance;
+}
+
+.cred-item {
+  text-wrap: balance;
+}
+
+/* Keyboard focus visibility */
+a:focus-visible,
+button:focus-visible,
+summary:focus-visible {
+  outline: 2px solid var(--blue);
+  outline-offset: 3px;
+  border-radius: 2px;
+}
