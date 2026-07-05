@@ -931,14 +931,37 @@ button:focus-visible {
 }
 
 /* Portrait (duotone, gradient ring echoing the logo arcs) */
+.bio-wrap {
+  display: flex;
+  flex-direction: column;
+  gap: 28px;
+}
+
 .bio-portrait {
-  float: right;
   width: 208px;
   height: 208px;
-  margin: 6px 0 20px 32px;
+  margin: 0 auto;
   border-radius: 50%;
   padding: 3px;
   background: conic-gradient(from 45deg, var(--blue), var(--red), var(--yellow), var(--green), var(--blue));
+}
+
+@media (min-width: 1020px) {
+  .bio-wrap {
+    display: grid;
+    grid-template-columns: minmax(0, 68ch) 208px;
+    gap: 56px;
+    align-items: start;
+  }
+
+  .bio-wrap .bio-portrait {
+    order: 2;
+    margin: 6px 0 0;
+  }
+
+  .bio-wrap .bio {
+    order: 1;
+  }
 }
 
 .bio-portrait img {
@@ -947,13 +970,6 @@ button:focus-visible {
   height: 100%;
   border-radius: 50%;
   border: 4px solid var(--paper);
-}
-
-@media (max-width: 720px) {
-  .bio-portrait {
-    float: none;
-    margin: 0 auto 28px;
-  }
 }
 
 /* Article byline and next-article link */
