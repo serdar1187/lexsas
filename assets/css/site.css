@@ -946,7 +946,7 @@ button:focus-visible {
   background: conic-gradient(from 45deg, var(--blue), var(--red), var(--yellow), var(--green), var(--blue));
 }
 
-@media (min-width: 1020px) {
+@media (min-width: 980px) {
   .bio-wrap {
     display: grid;
     grid-template-columns: minmax(0, 68ch) 208px;
