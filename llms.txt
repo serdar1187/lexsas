@@ -29,7 +29,7 @@ Case (Associate, Ankara). Ankara Bar. Languages: Turkish, English.
 
 ## Pages
 
-- [Home](https://lexsas.com/index.html): what LEXSAS does, focus areas, working principles, FAQ
+- [Home](https://lexsas.com/): what LEXSAS does, focus areas, working principles, FAQ
 - [About](https://lexsas.com/about.html): full career history, board roles, education
 - [Insights](https://lexsas.com/insights.html): articles on law, regulation and AI
 - [What generative AI actually changes for in-house legal teams](https://lexsas.com/insights/genai-for-legal-teams.html)
@@ -38,7 +38,7 @@ Case (Associate, Ankara). Ankara Bar. Languages: Turkish, English.
 - [The billable hour is running out of logic](https://lexsas.com/insights/beyond-the-billable-hour.html)
 - [Contact](https://lexsas.com/contact.html): serdar@lexsas.com
 - [LinkedIn](https://lexsas.com/linkedin.html): latest LinkedIn post and profile link
-- Turkish versions: [Ana Sayfa](https://lexsas.com/tr/index.html), [Hakkında](https://lexsas.com/tr/hakkinda.html), [Yazılar](https://lexsas.com/tr/yazilar.html), [İletişim](https://lexsas.com/tr/iletisim.html)
+- Turkish versions: [Ana Sayfa](https://lexsas.com/tr/), [Hakkında](https://lexsas.com/tr/hakkinda.html), [Yazılar](https://lexsas.com/tr/yazilar.html), [İletişim](https://lexsas.com/tr/iletisim.html)
 
 Full page-by-page content dump: https://lexsas.com/llms-full.txt
 

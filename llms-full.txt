@@ -2,7 +2,7 @@
 # Generated 2026-07-05. Canonical summary: https://lexsas.com/llms.txt
 
 ============================================================
-## Home (EN)  <https://lexsas.com/index.html>
+## Home (EN)  <https://lexsas.com/>
 ============================================================
 AI LEGAL TECH
 Legal workflow automation, with the guardrails built in

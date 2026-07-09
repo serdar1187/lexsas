@@ -259,6 +259,49 @@ button:focus-visible {
   text-decoration: none;
 }
 
+.btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 44px;
+  padding: 10px 20px;
+  border: 1.5px solid var(--ink);
+  border-radius: 6px;
+  font-weight: 600;
+  line-height: 1.2;
+  text-decoration: none;
+  transition: transform 0.15s ease, box-shadow 0.15s ease;
+}
+
+.btn-primary {
+  background: var(--ink);
+  color: var(--paper);
+}
+
+.btn-ghost {
+  background: transparent;
+  color: var(--ink);
+}
+
+.btn:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 4px 10px rgba(34, 39, 44, 0.12);
+  text-decoration: none;
+}
+
+.btn-primary:hover {
+  color: var(--paper);
+}
+
+.btn:focus-visible {
+  outline: 2px solid var(--blue);
+  outline-offset: 3px;
+}
+
+.hero .btn {
+  margin-top: 28px;
+}
+
 @media (max-width: 720px) {
   .hero {
     padding-top: var(--space-section-mobile);
@@ -458,7 +501,7 @@ button:focus-visible {
   max-width: 60ch;
 }
 
-.cta-band .cta-link {
+.cta-band .btn {
   margin-top: 24px;
 }
 
@@ -926,6 +969,10 @@ button:focus-visible {
 @media (prefers-reduced-motion: reduce) {
   * {
     transition: none !important;
+  }
+
+  .btn:hover {
+    transform: none;
   }
 }
 
