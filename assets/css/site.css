@@ -18,6 +18,10 @@
   --shell-pad: 24px;
   --space-section-desktop: 96px;
   --space-section-mobile: 64px;
+
+  /* Reading measure for long-form prose: ~68ch on desktop, a touch
+     narrower for comfortable line length on the article interface. */
+  --measure: 68ch;
 }
 
 /* ---------- Reset ---------- */
@@ -50,6 +54,7 @@ h1, h2, h3 {
   font-family: "Source Serif 4", Georgia, "Times New Roman", serif;
   font-weight: 600;
   line-height: 1.15;
+  letter-spacing: -0.01em;
   color: var(--ink);
 }
 
@@ -64,9 +69,9 @@ h3 {
   display: block;
   font-family: "Manrope", sans-serif;
   font-weight: 700;
-  font-size: 0.78rem;
+  font-size: 0.76rem;
   text-transform: uppercase;
-  letter-spacing: 0.12em;
+  letter-spacing: 0.14em;
   color: var(--muted);
 }
 
@@ -228,16 +233,17 @@ button:focus-visible {
 
 .hero h1 {
   font-size: clamp(2.3rem, 5vw, 3.4rem);
-  margin-top: 14px;
+  margin-top: 16px;
   max-width: 18ch;
+  text-wrap: balance;
 }
 
 .hero .lede {
-  margin-top: 22px;
+  margin-top: 24px;
   max-width: 58ch;
   color: var(--muted);
   font-size: 1.08rem;
-  line-height: 1.7;
+  line-height: 1.72;
 }
 
 .cta-link {
@@ -295,8 +301,9 @@ button:focus-visible {
 
 /* ---------- Section headings ---------- */
 .section-heading {
-  font-size: 1.6rem;
-  margin-bottom: 40px;
+  font-size: 1.55rem;
+  margin-bottom: 36px;
+  text-wrap: balance;
 }
 
 /* ---------- Practice area cards ---------- */
@@ -556,78 +563,116 @@ button:focus-visible {
 }
 
 .article-item {
-  padding: 32px 0;
-  border-top: 1px solid var(--line);
+  padding: 28px 24px;
+  border: 1px solid var(--line);
+  border-radius: 10px;
+  margin-top: 16px;
+  background: var(--card);
+  transition: border-color 0.18s ease;
 }
 
 .article-item:first-child {
-  border-top: 0;
-  padding-top: 0;
+  margin-top: 0;
+}
+
+.article-item:hover {
+  border-color: var(--muted);
 }
 
 .article-item .article-title {
   font-family: "Source Serif 4", serif;
   font-weight: 600;
   font-size: 1.3rem;
+  line-height: 1.25;
   display: inline-block;
-  margin-top: 8px;
+  margin-top: 6px;
+  text-wrap: balance;
 }
 
 .article-item .article-summary {
   margin-top: 10px;
   color: var(--muted);
+  max-width: 64ch;
+  font-size: 0.97rem;
+  line-height: 1.6;
+}
+
+/* Keep the card title quiet at rest, signal interactivity only on hover. */
+.article-item .article-title:hover {
+  text-decoration: none;
+  color: var(--ink);
 }
 
 /* ---------- Article page ---------- */
 .article-header {
-  max-width: 68ch;
+  max-width: var(--measure);
   margin: 0 auto;
 }
 
 .back-link {
   display: inline-block;
-  margin-bottom: 32px;
+  margin-bottom: 36px;
   font-weight: 600;
   font-size: 0.92rem;
+  color: var(--muted);
+}
+
+.back-link:hover {
+  color: var(--ink);
+  text-decoration: none;
+}
+
+.article-header .kicker {
+  margin-bottom: 12px;
 }
 
 .article-header h1 {
-  margin-top: 12px;
-  font-size: clamp(1.9rem, 4vw, 2.4rem);
+  margin-top: 4px;
+  font-size: clamp(1.9rem, 4vw, 2.5rem);
+  text-wrap: balance;
 }
 
 .article-body {
-  max-width: 68ch;
+  max-width: var(--measure);
   margin: 0 auto;
-  font-size: 1.05rem;
-  line-height: 1.8;
-}
-
-.article-body h2 {
-  font-size: 1.4rem;
-  margin-top: 48px;
-  margin-bottom: 18px;
+  font-size: 1.06rem;
+  line-height: 1.78;
+  color: var(--ink);
 }
 
 .article-body p {
-  margin-top: 18px;
+  margin-top: 20px;
 }
 
-.article-body p:first-child {
-  margin-top: 32px;
+.article-body > p:first-child {
+  margin-top: 28px;
+}
+
+.article-body h2 {
+  font-size: 1.34rem;
+  margin-top: 44px;
+  margin-bottom: 8px;
+  text-wrap: balance;
 }
 
 .article-body ul,
 .article-body ol {
-  margin-top: 18px;
+  margin-top: 22px;
+  margin-bottom: 4px;
   padding-left: 22px;
   display: flex;
   flex-direction: column;
-  gap: 10px;
+  gap: 12px;
 }
 
 .article-body li {
   color: var(--ink);
+  line-height: 1.7;
+  padding-left: 2px;
+}
+
+.article-body li::marker {
+  color: var(--muted);
 }
 
 /* ---------- Contact page ---------- */
@@ -804,6 +849,79 @@ button:focus-visible {
   text-decoration: none;
 }
 
+/* ---------- Mobile refinement (380-480px) ---------- */
+@media (max-width: 480px) {
+  :root {
+    --shell-pad: 18px;
+  }
+
+  /* Article body steps up to ~17px for comfortable reading on phones. */
+  .article-body {
+    font-size: 1.0625rem;
+    line-height: 1.8;
+  }
+
+  .article-header h1,
+  .page-intro h1 {
+    font-size: 1.85rem;
+  }
+
+  /* Nav wraps cleanly; tighten gaps so it stays on two tidy rows. */
+  .site-header .shell {
+    gap: 12px;
+  }
+
+  .nav {
+    gap: 16px;
+    font-size: 0.9rem;
+  }
+
+  .logo-lockup {
+    font-size: 1.08rem;
+  }
+
+  /* Comfortable touch spacing on cards and bands. */
+  .article-item {
+    padding: 22px 18px;
+  }
+
+  .area-card,
+  .approach-card {
+    padding: 22px;
+  }
+
+  .cta-band {
+    padding: 28px 20px;
+  }
+
+  /* Hero breathes on small screens. */
+  .hero h1 {
+    font-size: 2.05rem;
+  }
+
+  .hero .lede {
+    font-size: 1.02rem;
+  }
+
+  /* Footer spacing tightened so it never feels bottom-heavy. */
+  .site-footer {
+    padding-top: 32px;
+    padding-bottom: 32px;
+  }
+}
+
+/* ---------- Small-phone guard (<=360px) ---------- */
+@media (max-width: 360px) {
+  :root {
+    --shell-pad: 16px;
+  }
+
+  .nav {
+    gap: 12px;
+    font-size: 0.86rem;
+  }
+}
+
 /* ---------- Reduced motion ---------- */
 @media (prefers-reduced-motion: reduce) {
   * {
@@ -860,35 +978,39 @@ button:focus-visible {
 
 /* Article sources */
 .article-sources {
-  margin-top: 48px;
-  padding-top: 20px;
+  margin-top: 56px;
+  padding-top: 24px;
   border-top: 1px solid var(--line);
 }
 
 .article-sources .sources-title {
-  font-size: 0.78rem;
+  font-size: 0.74rem;
   font-weight: 700;
-  letter-spacing: 0.08em;
+  letter-spacing: 0.14em;
   text-transform: uppercase;
   color: var(--muted);
-  margin-bottom: 8px;
+  margin-bottom: 12px;
 }
 
 .article-sources ul {
   list-style: none;
   padding: 0;
   margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
 }
 
 .article-sources li {
   font-size: 0.9rem;
   color: var(--muted);
-  line-height: 1.9;
+  line-height: 1.65;
 }
 
 .article-sources a {
   color: var(--muted);
   text-decoration: underline;
+  text-decoration-thickness: 1px;
   text-underline-offset: 3px;
 }
 
@@ -975,18 +1097,24 @@ button:focus-visible {
 /* Article byline and next-article link */
 .article-byline {
   color: var(--muted);
-  font-size: 0.9rem;
-  margin-top: 10px;
+  font-size: 0.92rem;
+  margin-top: 14px;
 }
 
 .article-next {
-  margin-top: 28px;
+  margin-top: 56px;
+  padding-top: 28px;
+  border-top: 1px solid var(--line);
 }
 
 .article-next a {
+  display: inline-block;
   font-weight: 600;
-  border-bottom: 1.5px solid var(--ink);
-  padding-bottom: 2px;
+  color: var(--ink);
+}
+
+.article-next a:hover {
+  text-decoration: none;
 }
 
 /* Typography polish */
