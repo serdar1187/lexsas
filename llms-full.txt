@@ -1,5 +1,5 @@
 # LEXSAS - full site content for AI agents (llms-full.txt)
-# Generated 2026-07-05. Canonical summary: https://lexsas.com/llms.txt
+# Generated 2026-07-09. Canonical summary: https://lexsas.com/llms.txt
 
 ============================================================
 ## Home (EN)  <https://lexsas.com/>
@@ -235,3 +235,236 @@ For firms the strategic point is blunt. Price the work, and your own automation 
 Sources
 Clio, Legal Trends Report (2024)
 Fortune, on Eudia and fixed fee legal services (2025)
+
+============================================================
+## Ana Sayfa (TR)  <https://lexsas.com/tr/>
+============================================================
+YAPAY ZEKA LEGAL-TECH GİRİŞİMİ
+Hukuki işi hızlandıran yapay zeka, güvenceler baştan kurulu
+LEXSAS'ı 2026'da, hukuki ve regülatif işi hızlandıran yapay zeka destekli araçlar tasarlamak ve bu konuda danışmanlık vermek için kurdum. Talep karşılama, doküman ve bilgi iş akışları, araştırma ve uyum operasyonları üzerine çalışıyorum; gizlilik, fikri mülkiyet ve yönetişim güvencelerini baştan kuruyorum. Yirmi yılı aşkın hukuk ve regülasyon liderliğini, hukuk ekipleri için pratik ve sorumlu yapay zeka adaptasyonuyla birleştiriyorum.
+İletişime geçin
+20+ yıl şirket içi hukuk
+Amazon, eBay, PMI, White & Case
+Kanuni yönetim kurulu üyeliği
+Ankara Barosu
+Çalışma alanları
+Hukuk teknolojisi ve yapay zeka iş akışı otomasyonu
+Talep karşılama, doküman ve bilgi iş akışları, araştırma ve uyum operasyonlarını hızlandıran yapay zeka destekli araçlar tasarlıyorum. Tekrar eden işi sadeleştirip hukukçunun zamanını gerçekten muhakeme isteyen işlere ayırmayı hedefliyorum.
+Yapay zeka yönetişimi ve regülasyon uyumu
+Gizlilik, fikri mülkiyet ve yönetişim güvencelerini araçların tasarımına baştan yerleştiriyorum. Sorumluluk, insan incelemesi ve belgeleme içeren, denetime dayanıklı çerçeveler kuruyorum.
+Hukuk ekipleri için üretken yapay zeka dönüşümü
+Hukuk operasyonlarında kur ya da satın al kararını, benimseme yolunu ve ölçülebilir pilotları birlikte tasarlıyorum. Amaç, aracı değil, aracın çevresindeki disiplini kurmak.
+Kişisel verilerin korunması ve veri egemenliği
+KVKK ve GDPR çerçevesinde sınır ötesi veri aktarımı, taahhütname ve tasarımda mahremiyet konularında danışmanlık veriyorum. Veri egemenliği gereklerini pratik yollara bağlıyorum.
+E-ticaret ve platform regülasyonu
+Pazaryeri operasyonu, aracı sorumluluğu ve 5651 sayılı Kanun kapsamındaki bildir kaldır süreçleri üzerine çalışıyorum. Tüketici hukuku, reklam ve ödeme temas noktaları da bu alanın parçası.
+Rekabet ve dijital pazarlar
+Rekabet Kurumu incelemelerinde savunma stratejisi kuruyorum, fiyat paritesi, ürün paketleme ve sıralama uygulamaları gibi konularda çalışıyorum. Algoritmik hesap verebilirlik özel odak noktam.
+Yaklaşım
+Satıcı değil, uygulayıcı gözü
+Bir ürünü pazarlamak için değil, hukuk işinin içinden konuşuyorum. Neyin gerçekten işe yaradığını, hangi kısayolun sonradan risk biriktirdiğini uygulama deneyimiyle ayırt ediyorum.
+Hızı mümkün kılan güvenceler
+Yaklaşımım evet, şu koşulla mantığına dayanıyor. İyi kurulmuş güvenceler işi yavaşlatmaz, tam tersine güvenle hızlanmayı mümkün kılar.
+Ölçülebilir pilotlar, insan incelemesi
+Bir çözümün işe yarayıp yaramadığı hislerle değil, ölçülebilir pilotlarla anlaşılır. Aracın hiçbir çıktısı, bir hukukçunun incelemesinden geçmeden dışa çıkmaz.
+Deneyim
+Yirmi yılı aşkın süredir düzenlemeye tabi pazarlarda çalışıyorum; hukuk direktörlüğünü regülasyon, kurumsal ilişkiler ve kamu politikası liderliğiyle harmanlıyorum. Bu süre boyunca kanuni yönetim kurulu görevleri üstlendim ve düzenleyici belirsizliği işletmenin ilerleyebileceği somut yollara çevirmeye odaklandım. Yapay zeka üzerine söylediklerim bu uygulama zeminine dayanıyor.
+Kariyer geçmişi
+Son yazı
+Temmuz 2026
+Saatlik ücretin mantığı tükeniyor
+Yapay zeka saatin kendisini değersizleştiriyor. Yeni nesil bürolar zamanı değil işi fiyatlıyor.
+Yazının tamamı
+Sık sorulan sorular
+LEXSAS ne yapar?
+LEXSAS, hukuki iş akışı otomasyonu ve danışmanlığa odaklanan bir yapay zeka legal-tech girişimidir. Hukuk ve regülasyon ekipleri için talep karşılamadan doküman ve bilgi iş akışlarına, araştırmadan uyum operasyonlarına uzanan yapay zeka destekli araçlar tasarlar; gizlilik, fikri mülkiyet ve yönetişim güvenceleri baştan kuruludur.
+Danışmanlık hangi alanları kapsıyor?
+Hukuk teknolojileri ve yapay zeka yönetişimi, regüle dijital pazarlarda regülasyon ve kurumsal ilişkiler, e-ticaret ve platform regülasyonu, KVKK ve GDPR kapsamında veri koruma ile dijital pazarlarda rekabet soruları. Arkasında küresel teknoloji, tüketici ve pazaryeri şirketlerinde yirmi yılı aşkın hukuk direktörlüğü ve regülasyon liderliği deneyimi var.
+LEXSAS'ın arkasında kim var?
+White & Case'te avukatlıkla başlayıp Amazon, eBay ve Philip Morris International'da yirmi yılı aşkın süre şirket içi hukuk ve regülasyon liderliği yapan Asım Serdar Yılmaz. Ayrıntılar Hakkında sayfasında.
+Hangi dillerde çalışıyorsunuz?
+Türkçe ve İngilizce. Danışmanlık, yazı ve konuşmacılık İstanbul'dan ve uzaktan yürütülüyor.
+Bu bir avukatlık hizmeti mi?
+Hayır. LEXSAS hukuk teknolojileri, yapay zeka yönetişimi ve regülasyon stratejisi üzerine bilgilendirme amaçlı danışmanlık sunar; bir hukuk bürosu değildir ve hukuki temsil hizmeti vermez.
+İletişime geçin
+Danışmanlık, konuşmacı davetleri ve yapay zeka yönetişimi konularındaki sorular için yazabilirsiniz. Genel bilgilendirme çerçevesinde, hukuk ile teknolojinin kesiştiği konuları memnuniyetle ele alırım.
+İletişime geçin
+
+============================================================
+## Hakkında (TR)  <https://lexsas.com/tr/hakkinda.html>
+============================================================
+HAKKINDA
+Asım Serdar Yılmaz
+Yirmi yılı aşkın süredir Türkiye ve Orta Doğu'da küresel teknoloji, tüketici ve düzenlemeye tabi sektörlerdeki şirketlere şirket içinden hukuk danışmanlığı veriyorum. Alanım perakende, e-ticaret ve pazaryeri, dijital yayıncılık ve içerik, reklam, ödemeler, veri ve yapay zeka ile fikri mülkiyeti kapsıyor. İşin özü, yüksek denetimli ortamlarda pratik ve otonom karar üretmek.
+Kariyerim Ankara'da White & Case bünyesinde, düzenlemeye tabi sektörlerdeki sınır ötesi birleşme, devralma ve özelleştirmelerle başladı. Philip Morris International'da Orta Doğu ve küresel merkez rollerinde katı reklam yasakları altında ticari ekiplere danışmanlık verdim. eBay Türkiye'de Orta Doğu ve Kuzey Afrika bölgesinin hukuk liderliğini yürüttüm. 2019-2026 arasında Amazon Türkiye'de Hukuk Direktörü olarak görev yaptım. 2026'da hukuktan regülasyona geçtim; bugün yüksek düzeyde regüle bir sektördeki küresel bir grubun kurumsal ilişkiler fonksiyonu içinde regülasyon gündemini yönetiyorum.
+Çalışmalarımın ortak ekseni düzenlemeye tabi pazarlar oldu. Rekabet, tüketici koruma, ödemeler, veri koruma, aracı sorumluluğu ve kurumsal yönetişim gibi alanlarda, düzenleyici belirsizliği işletmenin ilerleyebileceği somut yollara çevirmeye odaklandım. Rekabet Kurumu, KVKK, Ticaret Bakanlığı, RTÜK ve TCMB gibi kurumlar önünde temsil bu işin sürekli parçası oldu.
+Son yıllarda odağım yapay zeka yönetişimi ve hukuk teknolojisine kaydı. Amazon'da AWS Bedrock üzerinde üretken yapay zeka destekli hukuk araçlarının geliştirilmesine katkı verdim, talep karşılama ve bilgi erişimi süreçlerini sadeleştiren, dış avukat bağımlılığını azaltmayı hedefleyen çözümler üzerinde çalıştım. 2026'da bu deneyimi bağımsız bir zemine taşıyarak LEXSAS'ı kurdum: hukuki ve regülatif işi hızlandıran, güvenceleri baştan kurulu yapay zeka araçları tasarlayan ve bu konuda danışmanlık veren bir girişim. LEXSAS, kariyerin katman katman biriktirdiklerini tek çatıda birleştiriyor: hukuk direktörlüğü, regülasyon, kurumsal ilişkiler ve kamu politikası, artık uygulamalı yapay zeka yönetişimiyle yan yana.
+Kariyer
+2026-günümüz
+Kurucu
+LEXSAS
+Hukuki iş akışı otomasyonuna ve danışmanlığa odaklı bir yapay zeka legal-tech girişimi kurdum; hukuki ve regülatif işi hızlandırmak temel amaç.
+Talep karşılama, doküman ve bilgi iş akışları, araştırma ve uyum operasyonları için yapay zeka destekli araçlar tasarlıyor ve bu konuda danışmanlık veriyorum.
+Gizlilik, fikri mülkiyet ve yönetişim güvencelerini araçların tasarımına baştan yerleştiriyorum; 20+ yıllık hukuk ve regülasyon liderliğini sorumlu yapay zeka adaptasyonuyla birleştiriyorum.
+2026-günümüz
+Regülasyon Direktörü (Regulatory Affairs)
+Yüksek düzeyde regüle bir sektörde faaliyet gösteren küresel bir grup, İstanbul
+Kurumsal ilişkiler fonksiyonu içinde regülasyon gündemini fonksiyonel lider olarak yönetiyorum; en yoğun regüle tüketici sektörlerinden birinde.
+Türkiye pazarı için regülasyon stratejisi, mevzuat izleme ve değişiklik analizi; kamu politikası ve kamu kurumlarıyla ilişkiler çalışmalarına destek veriyorum.
+Regülasyon operasyonlarına yapay zeka yönetişimi disiplini uyguluyorum: izleme, analiz ve kurumsal bilgi iş akışları, güvenceler baştan kurulu.
+2019-2026
+Hukuk Direktörü ve Kanuni Yönetim Kurulu Üyesi
+Amazon Türkiye, İstanbul
+Perakende ve pazaryeri için uçtan uca hukuk danışmanlığı: ticari sözleşmeler, tüketici hukuku, reklam ve promosyon, ürün uyumu, tedarik zinciri, ödemeler, mahremiyet ve uyuşmazlıklar.
+Sınır ötesi veri aktarımlarının kısa sürede durdurulmasını isteyen bir idari karara yanıt olarak KVKK ile görüşmeleri yürüttüm ve Türkiye'de onaylanan ilk Veri Aktarım Taahhütnamesini hayata geçirerek aktarımları kesintisiz yasal zemine taşıdım.
+Fiyatlama algoritmaları üzerine yürütülen bir Rekabet Kurumu incelemesinde Türkiye savunma stratejisini yönettim; algoritmik bağımsızlığa dayanan teknik ve iktisadi anlatı dosyanın idari para cezası olmadan kapanmasını sağladı.
+Teslimat taahhüdüne ilişkin bir Ticaret Bakanlığı incelemesinde, bilgilendirici beyan ile sözleşmesel taahhüt ayrımına dayanan hukuki tezi kurdum ve düzenleyiciyle yürütülen görüşmeler önerilen idari para cezasında önemli ölçüde indirimle sonuçlandı.
+AWS Bedrock üzerinde üretken yapay zeka destekli hukuk araçlarının geliştirilmesine katkı verdim ve birden çok Amazon tüzel kişiliği için kanuni yönetim kurulu üyeliği görevlerini yürüttüm.
+2012-2019
+Hukuk Başkanı ve İş Etiği Sorumlusu, Orta Doğu ve Kuzey Afrika
+eBay Türkiye (GittiGidiyor), İstanbul
+Türkiye ve MENA bölgesinde pazaryeri operasyonları için bölgesel hukuk liderliği: tüketici koruma, reklam, ödemeler, fikri mülkiyet ve ticari işlemler.
+Tam ödeme kuruluşu lisansı almadan ödeme toplama ve satıcı ödemesi yapmayı sağlayan bir muafiyet modelini BDDK onayıyla kurdum; bu model sonraki pazaryeri operasyonlarında yeniden kullanılabilir bir çerçeveye dönüştü.
+Kamu politikası başkanı olarak şirketi düzenleyiciler ve sektör kuruluşları önünde temsil ettim, TOBB E-Ticaret Meclisi dahil; banka ve ödeme kuruluşu iş birlikleri ile satıcı ödemelerinde BDDK ve TCMB çerçevesinde danışmanlık verdim.
+Bölgesel iş etiği sorumluluğu, üçüncü taraf durum tespiti ve iç soruşturmalar; 100'ü aşkın uyuşmazlık portföyünün ve pazaryeri fikri mülkiyet stratejisinin yönetimi.
+2008-2012
+Bölgesel Hukuk Müşaviri ve Şirket Sekreteri, Orta Doğu
+Philip Morris International, Dubai ve Lozan
+Katı reklam yasakları ve Sağlık Bakanlığı düzenlemeleri altında 12 Orta Doğu pazarında ticari ekiplere danışmanlık.
+Pazara giriş ve dağıtım mimarisi: dağıtım, kilit müşteri ve ticari pazarlama düzenlemeleri, şablonlar ve kontroller.
+Yüksek riskli bir bölgede saha ekibi etiği ve üçüncü taraf uyumu için pratik kurallar ve eğitimler; marka koruma ve kaçak ticaret riskine karşı tedarik zinciri bütünlüğü.
+Ürdün'de bir devralmanın hukuk iş akışının yönetimi; bölgesel tüzel kişilikler için şirket sekreterliği ve merkez rolünde küresel yolsuzlukla mücadele yönetişimi.
+2005-2008
+Avukat
+White & Case LLP Ankara (Çakmak Avukatlık Bürosu)
+Düzenlemeye tabi sektörlerde sınır ötesi birleşme, devralma ve özelleştirmeler: telekomünikasyon, enerji ve bankacılık; Telsim özelleştirmesi dahil.
+Fikri mülkiyet: marka araştırması, tescil, iptal ve itiraz süreçleri, lisanslama ve gizlilik sözleşmeleri. The Legal 500 tarafından fikri mülkiyet hukuku alanında öne çıkan isimlerden gösterildim.
+Düzenlemeye tabi sektörler danışmanlığı: enerji ve altyapı (petrol, gaz, madencilik), çevre ve idare hukuku.
+Uyuşmazlıklar ve iş hukuku: iş sözleşmeleri, ticari ve iş uyuşmazlıklarının Türk mahkemeleri önünde takibi.
+Yönetim kurulu ve kurumsal yönetişim
+2019-2026 arasında Türk şirketler hukuku kapsamında birden çok Amazon tüzel kişiliği için kanuni yönetim kurulu üyeliği ve yetkili temsilcilik görevlerini yürüttüm. Bu roller kurul sorumluluğu, yetki yönetimi ve kurumsal yönetişim disiplinini kapsıyordu. Daha önce Elektronik Ticaret İşletmecileri Derneği'nde yardımcı yönetim kurulu üyeliği görevini üstlendim.
+Eğitim
+Yönetici Eğitim Programı, Harvard Business School (2018-2019)
+İnternet İşletmeciliği Yüksek Lisansı, Mercy College (2002-2004)
+Hukuk Lisansı, Ankara Üniversitesi Hukuk Fakültesi (1995-2001)
+Kurslar ve seminerler
+Yapay Zeka Hukuku, Politikası ve Yönetişimi, London School of Economics
+WIPO: E-Ticaret ve Fikri Mülkiyet İleri Kursu, Tahkim ve Arabuluculuk, Markalar ve Coğrafi İşaretler, Telif Hakları
+Fikri ve Sınai Mülkiyet Hakları Programı, Ankara Üniversitesi
+Ankara Barosu üyesi. Diller: Türkçe (ana dil), İngilizce (akıcı).
+
+============================================================
+## Yazılar (TR)  <https://lexsas.com/tr/yazilar.html>
+============================================================
+YAZILAR
+Yazılar
+Burada yapay zeka yönetişimi, hukuk teknolojisi ve hukuk operasyonları üzerine yazıyorum. Amaç, uygulamada işe yarayan gözlemleri abartıya kapılmadan paylaşmak.
+Temmuz 2026
+Saatlik ücretin mantığı tükeniyor
+Yapay zeka saatin kendisini değersizleştiriyor. Yeni nesil bürolar zamanı değil işi fiyatlıyor.
+Temmuz 2026
+Yapay zeka hukuk sektörünü sessizce yeniden çiziyor
+Benimseme bir yılda ikiye katlandı. Avantaj kadrodan muhakemeye ve iş akışı tasarımına kayıyor.
+Temmuz 2026
+Hukukçunun saatleri gerçekte nereye gidiyor
+Ortalama avukat günün küçük bir kısmını faturalandırabiliyor. Otomasyonun geri kazandırdıkları ve nereden başlamalı.
+Temmuz 2026
+Hukuk ekiplerinde üretken yapay zeka: gerçekte ne değişiyor?
+Üretken yapay zekanın hukuk ekiplerinde neyi değiştirdiğini, neyi değiştirmediğini ve sorumlu yürütmenin nasıl kurulduğunu bir uygulayıcının gözünden anlatıyorum.
+
+============================================================
+## LinkedIn (TR)  <https://lexsas.com/tr/linkedin.html>
+============================================================
+LINKEDIN
+LinkedIn paylaşımlarım
+Yapay zeka politikası, hukuk teknolojileri ve regüle dijital pazarlar üzerine kısa gözlemler paylaşıyorum. En yenisi aşağıda; devamı LinkedIn'de. Paylaşımlar özgün dilinde gösterilir.
+Asim Serdar Yilmaz
+Temmuz 2026
+On June 12, the AI sitting inside a lot of everyday workflows just stopped working.
+On June 26, OpenAI previewed GPT-5.6 Sol to a small group of trusted partners. OpenAI stated: "We don't believe this kind of government access process should become the long-term default."
+On June 12, 2026, Anthropic removed access to its frontier AI models Fable 5 and Mythos 5. Its statement: "We are complying with the government's legal directive and are removing access to Fable 5 and Mythos 5 for all users." Export controls were lifted on July 1.
+Epictetus sorted things into what we control and what we don't. I quote that line more often than I live by it. June was the opening scene where the camera lingers on a pistol for a moment, then moves on. We all know that pistol goes off before the credits.
+My read: AI bans are joining a sanctions toolkit the world already knows. A year or two from now, a cutoff would not play out like frozen offshore accounts. It could bring ordinary life close to a standstill. An explicit AI policy and open-source fallbacks are the hedge. The next episode will show who prepared.
+#AIPolicy - #DigitalSovereignty - #AIGeopolitics - #TechDiplomacy
+Paylaşımı LinkedIn'de görün
+Takip edin
+Yeni paylaşımlar önce LinkedIn'de yayımlanıyor. Bu sitedeki uzun yazıların arasında kısa, uygulayıcı gözlemleri için beni orada takip edebilirsiniz.
+LinkedIn'de takip edin
+
+============================================================
+## İletişim (TR)  <https://lexsas.com/tr/iletisim.html>
+============================================================
+İLETİŞİM
+İletişime geçin
+Danışmanlık, konuşmacı davetleri, yönetim kurulu ve yapay zeka yönetişimi konularındaki sorular için yazabilirsiniz. Genel bilgilendirme çerçevesinde, hukuk ile teknolojinin kesiştiği konuları memnuniyetle ele alırım. Bu iletişim hukuki tavsiye niteliği taşımaz ve avukat-müvekkil ilişkisi doğurmaz.
+E-posta
+serdar@lexsas.com
+LinkedIn
+linkedin.com/in/asimserdaryilmaz
+Konum
+İstanbul, Türkiye
+
+============================================================
+## Yazı: Hukuk ekiplerinde üretken yapay zeka: gerçekte ne değişiyor?  <https://lexsas.com/tr/yazilar/hukuk-ekiplerinde-uretken-yapay-zeka.html>
+============================================================
+Yazılar
+Temmuz 2026 - 7 dk okuma
+Hukuk ekiplerinde üretken yapay zeka: gerçekte ne değişiyor?
+Üretken yapay zeka üzerine söylenenlerin çoğu ya kurtarıcı bir vaat ya da yaklaşan bir tehdit biçiminde geliyor. Şirket içinde çalışan bir hukukçu olarak ikisine de mesafeliyim, çünkü ikisi de işin gerçek dokusundan uzak. Amazon'da AWS Bedrock üzerinde üretken yapay zeka destekli hukuk araçlarının geliştirilmesine katkı verdim ve fazlı bir otomasyon yol haritası kurduk. Bu deneyim bana şunu öğretti: teknolojinin neyi değiştirdiği, neyi değiştirmediğinden çok daha fazla konuşuluyor. Oysa doğru soru, neyin sabit kaldığıyla başlıyor. İşe oradan başlamak, hem beklentiyi hem riski yerine oturtuyor.
+Değişmeyenler
+Hukuki muhakeme değişmiyor. Bir sözleşmenin riskini tartmak, bir düzenleyici kararın işletme için ne anlama geldiğini görmek, bir belirsizlik karşısında sorumluluğu kimin taşıyacağına karar vermek. Bunların hepsi bağlam, sezgi ve hesap verebilirlik isteyen işler. Bir model olası bir cümle üretebilir, ama o cümlenin arkasında durmaz. Arkasında duran, imzayı atan kişidir. Bir düzenleyiciyle görüşmede masaya oturan da, bir yönetim kuruluna sonucu anlatan da bir insandır.
+Sorumluluk da değişmiyor. Bir düzenleyici önünde verilen görüşün, bir yönetim kuruluna sunulan değerlendirmenin sahibi bir kişidir. Aracın ne kadar yetkin olduğu bu gerçeği değiştirmiyor. Bir çıktı yanlışsa, kusuru araca yıkmak kimseyi korumaz. Değişmeyen bir başka şey de müvekkil ilişkisinin özü: güven, gizlilik ve muhakemenin insana ait kalması. Bir ekip bu üçünü koruyamıyorsa, hız kazanımının bir anlamı kalmıyor. Bu yüzden ben, bir aracın ne yaptığına bakmadan önce neyi asla yapmaması gerektiğini tanımlamayı tercih ediyorum.
+Gerçekte değişenler
+Değişen şey, işin ilk kısmı. Muhakemenin kendisi değil, muhakemeye giden yol. Üç yerde somut fark görüyorum, ve üçü de günlük işin en çok zaman yiyen kısımlarına denk geliyor.
+Talep karşılama. Şirket içi hukuk ekiplerine gelen taleplerin çoğu tekrar eden, sınıflandırılabilir taleplerdir. Bir aracın bu talepleri doğru ekibe yönlendirmesi, standart olanları şablona bağlaması ve gerçekten bir hukukçu gerektireni öne çıkarması, günün önemli bir kısmını geri kazandırıyor. Böylece hukukçunun zamanı, gerçekten muhakeme isteyen işlere kayıyor.
+Bilgi erişimi. Bir kurumun hafızası dağınıktır: eski görüşler, sözleşme şablonları, düzenleyici yazışmalar, geçmiş kararlar. Bu birikimi aranabilir kılmak ve doğru soruya doğru geçmiş cevabı getirmek, çoğu zaman sıfırdan başlamayı gereksiz hale getiriyor. Buradaki asıl kazanım hız değil, tutarlılık. Aynı sorunun iki farklı ekipte iki farklı cevaba varması, sanılandan daha büyük bir risktir.
+İlk taslaklar. Bir bildirimin, bir iç notun ya da standart bir maddenin ilk taslağı artık dakikalar içinde çıkıyor. Ama ilk taslak, son taslak değil. Aracın işi boş sayfayı doldurmak, hukukçunun işi o sayfayı doğru hale getirmek. Boş sayfayı aşmak küçük bir kazanım gibi görünür, oysa çoğu işin en yavaş adımı tam olarak orasıdır.
+Bu üç alanda ortak olan şu: araç, muhakemeyi değil, muhakemeye giden yolu kısaltıyor. Kazanım, dış avukat bağımlılığının azalmasında da somutlaşıyor. Daha önce rutin olduğu için dışarıya verilen işlerin bir kısmı artık içeride, daha düşük maliyetle ve daha hızlı yürüyebiliyor. Bu, dışarıdan alınacak uzmanlığın gereksiz olduğu anlamına gelmiyor. Anlamı şu: dış avukat, gerçekten uzmanlık gerektiren yerde kullanılıyor, sıradan işlerin altında erimiyor.
+Sorumlu yürütme
+Bir aracı devreye almak kolay, doğru devreye almak zor. Aradaki fark, teknolojinin kendisinde değil, onu çevreleyen disiplinde. Deneyimim üç ilke etrafında toplanıyor.
+İlki, güvenceler. Bir modelin neye erişebileceği, hangi çıktının insan onayı olmadan kullanılamayacağı ve hangi verinin araca hiç verilmeyeceği baştan tanımlanmalı. Mahremiyet, gizlilik ve veri egemenliği gereklerini sonradan eklemeye çalışmak işe yaramıyor. Bunlar tasarımın içinde, en baştan olmalı. Sonradan yamanmış bir güvence, çoğu zaman hiç olmamasından daha yanıltıcıdır.
+İkincisi, insan incelemesi. Aracın ürettiği hiçbir çıktı, bir hukukçunun gözünden geçmeden dışa çıkmamalı. Bu bir formalite değil, sorumluluğun nerede durduğunu belirleyen çizgi. İnceleme yükü zamanla hafifleyebilir, güven arttıkça bazı adımlar sadeleşebilir, ama insan onayı ortadan kalkmaz. Kalktığı an, ekip farkında olmadan riskini araca devretmiş olur.
+Üçüncüsü, ölçülebilir pilotlar. Bir çözümün işe yarayıp yaramadığı, hislerle değil sayılarla anlaşılır. Hangi sürecin ne kadar hızlandığını, hangi hata oranının kabul edilebilir olduğunu ve dış avukat harcamasının nasıl değiştiğini ölçmeden ölçeklemek, riski görünmez hale getirir. Bizim yaklaşımımız fazlı oldu: küçük bir kapsamda başla, ölç, düzelt, sonra genişlet. Bir pilotun başarısızlığı da bilgidir, yeter ki ölçülebilir olsun.
+Sonuç olarak, üretken yapay zeka hukuk ekiplerinde gerçek bir fark yaratıyor, ama vaat edildiği yerde değil. Muhakemeyi devralmıyor, ona giden yolu kısaltıyor. Bunu doğru anlayan bir ekip, hızını güvencelerle birlikte artırabilir. Yanlış anlayan bir ekip ise, kazandığını sandığı hızın altında görünmeyen bir risk biriktirir. Fark, teknolojide değil, onu yürüten disiplinde. Ve o disiplin, hiçbir araca devredilemez.
+
+============================================================
+## Yazı: Hukukçunun saatleri gerçekte nereye gidiyor  <https://lexsas.com/tr/yazilar/hukuki-isin-saatleri.html>
+============================================================
+Yazılar
+Temmuz 2026 - 2 dk okuma
+Hukukçunun saatleri gerçekte nereye gidiyor
+Bir hukuk ekibine zamanının nereye gittiğini sorun; dürüst cevap nadiren "muhakemeye" olur. Clio'nun Legal Trends raporuna göre ortalama bir avukat sekiz saatlik günün yalnızca 2,6 saatini faturalandırabiliyor; kabaca üçte birlik bir kullanım oranı. Gerisi talep karşılamaya, doküman kovalamaya, durum güncellemelerine ve hiçbir müvekkilin satın almak istemediği idari işe dağılıyor.
+Hukuki iş akışı otomasyonunun gerçek gerekçesi bu. Mesele hukukçuyu ikame etmek değil; baştan beri hukukçuluk içermeyen saatleri geri kazanmak. Thomson Reuters'ın Future of Professionals raporu, yapay zekanın her profesyonele yılda 240 saate yakın zaman kazandırabileceğini öngörüyor; gerçekten hukukçu gerektiren işe iade edilmiş yaklaşık altı iş haftası.
+Kazanım pratikte gösterişsiz yerlerden geliyor: belirsiz bir e-posta kutusu yerine önceliklendirilmiş bir talep kuyruğu, ekibin kendi emsalleri üzerinde arama, rutin belgelerin ilk taslakları. Bunların hiçbiri karar vermiyor. Hepsi kararların önünü açıyor.
+Disiplin araçtan daha önemli. Tek bir iş akışıyla başlayın, dürüstçe ölçün ve rakamlar tutmadıkça genişletmeyin.
+Kaynaklar
+Clio, Legal Trends Report (2025)
+Thomson Reuters Institute, Future of Professionals Report (2025)
+
+============================================================
+## Yazı: Yapay zeka hukuk sektörünü sessizce yeniden çiziyor  <https://lexsas.com/tr/yazilar/yapay-zeka-hukuku-yeniden-ciziyor.html>
+============================================================
+Yazılar
+Temmuz 2026 - 2 dk okuma
+Yapay zeka hukuk sektörünü sessizce yeniden çiziyor
+Hukuk işi, yapay zekaya maruziyet tablolarının çoğunda üst sıralarda. Goldman Sachs 2023'te hukuk işlerinin yaklaşık yüzde 44'ünün yapay zeka ile otomatikleştirilebileceğini hesaplamıştı; yalnızca ofis ve idari destek işlerinin gerisinde. İki yıl sonra bu tahmin bir kışkırtmadan çok bir proje planı gibi okunuyor.
+Benimseme de yetişti. Thomson Reuters, üretken yapay zeka kullanımını hukuk bürolarında yüzde 41, şirket hukuk departmanlarında yüzde 47 olarak raporluyor; bir yıl öncesinin kabaca iki katı. Araçlar tek bir bütçe döneminde pilottan altyapıya geçti.
+Değişen şey hukukçunun varlığı değil, etrafındaki iş. Araştırma ve ilk taslaklar günlerden saatlere iniyor. E-posta kutularında yaşayan bilgi aranabilir hale geliyor. Çok sayıda kıdemsiz avukatın çok saat faturalandırdığı geleneksel kaldıraç modeli aritmetiğini kaybediyor. Fark yaratan unsur kadro büyüklüğünden muhakemeye, araçların etrafındaki iş akışı ve güvencelerin kalitesine kayıyor.
+Öne geçen kurumlar bunu pilotlar, ölçüm ve yönetişimle bir operasyon sorusu olarak ele alıyor. Geride kalanlar bir satın alma sorusu olarak. Teknoloji işin kolay kısmı; asıl dönüşüm işin yeniden tasarımı.
+Kaynaklar
+Goldman Sachs'ın yapay zeka ve iş görevleri araştırması, CNBC aktarımı (2023)
+Thomson Reuters Institute, State of the US Legal Market (2026)
+
+============================================================
+## Yazı: Saatlik ücretin mantığı tükeniyor  <https://lexsas.com/tr/yazilar/saatlik-ucretin-otesi.html>
+============================================================
+Yazılar
+Temmuz 2026 - 2 dk okuma
+Saatlik ücretin mantığı tükeniyor
+Saatlik ücret, daha önceki her hukuk teknolojisi dalgasını atlattı; çünkü verimlilik ile gelir ters yönlere çekiyordu: hızlanan avukat daha az kazanıyordu. Üretken yapay zeka bu ateşkesi bozuyor. Clio'nun Legal Trends raporu, hukuk bürolarının bugün saatle faturalandırdığı işin yaklaşık yüzde 74'ünün otomasyona açık olduğunu hesaplıyor. Saatin kendisi değer kaybederken saati fiyatlamak anlamını yitiriyor.
+Müvekkiller oyunu çoktan kullandı. Aynı araştırmada yüzde 71'i, işleyen bir taksimetreyi izlemek yerine dosyanın tamamı için sabit ücret ödemeyi tercih ettiğini söylüyor. Yeni nesil, yapay zeka yerlisi hukuk işletmeleri de tam bu tercihin üzerine kuruluyor; en görünürlerinden Eudia, zamanı değil tanımlı sonuçları sabit ücretle satıyor.
+Saatin yerini tek bir model değil bir menü alıyor: dosya başına sabit ücret, süreklilik gerektiren danışmanlıkta abonelik, sonuca bağlı değer fiyatlaması. Ortak eksen şu: müvekkil sonucu satın alıyor; verimlilik kazancı, daha iyi iş akışını kim kurduysa ona kalıyor.
+Bürolar için stratejik sonuç açık. İşi fiyatlarsanız kendi otomasyonunuz marj olur. Zamanı fiyatlarsanız müvekkilinizin indirimi olur.
+Kaynaklar
+Clio, Legal Trends Report (2024)
+Fortune, Eudia ve sabit ücretli hukuk hizmetleri üzerine (2025)

@@ -1,4 +1,4 @@
-lexsas — logo seti (konsept 2a)
+lexsas: logo seti (konsept 2a)
 
 RENKLER
   mavi     #2E7CF6   (koyu zeminde #5B99FF)

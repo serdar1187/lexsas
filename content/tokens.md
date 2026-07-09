@@ -8,7 +8,7 @@ this exact format (blank line between entries; value may span multiple lines):
 value text (plain text, or inline HTML like <a>, <em> where noted)
 ```
 
-Rules for all values: no em-dashes (— or –) anywhere; no exclamation marks;
+Rules for all values: no em-dashes, no en-dashes anywhere; no exclamation marks;
 no hype adjectives; the owner's phone number must never appear; no monetary
 amounts and no percentage claims anywhere (spec constraint 6); Legal Tech / AI /
 workflow automation is the lead theme (spec constraint 7).
