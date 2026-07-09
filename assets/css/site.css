@@ -622,20 +622,8 @@ button:focus-visible {
 }
 
 .article-item {
-  padding: 28px 24px;
-  border: 1px solid var(--line);
-  border-radius: 10px;
-  margin-top: 16px;
-  background: var(--card);
-  transition: border-color 0.18s ease;
-}
-
-.article-item:first-child {
-  margin-top: 0;
-}
-
-.article-item:hover {
-  border-color: var(--muted);
+  padding: 32px 0;
+  border-top: 1px solid var(--line);
 }
 
 .article-item .article-title {
@@ -646,6 +634,7 @@ button:focus-visible {
   display: inline-block;
   margin-top: 6px;
   text-wrap: balance;
+  transition: color 0.18s ease;
 }
 
 .article-item .article-summary {
@@ -656,10 +645,9 @@ button:focus-visible {
   line-height: 1.6;
 }
 
-/* Keep the card title quiet at rest, signal interactivity only on hover. */
 .article-item .article-title:hover {
   text-decoration: none;
-  color: var(--ink);
+  color: var(--muted);
 }
 
 /* ---------- Article page ---------- */
@@ -939,9 +927,9 @@ button:focus-visible {
     font-size: 1.08rem;
   }
 
-  /* Comfortable touch spacing on cards and bands. */
+  /* Comfortable touch spacing on editorial lists, cards and bands. */
   .article-item {
-    padding: 22px 18px;
+    padding: 24px 0;
   }
 
   .area-card,
