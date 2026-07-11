@@ -6,21 +6,21 @@
 ============================================================
 AI LEGAL TECH
 Legal workflow automation, with the guardrails built in
-LEXSAS is the AI legal-tech venture I founded in 2026. As a consultant, I design and advise on tools that take the manual work out of legal and regulatory operations, from intake and document workflows to research and compliance, with privacy, IP and governance guardrails in place from the start. Behind the tooling sit 20+ years of hands-on legal and regulatory leadership in-house.
+LEXSAS is the AI legal-tech venture I founded in 2026. As a consultant, I design and advise on tools that take the manual work out of legal and regulatory operations, from intake and document workflows to research and compliance, with privacy, IP and governance guardrails in place from the start. Behind the tooling sit 20+ years of hands-on legal and regulatory leadership, most of it in-house.
 Get in touch
 Focus areas
 Legal tech and AI workflow automation
-Designing and advising on AI-enabled tooling for legal work: intake, document and knowledge workflows, research and compliance operations. The aim is fewer manual steps without a lower standard of review.
+I design and advise on AI-enabled tooling for legal work: intake, document and knowledge workflows, research and compliance operations. The aim is fewer manual steps without a lower standard of review.
 AI governance and regulatory compliance
-Privacy, IP and governance controls that ship with the tool rather than after it, alongside model oversight, human review and documentation. I work on the line between what a policy says and what a team can actually operate.
+I build privacy, IP and governance controls that ship with the tool rather than after it, alongside model oversight, human review and documentation. I work on the line between what a policy says and what a team can actually operate.
 GenAI transformation for legal teams
-Legal operations strategy for generative AI: where to start, what to build versus buy, and how responsible adoption actually happens. I have co-developed GenAI legal tooling in-house on AWS Bedrock and run the pilots that followed.
+Legal operations strategy for generative AI is where I focus: where to start, what to build versus buy, and how responsible adoption actually happens. I have co-developed GenAI legal tooling in-house on AWS Bedrock and run the pilots that followed.
 Data protection and data sovereignty
-Cross-border data transfer and localisation questions under KVKK and GDPR, including how to keep transfers lawful when a regulator changes its position. I have executed a first-in-market data transfer undertaking under KVKK.
+I work on cross-border data transfer and localisation questions under KVKK and GDPR, including how to keep transfers lawful when a regulator changes its position. I have executed a data transfer undertaking under KVKK.
 E-commerce and platform regulation
-Marketplace and platform rules across consumer protection, advertising, intermediary liability and payments touchpoints. This includes licensing perimeter questions and the controls that keep a platform compliant at scale.
+Marketplace and platform rules run across consumer protection, advertising, intermediary liability and payments touchpoints. This includes licensing perimeter questions and the controls that keep a platform compliant at scale.
 Competition and digital markets
-Antitrust strategy for platforms, covering parity clauses, ranking practices and algorithmic accountability. I have led a competition defense on pricing algorithms through to file closure with no penalty.
+I advise on antitrust strategy for platforms, covering parity clauses, ranking practices and algorithmic accountability. I have led a competition defense on pricing algorithms.
 How I work
 Practitioner, not vendor
 I have built and run these tools inside a legal team, not sold them. Advice starts from what a workflow actually looks like, not from a product roadmap.
@@ -29,7 +29,7 @@ The useful answer is rarely a flat yes or no; it is yes, if. Well-designed contr
 Measurable pilots, human review
 Every AI deployment should begin as a pilot with a defined measure of success and a person owning the output. If it cannot show what it changed, it has not earned a wider rollout.
 Experience
-I have spent 20+ years in-house with global technology and marketplace businesses, blending legal directorship with regulatory affairs, corporate affairs and public policy leadership, most of it in regulated markets and much of it across the table from regulators. That includes statutory board roles and leading legal functions through investigations, licensing questions and market entry. The detail is on the About page.
+I have spent 20+ years in legal and regulatory work, most of it in-house, with global technology and marketplace businesses, blending legal directorship with regulatory affairs, corporate affairs and public policy leadership, most of it in regulated markets and much of it across the table from regulators. That includes statutory board roles and leading legal functions through investigations, licensing questions and market entry. The detail is on the About page.
 Full background
 Latest insight
 July 2026
@@ -40,9 +40,9 @@ Common questions
 What does LEXSAS do?
 LEXSAS is an AI legal-tech venture focused on legal workflow automation and advisory. It designs AI-enabled tooling for legal and regulatory teams, from intake and document workflows to research and compliance operations, and advises on responsible adoption with privacy, IP and governance guardrails built in.
 Which areas does the advisory work cover?
-Legal technology and AI governance, regulatory affairs and corporate affairs in regulated digital markets, e-commerce and platform regulation, data protection under KVKK and GDPR, and competition questions in digital markets. Behind it sit 20+ years of in-house work as legal director and regulatory affairs leader with global technology, consumer and marketplace businesses.
+Legal technology and AI governance, regulatory affairs and corporate affairs in regulated digital markets, e-commerce and platform regulation, data protection under KVKK and GDPR, and competition questions in digital markets. Behind it sit 20+ years of legal and regulatory experience, most of it in-house, as legal director and regulatory affairs leader with global technology, consumer and marketplace businesses.
 Who is behind LEXSAS?
-Asim Serdar Yilmaz, founder of LEXSAS and a senior legal and regulatory affairs leader with more than two decades in-house at Amazon, eBay and Philip Morris International, following private practice at White & Case. The full background is on the About page.
+Asim Serdar Yilmaz, founder of LEXSAS and a senior legal and regulatory affairs leader with more than two decades of legal and regulatory experience, most of it in-house, across Amazon, eBay and a global group in a highly regulated industry, following private practice at White & Case. The full background is on the About page.
 Do you work in English and Turkish?
 Yes. Advisory, writing and speaking are available in both languages, from Istanbul and remotely.
 Is this legal representation?
@@ -58,7 +58,7 @@ Page title: Asim Serdar Yilmaz | Legal and Regulatory Affairs Leader · LEXSAS
 ABOUT
 Asim Serdar Yilmaz: two decades inside regulated technology businesses
 I am Asim Serdar Yilmaz, a senior in-house legal leader based in Istanbul. Over more than 20 years I have advised global technology, consumer and regulated businesses across Turkey and the Middle East, in retail and marketplace, streaming and media, advertising, payments, data and IP. My work tends to sit where a business wants to move quickly and a regulator wants to move carefully.
-I started in private practice at White & Case in Ankara, on cross-border M&A, privatisations and IP in regulated sectors. From there I moved in-house: first into a strict, high-scrutiny compliance environment at Philip Morris International across the Middle East, then into e-commerce at eBay's Turkey and MENA business, and from 2019 to 2026 as Legal Director for Amazon Turkey. In 2026 I moved from legal into regulatory affairs, and today I lead the regulatory agenda within the corporate affairs function of a global group in a highly regulated industry.
+I started in private practice at White & Case in Ankara, on cross-border M&A, privatisations and IP in regulated sectors. From there I moved in-house: first into a strict, high-scrutiny compliance environment at a global group in a highly regulated industry across the Middle East, then into e-commerce at eBay's Turkey and MENA business, and from 2019 to 2026 as Legal Director for Amazon Turkey. In 2026 I moved from legal into regulatory affairs, and today I lead the regulatory agenda within the corporate affairs function of a global group in a highly regulated industry.
 The thread through all of it is regulated markets. I have spent years turning regulatory ambiguity into paths a business can actually take, and building what I think of as "yes, if" guardrails: controls that let a team move at speed while protecting the enterprise over the long term. Much of that has meant sitting across the table from competition authorities, data protection regulators, media regulators and ministries.
 The other current chapter is LEXSAS, the AI legal-tech venture I founded in 2026, focused on legal workflow automation and advisory. It blends what the career built in layers: legal directorship, regulatory affairs, corporate affairs and public policy, now paired with hands-on AI governance. It grew out of years of building generative AI tooling for legal work, on AWS Bedrock among other platforms, and of seeing where adoption succeeds and where it quietly fails. This site is where I write about that intersection of law, regulation and AI, as informational consultancy rather than legal representation.
 Career
@@ -67,7 +67,7 @@ Founder
 LEXSAS, Istanbul
 An AI legal-tech venture focused on legal workflow automation and advisory for legal and regulatory teams.
 Designs and advises on AI-enabled tooling across the legal workflow: intake, document and knowledge management, research and compliance operations.
-Builds privacy, IP and governance guardrails into every tool from the start, pairing 20+ years of in-house legal and regulatory leadership with responsible AI adoption.
+Builds privacy, IP and governance guardrails into every tool from the start, pairing 20+ years of legal and regulatory leadership, most of it in-house, with responsible AI adoption.
 2026-present
 Regulatory Affairs Director
 A global group in a highly regulated consumer industry, Istanbul
@@ -80,18 +80,18 @@ Amazon Turkey, Istanbul
 End-to-end retail and marketplace counsel: commercial contracting, consumer law, advertising, product compliance, supply chain, payments, privacy and disputes.
 Regulatory representation before RTUK, the Turkish Competition Authority, the Ministry of Trade, the Ministry of Industry and Technology, the KVKK Authority and the Central Bank, including representation in a Ministry of Trade investigation.
 Led the response to a KVKK order on cross-border data transfers: prepared and executed a Data Transfer Undertaking approved by the KVKK Authority.
-Competition and digital markets strategy on parity and MFN, ranking and Buy Box practices, and algorithmic accountability, including a pricing-algorithms investigation closed with no administrative penalty.
+Competition and digital markets strategy on parity and MFN, ranking and Buy Box practices, and algorithmic accountability, including leading the Turkey defense strategy on a pricing-algorithms investigation before the Turkish Competition Authority.
 Statutory Board Director for multiple Amazon entities in Turkey, including Prime Video Turkey and Project Kuiper, under Turkish company law. Co-developed GenAI legal tooling on AWS Bedrock to streamline intake and knowledge workflows and reduce outside counsel dependency.
 2012-2019
 Head of Legal and Business Ethics Officer, Middle East and North Africa
 eBay Turkey (GittiGidiyor), Istanbul
 Regional legal leadership for e-commerce marketplace operations across Turkey and MENA: consumer protection, advertising, payments, IP and commercial transactions.
 Head of Public Policy, representing the company before regulators and industry bodies, including the TOBB E-Commerce Assembly.
-Payments and fintech: designed and secured regulator approval for a commercial agent exemption model enabling marketplace payment collection and seller payouts without a full payment institution license, materially reducing compliance cost and later reused in subsequent marketplace operations.
+Payments and fintech: designed and secured regulator approval for a commercial agent exemption model enabling marketplace payment collection and seller payouts without a full payment institution license.
 Regional Business Ethics Officer under the FCPA and UK Bribery Act: Code of Conduct training, third-party due diligence and internal investigations.
 2008-2012
 Regional Legal Counsel and Company Secretary, Middle East; Legal Counsel, Global Functions
-Philip Morris International, Dubai and Lausanne
+A global group in a highly regulated industry, Dubai and Lausanne
 Advised commercial teams across 12 Middle East markets under strict advertising bans and Ministry of Health regulations.
 Route-to-market and distribution architecture: distribution, key account and trade marketing arrangements, with templates and controls.
 Company Secretary for regional entities, coordinating external counsel across 12 jurisdictions.
@@ -102,7 +102,7 @@ White & Case LLP, Ankara
 Cross-border M&A and privatisations in regulated sectors including telecoms, energy and banking.
 IP work: trademark clearance, prosecution, cancellations and oppositions, licensing and NDAs.
 Regulated industries advisory across energy and infrastructure, environmental and administrative law.
-Disputes and labor matters before Turkish courts. Recognised by The Legal 500 as an IP law expert.
+Disputes and labor matters before Turkish courts.
 Board and governance
 Between 2019 and 2026 I served as a Statutory Board Director and authorised representative for multiple Amazon entities in Turkey, including Prime Video Turkey and Project Kuiper, under Turkish company law. Earlier I was a Deputy Board Member of the e-Commerce Commercial Enterprises Association. These roles carried director duties and liability under the Turkish Commercial Code.
 Education
@@ -160,7 +160,7 @@ Where generative AI earns its place in legal work, and where careful human judgm
 ============================================================
 LINKEDIN
 Notes from my LinkedIn feed
-I post short observations on AI policy, legal tech and regulated digital markets. The latest one is below; the rest live on LinkedIn.
+I post short observations on AI policy, legal tech and regulated digital markets. A selected post from July 2026 is below; the rest live on LinkedIn. It picks up the regulatory-risk thread I develop in five AI governance controls for a pilot: when access to a model can be cut off, an explicit AI policy is part of the hedge.
 Asim Serdar Yilmaz
 July 2026
 On June 12, the AI sitting inside a lot of everyday workflows just stopped working.
@@ -179,7 +179,7 @@ Follow on LinkedIn
 ============================================================
 CONTACT
 Get in touch
-I welcome advisory questions on AI governance, regulated digital markets and legal operations. I am also glad to discuss speaking, and board or AI-governance roles. This is informational consultancy, not legal representation.
+I welcome advisory questions on AI governance, regulated digital markets and legal operations. I am also glad to discuss speaking, and board or AI-governance roles. When you write, a short outline of the workflow, team and timing you have in mind helps, without any confidential detail. This is informational consultancy, not legal representation.
 Email
 serdar@lexsas.com
 LinkedIn
@@ -259,14 +259,14 @@ Related: GenAI transformation for legal teams
 Insights
 July 2026 - 2 min read
 AI governance for in-house legal teams: five minimum controls
-The adoption numbers no longer leave room for a wait-and-see posture. In the Association of Corporate Counsel's 2025 survey of 657 in-house legal professionals across 30 countries, the share of US respondents already using generative AI in their legal practice jumped from 23 percent to 52 percent in a single year. Thomson Reuters found something less comfortable in its 2025 professional services report: 52 percent of respondents believed their organizations had no policy on generative AI at work. Half the profession is scaling a tool faster than it is governing it.
-Before I let a team scale, I ask for five controls, on one page.
-First, data handling. Write down what may enter a prompt. Client identities, personal data and privileged material each need their own rule, decided before anyone opens a chat window.
-Second, authority and accountability. Every AI-assisted output has a named owner. The model drafts; a lawyer signs and answers for it.
-Third, human review. Anything that leaves the team passes a qualified reader who has the standing to reject it. A spot check after the fact does not meet that bar.
-Fourth, logging and records. Which tool, which version, which prompt, reviewed by whom. When a regulator or a counterparty asks how a document was produced, memory is not a record.
-Fifth, error handling. Agree in advance what happens when the model is wrong: who gets told, how the correction is documented, what changes in the workflow afterward.
-None of this requires a new platform or a standing committee. It requires one page, and a general counsel willing to sign it first.
+The adoption numbers no longer leave room for a wait-and-see posture. In the Association of Corporate Counsel's 2025 survey, US in-house respondents using generative AI rose from 23 to 52 percent in a year. Thomson Reuters' 2025 professional services report found, separately, that across industries 52 percent had no policy on generative AI at work. The same number, two different populations: US in-house adoption and cross-industry policy absence, together a tool outrunning its guardrails.
+Before I let a team scale, I ask for five controls on one page.
+First, data handling. Write down what may enter a prompt: client identities, personal data and privileged material each need a rule, set before anyone opens a chat window.
+Second, accountability. Every AI-assisted output has a named owner. The model drafts; a lawyer signs and answers for it.
+Third, human review. Tie review depth to the impact and reversibility of the output, not only to whether it leaves the team. High-impact or hard-to-reverse work passes a qualified reader who can reject it. A later spot check does not meet that bar.
+Fourth, logging and records. Log the metadata and review trail: which tool, which version, who approved. Set a retention period and a deletion rule rather than storing full prompts by default. Memory is not a record when a regulator asks how a document was produced.
+Fifth, error handling. Agree in advance what happens when the model is wrong: who gets told, how the correction is documented, what changes in the workflow.
+These five are the floor for a pilot, not the finished house. The next layer adds a use-case inventory, access controls, and training. None of it needs a new platform or a committee, just one page, the starting document that links out to each control, signed first by the general counsel.
 Sources
 ACC and Everlaw, Generative AI's Growing Strategic Value for Corporate Law Departments, 2025
 Thomson Reuters Institute, 2025 Generative AI in Professional Services Report
@@ -278,11 +278,11 @@ Related: Legal tech and AI workflow automation
 Insights
 July 2026 - 2 min read
 KVKK-compliant generative AI workflows for legal teams
-Most generative AI tools a legal team will touch are hosted outside Turkey. That single fact shapes the KVKK analysis: the moment a prompt contains personal data, the team is processing that data and, in a typical SaaS setup, transferring it abroad.
-The analysis starts before the transfer question. Under Article 5, processing needs a lawful basis; for internal productivity use most teams land on legitimate interest, which calls for a documented balancing test. I treat that document as the anchor of the whole file.
-The 2024 amendment to Article 9 rebuilt the transfer regime. Absent an adequacy decision, transfers rest on appropriate safeguards: standard contracts notified to the Board within five business days, binding corporate rules, or a Board-approved undertaking. Practice has moved quickly here. KVKK's 2024 activity note records 1,345 standard contract notifications (kvkk.gov.tr), and the figure in the 2025 annual report, as summarized by GRC Legal, is 2,497. Close to double in a year, which tells me standard contracts have become the working default for legal technology stacks.
-The workflow layer is where compliance turns into daily habit. Teams that run this well strip identifiers from prompts where identity adds nothing to the output, prefer enterprise plans that contractually exclude training on customer inputs, and keep the records aligned: processing inventory, vendor agreement, balancing test, transfer mechanism, retention terms.
-A defensible file is one page per tool: which data goes in, on what lawful basis, through which transfer mechanism. In the phased adoptions I have watched succeed, that page existed before the pilot started.
+Generative AI tools a legal team will touch are commonly hosted abroad. Whether that triggers a cross-border transfer depends on the specifics: where it is hosted, whether staff reach it remotely, and which subprocessors sit behind it. The moment a prompt contains personal data, the team is processing it, and in a typical SaaS setup, transferring it abroad.
+The analysis starts before the transfer question. Under Article 5, processing needs a lawful basis. Legitimate interest covers many internal productivity uses but is not automatic; it calls for a documented balancing test, and special categories under Article 6 need their own basis. I treat that balancing document as the anchor of the whole file.
+The 2024 amendment to Article 9 rebuilt the transfer regime. Absent an adequacy decision, transfers rest on appropriate safeguards: standard contracts notified to the Authority within five business days, binding corporate rules, or an undertaking approved by the Board, each conditioned on data subjects keeping enforceable rights. KVKK's 2024 activity note records 1,345 standard contract notifications; the 2025 annual report, summarized by GRC Legal, gives 2,497. 2024 was a partial year under the new regime, so I read these as period markers, not a clean growth rate.
+The workflow layer is where compliance turns into daily habit. Teams that run this well strip identifiers from prompts where identity adds nothing, prefer enterprise plans that contractually exclude training on customer inputs, and keep records aligned: processing inventory, vendor agreement, balancing test, transfer mechanism, retention terms.
+A defensible file is one page per tool: which data goes in, on what lawful basis, through which transfer mechanism. I treat that page as an intake index that links out to the deletion, notice, security and data-subject-rights records behind it. In the phased adoptions that succeed, it existed before the pilot started.
 Sources
 KVKK, 2024 Yılı Faaliyet Bilgi Notu
 GRC Legal, KVKK 2025 Annual Report summary
@@ -294,18 +294,19 @@ Related: Legal tech and AI workflow automation
 Insights
 July 2026 - 2 min read
 An AI vendor due diligence checklist for legal teams
-I have sat on both sides of this table. I have helped build AI tooling for legal teams inside a vendor organization, and I have signed off on buying it. The gap between a good demo and a safe contract is covered by a short list of questions, and most of them take one meeting to ask.
-The risk is measurable. Verizon's 2025 Data Breach Investigations Report found that third-party involvement in breaches doubled to 30 percent. IBM's 2025 Cost of a Data Breach report adds that one in five organizations reported a breach tied to shadow AI, and that companies with high levels of it saw breach costs around 670,000 dollars higher than those with little or none. An unvetted AI tool is a third party with unusually broad access to privileged material.
+I have sat on both sides of this table. I helped build AI tooling for legal teams inside a vendor, and I have signed off on buying it. The gap between a good demo and a safer contract is a short list of questions; the answers belong in the contract itself: audit rights, breach notice, liability.
+The risk is measurable. Verizon's 2026 Data Breach Investigations Report put third-party involvement in breaches at 48 percent, a figure counting all third parties, not AI vendors. IBM's 2025 Cost of a Data Breach report adds that among breached organizations, about one in five said the breach involved shadow AI; heavy shadow-AI users reported costs roughly 670,000 dollars higher than light or non-users, an association, not a proven cause. An unvetted AI tool is a third party with unusually broad access to privileged material.
 Six questions have earned their place on my list.
-Training data provenance. Where did the model's training data come from, and can the vendor show it had the rights to use it?
-Prompt retention and reuse. Are your prompts and documents stored, for how long, and are they used to train anything?
-Subprocessors and hosting region. Who else touches the data, and in which jurisdiction does it sit?
+Training data provenance. Where did the model's training data come from, and can the vendor show it had rights to use it?
+Prompt retention and reuse. Are your prompts and documents stored, for how long, and used to train anything?
+Subprocessors and hosting region. Who else touches the data, how far down the subprocessor chain, in which jurisdiction, and can deletion be verified rather than just promised?
 IP indemnity. If an output infringes someone's rights, who carries that?
 Audit trail. Can you reconstruct who asked what, and what the system returned?
 Exit and data return. When the contract ends, how does your data come back, and in what format?
-A vendor with clean answers welcomes these questions. Hesitation on any of them is itself an answer, and it arrives before you have signed anything.
+A vendor with clean answers welcomes these questions. Hesitation on any of them is itself an answer, and it arrives before you have signed anything. Treat it as a signal, not a verdict; the answers still have to land in the contract.
 Sources
-Verizon 2025 Data Breach Investigations Report
+Verizon 2026 Data Breach Investigations Report
+Verizon 2026 DBIR (newsroom summary)
 IBM Cost of a Data Breach Report 2025 (newsroom)
 Related: GenAI transformation for legal teams
 
@@ -315,9 +316,9 @@ Related: GenAI transformation for legal teams
 Insights
 July 2026 - 6 min read
 What generative AI actually changes for in-house legal teams
-Most writing on generative AI in legal work falls into one of two camps. One promises that the work of a legal department is about to be automated away. The other insists that nothing serious can change, because law is judgment and judgment cannot be delegated to a model. In an in-house team that has actually built and run these tools, neither camp is quite right. The useful question is narrower: what does generative AI change, what does it leave untouched, and how do you run it so it helps rather than quietly creating risk.
+When our in-house team built generative AI tooling on AWS Bedrock, the first real decision was not which model to use. It was which single workflow to point it at first, and in what order to add the rest. We started by writing down what the system must never do before what it could do, then picked one narrow, high-volume task to run first. That sequencing choice taught me more than any product demonstration. The useful question is not whether generative AI will automate a legal department away or leave it untouched, but a narrower one: what does it change, what does it leave untouched, and how do you run it so it helps rather than quietly creating risk.
 What does not change
-Start with what stays put, because it is the part people skip. The duty to reach a defensible answer does not move. A model can draft a position, but a lawyer still owns it, signs off on it, and answers for it if a regulator asks. Privilege, confidentiality and conflicts do not relax because a tool is in the loop. If anything they get harder, since a poorly configured system can move sensitive material to places it should never be.
+Start with what stays put, because it is the part people skip. The duty to reach a defensible answer does not move. A model can draft a position, but a lawyer still owns it, signs off on it, and answers for it if a regulator asks. Privilege, confidentiality and conflicts do not relax because a tool is in the loop; if anything they get harder, since a poorly configured system can move sensitive material to places it should never be. How far privilege even reaches depends on the jurisdiction: in-house communications are not protected everywhere, and in EU competition matters, for instance, they may attract no privilege at all, so a tool that copies such material into new systems only widens the exposure.
 Judgment about risk appetite does not change either. Deciding how much regulatory ambiguity a business can carry, and on what terms, is a matter of context, relationships and history that no model holds. The same is true of the harder calls: when to escalate, when to say no, when to say yes with conditions. Those decisions are the actual job, and generative AI does not touch them.
 It is worth saying this plainly, because the point gets lost in product demonstrations. A regulator does not accept "the tool produced it" as an answer, and neither does a board. The lawyer is still accountable. That fact should shape every design choice that follows: the question is not whether to use these tools but how to place them so they support an accountable human rather than obscure one.
 What actually changes
@@ -328,10 +329,10 @@ The third is first drafts. Standard clauses, routine responses, summaries of lon
 How to run it responsibly
 The gap between a useful tool and a liability is almost entirely in how it is run. A few rules have held up.
 Set guardrails before capability. Decide what data the system may touch, where outputs may go, and what it must never do, and enforce that in configuration rather than in a policy document nobody reads.
-Keep human review on anything that leaves the team. A generated draft is an input to a lawyer, not an output to a client or regulator. The review step is where ownership actually attaches.
+Tie review to risk. High-impact work and anything that leaves the team gets a lawyer's review before it goes out; low-risk internal steps can carry a lighter touch. Treat that review as the operational approval gate, not the whole of responsibility: accountability runs across the design, the configuration and the sign-off, not one moment at the end.
 Run measurable pilots. Pick one workflow, define what good looks like before you start, and measure it. A pilot that cannot show whether it saved time or introduced errors has told you nothing.
 Track errors honestly. Models are confidently wrong in ways that look plausible. You need a way to catch that, and a team that treats a wrong answer as a finding rather than an embarrassment.
-One more point on outside counsel, because it is where the economics show up first. Much of what a legal team sends outside is volume rather than hard law: routine research, first-pass review and drafting that goes out because there is no internal capacity, not because the question needs a specialist. Move a share of that in-house with the right tooling and the spend falls, while the genuinely difficult matters still go to the firms that should handle them.
+One more point on outside counsel, because it is where the economics are supposed to show up first. Much of what a legal team sends outside is volume rather than hard law: routine research, first-pass review and drafting that goes out because there is no internal capacity, not because the question needs a specialist. Moving a share of that in-house is what teams aim at when they target lower outside-counsel spend. It is a target, not a guarantee; many teams have not yet seen those savings land, while the genuinely difficult matters still go to the firms that should handle them.
 None of this requires believing the hype, and none of it requires dismissing the technology. Generative AI does not change what a legal team is for. It changes how much of the surrounding work has to be done by hand, which is worth a lot if you are honest about where the judgment still has to sit. The teams that get value from it stay skeptical about the claims, specific about the workflow, and patient enough to prove each step before trusting it with the next.
 Related: Legal tech and AI workflow automation
 
@@ -341,9 +342,9 @@ Related: Legal tech and AI workflow automation
 Insights
 July 2026 - 2 min read
 Where a lawyer's hours actually go
-Ask a legal team where its time goes and the honest answer is rarely "judgment". Clio's Legal Trends Report puts the average lawyer's billed time at around 2.6 hours of an eight hour day, a utilisation rate of roughly a third. The rest disappears into intake, chasing documents, status updates and administrative work that no client ever asked to buy.
-That is the real case for legal workflow automation. The point is not replacing lawyers. It is recovering the hours that never involved lawyering in the first place. Thomson Reuters' Future of Professionals report estimates that AI could free up nearly 240 hours per professional each year, roughly six working weeks returned to the work that actually needs a lawyer.
-In practice the gains come from unglamorous places: a triaged intake queue instead of a vague inbox, retrieval over the team's own precedent, first drafts of routine documents. None of it decides anything. All of it clears the runway for the decisions.
+Ask a legal team where its time goes and the honest answer is rarely "judgment". Clio's Legal Trends Report puts the average lawyer's utilisation rate at 38 percent, about three hours of billable work in an eight hour day. Apply the realisation rate and what actually gets invoiced falls to roughly 2.6 hours. Clio measures the billing funnel, not the diary; in my experience the rest goes to intake, chasing documents, status updates and administrative work that no client ever asked to buy.
+That is the real case for legal workflow automation. The point is not replacing lawyers. It is recovering the hours that never involved lawyering in the first place. Thomson Reuters' Future of Professionals report projects that AI could free up nearly 240 hours per professional each year, roughly six working weeks. That is a projection of potential freed time, not a measured saving, but the direction is clear.
+In practice the gains come from unglamorous places: a triaged intake queue instead of a vague inbox, retrieval over the team's own precedent, first drafts of routine documents. None of this decides the matter. Triage and retrieval feed the decision; the final legal judgment, and the verification behind it, stay with the lawyer. What the tooling does is clear the runway.
 The discipline matters more than the tooling. Start with one workflow, measure it honestly, and expand only when the numbers hold.
 Sources
 Clio, Legal Trends Report (2025)
@@ -356,13 +357,13 @@ Related: GenAI transformation for legal teams
 Insights
 July 2026 - 2 min read
 AI is quietly redrawing the legal industry
-Legal work sits near the top of most AI exposure charts. Goldman Sachs estimated in 2023 that around 44 percent of legal tasks are exposed to AI-driven automation, second only to office and administrative support. Two years on, that estimate reads less like a provocation and more like a project plan.
-Adoption has caught up. Thomson Reuters reports generative AI use at 41 percent of law firms and 47 percent of corporate legal departments, roughly double the levels of a year earlier. In a single budget cycle the tools moved from pilot to plumbing.
-What changes is not whether lawyers exist but what surrounds them. Research and first drafts compress from days to hours. Knowledge that lived in inboxes becomes retrievable. The traditional leverage model, many juniors billing many hours, loses its arithmetic. The differentiator shifts from headcount to judgment, and to the quality of the workflows and guardrails around the tools.
+Legal work sits near the top of most AI exposure charts. Goldman Sachs estimated in 2023 that around 44 percent of US legal tasks are exposed to AI-driven automation, second only to office and administrative support. Three years on, that estimate reads less like a provocation and more like a project plan.
+Adoption has caught up. Thomson Reuters reports generative AI use at 41 percent of law firms and 47 percent of corporate legal departments. Law firm use rose from 28 percent, up by about half; corporate departments moved from 23 percent, roughly doubling. The report frames this as adoption reaching critical mass rather than early experimentation. In a single budget cycle the tools moved from pilot to plumbing.
+What changes is not whether lawyers exist but what surrounds them. Research and first drafts can reduce from days to hours. Knowledge that lived in inboxes becomes retrievable. Models that lean on many juniors billing many hours come under pressure. The differentiator shifts from headcount to judgment, and to the quality of the workflows and guardrails around the tools. None of this removes the need for a lawyer; it changes where a lawyer's time is worth spending.
 The organisations pulling ahead treat this as an operations question, with pilots, measurement and governance. The ones falling behind treat it as procurement. The technology is the easy part; redesigning the work is the transformation.
 Sources
 Goldman Sachs, research on generative AI and global economic growth (2023)
-Thomson Reuters Institute, State of the US Legal Market (2026)
+Thomson Reuters, 2026 AI in Professional Services Report
 Related: E-commerce and platform regulation
 
 ============================================================
@@ -371,13 +372,13 @@ Related: E-commerce and platform regulation
 Insights
 July 2026 - 2 min read
 The billable hour is running out of logic
-The billable hour survived every earlier wave of legal technology because efficiency and revenue pulled in opposite directions: a faster lawyer earned less. Generative AI breaks that truce. Clio's Legal Trends Report estimates that around 74 percent of the work law firms currently bill by the hour is exposed to automation. When the hour itself deflates, pricing by the hour stops making sense.
-Clients have already voted. In the same research, 71 percent say they would rather pay a flat fee for an entire matter than watch a meter run. A new generation of AI-native legal businesses, Eudia among the most visible, is building directly on that preference, selling defined outcomes at fixed fees rather than time.
-What replaces the hour is a menu rather than a single model: flat fees per matter, subscriptions for ongoing counsel, value-based pricing for results. The common thread is that the client buys an outcome, and the efficiency gain belongs to whoever built the better workflow.
+The billable hour survived every earlier wave of legal technology because efficiency and revenue pulled in opposite directions: a faster lawyer earned less. Generative AI breaks that truce. Clio's Legal Trends Report models that around 74 percent of the work US law firms currently bill by the hour could be automated. That is an estimate of what is exposed, heaviest in routine, document-heavy tasks, not a measure of automation already happening. Either way, when the hour itself deflates, pricing by the hour stops making sense.
+Clients have already signalled where this goes. In Clio's consumer survey of about a thousand US adults, 71 percent say they would rather pay a flat fee for an entire matter than watch a meter run. That is a stated preference rather than observed behaviour, but it points in one direction. A new generation of AI-native legal businesses, Eudia among the most visible, is building directly against hourly billing, fusing human lawyers with the tools.
+What replaces the hour is a menu rather than a single model: flat fees per matter, subscriptions for ongoing counsel, value-based pricing. The common thread is that the client buys an outcome. Who captures the resulting efficiency gain is not automatic: fee rules, jurisdiction and the terms of engagement decide whether it accrues to the firm that built the better workflow or flows back to the client.
 For firms the strategic point is blunt. Price the work, and your own automation becomes margin. Price the time, and it becomes your client's discount.
 Sources
 Clio, Legal Trends Report (2024)
-Fortune, on Eudia and fixed fee legal services (2025)
+Fortune, on Eudia as an AI-native legal business challenging the billable hour (2025)
 Related: GenAI transformation for legal teams
 
 ============================================================
@@ -397,7 +398,7 @@ Hukuk operasyonlarında kur ya da satın al kararını, benimseme yolunu ve öl�
 Kişisel verilerin korunması ve veri egemenliği
 KVKK ve GDPR çerçevesinde sınır ötesi veri aktarımı, taahhütname ve tasarımda mahremiyet konularında danışmanlık veriyorum. Veri egemenliği gereklerini pratik yollara bağlıyorum.
 E-ticaret ve platform regülasyonu
-Pazaryeri operasyonu, aracı sorumluluğu ve 5651 sayılı Kanun kapsamındaki bildir kaldır süreçleri üzerine çalışıyorum. Tüketici hukuku, reklam ve ödeme temas noktaları da bu alanın parçası.
+Pazaryeri operasyonu, içerik kaldırma ve aracı sorumluluğu rejimleri üzerine çalışıyorum. Tüketici hukuku, reklam ve ödeme temas noktaları da bu alanın parçası.
 Rekabet ve dijital pazarlar
 Rekabet Kurumu incelemelerinde savunma stratejisi kuruyorum, fiyat paritesi, ürün paketleme ve sıralama uygulamaları gibi konularda çalışıyorum. Algoritmik hesap verebilirlik özel odak noktam.
 Yaklaşım
@@ -421,7 +422,7 @@ LEXSAS, hukuki iş akışı otomasyonu ve danışmanlığa odaklanan bir yapay z
 Danışmanlık hangi alanları kapsıyor?
 Hukuk teknolojileri ve yapay zeka yönetişimi, regüle dijital pazarlarda regülasyon ve kurumsal ilişkiler, e-ticaret ve platform regülasyonu, KVKK ve GDPR kapsamında veri koruma ile dijital pazarlarda rekabet soruları. Arkasında küresel teknoloji, tüketici ve pazaryeri şirketlerinde yirmi yılı aşkın hukuk direktörlüğü ve regülasyon liderliği deneyimi var.
 LEXSAS'ın arkasında kim var?
-White & Case'te avukatlıkla başlayıp Amazon, eBay ve Philip Morris International'da yirmi yılı aşkın süre şirket içi hukuk ve regülasyon liderliği yapan Asım Serdar Yılmaz. Ayrıntılar Hakkında sayfasında.
+White & Case'te avukatlıkla başlayıp Amazon, eBay ve yüksek düzeyde regüle bir sektördeki küresel bir grupta yirmi yılı aşkın hukuk ve regülasyon deneyiminin çoğunu şirket içinde edinen Asım Serdar Yılmaz. Ayrıntılar Hakkında sayfasında.
 Hangi dillerde çalışıyorsunuz?
 Türkçe ve İngilizce. Danışmanlık, yazı ve konuşmacılık İstanbul'dan ve uzaktan yürütülüyor.
 Bu bir avukatlık hizmeti mi?
@@ -436,8 +437,8 @@ Danışmanlık, konuşmacı davetleri ve yapay zeka yönetişimi konularındaki 
 Page title: Asım Serdar Yılmaz | Hukuk ve Regülasyon Lideri · LEXSAS
 HAKKINDA
 Asım Serdar Yılmaz: regüle teknoloji sektörlerinde yirmi yılı aşkın deneyim
-Yirmi yılı aşkın süredir Türkiye ve Orta Doğu'da küresel teknoloji, tüketici ve düzenlemeye tabi sektörlerdeki şirketlere şirket içinden hukuk danışmanlığı veriyorum. Alanım perakende, e-ticaret ve pazaryeri, dijital yayıncılık ve içerik, reklam, ödemeler, veri ve yapay zeka ile fikri mülkiyeti kapsıyor. İşin özü, yüksek denetimli ortamlarda pratik ve otonom karar üretmek.
-Kariyerim Ankara'da White & Case bünyesinde, düzenlemeye tabi sektörlerdeki sınır ötesi birleşme, devralma ve özelleştirmelerle başladı. Philip Morris International'da Orta Doğu ve küresel merkez rollerinde katı reklam yasakları altında ticari ekiplere danışmanlık verdim. eBay Türkiye'de Orta Doğu ve Kuzey Afrika bölgesinin hukuk liderliğini yürüttüm. 2019-2026 arasında Amazon Türkiye'de Hukuk Direktörü olarak görev yaptım. 2026'da hukuktan regülasyona geçtim; bugün yüksek düzeyde regüle bir sektördeki küresel bir grubun kurumsal ilişkiler fonksiyonu içinde regülasyon gündemini yönetiyorum.
+Yirmi yılı aşkın süredir Türkiye ve Orta Doğu'da küresel teknoloji, tüketici ve düzenlemeye tabi sektörlerdeki şirketlere hukuk danışmanlığı veriyorum; bu sürenin çoğu şirket içinde geçti. Alanım perakende, e-ticaret ve pazaryeri, dijital yayıncılık ve içerik, reklam, ödemeler, veri ve yapay zeka ile fikri mülkiyeti kapsıyor. İşin özü, yüksek denetimli ortamlarda pratik ve otonom karar üretmek.
+Kariyerim Ankara'da White & Case bünyesinde, düzenlemeye tabi sektörlerdeki sınır ötesi birleşme, devralma ve özelleştirmelerle başladı. yüksek düzeyde regüle bir sektördeki küresel bir grupta Orta Doğu ve küresel merkez rollerinde katı reklam yasakları altında ticari ekiplere danışmanlık verdim. eBay Türkiye'de Orta Doğu ve Kuzey Afrika bölgesinin hukuk liderliğini yürüttüm. 2019-2026 arasında Amazon Türkiye'de Hukuk Direktörü olarak görev yaptım. 2026'da hukuktan regülasyona geçtim; bugün yüksek düzeyde regüle bir sektördeki küresel bir grubun kurumsal ilişkiler fonksiyonu içinde regülasyon gündemini yönetiyorum.
 Çalışmalarımın ortak ekseni düzenlemeye tabi pazarlar oldu. Rekabet, tüketici koruma, ödemeler, veri koruma, aracı sorumluluğu ve kurumsal yönetişim gibi alanlarda, düzenleyici belirsizliği işletmenin ilerleyebileceği somut yollara çevirmeye odaklandım. Rekabet Kurumu, KVKK, Ticaret Bakanlığı, RTÜK ve TCMB gibi kurumlar önünde temsil bu işin sürekli parçası oldu.
 Son yıllarda odağım yapay zeka yönetişimi ve hukuk teknolojisine kaydı. Amazon'da AWS Bedrock üzerinde üretken yapay zeka destekli hukuk araçlarının geliştirilmesine katkı verdim, talep karşılama ve bilgi erişimi süreçlerini sadeleştiren, dış avukat bağımlılığını azaltmayı hedefleyen çözümler üzerinde çalıştım. 2026'da bu deneyimi bağımsız bir zemine taşıyarak LEXSAS'ı kurdum: hukuki ve regülatif işi hızlandıran, güvenceleri baştan kurulu yapay zeka araçları tasarlayan ve bu konuda danışmanlık veren bir girişim. LEXSAS, kariyerin katman katman biriktirdiklerini tek çatıda birleştiriyor: hukuk direktörlüğü, regülasyon, kurumsal ilişkiler ve kamu politikası, artık uygulamalı yapay zeka yönetişimiyle yan yana.
 Kariyer
@@ -457,20 +458,20 @@ Regülasyon operasyonlarına yapay zeka yönetişimi disiplini uyguluyorum: izle
 Hukuk Direktörü ve Kanuni Yönetim Kurulu Üyesi
 Amazon Türkiye, İstanbul
 Perakende ve pazaryeri için uçtan uca hukuk danışmanlığı: ticari sözleşmeler, tüketici hukuku, reklam ve promosyon, ürün uyumu, tedarik zinciri, ödemeler, mahremiyet ve uyuşmazlıklar.
-KVKK Kurumu tarafından onaylanan bir Veri Aktarım Taahhütnamesini hazırladım ve imzaladım.
-Fiyatlama algoritmaları üzerine yürütülen bir Rekabet Kurumu incelemesinde Türkiye savunma stratejisini yönettim; algoritmik bağımsızlığa dayanan teknik ve iktisadi anlatı dosyanın idari para cezası olmadan kapanmasını sağladı.
+Sınır ötesi veri aktarımına ilişkin bir KVKK kararına yanıt olarak, KVKK Kurumu tarafından onaylanan bir Veri Aktarım Taahhütnamesi hazırladım ve imzaladım.
+Fiyatlama algoritmaları üzerine yürütülen bir Rekabet Kurumu incelemesinde Türkiye savunma stratejisini yönettim; savunma, algoritmik bağımsızlığa dayanan teknik ve iktisadi bir anlatı üzerine kuruluydu.
 Teslimat taahhüdüne ilişkin bir Ticaret Bakanlığı incelemesinde şirketi temsil ettim.
 AWS Bedrock üzerinde üretken yapay zeka destekli hukuk araçlarının geliştirilmesine katkı verdim ve birden çok Amazon tüzel kişiliği için kanuni yönetim kurulu üyeliği görevlerini yürüttüm.
 2012-2019
 Hukuk Başkanı ve İş Etiği Sorumlusu, Orta Doğu ve Kuzey Afrika
 eBay Türkiye (GittiGidiyor), İstanbul
 Türkiye ve MENA bölgesinde pazaryeri operasyonları için bölgesel hukuk liderliği: tüketici koruma, reklam, ödemeler, fikri mülkiyet ve ticari işlemler.
-Tam ödeme kuruluşu lisansı almadan ödeme toplama ve satıcı ödemesi yapmayı sağlayan bir muafiyet modelini BDDK onayıyla kurdum; bu model sonraki pazaryeri operasyonlarında yeniden kullanılabilir bir çerçeveye dönüştü.
+Tam ödeme kuruluşu lisansı almadan ödeme toplama ve satıcı ödemesi yapmayı sağlayan bir muafiyet modelini BDDK onayıyla kurdum.
 Kamu politikası başkanı olarak şirketi düzenleyiciler ve sektör kuruluşları önünde temsil ettim, TOBB E-Ticaret Meclisi dahil; banka ve ödeme kuruluşu iş birlikleri ile satıcı ödemelerinde BDDK ve TCMB çerçevesinde danışmanlık verdim.
-Bölgesel iş etiği sorumluluğu, üçüncü taraf durum tespiti ve iç soruşturmalar; 100'ü aşkın uyuşmazlık portföyünün ve pazaryeri fikri mülkiyet stratejisinin yönetimi.
+Bölgesel iş etiği sorumluluğu, üçüncü taraf durum tespiti ve iç soruşturmalar; geniş bir uyuşmazlık portföyünün ve pazaryeri fikri mülkiyet stratejisinin yönetimi.
 2008-2012
 Bölgesel Hukuk Müşaviri ve Şirket Sekreteri, Orta Doğu
-Philip Morris International, Dubai ve Lozan
+Yüksek düzeyde regüle bir sektörde faaliyet gösteren küresel bir grup, Dubai ve Lozan
 Katı reklam yasakları ve Sağlık Bakanlığı düzenlemeleri altında 12 Orta Doğu pazarında ticari ekiplere danışmanlık.
 Pazara giriş ve dağıtım mimarisi: dağıtım, kilit müşteri ve ticari pazarlama düzenlemeleri, şablonlar ve kontroller.
 Yüksek riskli bir bölgede saha ekibi etiği ve üçüncü taraf uyumu için pratik kurallar ve eğitimler; marka koruma ve kaçak ticaret riskine karşı tedarik zinciri bütünlüğü.
@@ -479,7 +480,7 @@ Yüksek riskli bir bölgede saha ekibi etiği ve üçüncü taraf uyumu için pr
 Avukat
 White & Case LLP Ankara (Çakmak Avukatlık Bürosu)
 Düzenlemeye tabi sektörlerde sınır ötesi birleşme, devralma ve özelleştirmeler: telekomünikasyon, enerji ve bankacılık; Telsim özelleştirmesi dahil.
-Fikri mülkiyet: marka araştırması, tescil, iptal ve itiraz süreçleri, lisanslama ve gizlilik sözleşmeleri. The Legal 500 tarafından fikri mülkiyet hukuku alanında öne çıkan isimlerden gösterildim.
+Fikri mülkiyet: marka araştırması, tescil, iptal ve itiraz süreçleri, lisanslama ve gizlilik sözleşmeleri.
 Düzenlemeye tabi sektörler danışmanlığı: enerji ve altyapı (petrol, gaz, madencilik), çevre ve idare hukuku.
 Uyuşmazlıklar ve iş hukuku: iş sözleşmeleri, ticari ve iş uyuşmazlıklarının Türk mahkemeleri önünde takibi.
 Yönetim kurulu ve kurumsal yönetişim
@@ -539,7 +540,7 @@ Hukuk ekiplerinde üretken yapay zeka: gerçekte ne değişiyor?
 ============================================================
 LINKEDIN
 LinkedIn paylaşımlarım
-Yapay zeka politikası, hukuk teknolojileri ve regüle dijital pazarlar üzerine kısa gözlemler paylaşıyorum. En yenisi aşağıda; devamı LinkedIn'de. Paylaşımlar özgün dilinde gösterilir.
+Yapay zeka politikası, hukuk teknolojileri ve regüle dijital pazarlar üzerine kısa gözlemler paylaşıyorum. Temmuz 2026'dan seçme bir paylaşım aşağıda; devamı LinkedIn'de. Paylaşımlar özgün dilinde gösterilir. Bu not, bir pilot için beş yapay zeka yönetişimi kontrolü yazısındaki regülatif risk ekseniyle aynı konuya değiniyor: bir modele erişim regülasyonla kesilebiliyorsa, açık bir yapay zeka politikası alınacak önlemin parçasıdır.
 Asim Serdar Yilmaz
 Temmuz 2026
 On June 12, the AI sitting inside a lot of everyday workflows just stopped working.
@@ -558,7 +559,7 @@ LinkedIn'de takip edin
 ============================================================
 İLETİŞİM
 İletişime geçin
-Danışmanlık, konuşmacı davetleri, yönetim kurulu ve yapay zeka yönetişimi konularındaki sorular için yazabilirsiniz. Genel bilgilendirme çerçevesinde, hukuk ile teknolojinin kesiştiği konuları memnuniyetle ele alırım. Bu iletişim hukuki tavsiye niteliği taşımaz ve avukat-müvekkil ilişkisi doğurmaz.
+Yapay zeka yönetişimi, regüle dijital pazarlar ve hukuk operasyonları üzerine danışmanlık sorularını memnuniyetle karşılıyorum. Konuşmacılık ile yönetim kurulu veya yapay zeka yönetişimi rolleri de görüşmeye açığım. Yazarken, aklınızdaki iş akışını, ekibi ve zamanlamayı gizli bir ayrıntı paylaşmadan kısaca özetlemeniz yardımcı olur. Bu, hukuki temsil değil, bilgilendirme amaçlı danışmanlıktır.
 E-posta
 serdar@lexsas.com
 LinkedIn
@@ -638,14 +639,14 @@ Thomson Reuters, 2025 Generative AI in Professional Services Report, legal execu
 Yazılar
 Temmuz 2026 - 2 dk okuma
 Şirket içi hukuk ekipleri için yapay zeka yönetişimi: beş asgari kontrol
-Benimseme rakamları bekle-gör tavrına artık alan bırakmıyor. Association of Corporate Counsel'ın 2025 anketinde, 30 ülkeden 657 şirket içi hukukçu arasında, üretken yapay zekayı fiilen kullanan ABD'li katılımcıların oranı bir yılda yüzde 23'ten 52'ye çıktı. Thomson Reuters'ın 2025 raporundaki bulgu daha az rahatlatıcı: katılımcıların yüzde 52'si kurumlarında üretken yapay zekaya dair bir politika bulunmadığını düşünüyor. Araç ölçekleniyor, yönetişim arkadan geliyor.
-Bir ekibin bu teknolojiyi aşamalı olarak yaygınlaştırmasına onay vermeden önce tek sayfada beş kontrol isterim.
-Birincisi veri. Hangi bilginin bir komut penceresine girebileceği baştan yazılır. Müvekkil bilgisi, kişisel veri ve gizlilik kapsamındaki içerik için ayrı ayrı kural gerekir.
+Benimseme rakamları bekle-gör tavrına artık alan bırakmıyor. Association of Corporate Counsel'ın 2025 anketinde, şirket içi hukukçular arasında üretken yapay zekayı fiilen kullanan ABD'li katılımcıların oranı bir yılda yüzde 23'ten 52'ye çıktı. Thomson Reuters'ın 2025 raporu ise sektörler genelinde katılımcıların yüzde 52'sinin kurumlarında üretken yapay zekaya dair bir politika bulunmadığını buldu. Aynı sayı iki farklı kümeyi ölçüyor: biri ABD'de şirket içi benimseme, diğeri sektörler arası politika yokluğu; birlikte okunduğunda araç güvencelerini geride bırakıyor.
+Bir ekibin bu teknolojiyi yaygınlaştırmasına onay vermeden önce tek sayfada beş kontrol isterim.
+Birincisi veri. Hangi bilginin bir komut penceresine girebileceği baştan yazılır. Müvekkil bilgisi, kişisel veri ve gizlilik kapsamındaki içerik için ayrı ayrı kural gerekir; hepsi kimse bir sohbet penceresi açmadan kararlaştırılır.
 İkincisi yetki ve hesap verebilirlik. Yapay zeka destekli her çıktının adı konmuş bir sahibi olur. Taslağı model yazar, altına imzayı hukukçu atar ve sorulduğunda o cevap verir.
-Üçüncüsü insan incelemesi. Ekipten çıkan her ürün, reddetme yetkisi olan bir hukukçunun süzgecinden geçer. İş bittikten sonra yapılan örneklem kontrolü bu çıtayı karşılamaz.
-Dördüncüsü kayıt. Hangi araç, hangi sürüm, hangi komut, kim inceledi. Bir düzenleyici kurum ya da karşı taraf belgenin nasıl üretildiğini sorduğunda hafıza kayıt yerine geçmez.
+Üçüncüsü insan incelemesi. İncelemenin derinliğini, çıktının etkisine ve geri döndürülebilirliğine bağlarım; yalnızca ekipten çıkıp çıkmadığına değil. Etkisi yüksek ya da geri alması zor olan her ürün, reddetme yetkisi olan bir hukukçunun süzgecinden geçer. Sonradan yapılan örneklem kontrolü bu çıtayı karşılamaz.
+Dördüncüsü kayıt. Üstveriyi ve inceleme izini tutun: hangi araç, hangi sürüm, kim onayladı. Komutların tamamını varsayılan olarak saklamak yerine bir saklama süresi ve bir silme kuralı belirleyin. Bir düzenleyici kurum ya da karşı taraf belgenin nasıl üretildiğini sorduğunda hafıza kayıt yerine geçmez.
 Beşincisi hata yönetimi. Model yanıldığında ne olacağı önceden kararlaştırılır: kime haber verilir, düzeltme nasıl belgelenir, iş akışında ne değişir.
-Bunların hiçbiri yeni bir hukuk teknolojisi yatırımı ya da komite gerektirmiyor. Tek sayfa ve altına önce kendisi imza atmaya hazır bir hukuk direktörü yetiyor.
+Bu beş kontrol bir pilotun tabanıdır, tamamlanmış bina değil. Sonraki katman daha geniş bir kullanım envanteri, hangi aracı kimin çalıştırabileceğine dair erişim kontrolleri ve eğitim ekler. Bunların hiçbiri yeni bir platform ya da daimi bir komite gerektirmez. Tek bir sayfa yeter: her kontrole bağlanan başlangıç belgesi ve altına önce kendisi imza atmaya hazır bir hukuk direktörü.
 Kaynaklar
 ACC and Everlaw, Generative AI's Growing Strategic Value for Corporate Law Departments, 2025
 Thomson Reuters Institute, 2025 Generative AI in Professional Services Report
@@ -657,11 +658,11 @@ Thomson Reuters Institute, 2025 Generative AI in Professional Services Report
 Yazılar
 Temmuz 2026 - 2 dk okuma
 Hukuk ekipleri için KVKK uyumlu üretken yapay zeka iş akışları
-Hukuk ekiplerinin kullandığı üretken yapay zeka araçlarının çoğu Türkiye dışında barındırılıyor. Hukuk teknolojisi tercihlerinde KVKK analizini şekillendiren nokta da bu: bir istem kişisel veri içerdiği anda ekip o veriyi işlemeye başlıyor ve tipik bir SaaS kurulumunda yurt dışına aktarıyor.
-Analiz, aktarım sorusundan önce başlıyor. Kanunun 5. maddesi uyarınca işleme için bir hukuki sebep gerekiyor; iç verimlilik amaçlı kullanımda ekiplerin çoğu meşru menfaate dayanıyor, bu da yazılı bir denge testi anlamına geliyor. Ben bu belgeyi dosyanın çapası olarak görüyorum.
-2024'te değişen 9. madde, yurt dışı aktarım rejimini yeniden kurdu. Yeterlilik kararı yoksa aktarım uygun güvencelere dayanıyor: beş iş günü içinde Kurula bildirilen standart sözleşmeler, bağlayıcı şirket kuralları veya Kurul onaylı taahhütname. Uygulama hızlı ilerliyor. Kurumun 2024 faaliyet bilgi notunda 1.345 standart sözleşme bildirimi yer alıyor (kvkk.gov.tr); GRC Legal'in aktardığı 2025 faaliyet raporu rakamı ise 2.497. Bir yılda neredeyse iki kat artış var ve standart sözleşme fiilen varsayılan mekanizma haline gelmiş görünüyor.
+Hukuk ekiplerinin kullandığı üretken yapay zeka araçları çoğunlukla Türkiye dışında barındırılıyor. Bunun bir yurt dışı aktarımı doğurup doğurmadığı ayrıntıya bağlı: aracın nerede barındırıldığına, personelin ona uzaktan erişip erişmediğine ve arkasında hangi alt işleyicilerin durduğuna. Bir istem kişisel veri içerdiği anda ekip o veriyi işlemeye başlıyor; tipik bir SaaS kurulumunda ayrıca yurt dışına aktarıyor.
+Analiz, aktarım sorusundan önce başlıyor. Kanunun 5. maddesi uyarınca işleme için bir hukuki sebep gerekiyor. Meşru menfaat, iç verimlilik amaçlı kullanımların çoğunu karşılıyor ama kendiliğinden değil; yazılı bir denge testi istiyor ve 6. maddedeki özel nitelikli veriler kendi hukuki sebebini gerektiriyor. Ben bu denge belgesini dosyanın çapası olarak görüyorum.
+2024'te değişen 9. madde, yurt dışı aktarım rejimini yeniden kurdu. Yeterlilik kararı yoksa aktarım uygun güvencelere dayanıyor: beş iş günü içinde Kuruma bildirilen standart sözleşmeler, bağlayıcı şirket kuralları veya Kurul onaylı taahhütname; her biri ilgili kişinin dava edilebilir haklarını koruması koşuluyla. Kurumun 2024 faaliyet bilgi notunda o yıl için 1.345 standart sözleşme bildirimi yer alıyor; GRC Legal'in aktardığı 2025 faaliyet raporu rakamı ise 2.497. 2024 yeni rejimin kısmi bir yılı olduğu için bu sayıları temiz bir yıllık artış oranı değil, dönem işaretleri olarak okuyorum.
 İş akışı katmanı, uyumun günlük alışkanlığa dönüştüğü yer. Bu işi iyi yürüten ekipler, kimliğin sonuca katkısı olmadığı yerlerde istemlerden tanımlayıcıları ayıklıyor; müşteri girdileriyle model eğitimini sözleşmeyle dışlayan kurumsal planları tercih ediyor; kayıtları da hizalı tutuyor: veri envanteri, tedarikçi sözleşmesi, denge testi, aktarım mekanizması, saklama süreleri.
-Savunulabilir dosya, araç başına tek sayfa: hangi veri giriyor, hangi hukuki sebeple, hangi aktarım mekanizmasıyla. Benimsemenin aşamalı yürüdüğü ekiplerde bu sayfa pilottan önce yazılıyor; en sağlam duran dosyalar da onlar oluyor.
+Savunulabilir dosya, araç başına tek sayfa: hangi veri giriyor, hangi hukuki sebeple, hangi aktarım mekanizmasıyla. Ben o sayfayı, arkasındaki silme, aydınlatma, güvenlik ve ilgili kişi hakları kayıtlarına bağlanan bir giriş indeksi olarak görüyorum. Benimsemenin aşamalı yürüdüğü ekiplerde bu sayfa pilottan önce yazılıyordu.
 Kaynaklar
 KVKK, 2024 Yılı Faaliyet Bilgi Notu
 GRC Legal, KVKK 2025 Annual Report summary
@@ -673,18 +674,19 @@ GRC Legal, KVKK 2025 Annual Report summary
 Yazılar
 Temmuz 2026 - 2 dk okuma
 Hukuk ekipleri için yapay zeka tedarikçi inceleme listesi
-Bu masanın iki tarafında da oturdum. Tedarikçi tarafında hukuk ekipleri için yapay zeka araçlarının geliştirilmesine katkı verdim; alıcı tarafında aynı tür araçların satın alınmasına onay verdim. İyi bir demo ile güvenli bir sözleşme arasındaki mesafeyi kısa bir soru listesi kapatıyor ve çoğu tek bir toplantıda sorulabiliyor.
-Risk ölçülebilir durumda. Verizon'un 2025 Veri İhlali Araştırma Raporu'na göre üçüncü tarafların karıştığı ihlallerin payı iki katına çıkarak yüzde 30'a ulaştı. IBM'in 2025 Cost of a Data Breach raporu ise her beş kurumdan birinin gölge yapay zekaya bağlı bir ihlal bildirdiğini, yoğun gölge yapay zeka kullanan şirketlerde ortalama ihlal maliyetinin yaklaşık 670 bin dolar daha yüksek olduğunu gösteriyor. İncelenmeden devreye alınan bir yapay zeka aracı, ayrıcalıklı içeriğe alışılmadık ölçüde geniş erişimi olan bir üçüncü taraftır.
+Bu masanın iki tarafında da oturdum. Tedarikçi tarafında hukuk ekipleri için yapay zeka araçlarının geliştirilmesine katkı verdim; alıcı tarafında aynı tür araçların satın alınmasına onay verdim. İyi bir demo ile daha güvenli bir sözleşme arasındaki mesafeyi kısa bir soru listesi kapatıyor; cevapların yeri de sözleşmenin kendisidir: denetim hakları, ihlal bildirimi ve sorumluluk. Soruların çoğu tek bir toplantıda sorulabiliyor.
+Risk ölçülebilir durumda. Verizon'un 2026 Veri İhlali Araştırma Raporu'na göre üçüncü tarafların karıştığı ihlallerin payı yüzde 48'e yükseldi; bu oran yapay zeka tedarikçilerini değil, tüm üçüncü tarafları ölçer. IBM'in 2025 Cost of a Data Breach raporu ise ihlale uğrayan kurumların yaklaşık beşte birinin ihlalin gölge yapay zekayı içerdiğini bildirdiğini ekliyor; yoğun gölge yapay zeka kullananlarda ortalama ihlal maliyeti, az kullananlara göre yaklaşık 670 bin dolar daha yüksek çıkıyor; bu bir nedensellik değil, ilişkidir. İncelenmeden devreye alınan bir yapay zeka aracı, gizlilik kapsamındaki içeriğe alışılmadık ölçüde geniş erişimi olan bir üçüncü taraftır.
 Benim listemde yerini hak eden altı soru var.
 Eğitim verisinin kaynağı. Modelin eğitim verisi nereden geldi, tedarikçi bu veriyi kullanma hakkına sahip olduğunu gösterebiliyor mu?
 Komutların saklanması ve yeniden kullanımı. Girdileriniz ve belgeleriniz saklanıyor mu, ne kadar süreyle, herhangi bir modelin eğitiminde kullanılıyor mu?
-Alt işleyiciler ve barındırma bölgesi. Veriye başka kim dokunuyor, veri hangi ülkede duruyor?
-Fikri mülkiyet tazmini. Bir çıktı başkasının hakkını ihlal ederse sorumluluğu kim üstleniyor?
+Alt işleyiciler ve barındırma bölgesi. Veriye başka kim dokunuyor, alt işleyici zincirinin kaç halkası boyunca, veri hangi ülkede duruyor ve silme yalnızca vaat mi ediliyor yoksa doğrulanabiliyor mu?
+Fikri mülkiyet ihlali tazminatı. Bir çıktı başkasının hakkını ihlal ederse sorumluluğu kim üstleniyor?
 Denetim izi. Kimin ne sorduğu ve sistemin ne döndürdüğü sonradan izlenebiliyor mu?
 Çıkış ve verinin iadesi. Sözleşme sona erdiğinde veriniz hangi biçimde ve nasıl geri dönüyor?
-Cevapları temiz olan bir tedarikçi bu sorulardan rahatsız olmaz. Herhangi birindeki duraksama ise başlı başına bir cevaptır ve imzadan önce gelir.
+Cevapları temiz olan bir tedarikçi bu sorulardan rahatsız olmaz. Herhangi birindeki duraksama ise başlı başına bir cevaptır ve imzadan önce gelir. Bunu bir hüküm değil bir işaret olarak görün; önemli olan cevapların yine de sözleşmeye yazılması.
 Kaynaklar
-Verizon 2025 Data Breach Investigations Report
+Verizon 2026 Data Breach Investigations Report
+Verizon 2026 DBIR (newsroom summary)
 IBM Cost of a Data Breach Report 2025 (newsroom)
 İlgili: Hukuk ekipleri için üretken yapay zeka dönüşümü
 
@@ -694,20 +696,20 @@ IBM Cost of a Data Breach Report 2025 (newsroom)
 Yazılar
 Temmuz 2026 - 7 dk okuma
 Hukuk ekiplerinde üretken yapay zeka: gerçekte ne değişiyor?
-Üretken yapay zeka üzerine söylenenlerin çoğu ya kurtarıcı bir vaat ya da yaklaşan bir tehdit biçiminde geliyor. Şirket içinde çalışan bir hukukçu olarak ikisine de mesafeliyim, çünkü ikisi de işin gerçek dokusundan uzak. Amazon'da AWS Bedrock üzerinde üretken yapay zeka destekli hukuk araçlarının geliştirilmesine katkı verdim ve aşamalı bir otomasyon yol haritası kurduk. Bu deneyim bana şunu öğretti: teknolojinin neyi değiştirdiği, neyi değiştirmediğinden çok daha fazla konuşuluyor. Oysa doğru soru, neyin sabit kaldığıyla başlıyor. İşe oradan başlamak, hem beklentiyi hem riski yerine oturtuyor.
+Amazon'da AWS Bedrock üzerinde üretken yapay zeka destekli hukuk araçları geliştirdiğimizde ilk gerçek karar hangi modeli seçeceğimiz değildi. Aracı önce hangi tek iş akışına yönelteceğimiz, gerisini hangi sırayla ekleyeceğimizdi. Aracın ne yapabileceğini değil, neyi asla yapmaması gerektiğini yazmakla başladık; sonra dar, yüksek hacimli tek bir işi ilk sıraya koyduk. Bu sıralama kararı bana hiçbir ürün demosunun öğretmediğini öğretti. Doğru soru, üretken yapay zekanın hukuk işini otomatikleştirip otomatikleştirmeyeceği değil; daha dar bir soru: neyi değiştiriyor, neyi olduğu gibi bırakıyor ve onu riski sessizce büyütmeden nasıl yürütüyorsun.
 Değişmeyenler
 Hukuki muhakeme değişmiyor. Bir sözleşmenin riskini tartmak, bir düzenleyici kararın işletme için ne anlama geldiğini görmek, bir belirsizlik karşısında sorumluluğu kimin taşıyacağına karar vermek. Bunların hepsi bağlam, sezgi ve hesap verebilirlik isteyen işler. Bir model olası bir cümle üretebilir, ama o cümlenin arkasında durmaz. Arkasında duran, imzayı atan kişidir. Bir düzenleyiciyle görüşmede masaya oturan da, bir yönetim kuruluna sonucu anlatan da bir insandır.
-Sorumluluk da değişmiyor. Bir düzenleyici önünde verilen görüşün, bir yönetim kuruluna sunulan değerlendirmenin sahibi bir kişidir. Aracın ne kadar yetkin olduğu bu gerçeği değiştirmiyor. Bir çıktı yanlışsa, kusuru araca yıkmak kimseyi korumaz. Değişmeyen bir başka şey de müvekkil ilişkisinin özü: güven, gizlilik ve muhakemenin insana ait kalması. Bir ekip bu üçünü koruyamıyorsa, hız kazanımının bir anlamı kalmıyor. Bu yüzden ben, bir aracın ne yaptığına bakmadan önce neyi asla yapmaması gerektiğini tanımlamayı tercih ediyorum.
+Gizlilik ve muhakemenin insana ait kalması da değişmiyor: şirket içi hukukta güven, sır saklama ve çıkar çatışması kuralları bir araç devreye girdi diye gevşemiyor. Üstelik gizliliğin hukuken nereye kadar uzandığı yargı çevresine bağlı; şirket içi yazışmalar her yerde koruma altında değil, örneğin AB rekabet hukuku bağlamında hiç ayrıcalıklı sayılmayabiliyor. Yanlış yapılandırılmış bir sistem, hassas malzemeyi hiç bulunmaması gereken yerlere taşıyarak bu riski büyütür. Bu yüzden ben, bir aracın ne yaptığına bakmadan önce neyi asla yapmaması gerektiğini tanımlamayı tercih ediyorum.
 Gerçekte değişenler
 Değişen şey, işin ilk kısmı. Muhakemenin kendisi değil, muhakemeye giden yol. Üç yerde somut fark görüyorum, ve üçü de günlük işin en çok zaman yiyen kısımlarına denk geliyor.
 Talep karşılama. Şirket içi hukuk ekiplerine gelen taleplerin çoğu tekrar eden, sınıflandırılabilir taleplerdir. Bir aracın bu talepleri doğru ekibe yönlendirmesi, standart olanları şablona bağlaması ve gerçekten bir hukukçu gerektireni öne çıkarması, günün önemli bir kısmını geri kazandırıyor. Böylece hukukçunun zamanı, gerçekten muhakeme isteyen işlere kayıyor.
 Bilgi erişimi. Bir kurumun hafızası dağınıktır: eski görüşler, sözleşme şablonları, düzenleyici yazışmalar, geçmiş kararlar. Bu birikimi aranabilir kılmak ve doğru soruya doğru geçmiş cevabı getirmek, çoğu zaman sıfırdan başlamayı gereksiz hale getiriyor. Buradaki asıl kazanım hız değil, tutarlılık. Aynı sorunun iki farklı ekipte iki farklı cevaba varması, sanılandan daha büyük bir risktir.
 İlk taslaklar. Bir bildirimin, bir iç notun ya da standart bir maddenin ilk taslağı artık dakikalar içinde çıkıyor. Ama ilk taslak, son taslak değil. Aracın işi boş sayfayı doldurmak, hukukçunun işi o sayfayı doğru hale getirmek. Boş sayfayı aşmak küçük bir kazanım gibi görünür, oysa çoğu işin en yavaş adımı tam olarak orasıdır.
-Bu üç alanda ortak olan şu: araç, muhakemeyi değil, muhakemeye giden yolu kısaltıyor. Kazanım, dış avukat bağımlılığının azalmasında da somutlaşıyor. Daha önce rutin olduğu için dışarıya verilen işlerin bir kısmı artık içeride, daha düşük maliyetle ve daha hızlı yürüyebiliyor. Bu, dışarıdan alınacak uzmanlığın gereksiz olduğu anlamına gelmiyor. Anlamı şu: dış avukat, gerçekten uzmanlık gerektiren yerde kullanılıyor, sıradan işlerin altında erimiyor.
+Bu üç alanda ortak olan şu: araç, muhakemeyi değil, muhakemeye giden yolu kısaltıyor. Ekiplerin hedeflediği kazanımlardan biri de dış avukat bağımlılığının azalması. Daha önce rutin olduğu için dışarıya verilen işlerin bir kısmı, doğru araçlarla içeride daha düşük maliyetle yürütülebilir. Ama bu bir hedef, bir garanti değil; pek çok ekip bu tasarrufu henüz görmüş değil. Amaç, dışarıdan alınacak uzmanlığı gereksiz kılmak da değil: dış avukat, gerçekten uzmanlık gerektiren yerde kullanılsın, sıradan işlerin altında erimesin.
 Sorumlu yürütme
 Bir aracı devreye almak kolay, doğru devreye almak zor. Aradaki fark, teknolojinin kendisinde değil, onu çevreleyen disiplinde. Deneyimim üç ilke etrafında toplanıyor.
 İlki, güvenceler. Bir modelin neye erişebileceği, hangi çıktının insan onayı olmadan kullanılamayacağı ve hangi verinin araca hiç verilmeyeceği baştan tanımlanmalı. Mahremiyet, gizlilik ve veri egemenliği gereklerini sonradan eklemeye çalışmak işe yaramıyor. Bunlar tasarımın içinde, en baştan olmalı. Sonradan yamanmış bir güvence, çoğu zaman hiç olmamasından daha yanıltıcıdır.
-İkincisi, insan incelemesi. Yüksek etkili veya ekip dışına çıkan çıktılar bir hukukçunun gözünden geçmeli. Bu bir formalite değil, sorumluluğun nerede durduğunu belirleyen çizgi. Düşük riskli ekip içi adımlarda inceleme yükü zamanla hafifleyebilir; ancak yüksek etkili veya dışa dönük çıktılarda insan onayı korunmalı. Aksi halde ekip, farkında olmadan riskini araca devretmiş olur.
+İkincisi, insan incelemesi. Yüksek etkili veya ekip dışına çıkan çıktılar bir hukukçunun onayından geçmeli; düşük riskli, ekip içi adımlar daha hafif bir denetimle yürüyebilir. Bu inceleme bir formalite değil, ama sorumluluğun tamamı da değil: hesap verebilirlik tasarımın, yapılandırmanın ve onayın tümüne yayılıyor, tek bir ana değil. İşleyişi riske ve geri dönülebilirliğe göre ayarlamak, hem gereksiz yükü hem de görünmeyen riski azaltıyor.
 Üçüncüsü, ölçülebilir pilotlar. Bir çözümün işe yarayıp yaramadığı, hislerle değil sayılarla anlaşılır. Hangi sürecin ne kadar hızlandığını, hangi hata oranının kabul edilebilir olduğunu ve dış avukat harcamasının nasıl değiştiğini ölçmeden ölçeklemek, riski görünmez hale getirir. Bizim yaklaşımımız aşamalı oldu: küçük bir kapsamda başla, ölç, düzelt, sonra genişlet. Bir pilotun başarısızlığı da bilgidir, yeter ki ölçülebilir olsun.
 Sonuç olarak, üretken yapay zeka hukuk ekiplerinde gerçek bir fark yaratıyor, ama vaat edildiği yerde değil. Muhakemeyi devralmıyor, ona giden yolu kısaltıyor. Bunu doğru anlayan bir ekip, hızını güvencelerle birlikte artırabilir. Yanlış anlayan bir ekip ise, kazandığını sandığı hızın altında görünmeyen bir risk biriktirir. Fark, teknolojide değil, onu yürüten disiplinde. Ve o disiplin, hiçbir araca devredilemez.
 İlgili: Hukuk teknolojisi ve yapay zeka iş akışı otomasyonu
@@ -718,10 +720,10 @@ Sonuç olarak, üretken yapay zeka hukuk ekiplerinde gerçek bir fark yaratıyor
 Yazılar
 Temmuz 2026 - 2 dk okuma
 Hukukçunun saatleri gerçekte nereye gidiyor
-Bir hukuk ekibine zamanının nereye gittiğini sorun; dürüst cevap nadiren "muhakemeye" olur. Clio'nun Legal Trends raporuna göre ortalama bir avukat sekiz saatlik günün yalnızca 2,6 saatini faturalandırabiliyor; kabaca üçte birlik bir kullanım oranı. Gerisi talep karşılamaya, doküman kovalamaya, durum güncellemelerine ve hiçbir müvekkilin satın almak istemediği idari işe dağılıyor.
-Hukuki iş akışı otomasyonunun gerçek gerekçesi bu. Mesele hukukçuyu ikame etmek değil; baştan beri hukukçuluk içermeyen saatleri geri kazanmak. Thomson Reuters'ın Future of Professionals raporu, yapay zekanın her profesyonele yılda 240 saate yakın zaman kazandırabileceğini öngörüyor; gerçekten hukukçu gerektiren işe iade edilmiş yaklaşık altı iş haftası.
-Kazanım pratikte gösterişsiz yerlerden geliyor: belirsiz bir e-posta kutusu yerine önceliklendirilmiş bir talep kuyruğu, ekibin kendi emsalleri üzerinde arama, rutin belgelerin ilk taslakları. Bunların hiçbiri karar vermiyor. Hepsi kararların önünü açıyor.
-Disiplin araçtan daha önemli. Tek bir iş akışıyla başlayın, dürüstçe ölçün ve rakamlar tutmadıkça genişletmeyin.
+Bir hukuk ekibine zamanının nereye gittiğini sorun; dürüst cevap nadiren "muhakemeye" olur. Clio'nun Legal Trends raporuna göre ortalama kullanım oranı yüzde 38; sekiz saatlik günde kabaca üç saatlik faturalandırılabilir iş, günün üçte birine yakın. Realizasyon oranı uygulandığında gerçekte fatura edilen yaklaşık 2,6 saate iniyor. Yani ortalama bir günün beş buçuk saati faturaya hiç yansımıyor. Clio faturalandırma hunisini ölçüyor, ajandayı değil; benim gözlemimde gerisi talep karşılamaya, doküman kovalamaya, durum güncellemelerine ve hiçbir müvekkilin satın almak istemediği idari işe dağılıyor.
+Hukuki iş akışı otomasyonunun gerçek gerekçesi bu. Mesele hukukçuyu ikame etmek değil; baştan beri hukukçuluk içermeyen saatleri geri kazanmak. Thomson Reuters'ın Future of Professionals raporu, yapay zekanın hukuk profesyoneli başına yılda 240 saate yakın zaman kazandırabileceğini öngörüyor; gerçekten hukukçu gerektiren işe iade edilmiş kabaca altı iş haftası. Buradaki hesap basit: geri kazanılan her saat, muhakemeye ayrılabilecek bir saat. Bu, ölçülmüş bir tasarruf değil, kazanılabilecek zamanın bir projeksiyonu; yine de yön açık.
+Kazanım pratikte gösterişsiz yerlerden geliyor: belirsiz bir e-posta kutusu yerine önceliklendirilmiş bir talep kuyruğu, geçmiş görüşler, iş ürünleri ve şablonlar üzerinde arama, rutin belgelerin ilk taslakları. Bunların hiçbiri dosyayı karara bağlamıyor. Önceliklendirme ve erişim kararı besliyor; nihai hukuki muhakeme ve onun ardındaki doğrulama hukukçuda kalıyor. Kısacası araç, kararın önünü temizliyor; kararı hukukçu veriyor.
+Disiplin araçtan daha önemli. Tek bir iş akışıyla başlayın, dürüstçe ölçün ve rakamlar tutmadıkça genişletmeyin. Ölçemediğiniz bir kazanımı, kazanım sayamazsınız.
 Kaynaklar
 Clio, Legal Trends Report (2025)
 Thomson Reuters Institute, Future of Professionals Report (2025)
@@ -733,13 +735,13 @@ Thomson Reuters Institute, Future of Professionals Report (2025)
 Yazılar
 Temmuz 2026 - 2 dk okuma
 Yapay zeka hukuk sektörünü sessizce yeniden çiziyor
-Hukuk işi, yapay zekaya maruziyet tablolarının çoğunda üst sıralarda. Goldman Sachs 2023'te hukuk işlerinin yaklaşık yüzde 44'ünün yapay zeka destekli otomasyona maruz kaldığını hesaplamıştı; yalnızca ofis ve idari destek işlerinin gerisinde. İki yıl sonra bu tahmin bir kışkırtmadan çok bir proje planı gibi okunuyor.
-Benimseme de yetişti. Thomson Reuters, üretken yapay zeka kullanımını hukuk bürolarında yüzde 41, şirket hukuk departmanlarında yüzde 47 olarak raporluyor; bir yıl öncesinin kabaca iki katı. Araçlar tek bir bütçe döneminde pilottan altyapıya geçti.
-Değişen şey hukukçunun varlığı değil, etrafındaki iş. Araştırma ve ilk taslaklar günlerden saatlere iniyor. E-posta kutularında yaşayan bilgi aranabilir hale geliyor. Çok sayıda kıdemsiz avukatın çok saat faturalandırdığı geleneksel kaldıraç modeli aritmetiğini kaybediyor. Fark yaratan unsur kadro büyüklüğünden muhakemeye, araçların etrafındaki iş akışı ve güvencelerin kalitesine kayıyor.
-Öne geçen kurumlar bunu pilotlar, ölçüm ve yönetişimle bir operasyon sorusu olarak ele alıyor. Geride kalanlar bir satın alma sorusu olarak. Teknoloji işin kolay kısmı; asıl dönüşüm işin yeniden tasarımı.
+Hukuk işi, yapay zekaya maruziyet tablolarının çoğunda üst sıralarda. Goldman Sachs 2023'te ABD'de hukuk işlerinin yaklaşık yüzde 44'ünün yapay zeka destekli otomasyona açık olduğunu hesaplamıştı; yalnızca ofis ve idari destek işlerinin gerisinde. Bu bir maruziyet ölçüsü; işin ne kadarının fiilen otomatikleştiğini değil, ne kadarının açık olduğunu gösteriyor. Üç yıl sonra bu tahmin bir kışkırtmadan çok bir proje planı gibi okunuyor.
+Kullanım da hızla arttı. Thomson Reuters, üretken yapay zeka kullanımını hukuk bürolarında yüzde 41, şirket hukuk departmanlarında yüzde 47 olarak raporluyor. Büro kullanımı yüzde 28'den geldi, yaklaşık yarı oranında artışla; departmanlar ise yüzde 23'ten gelerek kabaca ikiye katlandı. İki katına yakın sıçrama şirket departmanlarında; büro tarafındaki artış daha ölçülü. Rapor bunu erken denemelerden çok kritik eşiğe ulaşan bir benimseme olarak tanımlıyor. Araçlar tek bir bütçe döneminde pilottan altyapıya geçti.
+Değişen şey hukukçunun varlığı değil, etrafındaki iş. Araştırma ve ilk taslaklar günlerden saatlere inebiliyor. E-posta kutularında yaşayan bilgi aranabilir hale geliyor. Çok sayıda kıdemsiz avukatın çok saat faturalandırmasına dayanan modeller baskı altına giriyor. Fark yaratan unsur kadro büyüklüğünden muhakemeye, araçların etrafındaki iş akışı ve güvencelerin kalitesine kayıyor. Bu, hukukçuya olan ihtiyacı ortadan kaldırmıyor; onun zamanının nereye değeceğini değiştiriyor.
+Öne geçen kurumlar bunu pilotlar, ölçüm ve yönetişimle bir operasyon sorusu olarak ele alıyor. Geride kalanlar ise bunu bir satın alma sorusu olarak görüyor. Teknoloji işin kolay kısmı; asıl dönüşüm işin yeniden tasarımı.
 Kaynaklar
-Goldman Sachs, üretken yapay zeka ve küresel ekonomik büyüme araştırması (2023)
-Thomson Reuters Institute, State of the US Legal Market (2026)
+Goldman Sachs, research on generative AI and global economic growth (2023)
+Thomson Reuters, 2026 AI in Professional Services Report
 İlgili: E-ticaret ve platform regülasyonu
 
 ============================================================
@@ -748,11 +750,11 @@ Thomson Reuters Institute, State of the US Legal Market (2026)
 Yazılar
 Temmuz 2026 - 2 dk okuma
 Saatlik ücretin mantığı tükeniyor
-Saatlik ücret, daha önceki her hukuk teknolojisi dalgasını atlattı; çünkü verimlilik ile gelir ters yönlere çekiyordu: hızlanan avukat daha az kazanıyordu. Üretken yapay zeka bu ateşkesi bozuyor. Clio'nun Legal Trends raporu, hukuk bürolarının bugün saatle faturalandırdığı işin yaklaşık yüzde 74'ünün otomasyona açık olduğunu hesaplıyor. Saatin kendisi değer kaybederken saati fiyatlamak anlamını yitiriyor.
-Müvekkiller oyunu çoktan kullandı. Aynı araştırmada yüzde 71'i, işleyen bir taksimetreyi izlemek yerine dosyanın tamamı için sabit ücret ödemeyi tercih ettiğini söylüyor. Yeni nesil, yapay zeka yerlisi hukuk işletmeleri de tam bu tercihin üzerine kuruluyor; en görünürlerinden Eudia, zamanı değil tanımlı sonuçları sabit ücretle satıyor.
-Saatin yerini tek bir model değil bir menü alıyor: dosya başına sabit ücret, süreklilik gerektiren danışmanlıkta abonelik, sonuca bağlı değer fiyatlaması. Ortak eksen şu: müvekkil sonucu satın alıyor; verimlilik kazancı, daha iyi iş akışını kim kurduysa ona kalıyor.
+Saatlik ücret, daha önceki her hukuk teknolojisi dalgasını atlattı; çünkü verimlilik ile gelir ters yönlere çekiyordu: hızlanan avukat daha az kazanıyordu. Üretken yapay zeka bu ateşkesi bozuyor. Clio'nun Legal Trends raporu, ABD'de hukuk bürolarının bugün saatle faturalandırdığı işin yaklaşık yüzde 74'ünün otomasyona açık olduğunu modelliyor. Rapora göre en açık kısım, bilgi derleme ve belge yoğun rutin iş. Bu, halihazırda gerçekleşen bir otomasyonun ölçümü değil, açığa çıkan potansiyelin bir tahmini. Yine de saatin kendisi değer kaybederken saati fiyatlamak anlamını yitiriyor.
+Müvekkiller tercihini çoktan belli etti. Clio'nun yaklaşık bin ABD'li yetişkinle yaptığı tüketici anketinde yüzde 71'i, işleyen bir taksimetreyi izlemek yerine dosyanın tamamı için sabit ücret ödemeyi tercih ettiğini söylüyor. Bu, gözlemlenmiş bir davranıştan çok beyan edilmiş bir tercih; yine de yönü tek. Yeni nesil, yapay zeka odaklı hukuk işletmeleri de doğrudan saatlik faturalandırmaya karşı konumlanıyor; en görünürlerinden Eudia, işi hukukçularla yapay zekayı birleştirerek yürütüyor.
+Saatin yerini tek bir model değil bir menü alıyor: dosya başına sabit ücret, süreklilik gerektiren danışmanlıkta abonelik, değere dayalı fiyatlama. Ortak eksen şu: müvekkil bir sonucu satın alıyor. Ortaya çıkan verimlilik kazancını kimin elde edeceği ise kendiliğinden belli değil; ücret kuralları, yargı çevresi ve iş ilişkisinin koşulları, kazancın daha iyi iş akışını kuran büroda mı kaldığını yoksa müvekkile mi döndüğünü belirliyor.
 Bürolar için stratejik sonuç açık. İşi fiyatlarsanız kendi otomasyonunuz marj olur. Zamanı fiyatlarsanız müvekkilinizin indirimi olur.
 Kaynaklar
 Clio, Legal Trends Report (2024)
-Fortune, Eudia ve sabit ücretli hukuk hizmetleri üzerine (2025)
+Fortune, on Eudia as an AI-native legal business challenging the billable hour (2025)
 İlgili: Hukuk ekipleri için üretken yapay zeka dönüşümü
