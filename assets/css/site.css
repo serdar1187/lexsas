@@ -957,6 +957,26 @@ button:focus-visible {
   }
 }
 
+/* ---------- Controlled two-row nav for narrow phones ---------- */
+@media (max-width: 420px) {
+  .site-nav {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(4, max-content);
+    justify-content: space-between;
+    gap: 10px 8px;
+  }
+
+  .site-nav a {
+    white-space: nowrap;
+  }
+
+  .site-nav .lang-toggle {
+    grid-column: 1 / -1;
+    justify-self: start;
+  }
+}
+
 /* ---------- Small-phone guard (<=360px) ---------- */
 @media (max-width: 360px) {
   :root {

@@ -30,8 +30,14 @@ Case (Associate, Ankara). Ankara Bar. Languages: Turkish, English.
 ## Pages
 
 - [Home](https://lexsas.com/): what LEXSAS does, focus areas, working principles, FAQ
-- [About](https://lexsas.com/about.html): full career history, board roles, education
+- [Asim Serdar Yilmaz | Legal and Regulatory Affairs Leader · LEXSAS](https://lexsas.com/about.html): full career history, board roles, education
 - [Insights](https://lexsas.com/insights.html): articles on law, regulation and AI
+- [AI governance for in-house legal teams: five minimum controls](https://lexsas.com/insights/ai-governance-five-controls.html)
+- [Şirket içi hukuk ekipleri için yapay zeka yönetişimi: beş asgari kontrol](https://lexsas.com/tr/yazilar/yapay-zeka-yonetisimi-bes-kontrol.html)
+- [KVKK-compliant generative AI workflows for legal teams](https://lexsas.com/insights/kvkk-compliant-genai-workflows.html)
+- [Hukuk ekipleri için KVKK uyumlu üretken yapay zeka iş akışları](https://lexsas.com/tr/yazilar/kvkk-uyumlu-uretken-yapay-zeka.html)
+- [An AI vendor due diligence checklist for legal teams](https://lexsas.com/insights/ai-vendor-due-diligence.html)
+- [Hukuk ekipleri için yapay zeka tedarikçi inceleme listesi](https://lexsas.com/tr/yazilar/yapay-zeka-tedarikci-inceleme.html)
 - [What generative AI actually changes for in-house legal teams](https://lexsas.com/insights/genai-for-legal-teams.html)
 - [Hukuk ekiplerinde üretken yapay zeka: gerçekte ne değişiyor?](https://lexsas.com/tr/yazilar/hukuk-ekiplerinde-uretken-yapay-zeka.html)
 - [Where a lawyer's hours actually go](https://lexsas.com/insights/where-legal-hours-go.html)
@@ -43,7 +49,7 @@ Case (Associate, Ankara). Ankara Bar. Languages: Turkish, English.
 - [Contact](https://lexsas.com/contact.html): serdar@lexsas.com
 - [LinkedIn](https://lexsas.com/linkedin.html): latest LinkedIn post and profile link
 - [LinkedIn (Türkçe)](https://lexsas.com/tr/linkedin.html)
-- Turkish versions: [Ana Sayfa](https://lexsas.com/tr/), [Hakkında](https://lexsas.com/tr/hakkinda.html), [Yazılar](https://lexsas.com/tr/yazilar.html), [İletişim](https://lexsas.com/tr/iletisim.html)
+- Turkish versions: [Ana Sayfa](https://lexsas.com/tr/), [Asım Serdar Yılmaz | Hukuk ve Regülasyon Lideri · LEXSAS](https://lexsas.com/tr/hakkinda.html), [Yazılar](https://lexsas.com/tr/yazilar.html), [İletişim](https://lexsas.com/tr/iletisim.html)
 
 Full page-by-page content dump: https://lexsas.com/llms-full.txt
 

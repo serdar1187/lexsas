@@ -2,126 +2,168 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://lexsas.com/</loc>
-    <lastmod>2026-07-05</lastmod>
+    <lastmod>2026-07-11</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://lexsas.com/"/>
     <xhtml:link rel="alternate" hreflang="tr" href="https://lexsas.com/tr/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://lexsas.com/"/>
   </url>
   <url>
     <loc>https://lexsas.com/tr/</loc>
-    <lastmod>2026-07-05</lastmod>
+    <lastmod>2026-07-11</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://lexsas.com/"/>
     <xhtml:link rel="alternate" hreflang="tr" href="https://lexsas.com/tr/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://lexsas.com/"/>
   </url>
   <url>
     <loc>https://lexsas.com/about.html</loc>
-    <lastmod>2026-07-05</lastmod>
+    <lastmod>2026-07-11</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://lexsas.com/about.html"/>
     <xhtml:link rel="alternate" hreflang="tr" href="https://lexsas.com/tr/hakkinda.html"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://lexsas.com/about.html"/>
   </url>
   <url>
     <loc>https://lexsas.com/tr/hakkinda.html</loc>
-    <lastmod>2026-07-05</lastmod>
+    <lastmod>2026-07-11</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://lexsas.com/about.html"/>
     <xhtml:link rel="alternate" hreflang="tr" href="https://lexsas.com/tr/hakkinda.html"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://lexsas.com/about.html"/>
   </url>
   <url>
     <loc>https://lexsas.com/insights.html</loc>
-    <lastmod>2026-07-05</lastmod>
+    <lastmod>2026-07-11</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://lexsas.com/insights.html"/>
     <xhtml:link rel="alternate" hreflang="tr" href="https://lexsas.com/tr/yazilar.html"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://lexsas.com/insights.html"/>
   </url>
   <url>
     <loc>https://lexsas.com/tr/yazilar.html</loc>
-    <lastmod>2026-07-05</lastmod>
+    <lastmod>2026-07-11</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://lexsas.com/insights.html"/>
     <xhtml:link rel="alternate" hreflang="tr" href="https://lexsas.com/tr/yazilar.html"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://lexsas.com/insights.html"/>
   </url>
   <url>
     <loc>https://lexsas.com/linkedin.html</loc>
-    <lastmod>2026-07-05</lastmod>
+    <lastmod>2026-07-11</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://lexsas.com/linkedin.html"/>
     <xhtml:link rel="alternate" hreflang="tr" href="https://lexsas.com/tr/linkedin.html"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://lexsas.com/linkedin.html"/>
   </url>
   <url>
     <loc>https://lexsas.com/tr/linkedin.html</loc>
-    <lastmod>2026-07-05</lastmod>
+    <lastmod>2026-07-11</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://lexsas.com/linkedin.html"/>
     <xhtml:link rel="alternate" hreflang="tr" href="https://lexsas.com/tr/linkedin.html"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://lexsas.com/linkedin.html"/>
   </url>
   <url>
     <loc>https://lexsas.com/contact.html</loc>
-    <lastmod>2026-07-05</lastmod>
+    <lastmod>2026-07-11</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://lexsas.com/contact.html"/>
     <xhtml:link rel="alternate" hreflang="tr" href="https://lexsas.com/tr/iletisim.html"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://lexsas.com/contact.html"/>
   </url>
   <url>
     <loc>https://lexsas.com/tr/iletisim.html</loc>
-    <lastmod>2026-07-05</lastmod>
+    <lastmod>2026-07-11</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://lexsas.com/contact.html"/>
     <xhtml:link rel="alternate" hreflang="tr" href="https://lexsas.com/tr/iletisim.html"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://lexsas.com/contact.html"/>
   </url>
   <url>
+    <loc>https://lexsas.com/insights/ai-governance-five-controls.html</loc>
+    <lastmod>2026-07-11</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://lexsas.com/insights/ai-governance-five-controls.html"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://lexsas.com/tr/yazilar/yapay-zeka-yonetisimi-bes-kontrol.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://lexsas.com/insights/ai-governance-five-controls.html"/>
+  </url>
+  <url>
+    <loc>https://lexsas.com/tr/yazilar/yapay-zeka-yonetisimi-bes-kontrol.html</loc>
+    <lastmod>2026-07-11</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://lexsas.com/insights/ai-governance-five-controls.html"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://lexsas.com/tr/yazilar/yapay-zeka-yonetisimi-bes-kontrol.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://lexsas.com/insights/ai-governance-five-controls.html"/>
+  </url>
+  <url>
+    <loc>https://lexsas.com/insights/kvkk-compliant-genai-workflows.html</loc>
+    <lastmod>2026-07-11</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://lexsas.com/insights/kvkk-compliant-genai-workflows.html"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://lexsas.com/tr/yazilar/kvkk-uyumlu-uretken-yapay-zeka.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://lexsas.com/insights/kvkk-compliant-genai-workflows.html"/>
+  </url>
+  <url>
+    <loc>https://lexsas.com/tr/yazilar/kvkk-uyumlu-uretken-yapay-zeka.html</loc>
+    <lastmod>2026-07-11</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://lexsas.com/insights/kvkk-compliant-genai-workflows.html"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://lexsas.com/tr/yazilar/kvkk-uyumlu-uretken-yapay-zeka.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://lexsas.com/insights/kvkk-compliant-genai-workflows.html"/>
+  </url>
+  <url>
+    <loc>https://lexsas.com/insights/ai-vendor-due-diligence.html</loc>
+    <lastmod>2026-07-11</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://lexsas.com/insights/ai-vendor-due-diligence.html"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://lexsas.com/tr/yazilar/yapay-zeka-tedarikci-inceleme.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://lexsas.com/insights/ai-vendor-due-diligence.html"/>
+  </url>
+  <url>
+    <loc>https://lexsas.com/tr/yazilar/yapay-zeka-tedarikci-inceleme.html</loc>
+    <lastmod>2026-07-11</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://lexsas.com/insights/ai-vendor-due-diligence.html"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://lexsas.com/tr/yazilar/yapay-zeka-tedarikci-inceleme.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://lexsas.com/insights/ai-vendor-due-diligence.html"/>
+  </url>
+  <url>
     <loc>https://lexsas.com/insights/genai-for-legal-teams.html</loc>
-    <lastmod>2026-07-05</lastmod>
+    <lastmod>2026-07-11</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://lexsas.com/insights/genai-for-legal-teams.html"/>
     <xhtml:link rel="alternate" hreflang="tr" href="https://lexsas.com/tr/yazilar/hukuk-ekiplerinde-uretken-yapay-zeka.html"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://lexsas.com/insights/genai-for-legal-teams.html"/>
   </url>
   <url>
     <loc>https://lexsas.com/tr/yazilar/hukuk-ekiplerinde-uretken-yapay-zeka.html</loc>
-    <lastmod>2026-07-05</lastmod>
+    <lastmod>2026-07-11</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://lexsas.com/insights/genai-for-legal-teams.html"/>
     <xhtml:link rel="alternate" hreflang="tr" href="https://lexsas.com/tr/yazilar/hukuk-ekiplerinde-uretken-yapay-zeka.html"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://lexsas.com/insights/genai-for-legal-teams.html"/>
   </url>
   <url>
     <loc>https://lexsas.com/insights/where-legal-hours-go.html</loc>
-    <lastmod>2026-07-05</lastmod>
+    <lastmod>2026-07-11</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://lexsas.com/insights/where-legal-hours-go.html"/>
     <xhtml:link rel="alternate" hreflang="tr" href="https://lexsas.com/tr/yazilar/hukuki-isin-saatleri.html"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://lexsas.com/insights/where-legal-hours-go.html"/>
   </url>
   <url>
     <loc>https://lexsas.com/tr/yazilar/hukuki-isin-saatleri.html</loc>
-    <lastmod>2026-07-05</lastmod>
+    <lastmod>2026-07-11</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://lexsas.com/insights/where-legal-hours-go.html"/>
     <xhtml:link rel="alternate" hreflang="tr" href="https://lexsas.com/tr/yazilar/hukuki-isin-saatleri.html"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://lexsas.com/insights/where-legal-hours-go.html"/>
   </url>
   <url>
     <loc>https://lexsas.com/insights/ai-reshaping-legal-industry.html</loc>
-    <lastmod>2026-07-05</lastmod>
+    <lastmod>2026-07-11</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://lexsas.com/insights/ai-reshaping-legal-industry.html"/>
     <xhtml:link rel="alternate" hreflang="tr" href="https://lexsas.com/tr/yazilar/yapay-zeka-hukuku-yeniden-ciziyor.html"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://lexsas.com/insights/ai-reshaping-legal-industry.html"/>
   </url>
   <url>
     <loc>https://lexsas.com/tr/yazilar/yapay-zeka-hukuku-yeniden-ciziyor.html</loc>
-    <lastmod>2026-07-05</lastmod>
+    <lastmod>2026-07-11</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://lexsas.com/insights/ai-reshaping-legal-industry.html"/>
     <xhtml:link rel="alternate" hreflang="tr" href="https://lexsas.com/tr/yazilar/yapay-zeka-hukuku-yeniden-ciziyor.html"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://lexsas.com/insights/ai-reshaping-legal-industry.html"/>
   </url>
   <url>
     <loc>https://lexsas.com/insights/beyond-the-billable-hour.html</loc>
-    <lastmod>2026-07-05</lastmod>
+    <lastmod>2026-07-11</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://lexsas.com/insights/beyond-the-billable-hour.html"/>
     <xhtml:link rel="alternate" hreflang="tr" href="https://lexsas.com/tr/yazilar/saatlik-ucretin-otesi.html"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://lexsas.com/insights/beyond-the-billable-hour.html"/>
   </url>
   <url>
     <loc>https://lexsas.com/tr/yazilar/saatlik-ucretin-otesi.html</loc>
-    <lastmod>2026-07-05</lastmod>
+    <lastmod>2026-07-11</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://lexsas.com/insights/beyond-the-billable-hour.html"/>
     <xhtml:link rel="alternate" hreflang="tr" href="https://lexsas.com/tr/yazilar/saatlik-ucretin-otesi.html"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://lexsas.com/insights/beyond-the-billable-hour.html"/>
