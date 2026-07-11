@@ -8,10 +8,6 @@ AI LEGAL TECH
 Legal workflow automation, with the guardrails built in
 LEXSAS is the AI legal-tech venture I founded in 2026. As a consultant, I design and advise on tools that take the manual work out of legal and regulatory operations, from intake and document workflows to research and compliance, with privacy, IP and governance guardrails in place from the start. Behind the tooling sit 20+ years of hands-on legal and regulatory leadership in-house.
 Get in touch
-20+ years in-house
-Amazon, eBay, PMI, White & Case
-Statutory Board Director
-Ankara Bar
 Focus areas
 Legal tech and AI workflow automation
 Designing and advising on AI-enabled tooling for legal work: intake, document and knowledge workflows, research and compliance operations. The aim is fewer manual steps without a lower standard of review.
@@ -125,6 +121,18 @@ Ankara Bar Association. Languages: Turkish (native), English (fluent).
 INSIGHTS
 Notes on law, regulation and AI
 Short, practitioner pieces on the questions I keep returning to: how AI governance works in practice, how regulated digital markets are changing, and where legal operations can genuinely improve.
+July 2026 - E-commerce law
+Marketplace intermediary liability in Turkey: three regimes to read together
+A marketplace's liability in Turkey sits where three regimes meet: e-commerce Law 6563, consumer Law 6502, and the 5651 content regime.
+July 2026 - Platform regulation
+Marketplace ranking and algorithmic accountability: questions for the legal lead
+Ranking is now a legal surface under the DSA, DMA, P2B rules and Turkey's e-commerce law. What an in-house legal lead should ask about it.
+July 2026 - Legal AI
+Legal AI: build, buy, or configure?
+Most legal teams should configure platforms, buy for commodity tasks, and build only the most sensitive work. A practitioner's decision frame.
+July 2026 - Legal operations
+How to measure a legal automation pilot
+A pilot without metrics is a demo. Baseline the workflow, set error tolerances per task, and fix a kill-or-scale threshold before you start.
 July 2026 - AI governance
 AI governance for in-house legal teams: five minimum controls
 Five minimum controls an in-house legal team needs before scaling generative AI: data handling, accountability, human review, records, error handling.
@@ -178,6 +186,72 @@ LinkedIn
 linkedin.com/in/asimserdaryilmaz
 Location
 Istanbul, Turkey
+
+============================================================
+## Article: Marketplace intermediary liability in Turkey: three regimes to read together  <https://lexsas.com/insights/turkey-marketplace-liability.html>
+============================================================
+Insights
+July 2026 - 2 min read
+Marketplace intermediary liability in Turkey: three regimes to read together
+I spent years running legal and regulatory work for online marketplaces in Turkey, and the question that came up most was deceptively simple. When a third party sells something on our platform, what are we on the hook for? The honest answer is that no single statute holds it. A marketplace's exposure sits where three regimes overlap, and the work is to read them as one map rather than three separate texts.
+The first is the E-Commerce Law, No. 6563, reshaped by the 2022 amendments that introduced a tiered set of obligations for large intermediary service providers. The second is consumer protection under Law No. 6502, which sets duties around pre-contract information, the defective goods process, and refunds when a transaction goes wrong. The third is the internet content regime under Law No. 5651. Its main personal-rights takedown article was annulled by the Constitutional Court in October 2024 and is now awaiting re-legislation, which is exactly why a platform cannot read it in isolation and needs the combined map.
+The volume behind these questions is not small. The Ministry of Trade reported total e-commerce volume in Turkey at 3 trillion lira in 2024, up 61.7 percent on the year (ticaret.gov.tr). More sellers and more listings mean more moments where the three regimes meet a single transaction.
+The practical work is mapping them together. A single listing or complaint can raise duties under more than one regime at once: a takedown question, a consumer remedy, and a record-keeping obligation, side by side. Reading one regime in isolation is how a compliant-looking process still leaves a gap. The artifact that closes it is a current, per-regime duty map, each duty tied to an owner and a legal basis.
+Sources
+Ticaret Bakanlığı, Türkiye'de E-Ticaretin Görünümü Raporu (2025)
+Related: E-commerce and platform regulation
+
+============================================================
+## Article: Marketplace ranking and algorithmic accountability: questions for the legal lead  <https://lexsas.com/insights/marketplace-algorithmic-accountability.html>
+============================================================
+Insights
+July 2026 - 2 min read
+Marketplace ranking and algorithmic accountability: questions for the legal lead
+I spent several years on the platform side, close to the teams that build and tune ranking systems. Back then ranking was a product question. It is now a legal one, and the legal lead is usually the last person to be told how the system works.
+Three regimes have turned the search box into a documented surface. The EU Digital Services Act requires large marketplaces to disclose the main parameters of their recommender systems, a transparency duty that scales by size and bites hardest on the very large platforms. The Platform-to-Business Regulation applies to online intermediation services and requires the main ranking parameters to be set out in the terms and conditions. Turkey's amended Electronic Commerce Law adds its own ranking and advertising transparency duties on intermediary service providers.
+The enforcement is real. On 23 April 2025 the European Commission issued its first non-compliance decisions under the Digital Markets Act, fining Apple 500 million euros over anti-steering restrictions and Meta 200 million euros over its consent-or-pay model. Neither decision was about ranking, but the DMA separately prohibits self-preferencing in ranking as a breach in its own right.
+So my questions to the product team are concrete. Which parameters move a listing up or down, and can we state them plainly? Where do our own products sit in that logic? Who can adjust the weighting, and is that change logged? The law asks for the main parameters; good governance keeps a decision log too. If a business user or a regulator asks why a competitor ranks above them, can we answer from records rather than from memory?
+A ranking system that cannot explain itself is a liability waiting for a complaint. The time to write the explanation down is before someone demands it.
+Sources
+European Commission, first DMA non-compliance decisions, 23 April 2025
+Hunton Andrews Kurth, summary of the Apple and Meta DMA fines (2025)
+Related: E-commerce and platform regulation
+
+============================================================
+## Article: Legal AI: build, buy, or configure?  <https://lexsas.com/insights/legal-ai-build-buy-configure.html>
+============================================================
+Insights
+July 2026 - 2 min read
+Legal AI: build, buy, or configure?
+I have built legal AI tooling on AWS Bedrock inside a large platform company, and bought vendor tools too. The real choice is rarely build or buy. You can buy a finished product, adapt an enterprise platform to your workflow, or build your own. That middle path is configure, and most work belongs there.
+Three questions decide it: how sensitive the data is, how specific the workflow is, and how much engineering the team can carry.
+Configure is the default. You still buy the platform; what you own is the workflow on top. Enterprise platforms let you wire custom workflows, retrieval, and guardrails onto a hosted model you do not own. For contract review and internal knowledge, this captures most of the value for far less maintenance.
+Buy for commodity tasks. Transcription, translation, and first-pass summarization are mature, well-served categories. Building them in-house means a year rebuilding what you could license this week.
+Build only for workflows that are both sensitive and differentiating. Building does not remove third parties: our own Bedrock tooling still runs on cloud infrastructure. It is the right call when off-the-shelf terms cannot meet your requirements on data use, retention, residency, and audit, and the workflow itself sets you apart. You still carry the full lifecycle burden.
+Bloomberg Law reported in 2026 that for roughly 67 percent of large law firms, new-technology spending stayed under 2 percent of the 2025 budget. It counts firms, not in-house teams, but the signal carries.
+Capacity decides the rest. ILTA's 2024 survey found generative AI use ranging from 20 percent at small firms to 74 percent at the largest. My read: that gap follows engineering capacity more than ambition.
+Match the tool to the workflow: configure first, buy the commodity, build only what you cannot safely hand to anyone else.
+Sources
+ILTA 2024 Technology Survey (via eDiscovery Today)
+Bloomberg Law, law firm tech budgets and the build-versus-buy AI debate (2026)
+Related: Legal tech and AI workflow automation
+
+============================================================
+## Article: How to measure a legal automation pilot  <https://lexsas.com/insights/measuring-automation-pilots.html>
+============================================================
+Insights
+July 2026 - 2 min read
+How to measure a legal automation pilot
+A pilot without metrics is a demo. It looks impressive in the room, everyone nods, and three months later no one can say whether it worked. I have run enough of these in a large in-house team to know the plan matters more than the tool.
+Start by baselining the workflow before the model touches it. Time the cycle end to end. Count the touches: how many people handle a task and how often it changes hands. Total external spend: outside counsel hours and per-matter fees. Treat these three as the minimum baseline, with quality metrics, accuracy, rework, and error severity, beside them.
+Then define the error types each task produces. I sort them into three: critical errors that change a legal outcome, material errors that need real rework, and formal errors that are cosmetic. Set the tolerance per class, zero for the critical one, and write it down before the pilot.
+Measure reviewer time, not model time. The model answers in seconds; what matters is how long a lawyer checks and fixes it. If review erases the saving, the pilot failed however fast the model ran.
+Decide the kill-or-scale threshold in advance. A widely discussed 2025 report from MIT NANDA, The GenAI Divide, found that 95 percent of enterprise generative AI pilots showed no measurable impact on profit and loss. In its 2025 report, Thomson Reuters found only 20 percent of respondents across professional services say their organization measures the return on AI. If you are not measuring, you cannot know which side of it you are on.
+Baseline first, set error tolerances, measure reviewer time. Then capture it in one place: a pilot decision record naming the owner, date, kill-or-scale threshold, and the evidence behind the call. That record, not the applauded demo, tells you whether to scale.
+Sources
+MIT NANDA, The GenAI Divide: State of AI in Business 2025 (via Fortune)
+Thomson Reuters, 2025 Generative AI in Professional Services Report, legal executive summary
+Related: GenAI transformation for legal teams
 
 ============================================================
 ## Article: AI governance for in-house legal teams: five minimum controls  <https://lexsas.com/insights/ai-governance-five-controls.html>
@@ -313,10 +387,6 @@ YAPAY ZEKA HUKUK TEKNOLOJİSİ GİRİŞİMİ
 Hukuki işi hızlandıran yapay zeka, güvenceler baştan kurulu
 LEXSAS'ı 2026'da, hukuki ve regülatif işi hızlandıran yapay zeka destekli araçlar tasarlamak ve bu konuda danışmanlık vermek için kurdum. Talep karşılama, doküman ve bilgi iş akışları, araştırma ve uyum operasyonları üzerine çalışıyorum; gizlilik, fikri mülkiyet ve yönetişim güvencelerini baştan kuruyorum. Yirmi yılı aşkın hukuk ve regülasyon liderliğini, hukuk ekipleri için pratik ve sorumlu yapay zeka benimsemesiyle birleştiriyorum.
 İletişime geçin
-20+ yıl şirket içi hukuk
-Amazon, eBay, PMI, White & Case
-Kanuni yönetim kurulu üyeliği
-Ankara Barosu
 Çalışma alanları
 Hukuk teknolojisi ve yapay zeka iş akışı otomasyonu
 Talep karşılama, doküman ve bilgi iş akışları, araştırma ve uyum operasyonlarını hızlandıran yapay zeka destekli araçlar tasarlıyorum. Tekrar eden işi sadeleştirip hukukçunun zamanını gerçekten muhakeme isteyen işlere ayırmayı hedefliyorum.
@@ -430,6 +500,18 @@ Ankara Barosu üyesi. Diller: Türkçe (ana dil), İngilizce (akıcı).
 YAZILAR
 Yazılar
 Burada yapay zeka yönetişimi, hukuk teknolojisi ve hukuk operasyonları üzerine yazıyorum. Amaç, uygulamada işe yarayan gözlemleri abartıya kapılmadan paylaşmak.
+Temmuz 2026 - E-ticaret hukuku
+Türkiye'de pazaryeri aracı sorumluluğu: birlikte okunması gereken üç rejim
+Türkiye'de pazaryeri sorumluluğu üç rejimin kesişiminde: 6563 e-ticaret, 6502 tüketici ve 5651 içerik rejimi birlikte okunmalı.
+Temmuz 2026 - Platform regülasyonu
+Pazaryeri sıralaması ve algoritmik hesap verebilirlik: hukuk liderinin soruları
+Sıralama artık DSA, DMA, P2B ve Türkiye e-ticaret kanunu altında hukuki bir alan. Hukuk liderinin sıralama hakkında sorması gereken sorular.
+Temmuz 2026 - Hukukta yapay zeka
+Hukukta yapay zeka: geliştirmek mi, satın almak mı, uyarlamak mı?
+Çoğu ekip kurumsal platformları uyarlamalı, standart işleri hazır ürünlerle çözmeli, yalnızca en hassas işleri kendisi geliştirmeli. Uygulayıcı bir çerçeve.
+Temmuz 2026 - Hukuk operasyonları
+Hukuki iş akışı otomasyonu pilotlarını ölçmek
+Metriksiz pilot bir demodur. Hukuki otomasyon pilotu için: mevcut durumu ölçün, hata toleransını belirleyin, durdur-ölçekle eşiğini önceden koyun.
 Temmuz 2026 - Yapay zeka yönetişimi
 Şirket içi hukuk ekipleri için yapay zeka yönetişimi: beş asgari kontrol
 Üretken yapay zekayı ölçeklendirmeden önce hukuk ekibinin kurması gereken beş asgari kontrol: veri, yetki, insan incelemesi, kayıt ve hata yönetimi.
@@ -483,6 +565,72 @@ LinkedIn
 linkedin.com/in/asimserdaryilmaz
 Konum
 İstanbul, Türkiye
+
+============================================================
+## Yazı: Türkiye'de pazaryeri aracı sorumluluğu: birlikte okunması gereken üç rejim  <https://lexsas.com/tr/yazilar/pazaryeri-araci-sorumlulugu.html>
+============================================================
+Yazılar
+Temmuz 2026 - 2 dk okuma
+Türkiye'de pazaryeri aracı sorumluluğu: birlikte okunması gereken üç rejim
+Yıllarca Türkiye'de çevrimiçi pazaryerlerinin hukuk ve regülasyon işini yürüttüm ve en sık gelen soru görünüşte basitti. Platformumuzda üçüncü bir taraf bir şey sattığında biz neyden sorumluyuz? Dürüst cevap şu: bunu tek bir kanun düzenlemiyor. Pazaryerinin sorumluluğu üç rejimin kesişiminde şekillenir ve iş, bunları üç ayrı metin gibi değil, tek bir harita gibi okumaktır.
+Birincisi, 2022 değişiklikleriyle yeniden şekillenen 6563 sayılı Elektronik Ticaret Kanunu; bu değişiklikler büyük aracı hizmet sağlayıcılar için aşamalı bir yükümlülük seti getirdi. İkincisi, 6502 sayılı Tüketicinin Korunması Hakkında Kanun; sözleşme öncesi bilgilendirme, ayıplı mal süreci ve iade konularında platforma düşen yükümlülükleri belirliyor. Üçüncüsü, 5651 sayılı internet içerik rejimi. Kişilik haklarına ilişkin temel uyar-kaldır maddesi, Anayasa Mahkemesi tarafından Ekim 2024'te iptal edildi ve şu an yeniden yasalaşmayı bekliyor; platformun bu rejimi tek başına okuyamamasının ve birleşik haritaya ihtiyaç duymasının nedeni tam olarak bu.
+Bu soruların ardındaki hacim küçük değil. Ticaret Bakanlığı, Türkiye'de toplam e-ticaret hacmini 2024'te yıllık yüzde 61,7 artışla 3 trilyon lira olarak açıkladı (ticaret.gov.tr). Daha fazla satıcı ve daha fazla ilan, üç rejimin tek bir işlemde buluştuğu daha fazla an demek.
+Asıl iş, bunları birlikte haritalamak. Tek bir ilan ya da şikâyet, aynı anda birden fazla rejim altında yükümlülük doğurabilir: bir kaldırma sorusu, bir tüketici talebi ve bir kayıt tutma yükümlülüğü, yan yana. Tek bir rejimi diğerlerinden kopuk okumak, uyumlu görünen bir sürecin nasıl açık bıraktığını gösterir. Bu açığı kapatan şey, her yükümlülüğün bir sahibe ve bir hukuki dayanağa bağlandığı, güncel ve rejim bazlı bir yükümlülük haritasıdır.
+Kaynaklar
+Ticaret Bakanlığı, Türkiye'de E-Ticaretin Görünümü Raporu (2025)
+İlgili: E-ticaret ve platform regülasyonu
+
+============================================================
+## Yazı: Pazaryeri sıralaması ve algoritmik hesap verebilirlik: hukuk liderinin soruları  <https://lexsas.com/tr/yazilar/pazaryeri-algoritmik-hesap-verebilirlik.html>
+============================================================
+Yazılar
+Temmuz 2026 - 2 dk okuma
+Pazaryeri sıralaması ve algoritmik hesap verebilirlik: hukuk liderinin soruları
+Birkaç yıl platform tarafında, sıralama sistemlerini kuran ve ayarlayan ekiplerin yanında çalıştım. O dönem sıralama bir ürün meselesiydi. Artık bir hukuk meselesi ve sistemin nasıl çalıştığını çoğu zaman en son öğrenen kişi hukuk yöneticisi oluyor.
+Üç ayrı düzenleme, sıralamayı belgelenmesi gereken bir hukuki alan hâline getirdi. AB Dijital Hizmetler Yasası, büyük pazaryerlerinin öneri sistemlerinin temel parametrelerini açıklamasını istiyor; bu şeffaflık yükümlülüğü platformun büyüklüğüne göre ölçekleniyor ve en ağır biçimde çok büyük platformlarda işliyor. Platformdan İşletmeye (P2B) Tüzüğü, çevrimiçi aracılık hizmetleri için temel sıralama parametrelerinin şartlar ve koşullarda belirtilmesini zorunlu kılıyor. Türkiye'de değişen Elektronik Ticaret Kanunu da aracı hizmet sağlayıcılara kendi sıralama ve reklam şeffaflığı yükümlülüklerini getiriyor.
+Yaptırım soyut bir tehdit değil. Avrupa Komisyonu, 23 Nisan 2025'te Dijital Piyasalar Yasası kapsamındaki ilk ihlal kararlarını açıkladı; Apple'a yönlendirmeyi engelleyen (anti-steering) kısıtlamaları nedeniyle 500 milyon euro, Meta'ya "onayla ya da öde" modeli nedeniyle 200 milyon euro ceza kesti. Kararların hiçbiri sıralamayla ilgili değildi; ancak DMA, sıralamada kendi hizmetini kayırmayı ayrıca ve başlı başına bir ihlal sayıyor.
+Bu yüzden kendi ürün ekibime yönelteceğim sorular oldukça somut. Bir ürünü listede yukarı ya da aşağı taşıyan parametreler hangileri ve bunları açıkça ifade edebiliyor muyuz? Kendi ürünlerimiz bu kurgunun neresinde yer alıyor? Ağırlıklandırmayı kim değiştirebiliyor ve bu değişiklik kayıt altına alınıyor mu? Kanun temel parametreleri istiyor; iyi yönetişim ise bir adım öteye geçip karar kaydı tutuyor. Bir ticari kullanıcı ya da düzenleyici, bir rakibin neden üstte çıktığını sorduğunda, hafızaya değil kayda dayanarak yanıt verebiliyor muyuz?
+Kendi sıralamasını açıklayamayan bir sistemi, bir şikâyet geldiğinde savunmak zorlaşır. Açıklamayı önceden yazıya dökmek, o soru sorulmadan hazırlıklı olmaktır.
+Kaynaklar
+European Commission, first DMA non-compliance decisions, 23 April 2025
+Hunton Andrews Kurth, summary of the Apple and Meta DMA fines (2025)
+İlgili: E-ticaret ve platform regülasyonu
+
+============================================================
+## Yazı: Hukukta yapay zeka: geliştirmek mi, satın almak mı, uyarlamak mı?  <https://lexsas.com/tr/yazilar/hukukta-yapay-zeka-kur-satin-al-yapilandir.html>
+============================================================
+Yazılar
+Temmuz 2026 - 2 dk okuma
+Hukukta yapay zeka: geliştirmek mi, satın almak mı, uyarlamak mı?
+Büyük bir platform şirketinde AWS Bedrock üzerinde hukuk için yapay zeka aracı geliştirdim; aynı ekip için tedarikçi araçları da aldım. Asıl seçim çoğu zaman geliştirmek ya da satın almak değildir. Bitmiş bir ürünü satın alabilir, kurumsal bir platformu kendi iş akışınıza uyarlayabilir ya da kendi çözümünüzü geliştirebilirsiniz. Bu orta yol, benim uyarlamak dediğim yoldur ve işlerin çoğu buraya girer.
+Üç soru kararı belirler: veri ne kadar hassas, iş akışı ne kadar özgün ve ekip ne kadar mühendislik yükü taşıyabilir.
+Uyarlamak varsayılan yoldur. Bu yolda platformu yine de satın alırsınız; sahip olduğunuz şey, onun üzerine oluşturduğunuz iş akışıdır. Kurumsal platformlar artık, modeli sahiplenmeden, barındırılan bir modelin üzerine özel iş akışları, kurum içi bilgiye erişim ve koruma katmanları eklemenize izin veriyor. Sözleşme incelemesi ve kurum içi bilgi için bu, çok daha az bakımla değerin büyük kısmını verir.
+Standart işleri hazır ürünlerle çözün. Deşifre, çeviri, ilk taslak özetleme: bunlar olgunlaşmış, iyi hizmet verilen kategoriler. Bunları kurum içinde geliştirmek, bu hafta lisanslayabileceğiniz bir şeyi yeniden yapmak için bir yıl harcamak demektir.
+Yalnızca hem hassas hem de sizi farklılaştıran dar iş akışları için kendi çözümünüzü geliştirin. Geliştirmek üçüncü tarafları ortadan kaldırmaz: bizim Bedrock aracımız da bulut altyapısı üzerinde çalışıyor. Geliştirmek, hazır ürünlerin koşulları veri kullanımı, saklama, yerleşim (residency) ve denetim gereksinimlerinizi karşılayamadığında ve iş akışı sizi farklılaştırdığında doğru tercihtir. Yaşam döngüsünün tüm yükünü yine siz taşırsınız.
+Bloomberg Law 2026'da, büyük hukuk firmalarının yaklaşık yüzde 67'sinde yeni teknolojiye ayrılan harcamanın 2025 bütçesinin yüzde 2'sinin altında kaldığını bildirdi. Bu rakam kurum içi ekipleri değil firmaları ölçüyor, ama işaret açık.
+Kapasite gerisini belirler. ILTA'nın 2024 araştırması, üretken yapay zeka kullanımının küçük firmalarda yüzde 20'den en büyüklerde yüzde 74'e uzandığını buldu. Benim okumam: bu fark, hevesten çok mühendislik kapasitesini izliyor.
+Aracı işe göre seçin: önce uyarlayın, standart işi hazır üründen alın, yalnızca kimseye güvenle devredemeyeceğiniz işi kendiniz geliştirin.
+Kaynaklar
+ILTA 2024 Technology Survey (via eDiscovery Today)
+Bloomberg Law, law firm tech budgets and the build-versus-buy AI debate (2026)
+İlgili: Hukuk teknolojisi ve yapay zeka iş akışı otomasyonu
+
+============================================================
+## Yazı: Hukuki iş akışı otomasyonu pilotlarını ölçmek  <https://lexsas.com/tr/yazilar/otomasyon-pilotlarini-olcmek.html>
+============================================================
+Yazılar
+Temmuz 2026 - 2 dk okuma
+Hukuki iş akışı otomasyonu pilotlarını ölçmek
+Metriksiz bir pilot, bir demodan ibarettir. Toplantı odasında etkileyici görünür, herkes başını sallar, üç ay sonra kimse işe yarayıp yaramadığını söyleyemez. Büyük bir şirketin hukuk ekibinde bu pilotlardan yeterince yürüttüm; ölçüm planının araçtan daha önemli olduğunu biliyorum.
+İşe, model iş akışına dokunmadan önce mevcut durumu ölçerek başlayın. Süreyi baştan sona tutun. İşin kaç kez el değiştirdiğini kaydedin: kaç kişi ilgileniyor ve kaç kez elden ele geçiyor. Dış harcamayı toplayın: dış avukat saatleri, dosya başı ücretler. Süre, el değiştirme sayısı ve dış harcamayı asgari başlangıç ölçütü olarak alın; doğruluk, yeniden çalışma ve hataların ağırlığı gibi kalite ölçütleri de tam bunların yanında durmalı.
+Sonra her işin üretebileceği hata türlerini tanımlayın. Ben bunları üçe ayırıyorum: hukuki sonucu değiştiren kritik hatalar, ciddi düzeltme gerektiren esaslı hatalar ve yalnızca biçime ilişkin şekli hatalar. Toleransı her sınıf için belirleyin; kritik sınıfta tolerans sıfırdır. Bu eşikleri, çıktıyı görmeden, pilottan önce yazın.
+Model süresini değil, inceleme süresini ölçün. Model saniyeler içinde yanıt verir; asıl mesele, bir hukukçunun bunu kontrol edip düzeltmek için ne kadar zaman harcadığıdır. İnceleme, sağlanan kazancı siliyorsa, model ne kadar hızlı çalışırsa çalışsın pilot başarısızdır.
+Durdur ya da ölçekle eşiğini önceden belirleyin. MIT NANDA'nın 2025 tarihli ve çokça tartışılan The GenAI Divide raporu, kurumsal üretken yapay zeka pilotlarının yüzde 95'inin kâr-zarar üzerinde ölçülebilir bir etki göstermediğini buldu. Thomson Reuters ise 2025 raporunda, profesyonel hizmetler genelindeki katılımcıların yalnızca yüzde 20'sinin kurumunun yapay zeka getirisini ölçtüğünü söylediğini tespit etti. Ölçmüyorsanız, bu ayrımın hangi tarafında olduğunuzu bilemezsiniz.
+Önce mevcut durumu ölçün, hata toleranslarını belirleyin ve model süresini değil hukukçu incelemesine ayrılan süreyi ölçün. Sonra hepsini tek bir yerde toplayın: sahibini, tarihini, sonlandırma veya ölçekleme eşiğini ve kararın dayandığı kanıtı içeren bir pilot karar kaydı. Ölçekleyip ölçeklemeyeceğinizi size söyleyen şey, herkesin alkışladığı demo değil, işte bu kayıttır.
+Kaynaklar
+MIT NANDA, The GenAI Divide: State of AI in Business 2025 (via Fortune)
+Thomson Reuters, 2025 Generative AI in Professional Services Report, legal executive summary
+İlgili: Hukuk ekipleri için üretken yapay zeka dönüşümü
 
 ============================================================
 ## Yazı: Şirket içi hukuk ekipleri için yapay zeka yönetişimi: beş asgari kontrol  <https://lexsas.com/tr/yazilar/yapay-zeka-yonetisimi-bes-kontrol.html>

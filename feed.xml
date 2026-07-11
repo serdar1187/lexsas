@@ -6,7 +6,71 @@
   <atom:link href="https://lexsas.com/feed.xml" rel="self" type="application/rss+xml"/>
   <description>Short practitioner notes on legal tech, AI governance, regulatory affairs and regulated digital markets, by Asim Serdar Yilmaz (LEXSAS).</description>
   <language>en</language>
-  <lastBuildDate>Fri, 11 Jul 2026 09:00:00 GMT</lastBuildDate>
+  <lastBuildDate>Fri, 11 Jul 2026 10:00:00 GMT</lastBuildDate>
+  <item>
+    <title>Marketplace intermediary liability in Turkey: three regimes to read together</title>
+    <link>https://lexsas.com/insights/turkey-marketplace-liability.html</link>
+    <guid isPermaLink="true">https://lexsas.com/insights/turkey-marketplace-liability.html</guid>
+    <description>A marketplace's liability in Turkey sits where three regimes meet: e-commerce Law 6563, consumer Law 6502, and the 5651 content regime.</description>
+    <pubDate>Fri, 11 Jul 2026 10:00:00 GMT</pubDate>
+    <category>insights-en</category>
+  </item>
+  <item>
+    <title>Marketplace ranking and algorithmic accountability: questions for the legal lead</title>
+    <link>https://lexsas.com/insights/marketplace-algorithmic-accountability.html</link>
+    <guid isPermaLink="true">https://lexsas.com/insights/marketplace-algorithmic-accountability.html</guid>
+    <description>Ranking is now a legal surface under the DSA, DMA, P2B rules and Turkey's e-commerce law. What an in-house legal lead should ask about it.</description>
+    <pubDate>Fri, 11 Jul 2026 10:00:00 GMT</pubDate>
+    <category>insights-en</category>
+  </item>
+  <item>
+    <title>Legal AI: build, buy, or configure?</title>
+    <link>https://lexsas.com/insights/legal-ai-build-buy-configure.html</link>
+    <guid isPermaLink="true">https://lexsas.com/insights/legal-ai-build-buy-configure.html</guid>
+    <description>Most legal teams should configure platforms, buy for commodity tasks, and build only the most sensitive work. A practitioner's decision frame.</description>
+    <pubDate>Fri, 11 Jul 2026 10:00:00 GMT</pubDate>
+    <category>insights-en</category>
+  </item>
+  <item>
+    <title>How to measure a legal automation pilot</title>
+    <link>https://lexsas.com/insights/measuring-automation-pilots.html</link>
+    <guid isPermaLink="true">https://lexsas.com/insights/measuring-automation-pilots.html</guid>
+    <description>A pilot without metrics is a demo. Baseline the workflow, set error tolerances per task, and fix a kill-or-scale threshold before you start.</description>
+    <pubDate>Fri, 11 Jul 2026 10:00:00 GMT</pubDate>
+    <category>insights-en</category>
+  </item>
+  <item>
+    <title>Türkiye'de pazaryeri aracı sorumluluğu: birlikte okunması gereken üç rejim</title>
+    <link>https://lexsas.com/tr/yazilar/pazaryeri-araci-sorumlulugu.html</link>
+    <guid isPermaLink="true">https://lexsas.com/tr/yazilar/pazaryeri-araci-sorumlulugu.html</guid>
+    <description>Türkiye'de pazaryeri sorumluluğu üç rejimin kesişiminde: 6563 e-ticaret, 6502 tüketici ve 5651 içerik rejimi birlikte okunmalı.</description>
+    <pubDate>Fri, 11 Jul 2026 10:00:00 GMT</pubDate>
+    <category>insights-tr</category>
+  </item>
+  <item>
+    <title>Pazaryeri sıralaması ve algoritmik hesap verebilirlik: hukuk liderinin soruları</title>
+    <link>https://lexsas.com/tr/yazilar/pazaryeri-algoritmik-hesap-verebilirlik.html</link>
+    <guid isPermaLink="true">https://lexsas.com/tr/yazilar/pazaryeri-algoritmik-hesap-verebilirlik.html</guid>
+    <description>Sıralama artık DSA, DMA, P2B ve Türkiye e-ticaret kanunu altında hukuki bir alan. Hukuk liderinin sıralama hakkında sorması gereken sorular.</description>
+    <pubDate>Fri, 11 Jul 2026 10:00:00 GMT</pubDate>
+    <category>insights-tr</category>
+  </item>
+  <item>
+    <title>Hukukta yapay zeka: geliştirmek mi, satın almak mı, uyarlamak mı?</title>
+    <link>https://lexsas.com/tr/yazilar/hukukta-yapay-zeka-kur-satin-al-yapilandir.html</link>
+    <guid isPermaLink="true">https://lexsas.com/tr/yazilar/hukukta-yapay-zeka-kur-satin-al-yapilandir.html</guid>
+    <description>Çoğu ekip kurumsal platformları uyarlamalı, standart işleri hazır ürünlerle çözmeli, yalnızca en hassas işleri kendisi geliştirmeli. Uygulayıcı bir çerçeve.</description>
+    <pubDate>Fri, 11 Jul 2026 10:00:00 GMT</pubDate>
+    <category>insights-tr</category>
+  </item>
+  <item>
+    <title>Hukuki iş akışı otomasyonu pilotlarını ölçmek</title>
+    <link>https://lexsas.com/tr/yazilar/otomasyon-pilotlarini-olcmek.html</link>
+    <guid isPermaLink="true">https://lexsas.com/tr/yazilar/otomasyon-pilotlarini-olcmek.html</guid>
+    <description>Metriksiz pilot bir demodur. Hukuki otomasyon pilotu için: mevcut durumu ölçün, hata toleransını belirleyin, durdur-ölçekle eşiğini önceden koyun.</description>
+    <pubDate>Fri, 11 Jul 2026 10:00:00 GMT</pubDate>
+    <category>insights-tr</category>
+  </item>
   <item>
     <title>AI governance for in-house legal teams: five minimum controls</title>
     <link>https://lexsas.com/insights/ai-governance-five-controls.html</link>

@@ -32,6 +32,14 @@ Case (Associate, Ankara). Ankara Bar. Languages: Turkish, English.
 - [Home](https://lexsas.com/): what LEXSAS does, focus areas, working principles, FAQ
 - [Asim Serdar Yilmaz | Legal and Regulatory Affairs Leader · LEXSAS](https://lexsas.com/about.html): full career history, board roles, education
 - [Insights](https://lexsas.com/insights.html): articles on law, regulation and AI
+- [Marketplace intermediary liability in Turkey: three regimes to read together](https://lexsas.com/insights/turkey-marketplace-liability.html)
+- [Türkiye'de pazaryeri aracı sorumluluğu: birlikte okunması gereken üç rejim](https://lexsas.com/tr/yazilar/pazaryeri-araci-sorumlulugu.html)
+- [Marketplace ranking and algorithmic accountability: questions for the legal lead](https://lexsas.com/insights/marketplace-algorithmic-accountability.html)
+- [Pazaryeri sıralaması ve algoritmik hesap verebilirlik: hukuk liderinin soruları](https://lexsas.com/tr/yazilar/pazaryeri-algoritmik-hesap-verebilirlik.html)
+- [Legal AI: build, buy, or configure?](https://lexsas.com/insights/legal-ai-build-buy-configure.html)
+- [Hukukta yapay zeka: geliştirmek mi, satın almak mı, uyarlamak mı?](https://lexsas.com/tr/yazilar/hukukta-yapay-zeka-kur-satin-al-yapilandir.html)
+- [How to measure a legal automation pilot](https://lexsas.com/insights/measuring-automation-pilots.html)
+- [Hukuki iş akışı otomasyonu pilotlarını ölçmek](https://lexsas.com/tr/yazilar/otomasyon-pilotlarini-olcmek.html)
 - [AI governance for in-house legal teams: five minimum controls](https://lexsas.com/insights/ai-governance-five-controls.html)
 - [Şirket içi hukuk ekipleri için yapay zeka yönetişimi: beş asgari kontrol](https://lexsas.com/tr/yazilar/yapay-zeka-yonetisimi-bes-kontrol.html)
 - [KVKK-compliant generative AI workflows for legal teams](https://lexsas.com/insights/kvkk-compliant-genai-workflows.html)
