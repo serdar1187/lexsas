@@ -8,3 +8,9 @@ Thumbs.db
 # Nested private repo (brand/profile materials). Never committed here: this repo is
 # published verbatim to lexsas.com by GitHub Pages, so any committed file becomes a public URL.
 lexsas-tools/
+
+# local concept/work folders
+Lexsas Kimi/
+_shots/
+_verify*.py
+linkedin/
