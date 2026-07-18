@@ -45,7 +45,7 @@
       "hero.seal.top": "LEGAL WORKFLOW AUTOMATION",
       "hero.seal.bottom": "GUARDRAILS BUILT IN · 2026",
 
-      "cred.1": "20+ years in-house",
+      "cred.1": "20+ years in legal and regulatory work",
       "cred.3": "Statutory Board Director",
       "cred.4": "Ankara Bar",
 
@@ -61,11 +61,11 @@
       "work.a3.t": "GenAI transformation for legal teams",
       "work.a3.d": "Legal operations strategy for generative AI: where to start, what to build versus buy, and how responsible adoption actually happens. I have co-developed GenAI legal tooling in-house on AWS Bedrock and run the pilots that followed.",
       "work.a4.t": "Data protection and data sovereignty",
-      "work.a4.d": "Cross-border data transfer and localisation questions under KVKK and GDPR, including how to keep transfers lawful when a regulator changes its position. I have executed a first-in-market data transfer undertaking under KVKK.",
+      "work.a4.d": "Cross-border data transfer and localisation questions under KVKK and GDPR, including undertakings and the practical controls needed when regulatory expectations change.",
       "work.a5.t": "E-commerce and platform regulation",
       "work.a5.d": "Marketplace and platform rules across consumer protection, advertising, intermediary liability and payments touchpoints. This includes licensing perimeter questions and the controls that keep a platform compliant at scale.",
       "work.a6.t": "Competition and digital markets",
-      "work.a6.d": "Antitrust strategy for platforms, covering parity clauses, ranking practices and algorithmic accountability. I have led a competition defense on pricing algorithms through to file closure with no penalty.",
+      "work.a6.d": "Antitrust strategy for platforms, covering parity clauses, ranking practices, pricing algorithms and the controls needed for accountable digital markets.",
 
       "ap.kicker": "APPROACH",
       "ap.title": "How I work",
@@ -80,7 +80,7 @@
 
       "exp.kicker": "EXPERIENCE",
       "exp.title": "Twenty years across the table from regulators",
-      "exp.lede": "I have spent 20+ years in-house with global technology and marketplace businesses, blending legal directorship with regulatory affairs, corporate affairs and public policy leadership, most of it in regulated markets.",
+      "exp.lede": "I bring more than 20 years of legal and regulatory experience, most of it in-house, across global technology, consumer and marketplace businesses. That experience combines legal directorship with regulatory affairs, corporate affairs and public policy in regulated markets.",
       "exp.body": "That includes statutory board roles and leading legal functions through investigations, licensing questions and market entry. What I say about AI stands on this practitioner ground.",
       "exp.f1": "Legal and regulatory leadership, in-house",
       "exp.f2": "Statutory board directorship",
@@ -91,26 +91,26 @@
       "ins.kicker": "LATEST INSIGHTS",
       "ins.title": "Notes on law, regulation and AI",
       "ins.1.d": "July 2026",
-      "ins.1.t": "The EU AI Act on 2 August 2026: what actually applies",
-      "ins.1.s": "The high-risk deadlines moved to 2027 and 2028. The Article 50 transparency duties did not: chatbots, synthetic content and deepfakes are in scope from 2 August 2026.",
-      "ins.1.href": "https://lexsas.com/insights/eu-ai-act-august-2026.html",
+      "ins.1.t": "When an AI workflow fails: an incident protocol for legal teams",
+      "ins.1.s": "A short response path for ownership, evidence, containment and restart when an AI-assisted legal workflow goes wrong.",
+      "ins.1.href": "https://lexsas.com/insights/ai-incident-response-legal-teams.html",
       "ins.2.d": "July 2026",
-      "ins.2.t": "AI citation sanctions keep climbing: a verification protocol for legal teams",
-      "ins.2.s": "More than 1,700 court decisions involve AI-hallucinated filings. A five-step verification protocol before anything leaves the team.",
-      "ins.2.href": "https://lexsas.com/insights/ai-citation-verification.html",
+      "ins.2.t": "The EU AI Act on 2 August 2026: what actually applies",
+      "ins.2.s": "The adopted Digital Omnibus sets new high-risk application dates in 2027 and 2028; as of 18 July 2026 it awaited publication and entry into force. Article 50 duties become applicable on 2 August.",
+      "ins.2.href": "https://lexsas.com/insights/eu-ai-act-august-2026.html",
       "ins.3.d": "July 2026",
-      "ins.3.t": "The billable hour is running out of logic",
-      "ins.3.s": "AI deflates the hour itself. Next generation firms price the work, not the time.",
-      "ins.3.href": "https://lexsas.com/insights/beyond-the-billable-hour.html",
+      "ins.3.t": "AI citation errors: a verification protocol for legal teams",
+      "ins.3.s": "An independent database listed more than 1,770 cases as of 18 July 2026 in which courts or tribunals addressed generative-AI hallucinations or, in some entries, alleged AI use. A five-step verification protocol.",
+      "ins.3.href": "https://lexsas.com/insights/ai-citation-verification.html",
 
       "faq.kicker": "FAQ",
       "faq.title": "Common questions",
       "faq.1.q": "What does LEXSAS do?",
       "faq.1.a": "LEXSAS is an AI legal-tech venture focused on legal workflow automation and advisory. It designs AI-enabled tooling for legal and regulatory teams, from intake and document workflows to research and compliance operations, and advises on responsible adoption with privacy, IP and governance guardrails built in.",
       "faq.2.q": "Which areas does the advisory work cover?",
-      "faq.2.a": "Legal technology and AI governance, regulatory affairs and corporate affairs in regulated digital markets, e-commerce and platform regulation, data protection under KVKK and GDPR, and competition questions in digital markets. Behind it sit 20+ years of in-house work as legal director and regulatory affairs leader with global technology, consumer and marketplace businesses.",
+      "faq.2.a": "Legal technology and AI governance, regulatory affairs and corporate affairs in regulated digital markets, e-commerce and platform regulation, data protection under KVKK and GDPR, and competition questions in digital markets. The work is grounded in more than 20 years of legal and regulatory experience, most of it in-house, across global technology, consumer and marketplace businesses.",
       "faq.3.q": "Who is behind LEXSAS?",
-      "faq.3.a": "Asim Serdar Yilmaz, founder of LEXSAS and a senior legal and regulatory affairs leader with more than two decades in-house at Amazon, eBay and Philip Morris International, following private practice at White & Case.",
+      "faq.3.a": "Asim Serdar Yilmaz, founder of LEXSAS and a senior legal and regulatory affairs leader with more than 20 years of experience, most of it in-house, following private practice at White & Case.",
       "faq.4.q": "Do you work in English and Turkish?",
       "faq.4.a": "Yes. Advisory, writing and speaking are available in both languages, from Istanbul and remotely.",
       "faq.5.q": "Is this legal representation?",
@@ -156,7 +156,7 @@
       "hero.seal.top": "HUKUKİ İŞ AKIŞI OTOMASYONU",
       "hero.seal.bottom": "GÜVENCELER BAŞTAN KURULU · 2026",
 
-      "cred.1": "20+ yıl şirket içi hukuk",
+      "cred.1": "20+ yıl hukuk ve regülasyon deneyimi",
       "cred.3": "Kanuni yönetim kurulu üyeliği",
       "cred.4": "Ankara Barosu",
 
@@ -164,7 +164,7 @@
 
       "work.kicker": "ÇALIŞMA ALANLARI",
       "work.title": "Altı alan, tek çalışma standardı",
-      "work.note": "Talep otomasyonundan rekabet savunmasına, her iş güvenceleriyle gelir.",
+      "work.note": "Talep otomasyonundan rekabet savunmasına kadar her çalışmada gerekli güvenceleri baştan kuruyorum.",
       "work.a1.t": "Hukuk teknolojisi ve yapay zeka iş akışı otomasyonu",
       "work.a1.d": "Talep karşılama, doküman ve bilgi iş akışları, araştırma ve uyum operasyonlarını hızlandıran yapay zeka destekli araçlar tasarlıyorum. Tekrar eden işi sadeleştirip hukukçunun zamanını gerçekten muhakeme isteyen işlere ayırmayı hedefliyorum.",
       "work.a2.t": "Yapay zeka yönetişimi ve regülasyon uyumu",
@@ -180,18 +180,18 @@
 
       "ap.kicker": "YAKLAŞIM",
       "ap.title": "Nasıl çalışıyorum",
-      "ap.p1.t": "Satıcı değil, uygulayıcı gözü",
+      "ap.p1.t": "Ürün satışı değil, uygulama deneyimi",
       "ap.p1.d": "Bir ürünü pazarlamak için değil, hukuk işinin içinden konuşuyorum. Neyin gerçekten işe yaradığını, hangi kısayolun sonradan risk biriktirdiğini uygulama deneyimiyle ayırt ediyorum.",
       "ap.p2.t": "Hızı mümkün kılan güvenceler",
-      "ap.p2.d": "Yaklaşımım evet, şu koşulla mantığına dayanıyor. İyi kurulmuş güvenceler işi yavaşlatmaz, tam tersine güvenle hızlanmayı mümkün kılar.",
+      "ap.p2.d": "Yaklaşımım, “evet, şu koşulla” ilkesine dayanıyor. İyi tasarlanmış güvenceler işi yavaşlatmak yerine güvenli biçimde hızlandırabilir.",
       "ap.p3.t": "Ölçülebilir pilotlar, insan incelemesi",
       "ap.p3.d": "Bir çözümün işe yarayıp yaramadığı hislerle değil, ölçülebilir pilotlarla anlaşılır. Aracın hiçbir çıktısı, bir hukukçunun incelemesinden geçmeden dışa çıkmaz.",
       "ap.quote": "“Faydalı cevap çoğu zaman düz bir evet ya da hayır değildir; evet, şu koşulla.”",
       "ap.quote.by": "Çalışma ilkesi",
 
       "exp.kicker": "DENEYİM",
-      "exp.title": "Yirmi yıl, regülatörlerin karşısında",
-      "exp.lede": "Yirmi yılı aşkın süredir küresel teknoloji ve pazaryeri şirketlerinde şirket içi hukuk, regülasyon, kurumsal ilişkiler ve kamu politikası liderliği yapıyorum; çoğu regüle pazarlarda.",
+      "exp.title": "Düzenlemeye tabi pazarlarda yirmi yılı aşkın deneyim",
+      "exp.lede": "Hukuk ve regülasyonda yirmi yılı aşkın deneyimim var; bu sürenin çoğu küresel teknoloji, tüketici ve pazaryeri şirketlerinde, şirket içinde geçti. Hukuk direktörlüğünü regülasyon, kurumsal ilişkiler ve kamu politikası liderliğiyle birleştirdim.",
       "exp.body": "Bu süre boyunca kanuni yönetim kurulu görevleri üstlendim; soruşturmalar, lisans soruları ve pazara giriş süreçlerinde hukuk fonksiyonlarına liderlik ettim. Yapay zeka üzerine söylediklerim bu uygulama zeminine dayanıyor.",
       "exp.f1": "Şirket içi hukuk ve regülasyon liderliği",
       "exp.f2": "Kanuni yönetim kurulu üyeliği",
@@ -202,26 +202,26 @@
       "ins.kicker": "SON YAZILAR",
       "ins.title": "Hukuk, regülasyon ve yapay zeka üzerine notlar",
       "ins.1.d": "Temmuz 2026",
-      "ins.1.t": "AB Yapay Zeka Tüzüğü: 2 Ağustos 2026'da yürürlüğe girenler",
-      "ins.1.s": "Yüksek riskli sistem tarihleri 2027 ve 2028'e ötelendi. Madde 50 şeffaflık yükümlülükleri ötelenmedi: sohbet robotları, sentetik içerik ve deepfake'ler 2 Ağustos 2026 kapsamında.",
-      "ins.1.href": "https://lexsas.com/tr/yazilar/ab-yapay-zeka-tuzugu-agustos-2026.html",
+      "ins.1.t": "Yapay zeka iş akışı aksadığında: hukuk ekipleri için olay müdahale protokolü",
+      "ins.1.s": "Yapay zeka destekli bir hukuk iş akışı aksadığında sorumluluğu, kayıtların korunmasını, sınırlamayı ve yeniden başlatmayı düzenleyen kısa bir müdahale protokolü.",
+      "ins.1.href": "https://lexsas.com/tr/yazilar/hukuk-ekiplerinde-yapay-zeka-olay-mudahalesi.html",
       "ins.2.d": "Temmuz 2026",
-      "ins.2.t": "Yapay zeka halüsinasyonu yaptırımları büyüyor: hukuk ekipleri için atıf doğrulama protokolü",
-      "ins.2.s": "Yapay zeka halüsinasyonu içeren dosyalarda 1.700'ü aşkın mahkeme kararı. Ekipten çıkan her metin için beş adımlık doğrulama protokolü.",
-      "ins.2.href": "https://lexsas.com/tr/yazilar/yapay-zeka-atif-dogrulama.html",
+      "ins.2.t": "AB Yapay Zeka Tüzüğü: 2 Ağustos 2026'da uygulanmaya başlayanlar",
+      "ins.2.s": "Kabul edilen Dijital Omnibus, yüksek riskli sistemler için 2027 ve 2028'de yeni uygulama tarihleri belirliyor; 18 Temmuz 2026 itibarıyla yayımlanmayı ve yürürlüğe girmeyi bekliyor. Madde 50 yükümlülükleri 2 Ağustos'ta uygulanmaya başlıyor.",
+      "ins.2.href": "https://lexsas.com/tr/yazilar/ab-yapay-zeka-tuzugu-agustos-2026.html",
       "ins.3.d": "Temmuz 2026",
-      "ins.3.t": "Saatlik ücretin mantığı tükeniyor",
-      "ins.3.s": "Yapay zeka saatin kendisini değersizleştiriyor. Yeni nesil bürolar zamanı değil işi fiyatlıyor.",
-      "ins.3.href": "https://lexsas.com/tr/yazilar/saatlik-ucretin-otesi.html",
+      "ins.3.t": "Yapay zeka kaynaklı atıf hataları: hukuk ekipleri için doğrulama protokolü",
+      "ins.3.s": "Bağımsız bir veritabanı, 18 Temmuz 2026 itibarıyla mahkemelerin ya da diğer yargı mercilerinin üretken yapay zeka halüsinasyonlarını veya bazı kayıtlarda yalnızca ileri sürülen yapay zeka kullanımını ele aldığı 1.770'ten fazla vakayı listeliyordu. Beş adımlık doğrulama protokolü.",
+      "ins.3.href": "https://lexsas.com/tr/yazilar/yapay-zeka-atif-dogrulama.html",
 
       "faq.kicker": "SSS",
       "faq.title": "Sık sorulan sorular",
       "faq.1.q": "LEXSAS ne yapar?",
       "faq.1.a": "LEXSAS, hukuki iş akışı otomasyonu ve danışmanlığa odaklanan bir yapay zeka legal-tech girişimidir. Hukuk ve regülasyon ekipleri için talep karşılamadan doküman ve bilgi iş akışlarına, araştırmadan uyum operasyonlarına uzanan yapay zeka destekli araçlar tasarlar; gizlilik, fikri mülkiyet ve yönetişim güvenceleri baştan kuruludur.",
       "faq.2.q": "Danışmanlık hangi alanları kapsıyor?",
-      "faq.2.a": "Hukuk teknolojileri ve yapay zeka yönetişimi, regüle dijital pazarlarda regülasyon ve kurumsal ilişkiler, e-ticaret ve platform regülasyonu, KVKK ve GDPR kapsamında veri koruma ile dijital pazarlarda rekabet soruları. Arkasında küresel teknoloji, tüketici ve pazaryeri şirketlerinde yirmi yılı aşkın hukuk direktörlüğü ve regülasyon liderliği deneyimi var.",
+      "faq.2.a": "Hukuk teknolojileri ve yapay zeka yönetişimi, düzenlemeye tabi dijital pazarlarda regülasyon ve kurumsal ilişkiler, e-ticaret ve platform regülasyonu, KVKK ve GDPR kapsamında veri koruma ile dijital pazarlarda rekabet soruları. Bu çalışmalar, 20 yılı aşkın hukuk ve regülasyon deneyimine dayanıyor; bu sürenin çoğu küresel teknoloji, tüketici ve pazaryeri şirketlerinde, şirket içinde geçti.",
       "faq.3.q": "LEXSAS'ın arkasında kim var?",
-      "faq.3.a": "White & Case'te avukatlıkla başlayıp Amazon, eBay ve Philip Morris International'da yirmi yılı aşkın süre şirket içi hukuk ve regülasyon liderliği yapan Asım Serdar Yılmaz.",
+      "faq.3.a": "LEXSAS'ın kurucusu Asım Serdar Yılmaz, White & Case'te başlayan kariyerinde Amazon ve eBay dahil küresel şirketlerde 20 yılı aşkın hukuk ve regülasyon deneyimi edindi; bu sürenin çoğu şirket içinde geçti.",
       "faq.4.q": "Hangi dillerde çalışıyorsunuz?",
       "faq.4.a": "Türkçe ve İngilizce. Danışmanlık, yazı ve konuşmacılık İstanbul'dan ve uzaktan yürütülüyor.",
       "faq.5.q": "Bu bir avukatlık hizmeti mi?",
@@ -259,7 +259,7 @@
     if (expLink && dict["exp.href"]) expLink.setAttribute("href", dict["exp.href"]);
 
     document.documentElement.setAttribute("lang", lang);
-    if (langToggle) {
+    if (langToggle && langToggle.tagName === "BUTTON") {
       langToggle.textContent = lang === "en" ? "TR" : "EN";
       langToggle.setAttribute(
         "aria-label",
@@ -285,7 +285,7 @@
     }, 190);
   }
 
-  if (langToggle) {
+  if (langToggle && langToggle.tagName === "BUTTON") {
     langToggle.addEventListener("click", () => {
       setLang(currentLang === "en" ? "tr" : "en", false);
     });
@@ -421,9 +421,7 @@
   /* ---------- Init ---------- */
 
   const onTrPath = window.location.pathname.startsWith("/tr");
-  let stored = null;
-  try { stored = localStorage.getItem("lexsas-lang"); } catch (e) { /* ignore */ }
-  const initial = onTrPath ? "tr" : (stored || ((navigator.language || "").toLowerCase().startsWith("tr") ? "tr" : "en"));
+  const initial = onTrPath ? "tr" : "en";
   if (initial !== "en") setLang(initial, true);
 
   splitHeroTitle();

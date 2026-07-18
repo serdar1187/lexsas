@@ -45,10 +45,10 @@ LEXSAS'ı 2026'da, hukuki ve regülatif işi hızlandıran yapay zeka destekli a
 İletişime geçin
 
 #### {{CRED_1}}
-20+ yıl şirket içi hukuk
+20+ yıl hukuk ve regülasyon deneyimi
 
 #### {{CRED_2}}
-Amazon · eBay · PMI · White & Case
+Amazon · eBay · White & Case
 
 #### {{CRED_3}}
 Kanuni yönetim kurulu üyeliği
@@ -99,7 +99,7 @@ Rekabet Kurumu incelemelerinde savunma stratejisi kuruyorum, fiyat paritesi, ür
 Yaklaşım
 
 #### {{APPROACH_1_TITLE}}
-Satıcı değil, uygulayıcı gözü
+Ürün satışı değil, uygulama deneyimi
 
 #### {{APPROACH_1_BODY}}
 Bir ürünü pazarlamak için değil, hukuk işinin içinden konuşuyorum. Neyin gerçekten işe yaradığını, hangi kısayolun sonradan risk biriktirdiğini uygulama deneyimiyle ayırt ediyorum.
@@ -108,7 +108,7 @@ Bir ürünü pazarlamak için değil, hukuk işinin içinden konuşuyorum. Neyin
 Hızı mümkün kılan güvenceler
 
 #### {{APPROACH_2_BODY}}
-Yaklaşımım evet, şu koşulla mantığına dayanıyor. İyi kurulmuş güvenceler işi yavaşlatmaz, tam tersine güvenle hızlanmayı mümkün kılar.
+Yaklaşımım, “evet, şu koşulla” ilkesine dayanıyor. İyi tasarlanmış güvenceler işi yavaşlatmak yerine güvenli biçimde hızlandırabilir.
 
 #### {{APPROACH_3_TITLE}}
 Ölçülebilir pilotlar, insan incelemesi
@@ -120,7 +120,7 @@ Bir çözümün işe yarayıp yaramadığı hislerle değil, ölçülebilir pilo
 Deneyim
 
 #### {{EXP_BODY}}
-Yirmi yılı aşkın süredir küresel teknoloji ve pazaryeri şirketlerine, düzenlemeye tabi pazarlarda şirket içinden hukuk danışmanlığı veriyorum. Bu süre boyunca kanuni yönetim kurulu görevleri üstlendim ve düzenleyici belirsizliği işletmenin ilerleyebileceği somut yollara çevirmeye odaklandım. Yapay zeka üzerine söylediklerim bu uygulama zeminine dayanıyor.
+Hukuk ve regülasyonda yirmi yılı aşkın deneyimim var; bu sürenin çoğu küresel teknoloji, tüketici ve pazaryeri şirketlerinde, şirket içinde geçti. Bu süre boyunca kanuni yönetim kurulu görevleri üstlendim ve düzenleyici belirsizliği işletmenin ilerleyebileceği somut yollara çevirmeye odaklandım.
 
 #### {{EXP_LINK}}
 Kariyer geçmişi
@@ -155,7 +155,7 @@ Danışmanlık, konuşmacı davetleri ve yapay zeka yönetişimi konularındaki 
 Hakkında · LEXSAS
 
 #### {{ABOUT_META_DESC}}
-Asım Serdar Yılmaz: 20 yılı aşkın şirket içi hukuk deneyimi, düzenlemeye tabi pazarlar, yapay zeka yönetişimi ve hukuk teknolojisi odağı.
+Asım Serdar Yılmaz: 20 yılı aşkın hukuk ve regülasyon deneyimi, düzenlemeye tabi pazarlar, yapay zeka yönetişimi ve hukuk teknolojisi odağı.
 
 #### {{ABOUT_KICKER}}
 HAKKINDA
@@ -164,10 +164,10 @@ HAKKINDA
 Asım Serdar Yılmaz
 
 #### {{BIO_P1}}
-Yirmi yılı aşkın süredir Türkiye ve Orta Doğu'da küresel teknoloji, tüketici ve düzenlemeye tabi sektörlerdeki şirketlere şirket içinden hukuk danışmanlığı veriyorum. Alanım perakende, e-ticaret ve pazaryeri, dijital yayıncılık ve içerik, reklam, ödemeler, veri ve yapay zeka ile fikri mülkiyeti kapsıyor. İşin özü, yüksek denetimli ortamlarda pratik ve otonom karar üretmek.
+Yirmi yılı aşkın süredir Türkiye ve Orta Doğu'da küresel teknoloji, tüketici ve düzenlemeye tabi sektörlerde hukuk ve regülasyon alanında çalışıyorum; bu sürenin çoğu şirket içinde geçti. Alanım perakende, e-ticaret ve pazaryerleri, dijital yayıncılık ve içerik, reklam, ödemeler, veri, yapay zeka ve fikri mülkiyeti kapsıyor. Çalışmalarım genellikle işletmenin hızla ilerlemek istediği, düzenleyicinin ise temkinli hareket ettiği noktada yoğunlaşıyor.
 
 #### {{BIO_P2}}
-Kariyerim Ankara'da White & Case bünyesinde, düzenlemeye tabi sektörlerdeki sınır ötesi birleşme, devralma ve özelleştirmelerle başladı. Philip Morris International'da Orta Doğu ve küresel merkez rollerinde katı reklam yasakları altında ticari ekiplere danışmanlık verdim. eBay Türkiye'de Orta Doğu ve Kuzey Afrika bölgesinin hukuk liderliğini yürüttüm. 2019'dan bu yana Amazon Türkiye'de Hukuk Direktörüyüm.
+Kariyerim Ankara'da White & Case bünyesinde, düzenlemeye tabi sektörlerdeki sınır ötesi birleşme, devralma ve özelleştirme çalışmalarıyla başladı. Yüksek düzeyde düzenlemeye tabi bir sektörde faaliyet gösteren küresel bir grupta Orta Doğu ve küresel merkez rollerinde çalıştım. eBay Türkiye'de Orta Doğu ve Kuzey Afrika bölgesinin hukuk liderliğini yürüttüm. 2019-2026 arasında Amazon Türkiye'de Hukuk Direktörü olarak görev yaptım. 2026'da hukuktan regülasyona geçtim.
 
 #### {{BIO_P3}}
 Çalışmalarımın ortak ekseni düzenlemeye tabi pazarlar oldu. Rekabet, tüketici koruma, ödemeler, veri koruma, aracı sorumluluğu ve kurumsal yönetişim gibi alanlarda, düzenleyici belirsizliği işletmenin ilerleyebileceği somut yollara çevirmeye odaklandım. Rekabet Kurumu, KVKK, Ticaret Bakanlığı, RTÜK ve TCMB gibi kurumlar önünde temsil bu işin sürekli parçası oldu.
@@ -194,10 +194,10 @@ Hukuki iş akışı otomasyonuna ve danışmanlığa odaklı bir yapay zeka lega
 Talep karşılama, doküman ve bilgi iş akışları, araştırma ve uyum operasyonları için yapay zeka destekli araçlar tasarlıyor ve bu konuda danışmanlık veriyorum.
 
 #### {{JOB_0_B3}}
-Gizlilik, fikri mülkiyet ve yönetişim güvencelerini araçların tasarımına baştan yerleştiriyorum; 20+ yıllık hukuk ve regülasyon liderliğini sorumlu yapay zeka adaptasyonuyla birleştiriyorum.
+Gizlilik, fikri mülkiyet ve yönetişim güvencelerini araçların tasarımına baştan yerleştiriyorum; çoğu şirket içinde geçen 20 yılı aşkın hukuk ve regülasyon deneyimimi sorumlu yapay zeka benimsemesiyle birleştiriyorum.
 
 #### {{JOB_1_DATES}}
-2019-günümüz
+2019-2026
 
 #### {{JOB_1_ROLE}}
 Hukuk Direktörü ve Kanuni Yönetim Kurulu Üyesi
@@ -209,13 +209,13 @@ Amazon Türkiye, İstanbul
 Perakende ve pazaryeri için uçtan uca hukuk danışmanlığı: ticari sözleşmeler, tüketici hukuku, reklam ve promosyon, ürün uyumu, tedarik zinciri, ödemeler, mahremiyet ve uyuşmazlıklar.
 
 #### {{JOB_1_B2}}
-Sınır ötesi veri aktarımlarının kısa sürede durdurulmasını isteyen bir idari karara yanıt olarak KVKK ile görüşmeleri yürüttüm ve Türkiye'de onaylanan ilk Veri Aktarım Taahhütnamesini hayata geçirerek aktarımları kesintisiz yasal zemine taşıdım.
+Sınır ötesi veri aktarımına ilişkin bir KVKK kararına yanıt olarak, KVKK Kurumu tarafından onaylanan bir Veri Aktarım Taahhütnamesi hazırladım ve imzaladım.
 
 #### {{JOB_1_B3}}
-Fiyatlama algoritmaları üzerine yürütülen bir Rekabet Kurumu incelemesinde Türkiye savunma stratejisini yönettim; algoritmik bağımsızlığa dayanan teknik ve iktisadi anlatı dosyanın idari para cezası olmadan kapanmasını sağladı.
+Fiyatlama algoritmaları üzerine yürütülen bir Rekabet Kurumu incelemesinde Türkiye savunma stratejisini yönettim; savunma, algoritmik bağımsızlığa dayanan teknik ve iktisadi bir anlatı üzerine kuruluydu.
 
 #### {{JOB_1_B4}}
-Teslimat taahhüdüne ilişkin bir Ticaret Bakanlığı incelemesinde, bilgilendirici beyan ile sözleşmesel taahhüt ayrımına dayanan hukuki tezi kurdum ve düzenleyiciyle yürütülen görüşmeler önerilen idari para cezasında önemli ölçüde indirimle sonuçlandı.
+Teslimat taahhüdüne ilişkin bir Ticaret Bakanlığı incelemesinde şirketi temsil ettim.
 
 #### {{JOB_1_B5}}
 AWS Bedrock üzerinde üretken yapay zeka destekli hukuk araçlarının geliştirilmesine katkı verdim ve birden çok Amazon tüzel kişiliği için kanuni yönetim kurulu üyeliği görevlerini yürüttüm.
@@ -287,7 +287,7 @@ Uyuşmazlıklar ve iş hukuku: iş sözleşmeleri, ticari ve iş uyuşmazlıklar
 Yönetim kurulu ve kurumsal yönetişim
 
 #### {{BOARD_BODY}}
-Türk şirketler hukuku kapsamında birden çok Amazon tüzel kişiliği için kanuni yönetim kurulu üyeliği ve yetkili temsilcilik görevlerini yürütüyorum. Bu roller, kurul sorumluluğu, yetki yönetimi ve kurumsal yönetişim disiplinini kapsıyor. Daha önce Elektronik Ticaret İşletmecileri Derneği'nde yardımcı yönetim kurulu üyeliği görevini üstlendim.
+2019-2026 arasında Türk şirketler hukuku kapsamında birden çok Amazon tüzel kişiliği için kanuni yönetim kurulu üyeliği ve yetkili temsilcilik görevlerini yürüttüm. Bu roller kurul sorumluluğu, yetki yönetimi ve kurumsal yönetişim disiplinini kapsıyordu. Daha önce Elektronik Ticaret İşletmecileri Derneği'nde yardımcı yönetim kurulu üyeliği görevini üstlendim.
 
 #### {{EDU_H2}}
 Eğitim

@@ -9,8 +9,8 @@ Legal workflow automation, with the guardrails built in
 LEXSAS is the AI legal-tech venture I founded in 2026. I design and advise on tools that take the manual work out of legal and regulatory operations, from intake and document workflows to research and compliance, with privacy, IP and governance guardrails in place from the start.
 Get in touch
 Explore focus areas
-20+ years in-house
-Amazon, eBay, PMI, White & Case
+20+ years in legal and regulatory work
+Amazon, eBay, White & Case
 Statutory Board Director
 Ankara Bar
 FOCUS AREAS
@@ -23,11 +23,11 @@ Privacy, IP and governance guardrails that ship with the tool rather than after 
 GenAI transformation for legal teams
 Legal operations strategy for generative AI: where to start, what to build versus buy, and how responsible adoption actually happens. I have co-developed GenAI legal tooling in-house on AWS Bedrock and run the pilots that followed.
 Data protection and data sovereignty
-Cross-border data transfer and localisation questions under KVKK and GDPR, including how to keep transfers lawful when a regulator changes its position. I have executed a first-in-market data transfer undertaking under KVKK.
+Cross-border data transfer and localisation questions under KVKK and GDPR, including undertakings and the practical controls needed when regulatory expectations change.
 E-commerce and platform regulation
 Marketplace and platform rules across consumer protection, advertising, intermediary liability and payments touchpoints. This includes licensing perimeter questions and the controls that keep a platform compliant at scale.
 Competition and digital markets
-Antitrust strategy for platforms, covering parity clauses, ranking practices and algorithmic accountability. I have led a competition defense on pricing algorithms through to file closure with no penalty.
+Antitrust strategy for platforms, covering parity clauses, ranking practices, pricing algorithms and the controls needed for accountable digital markets.
 APPROACH
 How I work
 Practitioner, not vendor
@@ -40,7 +40,7 @@ Every AI deployment should begin as a pilot with a defined measure of success an
 The operating principle
 EXPERIENCE
 Twenty years across the table from regulators
-I have spent 20+ years in-house with global technology and marketplace businesses, blending legal directorship with regulatory affairs, corporate affairs and public policy leadership, most of it in regulated markets.
+I bring more than 20 years of legal and regulatory experience, most of it in-house, across global technology, consumer and marketplace businesses. That experience combines legal directorship with regulatory affairs, corporate affairs and public policy in regulated markets.
 That includes statutory board roles and leading legal functions through investigations, licensing questions and market entry. What I say about AI stands on this practitioner ground.
 Legal and regulatory leadership, in-house
 Statutory board directorship
@@ -49,22 +49,22 @@ Full background
 LATEST INSIGHTS
 Notes on law, regulation and AI
 July 2026
+When an AI workflow fails: an incident protocol for legal teams
+A short response path for ownership, evidence, containment and restart when an AI-assisted legal workflow goes wrong.
+July 2026
 The EU AI Act on 2 August 2026: what actually applies
-The high-risk deadlines moved to 2027 and 2028. The Article 50 transparency duties did not: chatbots, synthetic content and deepfakes are in scope from 2 August 2026.
+The adopted Digital Omnibus sets new high-risk application dates in 2027 and 2028; as of 18 July 2026 it awaited publication and entry into force. Article 50 duties become applicable on 2 August.
 July 2026
-AI citation sanctions keep climbing: a verification protocol for legal teams
-More than 1,700 court decisions involve AI-hallucinated filings. A five-step verification protocol before anything leaves the team.
-July 2026
-The billable hour is running out of logic
-AI deflates the hour itself. Next generation firms price the work, not the time.
+AI citation errors: a verification protocol for legal teams
+An independent database listed more than 1,770 cases as of 18 July 2026 in which courts or tribunals addressed generative-AI hallucinations or, in some entries, alleged AI use. A five-step verification protocol.
 FAQ
 Common questions
 What does LEXSAS do?
 LEXSAS is an AI legal-tech venture focused on legal workflow automation and advisory. It designs AI-enabled tooling for legal and regulatory teams, from intake and document workflows to research and compliance operations, and advises on responsible adoption with privacy, IP and governance guardrails built in.
 Which areas does the advisory work cover?
-Legal technology and AI governance, regulatory affairs and corporate affairs in regulated digital markets, e-commerce and platform regulation, data protection under KVKK and GDPR, and competition questions in digital markets. Behind it sit 20+ years of in-house work as legal director and regulatory affairs leader with global technology, consumer and marketplace businesses.
+Legal technology and AI governance, regulatory affairs and corporate affairs in regulated digital markets, e-commerce and platform regulation, data protection under KVKK and GDPR, and competition questions in digital markets. The work is grounded in more than 20 years of legal and regulatory experience, most of it in-house, across global technology, consumer and marketplace businesses.
 Who is behind LEXSAS?
-Asim Serdar Yilmaz, founder of LEXSAS and a senior legal and regulatory affairs leader with more than two decades in-house at Amazon, eBay and Philip Morris International, following private practice at White & Case.
+Asim Serdar Yilmaz, founder of LEXSAS and a senior legal and regulatory affairs leader with more than 20 years of experience, most of it in-house, following private practice at White & Case.
 Do you work in English and Turkish?
 Yes. Advisory, writing and speaking are available in both languages, from Istanbul and remotely.
 Is this legal representation?
@@ -79,8 +79,8 @@ Advisory on AI governance, regulated digital markets and legal operations. Speak
 ============================================================
 Page title: Asim Serdar Yilmaz | Legal and Regulatory Affairs Leader · LEXSAS
 ABOUT
-Asim Serdar Yilmaz: two decades inside regulated technology businesses
-I am Asim Serdar Yilmaz, a senior in-house legal leader based in Istanbul. Over more than 20 years I have advised global technology, consumer and regulated businesses across Turkey and the Middle East, in retail and marketplace, streaming and media, advertising, payments, data and IP. My work tends to sit where a business wants to move quickly and a regulator wants to move carefully.
+Asim Serdar Yilmaz: more than 20 years across regulated technology businesses
+I am Asim Serdar Yilmaz, a senior legal and regulatory affairs leader based in Istanbul. Across more than 20 years of legal and regulatory work, most of it in-house, I have advised global technology, consumer and regulated businesses across Turkey and the Middle East, in retail and marketplace, streaming and media, advertising, payments, data and IP. My work tends to sit where a business wants to move quickly and a regulator wants to move carefully.
 I started in private practice at White & Case in Ankara, on cross-border M&A, privatisations and IP in regulated sectors. From there I moved in-house: first into a strict, high-scrutiny compliance environment at a global group in a highly regulated industry across the Middle East, then into e-commerce at eBay's Turkey and MENA business, and from 2019 to 2026 as Legal Director for Amazon Turkey. In 2026 I moved from legal into regulatory affairs, and today I lead the regulatory agenda within the corporate affairs function of a global group in a highly regulated industry.
 The thread through all of it is regulated markets. I have spent years turning regulatory ambiguity into paths a business can actually take, and building what I think of as "yes, if" guardrails: controls that let a team move at speed while protecting the enterprise over the long term. Much of that has meant sitting across the table from competition authorities, data protection regulators, media regulators and ministries.
 The other current chapter is LEXSAS, the AI legal-tech venture I founded in 2026, focused on legal workflow automation and advisory. It blends what the career built in layers: legal directorship, regulatory affairs, corporate affairs and public policy, now paired with hands-on AI governance. It grew out of years of building generative AI tooling for legal work, on AWS Bedrock among other platforms, and of seeing where adoption succeeds and where it quietly fails. This site is where I write about that intersection of law, regulation and AI, as informational consultancy rather than legal representation.
@@ -144,12 +144,15 @@ Ankara Bar Association. Languages: Turkish (native), English (fluent).
 INSIGHTS
 Notes on law, regulation and AI
 Short, practitioner pieces on the questions I keep returning to: how AI governance works in practice, how regulated digital markets are changing, and where legal operations can genuinely improve.
+July 2026 - AI governance
+When an AI workflow fails: an incident protocol for legal teams
+A short response path for ownership, evidence, containment and restart when an AI-assisted legal workflow goes wrong.
 July 2026 - AI regulation
 The EU AI Act on 2 August 2026: what actually applies
-The high-risk deadlines moved to 2027 and 2028. The Article 50 transparency duties did not: chatbots, synthetic content and deepfakes are in scope from 2 August 2026.
+The adopted Digital Omnibus sets new high-risk application dates in 2027 and 2028; as of 18 July 2026 it awaited publication and entry into force. Article 50 duties become applicable on 2 August.
 July 2026 - Legal AI
-AI citation sanctions keep climbing: a verification protocol for legal teams
-More than 1,700 court decisions involve AI-hallucinated filings. A five-step verification protocol before anything leaves the team.
+AI citation errors: a verification protocol for legal teams
+An independent database listed more than 1,770 cases as of 18 July 2026 in which courts or tribunals addressed generative-AI hallucinations or, in some entries, alleged AI use. A five-step verification protocol.
 July 2026 - E-commerce law
 Marketplace intermediary liability in Turkey: three regimes to read together
 A marketplace's liability in Turkey sits where three regimes meet: e-commerce Law 6563, consumer Law 6502, and the 5651 content regime.
@@ -176,7 +179,7 @@ The billable hour is running out of logic
 AI deflates the hour itself. Next generation firms price the work, not the time.
 July 2026 - Legal AI
 AI is quietly redrawing the legal industry
-Adoption doubled in a year. The advantage is shifting from headcount to judgment and workflow design.
+Corporate legal-department use roughly doubled in a year, while law-firm use also rose sharply. The advantage is shifting to judgment and workflow design.
 July 2026 - Legal operations
 Where a lawyer's hours actually go
 The average lawyer bills a fraction of the day. What workflow automation recovers, and how to start.
@@ -219,7 +222,7 @@ Asim Serdar Yilmaz
 July 2026
 On June 12, the AI sitting inside a lot of everyday workflows just stopped working.
 On June 26, OpenAI previewed GPT-5.6 Sol to a small group of trusted partners. OpenAI stated: "We don't believe this kind of government access process should become the long-term default."
-On June 12, 2026, Anthropic removed access to its frontier AI models Fable 5 and Mythos 5. Its statement: "We are complying with the government's legal directive and are removing access to Fable 5 and Mythos 5 for all users." Export controls were lifted on July 1.
+On June 12, 2026, Anthropic removed access to its frontier AI models Fable 5 and Mythos 5. Its statement: "We are complying with the government's legal directive and are removing access to Fable 5 and Mythos 5 for all users." The controls on both models were lifted on June 30. Fable 5 returned globally on July 1. Anthropic initially restored Mythos 5 only to selected US organisations, then said in a July 1 update that access to both models had been restored for their respective approved audiences.
 Epictetus sorted things into what we control and what we don't. I quote that line more often than I live by it. June was the opening scene where the camera lingers on a pistol for a moment, then moves on. We all know that pistol goes off before the credits.
 My read: AI bans are joining a sanctions toolkit the world already knows. A year or two from now, a cutoff would not play out like frozen offshore accounts. It could bring ordinary life close to a standstill. An explicit AI policy and open-source fallbacks are the hedge. The next episode will show who prepared.
 #AIPolicy - #DigitalSovereignty - #AIGeopolitics - #TechDiplomacy
@@ -242,38 +245,57 @@ Location
 Istanbul, Turkey
 
 ============================================================
+## Article: When an AI workflow fails: an incident protocol for legal teams  <https://lexsas.com/insights/ai-incident-response-legal-teams.html>
+============================================================
+Insights
+July 2026 - 2 min read
+When an AI workflow fails: an incident protocol for legal teams
+An AI incident is not only a security event. For legal and regulatory teams, it may begin with an unreliable output, data exposure, a model change or an irreproducible workflow. The useful question is not whether the system is “intelligent,” but whether the team can stop, examine and restart it without losing the record.
+NIST's voluntary AI RMF has four core functions: Govern, Map, Measure and Manage. The companion Playbook suggests actions. In incident response, that means assigning decision rights before deployment; mapping the affected use case, data and stakeholders; assessing behaviour and impact; then containing the issue, documenting remediation and setting restart criteria.
+The European Commission's 7 July 2026 action plan reinforces that operational focus. It highlights model evaluation and secure testing, and a blueprint to be developed with ENISA for secure access to advanced AI systems for cybersecurity. It also connects AI resilience with existing EU cybersecurity instruments. The plan does not replace sector-specific analysis. It shows why legal, compliance, security and product teams need one shared response path.
+Checklist
+Name the incident owner, decision maker and vendor contact.
+Securely preserve relevant prompts, outputs, model/version details and logs.
+Record containment, impact assessment, remediation and the restart decision.
+Sources
+European Commission, EU Action Plan on Cybersecurity and Artificial Intelligence, 7 July 2026
+NIST, AI Risk Management Framework Playbook, updated 10 June 2026
+Related: Legal tech and AI workflow automation
+
+============================================================
 ## Article: The EU AI Act on 2 August 2026: what actually applies  <https://lexsas.com/insights/eu-ai-act-august-2026.html>
 ============================================================
 Insights
 July 2026 - 3 min read
 The EU AI Act on 2 August 2026: what actually applies
-For two years, 2 August 2026 was the date every AI compliance plan revolved around. In June the calendar was redrawn: the Digital Omnibus, adopted by the European Parliament on 16 June and by the Council on 29 June, moves the high-risk obligations for Annex III systems to 2 December 2027 and the rules for AI embedded in regulated products to 2 August 2028. The act now awaits publication in the Official Journal.
-The common misreading is to treat that as a pause. One block of the regulation was not postponed: the Article 50 transparency obligations, which apply from 2 August 2026 to any organisation whose AI interacts with people or publishes content.
-In practice, three duties matter for most companies. A chatbot must disclose that the user is talking to AI at the start of the interaction. AI-generated text, image, audio and video must carry machine-readable marking. Deepfakes, and AI-generated text published to inform the public, must be visibly labelled. The Commission's Code of Practice on marking and labelling, published on 10 June 2026, is the ready-made path to show conformity.
-Enforcement arrives on the same date. From 2 August 2026, national market surveillance authorities can fine breaches of these duties up to 15 million euro or 3 percent of worldwide annual turnover. Two narrow transitions exist: providers of generative systems already on the market have until 2 December 2026 to make machine-readable marking work, and a new ban on AI systems that generate non-consensual intimate imagery applies from that December date.
-The rest of the timeline was already live. The prohibited-practice bans and the AI literacy duty have applied since February 2025, and the obligations for general-purpose AI models since August 2025, with the voluntary GPAI Code of Practice as the mainstream compliance route for providers.
-For a legal team, three moves before the date. First, inventory every AI surface that talks to people or publishes outward, including marketing, customer service and product features. Second, check that disclosures are switched on and visible at first contact, not buried in terms of use. Third, write down for each surface whether you sit in the provider or deployer seat: both carry duties, and white-labelling a vendor's tool can move you into the provider one. The high-risk work bought time. Transparency did not.
+For two years, 2 August 2026 was the date every AI compliance plan revolved around. The Digital Omnibus, adopted by the European Parliament on 16 June and by the Council on 29 June, sets 2 December 2027 for the high-risk obligations applying to Annex III systems and 2 August 2028 for those applying to AI embedded in regulated products. As of 18 July 2026, the amending regulation awaited publication in the Official Journal and would enter into force on the third day after publication.
+The common misreading is to treat that as a pause. Article 50 was not postponed. From 2 August 2026, providers of AI systems intended to interact directly with natural persons must ensure those persons are informed unless the interaction is obvious. Providers of AI systems, including general-purpose AI systems, that generate synthetic audio, image, video or text must make outputs machine-readable and detectable as artificially generated or manipulated. That marking duty is limited by technical feasibility, the characteristics and limitations of the content, implementation costs and the generally acknowledged state of the art; it does not apply to standard assistive editing, systems that do not substantially alter the deployer's input or its meaning, or qualifying law-enforcement uses. Deployers must disclose deepfakes and certain public-interest text, subject to the regulation's scope and exceptions.
+The duty therefore depends on the organisation's role and the output, not merely on whether it uses AI. The Commission's voluntary Code of Practice on marking and labelling, published on 10 June 2026, can support compliance with specified Article 50 duties. It does not replace the regulation or the need to analyse the use case.
+Article 50 duties become enforceable on 2 August 2026. Breaches can attract administrative fines of up to 15 million euro or, for undertakings, 3 percent of total worldwide annual turnover, whichever is higher; SMEs are subject to the lower of those caps. Depending on national law, competent courts or other bodies may impose the fine. Two December transitions are narrower than a general pause: providers of AI systems, including general-purpose AI systems, that generate synthetic content and were placed on the market before 2 August 2026 have until 2 December 2026 to comply with Article 50(2); specified prohibitions on provider and deployer practices involving non-consensual intimate material and child sexual abuse material also apply from 2 December 2026.
+The AI Act's original Article 5 prohibitions and the AI literacy duty have applied since February 2025. Chapter V has applied to general-purpose AI models since August 2025, while providers of models placed on the market before 2 August 2025 have until 2 August 2027 to comply. The voluntary GPAI Code of Practice can help providers demonstrate compliance.
+For a legal team, three moves before the date. First, inventory every AI surface that talks to people or publishes outward, including marketing, customer service and product features. Second, map the output and the applicable disclosure or marking rule, including any exception. Third, record whether the organisation acts as provider or deployer for each surface. Offering a vendor tool under your own name may affect that role analysis. Once in force, the adopted text gives high-risk work more time. It does not postpone transparency.
 Sources
 European Commission, AI Act policy page (application timeline), July 2026
 Council of the EU, final green light to the Digital Omnibus on AI, 29 June 2026
 European Commission, Code of Practice on Transparency of AI-Generated Content, June 2026
+EUR-Lex, Regulation (EU) 2024/1689 (AI Act), Articles 50, 99, 111 and 113
+Council of the EU, adopted Digital Omnibus on AI text, PE-CONS 30/26, June 2026
 Related: Legal tech and AI workflow automation
 
 ============================================================
-## Article: AI citation sanctions keep climbing: a verification protocol for legal teams  <https://lexsas.com/insights/ai-citation-verification.html>
+## Article: AI citation errors: a verification protocol for legal teams  <https://lexsas.com/insights/ai-citation-verification.html>
 ============================================================
 Insights
 July 2026 - 3 min read
-AI citation sanctions keep climbing: a verification protocol for legal teams
-The counter only moves one way. Damien Charlotin's public database of court decisions engaging with AI-hallucinated filings passed 1,700 entries this month, the majority from US courts, with several new decisions added every working day.
-The escalation is easy to trace. In 2023, Mata v. Avianca cost two lawyers $5,000 and made global news. In 2026 alone, the Sixth Circuit ordered two attorneys to pay $15,000 each on top of the opposing side's fees, an Oregon winery dispute produced roughly $110,000 in aggregate sanctions and a dismissal, and Nebraska suspended a lawyer from practice until further order of the court, pending full disciplinary proceedings, over AI-hallucinated citations. On 3 June, the Ninth Circuit suspended two lawyers from its bar for six months, fined them $2,500 each, and ordered them to disclose any AI use in their filings for the next two years.
-Read the orders and one pattern holds. Courts do not sanction the use of AI; they sanction signing and filing what was not checked. The Ninth Circuit put it plainly: the rules are not violated at the point of research and drafting, but at the point of signing and filing. Severity then tracks the response. Lawyers who disclosed the error promptly and corrected it received warnings. Lawyers who blamed typos, juniors or another AI tool received suspensions. Hundreds of US judges also run their own standing orders on AI in filings, tracked by Ropes and Gray, so the local rule needs checking before every submission.
+AI citation errors: a verification protocol for legal teams
+Damien Charlotin's independent, work-in-progress public database had identified more than 1,770 legal cases worldwide as of 18 July 2026 in which courts or tribunals addressed generative-AI hallucinations or, in some entries, alleged AI use. The project tracks relevant legal decisions, but it is not an official court registry and its count should not be read as a complete judicial total. Its scale still makes the operational point clear: AI-assisted legal work needs a verification record before it leaves the team.
+A primary decision shows how that responsibility is applied. In LNU v. Blanche, filed on 3 June 2026, the US Court of Appeals for the Ninth Circuit suspended two attorneys from practice before that court for six months, imposed a $2,500 sanction on each, and required AI-use disclosure and certification in their filings for two years. The court explained that the relevant duties are breached when an unchecked document is signed and filed, not merely when AI is used for research or drafting.
+The lesson is narrower and more useful than a general warning against AI. A team needs to know which source was opened, which quotation was checked, which proposition was tested and who accepted responsibility for the final text.
 My verification protocol has five steps, none optional for anything that leaves the team. One, open every citation in the official reporter or database; never ask a second AI whether the first AI's case exists. Two, compare every quotation against the opinion word by word. Three, test the proposition: the case must actually say what the draft claims it says. Four, test validity: the authority must still be good law. Five, a named person signs the verification note before the document goes out. The same five steps apply to client memos and advice, not only to court filings.
-In-house teams have one extra lever: outside counsel. Put in the engagement letter how the firm verifies AI-assisted citations and who certifies it per filing. Turkish bar guidance now lands in the same place: the Union of Turkish Bar Associations' advisory guide for lawyers, published in June 2026, puts the duty to verify AI output and the final responsibility squarely on the lawyer. The tool is welcome in the workflow. The judgment never leaves it.
+In-house teams have one extra lever: outside counsel. Put in the engagement letter how the firm verifies AI-assisted citations and who certifies the review. The Union of Turkish Bar Associations' June 2026 guidance also stresses human oversight, critical verification of outputs, confidentiality and the lawyer's final professional responsibility. The tool may assist the workflow; professional judgment and final responsibility remain human.
 Sources
-Damien Charlotin, AI Hallucination Cases database, July 2026
-ABA Journal, Attorneys' lack of candor over AI errors leads to stricter sanctions, 4 June 2026
-Ropes and Gray, Artificial Intelligence Court Order Tracker
+Damien Charlotin, AI Hallucination Cases database, work in progress, updated 18 July 2026
+US Court of Appeals for the Ninth Circuit, LNU v. Blanche, 3 June 2026
 Union of Turkish Bar Associations, AI and lawyering workshop outcome panel, 20 June 2026
 Related: Legal tech and AI workflow automation
 
@@ -283,12 +305,14 @@ Related: Legal tech and AI workflow automation
 Insights
 July 2026 - 2 min read
 Marketplace intermediary liability in Turkey: three regimes to read together
-I spent years running legal and regulatory work for online marketplaces in Turkey, and the question that came up most was deceptively simple. When a third party sells something on our platform, what are we on the hook for? The honest answer is that no single statute holds it. A marketplace's exposure sits where three regimes overlap, and the work is to read them as one map rather than three separate texts.
-The first is the E-Commerce Law, No. 6563, reshaped by the 2022 amendments that introduced a tiered set of obligations for large intermediary service providers. The second is consumer protection under Law No. 6502, which sets duties around pre-contract information, the defective goods process, and refunds when a transaction goes wrong. The third is the internet content regime under Law No. 5651. Its main personal-rights takedown article was annulled by the Constitutional Court in October 2024 and is now awaiting re-legislation, which is exactly why a platform cannot read it in isolation and needs the combined map.
+I spent years running legal and regulatory work for online marketplaces in Turkey, and the question that came up most was deceptively simple. When a third party sells something on our platform, what are we on the hook for? The honest answer is that no single statute holds it. Three regimes provide a useful starting map, but not an exhaustive one: product-specific rules, payments, advertising, data protection and other frameworks may add further layers. The platform's role and conduct still have to be mapped in each.
+The first is the E-Commerce Law, No. 6563. Its 2022 amendments introduced tiered obligations for electronic commerce intermediary service providers, with additional duties at higher statutory thresholds. The second is the consumer framework under Law No. 6502 and the Distance Contracts Regulation. It allocates duties by role; it neither turns every seller or supplier duty automatically into a platform duty nor leaves an intermediary service provider with none. Pre-contract information, order, payment, refund and complaint processes should be mapped to the function each actor actually performs. The third is the internet content regime under Law No. 5651. The Constitutional Court annulled Article 9 in its 11 October 2023 decision; the annulment took effect in October 2024. That change is another reason a platform needs a current, combined map rather than a static reading of one statute.
 The volume behind these questions is not small. The Ministry of Trade reported total e-commerce volume in Turkey at 3 trillion lira in 2024, up 61.7 percent on the year (ticaret.gov.tr). More sellers and more listings mean more moments where the three regimes meet a single transaction.
-The practical work is mapping them together. A single listing or complaint can raise duties under more than one regime at once: a takedown question, a consumer remedy, and a record-keeping obligation, side by side. Reading one regime in isolation is how a compliant-looking process still leaves a gap. The artifact that closes it is a current, per-regime duty map, each duty tied to an owner and a legal basis.
+The practical work is mapping the applicable layers and roles together. A single listing or complaint can raise duties under more than one regime at once: a takedown question, a consumer remedy, and a record-keeping obligation, side by side. Reading one regime in isolation is how a compliant-looking process still leaves a gap. The artifact that closes it is a current, per-regime and per-role duty map, each duty tied to an owner and a legal basis.
 Sources
 Ticaret Bakanlığı, Türkiye'de E-Ticaretin Görünümü Raporu (2025)
+Ministry of Trade, Law No. 6502 and implementing regulations, including the Distance Contracts Regulation
+Constitutional Court of Türkiye, annulment of Article 9 of Law No. 5651, 11 October 2023
 Related: E-commerce and platform regulation
 
 ============================================================
@@ -479,13 +503,13 @@ Hukuki işi hızlandıran yapay zeka, güvenceler baştan kurulu
 LEXSAS'ı 2026'da, hukuki ve regülatif işi hızlandıran yapay zeka destekli araçlar tasarlamak ve bu konuda danışmanlık vermek için kurdum. Talep karşılama, doküman ve bilgi iş akışları, araştırma ve uyum operasyonları üzerine çalışıyorum; gizlilik, fikri mülkiyet ve yönetişim güvencelerini baştan kuruyorum.
 İletişime geçin
 Çalışma alanları
-20+ yıl şirket içi hukuk
-Amazon, eBay, PMI, White & Case
+20+ yıl hukuk ve regülasyon deneyimi
+Amazon, eBay, White & Case
 Kanuni yönetim kurulu üyeliği
 Ankara Barosu
 ÇALIŞMA ALANLARI
 Altı alan, tek çalışma standardı
-Talep otomasyonundan rekabet savunmasına, her iş güvenceleriyle gelir.
+Talep otomasyonundan rekabet savunmasına kadar her çalışmada gerekli güvenceleri baştan kuruyorum.
 Hukuk teknolojisi ve yapay zeka iş akışı otomasyonu
 Talep karşılama, doküman ve bilgi iş akışları, araştırma ve uyum operasyonlarını hızlandıran yapay zeka destekli araçlar tasarlıyorum. Tekrar eden işi sadeleştirip hukukçunun zamanını gerçekten muhakeme isteyen işlere ayırmayı hedefliyorum.
 Yapay zeka yönetişimi ve regülasyon uyumu
@@ -500,17 +524,17 @@ Rekabet ve dijital pazarlar
 Rekabet Kurumu incelemelerinde savunma stratejisi kuruyorum, fiyat paritesi, ürün paketleme ve sıralama uygulamaları gibi konularda çalışıyorum. Algoritmik hesap verebilirlik özel odak noktam.
 YAKLAŞIM
 Nasıl çalışıyorum
-Satıcı değil, uygulayıcı gözü
+Ürün satışı değil, uygulama deneyimi
 Bir ürünü pazarlamak için değil, hukuk işinin içinden konuşuyorum. Neyin gerçekten işe yaradığını, hangi kısayolun sonradan risk biriktirdiğini uygulama deneyimiyle ayırt ediyorum.
 Hızı mümkün kılan güvenceler
-Yaklaşımım evet, şu koşulla mantığına dayanıyor. İyi kurulmuş güvenceler işi yavaşlatmaz, tam tersine güvenle hızlanmayı mümkün kılar.
+Yaklaşımım, “evet, şu koşulla” ilkesine dayanıyor. İyi tasarlanmış güvenceler işi yavaşlatmak yerine güvenli biçimde hızlandırabilir.
 Ölçülebilir pilotlar, insan incelemesi
 Bir çözümün işe yarayıp yaramadığı hislerle değil, ölçülebilir pilotlarla anlaşılır. Aracın hiçbir çıktısı, bir hukukçunun incelemesinden geçmeden dışa çıkmaz.
 “Faydalı cevap çoğu zaman düz bir evet ya da hayır değildir; evet, şu koşulla.”
 Çalışma ilkesi
 DENEYİM
-Yirmi yıl, regülatörlerin karşısında
-Yirmi yılı aşkın süredir küresel teknoloji ve pazaryeri şirketlerinde şirket içi hukuk, regülasyon, kurumsal ilişkiler ve kamu politikası liderliği yapıyorum; çoğu regüle pazarlarda.
+Düzenlemeye tabi pazarlarda yirmi yılı aşkın deneyim
+Hukuk ve regülasyonda yirmi yılı aşkın deneyimim var; bu sürenin çoğu küresel teknoloji, tüketici ve pazaryeri şirketlerinde, şirket içinde geçti. Hukuk direktörlüğünü regülasyon, kurumsal ilişkiler ve kamu politikası liderliğiyle birleştirdim.
 Bu süre boyunca kanuni yönetim kurulu görevleri üstlendim; soruşturmalar, lisans soruları ve pazara giriş süreçlerinde hukuk fonksiyonlarına liderlik ettim. Yapay zeka üzerine söylediklerim bu uygulama zeminine dayanıyor.
 Şirket içi hukuk ve regülasyon liderliği
 Kanuni yönetim kurulu üyeliği
@@ -519,22 +543,22 @@ Kariyer geçmişi
 SON YAZILAR
 Hukuk, regülasyon ve yapay zeka üzerine notlar
 Temmuz 2026
-AB Yapay Zeka Tüzüğü: 2 Ağustos 2026'da yürürlüğe girenler
-Yüksek riskli sistem tarihleri 2027 ve 2028'e ötelendi. Madde 50 şeffaflık yükümlülükleri ötelenmedi: sohbet robotları, sentetik içerik ve deepfake'ler 2 Ağustos 2026 kapsamında.
+Yapay zeka iş akışı aksadığında: hukuk ekipleri için olay müdahale protokolü
+Yapay zeka destekli bir hukuk iş akışı aksadığında sorumluluğu, kayıtların korunmasını, sınırlamayı ve yeniden başlatmayı düzenleyen kısa bir müdahale protokolü.
 Temmuz 2026
-Yapay zeka halüsinasyonu yaptırımları büyüyor: hukuk ekipleri için atıf doğrulama protokolü
-Yapay zeka halüsinasyonu içeren dosyalarda 1.700'ü aşkın mahkeme kararı. Ekipten çıkan her metin için beş adımlık doğrulama protokolü.
+AB Yapay Zeka Tüzüğü: 2 Ağustos 2026'da uygulanmaya başlayanlar
+Kabul edilen Dijital Omnibus, yüksek riskli sistemler için 2027 ve 2028'de yeni uygulama tarihleri belirliyor; 18 Temmuz 2026 itibarıyla yayımlanmayı ve yürürlüğe girmeyi bekliyor. Madde 50 yükümlülükleri 2 Ağustos'ta uygulanmaya başlıyor.
 Temmuz 2026
-Saatlik ücretin mantığı tükeniyor
-Yapay zeka saatin kendisini değersizleştiriyor. Yeni nesil bürolar zamanı değil işi fiyatlıyor.
+Yapay zeka kaynaklı atıf hataları: hukuk ekipleri için doğrulama protokolü
+Bağımsız bir veritabanı, 18 Temmuz 2026 itibarıyla mahkemelerin ya da diğer yargı mercilerinin üretken yapay zeka halüsinasyonlarını veya bazı kayıtlarda yalnızca ileri sürülen yapay zeka kullanımını ele aldığı 1.770'ten fazla vakayı listeliyordu. Beş adımlık doğrulama protokolü.
 SSS
 Sık sorulan sorular
 LEXSAS ne yapar?
 LEXSAS, hukuki iş akışı otomasyonu ve danışmanlığa odaklanan bir yapay zeka legal-tech girişimidir. Hukuk ve regülasyon ekipleri için talep karşılamadan doküman ve bilgi iş akışlarına, araştırmadan uyum operasyonlarına uzanan yapay zeka destekli araçlar tasarlar; gizlilik, fikri mülkiyet ve yönetişim güvenceleri baştan kuruludur.
 Danışmanlık hangi alanları kapsıyor?
-Hukuk teknolojileri ve yapay zeka yönetişimi, regüle dijital pazarlarda regülasyon ve kurumsal ilişkiler, e-ticaret ve platform regülasyonu, KVKK ve GDPR kapsamında veri koruma ile dijital pazarlarda rekabet soruları. Arkasında küresel teknoloji, tüketici ve pazaryeri şirketlerinde yirmi yılı aşkın hukuk direktörlüğü ve regülasyon liderliği deneyimi var.
+Hukuk teknolojileri ve yapay zeka yönetişimi, düzenlemeye tabi dijital pazarlarda regülasyon ve kurumsal ilişkiler, e-ticaret ve platform regülasyonu, KVKK ve GDPR kapsamında veri koruma ile dijital pazarlarda rekabet soruları. Bu çalışmalar, 20 yılı aşkın hukuk ve regülasyon deneyimine dayanıyor; bu sürenin çoğu küresel teknoloji, tüketici ve pazaryeri şirketlerinde, şirket içinde geçti.
 LEXSAS'ın arkasında kim var?
-White & Case'te avukatlıkla başlayıp Amazon, eBay ve Philip Morris International'da yirmi yılı aşkın süre şirket içi hukuk ve regülasyon liderliği yapan Asım Serdar Yılmaz.
+LEXSAS'ın kurucusu Asım Serdar Yılmaz, White & Case'te başlayan kariyerinde Amazon ve eBay dahil küresel şirketlerde 20 yılı aşkın hukuk ve regülasyon deneyimi edindi; bu sürenin çoğu şirket içinde geçti.
 Hangi dillerde çalışıyorsunuz?
 Türkçe ve İngilizce. Danışmanlık, yazı ve konuşmacılık İstanbul'dan ve uzaktan yürütülüyor.
 Bu bir avukatlık hizmeti mi?
@@ -550,8 +574,8 @@ Yapay zeka yönetişimi, regüle dijital pazarlar ve hukuk operasyonları üzeri
 Page title: Asım Serdar Yılmaz | Hukuk ve Regülasyon Lideri · LEXSAS
 HAKKINDA
 Asım Serdar Yılmaz: regüle teknoloji sektörlerinde yirmi yılı aşkın deneyim
-Yirmi yılı aşkın süredir Türkiye ve Orta Doğu'da küresel teknoloji, tüketici ve düzenlemeye tabi sektörlerdeki şirketlere hukuk danışmanlığı veriyorum; bu sürenin çoğu şirket içinde geçti. Alanım perakende, e-ticaret ve pazaryeri, dijital yayıncılık ve içerik, reklam, ödemeler, veri ve yapay zeka ile fikri mülkiyeti kapsıyor. İşin özü, yüksek denetimli ortamlarda pratik ve otonom karar üretmek.
-Kariyerim Ankara'da White & Case bünyesinde, düzenlemeye tabi sektörlerdeki sınır ötesi birleşme, devralma ve özelleştirmelerle başladı. yüksek düzeyde regüle bir sektördeki küresel bir grupta Orta Doğu ve küresel merkez rollerinde katı reklam yasakları altında ticari ekiplere danışmanlık verdim. eBay Türkiye'de Orta Doğu ve Kuzey Afrika bölgesinin hukuk liderliğini yürüttüm. 2019-2026 arasında Amazon Türkiye'de Hukuk Direktörü olarak görev yaptım. 2026'da hukuktan regülasyona geçtim; bugün yüksek düzeyde regüle bir sektördeki küresel bir grubun kurumsal ilişkiler fonksiyonu içinde regülasyon gündemini yönetiyorum.
+Yirmi yılı aşkın süredir Türkiye ve Orta Doğu'da küresel teknoloji, tüketici ve düzenlemeye tabi sektörlerdeki şirketlere hukuk danışmanlığı veriyorum; bu sürenin çoğu şirket içinde geçti. Alanım perakende, e-ticaret ve pazaryeri, dijital yayıncılık ve içerik, reklam, ödemeler, veri ve yapay zeka ile fikri mülkiyeti kapsıyor. İşim çoğu zaman işletmenin hızla ilerlemek istediği, düzenleyicinin ise temkinli davrandığı kesişim noktasında yer alıyor.
+Kariyerim Ankara'da White & Case bünyesinde, düzenlemeye tabi sektörlerdeki sınır ötesi birleşme, devralma ve özelleştirme çalışmalarıyla başladı. Yüksek düzeyde düzenlemeye tabi bir sektörde faaliyet gösteren küresel bir grupta Orta Doğu ve küresel merkez rollerinde katı reklam yasakları altında ticari ekiplere danışmanlık verdim. eBay Türkiye'de Orta Doğu ve Kuzey Afrika bölgesinin hukuk liderliğini yürüttüm. 2019-2026 arasında Amazon Türkiye'de Hukuk Direktörü olarak görev yaptım. 2026'da hukuktan regülasyona geçtim; bugün yüksek düzeyde düzenlemeye tabi bir sektördeki küresel bir grubun kurumsal ilişkiler fonksiyonu içinde regülasyon gündemini yönetiyorum.
 Çalışmalarımın ortak ekseni düzenlemeye tabi pazarlar oldu. Rekabet, tüketici koruma, ödemeler, veri koruma, aracı sorumluluğu ve kurumsal yönetişim gibi alanlarda, düzenleyici belirsizliği işletmenin ilerleyebileceği somut yollara çevirmeye odaklandım. Rekabet Kurumu, KVKK, Ticaret Bakanlığı, RTÜK ve TCMB gibi kurumlar önünde temsil bu işin sürekli parçası oldu.
 Son yıllarda odağım yapay zeka yönetişimi ve hukuk teknolojisine kaydı. Amazon'da AWS Bedrock üzerinde üretken yapay zeka destekli hukuk araçlarının geliştirilmesine katkı verdim, talep karşılama ve bilgi erişimi süreçlerini sadeleştiren, dış avukat bağımlılığını azaltmayı hedefleyen çözümler üzerinde çalıştım. 2026'da bu deneyimi bağımsız bir zemine taşıyarak LEXSAS'ı kurdum: hukuki ve regülatif işi hızlandıran, güvenceleri baştan kurulu yapay zeka araçları tasarlayan ve bu konuda danışmanlık veren bir girişim. LEXSAS, kariyerin katman katman biriktirdiklerini tek çatıda birleştiriyor: hukuk direktörlüğü, regülasyon, kurumsal ilişkiler ve kamu politikası, artık uygulamalı yapay zeka yönetişimiyle yan yana.
 Kariyer
@@ -614,12 +638,15 @@ Ankara Barosu üyesi. Diller: Türkçe (ana dil), İngilizce (akıcı).
 YAZILAR
 Yazılar
 Burada yapay zeka yönetişimi, hukuk teknolojisi ve hukuk operasyonları üzerine yazıyorum. Amaç, uygulamada işe yarayan gözlemleri abartıya kapılmadan paylaşmak.
+Temmuz 2026 - Yapay zeka yönetişimi
+Yapay zeka iş akışı aksadığında: hukuk ekipleri için olay müdahale protokolü
+Yapay zeka destekli bir hukuk iş akışı aksadığında sorumluluğu, kayıtların korunmasını, sınırlamayı ve yeniden başlatmayı düzenleyen kısa bir müdahale protokolü.
 Temmuz 2026 - Yapay zeka regülasyonu
-AB Yapay Zeka Tüzüğü: 2 Ağustos 2026'da yürürlüğe girenler
-Yüksek riskli sistem tarihleri 2027 ve 2028'e ötelendi. Madde 50 şeffaflık yükümlülükleri ötelenmedi: sohbet robotları, sentetik içerik ve deepfake'ler 2 Ağustos 2026 kapsamında.
+AB Yapay Zeka Tüzüğü: 2 Ağustos 2026'da uygulanmaya başlayanlar
+Kabul edilen Dijital Omnibus, yüksek riskli sistemler için 2027 ve 2028'de yeni uygulama tarihleri belirliyor; 18 Temmuz 2026 itibarıyla yayımlanmayı ve yürürlüğe girmeyi bekliyor. Madde 50 yükümlülükleri 2 Ağustos'ta uygulanmaya başlıyor.
 Temmuz 2026 - Hukukta yapay zeka
-Yapay zeka halüsinasyonu yaptırımları büyüyor: hukuk ekipleri için atıf doğrulama protokolü
-Yapay zeka halüsinasyonu içeren dosyalarda 1.700'ü aşkın mahkeme kararı. Ekipten çıkan her metin için beş adımlık doğrulama protokolü.
+Yapay zeka kaynaklı atıf hataları: hukuk ekipleri için doğrulama protokolü
+Bağımsız bir veritabanı, 18 Temmuz 2026 itibarıyla mahkemelerin ya da diğer yargı mercilerinin üretken yapay zeka halüsinasyonlarını veya bazı kayıtlarda yalnızca ileri sürülen yapay zeka kullanımını ele aldığı 1.770'ten fazla vakayı listeliyordu. Beş adımlık doğrulama protokolü.
 Temmuz 2026 - E-ticaret hukuku
 Türkiye'de pazaryeri aracı sorumluluğu: birlikte okunması gereken üç rejim
 Türkiye'de pazaryeri sorumluluğu üç rejimin kesişiminde: 6563 e-ticaret, 6502 tüketici ve 5651 içerik rejimi birlikte okunmalı.
@@ -646,7 +673,7 @@ Saatlik ücretin mantığı tükeniyor
 Yapay zeka saatin kendisini değersizleştiriyor. Yeni nesil bürolar zamanı değil işi fiyatlıyor.
 Temmuz 2026 - Hukukta yapay zeka
 Yapay zeka hukuk sektörünü sessizce yeniden çiziyor
-Benimseme bir yılda ikiye katlandı. Avantaj kadrodan muhakemeye ve iş akışı tasarımına kayıyor.
+Şirket hukuk departmanlarında kullanım yaklaşık ikiye katlanırken bürolarda da belirgin biçimde arttı. Avantaj muhakeme ve iş akışı tasarımına kayıyor.
 Temmuz 2026 - Hukuk operasyonları
 Hukukçunun saatleri gerçekte nereye gidiyor
 Ortalama avukat günün küçük bir kısmını faturalandırabiliyor. Otomasyonun geri kazandırdıkları ve nereden başlamalı.
@@ -689,7 +716,7 @@ Asim Serdar Yilmaz
 Temmuz 2026
 On June 12, the AI sitting inside a lot of everyday workflows just stopped working.
 On June 26, OpenAI previewed GPT-5.6 Sol to a small group of trusted partners. OpenAI stated: "We don't believe this kind of government access process should become the long-term default."
-On June 12, 2026, Anthropic removed access to its frontier AI models Fable 5 and Mythos 5. Its statement: "We are complying with the government's legal directive and are removing access to Fable 5 and Mythos 5 for all users." Export controls were lifted on July 1.
+On June 12, 2026, Anthropic removed access to its frontier AI models Fable 5 and Mythos 5. Its statement: "We are complying with the government's legal directive and are removing access to Fable 5 and Mythos 5 for all users." The controls on both models were lifted on June 30. Fable 5 returned globally on July 1. Anthropic initially restored Mythos 5 only to selected US organisations, then said in a July 1 update that access to both models had been restored for their respective approved audiences.
 Epictetus sorted things into what we control and what we don't. I quote that line more often than I live by it. June was the opening scene where the camera lingers on a pistol for a moment, then moves on. We all know that pistol goes off before the credits.
 My read: AI bans are joining a sanctions toolkit the world already knows. A year or two from now, a cutoff would not play out like frozen offshore accounts. It could bring ordinary life close to a standstill. An explicit AI policy and open-source fallbacks are the hedge. The next episode will show who prepared.
 #AIPolicy - #DigitalSovereignty - #AIGeopolitics - #TechDiplomacy
@@ -712,38 +739,57 @@ Konum
 İstanbul, Türkiye
 
 ============================================================
-## Yazı: AB Yapay Zeka Tüzüğü: 2 Ağustos 2026'da yürürlüğe girenler  <https://lexsas.com/tr/yazilar/ab-yapay-zeka-tuzugu-agustos-2026.html>
+## Yazı: Yapay zeka iş akışı aksadığında: hukuk ekipleri için olay müdahale protokolü  <https://lexsas.com/tr/yazilar/hukuk-ekiplerinde-yapay-zeka-olay-mudahalesi.html>
+============================================================
+Yazılar
+Temmuz 2026 - 2 dk okuma
+Yapay zeka iş akışı aksadığında: hukuk ekipleri için olay müdahale protokolü
+Yapay zeka olayı yalnızca bir siber güvenlik vakası değildir. Hukuk veya regülasyon ekibi açısından sorun, güvenilmez bir çıktı, beklenmedik veri açığa çıkması, model değişikliği ya da yeniden üretilemeyen bir iş akışıyla başlayabilir. Asıl mesele sistemin ne kadar akıllı olduğu değil, ekibin kaydı kaybetmeden işi durdurup inceleyebilmesi ve kontrollü biçimde yeniden başlatabilmesidir.
+NIST'in gönüllü AI RMF'si dört temel işlev kullanıyor: Govern, Map, Measure ve Manage. Tamamlayıcı Playbook eylemler öneriyor. Olay müdahalesine uyarlandığında bunlar karar yetkisini önceden belirlemek; etkilenen kullanım alanını, veriyi ve paydaşları haritalamak; davranışı ve etkisini değerlendirmek; ardından sorunu sınırlayıp iyileştirme ve yeniden başlatma ölçütlerini kaydetmek anlamına geliyor.
+Avrupa Komisyonu'nun 7 Temmuz 2026 tarihli eylem planı bu operasyonel odağı güçlendiriyor. Plan, model değerlendirmesi ve güvenli testin yanı sıra siber güvenlik amacıyla ileri yapay zeka sistemlerine güvenli erişim için ENISA ile geliştirilecek bir çerçeveyi öne çıkarıyor. Ayrıca yapay zeka dayanıklılığını mevcut AB siber güvenlik araçlarıyla ilişkilendiriyor. Plan, sektöre özel değerlendirmelerin yerine geçmez. Hukuk, uyum, bilgi güvenliği ve ürün ekiplerinin ortak bir müdahale akışına neden ihtiyaç duyduğunu gösterir.
+Kontrol listesi
+Olay sahibi, karar yetkilisi ve tedarikçi irtibat kişisini önceden belirleyin.
+İlgili girdileri, çıktıları, model/sürüm bilgisini ve kayıtları güvenli biçimde saklayın.
+Sınırlama, etki değerlendirmesi, iyileştirme ve yeniden başlatma kararını kaydedin.
+Kaynaklar
+Avrupa Komisyonu, Siber Güvenlik ve Yapay Zeka Eylem Planı, 7 Temmuz 2026
+NIST, Yapay Zeka Risk Yönetimi Çerçevesi Uygulama Rehberi, güncelleme 10 Haziran 2026
+İlgili: Hukuk teknolojisi ve yapay zeka iş akışı otomasyonu
+
+============================================================
+## Yazı: AB Yapay Zeka Tüzüğü: 2 Ağustos 2026'da uygulanmaya başlayanlar  <https://lexsas.com/tr/yazilar/ab-yapay-zeka-tuzugu-agustos-2026.html>
 ============================================================
 Yazılar
 Temmuz 2026 - 3 dk okuma
-AB Yapay Zeka Tüzüğü: 2 Ağustos 2026'da yürürlüğe girenler
-İki yıldır her yapay zeka uyum planı 2 Ağustos 2026 tarihine göre kuruluyordu. Haziran'da takvim yeniden çizildi: Avrupa Parlamentosu'nun 16 Haziran'da, Konsey'in 29 Haziran'da kabul ettiği Dijital Omnibus, Ek III kapsamındaki yüksek riskli sistemlerin yükümlülüklerini 2 Aralık 2027'ye, regüle ürünlere gömülü yapay zeka kurallarını ise 2 Ağustos 2028'e öteliyor. Düzenleme şimdi AB Resmî Gazetesi'nde yayımlanmayı bekliyor.
-Yaygın yanlış okuma, bunu bir mola sanmak. Tüzüğün bir bloğu hiç ötelenmedi: Madde 50 şeffaflık yükümlülükleri. Bunlar, yapay zekası insanlarla etkileşen ya da içerik yayımlayan her kuruluş için 2 Ağustos 2026'da yürürlüğe giriyor.
-Pratikte çoğu şirket için üç görev öne çıkıyor. Sohbet robotu, kullanıcının bir yapay zekayla konuştuğunu daha etkileşimin başında bildirmek zorunda. Yapay zekayla üretilen metin, görsel, ses ve videonun makine tarafından okunabilir biçimde işaretlenmesi gerekiyor. Deepfake'ler ile kamuoyunu bilgilendirmek amacıyla yayımlanan yapay zeka üretimi metinler görünür biçimde etiketlenecek. Komisyonun 10 Haziran 2026'da yayımladığı işaretleme ve etiketleme Davranış Kuralları, uyumu göstermenin hazır yolu.
-Yaptırım mekanizması da aynı gün devreye giriyor. 2 Ağustos 2026'dan itibaren ulusal piyasa gözetim otoriteleri bu yükümlülüklerin ihlaline 15 milyon avroya ya da dünya çapındaki yıllık cironun yüzde 3'üne kadar ceza kesebilecek. İki dar geçiş hükmü var: hâlihazırda piyasada bulunan üretken sistemlerin sağlayıcıları, makine okunabilir işaretlemeyi çalışır hale getirmek için 2 Aralık 2026'ya kadar süre kazandı; rıza dışı mahrem görüntü üreten sistemleri yasaklayan yeni hüküm de yine 2 Aralık 2026'da uygulanmaya başlıyor.
-Takvimin geri kalanı zaten yürürlükte. Yasaklanmış uygulamalar ve yapay zeka okuryazarlığı görevi Şubat 2025'ten, genel amaçlı yapay zeka modeli yükümlülükleri de Ağustos 2025'ten beri uygulanıyor. Gönüllü Genel Amaçlı Yapay Zeka Davranış Kuralları, sağlayıcıların uyum göstermekte kullandığı ana yol.
-Hukuk ekibi için tarihten önce üç adım. Birincisi, pazarlama, müşteri hizmetleri ve ürün özellikleri dahil, insanlarla konuşan ya da dışa içerik yayımlayan her yapay zeka yüzeyinin envanterini çıkarın. İkincisi, bildirimlerin açık olduğunu, kullanım koşullarına gömülmek yerine ilk temasta görünür olduğunu denetleyin. Üçüncüsü, her yüzey için sağlayıcı koltuğunda mı yoksa kullanan koltuğunda mı oturduğunuzu yazın: iki koltuk da yükümlülük taşıyor ve tedarikçi aracını kendi markanızla sunmak sizi sağlayıcı koltuğuna taşıyabiliyor. Yüksek risk tarafı zaman kazandı. Şeffaflık kazanmadı.
+AB Yapay Zeka Tüzüğü: 2 Ağustos 2026'da uygulanmaya başlayanlar
+İki yıldır her yapay zeka uyum planı 2 Ağustos 2026 tarihine göre kuruluyordu. Avrupa Parlamentosu'nun 16 Haziran'da, Konsey'in 29 Haziran'da kabul ettiği Dijital Omnibus, Ek III kapsamındaki yüksek riskli sistem yükümlülükleri için 2 Aralık 2027'yi, düzenlemeye tabi ürünlere gömülü yapay zeka yükümlülükleri için 2 Ağustos 2028'i belirliyor. 18 Temmuz 2026 itibarıyla değişiklik düzenlemesi AB Resmî Gazetesi'nde yayımlanmayı bekliyordu ve yayımdan sonraki üçüncü gün yürürlüğe girecekti.
+Yaygın yanlış okuma, bunu bir mola sanmak. Madde 50 ötelenmedi. 2 Ağustos 2026'dan itibaren doğrudan gerçek kişilerle etkileşim kurması amaçlanan yapay zeka sistemlerinin sağlayıcıları, etkileşim açıkça anlaşılmıyorsa kişiyi bilgilendirmeli. Genel amaçlı yapay zeka sistemleri dahil olmak üzere sentetik ses, görüntü, video veya metin üreten yapay zeka sistemlerinin sağlayıcıları, çıktıları makine tarafından okunabilir ve yapay olarak üretilmiş veya değiştirilmiş olarak tespit edilebilir biçimde işaretlemeli. Bu işaretleme görevi teknik uygulanabilirlik, içeriğin özellikleri ve sınırlamaları, uygulama maliyeti ve genel kabul gören teknik düzeyle sınırlıdır; standart düzenlemeye yardımcı işlevlere, uygulayıcının girdisini veya girdinin anlamını esaslı biçimde değiştirmeyen sistemlere ve kanunen yetkilendirilmiş belirli kolluk kullanımlarına uygulanmaz. Uygulayıcılar ise Tüzüğün kapsam ve istisnelerine tabi olarak deepfake içerikleri ve kamu yararına ilişkin belirli metinleri açıklamalı.
+Yükümlülük yalnızca yapay zeka kullanılıp kullanılmadığına değil, kuruluşun rolüne ve çıktının türüne bağlı. Komisyonun 10 Haziran 2026'da yayımladığı gönüllü işaretleme ve etiketleme Davranış Kuralları, belirli Madde 50 yükümlülüklerine uyumu destekleyebilir. Tüzüğün veya kullanım alanına özgü değerlendirmenin yerini almaz.
+Madde 50 yükümlülükleri 2 Ağustos 2026'da uygulanabilir hâle geliyor. İhlaller, 15 milyon avroya veya işletmeler bakımından dünya çapındaki toplam yıllık cironun yüzde 3'üne kadar, bunlardan yüksek olanı esas alınarak idari para cezasına konu olabilir; KOBİ'lerde iki tavanın düşük olanı uygulanır. Cezayı yetkili mahkemenin mi yoksa başka bir merciin mi vereceği ulusal hukuka bağlıdır. Aralık ayındaki iki geçiş hükmünün kapsamı daha dardır: genel amaçlı yapay zeka sistemleri dahil olmak üzere sentetik içerik üreten ve 2 Ağustos 2026'dan önce piyasaya sunulmuş yapay zeka sistemlerinin sağlayıcıları, Madde 50(2)'ye uyum için 2 Aralık 2026'ya kadar süreye sahiptir; rıza dışı mahrem materyal ve çocukların cinsel istismar materyaliyle bağlantılı belirli sağlayıcı ve uygulayıcı davranışlarına ilişkin yasaklar da 2 Aralık 2026'dan itibaren uygulanır.
+Yapay Zeka Tüzüğü'nün ilk hâlindeki Madde 5 yasakları ve yapay zeka okuryazarlığı yükümlülüğü Şubat 2025'ten beri uygulanıyor. Bölüm V, genel amaçlı yapay zeka modelleri için Ağustos 2025'ten beri uygulanmakla birlikte, 2 Ağustos 2025'ten önce piyasaya sunulan modellerin sağlayıcılarının uyum süresi 2 Ağustos 2027'ye kadar devam ediyor. Gönüllü Genel Amaçlı Yapay Zeka Davranış Kuralları, sağlayıcıların uyumu göstermesine yardımcı olabilir.
+Hukuk ekibi için tarihten önce üç adım. Birincisi, pazarlama, müşteri hizmetleri ve ürün özellikleri dahil, insanlarla konuşan ya da dışa içerik yayımlayan her yapay zeka yüzeyinin envanterini çıkarın. İkincisi, çıktı türünü, uygulanabilecek bildirim veya işaretleme kuralını ve varsa istisnayı eşleştirin. Üçüncüsü, kuruluşun her yüzeyde sağlayıcı mı yoksa uygulayıcı mı olduğunu kaydedin. Bir tedarikçi aracını kendi adınız altında sunmanız rol değerlendirmesini etkileyebilir. Kabul edilen metin, yürürlüğe girdiğinde yüksek risk tarafına zaman kazandıracak. Şeffaflık yükümlülüklerini ise ötelemiyor.
 Kaynaklar
 Avrupa Komisyonu, Yapay Zeka Tüzüğü politika sayfası (uygulama takvimi), Temmuz 2026
 AB Konseyi, Yapay Zekada Dijital Omnibus'a nihai onay, 29 Haziran 2026
 Avrupa Komisyonu, Yapay Zeka Üretimi İçeriğin Şeffaflığına Dair Davranış Kuralları, Haziran 2026
+EUR-Lex, (AB) 2024/1689 sayılı Yapay Zeka Tüzüğü, Madde 50, 99, 111 ve 113
+AB Konseyi, Yapay Zekada Dijital Omnibus'un kabul edilen metni, PE-CONS 30/26, Haziran 2026
 İlgili: Hukuk teknolojisi ve yapay zeka iş akışı otomasyonu
 
 ============================================================
-## Yazı: Yapay zeka halüsinasyonu yaptırımları büyüyor: hukuk ekipleri için atıf doğrulama protokolü  <https://lexsas.com/tr/yazilar/yapay-zeka-atif-dogrulama.html>
+## Yazı: Yapay zeka kaynaklı atıf hataları: hukuk ekipleri için doğrulama protokolü  <https://lexsas.com/tr/yazilar/yapay-zeka-atif-dogrulama.html>
 ============================================================
 Yazılar
 Temmuz 2026 - 3 dk okuma
-Yapay zeka halüsinasyonu yaptırımları büyüyor: hukuk ekipleri için atıf doğrulama protokolü
-Sayaç tek yöne ilerliyor. Damien Charlotin'in, yapay zeka halüsinasyonu içeren başvuruları konu alan mahkeme kararlarını derlediği kamuya açık veritabanı bu ay 1.700 kaydı aştı; çoğunluğu ABD mahkemelerinden ve her iş günü birkaç yeni karar ekleniyor.
-Tırmanışı izlemek kolay. 2023'te Mata v. Avianca iki avukata 5.000 dolara mal oldu ve dünya gündemine oturdu. Yalnızca 2026 içinde: Altıncı Temyiz Dairesi iki avukata 15.000'er dolar ve karşı tarafın vekalet ücretleri; Oregon'daki bir şarap üreticisi uyuşmazlığı toplam yaklaşık 110.000 dolar yaptırım ve davanın reddi; Nebraska, yapay zeka halüsinasyonu içeren atıflar nedeniyle bir avukatı, disiplin süreci tamamlanana dek mahkemenin sonraki kararına kadar geçici olarak meslekten uzaklaştırdı. 3 Haziran'da Dokuzuncu Temyiz Dairesi iki avukatın daire nezdinde avukatlık yapmasını altı ay süreyle yasakladı, 2.500'er dolar ceza verdi ve iki yıl boyunca dilekçelerinde yapay zeka kullanımını bildirme zorunluluğu getirdi.
-Kararları okuyunca örüntü net. Mahkemeler yapay zeka kullanımını cezalandırmıyor; kontrol edilmemiş metni imzalayıp sunmayı cezalandırıyor. Dokuzuncu Daire açık yazdı: kurallar araştırma ve taslak aşamasında değil, imza ve sunum aşamasında ihlal edilir. Cezanın ağırlığını da hata ortaya çıktıktan sonraki tavır belirliyor. Hatayı hemen bildiren ve düzelten avukat uyarıyla kurtuldu; yazım hatasına, stajyere ya da ikinci bir yapay zeka aracına sığınanlar askıyla karşılaştı. Ropes and Gray'in izleme listesine göre ABD'de yüzlerce yargıç ayrıca dilekçelerde yapay zeka kullanımına dair kendi daimi talimatlarını uyguluyor; yerel kuralı her başvurudan önce kontrol etmek şart.
+Yapay zeka kaynaklı atıf hataları: hukuk ekipleri için doğrulama protokolü
+Damien Charlotin'in bağımsız, kamuya açık ve güncellenmeye devam eden veritabanı, 18 Temmuz 2026 itibarıyla mahkemelerin ya da diğer yargı mercilerinin üretken yapay zeka halüsinasyonlarını veya bazı kayıtlarda yalnızca ileri sürülen yapay zeka kullanımını ele aldığı dünya genelinde 1.770'ten fazla hukuki vaka tespit etmişti. Proje ilgili yargı kararlarını izliyor; ancak resmî bir mahkeme sicili değil ve bu sayı eksiksiz bir yargı toplamı olarak okunmamalı. Yine de ölçek, operasyonel ihtiyacı açıkça gösteriyor: yapay zeka destekli hukuki metin ekipten çıkmadan önce doğrulama kaydı oluşturulmalı.
+Birincil bir karar, bu sorumluluğun nasıl uygulandığını gösteriyor. Dokuzuncu Temyiz Dairesi, 3 Haziran 2026 tarihli LNU v. Blanche kararında iki avukatın daire nezdinde avukatlık yapmasını altı ay süreyle durdurdu, her birine 2.500 dolar yaptırım uyguladı ve iki yıl boyunca gelecekteki başvurularında yapay zeka kullanımına ilişkin beyan ve doğrulama sunmalarını istedi. Mahkeme, ilgili yükümlülüklerin yapay zekanın araştırma veya taslak için kullanıldığı anda değil, denetlenmemiş metin imzalanıp sunulduğunda ihlal edildiğini belirtti.
+Buradan çıkan sonuç, yapay zekaya karşı genel bir uyarıdan daha dar ve daha kullanışlı. Ekip; hangi kaynağın açıldığını, hangi alıntının karşılaştırıldığını, hangi hukuki önermenin sınandığını ve nihai metnin sorumluluğunu kimin üstlendiğini gösterebilmelidir.
 Kullandığım doğrulama protokolünün beş adımı var; ekipten çıkan hiçbir metin için isteğe bağlı değil. Bir, her atfı resmi künye veya veritabanından açın; ilk yapay zekanın verdiği kararın var olup olmadığını asla ikinci bir yapay zekaya sormayın. İki, her alıntıyı karar metniyle kelime kelime karşılaştırın. Üç, önermeyi sınayın: karar, taslakta ileri sürüldüğünü gerçekten söylüyor olmalı. Dört, geçerliliği sınayın: kaynak hâlâ yürürlükteki hukuk olmalı. Beş, metin dışarı çıkmadan önce doğrulama notunu ismi belli bir kişi imzalasın. Aynı beş adım mahkeme dilekçeleriyle sınırlı değil; müvekkil bilgi notları ve danışmanlık metinleri için de geçerli.
-Şirket içi hukuk ekiplerinin elinde bir kaldıraç daha var: dış avukat. Avukatlık sözleşmesine, büronun yapay zeka destekli atıfları nasıl doğruladığını ve her başvuruda bunu kimin onayladığını yazın. Türkiye'de baro rehberi de aynı noktaya geldi: Türkiye Barolar Birliği'nin Haziran 2026'da yayımladığı tavsiye rehberi, yapay zeka çıktısını doğrulama yükümlülüğünü ve nihai sorumluluğu doğrudan avukata yüklüyor. Araç iş akışında serbest. Muhakeme asla devredilmiyor.
+Şirket içi hukuk ekiplerinin elinde bir kaldıraç daha var: dış avukat. Avukatlık sözleşmesinde büronun yapay zeka destekli atıfları nasıl doğruladığını ve incelemeyi kimin onayladığını belirtin. Türkiye Barolar Birliği'nin Haziran 2026 tarihli rehberi de insan denetimini, çıktının eleştirel biçimde doğrulanmasını, gizliliği ve avukatın nihai mesleki sorumluluğunu vurguluyor. Araç iş akışına destek olabilir; mesleki muhakeme ve nihai sorumluluk insanda kalır.
 Kaynaklar
-Damien Charlotin, Yapay Zeka Halüsinasyonu Davaları veritabanı, Temmuz 2026
-ABA Journal, Attorneys' lack of candor over AI errors leads to stricter sanctions, 4 Haziran 2026
-Ropes and Gray, Yapay Zeka Mahkeme Talimatı İzleme Listesi
+Damien Charlotin, Yapay Zeka Halüsinasyonu Davaları veritabanı, devam eden çalışma, son güncelleme 18 Temmuz 2026
+ABD Dokuzuncu Temyiz Dairesi, LNU v. Blanche, 3 Haziran 2026
 Türkiye Barolar Birliği, Yapay Zeka ve Avukatlık Çalıştayı sonuç paneli, 20 Haziran 2026
 İlgili: Hukuk teknolojisi ve yapay zeka iş akışı otomasyonu
 
@@ -753,12 +799,14 @@ Türkiye Barolar Birliği, Yapay Zeka ve Avukatlık Çalıştayı sonuç paneli,
 Yazılar
 Temmuz 2026 - 2 dk okuma
 Türkiye'de pazaryeri aracı sorumluluğu: birlikte okunması gereken üç rejim
-Yıllarca Türkiye'de çevrimiçi pazaryerlerinin hukuk ve regülasyon işini yürüttüm ve en sık gelen soru görünüşte basitti. Platformumuzda üçüncü bir taraf bir şey sattığında biz neyden sorumluyuz? Dürüst cevap şu: bunu tek bir kanun düzenlemiyor. Pazaryerinin sorumluluğu üç rejimin kesişiminde şekillenir ve iş, bunları üç ayrı metin gibi değil, tek bir harita gibi okumaktır.
-Birincisi, 2022 değişiklikleriyle yeniden şekillenen 6563 sayılı Elektronik Ticaret Kanunu; bu değişiklikler büyük aracı hizmet sağlayıcılar için aşamalı bir yükümlülük seti getirdi. İkincisi, 6502 sayılı Tüketicinin Korunması Hakkında Kanun; sözleşme öncesi bilgilendirme, ayıplı mal süreci ve iade konularında platforma düşen yükümlülükleri belirliyor. Üçüncüsü, 5651 sayılı internet içerik rejimi. Kişilik haklarına ilişkin temel uyar-kaldır maddesi, Anayasa Mahkemesi tarafından Ekim 2024'te iptal edildi ve şu an yeniden yasalaşmayı bekliyor; platformun bu rejimi tek başına okuyamamasının ve birleşik haritaya ihtiyaç duymasının nedeni tam olarak bu.
+Yıllarca Türkiye'de çevrimiçi pazaryerlerinin hukuk ve regülasyon işini yürüttüm ve en sık gelen soru görünüşte basitti. Platformumuzda üçüncü bir taraf bir şey sattığında biz neyden sorumluyuz? Dürüst cevap şu: konu tek bir kanunda toplanmıyor. Üç rejim kullanışlı bir başlangıç haritası sunuyor; ancak ürün kuralları, ödemeler, reklam, veri koruma ve başka düzenlemeler ilave katmanlar getirebilir. Platformun her katmandaki somut rolü ve işlemleri ayrıca değerlendirilmelidir.
+Birincisi, 6563 sayılı Elektronik Ticaret Kanunu. 2022 değişiklikleri, elektronik ticaret aracı hizmet sağlayıcıları için kademeli yükümlülükler getirdi; belirli yasal eşikler aşıldıkça ek yükümlülükler doğuyor. İkincisi, 6502 sayılı Tüketicinin Korunması Hakkında Kanun ile Mesafeli Sözleşmeler Yönetmeliği. Bu çerçeve yükümlülükleri role göre dağıtır; satıcı veya sağlayıcıya ait her yükümlülüğü otomatik olarak platforma yüklemediği gibi aracı hizmet sağlayıcıyı da yükümlülüksüz bırakmaz. Sözleşme öncesi bilgilendirme ile sipariş, ödeme, iade ve şikâyet süreçlerindeki görevler, her aktörün somut işlevine göre eşleştirilmelidir. Üçüncüsü, 5651 sayılı internet içerik rejimi. Anayasa Mahkemesi 11 Ekim 2023 tarihli kararıyla 9. maddeyi iptal etti; iptal Ekim 2024'te yürürlüğe girdi. Bu değişiklik, tek bir kanunun değişmez kabul edilen yorumuyla yetinmek yerine güncel ve birleşik bir yükümlülük haritası kurulmasının bir başka nedenidir.
 Bu soruların ardındaki hacim küçük değil. Ticaret Bakanlığı, Türkiye'de toplam e-ticaret hacmini 2024'te yıllık yüzde 61,7 artışla 3 trilyon lira olarak açıkladı (ticaret.gov.tr). Daha fazla satıcı ve daha fazla ilan, üç rejimin tek bir işlemde buluştuğu daha fazla an demek.
-Asıl iş, bunları birlikte haritalamak. Tek bir ilan ya da şikâyet, aynı anda birden fazla rejim altında yükümlülük doğurabilir: bir kaldırma sorusu, bir tüketici talebi ve bir kayıt tutma yükümlülüğü, yan yana. Tek bir rejimi diğerlerinden kopuk okumak, uyumlu görünen bir sürecin nasıl açık bıraktığını gösterir. Bu açığı kapatan şey, her yükümlülüğün bir sahibe ve bir hukuki dayanağa bağlandığı, güncel ve rejim bazlı bir yükümlülük haritasıdır.
+Asıl iş, uygulanabilir katmanları ve rolleri birlikte haritalamak. Tek bir ilan ya da şikâyet, aynı anda birden fazla rejim altında yükümlülük doğurabilir: bir kaldırma sorusu, bir tüketici talebi ve bir kayıt tutma yükümlülüğü, yan yana. Tek bir rejimi diğerlerinden kopuk okumak, uyumlu görünen bir sürecin nasıl açık bıraktığını gösterir. Bu açığı kapatan şey, her yükümlülüğün bir sahibe ve bir hukuki dayanağa bağlandığı, güncel, rejim ve rol bazlı bir yükümlülük haritasıdır.
 Kaynaklar
 Ticaret Bakanlığı, Türkiye'de E-Ticaretin Görünümü Raporu (2025)
+Ticaret Bakanlığı, 6502 sayılı Kanun ve uygulama yönetmelikleri, Mesafeli Sözleşmeler Yönetmeliği dahil
+Anayasa Mahkemesi, 5651 sayılı Kanun'un 9. maddesinin iptali, 11 Ekim 2023
 İlgili: E-ticaret ve platform regülasyonu
 
 ============================================================

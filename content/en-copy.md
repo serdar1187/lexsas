@@ -37,16 +37,16 @@ AI LEGAL TECH
 Legal workflow automation, with the guardrails built in
 
 #### {{HERO_LEDE}}
-LEXSAS is the AI legal-tech venture I founded in 2026. I design and advise on tools that take the manual work out of legal and regulatory operations, from intake and document workflows to research and compliance, with privacy, IP and governance guardrails in place from the start. Behind the tooling sit 20+ years of hands-on legal and regulatory leadership in-house.
+LEXSAS is the AI legal-tech venture I founded in 2026. I design and advise on tools that take the manual work out of legal and regulatory operations, from intake and document workflows to research and compliance, with privacy, IP and governance guardrails in place from the start. Behind the tooling sit more than 20 years of legal and regulatory experience, most of it in-house.
 
 #### {{HERO_CTA}}
 Get in touch
 
 #### {{CRED_1}}
-20+ years in-house
+20+ years in legal and regulatory work
 
 #### {{CRED_2}}
-Amazon, eBay, PMI, White & Case
+Amazon, eBay, White & Case
 
 #### {{CRED_3}}
 Statutory board director
@@ -79,7 +79,7 @@ Legal operations strategy for generative AI: where to start, what to build versu
 Data protection and data sovereignty
 
 #### {{AREA_4_BODY}}
-Cross-border data transfer and localisation questions under KVKK and GDPR, including how to keep transfers lawful when a regulator changes its position. I have executed a first-in-market data transfer undertaking under KVKK.
+Cross-border data transfer and localisation questions under KVKK and GDPR, including undertakings and the practical controls needed when regulatory expectations change.
 
 #### {{AREA_5_TITLE}}
 E-commerce and platform regulation
@@ -91,7 +91,7 @@ Marketplace and platform rules across consumer protection, advertising, intermed
 Competition and digital markets
 
 #### {{AREA_6_BODY}}
-Antitrust strategy for platforms, covering parity clauses, ranking practices and algorithmic accountability. I have led a competition defense on pricing algorithms through to file closure with no penalty.
+Antitrust strategy for platforms, covering parity clauses, ranking practices, pricing algorithms and the controls needed for accountable digital markets.
 
 #### {{APPROACH_H2}}
 How I work
@@ -118,7 +118,7 @@ Every AI deployment should begin as a pilot with a defined measure of success an
 Experience
 
 #### {{EXP_BODY}}
-I have spent 20+ years in-house with global technology and marketplace businesses, most of it in regulated markets and much of it across the table from regulators. That includes statutory board roles and leading legal functions through investigations, licensing questions and market entry. The detail is on the About page.
+I bring more than 20 years of legal and regulatory experience, most of it in-house, across global technology, consumer and marketplace businesses. That includes statutory board roles and leading legal functions through investigations, licensing questions and market entry. The detail is on the About page.
 
 #### {{EXP_LINK}}
 Full background
@@ -153,25 +153,25 @@ Get in touch
 About · LEXSAS
 
 #### {{ABOUT_META_DESC}}
-Asim Serdar Yilmaz, founder of LEXSAS: 20+ years in-house across Amazon, eBay, PMI and White & Case, now focused on AI for legal work.
+Asim Serdar Yilmaz, founder of LEXSAS: more than 20 years of legal and regulatory experience, most of it in-house, now focused on AI for legal work.
 
 #### {{ABOUT_KICKER}}
 ABOUT
 
 #### {{ABOUT_H1}}
-Two decades inside regulated technology businesses
+More than 20 years across regulated technology businesses
 
 #### {{BIO_P1}}
-I am Asim Serdar Yilmaz, a senior in-house legal leader based in Istanbul. Over more than 20 years I have advised global technology, consumer and regulated businesses across Turkey and the Middle East, in retail and marketplace, streaming and media, advertising, payments, data and IP. My work tends to sit where a business wants to move quickly and a regulator wants to move carefully.
+I am Asim Serdar Yilmaz, a senior legal and regulatory affairs leader based in Istanbul. Across more than 20 years of legal and regulatory work, most of it in-house, I have advised global technology, consumer and regulated businesses across Turkey and the Middle East, in retail and marketplace, streaming and media, advertising, payments, data and IP. My work tends to sit where a business wants to move quickly and a regulator wants to move carefully.
 
 #### {{BIO_P2}}
-I started in private practice at White & Case in Ankara, on cross-border M&A, privatisations and IP in regulated sectors. From there I moved in-house: first into a strict, high-scrutiny compliance environment at Philip Morris International across the Middle East, then into e-commerce at eBay's Turkey and MENA business, and since 2019 as Legal Director for Amazon Turkey.
+I started in private practice at White & Case in Ankara, on cross-border M&A, privatisations and IP in regulated sectors. From there I moved in-house: first into a strict, high-scrutiny compliance environment at a global group in a highly regulated industry across the Middle East, then into e-commerce at eBay's Turkey and MENA business, and from 2019 to 2026 as Legal Director for Amazon Turkey. In 2026 I moved from legal into regulatory affairs at a global group in a highly regulated industry.
 
 #### {{BIO_P3}}
 The thread through all of it is regulated markets. I have spent years turning regulatory ambiguity into paths a business can actually take, and building what I think of as "yes, if" guardrails: controls that let a team move at speed while protecting the enterprise over the long term. Much of that has meant sitting across the table from competition authorities, data protection regulators, media regulators and ministries.
 
 #### {{BIO_P4}}
-The current chapter is LEXSAS, the AI legal-tech venture I founded in 2026, focused on legal workflow automation and advisory. It grew out of years of building generative AI tooling for legal work, on AWS Bedrock among other platforms, and of seeing where adoption succeeds and where it quietly fails. This site is where I write about that intersection of law, regulation and AI, as informational consultancy rather than legal representation.
+The other current chapter is LEXSAS, the AI legal-tech venture I founded in 2026, focused on legal workflow automation and advisory. It grew out of years of building generative AI tooling for legal work, on AWS Bedrock among other platforms, and of seeing where adoption succeeds and where it quietly fails. This site is where I write about that intersection of law, regulation and AI, as informational consultancy rather than legal representation.
 
 #### {{TIMELINE_H2}}
 Career
@@ -192,10 +192,10 @@ An AI legal-tech venture focused on legal workflow automation and advisory for l
 Designs and advises on AI-enabled tooling across the legal workflow: intake, document and knowledge management, research and compliance operations.
 
 #### {{JOB_0_B3}}
-Builds privacy, IP and governance guardrails into every tool from the start, pairing 20+ years of in-house legal and regulatory leadership with responsible AI adoption.
+Builds privacy, IP and governance guardrails into every tool from the start, pairing more than 20 years of legal and regulatory experience, most of it in-house, with responsible AI adoption.
 
 #### {{JOB_1_DATES}}
-2019-present
+2019-2026
 
 #### {{JOB_1_ROLE}}
 Legal Director, Technology, E-Commerce and Media; Board Director
@@ -207,13 +207,13 @@ Amazon Turkey, Istanbul
 End-to-end retail and marketplace counsel: commercial contracting, consumer law, advertising, product compliance, supply chain, payments, privacy and disputes.
 
 #### {{JOB_1_B2}}
-Regulatory representation before RTUK, the Turkish Competition Authority, the Ministry of Trade, the Ministry of Industry and Technology, the KVKK Authority and the Central Bank, including a Ministry of Trade investigation resolved with a materially reduced administrative fine.
+Regulatory representation before RTUK, the Turkish Competition Authority, the Ministry of Trade, the Ministry of Industry and Technology, the KVKK Authority and the Central Bank, including representation in a Ministry of Trade investigation.
 
 #### {{JOB_1_B3}}
-Led the response to a KVKK order on cross-border data transfers: negotiated a timeline extension and executed Turkey's first approved Data Transfer Undertaking, keeping transfers lawful without operational disruption.
+Led the response to a KVKK order on cross-border data transfers: prepared and executed a Data Transfer Undertaking approved by the KVKK Authority.
 
 #### {{JOB_1_B4}}
-Competition and digital markets strategy on parity and MFN, ranking and Buy Box practices, and algorithmic accountability, including a pricing-algorithms investigation closed with no administrative penalty.
+Competition and digital markets strategy on parity and MFN, ranking and Buy Box practices, and algorithmic accountability, including leading the Turkey defense strategy on a pricing-algorithms investigation before the Turkish Competition Authority.
 
 #### {{JOB_1_B5}}
 Statutory Board Director for multiple Amazon entities in Turkey, including Prime Video Turkey and Project Kuiper, under Turkish company law. Co-developed GenAI legal tooling on AWS Bedrock to streamline intake and knowledge workflows and reduce outside counsel dependency.
@@ -285,7 +285,7 @@ Disputes and labor matters before Turkish courts. Recognised by The Legal 500 as
 Board and governance
 
 #### {{BOARD_BODY}}
-I serve as a statutory Board Director and authorised representative for multiple Amazon entities in Turkey, including Prime Video Turkey and Project Kuiper, under Turkish company law. Earlier I was a Deputy Board Member of the e-Commerce Commercial Enterprises Association. These roles carry director duties and liability under the Turkish Commercial Code.
+Between 2019 and 2026 I served as a statutory Board Director and authorised representative for multiple Amazon entities in Turkey, including Prime Video Turkey and Project Kuiper, under Turkish company law. Earlier I was a Deputy Board Member of the e-Commerce Commercial Enterprises Association. These roles carried director duties and liability under the Turkish Commercial Code.
 
 #### {{EDU_H2}}
 Education

@@ -16,14 +16,14 @@
   </url>
   <url>
     <loc>https://lexsas.com/about.html</loc>
-    <lastmod>2026-07-11</lastmod>
+    <lastmod>2026-07-18</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://lexsas.com/about.html"/>
     <xhtml:link rel="alternate" hreflang="tr" href="https://lexsas.com/tr/hakkinda.html"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://lexsas.com/about.html"/>
   </url>
   <url>
     <loc>https://lexsas.com/tr/hakkinda.html</loc>
-    <lastmod>2026-07-11</lastmod>
+    <lastmod>2026-07-18</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://lexsas.com/about.html"/>
     <xhtml:link rel="alternate" hreflang="tr" href="https://lexsas.com/tr/hakkinda.html"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://lexsas.com/about.html"/>
@@ -71,6 +71,20 @@
     <xhtml:link rel="alternate" hreflang="x-default" href="https://lexsas.com/contact.html"/>
   </url>
   <url>
+    <loc>https://lexsas.com/insights/ai-incident-response-legal-teams.html</loc>
+    <lastmod>2026-07-18</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://lexsas.com/insights/ai-incident-response-legal-teams.html"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://lexsas.com/tr/yazilar/hukuk-ekiplerinde-yapay-zeka-olay-mudahalesi.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://lexsas.com/insights/ai-incident-response-legal-teams.html"/>
+  </url>
+  <url>
+    <loc>https://lexsas.com/tr/yazilar/hukuk-ekiplerinde-yapay-zeka-olay-mudahalesi.html</loc>
+    <lastmod>2026-07-18</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://lexsas.com/insights/ai-incident-response-legal-teams.html"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://lexsas.com/tr/yazilar/hukuk-ekiplerinde-yapay-zeka-olay-mudahalesi.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://lexsas.com/insights/ai-incident-response-legal-teams.html"/>
+  </url>
+  <url>
     <loc>https://lexsas.com/insights/eu-ai-act-august-2026.html</loc>
     <lastmod>2026-07-18</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://lexsas.com/insights/eu-ai-act-august-2026.html"/>
@@ -100,14 +114,14 @@
   </url>
   <url>
     <loc>https://lexsas.com/insights/turkey-marketplace-liability.html</loc>
-    <lastmod>2026-07-11</lastmod>
+    <lastmod>2026-07-18</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://lexsas.com/insights/turkey-marketplace-liability.html"/>
     <xhtml:link rel="alternate" hreflang="tr" href="https://lexsas.com/tr/yazilar/pazaryeri-araci-sorumlulugu.html"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://lexsas.com/insights/turkey-marketplace-liability.html"/>
   </url>
   <url>
     <loc>https://lexsas.com/tr/yazilar/pazaryeri-araci-sorumlulugu.html</loc>
-    <lastmod>2026-07-11</lastmod>
+    <lastmod>2026-07-18</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://lexsas.com/insights/turkey-marketplace-liability.html"/>
     <xhtml:link rel="alternate" hreflang="tr" href="https://lexsas.com/tr/yazilar/pazaryeri-araci-sorumlulugu.html"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://lexsas.com/insights/turkey-marketplace-liability.html"/>

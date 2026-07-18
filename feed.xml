@@ -6,36 +6,52 @@
   <atom:link href="https://lexsas.com/feed.xml" rel="self" type="application/rss+xml"/>
   <description>Short practitioner notes on legal tech, AI governance, regulatory affairs and regulated digital markets, by Asim Serdar Yilmaz (LEXSAS).</description>
   <language>en</language>
-  <lastBuildDate>Sat, 18 Jul 2026 09:00:00 GMT</lastBuildDate>
+  <lastBuildDate>Sat, 18 Jul 2026 12:00:00 GMT</lastBuildDate>
+  <item>
+    <title>When an AI workflow fails: an incident protocol for legal teams</title>
+    <link>https://lexsas.com/insights/ai-incident-response-legal-teams.html</link>
+    <guid isPermaLink="true">https://lexsas.com/insights/ai-incident-response-legal-teams.html</guid>
+    <description>A short response path for ownership, evidence, containment and restart when an AI-assisted legal workflow goes wrong.</description>
+    <pubDate>Sat, 18 Jul 2026 12:00:00 GMT</pubDate>
+    <category>insights-en</category>
+  </item>
+  <item>
+    <title>Yapay zeka iş akışı aksadığında: hukuk ekipleri için olay müdahale protokolü</title>
+    <link>https://lexsas.com/tr/yazilar/hukuk-ekiplerinde-yapay-zeka-olay-mudahalesi.html</link>
+    <guid isPermaLink="true">https://lexsas.com/tr/yazilar/hukuk-ekiplerinde-yapay-zeka-olay-mudahalesi.html</guid>
+    <description>Yapay zeka destekli bir hukuk iş akışı aksadığında sorumluluğu, kayıtların korunmasını, sınırlamayı ve yeniden başlatmayı düzenleyen kısa bir müdahale protokolü.</description>
+    <pubDate>Sat, 18 Jul 2026 12:00:00 GMT</pubDate>
+    <category>insights-tr</category>
+  </item>
   <item>
     <title>The EU AI Act on 2 August 2026: what actually applies</title>
     <link>https://lexsas.com/insights/eu-ai-act-august-2026.html</link>
     <guid isPermaLink="true">https://lexsas.com/insights/eu-ai-act-august-2026.html</guid>
-    <description>The Digital Omnibus moved the high-risk deadlines to 2027 and 2028. The Article 50 transparency duties still start on 2 August 2026: chatbot disclosure, machine-readable marking, deepfake labels.</description>
+    <description>The adopted Digital Omnibus sets new high-risk application dates in 2027 and 2028; as of 18 July 2026 it awaited publication and entry into force. Article 50 duties become applicable on 2 August.</description>
     <pubDate>Sat, 18 Jul 2026 09:00:00 GMT</pubDate>
     <category>insights-en</category>
   </item>
   <item>
-    <title>AI citation sanctions keep climbing: a verification protocol for legal teams</title>
+    <title>AI citation errors: a verification protocol for legal teams</title>
     <link>https://lexsas.com/insights/ai-citation-verification.html</link>
     <guid isPermaLink="true">https://lexsas.com/insights/ai-citation-verification.html</guid>
-    <description>More than 1,700 court decisions involve AI-hallucinated filings, and penalties escalated from warnings to suspensions. A five-step verification protocol before anything leaves the team.</description>
+    <description>An independent database listed more than 1,770 cases as of 18 July 2026 in which courts or tribunals addressed generative-AI hallucinations or, in some entries, alleged AI use. A five-step verification protocol.</description>
     <pubDate>Sat, 18 Jul 2026 09:00:00 GMT</pubDate>
     <category>insights-en</category>
   </item>
   <item>
-    <title>AB Yapay Zeka Tüzüğü: 2 Ağustos 2026'da yürürlüğe girenler</title>
+    <title>AB Yapay Zeka Tüzüğü: 2 Ağustos 2026'da uygulanmaya başlayanlar</title>
     <link>https://lexsas.com/tr/yazilar/ab-yapay-zeka-tuzugu-agustos-2026.html</link>
     <guid isPermaLink="true">https://lexsas.com/tr/yazilar/ab-yapay-zeka-tuzugu-agustos-2026.html</guid>
-    <description>Dijital Omnibus yüksek riskli sistem tarihlerini 2027 ve 2028'e öteledi; Madde 50 şeffaflık yükümlülükleri 2 Ağustos 2026'da yürürlükte.</description>
+    <description>Kabul edilen Dijital Omnibus, yüksek riskli sistemler için 2027 ve 2028'de yeni uygulama tarihleri belirliyor; 18 Temmuz 2026 itibarıyla yayımlanmayı ve yürürlüğe girmeyi bekliyor. Madde 50 yükümlülükleri 2 Ağustos'ta uygulanmaya başlıyor.</description>
     <pubDate>Sat, 18 Jul 2026 09:00:00 GMT</pubDate>
     <category>insights-tr</category>
   </item>
   <item>
-    <title>Yapay zeka halüsinasyonu yaptırımları büyüyor: hukuk ekipleri için atıf doğrulama protokolü</title>
+    <title>Yapay zeka kaynaklı atıf hataları: hukuk ekipleri için doğrulama protokolü</title>
     <link>https://lexsas.com/tr/yazilar/yapay-zeka-atif-dogrulama.html</link>
     <guid isPermaLink="true">https://lexsas.com/tr/yazilar/yapay-zeka-atif-dogrulama.html</guid>
-    <description>Yapay zeka halüsinasyonu içeren dosyalarda 1.700'ü aşkın mahkeme kararı; beş adımlık atıf doğrulama protokolü.</description>
+    <description>Bağımsız bir veritabanı, 18 Temmuz 2026 itibarıyla mahkemelerin ya da diğer yargı mercilerinin üretken yapay zeka halüsinasyonlarını veya bazı kayıtlarda yalnızca ileri sürülen yapay zeka kullanımını ele aldığı 1.770'ten fazla vakayı listeliyordu. Beş adımlık doğrulama protokolü.</description>
     <pubDate>Sat, 18 Jul 2026 09:00:00 GMT</pubDate>
     <category>insights-tr</category>
   </item>
