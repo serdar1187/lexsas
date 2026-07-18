@@ -33,6 +33,10 @@ English.
 - [Home](https://lexsas.com/): what LEXSAS does, focus areas, working principles, FAQ
 - [Asim Serdar Yilmaz | Legal and Regulatory Affairs Leader · LEXSAS](https://lexsas.com/about.html): full career history, board roles, education
 - [Insights](https://lexsas.com/insights.html): articles on law, regulation and AI
+- [The EU AI Act on 2 August 2026: what actually applies](https://lexsas.com/insights/eu-ai-act-august-2026.html)
+- [AB Yapay Zeka Tüzüğü: 2 Ağustos 2026'da yürürlüğe girenler](https://lexsas.com/tr/yazilar/ab-yapay-zeka-tuzugu-agustos-2026.html)
+- [AI citation sanctions keep climbing: a verification protocol for legal teams](https://lexsas.com/insights/ai-citation-verification.html)
+- [Yapay zeka halüsinasyonu yaptırımları büyüyor: hukuk ekipleri için atıf doğrulama protokolü](https://lexsas.com/tr/yazilar/yapay-zeka-atif-dogrulama.html)
 - [Marketplace intermediary liability in Turkey: three regimes to read together](https://lexsas.com/insights/turkey-marketplace-liability.html)
 - [Türkiye'de pazaryeri aracı sorumluluğu: birlikte okunması gereken üç rejim](https://lexsas.com/tr/yazilar/pazaryeri-araci-sorumlulugu.html)
 - [Marketplace ranking and algorithmic accountability: questions for the legal lead](https://lexsas.com/insights/marketplace-algorithmic-accountability.html)
@@ -56,7 +60,7 @@ English.
 - [The billable hour is running out of logic](https://lexsas.com/insights/beyond-the-billable-hour.html)
 - [Saatlik ücretin mantığı tükeniyor](https://lexsas.com/tr/yazilar/saatlik-ucretin-otesi.html)
 - [Contact](https://lexsas.com/contact.html): serdar@lexsas.com
-- [LinkedIn](https://lexsas.com/linkedin.html): latest LinkedIn post and profile link
+- [LinkedIn](https://lexsas.com/linkedin.html): selected LinkedIn posts and profile link
 - [LinkedIn (Türkçe)](https://lexsas.com/tr/linkedin.html)
 - Turkish versions: [Ana Sayfa](https://lexsas.com/tr/), [Asım Serdar Yılmaz | Hukuk ve Regülasyon Lideri · LEXSAS](https://lexsas.com/tr/hakkinda.html), [Yazılar](https://lexsas.com/tr/yazilar.html), [İletişim](https://lexsas.com/tr/iletisim.html)
 

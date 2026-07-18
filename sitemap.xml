@@ -2,14 +2,14 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://lexsas.com/</loc>
-    <lastmod>2026-07-11</lastmod>
+    <lastmod>2026-07-18</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://lexsas.com/"/>
     <xhtml:link rel="alternate" hreflang="tr" href="https://lexsas.com/tr/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://lexsas.com/"/>
   </url>
   <url>
     <loc>https://lexsas.com/tr/</loc>
-    <lastmod>2026-07-11</lastmod>
+    <lastmod>2026-07-18</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://lexsas.com/"/>
     <xhtml:link rel="alternate" hreflang="tr" href="https://lexsas.com/tr/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://lexsas.com/"/>
@@ -30,28 +30,28 @@
   </url>
   <url>
     <loc>https://lexsas.com/insights.html</loc>
-    <lastmod>2026-07-11</lastmod>
+    <lastmod>2026-07-18</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://lexsas.com/insights.html"/>
     <xhtml:link rel="alternate" hreflang="tr" href="https://lexsas.com/tr/yazilar.html"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://lexsas.com/insights.html"/>
   </url>
   <url>
     <loc>https://lexsas.com/tr/yazilar.html</loc>
-    <lastmod>2026-07-11</lastmod>
+    <lastmod>2026-07-18</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://lexsas.com/insights.html"/>
     <xhtml:link rel="alternate" hreflang="tr" href="https://lexsas.com/tr/yazilar.html"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://lexsas.com/insights.html"/>
   </url>
   <url>
     <loc>https://lexsas.com/linkedin.html</loc>
-    <lastmod>2026-07-11</lastmod>
+    <lastmod>2026-07-18</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://lexsas.com/linkedin.html"/>
     <xhtml:link rel="alternate" hreflang="tr" href="https://lexsas.com/tr/linkedin.html"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://lexsas.com/linkedin.html"/>
   </url>
   <url>
     <loc>https://lexsas.com/tr/linkedin.html</loc>
-    <lastmod>2026-07-11</lastmod>
+    <lastmod>2026-07-18</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://lexsas.com/linkedin.html"/>
     <xhtml:link rel="alternate" hreflang="tr" href="https://lexsas.com/tr/linkedin.html"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://lexsas.com/linkedin.html"/>
@@ -69,6 +69,34 @@
     <xhtml:link rel="alternate" hreflang="en" href="https://lexsas.com/contact.html"/>
     <xhtml:link rel="alternate" hreflang="tr" href="https://lexsas.com/tr/iletisim.html"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://lexsas.com/contact.html"/>
+  </url>
+  <url>
+    <loc>https://lexsas.com/insights/eu-ai-act-august-2026.html</loc>
+    <lastmod>2026-07-18</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://lexsas.com/insights/eu-ai-act-august-2026.html"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://lexsas.com/tr/yazilar/ab-yapay-zeka-tuzugu-agustos-2026.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://lexsas.com/insights/eu-ai-act-august-2026.html"/>
+  </url>
+  <url>
+    <loc>https://lexsas.com/tr/yazilar/ab-yapay-zeka-tuzugu-agustos-2026.html</loc>
+    <lastmod>2026-07-18</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://lexsas.com/insights/eu-ai-act-august-2026.html"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://lexsas.com/tr/yazilar/ab-yapay-zeka-tuzugu-agustos-2026.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://lexsas.com/insights/eu-ai-act-august-2026.html"/>
+  </url>
+  <url>
+    <loc>https://lexsas.com/insights/ai-citation-verification.html</loc>
+    <lastmod>2026-07-18</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://lexsas.com/insights/ai-citation-verification.html"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://lexsas.com/tr/yazilar/yapay-zeka-atif-dogrulama.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://lexsas.com/insights/ai-citation-verification.html"/>
+  </url>
+  <url>
+    <loc>https://lexsas.com/tr/yazilar/yapay-zeka-atif-dogrulama.html</loc>
+    <lastmod>2026-07-18</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://lexsas.com/insights/ai-citation-verification.html"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://lexsas.com/tr/yazilar/yapay-zeka-atif-dogrulama.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://lexsas.com/insights/ai-citation-verification.html"/>
   </url>
   <url>
     <loc>https://lexsas.com/insights/turkey-marketplace-liability.html</loc>
