@@ -196,12 +196,12 @@
 }
 </script>
 </head>
-<body>
+<body id="top">
 <a class="skip-link" href="#main-content">İçeriğe atla</a>
 <header class="site-header">
-  <div class="shell">
-    <a class="logo-lockup" href="/tr/">
-      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 96 96" aria-hidden="true">
+  <div class="shell header-inner">
+    <a class="brand" href="/tr/" aria-label="LEXSAS ana sayfa">
+      <svg class="brand-mark" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 96 96" aria-hidden="true">
         <path d="M 48 14 A 34 34 0 0 1 82 48" fill="none" stroke="#2E7CF6" stroke-width="9" stroke-linecap="round"></path>
         <path d="M 82 48 A 34 34 0 0 1 48 82" fill="none" stroke="#E8503A" stroke-width="9" stroke-linecap="round"></path>
         <path d="M 48 82 A 34 34 0 0 1 14 48" fill="none" stroke="#F5B301" stroke-width="9" stroke-linecap="round"></path>
@@ -209,31 +209,27 @@
         <line x1="36" y1="36" x2="60" y2="60" stroke="#22272C" stroke-width="9" stroke-linecap="round"></line>
         <line x1="60" y1="36" x2="36" y2="60" stroke="#22272C" stroke-width="9" stroke-linecap="round"></line>
       </svg>
-      <span>lexsas</span>
+      <span class="brand-word">lexsas</span>
     </a>
-    <nav class="nav site-nav" aria-label="Ana">
-      <a href="/tr/">Ana Sayfa</a>
-      <a href="/tr/hakkinda.html">Hakkında</a>
+    <nav class="nav" aria-label="Ana">
+      <a href="/tr/#work">Çalışma alanları</a>
+      <a href="/tr/#approach">Yaklaşım</a>
+      <a href="/tr/#experience">Deneyim</a>
       <a href="/tr/yazilar.html" aria-current="page">Yazılar</a>
       <a href="/tr/iletisim.html">İletişim</a>
-      <a class="lang-toggle" href="/insights/ai-incident-response-legal-teams.html">EN</a>
     </nav>
+    <a class="lang-toggle" href="/insights/ai-incident-response-legal-teams.html" aria-label="Switch to English">EN</a>
   </div>
 </header>
-<hr class="signature-line">
 
 <main id="main-content">
-  <section class="shell" style="padding-top: 64px;">
-    <div class="article-header">
-      <a class="back-link" href="/tr/yazilar.html">&larr; Yazılar</a>
-      <span class="kicker">Temmuz 2026 &middot; 2 dk okuma</span>
-      <h1>Yapay zeka iş akışı aksadığında: hukuk ekipleri için olay müdahale protokolü</h1>
-      <p class="article-byline">Asım Serdar Yılmaz</p>
-    </div>
+  <section class="article-hero shell">
+    <span class="kicker">Temmuz 2026 &middot; Yapay zeka yönetişimi</span>
+    <h1 class="article-title">Yapay zeka iş akışı aksadığında: hukuk ekipleri için olay müdahale protokolü</h1>
+    <p class="article-lede">Yapay zeka destekli bir hukuk iş akışı aksadığında sorumluluğu, kayıtların korunmasını, sınırlamayı ve yeniden başlatmayı düzenleyen kısa bir müdahale protokolü.</p>
   </section>
 
-  <section class="shell" style="padding-top: 0;">
-    <div class="article-body">
+  <div class="shell"><article class="prose">
       <p>Yapay zeka olayı yalnızca bir siber güvenlik vakası değildir. Hukuk veya regülasyon ekibi açısından sorun, güvenilmez bir çıktı, beklenmedik veri açığa çıkması, model değişikliği ya da yeniden üretilemeyen bir iş akışıyla başlayabilir. Asıl mesele sistemin ne kadar akıllı olduğu değil, ekibin kaydı kaybetmeden işi durdurup inceleyebilmesi ve kontrollü biçimde yeniden başlatabilmesidir.</p>
       <p>NIST'in gönüllü AI RMF'si dört temel işlev kullanıyor: Govern, Map, Measure ve Manage. Tamamlayıcı Playbook eylemler öneriyor. Olay müdahalesine uyarlandığında bunlar karar yetkisini önceden belirlemek; etkilenen kullanım alanını, veriyi ve paydaşları haritalamak; davranışı ve etkisini değerlendirmek; ardından sorunu sınırlayıp iyileştirme ve yeniden başlatma ölçütlerini kaydetmek anlamına geliyor.</p>
       <p>Avrupa Komisyonu'nun 7 Temmuz 2026 tarihli eylem planı bu operasyonel odağı güçlendiriyor. Plan, model değerlendirmesi ve güvenli testin yanı sıra siber güvenlik amacıyla ileri yapay zeka sistemlerine güvenli erişim için ENISA ile geliştirilecek bir çerçeveyi öne çıkarıyor. Ayrıca yapay zeka dayanıklılığını mevcut AB siber güvenlik araçlarıyla ilişkilendiriyor. Plan, sektöre özel değerlendirmelerin yerine geçmez. Hukuk, uyum, bilgi güvenliği ve ürün ekiplerinin ortak bir müdahale akışına neden ihtiyaç duyduğunu gösteriyor.</p>
@@ -252,19 +248,35 @@
       </div>
       <p class="article-related">İlgili: <a href="/tr/#work">Hukuk teknolojisi ve yapay zeka iş akışı otomasyonu</a></p>
       <p class="article-next"><a href="/tr/yazilar/ab-yapay-zeka-tuzugu-agustos-2026.html">Sonraki yazı: AB Yapay Zeka Tüzüğü: 2 Ağustos 2026'da uygulanmaya başlayanlar &rarr;</a></p>
-    </div>
-  </section>
+  </article></div>
+
+  <nav class="article-nav shell" aria-label="Diğer yazılar">
+    <a class="u-link" href="/tr/yazilar.html">&larr; Tüm yazılar</a>
+    <a class="u-link" href="/tr/iletisim.html">İletişime geç &rarr;</a>
+  </nav>
 </main>
 
 <footer class="site-footer">
   <div class="shell">
-    <div class="footer-top"><span class="kicker">lexsas</span></div>
+    <div class="footer-brand">
+      <svg class="brand-mark" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 96 96" aria-hidden="true">
+        <path d="M 48 14 A 34 34 0 0 1 82 48" fill="none" stroke="#2E7CF6" stroke-width="9" stroke-linecap="round"></path>
+        <path d="M 82 48 A 34 34 0 0 1 48 82" fill="none" stroke="#E8503A" stroke-width="9" stroke-linecap="round"></path>
+        <path d="M 48 82 A 34 34 0 0 1 14 48" fill="none" stroke="#F5B301" stroke-width="9" stroke-linecap="round"></path>
+        <path d="M 14 48 A 34 34 0 0 1 48 14" fill="none" stroke="#2FA05A" stroke-width="9" stroke-linecap="round"></path>
+        <line x1="36" y1="36" x2="60" y2="60" stroke="#22272C" stroke-width="9" stroke-linecap="round"></line>
+        <line x1="60" y1="36" x2="36" y2="60" stroke="#22272C" stroke-width="9" stroke-linecap="round"></line>
+      </svg>
+    </div>
     <p class="footer-disclaimer">Bu sitedeki içerik yalnızca genel bilgilendirme amaçlıdır ve hukuki tavsiye niteliği taşımaz. Sitenin kullanımı avukat-müvekkil ilişkisi doğurmaz. Buradaki görüşler kişiseldir ve mevcut ya da geçmiş hiçbir işvereni bağlamaz.</p>
-    <div class="footer-meta footer-links">
-      <span>© 2026 LEXSAS · İstanbul</span>
-      <a href="/tr/linkedin.html">LinkedIn</a>
+    <div class="footer-meta">
+      <span>&copy; 2026 LEXSAS · İstanbul</span>
+      <a class="u-link" href="https://www.linkedin.com/in/asimserdaryilmaz/">LinkedIn</a>
+      <a class="u-link" href="#top">Başa dön</a>
     </div>
   </div>
+  <div class="footer-wordmark" aria-hidden="true">lexsas</div>
 </footer>
+<script src="/js/main.js" defer></script>
 </body>
 </html>
