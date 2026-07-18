@@ -259,11 +259,13 @@
     if (expLink && dict["exp.href"]) expLink.setAttribute("href", dict["exp.href"]);
 
     document.documentElement.setAttribute("lang", lang);
-    langToggle.textContent = lang === "en" ? "TR" : "EN";
-    langToggle.setAttribute(
-      "aria-label",
-      lang === "en" ? "Türkçe sürüme geç" : "Switch to English"
-    );
+    if (langToggle) {
+      langToggle.textContent = lang === "en" ? "TR" : "EN";
+      langToggle.setAttribute(
+        "aria-label",
+        lang === "en" ? "Türkçe sürüme geç" : "Switch to English"
+      );
+    }
     currentLang = lang;
     try { localStorage.setItem("lexsas-lang", lang); } catch (e) { /* private mode */ }
   }
@@ -283,14 +285,16 @@
     }, 190);
   }
 
-  langToggle.addEventListener("click", () => {
-    setLang(currentLang === "en" ? "tr" : "en", false);
-  });
+  if (langToggle) {
+    langToggle.addEventListener("click", () => {
+      setLang(currentLang === "en" ? "tr" : "en", false);
+    });
+  }
 
   /* ---------- Hero title: word-split blur entrance ---------- */
 
   function splitHeroTitle() {
-    if (reducedMotion) return;
+    if (!heroTitle || reducedMotion) return;
     const text = heroTitle.textContent.replace(/\s+/g, " ").trim();
     heroTitle.textContent = "";
     heroTitle.classList.remove("split", "on");
@@ -328,24 +332,26 @@
   const progressBar = document.getElementById("progressBar");
   let progressTicking = false;
 
-  function updateProgress() {
-    const doc = document.documentElement;
-    const max = doc.scrollHeight - window.innerHeight;
-    const p = max > 0 ? window.scrollY / max : 0;
-    progressBar.style.transform = `scaleX(${Math.min(1, Math.max(0, p))})`;
-    progressTicking = false;
+  if (progressBar) {
+    const updateProgress = () => {
+      const doc = document.documentElement;
+      const max = doc.scrollHeight - window.innerHeight;
+      const p = max > 0 ? window.scrollY / max : 0;
+      progressBar.style.transform = `scaleX(${Math.min(1, Math.max(0, p))})`;
+      progressTicking = false;
+    };
+    window.addEventListener(
+      "scroll",
+      () => {
+        if (!progressTicking) {
+          window.requestAnimationFrame(updateProgress);
+          progressTicking = true;
+        }
+      },
+      { passive: true }
+    );
+    updateProgress();
   }
-  window.addEventListener(
-    "scroll",
-    () => {
-      if (!progressTicking) {
-        window.requestAnimationFrame(updateProgress);
-        progressTicking = true;
-      }
-    },
-    { passive: true }
-  );
-  updateProgress();
 
   /* ---------- Focus areas: scroll-synced index ---------- */
 

@@ -20,8 +20,8 @@
 <link rel="apple-touch-icon" href="/assets/brand/favicon-180.png">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Source+Serif+4:wght@600&family=Manrope:wght@400;500;600;700&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="/assets/css/site.css">
+<link href="https://fonts.googleapis.com/css2?family=Source+Serif+4:opsz,wght@8..60,400;8..60,600;8..60,700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/css/style.css">
 <link rel="alternate" type="application/rss+xml" title="LEXSAS Insights" href="https://lexsas.com/feed.xml">
 <meta name="author" content="Asım Serdar Yılmaz">
 <meta property="og:url" content="https://lexsas.com/tr/hakkinda.html">
@@ -184,150 +184,173 @@
 }
 </script>
 </head>
-<body>
+<body id="top">
 <a class="skip-link" href="#main-content">İçeriğe atla</a>
+
+<div class="progress-line" aria-hidden="true"><span id="progressBar"></span></div>
+
 <header class="site-header">
-  <div class="shell">
-    <a class="logo-lockup" href="/tr/">
-      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 96 96">
-        <path d="M 48 14 A 34 34 0 0 1 82 48" fill="none" stroke="#2E7CF6" stroke-width="9" stroke-linecap="round"></path>
-        <path d="M 82 48 A 34 34 0 0 1 48 82" fill="none" stroke="#E8503A" stroke-width="9" stroke-linecap="round"></path>
-        <path d="M 48 82 A 34 34 0 0 1 14 48" fill="none" stroke="#F5B301" stroke-width="9" stroke-linecap="round"></path>
-        <path d="M 14 48 A 34 34 0 0 1 48 14" fill="none" stroke="#2FA05A" stroke-width="9" stroke-linecap="round"></path>
-        <line x1="36" y1="36" x2="60" y2="60" stroke="#22272C" stroke-width="9" stroke-linecap="round"></line>
-        <line x1="60" y1="36" x2="36" y2="60" stroke="#22272C" stroke-width="9" stroke-linecap="round"></line>
+  <div class="shell header-inner">
+    <a class="brand" href="/tr/" aria-label="LEXSAS home">
+      <svg class="brand-mark" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 96 96" aria-hidden="true">
+        <path class="mark-arc" style="--i:0" d="M 48 14 A 34 34 0 0 1 82 48" fill="none" stroke="#2E7CF6" stroke-width="9" stroke-linecap="round" pathLength="1"></path>
+        <path class="mark-arc" style="--i:1" d="M 82 48 A 34 34 0 0 1 48 82" fill="none" stroke="#E8503A" stroke-width="9" stroke-linecap="round" pathLength="1"></path>
+        <path class="mark-arc" style="--i:2" d="M 48 82 A 34 34 0 0 1 14 48" fill="none" stroke="#F5B301" stroke-width="9" stroke-linecap="round" pathLength="1"></path>
+        <path class="mark-arc" style="--i:3" d="M 14 48 A 34 34 0 0 1 48 14" fill="none" stroke="#2FA05A" stroke-width="9" stroke-linecap="round" pathLength="1"></path>
+        <line class="mark-x" style="--i:4" x1="36" y1="36" x2="60" y2="60" stroke="#22272C" stroke-width="9" stroke-linecap="round" pathLength="1"></line>
+        <line class="mark-x" style="--i:5" x1="60" y1="36" x2="36" y2="60" stroke="#22272C" stroke-width="9" stroke-linecap="round" pathLength="1"></line>
       </svg>
-      <span>lexsas</span>
+      <span class="brand-word">lexsas</span>
     </a>
-    <nav class="nav site-nav">
-      <a href="/tr/">Ana Sayfa</a>
-      <a href="/tr/hakkinda.html" aria-current="page">Hakkında</a>
+    <nav class="nav" aria-label="Primary">
+      <a href="/tr/#work">Çalışma alanları</a>
+      <a href="/tr/#approach">Yaklaşım</a>
+      <a href="/tr/#experience">Deneyim</a>
       <a href="/tr/yazilar.html">Yazılar</a>
       <a href="/tr/iletisim.html">İletişim</a>
-      <a class="lang-toggle" href="/about.html">EN</a>
     </nav>
+    <a class="lang-toggle" href="/about.html" aria-label="Switch to English">EN</a>
   </div>
 </header>
-<hr class="signature-line">
 
 <main id="main-content">
-  <section class="page-intro shell">
-    <span class="kicker">HAKKINDA</span>
-    <h1>Asım Serdar Yılmaz: regüle teknoloji sektörlerinde yirmi yılı aşkın deneyim</h1>
+
+  <section class="page-hero shell">
+    <span class="kicker">Hakkında</span>
+    <h1 class="page-title">Asım Serdar Yılmaz: regüle teknoloji sektörlerinde yirmi yılı aşkın deneyim</h1>
   </section>
 
-  <section class="shell">
-    <div class="bio-wrap">
-      <div class="bio-portrait"><img src="/assets/img/asim-serdar-yilmaz.jpg" alt="Asım Serdar Yılmaz" width="800" height="800" loading="lazy"></div>
-      <div class="bio">
-      <p>Yirmi yılı aşkın süredir Türkiye ve Orta Doğu'da küresel teknoloji, tüketici ve düzenlemeye tabi sektörlerdeki şirketlere hukuk danışmanlığı veriyorum; bu sürenin çoğu şirket içinde geçti. Alanım perakende, e-ticaret ve pazaryeri, dijital yayıncılık ve içerik, reklam, ödemeler, veri ve yapay zeka ile fikri mülkiyeti kapsıyor. İşin özü, yüksek denetimli ortamlarda pratik ve otonom karar üretmek.</p>
-      <p>Kariyerim Ankara'da White & Case bünyesinde, düzenlemeye tabi sektörlerdeki sınır ötesi birleşme, devralma ve özelleştirmelerle başladı. yüksek düzeyde regüle bir sektördeki küresel bir grupta Orta Doğu ve küresel merkez rollerinde katı reklam yasakları altında ticari ekiplere danışmanlık verdim. eBay Türkiye'de Orta Doğu ve Kuzey Afrika bölgesinin hukuk liderliğini yürüttüm. 2019-2026 arasında Amazon Türkiye'de Hukuk Direktörü olarak görev yaptım. 2026'da hukuktan regülasyona geçtim; bugün yüksek düzeyde regüle bir sektördeki küresel bir grubun kurumsal ilişkiler fonksiyonu içinde regülasyon gündemini yönetiyorum.</p>
-      <p>Çalışmalarımın ortak ekseni düzenlemeye tabi pazarlar oldu. Rekabet, tüketici koruma, ödemeler, veri koruma, aracı sorumluluğu ve kurumsal yönetişim gibi alanlarda, düzenleyici belirsizliği işletmenin ilerleyebileceği somut yollara çevirmeye odaklandım. Rekabet Kurumu, KVKK, Ticaret Bakanlığı, RTÜK ve TCMB gibi kurumlar önünde temsil bu işin sürekli parçası oldu.</p>
-      <p>Son yıllarda odağım yapay zeka yönetişimi ve hukuk teknolojisine kaydı. Amazon'da AWS Bedrock üzerinde üretken yapay zeka destekli hukuk araçlarının geliştirilmesine katkı verdim, talep karşılama ve bilgi erişimi süreçlerini sadeleştiren, dış avukat bağımlılığını azaltmayı hedefleyen çözümler üzerinde çalıştım. 2026'da bu deneyimi bağımsız bir zemine taşıyarak LEXSAS'ı kurdum: hukuki ve regülatif işi hızlandıran, güvenceleri baştan kurulu yapay zeka araçları tasarlayan ve bu konuda danışmanlık veren bir girişim. LEXSAS, kariyerin katman katman biriktirdiklerini tek çatıda birleştiriyor: hukuk direktörlüğü, regülasyon, kurumsal ilişkiler ve kamu politikası, artık uygulamalı yapay zeka yönetişimiyle yan yana.</p>
+  <section class="page-section shell">
+    <div class="bio-grid">
+      <figure class="bio-portrait reveal">
+        <img src="/assets/img/asim-serdar-yilmaz.jpg" alt="Asım Serdar Yılmaz" width="800" height="800" loading="lazy">
+        <figcaption>Istanbul · EN / TR</figcaption>
+      </figure>
+      <div class="bio-text">
+        <p class="reveal">Yirmi yılı aşkın süredir Türkiye ve Orta Doğu'da küresel teknoloji, tüketici ve düzenlemeye tabi sektörlerdeki şirketlere hukuk danışmanlığı veriyorum; bu sürenin çoğu şirket içinde geçti. Alanım perakende, e-ticaret ve pazaryeri, dijital yayıncılık ve içerik, reklam, ödemeler, veri ve yapay zeka ile fikri mülkiyeti kapsıyor. İşin özü, yüksek denetimli ortamlarda pratik ve otonom karar üretmek.</p>
+        <p class="reveal" style="--d:.08s">Kariyerim Ankara'da White &amp; Case bünyesinde, düzenlemeye tabi sektörlerdeki sınır ötesi birleşme, devralma ve özelleştirmelerle başladı. yüksek düzeyde regüle bir sektördeki küresel bir grupta Orta Doğu ve küresel merkez rollerinde katı reklam yasakları altında ticari ekiplere danışmanlık verdim. eBay Türkiye'de Orta Doğu ve Kuzey Afrika bölgesinin hukuk liderliğini yürüttüm. 2019-2026 arasında Amazon Türkiye'de Hukuk Direktörü olarak görev yaptım. 2026'da hukuktan regülasyona geçtim; bugün yüksek düzeyde regüle bir sektördeki küresel bir grubun kurumsal ilişkiler fonksiyonu içinde regülasyon gündemini yönetiyorum.</p>
+        <p class="reveal" style="--d:.16s">Çalışmalarımın ortak ekseni düzenlemeye tabi pazarlar oldu. Rekabet, tüketici koruma, ödemeler, veri koruma, aracı sorumluluğu ve kurumsal yönetişim gibi alanlarda, düzenleyici belirsizliği işletmenin ilerleyebileceği somut yollara çevirmeye odaklandım. Rekabet Kurumu, KVKK, Ticaret Bakanlığı, RTÜK ve TCMB gibi kurumlar önünde temsil bu işin sürekli parçası oldu.</p>
+        <p class="reveal" style="--d:.24s">Son yıllarda odağım yapay zeka yönetişimi ve hukuk teknolojisine kaydı. Amazon'da AWS Bedrock üzerinde üretken yapay zeka destekli hukuk araçlarının geliştirilmesine katkı verdim, talep karşılama ve bilgi erişimi süreçlerini sadeleştiren, dış avukat bağımlılığını azaltmayı hedefleyen çözümler üzerinde çalıştım. 2026'da bu deneyimi bağımsız bir zemine taşıyarak LEXSAS'ı kurdum: hukuki ve regülatif işi hızlandıran, güvenceleri baştan kurulu yapay zeka araçları tasarlayan ve bu konuda danışmanlık veren bir girişim. LEXSAS, kariyerin katman katman biriktirdiklerini tek çatıda birleştiriyor: hukuk direktörlüğü, regülasyon, kurumsal ilişkiler ve kamu politikası, artık uygulamalı yapay zeka yönetişimiyle yan yana.</p>
       </div>
     </div>
   </section>
 
-  <section class="shell">
-    <h2 class="section-heading">Kariyer</h2>
+  <section class="page-section shell">
+    <h2 class="page-heading reveal">Kariyer</h2>
     <div class="timeline">
-      <div class="job">
-        <span class="kicker">2026-günümüz</span>
-        <h3>Kurucu</h3>
-        <p class="company">LEXSAS</p>
-        <ul>
-          <li>Hukuki iş akışı otomasyonuna ve danışmanlığa odaklı bir yapay zeka hukuk teknolojisi girişimi kurdum; hukuki ve regülatif işi hızlandırmak temel amaç.</li>
-          <li>Talep karşılama, doküman ve bilgi iş akışları, araştırma ve uyum operasyonları için yapay zeka destekli araçlar tasarlıyor ve bu konuda danışmanlık veriyorum.</li>
-          <li>Gizlilik, fikri mülkiyet ve yönetişim güvencelerini araçların tasarımına baştan yerleştiriyorum; 20+ yıllık hukuk ve regülasyon liderliğini sorumlu yapay zeka benimsemesiyle birleştiriyorum.</li>
-        </ul>
+      <div class="job reveal">
+        <span class="job-years">2026-günümüz</span>
+        <div>
+          <h3>Kurucu</h3>
+          <p class="company">LEXSAS</p>
+          <ul>
+            <li>Hukuki iş akışı otomasyonuna ve danışmanlığa odaklı bir yapay zeka hukuk teknolojisi girişimi kurdum; hukuki ve regülatif işi hızlandırmak temel amaç.</li>
+            <li>Talep karşılama, doküman ve bilgi iş akışları, araştırma ve uyum operasyonları için yapay zeka destekli araçlar tasarlıyor ve bu konuda danışmanlık veriyorum.</li>
+            <li>Gizlilik, fikri mülkiyet ve yönetişim güvencelerini araçların tasarımına baştan yerleştiriyorum; 20+ yıllık hukuk ve regülasyon liderliğini sorumlu yapay zeka benimsemesiyle birleştiriyorum.</li>
+          </ul>
+        </div>
       </div>
-      <div class="job">
-        <span class="kicker">2026-günümüz</span>
-        <h3>Regülasyon Direktörü (Regulatory Affairs)</h3>
-        <p class="company">Yüksek düzeyde regüle bir sektörde faaliyet gösteren küresel bir grup, İstanbul</p>
-        <ul>
-          <li>Kurumsal ilişkiler fonksiyonu içinde regülasyon gündemini fonksiyonel lider olarak yönetiyorum; en yoğun regüle tüketici sektörlerinden birinde.</li>
-          <li>Türkiye pazarı için regülasyon stratejisi, mevzuat izleme ve değişiklik analizi; kamu politikası ve kamu kurumlarıyla ilişkiler çalışmalarına destek veriyorum.</li>
-          <li>Regülasyon operasyonlarına yapay zeka yönetişimi disiplini uyguluyorum: izleme, analiz ve kurumsal bilgi iş akışları, güvenceler baştan kurulu.</li>
-        </ul>
+      <div class="job reveal">
+        <span class="job-years">2026-günümüz</span>
+        <div>
+          <h3>Regülasyon Direktörü (Regulatory Affairs)</h3>
+          <p class="company">Yüksek düzeyde regüle bir sektörde faaliyet gösteren küresel bir grup, İstanbul</p>
+          <ul>
+            <li>Kurumsal ilişkiler fonksiyonu içinde regülasyon gündemini fonksiyonel lider olarak yönetiyorum; en yoğun regüle tüketici sektörlerinden birinde.</li>
+            <li>Türkiye pazarı için regülasyon stratejisi, mevzuat izleme ve değişiklik analizi; kamu politikası ve kamu kurumlarıyla ilişkiler çalışmalarına destek veriyorum.</li>
+            <li>Regülasyon operasyonlarına yapay zeka yönetişimi disiplini uyguluyorum: izleme, analiz ve kurumsal bilgi iş akışları, güvenceler baştan kurulu.</li>
+          </ul>
+        </div>
       </div>
-      <div class="job">
-        <span class="kicker">2019-2026</span>
-        <h3>Hukuk Direktörü ve Kanuni Yönetim Kurulu Üyesi</h3>
-        <p class="company">Amazon Türkiye, İstanbul</p>
-        <ul>
-          <li>Perakende ve pazaryeri için uçtan uca hukuk danışmanlığı: ticari sözleşmeler, tüketici hukuku, reklam ve promosyon, ürün uyumu, tedarik zinciri, ödemeler, mahremiyet ve uyuşmazlıklar.</li>
-          <li>Sınır ötesi veri aktarımına ilişkin bir KVKK kararına yanıt olarak, KVKK Kurumu tarafından onaylanan bir Veri Aktarım Taahhütnamesi hazırladım ve imzaladım.</li>
-          <li>Fiyatlama algoritmaları üzerine yürütülen bir Rekabet Kurumu incelemesinde Türkiye savunma stratejisini yönettim; savunma, algoritmik bağımsızlığa dayanan teknik ve iktisadi bir anlatı üzerine kuruluydu.</li>
-          <li>Teslimat taahhüdüne ilişkin bir Ticaret Bakanlığı incelemesinde şirketi temsil ettim.</li>
-          <li>AWS Bedrock üzerinde üretken yapay zeka destekli hukuk araçlarının geliştirilmesine katkı verdim ve birden çok Amazon tüzel kişiliği için kanuni yönetim kurulu üyeliği görevlerini yürüttüm.</li>
-        </ul>
+      <div class="job reveal">
+        <span class="job-years">2019-2026</span>
+        <div>
+          <h3>Hukuk Direktörü ve Kanuni Yönetim Kurulu Üyesi</h3>
+          <p class="company">Amazon Türkiye, İstanbul</p>
+          <ul>
+            <li>Perakende ve pazaryeri için uçtan uca hukuk danışmanlığı: ticari sözleşmeler, tüketici hukuku, reklam ve promosyon, ürün uyumu, tedarik zinciri, ödemeler, mahremiyet ve uyuşmazlıklar.</li>
+            <li>Sınır ötesi veri aktarımına ilişkin bir KVKK kararına yanıt olarak, KVKK Kurumu tarafından onaylanan bir Veri Aktarım Taahhütnamesi hazırladım ve imzaladım.</li>
+            <li>Fiyatlama algoritmaları üzerine yürütülen bir Rekabet Kurumu incelemesinde Türkiye savunma stratejisini yönettim; savunma, algoritmik bağımsızlığa dayanan teknik ve iktisadi bir anlatı üzerine kuruluydu.</li>
+            <li>Teslimat taahhüdüne ilişkin bir Ticaret Bakanlığı incelemesinde şirketi temsil ettim.</li>
+            <li>AWS Bedrock üzerinde üretken yapay zeka destekli hukuk araçlarının geliştirilmesine katkı verdim ve birden çok Amazon tüzel kişiliği için kanuni yönetim kurulu üyeliği görevlerini yürüttüm.</li>
+          </ul>
+        </div>
       </div>
-      <div class="job">
-        <span class="kicker">2012-2019</span>
-        <h3>Hukuk Başkanı ve İş Etiği Sorumlusu, Orta Doğu ve Kuzey Afrika</h3>
-        <p class="company">eBay Türkiye (GittiGidiyor), İstanbul</p>
-        <ul>
-          <li>Türkiye ve MENA bölgesinde pazaryeri operasyonları için bölgesel hukuk liderliği: tüketici koruma, reklam, ödemeler, fikri mülkiyet ve ticari işlemler.</li>
-          <li>Tam ödeme kuruluşu lisansı almadan ödeme toplama ve satıcı ödemesi yapmayı sağlayan bir muafiyet modelini BDDK onayıyla kurdum.</li>
-          <li>Kamu politikası başkanı olarak şirketi düzenleyiciler ve sektör kuruluşları önünde temsil ettim, TOBB E-Ticaret Meclisi dahil; banka ve ödeme kuruluşu iş birlikleri ile satıcı ödemelerinde BDDK ve TCMB çerçevesinde danışmanlık verdim.</li>
-          <li>Bölgesel iş etiği sorumluluğu, üçüncü taraf durum tespiti ve iç soruşturmalar; geniş bir uyuşmazlık portföyünün ve pazaryeri fikri mülkiyet stratejisinin yönetimi.</li>
-        </ul>
+      <div class="job reveal">
+        <span class="job-years">2012-2019</span>
+        <div>
+          <h3>Hukuk Başkanı ve İş Etiği Sorumlusu, Orta Doğu ve Kuzey Afrika</h3>
+          <p class="company">eBay Türkiye (GittiGidiyor), İstanbul</p>
+          <ul>
+            <li>Türkiye ve MENA bölgesinde pazaryeri operasyonları için bölgesel hukuk liderliği: tüketici koruma, reklam, ödemeler, fikri mülkiyet ve ticari işlemler.</li>
+            <li>Tam ödeme kuruluşu lisansı almadan ödeme toplama ve satıcı ödemesi yapmayı sağlayan bir muafiyet modelini BDDK onayıyla kurdum.</li>
+            <li>Kamu politikası başkanı olarak şirketi düzenleyiciler ve sektör kuruluşları önünde temsil ettim, TOBB E-Ticaret Meclisi dahil; banka ve ödeme kuruluşu iş birlikleri ile satıcı ödemelerinde BDDK ve TCMB çerçevesinde danışmanlık verdim.</li>
+            <li>Bölgesel iş etiği sorumluluğu, üçüncü taraf durum tespiti ve iç soruşturmalar; geniş bir uyuşmazlık portföyünün ve pazaryeri fikri mülkiyet stratejisinin yönetimi.</li>
+          </ul>
+        </div>
       </div>
-      <div class="job">
-        <span class="kicker">2008-2012</span>
-        <h3>Bölgesel Hukuk Müşaviri ve Şirket Sekreteri, Orta Doğu</h3>
-        <p class="company">Yüksek düzeyde regüle bir sektörde faaliyet gösteren küresel bir grup, Dubai ve Lozan</p>
-        <ul>
-          <li>Katı reklam yasakları ve Sağlık Bakanlığı düzenlemeleri altında 12 Orta Doğu pazarında ticari ekiplere danışmanlık.</li>
-          <li>Pazara giriş ve dağıtım mimarisi: dağıtım, kilit müşteri ve ticari pazarlama düzenlemeleri, şablonlar ve kontroller.</li>
-          <li>Yüksek riskli bir bölgede saha ekibi etiği ve üçüncü taraf uyumu için pratik kurallar ve eğitimler; marka koruma ve kaçak ticaret riskine karşı tedarik zinciri bütünlüğü.</li>
-          <li>Ürdün'de bir devralmanın hukuk iş akışının yönetimi; bölgesel tüzel kişilikler için şirket sekreterliği ve merkez rolünde küresel yolsuzlukla mücadele yönetişimi.</li>
-        </ul>
+      <div class="job reveal">
+        <span class="job-years">2008-2012</span>
+        <div>
+          <h3>Bölgesel Hukuk Müşaviri ve Şirket Sekreteri, Orta Doğu</h3>
+          <p class="company">Yüksek düzeyde regüle bir sektörde faaliyet gösteren küresel bir grup, Dubai ve Lozan</p>
+          <ul>
+            <li>Katı reklam yasakları ve Sağlık Bakanlığı düzenlemeleri altında 12 Orta Doğu pazarında ticari ekiplere danışmanlık.</li>
+            <li>Pazara giriş ve dağıtım mimarisi: dağıtım, kilit müşteri ve ticari pazarlama düzenlemeleri, şablonlar ve kontroller.</li>
+            <li>Yüksek riskli bir bölgede saha ekibi etiği ve üçüncü taraf uyumu için pratik kurallar ve eğitimler; marka koruma ve kaçak ticaret riskine karşı tedarik zinciri bütünlüğü.</li>
+            <li>Ürdün'de bir devralmanın hukuk iş akışının yönetimi; bölgesel tüzel kişilikler için şirket sekreterliği ve merkez rolünde küresel yolsuzlukla mücadele yönetişimi.</li>
+          </ul>
+        </div>
       </div>
-      <div class="job">
-        <span class="kicker">2005-2008</span>
-        <h3>Avukat</h3>
-        <p class="company">White & Case LLP Ankara (Çakmak Avukatlık Bürosu)</p>
-        <ul>
-          <li>Düzenlemeye tabi sektörlerde sınır ötesi birleşme, devralma ve özelleştirmeler: telekomünikasyon, enerji ve bankacılık; Telsim özelleştirmesi dahil.</li>
-          <li>Fikri mülkiyet: marka araştırması, tescil, iptal ve itiraz süreçleri, lisanslama ve gizlilik sözleşmeleri.</li>
-          <li>Düzenlemeye tabi sektörler danışmanlığı: enerji ve altyapı (petrol, gaz, madencilik), çevre ve idare hukuku.</li>
-          <li>Uyuşmazlıklar ve iş hukuku: iş sözleşmeleri, ticari ve iş uyuşmazlıklarının Türk mahkemeleri önünde takibi.</li>
-        </ul>
+      <div class="job reveal">
+        <span class="job-years">2005-2008</span>
+        <div>
+          <h3>Avukat</h3>
+          <p class="company">White &amp; Case LLP Ankara (Çakmak Avukatlık Bürosu)</p>
+          <ul>
+            <li>Düzenlemeye tabi sektörlerde sınır ötesi birleşme, devralma ve özelleştirmeler: telekomünikasyon, enerji ve bankacılık; Telsim özelleştirmesi dahil.</li>
+            <li>Fikri mülkiyet: marka araştırması, tescil, iptal ve itiraz süreçleri, lisanslama ve gizlilik sözleşmeleri.</li>
+            <li>Düzenlemeye tabi sektörler danışmanlığı: enerji ve altyapı (petrol, gaz, madencilik), çevre ve idare hukuku.</li>
+            <li>Uyuşmazlıklar ve iş hukuku: iş sözleşmeleri, ticari ve iş uyuşmazlıklarının Türk mahkemeleri önünde takibi.</li>
+          </ul>
+        </div>
       </div>
     </div>
   </section>
 
-  <section class="shell">
-    <h2 class="section-heading">Yönetim kurulu ve kurumsal yönetişim</h2>
-    <p class="intro-body">2019-2026 arasında Türk şirketler hukuku kapsamında birden çok Amazon tüzel kişiliği için kanuni yönetim kurulu üyeliği ve yetkili temsilcilik görevlerini yürüttüm. Bu roller kurul sorumluluğu, yetki yönetimi ve kurumsal yönetişim disiplinini kapsıyordu. Daha önce Elektronik Ticaret İşletmecileri Derneği'nde yardımcı yönetim kurulu üyeliği görevini üstlendim.</p>
+  <section class="page-section shell">
+    <h2 class="page-heading reveal">Yönetim kurulu ve kurumsal yönetişim</h2>
+    <p class="body-copy reveal">2019-2026 arasında Türk şirketler hukuku kapsamında birden çok Amazon tüzel kişiliği için kanuni yönetim kurulu üyeliği ve yetkili temsilcilik görevlerini yürüttüm. Bu roller kurul sorumluluğu, yetki yönetimi ve kurumsal yönetişim disiplinini kapsıyordu. Daha önce Elektronik Ticaret İşletmecileri Derneği'nde yardımcı yönetim kurulu üyeliği görevini üstlendim.</p>
   </section>
 
-  <section class="shell">
-    <h2 class="section-heading">Eğitim</h2>
-    <ul class="plain-list">
-      <li>Yönetici Eğitim Programı, Harvard Business School (2018-2019)</li>
-      <li>İnternet İşletmeciliği Yüksek Lisansı, Mercy College (2002-2004)</li>
-      <li>Hukuk Lisansı, Ankara Üniversitesi Hukuk Fakültesi (1995-2001)</li>
-    </ul>
+  <section class="page-section shell">
+    <div class="duo-grid">
+      <div>
+        <h2 class="page-heading reveal">Eğitim</h2>
+        <ul class="plain-list reveal">
+          <li>Yönetici Eğitim Programı, Harvard Business School (2018-2019)</li>
+          <li>İnternet İşletmeciliği Yüksek Lisansı, Mercy College (2002-2004)</li>
+          <li>Hukuk Lisansı, Ankara Üniversitesi Hukuk Fakültesi (1995-2001)</li>
+        </ul>
+      </div>
+      <div>
+        <h2 class="page-heading reveal">Kurslar ve seminerler</h2>
+        <ul class="plain-list reveal">
+          <li>Yapay Zeka Hukuku, Politikası ve Yönetişimi, London School of Economics</li>
+          <li>WIPO: E-Ticaret ve Fikri Mülkiyet İleri Kursu, Tahkim ve Arabuluculuk, Markalar ve Coğrafi İşaretler, Telif Hakları</li>
+          <li>Fikri ve Sınai Mülkiyet Hakları Programı, Ankara Üniversitesi</li>
+        </ul>
+      </div>
+    </div>
+    <p class="affil-line reveal">Ankara Barosu üyesi. Diller: Türkçe (ana dil), İngilizce (akıcı).</p>
   </section>
 
-  <section class="shell">
-    <h2 class="section-heading">Kurslar ve seminerler</h2>
-    <ul class="plain-list">
-      <li>Yapay Zeka Hukuku, Politikası ve Yönetişimi, London School of Economics</li>
-      <li>WIPO: E-Ticaret ve Fikri Mülkiyet İleri Kursu, Tahkim ve Arabuluculuk, Markalar ve Coğrafi İşaretler, Telif Hakları</li>
-      <li>Fikri ve Sınai Mülkiyet Hakları Programı, Ankara Üniversitesi</li>
-    </ul>
-    <p class="affil-line">Ankara Barosu üyesi. Diller: Türkçe (ana dil), İngilizce (akıcı).</p>
-  </section>
 </main>
 
 <footer class="site-footer">
   <div class="shell">
-    <div class="footer-top">
-      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 96 96">
+    <div class="footer-brand">
+      <svg class="brand-mark" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 96 96" aria-hidden="true">
         <path d="M 48 14 A 34 34 0 0 1 82 48" fill="none" stroke="#2E7CF6" stroke-width="9" stroke-linecap="round"></path>
         <path d="M 82 48 A 34 34 0 0 1 48 82" fill="none" stroke="#E8503A" stroke-width="9" stroke-linecap="round"></path>
         <path d="M 48 82 A 34 34 0 0 1 14 48" fill="none" stroke="#F5B301" stroke-width="9" stroke-linecap="round"></path>
@@ -335,14 +358,17 @@
         <line x1="36" y1="36" x2="60" y2="60" stroke="#22272C" stroke-width="9" stroke-linecap="round"></line>
         <line x1="60" y1="36" x2="36" y2="60" stroke="#22272C" stroke-width="9" stroke-linecap="round"></line>
       </svg>
-      <span class="kicker">lexsas</span>
     </div>
     <p class="footer-disclaimer">Bu sitedeki içerik yalnızca genel bilgilendirme amaçlıdır ve hukuki tavsiye niteliği taşımaz. Sitenin kullanımı avukat-müvekkil ilişkisi doğurmaz. Buradaki görüşler kişiseldir ve mevcut ya da geçmiş hiçbir işvereni bağlamaz.</p>
-    <div class="footer-meta footer-links">
-      <span>© 2026 LEXSAS · İstanbul</span>
-      <a href="/tr/linkedin.html">LinkedIn</a>
+    <div class="footer-meta">
+      <span>&copy; 2026 LEXSAS · İstanbul</span>
+      <a class="u-link" href="https://www.linkedin.com/in/asimserdaryilmaz/">LinkedIn</a>
+      <a class="u-link" href="#top">Başa dön</a>
     </div>
   </div>
+  <div class="footer-wordmark" aria-hidden="true">lexsas</div>
 </footer>
+
+<script src="/js/main.js" defer></script>
 </body>
 </html>

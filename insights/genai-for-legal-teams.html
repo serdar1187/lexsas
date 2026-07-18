@@ -20,8 +20,8 @@
 <link rel="apple-touch-icon" href="/assets/brand/favicon-180.png">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Source+Serif+4:wght@600&family=Manrope:wght@400;500;600;700&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="/assets/css/site.css">
+<link href="https://fonts.googleapis.com/css2?family=Source+Serif+4:opsz,wght@8..60,400;8..60,600;8..60,700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/css/style.css">
 <link rel="alternate" type="application/rss+xml" title="LEXSAS Insights" href="https://lexsas.com/feed.xml">
 <meta name="author" content="Asım Serdar Yılmaz">
 <meta property="og:url" content="https://lexsas.com/insights/genai-for-legal-teams.html">
@@ -192,45 +192,44 @@
 }
 </script>
 </head>
-<body>
+<body id="top">
 <a class="skip-link" href="#main-content">Skip to content</a>
+
+<div class="progress-line" aria-hidden="true"><span id="progressBar"></span></div>
+
 <header class="site-header">
-  <div class="shell">
-    <a class="logo-lockup" href="/">
-      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 96 96">
-        <path d="M 48 14 A 34 34 0 0 1 82 48" fill="none" stroke="#2E7CF6" stroke-width="9" stroke-linecap="round"></path>
-        <path d="M 82 48 A 34 34 0 0 1 48 82" fill="none" stroke="#E8503A" stroke-width="9" stroke-linecap="round"></path>
-        <path d="M 48 82 A 34 34 0 0 1 14 48" fill="none" stroke="#F5B301" stroke-width="9" stroke-linecap="round"></path>
-        <path d="M 14 48 A 34 34 0 0 1 48 14" fill="none" stroke="#2FA05A" stroke-width="9" stroke-linecap="round"></path>
-        <line x1="36" y1="36" x2="60" y2="60" stroke="#22272C" stroke-width="9" stroke-linecap="round"></line>
-        <line x1="60" y1="36" x2="36" y2="60" stroke="#22272C" stroke-width="9" stroke-linecap="round"></line>
+  <div class="shell header-inner">
+    <a class="brand" href="/" aria-label="LEXSAS home">
+      <svg class="brand-mark" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 96 96" aria-hidden="true">
+        <path class="mark-arc" style="--i:0" d="M 48 14 A 34 34 0 0 1 82 48" fill="none" stroke="#2E7CF6" stroke-width="9" stroke-linecap="round" pathLength="1"></path>
+        <path class="mark-arc" style="--i:1" d="M 82 48 A 34 34 0 0 1 48 82" fill="none" stroke="#E8503A" stroke-width="9" stroke-linecap="round" pathLength="1"></path>
+        <path class="mark-arc" style="--i:2" d="M 48 82 A 34 34 0 0 1 14 48" fill="none" stroke="#F5B301" stroke-width="9" stroke-linecap="round" pathLength="1"></path>
+        <path class="mark-arc" style="--i:3" d="M 14 48 A 34 34 0 0 1 48 14" fill="none" stroke="#2FA05A" stroke-width="9" stroke-linecap="round" pathLength="1"></path>
+        <line class="mark-x" style="--i:4" x1="36" y1="36" x2="60" y2="60" stroke="#22272C" stroke-width="9" stroke-linecap="round" pathLength="1"></line>
+        <line class="mark-x" style="--i:5" x1="60" y1="36" x2="36" y2="60" stroke="#22272C" stroke-width="9" stroke-linecap="round" pathLength="1"></line>
       </svg>
-      <span>lexsas</span>
+      <span class="brand-word">lexsas</span>
     </a>
-    <nav class="nav site-nav">
-      <a href="/">Home</a>
-      <a href="/about.html">About</a>
+    <nav class="nav" aria-label="Primary">
+      <a href="/#work">Focus areas</a>
+      <a href="/#approach">Approach</a>
+      <a href="/#experience">Experience</a>
       <a href="/insights.html" aria-current="page">Insights</a>
       <a href="/contact.html">Contact</a>
-      <a class="lang-toggle" href="/tr/yazilar/hukuk-ekiplerinde-uretken-yapay-zeka.html">TR</a>
     </nav>
+    <a class="lang-toggle" href="/tr/yazilar/hukuk-ekiplerinde-uretken-yapay-zeka.html" aria-label="Türkçe sürüme geç">TR</a>
   </div>
 </header>
-<hr class="signature-line">
 
 <main id="main-content">
-  <section class="shell" style="padding-top: 64px;">
-    <div class="article-header">
-      <a class="back-link" href="/insights.html">&larr; Insights</a>
-      <span class="kicker">July 2026 &middot; 6 min read</span>
-      <h1>What generative AI actually changes for in-house legal teams</h1>
-      <p class="article-byline">By Asim Serdar Yilmaz</p>
-    </div>
+
+  <section class="article-hero shell">
+    <span class="kicker">July 2026 &middot; AI governance</span>
+    <h1 class="article-title">What generative AI actually changes for in-house legal teams</h1>
+    <p class="article-lede">When our in-house team built generative AI tooling on AWS Bedrock, the first real decision was not which model to use. It was which single workflow to point it at first, and in what order to add the rest. We started by writing down what the system must never do before what it could do, then picked one narrow, high-volume task to run first. That sequencing choice taught me more than any product demonstration. The useful question is not whether generative AI will automate a legal department away or leave it untouched, but a narrower one: what does it change, what does it leave untouched, and how do you run it so it helps rather than quietly creating risk.</p>
   </section>
 
-  <section class="shell" style="padding-top: 0;">
-    <div class="article-body">
-      <p>When our in-house team built generative AI tooling on AWS Bedrock, the first real decision was not which model to use. It was which single workflow to point it at first, and in what order to add the rest. We started by writing down what the system must never do before what it could do, then picked one narrow, high-volume task to run first. That sequencing choice taught me more than any product demonstration. The useful question is not whether generative AI will automate a legal department away or leave it untouched, but a narrower one: what does it change, what does it leave untouched, and how do you run it so it helps rather than quietly creating risk.</p>
+  <div class="shell"><article class="prose">
       <h2>What does not change</h2>
       <p>Start with what stays put, because it is the part people skip. The duty to reach a defensible answer does not move. A model can draft a position, but a lawyer still owns it, signs off on it, and answers for it if a regulator asks. Privilege, confidentiality and conflicts do not relax because a tool is in the loop; if anything they get harder, since a poorly configured system can move sensitive material to places it should never be. How far privilege even reaches depends on the jurisdiction: in-house communications are not protected everywhere, and in EU competition matters, for instance, they may attract no privilege at all, so a tool that copies such material into new systems only widens the exposure.</p>
       <p>Judgment about risk appetite does not change either. Deciding how much regulatory ambiguity a business can carry, and on what terms, is a matter of context, relationships and history that no model holds. The same is true of the harder calls: when to escalate, when to say no, when to say yes with conditions. Those decisions are the actual job, and generative AI does not touch them.</p>
@@ -252,14 +251,18 @@
       <p>None of this requires believing the hype, and none of it requires dismissing the technology. Generative AI does not change what a legal team is for. It changes how much of the surrounding work has to be done by hand, which is worth a lot if you are honest about where the judgment still has to sit. The teams that get value from it stay skeptical about the claims, specific about the workflow, and patient enough to prove each step before trusting it with the next.</p>
       <p class="article-related">Related: <a href="/#ai-workflow-automation">Legal tech and AI workflow automation</a></p>
       <p class="article-next"><a href="/insights/ai-governance-five-controls.html">Next: AI governance for in-house legal teams: five minimum controls &rarr;</a></p>
-    </div>
-  </section>
+  </article></div>
+
+  <nav class="article-nav shell" aria-label="More">
+    <a class="u-link" href="/insights.html">&larr; All insights</a>
+    <a class="u-link" href="/contact.html">Get in touch &rarr;</a>
+  </nav>
 </main>
 
 <footer class="site-footer">
   <div class="shell">
-    <div class="footer-top">
-      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 96 96">
+    <div class="footer-brand">
+      <svg class="brand-mark" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 96 96" aria-hidden="true">
         <path d="M 48 14 A 34 34 0 0 1 82 48" fill="none" stroke="#2E7CF6" stroke-width="9" stroke-linecap="round"></path>
         <path d="M 82 48 A 34 34 0 0 1 48 82" fill="none" stroke="#E8503A" stroke-width="9" stroke-linecap="round"></path>
         <path d="M 48 82 A 34 34 0 0 1 14 48" fill="none" stroke="#F5B301" stroke-width="9" stroke-linecap="round"></path>
@@ -267,14 +270,17 @@
         <line x1="36" y1="36" x2="60" y2="60" stroke="#22272C" stroke-width="9" stroke-linecap="round"></line>
         <line x1="60" y1="36" x2="36" y2="60" stroke="#22272C" stroke-width="9" stroke-linecap="round"></line>
       </svg>
-      <span class="kicker">lexsas</span>
     </div>
     <p class="footer-disclaimer">This site is for general information only. It is not legal advice and does not create an attorney-client relationship. All views are personal and do not represent any current or former employer.</p>
-    <div class="footer-meta footer-links">
-      <span>© 2026 LEXSAS · Istanbul</span>
-      <a href="/linkedin.html">LinkedIn</a>
+    <div class="footer-meta">
+      <span>&copy; 2026 LEXSAS · Istanbul</span>
+      <a class="u-link" href="https://www.linkedin.com/in/asimserdaryilmaz/">LinkedIn</a>
+      <a class="u-link" href="#top">Back to top</a>
     </div>
   </div>
+  <div class="footer-wordmark" aria-hidden="true">lexsas</div>
 </footer>
+
+<script src="/js/main.js" defer></script>
 </body>
 </html>

@@ -20,8 +20,8 @@
 <link rel="apple-touch-icon" href="/assets/brand/favicon-180.png">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Source+Serif+4:wght@600&family=Manrope:wght@400;500;600;700&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="/assets/css/site.css">
+<link href="https://fonts.googleapis.com/css2?family=Source+Serif+4:opsz,wght@8..60,400;8..60,600;8..60,700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/css/style.css">
 <link rel="alternate" type="application/rss+xml" title="LEXSAS Insights" href="https://lexsas.com/feed.xml">
 <meta name="author" content="Asım Serdar Yılmaz">
 <meta property="og:url" content="https://lexsas.com/tr/yazilar/yapay-zeka-yonetisimi-bes-kontrol.html">
@@ -196,45 +196,44 @@
 }
 </script>
 </head>
-<body>
+<body id="top">
 <a class="skip-link" href="#main-content">İçeriğe atla</a>
+
+<div class="progress-line" aria-hidden="true"><span id="progressBar"></span></div>
+
 <header class="site-header">
-  <div class="shell">
-    <a class="logo-lockup" href="/tr/">
-      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 96 96">
-        <path d="M 48 14 A 34 34 0 0 1 82 48" fill="none" stroke="#2E7CF6" stroke-width="9" stroke-linecap="round"></path>
-        <path d="M 82 48 A 34 34 0 0 1 48 82" fill="none" stroke="#E8503A" stroke-width="9" stroke-linecap="round"></path>
-        <path d="M 48 82 A 34 34 0 0 1 14 48" fill="none" stroke="#F5B301" stroke-width="9" stroke-linecap="round"></path>
-        <path d="M 14 48 A 34 34 0 0 1 48 14" fill="none" stroke="#2FA05A" stroke-width="9" stroke-linecap="round"></path>
-        <line x1="36" y1="36" x2="60" y2="60" stroke="#22272C" stroke-width="9" stroke-linecap="round"></line>
-        <line x1="60" y1="36" x2="36" y2="60" stroke="#22272C" stroke-width="9" stroke-linecap="round"></line>
+  <div class="shell header-inner">
+    <a class="brand" href="/tr/" aria-label="LEXSAS home">
+      <svg class="brand-mark" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 96 96" aria-hidden="true">
+        <path class="mark-arc" style="--i:0" d="M 48 14 A 34 34 0 0 1 82 48" fill="none" stroke="#2E7CF6" stroke-width="9" stroke-linecap="round" pathLength="1"></path>
+        <path class="mark-arc" style="--i:1" d="M 82 48 A 34 34 0 0 1 48 82" fill="none" stroke="#E8503A" stroke-width="9" stroke-linecap="round" pathLength="1"></path>
+        <path class="mark-arc" style="--i:2" d="M 48 82 A 34 34 0 0 1 14 48" fill="none" stroke="#F5B301" stroke-width="9" stroke-linecap="round" pathLength="1"></path>
+        <path class="mark-arc" style="--i:3" d="M 14 48 A 34 34 0 0 1 48 14" fill="none" stroke="#2FA05A" stroke-width="9" stroke-linecap="round" pathLength="1"></path>
+        <line class="mark-x" style="--i:4" x1="36" y1="36" x2="60" y2="60" stroke="#22272C" stroke-width="9" stroke-linecap="round" pathLength="1"></line>
+        <line class="mark-x" style="--i:5" x1="60" y1="36" x2="36" y2="60" stroke="#22272C" stroke-width="9" stroke-linecap="round" pathLength="1"></line>
       </svg>
-      <span>lexsas</span>
+      <span class="brand-word">lexsas</span>
     </a>
-    <nav class="nav site-nav">
-      <a href="/tr/">Ana Sayfa</a>
-      <a href="/tr/hakkinda.html">Hakkında</a>
+    <nav class="nav" aria-label="Primary">
+      <a href="/tr/#work">Çalışma alanları</a>
+      <a href="/tr/#approach">Yaklaşım</a>
+      <a href="/tr/#experience">Deneyim</a>
       <a href="/tr/yazilar.html" aria-current="page">Yazılar</a>
       <a href="/tr/iletisim.html">İletişim</a>
-      <a class="lang-toggle" href="/insights/ai-governance-five-controls.html">EN</a>
     </nav>
+    <a class="lang-toggle" href="/insights/ai-governance-five-controls.html" aria-label="Switch to English">EN</a>
   </div>
 </header>
-<hr class="signature-line">
 
 <main id="main-content">
-  <section class="shell" style="padding-top: 64px;">
-    <div class="article-header">
-      <a class="back-link" href="/tr/yazilar.html">&larr; Yazılar</a>
-      <span class="kicker">Temmuz 2026 &middot; 2 dk okuma</span>
-      <h1>Şirket içi hukuk ekipleri için yapay zeka yönetişimi: beş asgari kontrol</h1>
-      <p class="article-byline">Asım Serdar Yılmaz</p>
-    </div>
+
+  <section class="article-hero shell">
+    <span class="kicker">Temmuz 2026 &middot; Yapay zeka yönetişimi</span>
+    <h1 class="article-title">Şirket içi hukuk ekipleri için yapay zeka yönetişimi: beş asgari kontrol</h1>
+    <p class="article-lede">Benimseme rakamları bekle-gör tavrına artık alan bırakmıyor. Association of Corporate Counsel'ın 2025 anketinde, şirket içi hukukçular arasında üretken yapay zekayı fiilen kullanan ABD'li katılımcıların oranı bir yılda yüzde 23'ten 52'ye çıktı. Thomson Reuters'ın 2025 raporu ise sektörler genelinde katılımcıların yüzde 52'sinin kurumlarında üretken yapay zekaya dair bir politika bulunmadığını buldu. Aynı sayı iki farklı kümeyi ölçüyor: biri ABD'de şirket içi benimseme, diğeri sektörler arası politika yokluğu; birlikte okunduğunda araç güvencelerini geride bırakıyor.</p>
   </section>
 
-  <section class="shell" style="padding-top: 0;">
-    <div class="article-body">
-      <p>Benimseme rakamları bekle-gör tavrına artık alan bırakmıyor. Association of Corporate Counsel'ın 2025 anketinde, şirket içi hukukçular arasında üretken yapay zekayı fiilen kullanan ABD'li katılımcıların oranı bir yılda yüzde 23'ten 52'ye çıktı. Thomson Reuters'ın 2025 raporu ise sektörler genelinde katılımcıların yüzde 52'sinin kurumlarında üretken yapay zekaya dair bir politika bulunmadığını buldu. Aynı sayı iki farklı kümeyi ölçüyor: biri ABD'de şirket içi benimseme, diğeri sektörler arası politika yokluğu; birlikte okunduğunda araç güvencelerini geride bırakıyor.</p>
+  <div class="shell"><article class="prose">
       <p>Bir ekibin bu teknolojiyi yaygınlaştırmasına onay vermeden önce tek sayfada beş kontrol isterim.</p>
       <p>Birincisi veri. Hangi bilginin bir komut penceresine girebileceği baştan yazılır. Müvekkil bilgisi, kişisel veri ve gizlilik kapsamındaki içerik için ayrı ayrı kural gerekir; hepsi kimse bir sohbet penceresi açmadan kararlaştırılır.</p>
       <p>İkincisi yetki ve hesap verebilirlik. Yapay zeka destekli her çıktının adı konmuş bir sahibi olur. Taslağı model yazar, altına imzayı hukukçu atar ve sorulduğunda o cevap verir.</p>
@@ -252,14 +251,18 @@
 
       <p class="article-related">İlgili: <a href="/tr/#ai-workflow-automation">Hukuk teknolojisi ve yapay zeka iş akışı otomasyonu</a></p>
       <p class="article-next"><a href="/tr/yazilar/kvkk-uyumlu-uretken-yapay-zeka.html">Sonraki yazı: Hukuk ekipleri için KVKK uyumlu üretken yapay zeka iş akışları &rarr;</a></p>
-    </div>
-  </section>
+  </article></div>
+
+  <nav class="article-nav shell" aria-label="More">
+    <a class="u-link" href="/tr/yazilar.html">&larr; Tüm yazılar</a>
+    <a class="u-link" href="/tr/iletisim.html">İletişime geç &rarr;</a>
+  </nav>
 </main>
 
 <footer class="site-footer">
   <div class="shell">
-    <div class="footer-top">
-      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 96 96">
+    <div class="footer-brand">
+      <svg class="brand-mark" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 96 96" aria-hidden="true">
         <path d="M 48 14 A 34 34 0 0 1 82 48" fill="none" stroke="#2E7CF6" stroke-width="9" stroke-linecap="round"></path>
         <path d="M 82 48 A 34 34 0 0 1 48 82" fill="none" stroke="#E8503A" stroke-width="9" stroke-linecap="round"></path>
         <path d="M 48 82 A 34 34 0 0 1 14 48" fill="none" stroke="#F5B301" stroke-width="9" stroke-linecap="round"></path>
@@ -267,14 +270,17 @@
         <line x1="36" y1="36" x2="60" y2="60" stroke="#22272C" stroke-width="9" stroke-linecap="round"></line>
         <line x1="60" y1="36" x2="36" y2="60" stroke="#22272C" stroke-width="9" stroke-linecap="round"></line>
       </svg>
-      <span class="kicker">lexsas</span>
     </div>
     <p class="footer-disclaimer">Bu sitedeki içerik yalnızca genel bilgilendirme amaçlıdır ve hukuki tavsiye niteliği taşımaz. Sitenin kullanımı avukat-müvekkil ilişkisi doğurmaz. Buradaki görüşler kişiseldir ve mevcut ya da geçmiş hiçbir işvereni bağlamaz.</p>
-    <div class="footer-meta footer-links">
-      <span>© 2026 LEXSAS · İstanbul</span>
-      <a href="/tr/linkedin.html">LinkedIn</a>
+    <div class="footer-meta">
+      <span>&copy; 2026 LEXSAS · İstanbul</span>
+      <a class="u-link" href="https://www.linkedin.com/in/asimserdaryilmaz/">LinkedIn</a>
+      <a class="u-link" href="#top">Başa dön</a>
     </div>
   </div>
+  <div class="footer-wordmark" aria-hidden="true">lexsas</div>
 </footer>
+
+<script src="/js/main.js" defer></script>
 </body>
 </html>

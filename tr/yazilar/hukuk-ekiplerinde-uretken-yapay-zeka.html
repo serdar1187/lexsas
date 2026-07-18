@@ -20,8 +20,8 @@
 <link rel="apple-touch-icon" href="/assets/brand/favicon-180.png">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Source+Serif+4:wght@600&family=Manrope:wght@400;500;600;700&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="/assets/css/site.css">
+<link href="https://fonts.googleapis.com/css2?family=Source+Serif+4:opsz,wght@8..60,400;8..60,600;8..60,700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/css/style.css">
 <link rel="alternate" type="application/rss+xml" title="LEXSAS Insights" href="https://lexsas.com/feed.xml">
 <meta name="author" content="Asım Serdar Yılmaz">
 <meta property="og:url" content="https://lexsas.com/tr/yazilar/hukuk-ekiplerinde-uretken-yapay-zeka.html">
@@ -192,45 +192,44 @@
 }
 </script>
 </head>
-<body>
+<body id="top">
 <a class="skip-link" href="#main-content">İçeriğe atla</a>
+
+<div class="progress-line" aria-hidden="true"><span id="progressBar"></span></div>
+
 <header class="site-header">
-  <div class="shell">
-    <a class="logo-lockup" href="/tr/">
-      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 96 96">
-        <path d="M 48 14 A 34 34 0 0 1 82 48" fill="none" stroke="#2E7CF6" stroke-width="9" stroke-linecap="round"></path>
-        <path d="M 82 48 A 34 34 0 0 1 48 82" fill="none" stroke="#E8503A" stroke-width="9" stroke-linecap="round"></path>
-        <path d="M 48 82 A 34 34 0 0 1 14 48" fill="none" stroke="#F5B301" stroke-width="9" stroke-linecap="round"></path>
-        <path d="M 14 48 A 34 34 0 0 1 48 14" fill="none" stroke="#2FA05A" stroke-width="9" stroke-linecap="round"></path>
-        <line x1="36" y1="36" x2="60" y2="60" stroke="#22272C" stroke-width="9" stroke-linecap="round"></line>
-        <line x1="60" y1="36" x2="36" y2="60" stroke="#22272C" stroke-width="9" stroke-linecap="round"></line>
+  <div class="shell header-inner">
+    <a class="brand" href="/tr/" aria-label="LEXSAS home">
+      <svg class="brand-mark" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 96 96" aria-hidden="true">
+        <path class="mark-arc" style="--i:0" d="M 48 14 A 34 34 0 0 1 82 48" fill="none" stroke="#2E7CF6" stroke-width="9" stroke-linecap="round" pathLength="1"></path>
+        <path class="mark-arc" style="--i:1" d="M 82 48 A 34 34 0 0 1 48 82" fill="none" stroke="#E8503A" stroke-width="9" stroke-linecap="round" pathLength="1"></path>
+        <path class="mark-arc" style="--i:2" d="M 48 82 A 34 34 0 0 1 14 48" fill="none" stroke="#F5B301" stroke-width="9" stroke-linecap="round" pathLength="1"></path>
+        <path class="mark-arc" style="--i:3" d="M 14 48 A 34 34 0 0 1 48 14" fill="none" stroke="#2FA05A" stroke-width="9" stroke-linecap="round" pathLength="1"></path>
+        <line class="mark-x" style="--i:4" x1="36" y1="36" x2="60" y2="60" stroke="#22272C" stroke-width="9" stroke-linecap="round" pathLength="1"></line>
+        <line class="mark-x" style="--i:5" x1="60" y1="36" x2="36" y2="60" stroke="#22272C" stroke-width="9" stroke-linecap="round" pathLength="1"></line>
       </svg>
-      <span>lexsas</span>
+      <span class="brand-word">lexsas</span>
     </a>
-    <nav class="nav site-nav">
-      <a href="/tr/">Ana Sayfa</a>
-      <a href="/tr/hakkinda.html">Hakkında</a>
+    <nav class="nav" aria-label="Primary">
+      <a href="/tr/#work">Çalışma alanları</a>
+      <a href="/tr/#approach">Yaklaşım</a>
+      <a href="/tr/#experience">Deneyim</a>
       <a href="/tr/yazilar.html" aria-current="page">Yazılar</a>
       <a href="/tr/iletisim.html">İletişim</a>
-      <a class="lang-toggle" href="/insights/genai-for-legal-teams.html">EN</a>
     </nav>
+    <a class="lang-toggle" href="/insights/genai-for-legal-teams.html" aria-label="Switch to English">EN</a>
   </div>
 </header>
-<hr class="signature-line">
 
 <main id="main-content">
-  <section class="shell" style="padding-top: 64px;">
-    <div class="article-header">
-      <a class="back-link" href="/tr/yazilar.html">&larr; Yazılar</a>
-      <span class="kicker">Temmuz 2026 &middot; 7 dk okuma</span>
-      <h1>Hukuk ekiplerinde üretken yapay zeka: gerçekte ne değişiyor?</h1>
-      <p class="article-byline">Asım Serdar Yılmaz</p>
-    </div>
+
+  <section class="article-hero shell">
+    <span class="kicker">Temmuz 2026 &middot; Yapay zeka yönetişimi</span>
+    <h1 class="article-title">Hukuk ekiplerinde üretken yapay zeka: gerçekte ne değişiyor?</h1>
+    <p class="article-lede">Amazon'da AWS Bedrock üzerinde üretken yapay zeka destekli hukuk araçları geliştirdiğimizde ilk gerçek karar hangi modeli seçeceğimiz değildi. Aracı önce hangi tek iş akışına yönelteceğimiz, gerisini hangi sırayla ekleyeceğimizdi. Aracın ne yapabileceğini değil, neyi asla yapmaması gerektiğini yazmakla başladık; sonra dar, yüksek hacimli tek bir işi ilk sıraya koyduk. Bu sıralama kararı bana hiçbir ürün demosunun öğretmediğini öğretti. Doğru soru, üretken yapay zekanın hukuk işini otomatikleştirip otomatikleştirmeyeceği değil; daha dar bir soru: neyi değiştiriyor, neyi olduğu gibi bırakıyor ve onu riski sessizce büyütmeden nasıl yürütüyorsun.</p>
   </section>
 
-  <section class="shell" style="padding-top: 0;">
-    <div class="article-body">
-      <p>Amazon'da AWS Bedrock üzerinde üretken yapay zeka destekli hukuk araçları geliştirdiğimizde ilk gerçek karar hangi modeli seçeceğimiz değildi. Aracı önce hangi tek iş akışına yönelteceğimiz, gerisini hangi sırayla ekleyeceğimizdi. Aracın ne yapabileceğini değil, neyi asla yapmaması gerektiğini yazmakla başladık; sonra dar, yüksek hacimli tek bir işi ilk sıraya koyduk. Bu sıralama kararı bana hiçbir ürün demosunun öğretmediğini öğretti. Doğru soru, üretken yapay zekanın hukuk işini otomatikleştirip otomatikleştirmeyeceği değil; daha dar bir soru: neyi değiştiriyor, neyi olduğu gibi bırakıyor ve onu riski sessizce büyütmeden nasıl yürütüyorsun.</p>
+  <div class="shell"><article class="prose">
       <h2>Değişmeyenler</h2>
       <p>Hukuki muhakeme değişmiyor. Bir sözleşmenin riskini tartmak, bir düzenleyici kararın işletme için ne anlama geldiğini görmek, bir belirsizlik karşısında sorumluluğu kimin taşıyacağına karar vermek. Bunların hepsi bağlam, sezgi ve hesap verebilirlik isteyen işler. Bir model olası bir cümle üretebilir, ama o cümlenin arkasında durmaz. Arkasında duran, imzayı atan kişidir. Bir düzenleyiciyle görüşmede masaya oturan da, bir yönetim kuruluna sonucu anlatan da bir insandır.</p>
       <p>Gizlilik ve muhakemenin insana ait kalması da değişmiyor: şirket içi hukukta güven, sır saklama ve çıkar çatışması kuralları bir araç devreye girdi diye gevşemiyor. Üstelik gizliliğin hukuken nereye kadar uzandığı yargı çevresine bağlı; şirket içi yazışmalar her yerde koruma altında değil, örneğin AB rekabet hukuku bağlamında hiç ayrıcalıklı sayılmayabiliyor. Yanlış yapılandırılmış bir sistem, hassas malzemeyi hiç bulunmaması gereken yerlere taşıyarak bu riski büyütür. Bu yüzden ben, bir aracın ne yaptığına bakmadan önce neyi asla yapmaması gerektiğini tanımlamayı tercih ediyorum.</p>
@@ -250,14 +249,18 @@
       <p>Sonuç olarak, üretken yapay zeka hukuk ekiplerinde gerçek bir fark yaratıyor, ama vaat edildiği yerde değil. Muhakemeyi devralmıyor, ona giden yolu kısaltıyor. Bunu doğru anlayan bir ekip, hızını güvencelerle birlikte artırabilir. Yanlış anlayan bir ekip ise, kazandığını sandığı hızın altında görünmeyen bir risk biriktirir. Fark, teknolojide değil, onu yürüten disiplinde. Ve o disiplin, hiçbir araca devredilemez.</p>
       <p class="article-related">İlgili: <a href="/tr/#ai-workflow-automation">Hukuk teknolojisi ve yapay zeka iş akışı otomasyonu</a></p>
       <p class="article-next"><a href="/tr/yazilar/yapay-zeka-yonetisimi-bes-kontrol.html">Sonraki yazı: Şirket içi hukuk ekipleri için yapay zeka yönetişimi: beş asgari kontrol &rarr;</a></p>
-    </div>
-  </section>
+  </article></div>
+
+  <nav class="article-nav shell" aria-label="More">
+    <a class="u-link" href="/tr/yazilar.html">&larr; Tüm yazılar</a>
+    <a class="u-link" href="/tr/iletisim.html">İletişime geç &rarr;</a>
+  </nav>
 </main>
 
 <footer class="site-footer">
   <div class="shell">
-    <div class="footer-top">
-      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 96 96">
+    <div class="footer-brand">
+      <svg class="brand-mark" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 96 96" aria-hidden="true">
         <path d="M 48 14 A 34 34 0 0 1 82 48" fill="none" stroke="#2E7CF6" stroke-width="9" stroke-linecap="round"></path>
         <path d="M 82 48 A 34 34 0 0 1 48 82" fill="none" stroke="#E8503A" stroke-width="9" stroke-linecap="round"></path>
         <path d="M 48 82 A 34 34 0 0 1 14 48" fill="none" stroke="#F5B301" stroke-width="9" stroke-linecap="round"></path>
@@ -265,14 +268,17 @@
         <line x1="36" y1="36" x2="60" y2="60" stroke="#22272C" stroke-width="9" stroke-linecap="round"></line>
         <line x1="60" y1="36" x2="36" y2="60" stroke="#22272C" stroke-width="9" stroke-linecap="round"></line>
       </svg>
-      <span class="kicker">lexsas</span>
     </div>
     <p class="footer-disclaimer">Bu sitedeki içerik yalnızca genel bilgilendirme amaçlıdır ve hukuki tavsiye niteliği taşımaz. Sitenin kullanımı avukat-müvekkil ilişkisi doğurmaz. Buradaki görüşler kişiseldir ve mevcut ya da geçmiş hiçbir işvereni bağlamaz.</p>
-    <div class="footer-meta footer-links">
-      <span>© 2026 LEXSAS · İstanbul</span>
-      <a href="/tr/linkedin.html">LinkedIn</a>
+    <div class="footer-meta">
+      <span>&copy; 2026 LEXSAS · İstanbul</span>
+      <a class="u-link" href="https://www.linkedin.com/in/asimserdaryilmaz/">LinkedIn</a>
+      <a class="u-link" href="#top">Başa dön</a>
     </div>
   </div>
+  <div class="footer-wordmark" aria-hidden="true">lexsas</div>
 </footer>
+
+<script src="/js/main.js" defer></script>
 </body>
 </html>

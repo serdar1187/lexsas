@@ -20,8 +20,8 @@
 <link rel="apple-touch-icon" href="/assets/brand/favicon-180.png">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Source+Serif+4:wght@600&family=Manrope:wght@400;500;600;700&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="/assets/css/site.css">
+<link href="https://fonts.googleapis.com/css2?family=Source+Serif+4:opsz,wght@8..60,400;8..60,600;8..60,700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/css/style.css">
 <link rel="alternate" type="application/rss+xml" title="LEXSAS Insights" href="https://lexsas.com/feed.xml">
 <meta name="author" content="Asım Serdar Yılmaz">
 <meta property="og:url" content="https://lexsas.com/insights/ai-vendor-due-diligence.html">
@@ -197,45 +197,44 @@
 }
 </script>
 </head>
-<body>
+<body id="top">
 <a class="skip-link" href="#main-content">Skip to content</a>
+
+<div class="progress-line" aria-hidden="true"><span id="progressBar"></span></div>
+
 <header class="site-header">
-  <div class="shell">
-    <a class="logo-lockup" href="/">
-      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 96 96">
-        <path d="M 48 14 A 34 34 0 0 1 82 48" fill="none" stroke="#2E7CF6" stroke-width="9" stroke-linecap="round"></path>
-        <path d="M 82 48 A 34 34 0 0 1 48 82" fill="none" stroke="#E8503A" stroke-width="9" stroke-linecap="round"></path>
-        <path d="M 48 82 A 34 34 0 0 1 14 48" fill="none" stroke="#F5B301" stroke-width="9" stroke-linecap="round"></path>
-        <path d="M 14 48 A 34 34 0 0 1 48 14" fill="none" stroke="#2FA05A" stroke-width="9" stroke-linecap="round"></path>
-        <line x1="36" y1="36" x2="60" y2="60" stroke="#22272C" stroke-width="9" stroke-linecap="round"></line>
-        <line x1="60" y1="36" x2="36" y2="60" stroke="#22272C" stroke-width="9" stroke-linecap="round"></line>
+  <div class="shell header-inner">
+    <a class="brand" href="/" aria-label="LEXSAS home">
+      <svg class="brand-mark" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 96 96" aria-hidden="true">
+        <path class="mark-arc" style="--i:0" d="M 48 14 A 34 34 0 0 1 82 48" fill="none" stroke="#2E7CF6" stroke-width="9" stroke-linecap="round" pathLength="1"></path>
+        <path class="mark-arc" style="--i:1" d="M 82 48 A 34 34 0 0 1 48 82" fill="none" stroke="#E8503A" stroke-width="9" stroke-linecap="round" pathLength="1"></path>
+        <path class="mark-arc" style="--i:2" d="M 48 82 A 34 34 0 0 1 14 48" fill="none" stroke="#F5B301" stroke-width="9" stroke-linecap="round" pathLength="1"></path>
+        <path class="mark-arc" style="--i:3" d="M 14 48 A 34 34 0 0 1 48 14" fill="none" stroke="#2FA05A" stroke-width="9" stroke-linecap="round" pathLength="1"></path>
+        <line class="mark-x" style="--i:4" x1="36" y1="36" x2="60" y2="60" stroke="#22272C" stroke-width="9" stroke-linecap="round" pathLength="1"></line>
+        <line class="mark-x" style="--i:5" x1="60" y1="36" x2="36" y2="60" stroke="#22272C" stroke-width="9" stroke-linecap="round" pathLength="1"></line>
       </svg>
-      <span>lexsas</span>
+      <span class="brand-word">lexsas</span>
     </a>
-    <nav class="nav site-nav">
-      <a href="/">Home</a>
-      <a href="/about.html">About</a>
+    <nav class="nav" aria-label="Primary">
+      <a href="/#work">Focus areas</a>
+      <a href="/#approach">Approach</a>
+      <a href="/#experience">Experience</a>
       <a href="/insights.html" aria-current="page">Insights</a>
       <a href="/contact.html">Contact</a>
-      <a class="lang-toggle" href="/tr/yazilar/yapay-zeka-tedarikci-inceleme.html">TR</a>
     </nav>
+    <a class="lang-toggle" href="/tr/yazilar/yapay-zeka-tedarikci-inceleme.html" aria-label="Türkçe sürüme geç">TR</a>
   </div>
 </header>
-<hr class="signature-line">
 
 <main id="main-content">
-  <section class="shell" style="padding-top: 64px;">
-    <div class="article-header">
-      <a class="back-link" href="/insights.html">&larr; Insights</a>
-      <span class="kicker">July 2026 &middot; 2 min read</span>
-      <h1>An AI vendor due diligence checklist for legal teams</h1>
-      <p class="article-byline">By Asim Serdar Yilmaz</p>
-    </div>
+
+  <section class="article-hero shell">
+    <span class="kicker">July 2026 &middot; Legal operations</span>
+    <h1 class="article-title">An AI vendor due diligence checklist for legal teams</h1>
+    <p class="article-lede">I have sat on both sides of this table. I helped build AI tooling for legal teams inside a vendor, and I have signed off on buying it. The gap between a good demo and a safer contract is a short list of questions; the answers belong in the contract itself: audit rights, breach notice, liability.</p>
   </section>
 
-  <section class="shell" style="padding-top: 0;">
-    <div class="article-body">
-      <p>I have sat on both sides of this table. I helped build AI tooling for legal teams inside a vendor, and I have signed off on buying it. The gap between a good demo and a safer contract is a short list of questions; the answers belong in the contract itself: audit rights, breach notice, liability.</p>
+  <div class="shell"><article class="prose">
       <p>The risk is measurable. Verizon's 2026 Data Breach Investigations Report put third-party involvement in breaches at 48 percent, a figure counting all third parties, not AI vendors. IBM's 2025 Cost of a Data Breach report adds that among breached organizations, about one in five said the breach involved shadow AI; heavy shadow-AI users reported costs roughly 670,000 dollars higher than light or non-users, an association, not a proven cause. An unvetted AI tool is a third party with unusually broad access to privileged material.</p>
       <p>Six questions have earned their place on my list.</p>
       <p>Training data provenance. Where did the model's training data come from, and can the vendor show it had rights to use it?</p>
@@ -256,14 +255,18 @@
 
       <p class="article-related">Related: <a href="/#legal-operations">GenAI transformation for legal teams</a></p>
       <p class="article-next"><a href="/insights/turkey-marketplace-liability.html">Next: Marketplace intermediary liability in Turkey: three regimes to read together &rarr;</a></p>
-    </div>
-  </section>
+  </article></div>
+
+  <nav class="article-nav shell" aria-label="More">
+    <a class="u-link" href="/insights.html">&larr; All insights</a>
+    <a class="u-link" href="/contact.html">Get in touch &rarr;</a>
+  </nav>
 </main>
 
 <footer class="site-footer">
   <div class="shell">
-    <div class="footer-top">
-      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 96 96">
+    <div class="footer-brand">
+      <svg class="brand-mark" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 96 96" aria-hidden="true">
         <path d="M 48 14 A 34 34 0 0 1 82 48" fill="none" stroke="#2E7CF6" stroke-width="9" stroke-linecap="round"></path>
         <path d="M 82 48 A 34 34 0 0 1 48 82" fill="none" stroke="#E8503A" stroke-width="9" stroke-linecap="round"></path>
         <path d="M 48 82 A 34 34 0 0 1 14 48" fill="none" stroke="#F5B301" stroke-width="9" stroke-linecap="round"></path>
@@ -271,14 +274,17 @@
         <line x1="36" y1="36" x2="60" y2="60" stroke="#22272C" stroke-width="9" stroke-linecap="round"></line>
         <line x1="60" y1="36" x2="36" y2="60" stroke="#22272C" stroke-width="9" stroke-linecap="round"></line>
       </svg>
-      <span class="kicker">lexsas</span>
     </div>
     <p class="footer-disclaimer">This site is for general information only. It is not legal advice and does not create an attorney-client relationship. All views are personal and do not represent any current or former employer.</p>
-    <div class="footer-meta footer-links">
-      <span>© 2026 LEXSAS · Istanbul</span>
-      <a href="/linkedin.html">LinkedIn</a>
+    <div class="footer-meta">
+      <span>&copy; 2026 LEXSAS · Istanbul</span>
+      <a class="u-link" href="https://www.linkedin.com/in/asimserdaryilmaz/">LinkedIn</a>
+      <a class="u-link" href="#top">Back to top</a>
     </div>
   </div>
+  <div class="footer-wordmark" aria-hidden="true">lexsas</div>
 </footer>
+
+<script src="/js/main.js" defer></script>
 </body>
 </html>
