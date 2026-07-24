@@ -1,4 +1,5 @@
 .superpowers/
+.worktrees/
 docs/cv-source.md
 _ziptmp/
 *.bak
