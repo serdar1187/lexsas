@@ -64,14 +64,14 @@ English.
 - [Contact](https://lexsas.com/contact.html): serdar@lexsas.com
 - [LinkedIn Posts](https://lexsas.com/linkedin.html): selected posts on AI governance, digital sovereignty and legal accountability
 - [LinkedIn Gönderileri](https://lexsas.com/tr/linkedin.html): yapay zeka yönetişimi, dijital egemenlik ve hukuki sorumluluk üzerine seçilmiş gönderiler
-- [When AI agents find the path: the liability question](https://lexsas.com/linkedin-posts/openai-hugging-face-agent-liability.html)
-- [Yapay zeka ajanı yolu bulduğunda: sorumluluk sorusu](https://lexsas.com/tr/linkedin-gonderileri/openai-hugging-face-yapay-zeka-ajani-sorumlulugu.html)
-- [Open weights and AI geopolitics: access as leverage](https://lexsas.com/linkedin-posts/open-weights-ai-geopolitics.html)
-- [Açık ağırlıklar ve yapay zeka jeopolitiği: erişim bir baskı aracı olduğunda](https://lexsas.com/tr/linkedin-gonderileri/acik-agirliklar-yapay-zeka-jeopolitigi.html)
-- [Frontier AI needs standards, not a private rulebook](https://lexsas.com/linkedin-posts/frontier-ai-finra-standards-body.html)
-- [Frontier yapay zeka için standartlar, kapalı bir kural kitabı değil](https://lexsas.com/tr/linkedin-gonderileri/frontier-yapay-zeka-finra-standart-orgutu.html)
-- [J-lens and the transparency paradox](https://lexsas.com/linkedin-posts/j-lens-interpretability-transparency.html)
-- [J-lens ve şeffaflık paradoksu](https://lexsas.com/tr/linkedin-gonderileri/j-lens-yorumlanabilirlik-seffaflik.html)
+- [When an AI agent breaks out of the sandbox, who answers?](https://lexsas.com/linkedin-posts/openai-hugging-face-agent-liability.html)
+- [Yapay zeka ajanı kum havuzundan çıkarsa kim sorumlu olur?](https://lexsas.com/tr/linkedin-gonderileri/openai-hugging-face-yapay-zeka-ajani-sorumlulugu.html)
+- [Open weights as geopolitical insurance](https://lexsas.com/linkedin-posts/open-weights-ai-geopolitics.html)
+- [Jeopolitik sigorta olarak açık ağırlıklar](https://lexsas.com/tr/linkedin-gonderileri/acik-agirliklar-yapay-zeka-jeopolitigi.html)
+- [A FINRA for frontier AI](https://lexsas.com/linkedin-posts/frontier-ai-finra-standards-body.html)
+- [Frontier yapay zeka için bir FINRA](https://lexsas.com/tr/linkedin-gonderileri/frontier-yapay-zeka-finra-standart-orgutu.html)
+- [The transparency paradox inside the black box](https://lexsas.com/linkedin-posts/j-lens-interpretability-transparency.html)
+- [Kara kutunun içindeki şeffaflık paradoksu](https://lexsas.com/tr/linkedin-gonderileri/j-lens-yorumlanabilirlik-seffaflik.html)
 - [AI access cutoffs and digital sovereignty](https://lexsas.com/linkedin-posts/ai-access-cutoffs-digital-sovereignty.html)
 - [Yapay zeka erişim kesintileri ve dijital egemenlik](https://lexsas.com/tr/linkedin-gonderileri/yapay-zeka-erisim-kesintileri-dijital-egemenlik.html)
 - Turkish versions: [Ana Sayfa](https://lexsas.com/tr/), [Asım Serdar Yılmaz | Hukuk ve Regülasyon Lideri · LEXSAS](https://lexsas.com/tr/hakkinda.html), [Yazılar](https://lexsas.com/tr/yazilar.html), [İletişim](https://lexsas.com/tr/iletisim.html)
