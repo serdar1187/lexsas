@@ -2,12 +2,148 @@
    LEXSAS redesign concept ("Lexsas Kimi")
    Design tokens inherited from the LEXSAS brand system.
    Motion: blur-staggered type, scroll-synced index, drawn mark.
+
+   File order is base, then responsive, then print. Every media
+   query lives in the responsive section at the foot of the file
+   so that it always outranks the base rule it corrects.
    ============================================================ */
+
+/* ---------- Webfonts ----------
+   Self-hosted. No third-party request leaves the visitor's browser.
+   Both families are SIL Open Font License 1.1; licence texts ship next to the
+   files in /assets/fonts/ (OFL-SourceSerif4.txt, OFL-Manrope.txt).
+
+   Source Serif 4: variable, axes wght 200..900 and opsz 8..60.
+   Manrope:        variable, axis wght 200..800.
+   Two woff2 subsets per family: latin and latin-ext. Turkish needs both,
+   ı, ü, ö, ç come from latin; İ, ş, Ş, ğ, Ğ come from latin-ext.
+
+   Merged in from css/fonts.css so that only one stylesheet blocks the
+   critical path. Keep the @font-face rules at the top of this file. */
+
+/* Source Serif 4, latin-ext */
+@font-face {
+  font-family: "Source Serif 4";
+  font-style: normal;
+  font-weight: 200 900;
+  font-display: swap;
+  src: url("/assets/fonts/source-serif-4-latin-ext.woff2") format("woff2");
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+
+/* Source Serif 4, latin */
+@font-face {
+  font-family: "Source Serif 4";
+  font-style: normal;
+  font-weight: 200 900;
+  font-display: swap;
+  src: url("/assets/fonts/source-serif-4-latin.woff2") format("woff2");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+/* Source Serif 4 italic, latin. Case names are set in italics, which is the one
+   typographic convention a lawyer reads as correctness; without a real face the
+   browser fakes an oblique. Only the latin subset ships: every italic on the site
+   is an English case name, so latin-ext would be weight nobody downloads. */
+@font-face {
+  font-family: "Source Serif 4";
+  font-style: italic;
+  font-weight: 200 900;
+  font-display: swap;
+  src: url("/assets/fonts/source-serif-4-italic-latin.woff2") format("woff2");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+/* Manrope, latin-ext */
+@font-face {
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 200 800;
+  font-display: swap;
+  src: url("/assets/fonts/manrope-latin-ext.woff2") format("woff2");
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+
+/* Manrope, latin */
+@font-face {
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 200 800;
+  font-display: swap;
+  src: url("/assets/fonts/manrope-latin.woff2") format("woff2");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+/* ---------- Metric-matched fallbacks ----------
+   font-display: swap means the fallback face paints first and the real face
+   replaces it. Turkish needs both subsets of each family, so serif text used to
+   reflow twice and the home page scored a poor CLS. These faces re-cut the
+   local fallback so it occupies the same space as the real one: size-adjust
+   fixes the advance widths, ascent/descent-override fix the line box.
+   Overrides are divided by size-adjust because the browser applies them to the
+   already-adjusted face. Source metrics, read from the shipped woff2 files:
+   Source Serif 4 upem 1000, typo ascender 1036, descender -335, line gap 0;
+   Manrope upem 2000, typo ascender 2132, descender -600, line gap 0. Both set
+   USE_TYPO_METRICS, so those are the numbers the browser uses.
+
+   The serif fallback is cut from Times, not from Georgia, and the reason is the
+   ch unit. Most measures in this file are set in ch, and ch is the advance of
+   the local zero, so a fallback with different figure widths resizes the
+   container as well as the text. size-adjust scales both and cancels out of the
+   line count entirely: measured, the Turkish hero title stayed at four lines
+   against the real font's five for every size-adjust from 76 to 90 percent.
+   What has to match is text width divided by zero width. Source Serif 4 is
+   51.1 at 600 and 77.3 at 400; Georgia is 44.4 and 65.4, out by 13 and 16
+   percent; Times is 52.1 and 73.8, out by 2 and 5. size-adjust then trues up
+   the blocks that are capped in pixels rather than in ch.
+
+   Two cuts, because Source Serif 4 has a real 600 weight and Times reaches it
+   by a separate bold face with its own proportions. If neither local face is
+   installed the @font-face has no usable source, the family drops out of the
+   stack and the plain Georgia / serif fallback behind it takes over, exactly as
+   before. */
+
+@font-face {
+  font-family: "Source Serif 4 Fallback";
+  font-style: normal;
+  font-weight: 200 500;
+  src: local("Times New Roman"), local("Times");
+  size-adjust: 111%;
+  ascent-override: 93.33%;
+  descent-override: 30.18%;
+  line-gap-override: 0%;
+}
+
+@font-face {
+  font-family: "Source Serif 4 Fallback";
+  font-style: normal;
+  font-weight: 501 900;
+  src: local("Times New Roman Bold"), local("Times Bold"), local("Times New Roman");
+  size-adjust: 102%;
+  ascent-override: 101.57%;
+  descent-override: 32.84%;
+  line-gap-override: 0%;
+}
+
+/* Manrope sits almost exactly on Helvetica's widths, within 0.14 percent on a
+   Turkish paragraph, where the macOS system sans is 8.7 percent narrower. So
+   the fallback is named rather than left to -apple-system, and only the line
+   box needs correcting. Segoe UI and Arial stand in where Helvetica is absent;
+   both are within about 3 percent, against 8.7 for the default. */
+@font-face {
+  font-family: "Manrope Fallback";
+  font-style: normal;
+  font-weight: 200 800;
+  src: local("Helvetica Neue"), local("Segoe UI"), local("Arial");
+  size-adjust: 100.1%;
+  ascent-override: 106.49%;
+  descent-override: 29.97%;
+  line-gap-override: 0%;
+}
 
 :root {
   --paper: #FCFCFA;
   --ink: #22272C;
-  --ink-soft: #3A4149;
   --muted: #5B6570;
   --line: #E8E6E1;
   --line-dark: #D9D6CF;
@@ -17,8 +153,12 @@
   --yellow: #F5B301;
   --green: #2FA05A;
 
-  --serif: "Source Serif 4", Georgia, serif;
-  --sans: "Manrope", -apple-system, "Segoe UI", sans-serif;
+  /* the two literals this file used to repeat: one hairline, one signature */
+  --hairline: 1px solid var(--line);
+  --brand-gradient: linear-gradient(90deg, var(--blue), var(--red), var(--yellow), var(--green));
+
+  --serif: "Source Serif 4", "Source Serif 4 Fallback", Georgia, serif;
+  --sans: "Manrope", "Manrope Fallback", -apple-system, "Segoe UI", sans-serif;
 
   --shell: min(1320px, calc(100% - 4rem));
   --rhythm: clamp(96px, 12vw, 160px);
@@ -46,7 +186,9 @@ body {
   text-rendering: optimizeLegibility;
 }
 
-::selection { background: var(--blue); color: #fff; }
+/* Brand colour is reserved for the mark, the signature line and card accents,
+   so the selection band is built from ink and paper like the rest of the page. */
+::selection { background: var(--ink); color: var(--paper); }
 
 :focus-visible {
   outline: 2px solid var(--blue);
@@ -55,6 +197,11 @@ body {
 }
 
 img, svg { display: block; }
+
+/* An image dropped anywhere outside the one purpose-built figure slot still has
+   to fit inside the shell on a narrow screen, so cap it here rather than per
+   slot. Inline SVGs are sized by their own width rules and are left alone. */
+img { max-width: 100%; height: auto; }
 
 a { color: inherit; }
 
@@ -66,6 +213,14 @@ button { font-family: inherit; }
 }
 
 section { scroll-margin-top: 96px; }
+
+/* Tabbing backwards scrolls the focused element to the top of the viewport,
+   where the sticky header would otherwise cover it: measured at up to 100
+   percent of a source link on an article. Forward tabbing aligns to the bottom
+   and was never affected. Same reservation as the section rule above. */
+a, button, input, select, textarea, summary, [tabindex] {
+  scroll-margin-top: 88px;
+}
 
 .skip-link {
   position: absolute;
@@ -81,16 +236,40 @@ section { scroll-margin-top: 96px; }
 }
 .skip-link:focus { top: 1rem; }
 
-/* ---------- Shared type ---------- */
-
-.kicker {
-  margin: 0;
+/* ---------- Micro-labels ----------
+   One recipe for every .72rem uppercase mark on the site, at one tracking
+   value. Only .kicker keeps the wider .19em, so the eyebrow stays the single
+   label that reads as a heading rather than as a caption. Colour is muted by
+   default; the four places that need a different tint say so and nothing else
+   restates the recipe. */
+.kicker,
+.wordmark-sub,
+.area-num,
+.principle-num,
+.insight-date,
+.insight-cat,
+.job-years,
+.contact-row dt,
+.bio-portrait figcaption,
+.article-sources .sources-title,
+.pull cite,
+.prose .article-dateline {
   font: 700 .72rem var(--sans);
-  letter-spacing: .19em;
+  letter-spacing: .14em;
   text-transform: uppercase;
   color: var(--muted);
 }
-.kicker-dark { color: rgba(252, 252, 250, .5); }
+/* The article dateline is a kicker, so it takes the eyebrow tracking. It is
+   named with the .prose prefix because a single class loses to ".prose p",
+   which would otherwise set it as 1.08rem serif ink and read as a heading. */
+.kicker,
+.prose .article-dateline { margin: 0; letter-spacing: .19em; }
+
+/* Every mark on the ink band sits at one tint, which clears AA at .72rem
+   where the old .45 and .5 values did not. */
+.kicker-dark,
+.principle-num,
+.pull cite { color: rgba(252, 252, 250, .55); }
 
 .section-title {
   margin: 14px 0 0;
@@ -102,17 +281,36 @@ section { scroll-margin-top: 96px; }
   text-wrap: balance;
 }
 
+/* ---------- Ledes ----------
+   One lead paragraph, three names. The hero, the inner-page and the article
+   ledes were 0.32 and 0.8 pixels apart on three separate measures; they are one
+   rule now and the class names still work, so no markup changes. */
+.lede,
+.page-lede,
+.article-lede {
+  margin: 1.4rem 0 0;
+  max-width: 58ch;
+  font-size: 1.2rem;
+  line-height: 1.7;
+  color: var(--ink);
+}
+
 .signature-line {
   width: var(--shell);
   margin: 0 auto;
   height: 2px;
   border: 0;
-  background: linear-gradient(90deg, var(--blue), var(--red), var(--yellow), var(--green));
+  background: var(--brand-gradient);
 }
 
 /* ---------- Underline links (signature hover) ---------- */
 
-.u-link {
+/* The next-article link at the foot of an article carries no class of its own in
+   the markup, so it is enrolled into this treatment here instead of having the
+   whole recipe copied out again further down the file. Its type is set with the
+   rest of the closing furniture, not here. */
+.u-link,
+.article-next a {
   position: relative;
   display: inline-flex;
   align-items: baseline;
@@ -122,7 +320,8 @@ section { scroll-margin-top: 96px; }
   text-decoration: none;
   padding-bottom: 4px;
 }
-.u-link::after {
+.u-link::after,
+.article-next a::after {
   content: "";
   position: absolute;
   left: 0;
@@ -135,7 +334,9 @@ section { scroll-margin-top: 96px; }
   transition: transform .45s var(--ease-out);
 }
 .u-link:hover::after,
-.u-link:focus-visible::after { transform: scaleX(1); }
+.u-link:focus-visible::after,
+.article-next a:hover::after,
+.article-next a:focus-visible::after { transform: scaleX(1); }
 
 .u-link-strong { font-size: 1rem; }
 .u-link-muted { color: var(--muted); }
@@ -155,7 +356,7 @@ section { scroll-margin-top: 96px; }
   display: block;
   width: 100%;
   height: 100%;
-  background: linear-gradient(90deg, var(--blue), var(--red), var(--yellow), var(--green));
+  background: var(--brand-gradient);
   transform: scaleX(0);
   transform-origin: left center;
 }
@@ -169,7 +370,7 @@ section { scroll-margin-top: 96px; }
   background: rgba(252, 252, 250, .86);
   -webkit-backdrop-filter: blur(14px);
   backdrop-filter: blur(14px);
-  border-bottom: 1px solid var(--line);
+  border-bottom: var(--hairline);
 }
 
 .header-inner {
@@ -202,7 +403,7 @@ section { scroll-margin-top: 96px; }
 .nav a {
   position: relative;
   font: 600 .9rem var(--sans);
-  color: var(--ink-soft);
+  color: var(--ink);
   text-decoration: none;
   padding-bottom: 3px;
   white-space: nowrap;
@@ -237,7 +438,11 @@ section { scroll-margin-top: 96px; }
 
 /* ---------- The mark, drawn ---------- */
 
-.mark-arc, .mark-x {
+/* The dashes are hidden only once scripting has announced itself, because only
+   js/main.js adds body.loaded to run the draw. A blocked script therefore
+   leaves the mark drawn rather than leaving an empty box where it should be. */
+.js .mark-arc,
+.js .mark-x {
   stroke-dasharray: 1;
   stroke-dashoffset: 1;
 }
@@ -287,14 +492,6 @@ body.loaded .mark-x {
     filter .7s ease var(--d, 0s);
 }
 
-.lede {
-  margin: 26px 0 0;
-  max-width: 54ch;
-  font-size: 1.13rem;
-  line-height: 1.68;
-  color: var(--ink-soft);
-}
-
 .hero-cta {
   margin-top: 36px;
   display: flex;
@@ -313,7 +510,7 @@ body.loaded .mark-x {
 .cred-row {
   margin-top: clamp(3.5rem, 8vw, 6rem);
   padding: 26px 0 0;
-  border-top: 1px solid var(--line);
+  border-top: var(--hairline);
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   gap: 1.5rem;
@@ -341,12 +538,7 @@ body.loaded .mark-x {
   color: var(--ink);
   user-select: none;
 }
-.wordmark-sub {
-  margin: 18px 0 0;
-  font: 700 .72rem var(--sans);
-  letter-spacing: .22em;
-  color: var(--muted);
-}
+.wordmark-sub { margin: 18px 0 0; }
 
 /* ---------- Focus areas: scroll-synced index ---------- */
 
@@ -377,11 +569,17 @@ body.loaded .mark-x {
   font-size: clamp(4.6rem, 8.5vw, 7.75rem);
   line-height: 1;
   letter-spacing: -.03em;
-  color: var(--acc);
-  transition: color .5s ease;
+  /* The numeral is text, so it stays in ink: the yellow accent measured 1.85:1
+     against paper and failed even the large-text floor. The accent still reads,
+     on the 2px progress bar below, which is not text and carries no contrast duty. */
+  color: var(--ink);
   font-variant-numeric: tabular-nums;
 }
-.work-total { font: 600 .95rem var(--sans); color: var(--muted); }
+.work-total {
+  font: 600 .95rem var(--sans);
+  color: var(--muted);
+  font-variant-numeric: tabular-nums;
+}
 
 .work-progress {
   margin-top: 20px;
@@ -405,18 +603,33 @@ body.loaded .mark-x {
   color: var(--muted);
 }
 
-.work-list { border-top: 1px solid var(--line); }
+.work-list { border-top: var(--hairline); }
 
 .area {
   position: relative;
-  border-bottom: 1px solid var(--line);
+  border-bottom: var(--hairline);
   padding-block: clamp(2.4rem, 4.5vw, 3.6rem);
+  padding-left: clamp(.9rem, 1.5vw, 1.15rem);
 }
-.area-num {
-  font: 700 .72rem var(--sans);
-  letter-spacing: .14em;
-  color: var(--area-acc, var(--muted));
+/* The accent belongs on the card, not on the label: no brand hue clears the
+   contrast floor as .72rem text on paper, the yellow reaching only 1.85:1.
+   So the numeral is set in muted ink and the colour moves to a 2px rule that
+   draws itself down the row on hover. */
+.area::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  width: 2px;
+  background: var(--area-acc, var(--muted));
+  transform: scaleY(0);
+  transform-origin: top center;
+  transition: transform .45s var(--ease-out);
 }
+.area:hover::before,
+.area:focus-within::before { transform: scaleY(1); }
+
 .area[data-accent="blue"]   { --area-acc: var(--blue); }
 .area[data-accent="red"]    { --area-acc: var(--red); }
 .area[data-accent="yellow"] { --area-acc: var(--yellow); }
@@ -454,6 +667,8 @@ body.loaded .mark-x {
   gap: clamp(1.8rem, 3.5vw, 3rem);
 }
 
+/* the principle card already spends its accent on the 2px rule above it, so the
+   numeral inside it is set in the same paper tint as every other ink-band mark */
 .principle {
   border-top: 2px solid var(--pr-acc, var(--paper));
   padding-top: 22px;
@@ -464,11 +679,6 @@ body.loaded .mark-x {
 .principle[data-accent="yellow"] { --pr-acc: var(--yellow); }
 .principle[data-accent="green"]  { --pr-acc: var(--green); }
 
-.principle-num {
-  font: 700 .72rem var(--sans);
-  letter-spacing: .14em;
-  color: var(--pr-acc);
-}
 .principle h3 {
   margin: 14px 0 12px;
   font-family: var(--serif);
@@ -479,6 +689,9 @@ body.loaded .mark-x {
 }
 .principle p {
   margin: 0;
+  /* the three columns collapse to one at 860px and the copy had no measure of
+     its own, so it ran to 88 characters in Turkish at 768px */
+  max-width: 62ch;
   font-size: .97rem;
   line-height: 1.66;
   color: rgba(252, 252, 250, .64);
@@ -497,20 +710,28 @@ body.loaded .mark-x {
   line-height: 1.22;
   letter-spacing: -.012em;
   color: var(--paper);
+  /* the closing clause is the line the brand hangs on, so the wrap is asked to
+     even the lines out rather than drop a two-word tail onto its own line */
+  text-wrap: balance;
+  /* fallback: pull the opening quote mark out by roughly its own advance width,
+     so the first line starts on the same optical edge as the ones below */
+  text-indent: -.38em;
+}
+/* where the real property exists, use it and drop the fallback indent
+   so the two never stack */
+@supports (hanging-punctuation: first) {
+  .pull p {
+    hanging-punctuation: first;
+    text-indent: 0;
+  }
 }
 .pull cite {
   display: block;
   margin-top: 22px;
-  font: 700 .72rem var(--sans);
   font-style: normal;
-  letter-spacing: .19em;
-  text-transform: uppercase;
-  color: rgba(252, 252, 250, .45);
 }
 
 /* ---------- Experience ---------- */
-
-.experience { padding-block: var(--rhythm); }
 
 .exp-grid {
   display: grid;
@@ -567,6 +788,8 @@ body.loaded .mark-x {
 .exp-facts li:nth-child(4) { --fact-dot: var(--green); }
 
 .exp-body .u-link { margin-top: 34px; }
+/* the trailing link is a same-page jump, so its arrow nudges downward */
+.exp-body .u-link:hover .u-arrow { transform: translateY(4px); }
 
 /* ---------- Insights ---------- */
 
@@ -574,7 +797,7 @@ body.loaded .mark-x {
 
 .insight-list {
   margin-top: clamp(2.2rem, 4.5vw, 3.4rem);
-  border-top: 1px solid var(--line);
+  border-top: var(--hairline);
 }
 
 .insight-row {
@@ -583,14 +806,17 @@ body.loaded .mark-x {
   gap: clamp(1.2rem, 3vw, 2.5rem);
   align-items: baseline;
   padding-block: 30px;
-  border-bottom: 1px solid var(--line);
+  border-bottom: var(--hairline);
   text-decoration: none;
 }
-.insight-date {
-  font: 700 .72rem var(--sans);
-  letter-spacing: .13em;
-  text-transform: uppercase;
-  color: var(--muted);
+.insight-date { font-variant-numeric: tabular-nums; }
+/* Category tag under the date. It sits at the same size and tint as the date
+   and one weight lighter: on paper nothing lighter than about #757575 clears
+   AA at this size, so the step down is made in weight rather than in colour. */
+.insight-cat {
+  display: block;
+  margin-top: 6px;
+  font-weight: 600;
 }
 .insight-title {
   display: block;
@@ -619,6 +845,9 @@ body.loaded .mark-x {
 .insight-row:hover .insight-title { color: var(--blue); }
 .insight-row:hover .insight-arrow { transform: translateX(7px); color: var(--blue); }
 
+/* the archive link under a list, on the same idiom as .exp-body .u-link */
+.insights-foot { margin: 34px 0 0; }
+
 /* ---------- FAQ ---------- */
 
 .faq { padding-bottom: var(--rhythm); }
@@ -626,9 +855,9 @@ body.loaded .mark-x {
 .faq-list {
   margin-top: clamp(2.2rem, 4.5vw, 3.4rem);
   max-width: 880px;
-  border-top: 1px solid var(--line);
+  border-top: var(--hairline);
 }
-.faq-item { border-bottom: 1px solid var(--line); }
+.faq-item { border-bottom: var(--hairline); }
 
 .faq-q {
   width: 100%;
@@ -682,6 +911,12 @@ body.loaded .mark-x {
 }
 .faq-item.open .faq-a { grid-template-rows: 1fr; }
 
+/* Only js/main.js ever opens an answer, so without it every answer would be
+   sealed shut. Open them all and drop the control that promises otherwise. */
+html:not(.js) .faq-a { grid-template-rows: 1fr; }
+html:not(.js) .faq-icon { display: none; }
+html:not(.js) .faq-q { cursor: default; }
+
 /* ---------- Contact ---------- */
 
 .contact { padding-block: calc(var(--rhythm) * .85); }
@@ -712,7 +947,7 @@ body.loaded .mark-x {
   bottom: 0;
   width: 100%;
   height: 2px;
-  background: linear-gradient(90deg, var(--blue), var(--red), var(--yellow), var(--green));
+  background: var(--brand-gradient);
   transition: height .25s ease;
 }
 .contact-mail:hover::after { height: 5px; }
@@ -727,7 +962,7 @@ body.loaded .mark-x {
 /* ---------- Footer ---------- */
 
 .site-footer {
-  border-top: 1px solid var(--line);
+  border-top: var(--hairline);
   padding-top: 64px;
   overflow: hidden;
 }
@@ -735,7 +970,7 @@ body.loaded .mark-x {
 
 .footer-disclaimer {
   margin: 22px 0 0;
-  max-width: 74ch;
+  max-width: 62ch;
   font-size: .85rem;
   line-height: 1.6;
   color: var(--muted);
@@ -770,88 +1005,29 @@ body.loaded .mark-x {
   }
 }
 
-/* ---------- Reveal system ---------- */
+/* ---------- Reveal system ----------
+   Fail-open. A reveal is visible until js/main.js announces itself by putting
+   .js on <html>, because only its IntersectionObserver ever adds .in. A script
+   that is blocked by an extension, 404s, is proxied away or is aborted mid-load
+   therefore leaves the page readable instead of leaving thirty empty blocks. */
 
 .reveal {
-  opacity: 0;
-  transform: translate3d(0, 28px, 0);
   transition:
     opacity .8s ease var(--d, 0s),
     transform .8s var(--ease-out) var(--d, 0s);
 }
-.reveal.in {
+.js .reveal {
+  opacity: 0;
+  transform: translate3d(0, 28px, 0);
+}
+.js .reveal.in {
   opacity: 1;
   transform: none;
 }
 
 /* ---------- Language swap fade ---------- */
 
-body.lang-swap main,
-body.lang-swap .site-footer {
-  opacity: 0;
-  transition: opacity .18s ease;
-}
 main, .site-footer { transition: opacity .3s ease; }
-
-/* ---------- Responsive ---------- */
-
-@media (max-width: 1024px) {
-  .hero-grid { grid-template-columns: 1fr; }
-  .hero-art { max-width: 420px; margin-inline: auto; width: 100%; }
-  .hero-title { max-width: 14ch; }
-
-  .work-grid, .exp-grid { grid-template-columns: 1fr; }
-  .work-sticky { position: static; }
-  .work-index { align-items: center; }
-  .work-note { max-width: 52ch; }
-}
-
-@media (max-width: 860px) {
-  .principles { grid-template-columns: 1fr; gap: 2.6rem; }
-  .insight-row { grid-template-columns: 1fr; gap: 8px; }
-  .insight-arrow { display: none; }
-  .cred-row { grid-template-columns: 1fr 1fr; gap: 1.4rem; }
-}
-
-@media (max-width: 720px) {
-  :root { --shell: min(100% - 2.5rem, 1320px); }
-
-  .header-inner { flex-wrap: wrap; gap: .9rem 1.4rem; padding-block: .8rem; }
-  .brand { margin-right: auto; }
-  .nav {
-    order: 3;
-    width: 100%;
-    overflow-x: auto;
-    -webkit-overflow-scrolling: touch;
-    scrollbar-width: none;
-    padding-top: 2px;
-  }
-  .nav::-webkit-scrollbar { display: none; }
-
-  .hero { padding-top: 48px; }
-  .hero-title { font-size: clamp(2.45rem, 11vw, 3.4rem); }
-
-  .work-num { font-size: 4.2rem; }
-  .faq-q { font-size: 1.05rem; }
-  .footer-meta { gap: 1.2rem; }
-}
-
-/* ---------- Reduced motion ---------- */
-
-@media (prefers-reduced-motion: reduce) {
-  html { scroll-behavior: auto; }
-  *, *::before, *::after {
-    animation-duration: .01ms !important;
-    animation-delay: 0s !important;
-    animation-iteration-count: 1 !important;
-    transition-duration: .01ms !important;
-    transition-delay: 0s !important;
-  }
-  .reveal { opacity: 1; transform: none; }
-  .hero-title.split .hw { opacity: 1; transform: none; filter: none; }
-  .mark-arc, .mark-x { stroke-dashoffset: 0; }
-  .principle { transform: none !important; }
-}
 
 /* ---------- Hero visual: n8n canvas metamorphosis ---------- */
 
@@ -865,14 +1041,19 @@ main, .site-footer { transition: opacity .3s ease; }
 
 @keyframes flow-pop { to { transform: scale(1); } }
 
-/* --- n8n canvas metamorphosis (workflow becomes the mark) --- */
+/* --- n8n canvas metamorphosis (workflow becomes the mark) ---
+   The whole sequence runs 2.10s end to end, down from 5.50s: the mark, which is
+   the pay-off, used to land past four seconds and a reader in a hurry left
+   before it. It starts on .play, which js/main.js adds when the canvas is
+   substantially in view, so on a stacked layout the metaphor plays for someone
+   who has actually scrolled to it rather than finishing off-screen. */
 
 .morph-svg { width: min(100%, 480px); height: auto; }
 
 /* Dotted canvas backdrop */
 .mw-grid { opacity: 0; }
-.hero-art[data-active="5"] .mw-grid {
-  animation: mw-fade-life 3.9s ease .1s forwards;
+.hero-art.play .mw-grid {
+  animation: mw-fade-life 1.55s ease .05s forwards;
 }
 @keyframes mw-fade-life {
   0% { opacity: 0; }
@@ -886,8 +1067,8 @@ main, .site-footer { transition: opacity .3s ease; }
   stroke-dasharray: 1;
   stroke-dashoffset: 1;
 }
-.hero-art[data-active="5"] .mw-wire {
-  animation: mw-wire-life 3.9s linear .15s forwards;
+.hero-art.play .mw-wire {
+  animation: mw-wire-life 1.55s linear .06s forwards;
 }
 @keyframes mw-wire-life {
   0% { stroke-dashoffset: 1; opacity: 1; }
@@ -895,8 +1076,8 @@ main, .site-footer { transition: opacity .3s ease; }
   88% { opacity: 1; }
   100% { stroke-dashoffset: 0; opacity: 0; }
 }
-.hero-art[data-active="5"] .mw-color {
-  animation: mw-color-life 2.1s linear 2.1s forwards;
+.hero-art.play .mw-color {
+  animation: mw-color-life .85s linear .85s forwards;
 }
 @keyframes mw-color-life {
   0% { stroke-dashoffset: 1; opacity: 1; }
@@ -913,7 +1094,7 @@ main, .site-footer { transition: opacity .3s ease; }
   filter: drop-shadow(0 3px 6px rgba(34, 39, 44, .10));
 }
 .mw-port { fill: var(--paper); stroke: #9AA1A9; stroke-width: 2; }
-.mw-badge { fill: #E8503A; stroke: var(--paper); stroke-width: 2; }
+.mw-badge { fill: var(--red); stroke: var(--paper); stroke-width: 2; }
 
 /* Entrance pop on inner group, migration on outer group */
 .mw-pop {
@@ -921,18 +1102,18 @@ main, .site-footer { transition: opacity .3s ease; }
   transform-box: fill-box;
   transform-origin: center;
 }
-.hero-art[data-active="5"] .mw-pop {
-  animation: flow-pop .45s var(--ease-out) forwards;
-  animation-delay: calc(.7s + var(--i) * .18s);
+.hero-art.play .mw-pop {
+  animation: flow-pop .3s var(--ease-out) forwards;
+  animation-delay: calc(.28s + var(--i) * .07s);
 }
 
 .mw-node {
   transform-box: fill-box;
   transform-origin: center;
 }
-.hero-art[data-active="5"] .mw-node {
-  animation: mw-migrate .85s cubic-bezier(.5, 0, .3, 1) forwards;
-  animation-delay: calc(3.45s + var(--i) * .07s);
+.hero-art.play .mw-node {
+  animation: mw-migrate .38s cubic-bezier(.5, 0, .3, 1) forwards;
+  animation-delay: calc(1.3s + var(--i) * .03s);
 }
 @keyframes mw-migrate {
   0% { transform: translate(0, 0) scale(1); opacity: 1; }
@@ -942,9 +1123,9 @@ main, .site-footer { transition: opacity .3s ease; }
 
 /* Dashed sub-node connectors (marching dots) */
 .mw-dash { opacity: 0; }
-.hero-art[data-active="5"] .mw-dash {
-  animation: mw-dash-life 2.2s linear forwards;
-  animation-delay: calc(1.2s + var(--i) * .1s);
+.hero-art.play .mw-dash {
+  animation: mw-dash-life .9s linear forwards;
+  animation-delay: calc(.48s + var(--i) * .04s);
 }
 @keyframes mw-dash-life {
   0% { opacity: 0; stroke-dashoffset: 26; }
@@ -960,9 +1141,9 @@ main, .site-footer { transition: opacity .3s ease; }
   transform-box: fill-box;
   transform-origin: center;
 }
-.hero-art[data-active="5"] .mw-snode {
-  animation: mw-snode-life 2.1s var(--ease-out) forwards;
-  animation-delay: calc(1.5s + var(--i) * .12s);
+.hero-art.play .mw-snode {
+  animation: mw-snode-life .85s var(--ease-out) forwards;
+  animation-delay: calc(.6s + var(--i) * .05s);
 }
 @keyframes mw-snode-life {
   0% { opacity: 1; transform: scale(.4); }
@@ -980,12 +1161,12 @@ main, .site-footer { transition: opacity .3s ease; }
 .mw-name { font-weight: 700; font-size: 13px; letter-spacing: .12em; fill: var(--ink); }
 .mw-sub { font-weight: 600; font-size: 10px; letter-spacing: .14em; fill: var(--muted); }
 .mw-slabel { font-weight: 600; font-size: 9.5px; letter-spacing: .12em; fill: var(--muted); }
-.hero-art[data-active="5"] .mw-name,
-.hero-art[data-active="5"] .mw-sub {
-  animation: mw-label-life 3.05s ease .75s forwards;
+.hero-art.play .mw-name,
+.hero-art.play .mw-sub {
+  animation: mw-label-life 1.2s ease .3s forwards;
 }
-.hero-art[data-active="5"] .mw-slabel {
-  animation: mw-label-life 2s ease 1.7s forwards;
+.hero-art.play .mw-slabel {
+  animation: mw-label-life .8s ease .68s forwards;
 }
 @keyframes mw-label-life {
   0% { opacity: 0; transform: translateY(6px); }
@@ -994,22 +1175,18 @@ main, .site-footer { transition: opacity .3s ease; }
   100% { opacity: 0; }
 }
 
-/* Mark arcs sweep in from the corners where the nodes landed */
-.morph-arc, .morph-x {
-  stroke-dasharray: 1;
-  stroke-dashoffset: 1;
-}
-.hero-art[data-active="5"] .morph-arc,
-.hero-art[data-active="5"] .morph-x {
-  animation: mark-draw .75s var(--ease-draw) forwards;
-  animation-delay: calc(4.15s + var(--i) * .12s);
-}
-
-/* ---------- Reduced motion: hero final state ---------- */
-
-@media (prefers-reduced-motion: reduce) {
-  .mw-scene { display: none; }
-  .morph-arc, .morph-x { stroke-dashoffset: 0; }
+/* Mark arcs sweep in from the corners where the nodes landed.
+   Same fail-open rule as the header mark: the arcs are only wound back once
+   scripting has announced itself, so a page whose script never runs shows the
+   finished frame, the drawn mark, rather than a blank or half-drawn canvas. */
+.morph-arc, .morph-x { stroke-dasharray: 1; }
+.js .morph-arc,
+.js .morph-x { stroke-dashoffset: 1; }
+html:not(.js) .mw-scene { display: none; }
+.hero-art.play .morph-arc,
+.hero-art.play .morph-x {
+  animation: mark-draw .35s var(--ease-draw) forwards;
+  animation-delay: calc(1.55s + var(--i) * .04s);
 }
 
 /* ---------- Inner pages (about, insights, contact, articles) ---------- */
@@ -1028,19 +1205,22 @@ main, .site-footer { transition: opacity .3s ease; }
   color: var(--ink);
   max-width: 18ch;
 }
-.page-lede {
-  margin-top: 1.4rem;
-  max-width: 56ch;
-  font-size: clamp(1.02rem, 1.4vw, 1.15rem);
-  line-height: 1.75;
-  color: var(--ink-soft);
-}
 
-.page-section { padding-block: clamp(1.8rem, 4.5vw, 3.2rem); }
+/* the credential strip on an inner page leans on the page-hero padding for its gap */
+.page-hero + .cred-row { margin-top: 0; }
+
+/* An inner-page section and the experience block reused on one follow the same
+   rhythm. .experience never appears outside an inner page, so one rule owns it
+   and the adjacency selector that used to shadow a --rhythm value is gone. */
+.page-section,
+.experience { padding-block: clamp(1.8rem, 4.5vw, 3.2rem); }
+
+/* display type, so it takes a display line-height rather than the body's 1.6 */
 .page-heading {
   font-family: var(--serif);
   font-weight: 600;
   font-size: clamp(1.6rem, 2.6vw, 2.2rem);
+  line-height: 1.15;
   letter-spacing: -.01em;
   color: var(--ink);
   margin-bottom: clamp(1.2rem, 3vw, 2rem);
@@ -1070,10 +1250,7 @@ main, .site-footer { transition: opacity .3s ease; }
 }
 .bio-portrait figcaption {
   margin-top: .8rem;
-  font: 600 .72rem var(--sans);
-  letter-spacing: .14em;
-  text-transform: uppercase;
-  color: var(--muted);
+  font-weight: 600;
 }
 .bio-text p {
   font-family: var(--serif);
@@ -1093,20 +1270,18 @@ main, .site-footer { transition: opacity .3s ease; }
 }
 
 /* About: career timeline */
-.timeline { border-top: 1px solid var(--line); }
+.timeline { border-top: var(--hairline); }
 .job {
   display: grid;
   grid-template-columns: 150px 1fr;
   gap: clamp(1.2rem, 3vw, 3rem);
   padding-block: clamp(1.6rem, 3.5vw, 2.4rem);
-  border-bottom: 1px solid var(--line);
+  border-bottom: var(--hairline);
 }
 .job-years {
-  font: 800 .72rem var(--sans);
-  letter-spacing: .14em;
-  text-transform: uppercase;
-  color: var(--muted);
+  font-weight: 800;
   padding-top: .45em;
+  font-variant-numeric: tabular-nums;
 }
 .job:first-child .job-years,
 .job:nth-child(2) .job-years { color: var(--ink); }
@@ -1132,7 +1307,7 @@ main, .site-footer { transition: opacity .3s ease; }
   margin-bottom: .55em;
   font-size: .98rem;
   line-height: 1.7;
-  color: var(--ink-soft);
+  color: var(--ink);
   max-width: 68ch;
 }
 .job li::before {
@@ -1151,13 +1326,13 @@ main, .site-footer { transition: opacity .3s ease; }
   grid-template-columns: 1fr 1fr;
   gap: clamp(2rem, 5vw, 4rem);
 }
-.plain-list { list-style: none; margin: 0; padding: 0; border-top: 1px solid var(--line); }
+.plain-list { list-style: none; margin: 0; padding: 0; border-top: var(--hairline); }
 .plain-list li {
   padding: .9em 0;
-  border-bottom: 1px solid var(--line);
+  border-bottom: var(--hairline);
   font-size: .98rem;
   line-height: 1.6;
-  color: var(--ink-soft);
+  color: var(--ink);
 }
 .affil-line {
   margin-top: 1.4rem;
@@ -1167,11 +1342,11 @@ main, .site-footer { transition: opacity .3s ease; }
 }
 
 /* Insights index: reuse .insight-row, full list */
-.insight-index { border-top: 1px solid var(--line); }
+.insight-index { border-top: var(--hairline); }
 
 /* Contact */
 .contact-rows {
-  border-top: 1px solid var(--line);
+  border-top: var(--hairline);
   margin-top: clamp(1.5rem, 4vw, 2.5rem);
 }
 .contact-row {
@@ -1180,14 +1355,9 @@ main, .site-footer { transition: opacity .3s ease; }
   gap: 1.5rem;
   align-items: baseline;
   padding-block: 1.1rem;
-  border-bottom: 1px solid var(--line);
+  border-bottom: var(--hairline);
 }
-.contact-row dt {
-  font: 800 .72rem var(--sans);
-  letter-spacing: .14em;
-  text-transform: uppercase;
-  color: var(--muted);
-}
+.contact-row dt { font-weight: 800; }
 .contact-row dd { margin: 0; font-size: 1.05rem; color: var(--ink); }
 .contact-row dd a { color: var(--ink); text-decoration-color: rgba(34, 39, 44, .3); }
 
@@ -1196,7 +1366,12 @@ main, .site-footer { transition: opacity .3s ease; }
   padding-top: clamp(56px, 9vh, 100px);
   padding-bottom: clamp(1.8rem, 4vw, 3rem);
 }
-.article-hero .kicker { display: inline-block; margin-bottom: 1rem; }
+/* the article kicker carries the publication date, so its figures are data */
+.article-hero .kicker {
+  display: inline-block;
+  margin-bottom: 1rem;
+  font-variant-numeric: tabular-nums;
+}
 .article-title {
   font-family: var(--serif);
   font-weight: 600;
@@ -1205,13 +1380,6 @@ main, .site-footer { transition: opacity .3s ease; }
   letter-spacing: -.015em;
   color: var(--ink);
   max-width: 24ch;
-}
-.article-lede {
-  margin-top: 1.2rem;
-  font-size: clamp(1.05rem, 1.5vw, 1.2rem);
-  line-height: 1.7;
-  color: var(--ink-soft);
-  max-width: 58ch;
 }
 .prose { max-width: 68ch; padding-bottom: clamp(2.5rem, 6vw, 4rem); }
 .prose p, .prose li {
@@ -1225,6 +1393,7 @@ main, .site-footer { transition: opacity .3s ease; }
   font-family: var(--serif);
   font-weight: 600;
   font-size: clamp(1.45rem, 2.4vw, 1.9rem);
+  line-height: 1.2;
   letter-spacing: -.01em;
   color: var(--ink);
   margin: 2.2em 0 .8em;
@@ -1244,25 +1413,109 @@ main, .site-footer { transition: opacity .3s ease; }
   border-left: 3px solid var(--ink);
 }
 .prose blockquote p { font-size: 1.15rem; }
-.prose table { width: 100%; border-collapse: collapse; margin: 1.6em 0; font-size: .95rem; }
-.prose th, .prose td { text-align: left; padding: .6em .8em; border-bottom: 1px solid var(--line); }
-.prose th {
-  font: 800 .72rem var(--sans);
-  letter-spacing: .12em;
-  text-transform: uppercase;
+.prose hr { border: 0; border-top: var(--hairline); margin: 2.4em 0; }
+
+/* End mark: the ink X of the brand mark, small, set as a tombstone at the
+   close of the body copy. Scoped to its own class only, never by descent. */
+.article-end {
+  position: relative;
+  width: 12px;
+  height: 12px;
+  margin: clamp(2.6rem, 6vw, 4rem) auto clamp(1.6rem, 4vw, 2.4rem);
+}
+.article-end::before,
+.article-end::after {
+  content: "";
+  position: absolute;
+  left: 50%;
+  top: 0;
+  width: 1px;
+  height: 100%;
+  background: var(--ink);
+}
+.article-end::before { transform: translateX(-50%) rotate(45deg); }
+.article-end::after  { transform: translateX(-50%) rotate(-45deg); }
+
+/* Closing furniture: sources, the related pointer, the next-article link. All
+   three sit inside .prose, so .prose has already claimed their type, colour and
+   margins; every declaration below is a correction of that, never a repeat of
+   it. Citation and navigation are set in the sans, smaller and muted, so that
+   neither can be mistaken for the argument it follows. One recipe now covers
+   all three: the next-article link is enrolled here rather than left at body
+   size in the serif. Where a rule has to outrank ".prose p" it is scoped to
+   .prose; the rest simply sits later in the cascade. */
+.article-sources li,
+.prose .article-related,
+.prose .article-next,
+.prose .article-next a {
+  font-family: var(--sans);
+  font-size: .9rem;
+  line-height: 1.7;
   color: var(--muted);
 }
-.prose hr { border: 0; border-top: 1px solid var(--line); margin: 2.4em 0; }
+
+.article-sources {
+  margin-top: clamp(2.6rem, 6vw, 3.6rem);
+  padding-top: 1.5rem;
+  border-top: var(--hairline);
+}
+.article-sources .sources-title { margin: 0 0 .9rem; }
+.article-sources ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.article-sources li { margin-bottom: .7em; }
+.article-sources li:last-child { margin-bottom: 0; }
+.article-sources a { color: var(--muted); text-decoration-color: currentColor; }
+.article-sources a:hover { color: var(--ink); }
+
+/* A pointer, not a paragraph: it keeps the sources block company rather than
+   opening a new one, so it is given no rule of its own. The 28 article pages
+   dropped this block; the 10 LinkedIn post pages still carry it. */
+.prose .article-related { margin: 1.5rem 0 0; }
+.prose .article-related a { color: var(--ink); }
+
+.prose .article-next {
+  margin: clamp(2.2rem, 5vw, 3rem) 0 0;
+  padding-top: 1.5rem;
+  border-top: var(--hairline);
+  /* A long headline wraps on a phone and would otherwise drop the arrow alone
+     onto the second line, which reads as a stray glyph rather than a link. */
+  text-wrap: pretty;
+}
+.prose .article-next a:hover { color: var(--ink); }
+
 .article-nav {
   display: flex;
   justify-content: space-between;
   gap: 1rem;
-  border-top: 1px solid var(--line);
+  border-top: var(--hairline);
   padding-top: 1.6rem;
   margin-bottom: clamp(3rem, 7vw, 5rem);
 }
 
+/* ============================================================
+   Responsive
+   ============================================================ */
+
+@media (max-width: 1024px) {
+  .hero-grid { grid-template-columns: 1fr; }
+  .hero-art { max-width: 420px; margin-inline: auto; width: 100%; }
+  .hero-title { max-width: 14ch; }
+
+  .work-grid, .exp-grid { grid-template-columns: 1fr; }
+  .work-sticky { position: static; }
+  .work-index { align-items: center; }
+  .work-note { max-width: 52ch; }
+}
+
 @media (max-width: 860px) {
+  .principles { grid-template-columns: 1fr; gap: 2.6rem; }
+  .insight-row { grid-template-columns: 1fr; gap: 8px; }
+  .insight-arrow { display: none; }
+  .cred-row { grid-template-columns: 1fr 1fr; gap: 1.4rem; }
+
   .bio-grid { grid-template-columns: 1fr; }
   .bio-portrait { position: static; max-width: 300px; }
   .job { grid-template-columns: 1fr; gap: .4rem; }
@@ -1270,12 +1523,230 @@ main, .site-footer { transition: opacity .3s ease; }
   .contact-row { grid-template-columns: 1fr; gap: .2rem; }
 }
 
-/* Insights index: category tag under the date */
-.insight-cat {
-  display: block;
-  margin-top: 6px;
-  font: 600 .66rem var(--sans);
-  letter-spacing: .12em;
-  text-transform: uppercase;
-  color: var(--blue);
+@media (max-width: 720px) {
+  :root { --shell: min(100% - 2.5rem, 1320px); }
+
+  /* Two defects in one layout. The nav used to scroll sideways with its
+     scrollbar hidden, so on a 320px screen the last two routes sat off the edge
+     with nothing to show they were there; and "order: 3" pushed it below the
+     language toggle visually while tab order still ran brand, nav, toggle, so
+     focus order did not follow the page. Nothing is reordered now: the brand
+     takes the first band, the nav wraps within the second and the toggle ends
+     it, which is the order the markup is already in. */
+  .header-inner { flex-wrap: wrap; gap: .9rem 1.2rem; padding-block: .8rem; }
+  .brand { flex: 1 1 100%; }
+  .nav {
+    flex: 1 1 0;
+    min-width: 0;
+    flex-wrap: wrap;
+    gap: 0 1.2rem;
+    padding-top: 2px;
+  }
+  /* A 3px padding box is not a thumb target. The link keeps its 14.4px type and
+     grows a 44px hit area around it; the hover underline is re-anchored to the
+     text rather than to the foot of that box, which on a touch screen never
+     paints anyway because there is no hover there. */
+  .nav a {
+    display: inline-flex;
+    align-items: center;
+    min-height: 44px;
+    padding-bottom: 0;
+  }
+  .nav a::after { bottom: 10px; }
+  .lang-toggle { align-self: center; }
+
+  .hero { padding-top: 48px; }
+  .hero-title { font-size: clamp(2.45rem, 11vw, 3.4rem); }
+
+  .work-num { font-size: 4.2rem; }
+  .faq-q { font-size: 1.05rem; }
+  .footer-meta { gap: 1.2rem; }
+}
+
+/* ---------- Reduced motion ----------
+   One block, after every rule it has to outrank. The reveal and mark selectors
+   carry the .js prefix because that is the specificity of the rules that hide
+   them in the first place. */
+
+@media (prefers-reduced-motion: reduce) {
+  html { scroll-behavior: auto; }
+  *, *::before, *::after {
+    animation-duration: .01ms !important;
+    animation-delay: 0s !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: .01ms !important;
+    transition-delay: 0s !important;
+  }
+  .js .reveal { opacity: 1; transform: none; }
+  .hero-title.split .hw { opacity: 1; transform: none; filter: none; }
+  .js .mark-arc, .js .mark-x { stroke-dashoffset: 0; }
+  .principle { transform: none !important; }
+  /* the focus-area accent still appears on hover, it just stops sliding down:
+     the rule above has already collapsed its transition to nothing */
+
+  .mw-scene { display: none; }
+  .js .morph-arc, .js .morph-x { stroke-dashoffset: 0; }
+}
+
+/* ---------- Print ---------- */
+
+@media print {
+  @page { margin: 18mm; }
+
+  html, body {
+    background: #fff;
+    color: #000;
+    font-family: var(--serif);
+    font-size: 11pt;
+    line-height: 1.5;
+  }
+
+  /* Screen furniture: nothing here survives the trip to paper. The hero art is
+     hidden as one block, so nothing inside it needs naming separately. */
+  .nav,
+  .lang-toggle,
+  .skip-link,
+  .progress-line,
+  .signature-line,
+  .footer-wordmark,
+  .article-nav,
+  .insight-arrow,
+  .faq-icon,
+  .hero-art {
+    display: none !important;
+  }
+
+  .site-header {
+    position: static;
+    background: none;
+    -webkit-backdrop-filter: none;
+    backdrop-filter: none;
+    border-bottom: var(--hairline);
+  }
+
+  /* The mark draws itself by animation on screen; print it already drawn.
+     Only the header and footer marks are reachable on paper: .morph-arc and
+     .morph-x live inside .hero-art, which is display:none above. */
+  .mark-arc,
+  .mark-x {
+    animation: none !important;
+    stroke-dasharray: none;
+    stroke-dashoffset: 0;
+  }
+
+  /* Scripting never runs for the printer, so no state may stay hidden. */
+  .reveal,
+  .reveal.in,
+  .js .reveal,
+  .js .reveal.in {
+    opacity: 1 !important;
+    transform: none !important;
+  }
+  .hero-title.split .hw { opacity: 1; transform: none; filter: none; }
+  .faq-a { grid-template-rows: 1fr; }
+  .faq-a-inner { overflow: visible; }
+  .principle { transform: none; border-top-color: var(--ink); }
+  .area::before { display: none; }
+
+  /* The approach band is ink-on-paper reversed; unreverse it or it prints
+     as a black slab, or as white text on white where backgrounds are off. */
+  .approach,
+  .approach .section-title,
+  .principle h3,
+  .pull p {
+    background: #fff;
+    color: #000;
+  }
+  .principle p,
+  .pull cite,
+  .kicker-dark { color: var(--muted); }
+  /* the accent hues are unreadable on white at this size: yellow reaches 1.85:1 */
+  .area-num,
+  .principle-num { color: #000; }
+
+  /* Body copy in the serif, measured for paper. The ledes are not in this list:
+     they keep their own family and tone, and their measure with it. */
+  .body-copy,
+  .bio-text p,
+  .prose p,
+  .prose li {
+    font-family: var(--serif);
+    font-size: 11pt;
+    line-height: 1.5;
+    color: #000;
+  }
+  .lede,
+  .page-lede,
+  .article-lede {
+    font-family: var(--sans);
+    font-size: 12pt;
+    line-height: 1.5;
+  }
+
+  /* Citation and navigation stay in the sans and stay quieter than the argument
+     on paper too, so the serif body rule above cannot reclaim them. */
+  .prose .article-sources li,
+  .prose .article-related,
+  .prose .article-next a {
+    font-family: var(--sans);
+    font-size: 9pt;
+    line-height: 1.45;
+    color: #333;
+  }
+
+  /* Display type is sized for a viewport; cap it for a sheet of A4. */
+  .hero-title { font-size: 26pt; }
+  .page-title, .article-title { font-size: 22pt; }
+  .contact-title { font-size: 24pt; }
+  .wordmark { font-size: 30pt; }
+  .section-title { font-size: 16pt; }
+
+  /* and measured for a viewport: a ch cap tuned to a screen prints as a ribbon
+     down the left of the sheet, so headings take the full measure on paper. */
+  .hero-title,
+  .page-title,
+  .article-title,
+  .section-title,
+  .exp-head .section-title,
+  .exp-lede,
+  .page-heading,
+  .area h3 { max-width: none; }
+
+  /* A heading must not be left stranded at the foot of a page. */
+  h1, h2, h3, h4,
+  .hero-title,
+  .page-title,
+  .article-title,
+  .section-title,
+  .page-heading {
+    break-after: avoid;
+    page-break-after: avoid;
+  }
+  /* Running text may break across a page; it just may not break badly. Only the
+     short components that would read as broken are kept whole, because holding
+     every paragraph together opens gaps at the foot of every page. */
+  p, li {
+    orphans: 2;
+    widows: 2;
+  }
+  blockquote,
+  figure,
+  .job,
+  .faq-item,
+  .article-end,
+  .article-sources li,
+  .exp-facts li,
+  .plain-list li {
+    break-inside: avoid;
+    page-break-inside: avoid;
+  }
+
+  /* Sources are the one place where the address itself is the citation. */
+  .article-sources a[href]::after {
+    content: " (" attr(href) ")";
+    font-size: 9pt;
+    word-break: break-all;
+  }
+
+  a { color: #000; }
 }

@@ -3,6 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="theme-color" content="#FCFCFA">
 <title>What generative AI actually changes for in-house legal teams</title>
 <meta name="description" content="A practitioner view on where generative AI helps in-house legal work, what stays human, and how to run it responsibly.">
 <link rel="canonical" href="https://lexsas.com/insights/genai-for-legal-teams.html">
@@ -18,9 +19,9 @@
 <link rel="icon" href="/assets/brand/favicon-32.png" sizes="32x32" type="image/png">
 <link rel="icon" href="/assets/brand/favicon-64.png" sizes="64x64" type="image/png">
 <link rel="apple-touch-icon" href="/assets/brand/favicon-180.png">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Source+Serif+4:opsz,wght@8..60,400;8..60,600;8..60,700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="preload" as="font" type="font/woff2" href="/assets/fonts/source-serif-4-latin.woff2" crossorigin>
+<link rel="preload" as="font" type="font/woff2" href="/assets/fonts/manrope-latin.woff2" crossorigin>
+<script>document.documentElement.classList.add("js")</script>
 <link rel="stylesheet" href="/css/style.css">
 <link rel="alternate" type="application/rss+xml" title="LEXSAS Insights" href="https://lexsas.com/feed.xml">
 <meta name="author" content="Asım Serdar Yılmaz">
@@ -185,7 +186,15 @@
         "@id": "https://lexsas.com/#organization"
       },
       "datePublished": "2026-07-04",
-      "dateModified": "2026-07-04",
+      "dateModified": "2026-07-27",
+      "citation": [
+        "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:62007CJ0550",
+        "https://academic.oup.com/jla/article/16/1/64/7699227",
+        "https://arxiv.org/abs/2405.20362",
+        "https://www.everlaw.com/press/release/acc-report-2025/",
+        "https://scholarship.law.umn.edu/minnlrev/vol109/iss1/3/",
+        "https://fortune.com/2025/08/18/mit-report-95-percent-generative-ai-pilots-at-companies-failing-cfo/"
+      ],
       "image": "https://lexsas.com/assets/brand/lexsas-avatar-white-1024.png"
     }
   ]
@@ -213,15 +222,15 @@
     <nav class="nav" aria-label="Primary">
       <a href="/#work">Focus areas</a>
       <a href="/#approach">Approach</a>
-      <a href="/#experience">Experience</a>
+      <a href="/about.html">About</a>
       <a href="/insights.html" aria-current="page">Insights</a>
       <a href="/contact.html">Contact</a>
     </nav>
-    <a class="lang-toggle" href="/tr/yazilar/hukuk-ekiplerinde-uretken-yapay-zeka.html" aria-label="Türkçe sürüme geç">TR</a>
+    <a class="lang-toggle" href="/tr/yazilar/hukuk-ekiplerinde-uretken-yapay-zeka.html" lang="tr" hreflang="tr" aria-label="TR: Türkçe sürüme geç">TR</a>
   </div>
 </header>
 
-<main id="main-content">
+<main id="main-content" tabindex="-1"><article>
 
   <section class="article-hero shell">
     <span class="kicker">July 2026 &middot; AI governance</span>
@@ -229,7 +238,7 @@
     <p class="article-lede">When our in-house team built generative AI tooling on AWS Bedrock, the first real decision was not which model to use. It was which single workflow to point it at first, and in what order to add the rest. We started by writing down what the system must never do before what it could do, then picked one narrow, high-volume task to run first. That sequencing choice taught me more than any product demonstration. The useful question is not whether generative AI will automate a legal department away or leave it untouched, but a narrower one: what does it change, what does it leave untouched, and how do you run it so it helps rather than quietly creating risk.</p>
   </section>
 
-  <div class="shell"><article class="prose">
+  <div class="shell"><div class="prose">
       <h2>What does not change</h2>
       <p>Start with what stays put, because it is the part people skip. The duty to reach a defensible answer does not move. A model can draft a position, but a lawyer still owns it, signs off on it, and answers for it if a regulator asks. Privilege, confidentiality and conflicts do not relax because a tool is in the loop; if anything they get harder, since a poorly configured system can move sensitive material to places it should never be. How far privilege even reaches depends on the jurisdiction: in-house communications are not protected everywhere, and in EU competition matters, for instance, they may attract no privilege at all, so a tool that copies such material into new systems only widens the exposure.</p>
       <p>Judgment about risk appetite does not change either. Deciding how much regulatory ambiguity a business can carry, and on what terms, is a matter of context, relationships and history that no model holds. The same is true of the harder calls: when to escalate, when to say no, when to say yes with conditions. Those decisions are the actual job, and generative AI does not touch them.</p>
@@ -249,9 +258,22 @@
       </ul>
       <p>One more point on outside counsel, because it is where the economics are supposed to show up first. Much of what a legal team sends outside is volume rather than hard law: routine research, first-pass review and drafting that goes out because there is no internal capacity, not because the question needs a specialist. Moving a share of that in-house is what teams aim at when they target lower outside-counsel spend. It is a target, not a guarantee; many teams have not yet seen those savings land, while the genuinely difficult matters still go to the firms that should handle them.</p>
       <p>None of this requires believing the hype, and none of it requires dismissing the technology. Generative AI does not change what a legal team is for. It changes how much of the surrounding work has to be done by hand, which is worth a lot if you are honest about where the judgment still has to sit. The teams that get value from it stay skeptical about the claims, specific about the workflow, and patient enough to prove each step before trusting it with the next.</p>
-      <p class="article-related">Related: <a href="/#work">Legal tech and AI workflow automation</a></p>
+      <div class="article-end" aria-hidden="true"></div>
+      <p class="kicker article-dateline">Published 4 July 2026 &middot; Last updated 27 July 2026</p>
+      <div class="article-sources">
+        <p class="sources-title">Sources</p>
+        <ul>
+          <li><a href="https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:62007CJ0550">Court of Justice of the European Union, Akzo Nobel Chemicals and Akcros Chemicals v Commission, C-550/07 P (2010)</a></li>
+          <li><a href="https://academic.oup.com/jla/article/16/1/64/7699227">Journal of Legal Analysis, Large Legal Fictions: Profiling Legal Hallucinations in Large Language Models (2024)</a></li>
+          <li><a href="https://arxiv.org/abs/2405.20362">Stanford RegLab and Stanford HAI, Hallucination-Free? Assessing the Reliability of Leading AI Legal Research Tools (2024)</a></li>
+          <li><a href="https://www.everlaw.com/press/release/acc-report-2025/">Association of Corporate Counsel and Everlaw, Generative AI's Growing Strategic Value for Corporate Law Departments (2025)</a></li>
+          <li><a href="https://scholarship.law.umn.edu/minnlrev/vol109/iss1/3/">Minnesota Law Review, Lawyering in the Age of Artificial Intelligence (2024)</a></li>
+          <li><a href="https://fortune.com/2025/08/18/mit-report-95-percent-generative-ai-pilots-at-companies-failing-cfo/">MIT NANDA, The GenAI Divide: State of AI in Business 2025 (via Fortune)</a></li>
+        </ul>
+      </div>
+
       <p class="article-next"><a href="/insights/ai-governance-five-controls.html">Next: AI governance for in-house legal teams: five minimum controls &rarr;</a></p>
-  </article></div>
+  </div></div></article>
 
   <nav class="article-nav shell" aria-label="More">
     <a class="u-link" href="/insights.html">&larr; All insights</a>

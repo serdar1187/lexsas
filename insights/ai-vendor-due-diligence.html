@@ -3,6 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="theme-color" content="#FCFCFA">
 <title>An AI vendor due diligence checklist for legal teams</title>
 <meta name="description" content="Six questions a GC should ask an AI vendor before signing: training data, prompt retention, subprocessors, IP indemnity, logging, and exit terms.">
 <link rel="canonical" href="https://lexsas.com/insights/ai-vendor-due-diligence.html">
@@ -18,9 +19,9 @@
 <link rel="icon" href="/assets/brand/favicon-32.png" sizes="32x32" type="image/png">
 <link rel="icon" href="/assets/brand/favicon-64.png" sizes="64x64" type="image/png">
 <link rel="apple-touch-icon" href="/assets/brand/favicon-180.png">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Source+Serif+4:opsz,wght@8..60,400;8..60,600;8..60,700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="preload" as="font" type="font/woff2" href="/assets/fonts/source-serif-4-latin.woff2" crossorigin>
+<link rel="preload" as="font" type="font/woff2" href="/assets/fonts/manrope-latin.woff2" crossorigin>
+<script>document.documentElement.classList.add("js")</script>
 <link rel="stylesheet" href="/css/style.css">
 <link rel="alternate" type="application/rss+xml" title="LEXSAS Insights" href="https://lexsas.com/feed.xml">
 <meta name="author" content="Asım Serdar Yılmaz">
@@ -218,15 +219,15 @@
     <nav class="nav" aria-label="Primary">
       <a href="/#work">Focus areas</a>
       <a href="/#approach">Approach</a>
-      <a href="/#experience">Experience</a>
+      <a href="/about.html">About</a>
       <a href="/insights.html" aria-current="page">Insights</a>
       <a href="/contact.html">Contact</a>
     </nav>
-    <a class="lang-toggle" href="/tr/yazilar/yapay-zeka-tedarikci-inceleme.html" aria-label="Türkçe sürüme geç">TR</a>
+    <a class="lang-toggle" href="/tr/yazilar/yapay-zeka-tedarikci-inceleme.html" lang="tr" hreflang="tr" aria-label="TR: Türkçe sürüme geç">TR</a>
   </div>
 </header>
 
-<main id="main-content">
+<main id="main-content" tabindex="-1"><article>
 
   <section class="article-hero shell">
     <span class="kicker">July 2026 &middot; Legal operations</span>
@@ -234,7 +235,7 @@
     <p class="article-lede">I have sat on both sides of this table. I helped build AI tooling for legal teams inside a vendor, and I have signed off on buying it. The gap between a good demo and a safer contract is a short list of questions; the answers belong in the contract itself: audit rights, breach notice, liability.</p>
   </section>
 
-  <div class="shell"><article class="prose">
+  <div class="shell"><div class="prose">
       <p>The risk is measurable. Verizon's 2026 Data Breach Investigations Report put third-party involvement in breaches at 48 percent, a figure counting all third parties, not AI vendors. IBM's 2025 Cost of a Data Breach report adds that among breached organizations, about one in five said the breach involved shadow AI; heavy shadow-AI users reported costs roughly 670,000 dollars higher than light or non-users, an association, not a proven cause. An unvetted AI tool is a third party with unusually broad access to privileged material.</p>
       <p>Six questions have earned their place on my list.</p>
       <p>Training data provenance. Where did the model's training data come from, and can the vendor show it had rights to use it?</p>
@@ -244,6 +245,8 @@
       <p>Audit trail. Can you reconstruct who asked what, and what the system returned?</p>
       <p>Exit and data return. When the contract ends, how does your data come back, and in what format?</p>
       <p>A vendor with clean answers welcomes these questions. Hesitation on any of them is itself an answer, and it arrives before you have signed anything. Treat it as a signal, not a verdict; the answers still have to land in the contract.</p>
+      <div class="article-end" aria-hidden="true"></div>
+      <p class="kicker article-dateline">Published 11 July 2026</p>
       <div class="article-sources">
         <p class="sources-title">Sources</p>
         <ul>
@@ -253,9 +256,8 @@
         </ul>
       </div>
 
-      <p class="article-related">Related: <a href="/#work">GenAI transformation for legal teams</a></p>
       <p class="article-next"><a href="/insights/ai-incident-response-legal-teams.html">Next: When an AI workflow fails: an incident protocol for legal teams &rarr;</a></p>
-  </article></div>
+  </div></div></article>
 
   <nav class="article-nav shell" aria-label="More">
     <a class="u-link" href="/insights.html">&larr; All insights</a>

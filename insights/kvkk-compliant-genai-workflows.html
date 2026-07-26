@@ -3,6 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="theme-color" content="#FCFCFA">
 <title>KVKK-compliant generative AI workflows for legal teams</title>
 <meta name="description" content="What KVKK expects when legal teams route personal data through generative AI: lawful basis, cross-border transfer mechanisms, minimization, records.">
 <link rel="canonical" href="https://lexsas.com/insights/kvkk-compliant-genai-workflows.html">
@@ -18,9 +19,9 @@
 <link rel="icon" href="/assets/brand/favicon-32.png" sizes="32x32" type="image/png">
 <link rel="icon" href="/assets/brand/favicon-64.png" sizes="64x64" type="image/png">
 <link rel="apple-touch-icon" href="/assets/brand/favicon-180.png">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Source+Serif+4:opsz,wght@8..60,400;8..60,600;8..60,700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="preload" as="font" type="font/woff2" href="/assets/fonts/source-serif-4-latin.woff2" crossorigin>
+<link rel="preload" as="font" type="font/woff2" href="/assets/fonts/manrope-latin.woff2" crossorigin>
+<script>document.documentElement.classList.add("js")</script>
 <link rel="stylesheet" href="/css/style.css">
 <link rel="alternate" type="application/rss+xml" title="LEXSAS Insights" href="https://lexsas.com/feed.xml">
 <meta name="author" content="Asım Serdar Yılmaz">
@@ -217,15 +218,15 @@
     <nav class="nav" aria-label="Primary">
       <a href="/#work">Focus areas</a>
       <a href="/#approach">Approach</a>
-      <a href="/#experience">Experience</a>
+      <a href="/about.html">About</a>
       <a href="/insights.html" aria-current="page">Insights</a>
       <a href="/contact.html">Contact</a>
     </nav>
-    <a class="lang-toggle" href="/tr/yazilar/kvkk-uyumlu-uretken-yapay-zeka.html" aria-label="Türkçe sürüme geç">TR</a>
+    <a class="lang-toggle" href="/tr/yazilar/kvkk-uyumlu-uretken-yapay-zeka.html" lang="tr" hreflang="tr" aria-label="TR: Türkçe sürüme geç">TR</a>
   </div>
 </header>
 
-<main id="main-content">
+<main id="main-content" tabindex="-1"><article>
 
   <section class="article-hero shell">
     <span class="kicker">July 2026 &middot; Data protection</span>
@@ -233,11 +234,13 @@
     <p class="article-lede">Generative AI tools a legal team will touch are commonly hosted abroad. Whether that triggers a cross-border transfer depends on the specifics: where it is hosted, whether staff reach it remotely, and which subprocessors sit behind it. The moment a prompt contains personal data, the team is processing it, and in a typical SaaS setup, transferring it abroad.</p>
   </section>
 
-  <div class="shell"><article class="prose">
+  <div class="shell"><div class="prose">
       <p>The analysis starts before the transfer question. Under Article 5, processing needs a lawful basis. Legitimate interest covers many internal productivity uses but is not automatic; it calls for a documented balancing test, and special categories under Article 6 need their own basis. I treat that balancing document as the anchor of the whole file.</p>
       <p>The 2024 amendment to Article 9 rebuilt the transfer regime. Absent an adequacy decision, transfers rest on appropriate safeguards: standard contracts notified to the Authority within five business days, binding corporate rules, or an undertaking approved by the Board, each conditioned on data subjects keeping enforceable rights. KVKK's 2024 activity note records 1,345 standard contract notifications; the 2025 annual report, summarized by GRC Legal, gives 2,497. 2024 was a partial year under the new regime, so I read these as period markers, not a clean growth rate.</p>
       <p>The workflow layer is where compliance turns into daily habit. Teams that run this well strip identifiers from prompts where identity adds nothing, prefer enterprise plans that contractually exclude training on customer inputs, and keep records aligned: processing inventory, vendor agreement, balancing test, transfer mechanism, retention terms.</p>
       <p>A defensible file is one page per tool: which data goes in, on what lawful basis, through which transfer mechanism. I treat that page as an intake index that links out to the deletion, notice, security and data-subject-rights records behind it. In the phased adoptions that succeed, it existed before the pilot started.</p>
+      <div class="article-end" aria-hidden="true"></div>
+      <p class="kicker article-dateline">Published 11 July 2026</p>
       <div class="article-sources">
         <p class="sources-title">Sources</p>
         <ul>
@@ -246,9 +249,8 @@
         </ul>
       </div>
 
-      <p class="article-related">Related: <a href="/#work">Legal tech and AI workflow automation</a></p>
       <p class="article-next"><a href="/insights/ai-vendor-due-diligence.html">Next: An AI vendor due diligence checklist for legal teams &rarr;</a></p>
-  </article></div>
+  </div></div></article>
 
   <nav class="article-nav shell" aria-label="More">
     <a class="u-link" href="/insights.html">&larr; All insights</a>

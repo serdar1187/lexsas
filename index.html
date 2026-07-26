@@ -3,6 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="theme-color" content="#FCFCFA">
 <title>LEXSAS · Legal Workflow Automation and Advisory</title>
 <meta name="description" content="LEXSAS is an AI legal-tech venture for legal workflow automation and advisory across legal tech, AI governance, regulatory affairs and corporate affairs.">
 <meta name="author" content="Asım Serdar Yılmaz">
@@ -30,9 +31,9 @@
 <link rel="icon" href="/assets/brand/favicon-48.png" sizes="48x48" type="image/png">
 <link rel="icon" href="/assets/brand/favicon-192.png" sizes="192x192" type="image/png">
 <link rel="apple-touch-icon" href="/assets/brand/favicon-180.png">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Source+Serif+4:opsz,wght@8..60,400;8..60,600;8..60,700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="preload" as="font" type="font/woff2" href="/assets/fonts/source-serif-4-latin.woff2" crossorigin>
+<link rel="preload" as="font" type="font/woff2" href="/assets/fonts/manrope-latin.woff2" crossorigin>
+<script>document.documentElement.classList.add("js")</script>
 <link rel="stylesheet" href="/css/style.css">
 <script type="application/ld+json">
 {
@@ -169,7 +170,7 @@
 </script>
 </head>
 <body>
-<a class="skip-link" href="#main-content" data-i18n="skip">Skip to content</a>
+<a class="skip-link" href="#main-content">Skip to content</a>
 
 <div class="progress-line" aria-hidden="true"><span id="progressBar"></span></div>
 
@@ -187,30 +188,30 @@
       <span class="brand-word">lexsas</span>
     </a>
     <nav class="nav" aria-label="Primary">
-      <a href="#work" data-i18n="nav.work">Focus areas</a>
-      <a href="#approach" data-i18n="nav.approach">Approach</a>
-      <a href="#experience" data-i18n="nav.experience">Experience</a>
-      <a href="#insights" data-i18n="nav.insights">Insights</a>
-      <a href="#contact" data-i18n="nav.contact">Contact</a>
+      <a href="#work">Focus areas</a>
+      <a href="#approach">Approach</a>
+      <a id="navAbout" href="/about.html">About</a>
+      <a href="#insights">Insights</a>
+      <a href="#contact">Contact</a>
     </nav>
-    <a class="lang-toggle" id="langToggle" href="/tr/" aria-label="Türkçe sürüme geç">TR</a>
+    <a class="lang-toggle" id="langToggle" href="/tr/" lang="tr" hreflang="tr" aria-label="TR: Türkçe sürüme geç">TR</a>
   </div>
 </header>
 
-<main id="main-content">
+<main id="main-content" tabindex="-1">
 
   <section class="hero shell" id="top">
     <div class="hero-grid">
       <div class="hero-text">
-        <p class="kicker reveal" data-i18n="hero.kicker">AI LEGAL TECH</p>
-        <h1 class="hero-title" id="heroTitle" data-i18n="hero.title">Legal workflow automation, with the guardrails built in</h1>
-        <p class="lede reveal" style="--d:.35s" data-i18n="hero.lede">LEXSAS is the AI legal-tech venture I founded in 2026. I design and advise on tools that take the manual work out of legal and regulatory operations, from intake and document workflows to research and compliance, with privacy, IP and governance guardrails in place from the start.</p>
-        <div class="hero-cta reveal" style="--d:.5s">
-          <a class="u-link u-link-strong" href="#contact"><span data-i18n="hero.cta">Get in touch</span><span class="u-arrow" aria-hidden="true">&rarr;</span></a>
-          <a class="u-link u-link-muted" href="#work"><span data-i18n="hero.cta2">Explore focus areas</span></a>
+        <p class="kicker">AI LEGAL TECH</p>
+        <h1 class="hero-title" id="heroTitle">Legal workflow automation, with the guardrails built in</h1>
+        <p class="lede">LEXSAS is the AI legal-tech venture I founded in 2026. I design and advise on tools that take the manual work out of legal and regulatory operations, from intake and document workflows to research and compliance, with privacy, IP and governance guardrails in place from the start.</p>
+        <div class="hero-cta">
+          <a class="u-link u-link-strong" href="#contact"><span>Get in touch</span><span class="u-arrow" aria-hidden="true">&rarr;</span></a>
+          <a class="u-link u-link-muted" href="#work"><span>Explore focus areas</span></a>
         </div>
       </div>
-      <div class="hero-art" id="heroArt" data-active="5" aria-hidden="true">
+      <div class="hero-art" id="heroArt" aria-hidden="true">
 
         <div class="hv hv-morph" data-variant="5">
           <svg class="morph-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 480" aria-hidden="true">
@@ -257,9 +258,9 @@
                   <circle cx="346" cy="285" r="1.9" fill="#8A9299" stroke="none"></circle>
                 </g>
               </g>
-              <text class="mw-slabel" style="--i:0" x="236" y="314" text-anchor="middle" data-i18n="hero.tool1">sources</text>
-              <text class="mw-slabel" style="--i:1" x="288" y="332" text-anchor="middle" data-i18n="hero.tool2">memory</text>
-              <text class="mw-slabel" style="--i:2" x="340" y="314" text-anchor="middle" data-i18n="hero.tool3">tools</text>
+              <text class="mw-slabel" style="--i:0" x="236" y="314" text-anchor="middle">sources</text>
+              <text class="mw-slabel" style="--i:1" x="288" y="332" text-anchor="middle">memory</text>
+              <text class="mw-slabel" style="--i:2" x="340" y="314" text-anchor="middle">tools</text>
 
               <g class="mw-node" style="--i:0; --tx:176px; --ty:-10px;">
                 <g class="mw-pop">
@@ -305,14 +306,14 @@
                 </g>
               </g>
 
-              <text class="mw-name" style="--i:0" x="64" y="88" text-anchor="middle" data-i18n="hero.flow1">Intake</text>
-              <text class="mw-sub" style="--i:0" x="64" y="72" text-anchor="middle" data-i18n="hero.sub1">new matter</text>
-              <text class="mw-name" style="--i:1" x="176" y="88" text-anchor="middle" data-i18n="hero.flow2">Review</text>
-              <text class="mw-sub" style="--i:1" x="176" y="72" text-anchor="middle" data-i18n="hero.sub2">human review</text>
-              <text class="mw-name" style="--i:2" x="288" y="88" text-anchor="middle" data-i18n="hero.flow3">Research</text>
-              <text class="mw-sub" style="--i:2" x="288" y="72" text-anchor="middle" data-i18n="hero.sub3">deep research</text>
-              <text class="mw-name" style="--i:3" x="400" y="88" text-anchor="middle" data-i18n="hero.flow4">Compliance</text>
-              <text class="mw-sub" style="--i:3" x="400" y="72" text-anchor="middle" data-i18n="hero.sub4">guarded output</text>
+              <text class="mw-name" style="--i:0" x="64" y="88" text-anchor="middle">Intake</text>
+              <text class="mw-sub" style="--i:0" x="64" y="72" text-anchor="middle">new matter</text>
+              <text class="mw-name" style="--i:1" x="176" y="88" text-anchor="middle">Review</text>
+              <text class="mw-sub" style="--i:1" x="176" y="72" text-anchor="middle">human review</text>
+              <text class="mw-name" style="--i:2" x="288" y="88" text-anchor="middle">Research</text>
+              <text class="mw-sub" style="--i:2" x="288" y="72" text-anchor="middle">deep research</text>
+              <text class="mw-name" style="--i:3" x="400" y="88" text-anchor="middle">Compliance</text>
+              <text class="mw-sub" style="--i:3" x="400" y="72" text-anchor="middle">guarded output</text>
             </g>
             <g class="morph-mark">
               <path class="morph-arc" style="--i:0" d="M 240 122 A 118 118 0 0 1 358 240" fill="none" stroke="#2E7CF6" stroke-width="20" stroke-linecap="round" pathLength="1"></path>
@@ -327,62 +328,56 @@
 
       </div>
     </div>
-    <div class="cred-row reveal" style="--d:.65s">
-      <div class="cred-item" data-i18n="cred.1">20+ years in legal and regulatory work</div>
-      <div class="cred-item">Amazon · eBay · White &amp; Case</div>
-      <div class="cred-item" data-i18n="cred.3">Statutory Board Director</div>
-      <div class="cred-item" data-i18n="cred.4">Ankara Bar</div>
-    </div>
   </section>
 
   <section class="wordmark-band" aria-hidden="true">
     <hr class="signature-line">
     <div class="wordmark reveal">lexsas</div>
-    <p class="wordmark-sub" data-i18n="wordmark.sub">EST. 2026 · ISTANBUL · EN / TR</p>
+    <p class="wordmark-sub">ISTANBUL · EN / TR</p>
   </section>
 
   <section class="work shell" id="work">
     <div class="work-grid">
       <div class="work-sticky">
-        <p class="kicker" data-i18n="work.kicker">FOCUS AREAS</p>
-        <h2 class="section-title" data-i18n="work.title">Six areas, one operating standard</h2>
+        <p class="kicker">FOCUS AREAS</p>
+        <h2 class="section-title">Six areas, one operating standard</h2>
         <div class="work-index" aria-hidden="true">
           <span class="work-num" id="workNum">01</span>
           <span class="work-total">/ 06</span>
         </div>
         <div class="work-progress" aria-hidden="true"><span id="workBar"></span></div>
-        <p class="work-note" data-i18n="work.note">From intake automation to competition defense, every engagement ships with its guardrails.</p>
+        <p class="work-note">From intake automation to digital market governance, every engagement ends with controls the team can actually run.</p>
       </div>
       <div class="work-list" id="workList">
         <article class="area reveal" data-accent="blue" data-num="01">
           <span class="area-num" aria-hidden="true">01</span>
-          <h3 data-i18n="work.a1.t">Legal tech and AI workflow automation</h3>
-          <p data-i18n="work.a1.d">Designing and advising on AI-enabled tooling for legal work: intake, document and knowledge workflows, research and compliance operations. The aim is fewer manual steps without a lower standard of review.</p>
+          <h3>Legal tech and AI workflow automation</h3>
+          <p>Designing and advising on AI-enabled tooling for legal work: intake, document and knowledge workflows, research and compliance operations. The aim is fewer manual steps without a lower standard of review.</p>
         </article>
         <article class="area reveal" data-accent="red" data-num="02">
           <span class="area-num" aria-hidden="true">02</span>
-          <h3 data-i18n="work.a2.t">AI governance and regulatory compliance</h3>
-          <p data-i18n="work.a2.d">Privacy, IP and governance guardrails that ship with the tool rather than after it, alongside model oversight, human review and documentation. I work on the line between what a policy says and what a team can actually operate.</p>
+          <h3>AI governance and regulatory compliance</h3>
+          <p>Privacy, IP and governance guardrails that ship with the tool rather than after it, alongside model oversight, human review and documentation. I work on the line between what a policy says and what a team can actually operate.</p>
         </article>
         <article class="area reveal" data-accent="yellow" data-num="03">
           <span class="area-num" aria-hidden="true">03</span>
-          <h3 data-i18n="work.a3.t">GenAI transformation for legal teams</h3>
-          <p data-i18n="work.a3.d">Legal operations strategy for generative AI: where to start, what to build versus buy, and how responsible adoption actually happens. I have co-developed GenAI legal tooling in-house on AWS Bedrock and run the pilots that followed.</p>
+          <h3>GenAI adoption for legal teams</h3>
+          <p>Legal operations strategy for generative AI: where to start, what to build versus buy, and how responsible adoption actually happens. I have co-developed GenAI legal tooling in-house on AWS Bedrock and run the pilots that followed.</p>
         </article>
         <article class="area reveal" data-accent="green" data-num="04">
           <span class="area-num" aria-hidden="true">04</span>
-          <h3 data-i18n="work.a4.t">Data protection and data sovereignty</h3>
-          <p data-i18n="work.a4.d">Cross-border data transfer and localisation questions under KVKK and GDPR, including undertakings and the practical controls needed when regulatory expectations change.</p>
+          <h3>Data protection and data sovereignty</h3>
+          <p>Cross-border data transfer and localisation questions under KVKK and GDPR, including undertakings and the practical controls needed when regulatory expectations change.</p>
         </article>
         <article class="area reveal" data-accent="blue" data-num="05">
           <span class="area-num" aria-hidden="true">05</span>
-          <h3 data-i18n="work.a5.t">E-commerce and platform regulation</h3>
-          <p data-i18n="work.a5.d">Marketplace and platform rules across consumer protection, advertising, intermediary liability and payments touchpoints. This includes licensing perimeter questions and the controls that keep a platform compliant at scale.</p>
+          <h3>E-commerce and platform regulation</h3>
+          <p>Marketplace and platform rules across consumer protection, advertising, intermediary liability and payments touchpoints. This includes licensing perimeter questions and the controls that keep a platform compliant at scale.</p>
         </article>
         <article class="area reveal" data-accent="red" data-num="06">
           <span class="area-num" aria-hidden="true">06</span>
-          <h3 data-i18n="work.a6.t">Competition and digital markets</h3>
-          <p data-i18n="work.a6.d">Antitrust strategy for platforms, covering parity clauses, ranking practices, pricing algorithms and the controls needed for accountable digital markets.</p>
+          <h3>Competition and digital markets</h3>
+          <p>Governance, controls and strategy advisory for digital markets, covering parity clauses, ranking practices, pricing algorithms and bundling, with the decision records that show how each was set and who can change it.</p>
         </article>
       </div>
     </div>
@@ -390,82 +385,64 @@
 
   <section class="approach" id="approach">
     <div class="shell">
-      <p class="kicker kicker-dark" data-i18n="ap.kicker">APPROACH</p>
-      <h2 class="section-title" data-i18n="ap.title">How I work</h2>
+      <p class="kicker kicker-dark">APPROACH</p>
+      <h2 class="section-title">How I work</h2>
       <div class="principles">
         <article class="principle reveal" data-accent="blue">
           <span class="principle-num" aria-hidden="true">01</span>
-          <h3 data-i18n="ap.p1.t">Practitioner, not vendor</h3>
-          <p data-i18n="ap.p1.d">I have built and run these tools inside a legal team, not sold them. Advice starts from what a workflow actually looks like, not from a product roadmap.</p>
+          <h3>Practitioner, not vendor</h3>
+          <p>I have built and run these tools inside a legal team, not sold them. Advice starts from what a workflow actually looks like, not from a product roadmap.</p>
         </article>
         <article class="principle reveal" style="--d:.12s" data-accent="yellow">
           <span class="principle-num" aria-hidden="true">02</span>
-          <h3 data-i18n="ap.p2.t">Guardrails that enable speed</h3>
-          <p data-i18n="ap.p2.d">The useful answer is rarely a flat yes or no; it is yes, if. Well-designed controls let a team move quickly while protecting the business over the long term.</p>
+          <h3>Guardrails that enable speed</h3>
+          <p>Well-designed controls let a team move quickly while protecting the business over the long term.</p>
         </article>
         <article class="principle reveal" style="--d:.24s" data-accent="green">
           <span class="principle-num" aria-hidden="true">03</span>
-          <h3 data-i18n="ap.p3.t">Measurable pilots, human review</h3>
-          <p data-i18n="ap.p3.d">Every AI deployment should begin as a pilot with a defined measure of success and a person owning the output. If it cannot show what it changed, it has not earned a wider rollout.</p>
+          <h3>Measurable pilots, human review</h3>
+          <p>Every AI deployment should begin as a pilot with a defined measure of success and a person owning the output. If it cannot show what it changed, it has not earned a wider rollout.</p>
         </article>
       </div>
       <blockquote class="pull reveal">
-        <p data-i18n="ap.quote">&ldquo;The useful answer is rarely a flat yes or no; it is yes, if.&rdquo;</p>
-        <cite data-i18n="ap.quote.by">The operating principle</cite>
+        <p>&ldquo;The useful answer is rarely a flat yes or no; it is yes, if.&rdquo;</p>
+        <cite>Asim Serdar Yilmaz, Founder</cite>
       </blockquote>
-    </div>
-  </section>
-
-  <section class="experience shell" id="experience">
-    <div class="exp-grid">
-      <div class="exp-head">
-        <p class="kicker" data-i18n="exp.kicker">EXPERIENCE</p>
-        <h2 class="section-title" data-i18n="exp.title">Twenty years across the table from regulators</h2>
-      </div>
-      <div class="exp-body">
-        <p class="exp-lede reveal" data-i18n="exp.lede">I bring more than 20 years of legal and regulatory experience, most of it in-house, across global technology, consumer and marketplace businesses. That experience combines legal directorship with regulatory affairs, corporate affairs and public policy in regulated markets.</p>
-        <p class="reveal" style="--d:.1s" data-i18n="exp.body">That includes statutory board roles and leading legal functions through investigations, licensing questions and market entry. What I say about AI stands on this practitioner ground.</p>
-        <ul class="exp-facts reveal" style="--d:.2s">
-          <li data-i18n="exp.f1">Legal and regulatory leadership, in-house</li>
-          <li data-i18n="exp.f2">Statutory board directorship</li>
-          <li data-i18n="exp.f3">Ankara Bar</li>
-        </ul>
-        <a class="u-link u-link-strong reveal" style="--d:.3s" id="expLink" href="https://lexsas.com/about.html"><span data-i18n="exp.link">Full background</span><span class="u-arrow" aria-hidden="true">&rarr;</span></a>
-      </div>
     </div>
   </section>
 
   <section class="insights shell" id="insights">
     <div class="insights-head">
-      <p class="kicker" data-i18n="ins.kicker">LATEST INSIGHTS</p>
-      <h2 class="section-title" data-i18n="ins.title">Notes on law, regulation and AI</h2>
+      <p class="kicker">LATEST INSIGHTS</p>
+      <h2 class="section-title">Notes on law, regulation and AI</h2>
     </div>
-    <div class="insight-list">
-      <a class="insight-row reveal" data-ins="1" href="https://lexsas.com/insights/ai-incident-response-legal-teams.html">
-        <span class="insight-date" data-i18n="ins.1.d">July 2026</span>
+    <ul class="insight-list" style="list-style:none;margin-bottom:0;padding:0">
+      <li><a class="insight-row reveal" data-ins="1" href="/insights/ai-incident-response-legal-teams.html">
+        <span class="insight-date">July 2026</span>
         <span class="insight-main">
-          <span class="insight-title" data-i18n="ins.1.t">When an AI workflow fails: an incident protocol for legal teams</span>
-          <span class="insight-summary" data-i18n="ins.1.s">A short response path for ownership, evidence, containment and restart when an AI-assisted legal workflow goes wrong.</span>
+          <span class="insight-title" role="heading" aria-level="3">When an AI workflow fails: an incident protocol for legal teams</span>
+          <span class="insight-summary">A short response path for ownership, evidence, containment and restart when an AI-assisted legal workflow goes wrong.</span>
         </span>
         <span class="insight-arrow" aria-hidden="true">&rarr;</span>
-      </a>
-      <a class="insight-row reveal" style="--d:.1s" data-ins="2" href="https://lexsas.com/insights/eu-ai-act-august-2026.html">
-        <span class="insight-date" data-i18n="ins.2.d">July 2026</span>
+      </a></li>
+      <li><a class="insight-row reveal" style="--d:.1s" data-ins="2" href="/insights/eu-ai-act-august-2026.html">
+        <span class="insight-date">July 2026</span>
         <span class="insight-main">
-          <span class="insight-title" data-i18n="ins.2.t">The EU AI Act on 2 August 2026: what actually applies</span>
-          <span class="insight-summary" data-i18n="ins.2.s">The adopted Digital Omnibus sets new high-risk application dates in 2027 and 2028; as of 18 July 2026 it awaited publication and entry into force. Article 50 duties become applicable on 2 August.</span>
+          <span class="insight-title" role="heading" aria-level="3">The EU AI Act on 2 August 2026: what actually applies</span>
+          <span class="insight-summary">The adopted Digital Omnibus sets new high-risk application dates in 2027 and 2028; as of 18 July 2026 it awaited publication and entry into force. Article 50 duties become applicable on 2 August.</span>
         </span>
         <span class="insight-arrow" aria-hidden="true">&rarr;</span>
-      </a>
-      <a class="insight-row reveal" style="--d:.2s" data-ins="3" href="https://lexsas.com/insights/ai-citation-verification.html">
-        <span class="insight-date" data-i18n="ins.3.d">July 2026</span>
+      </a></li>
+      <li><a class="insight-row reveal" style="--d:.2s" data-ins="3" href="/insights/ai-citation-verification.html">
+        <span class="insight-date">July 2026</span>
         <span class="insight-main">
-          <span class="insight-title" data-i18n="ins.3.t">AI citation errors: a verification protocol for legal teams</span>
-          <span class="insight-summary" data-i18n="ins.3.s">An independent database listed more than 1,770 cases as of 18 July 2026 in which courts or tribunals addressed generative-AI hallucinations or, in some entries, alleged AI use. A five-step verification protocol.</span>
+          <span class="insight-title" role="heading" aria-level="3">AI citation errors: a verification protocol for legal teams</span>
+          <span class="insight-summary">An independent database listed more than 1,770 cases as of 18 July 2026 in which courts or tribunals addressed generative-AI hallucinations or, in some entries, alleged AI use. A five-step verification protocol.</span>
         </span>
         <span class="insight-arrow" aria-hidden="true">&rarr;</span>
-      </a>
-    </div>
+      </a></li>
+    </ul>
+    <p class="insights-foot"><a class="u-link" href="/insights.html"><span>All insights</span><span class="u-arrow" aria-hidden="true">&rarr;</span></a></p>
   </section>
 
   <section class="insights shell" id="linkedin-posts">
@@ -473,100 +450,75 @@
       <p class="kicker">LINKEDIN POSTS</p>
       <h2 class="section-title">Notes from LinkedIn on AI, law and regulation</h2>
     </div>
-    <div class="insight-list">
-      <a class="insight-row reveal" href="/linkedin-posts/openai-hugging-face-agent-liability.html">
-        <span class="insight-date">July 23, 2026</span>
+    <ul class="insight-list" style="list-style:none;margin-bottom:0;padding:0">
+      <li><a class="insight-row reveal" href="/linkedin-posts/openai-hugging-face-agent-liability.html">
+        <span class="insight-date">23 July 2026</span>
         <span class="insight-main">
-          <span class="insight-title">When an AI agent breaks out of the sandbox, who answers?</span>
-          <span class="insight-summary">OpenAI's Hugging Face incident raises a question current liability rules were not written to answer: who bears the loss when an autonomous agent finds and exploits the path?</span>
+          <span class="insight-title" role="heading" aria-level="3">When an AI agent breaks out of the sandbox, who answers?</span>
         </span>
         <span class="insight-arrow" aria-hidden="true">&rarr;</span>
-      </a>
-      <a class="insight-row reveal" href="/linkedin-posts/open-weights-ai-geopolitics.html">
-        <span class="insight-date">July 21, 2026</span>
+      </a></li>
+      <li><a class="insight-row reveal" href="/linkedin-posts/open-weights-ai-geopolitics.html">
+        <span class="insight-date">21 July 2026</span>
         <span class="insight-main">
-          <span class="insight-title">Open weights as geopolitical insurance</span>
-          <span class="insight-summary">Export controls, Kimi K3, Inkling and China's open-source message point to the same strategic question: what happens when access to frontier AI becomes leverage?</span>
+          <span class="insight-title" role="heading" aria-level="3">Open weights as geopolitical insurance</span>
         </span>
         <span class="insight-arrow" aria-hidden="true">&rarr;</span>
-      </a>
-      <a class="insight-row reveal" href="/linkedin-posts/frontier-ai-finra-standards-body.html">
-        <span class="insight-date">July 15, 2026</span>
-        <span class="insight-main">
-          <span class="insight-title">A FINRA for frontier AI</span>
-          <span class="insight-summary">Demis Hassabis proposes an industry-funded, federally overseen standards body. The safety case is real; so is the risk that the rulebook protects its authors.</span>
-        </span>
-        <span class="insight-arrow" aria-hidden="true">&rarr;</span>
-      </a>
-      <a class="insight-row reveal" href="/linkedin-posts/j-lens-interpretability-transparency.html">
-        <span class="insight-date">July 9, 2026</span>
-        <span class="insight-main">
-          <span class="insight-title">The transparency paradox inside the black box</span>
-          <span class="insight-summary">Anthropic's J-lens can surface internal model patterns that never appear in the output. Governance now has to decide whether looking creates responsibility.</span>
-        </span>
-        <span class="insight-arrow" aria-hidden="true">&rarr;</span>
-      </a>
-      <a class="insight-row reveal" href="/linkedin-posts/ai-access-cutoffs-digital-sovereignty.html">
-        <span class="insight-date">July 2, 2026</span>
-        <span class="insight-main">
-          <span class="insight-title">AI access cutoffs and digital sovereignty</span>
-          <span class="insight-summary">When frontier models disappear from ordinary workflows, resilience depends on explicit AI policy, portability and open-weight fallbacks.</span>
-        </span>
-        <span class="insight-arrow" aria-hidden="true">&rarr;</span>
-      </a>
-    </div>
+      </a></li>
+    </ul>
+    <p class="insights-foot"><a class="u-link" href="/linkedin.html"><span>All LinkedIn posts</span><span class="u-arrow" aria-hidden="true">&rarr;</span></a></p>
   </section>
 
   <section class="faq shell" id="faq">
     <div class="faq-head">
-      <p class="kicker" data-i18n="faq.kicker">FAQ</p>
-      <h2 class="section-title" data-i18n="faq.title">Common questions</h2>
+      <p class="kicker">FAQ</p>
+      <h2 class="section-title">Common questions</h2>
     </div>
     <div class="faq-list">
       <div class="faq-item reveal">
-        <button class="faq-q" type="button" aria-expanded="false">
-          <span data-i18n="faq.1.q">What does LEXSAS do?</span>
+        <button class="faq-q" type="button" aria-controls="faq-a-1" aria-expanded="false">
+          <span>What does LEXSAS do?</span>
           <span class="faq-icon" aria-hidden="true"></span>
         </button>
-        <div class="faq-a"><div class="faq-a-inner"><p data-i18n="faq.1.a">LEXSAS is an AI legal-tech venture focused on legal workflow automation and advisory. It designs AI-enabled tooling for legal and regulatory teams, from intake and document workflows to research and compliance operations, and advises on responsible adoption with privacy, IP and governance guardrails built in.</p></div></div>
+        <div class="faq-a" id="faq-a-1"><div class="faq-a-inner"><p>LEXSAS is an AI legal-tech venture focused on legal workflow automation and advisory. It designs AI-enabled tooling for legal and regulatory teams, from intake and document workflows to research and compliance operations, and advises on responsible adoption with privacy, IP and governance guardrails built in.</p></div></div>
       </div>
       <div class="faq-item reveal" style="--d:.08s">
-        <button class="faq-q" type="button" aria-expanded="false">
-          <span data-i18n="faq.2.q">Which areas does the advisory work cover?</span>
+        <button class="faq-q" type="button" aria-controls="faq-a-2" aria-expanded="false">
+          <span>Which areas does the advisory work cover?</span>
           <span class="faq-icon" aria-hidden="true"></span>
         </button>
-        <div class="faq-a"><div class="faq-a-inner"><p data-i18n="faq.2.a">Legal technology and AI governance, regulatory affairs and corporate affairs in regulated digital markets, e-commerce and platform regulation, data protection under KVKK and GDPR, and competition questions in digital markets. The work is grounded in more than 20 years of legal and regulatory experience, most of it in-house, across global technology, consumer and marketplace businesses.</p></div></div>
+        <div class="faq-a" id="faq-a-2"><div class="faq-a-inner"><p>Legal technology and AI governance, regulatory affairs and corporate affairs in regulated digital markets, e-commerce and platform regulation, data protection under KVKK and GDPR, and competition questions in digital markets. The work is grounded in more than 20 years of legal and regulatory experience, most of it in-house, across global technology, consumer and marketplace businesses.</p></div></div>
       </div>
       <div class="faq-item reveal" style="--d:.16s">
-        <button class="faq-q" type="button" aria-expanded="false">
-          <span data-i18n="faq.3.q">Who is behind LEXSAS?</span>
+        <button class="faq-q" type="button" aria-controls="faq-a-3" aria-expanded="false">
+          <span>Who is behind LEXSAS?</span>
           <span class="faq-icon" aria-hidden="true"></span>
         </button>
-        <div class="faq-a"><div class="faq-a-inner"><p data-i18n="faq.3.a">Asim Serdar Yilmaz, founder of LEXSAS and a senior legal and regulatory affairs leader with more than 20 years of experience, most of it in-house, following private practice at White &amp; Case.</p></div></div>
+        <div class="faq-a" id="faq-a-3"><div class="faq-a-inner"><p>Asim Serdar Yilmaz, founder of LEXSAS and a senior legal and regulatory affairs leader with more than 20 years of experience, most of it in-house, following private practice at White &amp; Case.</p></div></div>
       </div>
       <div class="faq-item reveal" style="--d:.24s">
-        <button class="faq-q" type="button" aria-expanded="false">
-          <span data-i18n="faq.4.q">Do you work in English and Turkish?</span>
+        <button class="faq-q" type="button" aria-controls="faq-a-4" aria-expanded="false">
+          <span>Do you work in English and Turkish?</span>
           <span class="faq-icon" aria-hidden="true"></span>
         </button>
-        <div class="faq-a"><div class="faq-a-inner"><p data-i18n="faq.4.a">Yes. Advisory, writing and speaking are available in both languages, from Istanbul and remotely.</p></div></div>
+        <div class="faq-a" id="faq-a-4"><div class="faq-a-inner"><p>Yes. Advisory, writing and speaking are available in both languages, from Istanbul and remotely.</p></div></div>
       </div>
       <div class="faq-item reveal" style="--d:.32s">
-        <button class="faq-q" type="button" aria-expanded="false">
-          <span data-i18n="faq.5.q">Is this legal representation?</span>
+        <button class="faq-q" type="button" aria-controls="faq-a-5" aria-expanded="false">
+          <span>Is this legal representation?</span>
           <span class="faq-icon" aria-hidden="true"></span>
         </button>
-        <div class="faq-a"><div class="faq-a-inner"><p data-i18n="faq.5.a">No. LEXSAS provides informational consultancy on legal technology, AI governance and regulatory strategy. It is not a law firm and does not provide legal representation.</p></div></div>
+        <div class="faq-a" id="faq-a-5"><div class="faq-a-inner"><p>No. LEXSAS provides informational consultancy on legal technology, AI governance and regulatory strategy. It is not a law firm and does not provide legal representation.</p></div></div>
       </div>
     </div>
   </section>
 
   <section class="contact" id="contact">
     <div class="shell contact-inner">
-      <p class="kicker" data-i18n="ct.kicker">CONTACT</p>
-      <h2 class="contact-title reveal" data-i18n="ct.title">Let&rsquo;s talk.</h2>
+      <p class="kicker">CONTACT</p>
+      <h2 class="contact-title reveal">Let&rsquo;s talk.</h2>
       <a class="contact-mail reveal" style="--d:.12s" href="mailto:serdar@lexsas.com">serdar@lexsas.com</a>
-      <p class="contact-note reveal" style="--d:.24s" data-i18n="ct.note">Advisory on AI governance, regulated digital markets and legal operations. Speaking and board conversations are welcome, in English or Turkish.</p>
+      <p class="contact-note reveal" style="--d:.24s">Advisory on AI governance, regulated digital markets and legal operations. Speaking and board conversations are welcome, in English or Turkish. When you write, a short outline of the workflow, team and timing you have in mind helps, without any confidential detail.</p>
     </div>
   </section>
 
@@ -584,11 +536,11 @@
         <line x1="60" y1="36" x2="36" y2="60" stroke="#22272C" stroke-width="9" stroke-linecap="round"></line>
       </svg>
     </div>
-    <p class="footer-disclaimer" data-i18n="ft.disclaimer">This site is for general information only. It is not legal advice and does not create an attorney-client relationship. All views are personal and do not represent any current or former employer.</p>
+    <p class="footer-disclaimer">This site is for general information only. It is not legal advice and does not create an attorney-client relationship. All views are personal and do not represent any current or former employer.</p>
     <div class="footer-meta">
-      <span data-i18n="ft.rights">&copy; 2026 LEXSAS · Istanbul</span>
+      <span>&copy; 2026 LEXSAS · Istanbul</span>
       <a class="u-link" href="https://www.linkedin.com/in/asimserdaryilmaz/">LinkedIn</a>
-      <a class="u-link" href="#top" data-i18n="ft.top">Back to top</a>
+      <a class="u-link" href="#top">Back to top</a>
     </div>
   </div>
   <div class="footer-wordmark" aria-hidden="true">lexsas</div>

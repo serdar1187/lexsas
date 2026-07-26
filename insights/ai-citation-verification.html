@@ -3,6 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="theme-color" content="#FCFCFA">
 <title>AI citation errors: a verification protocol for legal teams</title>
 <meta name="description" content="A work-in-progress database listed more than 1,770 cases by 18 July 2026 in which courts or tribunals addressed generative-AI hallucinations or, in some entries, alleged AI use.">
 <link rel="canonical" href="https://lexsas.com/insights/ai-citation-verification.html">
@@ -18,9 +19,9 @@
 <link rel="icon" href="/assets/brand/favicon-32.png" sizes="32x32" type="image/png">
 <link rel="icon" href="/assets/brand/favicon-64.png" sizes="64x64" type="image/png">
 <link rel="apple-touch-icon" href="/assets/brand/favicon-180.png">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Source+Serif+4:opsz,wght@8..60,400;8..60,600;8..60,700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="preload" as="font" type="font/woff2" href="/assets/fonts/source-serif-4-latin.woff2" crossorigin>
+<link rel="preload" as="font" type="font/woff2" href="/assets/fonts/manrope-latin.woff2" crossorigin>
+<script>document.documentElement.classList.add("js")</script>
 <link rel="stylesheet" href="/css/style.css">
 <link rel="alternate" type="application/rss+xml" title="LEXSAS Insights" href="https://lexsas.com/feed.xml">
 <meta name="author" content="Asım Serdar Yılmaz">
@@ -218,27 +219,29 @@
     <nav class="nav" aria-label="Primary">
       <a href="/#work">Focus areas</a>
       <a href="/#approach">Approach</a>
-      <a href="/#experience">Experience</a>
+      <a href="/about.html">About</a>
       <a href="/insights.html" aria-current="page">Insights</a>
       <a href="/contact.html">Contact</a>
     </nav>
-    <a class="lang-toggle" href="/tr/yazilar/yapay-zeka-atif-dogrulama.html" aria-label="Türkçe sürüme geç">TR</a>
+    <a class="lang-toggle" href="/tr/yazilar/yapay-zeka-atif-dogrulama.html" lang="tr" hreflang="tr" aria-label="TR: Türkçe sürüme geç">TR</a>
   </div>
 </header>
 
-<main id="main-content">
+<main id="main-content" tabindex="-1"><article>
   <section class="article-hero shell">
     <span class="kicker">July 2026 &middot; Legal AI</span>
     <h1 class="article-title">AI citation errors: a verification protocol for legal teams</h1>
     <p class="article-lede">An independent database listed more than 1,770 cases as of 18 July 2026 in which courts or tribunals addressed generative-AI hallucinations or, in some entries, alleged AI use. A five-step verification protocol.</p>
   </section>
 
-  <div class="shell"><article class="prose">
+  <div class="shell"><div class="prose">
       <p>Damien Charlotin's independent, work-in-progress public database had identified more than 1,770 legal cases worldwide as of 18 July 2026 in which courts or tribunals addressed generative-AI hallucinations or, in some entries, alleged AI use. The project tracks relevant legal decisions, but it is not an official court registry and its count should not be read as a complete judicial total. Its scale still makes the operational point clear: AI-assisted legal work needs a verification record before it leaves the team.</p>
       <p>A primary decision shows how that responsibility is applied. In <i>LNU v. Blanche</i>, filed on 3 June 2026, the US Court of Appeals for the Ninth Circuit suspended two attorneys from practice before that court for six months, imposed a $2,500 sanction on each, and required AI-use disclosure and certification in their filings for two years. The court explained that the relevant duties are breached when an unchecked document is signed and filed, not merely when AI is used for research or drafting.</p>
       <p>The lesson is narrower and more useful than a general warning against AI. A team needs to know which source was opened, which quotation was checked, which proposition was tested and who accepted responsibility for the final text.</p>
       <p>My verification protocol has five steps, none optional for anything that leaves the team. One, open every citation in the official reporter or database; never ask a second AI whether the first AI's case exists. Two, compare every quotation against the opinion word by word. Three, test the proposition: the case must actually say what the draft claims it says. Four, test validity: the authority must still be good law. Five, a named person signs the verification note before the document goes out. The same five steps apply to client memos and advice, not only to court filings.</p>
       <p>In-house teams have one extra lever: outside counsel. Put in the engagement letter how the firm verifies AI-assisted citations and who certifies the review. The Union of Turkish Bar Associations' June 2026 guidance also stresses human oversight, critical verification of outputs, confidentiality and the lawyer's final professional responsibility. The tool may assist the workflow; professional judgment and final responsibility remain human.</p>
+      <div class="article-end" aria-hidden="true"></div>
+      <p class="kicker article-dateline">Published 18 July 2026</p>
       <div class="article-sources">
         <p class="sources-title">Sources</p>
         <ul>
@@ -248,9 +251,8 @@
         </ul>
       </div>
 
-      <p class="article-related">Related: <a href="/#work">Legal tech and AI workflow automation</a></p>
       <p class="article-next"><a href="/insights/turkey-marketplace-liability.html">Next: Marketplace intermediary liability in Turkey: three regimes to read together &rarr;</a></p>
-  </article></div>
+  </div></div></article>
 
   <nav class="article-nav shell" aria-label="More">
     <a class="u-link" href="/insights.html">&larr; All insights</a>

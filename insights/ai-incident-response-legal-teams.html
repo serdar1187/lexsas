@@ -3,6 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="theme-color" content="#FCFCFA">
 <title>When an AI workflow fails: an incident protocol for legal teams</title>
 <meta name="description" content="A short response path for ownership, evidence, containment and restart when an AI-assisted legal workflow goes wrong.">
 <link rel="canonical" href="https://lexsas.com/insights/ai-incident-response-legal-teams.html">
@@ -26,10 +27,10 @@
 <link rel="icon" href="/assets/brand/favicon-32.png" sizes="32x32" type="image/png">
 <link rel="icon" href="/assets/brand/favicon-64.png" sizes="64x64" type="image/png">
 <link rel="apple-touch-icon" href="/assets/brand/favicon-180.png">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Source+Serif+4:wght@600&family=Manrope:wght@400;500;600;700&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="/assets/css/site.css">
+<link rel="preload" as="font" type="font/woff2" href="/assets/fonts/source-serif-4-latin.woff2" crossorigin>
+<link rel="preload" as="font" type="font/woff2" href="/assets/fonts/manrope-latin.woff2" crossorigin>
+<script>document.documentElement.classList.add("js")</script>
+<link rel="stylesheet" href="/css/style.css">
 <link rel="alternate" type="application/rss+xml" title="LEXSAS Insights" href="https://lexsas.com/feed.xml">
 <meta name="author" content="Asım Serdar Yılmaz">
 <script type="application/ld+json">
@@ -214,22 +215,22 @@
     <nav class="nav" aria-label="Primary">
       <a href="/#work">Focus areas</a>
       <a href="/#approach">Approach</a>
-      <a href="/#experience">Experience</a>
+      <a href="/about.html">About</a>
       <a href="/insights.html" aria-current="page">Insights</a>
       <a href="/contact.html">Contact</a>
     </nav>
-    <a class="lang-toggle" href="/tr/yazilar/hukuk-ekiplerinde-yapay-zeka-olay-mudahalesi.html" aria-label="Türkçe sürüme geç">TR</a>
+    <a class="lang-toggle" href="/tr/yazilar/hukuk-ekiplerinde-yapay-zeka-olay-mudahalesi.html" lang="tr" hreflang="tr" aria-label="TR: Türkçe sürüme geç">TR</a>
   </div>
 </header>
 
-<main id="main-content">
+<main id="main-content" tabindex="-1"><article>
   <section class="article-hero shell">
     <span class="kicker">July 2026 &middot; AI governance</span>
     <h1 class="article-title">When an AI workflow fails: an incident protocol for legal teams</h1>
     <p class="article-lede">A short response path for ownership, evidence, containment and restart when an AI-assisted legal workflow goes wrong.</p>
   </section>
 
-  <div class="shell"><article class="prose">
+  <div class="shell"><div class="prose">
       <p>An AI incident is not only a security event. For legal and regulatory teams, it may begin with an unreliable output, data exposure, a model change or an irreproducible workflow. The useful question is not whether the system is “intelligent,” but whether the team can stop, examine and restart it without losing the record.</p>
       <p>NIST's voluntary AI RMF has four core functions: Govern, Map, Measure and Manage. The companion Playbook suggests actions. In incident response, that means assigning decision rights before deployment; mapping the affected use case, data and stakeholders; assessing behaviour and impact; then containing the issue, documenting remediation and setting restart criteria.</p>
       <p>The European Commission's 7 July 2026 action plan reinforces that operational focus. It highlights model evaluation and secure testing, and a blueprint to be developed with ENISA for secure access to advanced AI systems for cybersecurity. It also connects AI resilience with existing EU cybersecurity instruments. The plan does not replace sector-specific analysis. It shows why legal, compliance, security and product teams need one shared response path.</p>
@@ -239,6 +240,8 @@
         <li>Securely preserve relevant prompts, outputs, model/version details and logs.</li>
         <li>Record containment, impact assessment, remediation and the restart decision.</li>
       </ul>
+      <div class="article-end" aria-hidden="true"></div>
+      <p class="kicker article-dateline">Published 18 July 2026</p>
       <div class="article-sources">
         <p class="sources-title">Sources</p>
         <ul>
@@ -246,9 +249,8 @@
           <li><a href="https://www.nist.gov/itl/ai-risk-management-framework/nist-ai-rmf-playbook">NIST, AI Risk Management Framework Playbook, updated 10 June 2026</a></li>
         </ul>
       </div>
-      <p class="article-related">Related: <a href="/#work">Legal tech and AI workflow automation</a></p>
       <p class="article-next"><a href="/insights/eu-ai-act-august-2026.html">Next: The EU AI Act on 2 August 2026: what actually applies &rarr;</a></p>
-  </article></div>
+  </div></div></article>
 
   <nav class="article-nav shell" aria-label="More">
     <a class="u-link" href="/insights.html">&larr; All insights</a>
@@ -277,6 +279,5 @@
   </div>
   <div class="footer-wordmark" aria-hidden="true">lexsas</div>
 </footer>
-<script src="/js/main.js" defer></script>
 </body>
 </html>

@@ -3,6 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="theme-color" content="#FCFCFA">
 <title>The transparency paradox inside the black box</title>
 <meta name="description" content="Anthropic's J-lens reveals internal model patterns and raises a governance question: when does looking create a responsibility to act?">
 <link rel="canonical" href="https://lexsas.com/linkedin-posts/j-lens-interpretability-transparency.html">
@@ -12,6 +13,8 @@
 <meta property="og:title" content="The transparency paradox inside the black box">
 <meta property="og:description" content="Internal model patterns can create a governance duty to look, assess and act.">
 <meta property="og:image" content="https://lexsas.com/assets/brand/og-card.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
 <meta property="og:type" content="article">
 <meta property="og:url" content="https://lexsas.com/linkedin-posts/j-lens-interpretability-transparency.html">
 <meta property="og:site_name" content="LEXSAS">
@@ -24,10 +27,10 @@
 <link rel="icon" href="/assets/brand/favicon-32.png" sizes="32x32" type="image/png">
 <link rel="icon" href="/assets/brand/favicon-64.png" sizes="64x64" type="image/png">
 <link rel="apple-touch-icon" href="/assets/brand/favicon-180.png">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Source+Serif+4:wght@600&family=Manrope:wght@400;500;600;700&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="/assets/css/site.css">
+<link rel="preload" as="font" type="font/woff2" href="/assets/fonts/source-serif-4-latin.woff2" crossorigin>
+<link rel="preload" as="font" type="font/woff2" href="/assets/fonts/manrope-latin.woff2" crossorigin>
+<script>document.documentElement.classList.add("js")</script>
+<link rel="stylesheet" href="/css/style.css">
 <link rel="alternate" type="application/rss+xml" title="LEXSAS Insights" href="https://lexsas.com/feed.xml">
 <meta name="author" content="Asım Serdar Yılmaz">
 <script type="application/ld+json">
@@ -36,22 +39,21 @@
 </head>
 <body id="top">
 <a class="skip-link" href="#main-content">Skip to content</a>
-<header class="site-header"><div class="shell header-inner"><a class="brand" href="/" aria-label="LEXSAS home"><svg class="brand-mark" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 96 96" aria-hidden="true"><path d="M 48 14 A 34 34 0 0 1 82 48" fill="none" stroke="#2E7CF6" stroke-width="9" stroke-linecap="round"></path><path d="M 82 48 A 34 34 0 0 1 48 82" fill="none" stroke="#E8503A" stroke-width="9" stroke-linecap="round"></path><path d="M 48 82 A 34 34 0 0 1 14 48" fill="none" stroke="#F5B301" stroke-width="9" stroke-linecap="round"></path><path d="M 14 48 A 34 34 0 0 1 48 14" fill="none" stroke="#2FA05A" stroke-width="9" stroke-linecap="round"></path><line x1="36" y1="36" x2="60" y2="60" stroke="#22272C" stroke-width="9" stroke-linecap="round"></line><line x1="60" y1="36" x2="36" y2="60" stroke="#22272C" stroke-width="9" stroke-linecap="round"></line></svg><span class="brand-word">lexsas</span></a><nav class="nav" aria-label="Primary"><a href="/#work">Focus areas</a><a href="/#approach">Approach</a><a href="/#experience">Experience</a><a href="/insights.html">Insights</a><a href="/contact.html">Contact</a></nav><a class="lang-toggle" href="/tr/linkedin-gonderileri/j-lens-yorumlanabilirlik-seffaflik.html" aria-label="Türkçe sürüme geç">TR</a></div></header>
-<main id="main-content">
+<header class="site-header"><div class="shell header-inner"><a class="brand" href="/" aria-label="LEXSAS home"><svg class="brand-mark" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 96 96" aria-hidden="true"><path d="M 48 14 A 34 34 0 0 1 82 48" fill="none" stroke="#2E7CF6" stroke-width="9" stroke-linecap="round"></path><path d="M 82 48 A 34 34 0 0 1 48 82" fill="none" stroke="#E8503A" stroke-width="9" stroke-linecap="round"></path><path d="M 48 82 A 34 34 0 0 1 14 48" fill="none" stroke="#F5B301" stroke-width="9" stroke-linecap="round"></path><path d="M 14 48 A 34 34 0 0 1 48 14" fill="none" stroke="#2FA05A" stroke-width="9" stroke-linecap="round"></path><line x1="36" y1="36" x2="60" y2="60" stroke="#22272C" stroke-width="9" stroke-linecap="round"></line><line x1="60" y1="36" x2="36" y2="60" stroke="#22272C" stroke-width="9" stroke-linecap="round"></line></svg><span class="brand-word">lexsas</span></a><nav class="nav" aria-label="Primary"><a href="/#work">Focus areas</a><a href="/#approach">Approach</a><a href="/about.html">About</a><a href="/insights.html">Insights</a><a href="/contact.html">Contact</a></nav><a class="lang-toggle" href="/tr/linkedin-gonderileri/j-lens-yorumlanabilirlik-seffaflik.html" lang="tr" hreflang="tr" aria-label="TR: Türkçe sürüme geç">TR</a></div></header>
+<main id="main-content" tabindex="-1"><article>
   <section class="article-hero shell">
-    <span class="kicker">July 9, 2026 &middot; LinkedIn post</span>
+    <span class="kicker">9 July 2026 &middot; LinkedIn post</span>
     <h1 class="article-title">The transparency paradox inside the black box</h1>
     <p class="article-lede">Anthropic's J-lens can surface internal model patterns that never appear in the output. Governance now has to decide whether looking creates responsibility.</p>
   </section>
-  <div class="shell"><article class="prose">
+  <div class="shell"><div class="prose">
     <p>Anthropic's global-workspace research describes J-space, a shared representation that can connect patterns across a model's layers. J-lens offers a way to inspect that space. The result is not a transcript of thought, but evidence about internal features that may never be visible in a response.</p>
     <p>The EU AI Act's Article 13 is principally output-facing. Article 13 focuses on enabling deployers to interpret a high-risk system's output and use it appropriately. J-lens works at a different level: it can surface internal patterns that may not be visible in that output. That difference in scope does not alter the transparency requirement.</p>
     <p>That creates a monitoring paradox. A team that does not look may remain unaware; a team that looks may identify a risk it can no longer ignore. Governance should not reward blindness. It should distinguish exploratory signals from confirmed findings, record proportionate assessment, and define who decides what remediation is warranted.</p>
     <p>A safe harbour for good-faith detection would help. Subject to careful limits, organisations that probe models, document their methods and promptly address credible findings should not incur extra exposure merely because they sought to understand the system. Interpretability can then become a control, rather than a reason to keep the lens closed.</p>
     <div class="article-sources"><p class="sources-title">Sources</p><ul><li><a href="https://www.anthropic.com/research/global-workspace">Anthropic, Global Workspace</a></li><li><a href="https://eur-lex.europa.eu/eli/reg/2024/1689/oj">Regulation (EU) 2024/1689, Article 13</a></li><li><a href="https://www.linkedin.com/feed/update/urn:li:activity:7481083681063837696/">LinkedIn source post</a></li></ul></div>
-    <p class="article-related">Related: <a href="/#work">Legal tech and AI workflow automation</a></p>
     <p class="article-next"><a href="/linkedin.html">More: All LinkedIn posts &rarr;</a></p>
-  </article></div>
+  </div></div></article>
   <nav class="article-nav shell" aria-label="More LinkedIn posts"><a class="u-link" href="/linkedin.html">&larr; All LinkedIn posts</a><a class="u-link" href="/contact.html">Get in touch &rarr;</a></nav>
 </main>
 <footer class="site-footer"><div class="shell"><div class="footer-brand"><svg class="brand-mark" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 96 96" aria-hidden="true"><path d="M 48 14 A 34 34 0 0 1 82 48" fill="none" stroke="#2E7CF6" stroke-width="9" stroke-linecap="round"></path><path d="M 82 48 A 34 34 0 0 1 48 82" fill="none" stroke="#E8503A" stroke-width="9" stroke-linecap="round"></path><path d="M 48 82 A 34 34 0 0 1 14 48" fill="none" stroke="#F5B301" stroke-width="9" stroke-linecap="round"></path><path d="M 14 48 A 34 34 0 0 1 48 14" fill="none" stroke="#2FA05A" stroke-width="9" stroke-linecap="round"></path><line x1="36" y1="36" x2="60" y2="60" stroke="#22272C" stroke-width="9" stroke-linecap="round"></line><line x1="60" y1="36" x2="36" y2="60" stroke="#22272C" stroke-width="9" stroke-linecap="round"></line></svg></div><p class="footer-disclaimer">This site is for general information only. It is not legal advice and does not create an attorney-client relationship. All views are personal and do not represent any current or former employer.</p><div class="footer-meta"><span>&copy; 2026 LEXSAS · Istanbul</span><a class="u-link" href="https://www.linkedin.com/in/asimserdaryilmaz/">LinkedIn</a><a class="u-link" href="#top">Back to top</a></div></div><div class="footer-wordmark" aria-hidden="true">lexsas</div></footer>

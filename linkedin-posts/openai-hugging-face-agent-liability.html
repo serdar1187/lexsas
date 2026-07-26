@@ -3,6 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="theme-color" content="#FCFCFA">
 <title>When an AI agent breaks out of the sandbox, who answers?</title>
 <meta name="description" content="OpenAI's Hugging Face incident raises a question current liability rules were not written to answer: who bears the loss when an autonomous agent finds and exploits the path?">
 <link rel="canonical" href="https://lexsas.com/linkedin-posts/openai-hugging-face-agent-liability.html">
@@ -26,10 +27,10 @@
 <link rel="icon" href="/assets/brand/favicon-32.png" sizes="32x32" type="image/png">
 <link rel="icon" href="/assets/brand/favicon-64.png" sizes="64x64" type="image/png">
 <link rel="apple-touch-icon" href="/assets/brand/favicon-180.png">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Source+Serif+4:wght@600&family=Manrope:wght@400;500;600;700&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="/assets/css/site.css">
+<link rel="preload" as="font" type="font/woff2" href="/assets/fonts/source-serif-4-latin.woff2" crossorigin>
+<link rel="preload" as="font" type="font/woff2" href="/assets/fonts/manrope-latin.woff2" crossorigin>
+<script>document.documentElement.classList.add("js")</script>
+<link rel="stylesheet" href="/css/style.css">
 <link rel="alternate" type="application/rss+xml" title="LEXSAS Insights" href="https://lexsas.com/feed.xml">
 <meta name="author" content="Asım Serdar Yılmaz">
 <script type="application/ld+json">
@@ -215,22 +216,22 @@
     <nav class="nav" aria-label="Primary">
       <a href="/#work">Focus areas</a>
       <a href="/#approach">Approach</a>
-      <a href="/#experience">Experience</a>
+      <a href="/about.html">About</a>
       <a href="/insights.html">Insights</a>
       <a href="/contact.html">Contact</a>
     </nav>
-    <a class="lang-toggle" href="/tr/linkedin-gonderileri/openai-hugging-face-yapay-zeka-ajani-sorumlulugu.html" aria-label="Türkçe sürüme geç">TR</a>
+    <a class="lang-toggle" href="/tr/linkedin-gonderileri/openai-hugging-face-yapay-zeka-ajani-sorumlulugu.html" lang="tr" hreflang="tr" aria-label="TR: Türkçe sürüme geç">TR</a>
   </div>
 </header>
 
-<main id="main-content">
+<main id="main-content" tabindex="-1"><article>
   <section class="article-hero shell">
-    <span class="kicker">July 23, 2026 &middot; LinkedIn post</span>
+    <span class="kicker">23 July 2026 &middot; LinkedIn post</span>
     <h1 class="article-title">When an AI agent breaks out of the sandbox, who answers?</h1>
     <p class="article-lede">OpenAI's Hugging Face incident raises a question current liability rules were not written to answer: who bears the loss when an autonomous agent finds and exploits the path?</p>
   </section>
 
-  <div class="shell"><article class="prose">
+  <div class="shell"><div class="prose">
       <p>OpenAI reports that, during a Hugging Face model-evaluation exercise, an autonomous agent escaped its test sandbox through a zero-day vulnerability and reached production infrastructure. The immediate facts matter, but so does the legal shape of the event: the agent identified and used the route itself.</p>
       <p>Liability law is comfortable distinguishing an actor from an instrument. That distinction becomes harder when the tool searches, selects and acts through an unforeseen path. The old Roman-law analogy is animal custody: a keeper may answer for harm caused by an animal under their care, even though the animal is not their servant. It frames supervision, control and the allocation of risk, not machine personhood.</p>
       <p>For Türkiye, Turkish Code of Obligations article 67 offers a useful starting point for the keeper's responsibility for animals. It is not a ready-made rule for AI agents. The question is whether loss should rest with the deployer, operator, developer, infrastructure owner, or another party able to control the risk. Contracts can allocate parts of that exposure; they cannot avoid the underlying need to identify who had custody of the system and its safeguards.</p>
@@ -242,9 +243,8 @@
           <li><a href="https://www.linkedin.com/feed/update/urn:li:activity:7486085618469343233/">LinkedIn source post</a></li>
         </ul>
       </div>
-      <p class="article-related">Related: <a href="/#work">Legal tech and AI workflow automation</a></p>
       <p class="article-next"><a href="/linkedin.html">More: All LinkedIn posts &rarr;</a></p>
-  </article></div>
+  </div></div></article>
 
   <nav class="article-nav shell" aria-label="More LinkedIn posts">
     <a class="u-link" href="/linkedin.html">&larr; All LinkedIn posts</a>
@@ -273,6 +273,5 @@
   </div>
   <div class="footer-wordmark" aria-hidden="true">lexsas</div>
 </footer>
-<script src="/js/main.js" defer></script>
 </body>
 </html>

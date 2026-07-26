@@ -3,6 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="theme-color" content="#FCFCFA">
 <title>Şirket içi hukuk ekipleri için yapay zeka yönetişimi: beş asgari kontrol</title>
 <meta name="description" content="Üretken yapay zekayı ölçeklendirmeden önce hukuk ekibinin kurması gereken beş asgari kontrol: veri, yetki, insan incelemesi, kayıt ve hata yönetimi.">
 <link rel="canonical" href="https://lexsas.com/tr/yazilar/yapay-zeka-yonetisimi-bes-kontrol.html">
@@ -18,11 +19,13 @@
 <link rel="icon" href="/assets/brand/favicon-32.png" sizes="32x32" type="image/png">
 <link rel="icon" href="/assets/brand/favicon-64.png" sizes="64x64" type="image/png">
 <link rel="apple-touch-icon" href="/assets/brand/favicon-180.png">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Source+Serif+4:opsz,wght@8..60,400;8..60,600;8..60,700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="preload" as="font" type="font/woff2" href="/assets/fonts/source-serif-4-latin.woff2" crossorigin>
+<link rel="preload" as="font" type="font/woff2" href="/assets/fonts/manrope-latin.woff2" crossorigin>
+<link rel="preload" as="font" type="font/woff2" href="/assets/fonts/source-serif-4-latin-ext.woff2" crossorigin>
+<link rel="preload" as="font" type="font/woff2" href="/assets/fonts/manrope-latin-ext.woff2" crossorigin>
+<script>document.documentElement.classList.add("js")</script>
 <link rel="stylesheet" href="/css/style.css">
-<link rel="alternate" type="application/rss+xml" title="LEXSAS Insights" href="https://lexsas.com/feed.xml">
+<link rel="alternate" type="application/rss+xml" title="LEXSAS Yazılar" href="https://lexsas.com/tr/feed.xml">
 <meta name="author" content="Asım Serdar Yılmaz">
 <meta property="og:url" content="https://lexsas.com/tr/yazilar/yapay-zeka-yonetisimi-bes-kontrol.html">
 <meta property="og:site_name" content="LEXSAS">
@@ -187,7 +190,7 @@
       "datePublished": "2026-07-11",
       "dateModified": "2026-07-11",
       "citation": [
-        "https://www.acc.com/resource-library/generative-ais-growing-strategic-value-corporate-law-departments-survey-results",
+        "https://www.everlaw.com/press/release/acc-report-2025/",
         "https://www.thomsonreuters.com/en-us/posts/technology/genai-professional-services-report-2025/"
       ],
       "image": "https://lexsas.com/assets/brand/lexsas-avatar-white-1024.png"
@@ -203,7 +206,7 @@
 
 <header class="site-header">
   <div class="shell header-inner">
-    <a class="brand" href="/tr/" aria-label="LEXSAS home">
+    <a class="brand" href="/tr/" aria-label="LEXSAS ana sayfa">
       <svg class="brand-mark" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 96 96" aria-hidden="true">
         <path class="mark-arc" style="--i:0" d="M 48 14 A 34 34 0 0 1 82 48" fill="none" stroke="#2E7CF6" stroke-width="9" stroke-linecap="round" pathLength="1"></path>
         <path class="mark-arc" style="--i:1" d="M 82 48 A 34 34 0 0 1 48 82" fill="none" stroke="#E8503A" stroke-width="9" stroke-linecap="round" pathLength="1"></path>
@@ -214,18 +217,18 @@
       </svg>
       <span class="brand-word">lexsas</span>
     </a>
-    <nav class="nav" aria-label="Primary">
+    <nav class="nav" aria-label="Ana">
       <a href="/tr/#work">Çalışma alanları</a>
       <a href="/tr/#approach">Yaklaşım</a>
-      <a href="/tr/#experience">Deneyim</a>
+      <a href="/tr/hakkinda.html">Hakkımda</a>
       <a href="/tr/yazilar.html" aria-current="page">Yazılar</a>
       <a href="/tr/iletisim.html">İletişim</a>
     </nav>
-    <a class="lang-toggle" href="/insights/ai-governance-five-controls.html" aria-label="Switch to English">EN</a>
+    <a class="lang-toggle" href="/insights/ai-governance-five-controls.html" lang="en" hreflang="en" aria-label="EN: Switch to English">EN</a>
   </div>
 </header>
 
-<main id="main-content">
+<main id="main-content" tabindex="-1"><article>
 
   <section class="article-hero shell">
     <span class="kicker">Temmuz 2026 &middot; Yapay zeka yönetişimi</span>
@@ -233,7 +236,7 @@
     <p class="article-lede">Benimseme rakamları bekle-gör tavrına artık alan bırakmıyor. Association of Corporate Counsel'ın 2025 anketinde, şirket içi hukukçular arasında üretken yapay zekayı fiilen kullanan ABD'li katılımcıların oranı bir yılda yüzde 23'ten 52'ye çıktı. Thomson Reuters'ın 2025 raporu ise sektörler genelinde katılımcıların yüzde 52'sinin kurumlarında üretken yapay zekaya dair bir politika bulunmadığını buldu. Aynı sayı iki farklı kümeyi ölçüyor: biri ABD'de şirket içi benimseme, diğeri sektörler arası politika yokluğu; birlikte okunduğunda araç güvencelerini geride bırakıyor.</p>
   </section>
 
-  <div class="shell"><article class="prose">
+  <div class="shell"><div class="prose">
       <p>Bir ekibin bu teknolojiyi yaygınlaştırmasına onay vermeden önce tek sayfada beş kontrol isterim.</p>
       <p>Birincisi veri. Hangi bilginin bir komut penceresine girebileceği baştan yazılır. Müvekkil bilgisi, kişisel veri ve gizlilik kapsamındaki içerik için ayrı ayrı kural gerekir; hepsi kimse bir sohbet penceresi açmadan kararlaştırılır.</p>
       <p>İkincisi yetki ve hesap verebilirlik. Yapay zeka destekli her çıktının adı konmuş bir sahibi olur. Taslağı model yazar, altına imzayı hukukçu atar ve sorulduğunda o cevap verir.</p>
@@ -241,19 +244,20 @@
       <p>Dördüncüsü kayıt. Üstveriyi ve inceleme izini tutun: hangi araç, hangi sürüm, kim onayladı. Komutların tamamını varsayılan olarak saklamak yerine bir saklama süresi ve bir silme kuralı belirleyin. Bir düzenleyici kurum ya da karşı taraf belgenin nasıl üretildiğini sorduğunda hafıza kayıt yerine geçmez.</p>
       <p>Beşincisi hata yönetimi. Model yanıldığında ne olacağı önceden kararlaştırılır: kime haber verilir, düzeltme nasıl belgelenir, iş akışında ne değişir.</p>
       <p>Bu beş kontrol bir pilotun tabanıdır, tamamlanmış bina değil. Sonraki katman daha geniş bir kullanım envanteri, hangi aracı kimin çalıştırabileceğine dair erişim kontrolleri ve eğitim ekler. Bunların hiçbiri yeni bir platform ya da daimi bir komite gerektirmez. Tek bir sayfa yeter: her kontrole bağlanan başlangıç belgesi ve altına önce kendisi imza atmaya hazır bir hukuk direktörü.</p>
+      <div class="article-end" aria-hidden="true"></div>
+      <p class="kicker article-dateline">Yayımlandı 11 Temmuz 2026</p>
       <div class="article-sources">
         <p class="sources-title">Kaynaklar</p>
         <ul>
-          <li><a href="https://www.acc.com/resource-library/generative-ais-growing-strategic-value-corporate-law-departments-survey-results">ACC and Everlaw, Generative AI's Growing Strategic Value for Corporate Law Departments, 2025</a></li>
+          <li><a href="https://www.everlaw.com/press/release/acc-report-2025/">Association of Corporate Counsel and Everlaw, Generative AI's Growing Strategic Value for Corporate Law Departments (2025)</a></li>
           <li><a href="https://www.thomsonreuters.com/en-us/posts/technology/genai-professional-services-report-2025/">Thomson Reuters Institute, 2025 Generative AI in Professional Services Report</a></li>
         </ul>
       </div>
 
-      <p class="article-related">İlgili: <a href="/tr/#work">Hukuk teknolojisi ve yapay zeka iş akışı otomasyonu</a></p>
       <p class="article-next"><a href="/tr/yazilar/kvkk-uyumlu-uretken-yapay-zeka.html">Sonraki yazı: Hukuk ekipleri için KVKK uyumlu üretken yapay zeka iş akışları &rarr;</a></p>
-  </article></div>
+  </div></div></article>
 
-  <nav class="article-nav shell" aria-label="More">
+  <nav class="article-nav shell" aria-label="Diğer yazılar">
     <a class="u-link" href="/tr/yazilar.html">&larr; Tüm yazılar</a>
     <a class="u-link" href="/tr/iletisim.html">İletişime geç &rarr;</a>
   </nav>

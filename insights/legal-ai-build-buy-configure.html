@@ -3,6 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="theme-color" content="#FCFCFA">
 <title>Legal AI: build, buy, or configure?</title>
 <meta name="description" content="Most legal teams should configure platforms, buy for commodity tasks, and build only the most sensitive work. A practitioner's decision frame.">
 <link rel="canonical" href="https://lexsas.com/insights/legal-ai-build-buy-configure.html">
@@ -18,9 +19,9 @@
 <link rel="icon" href="/assets/brand/favicon-32.png" sizes="32x32" type="image/png">
 <link rel="icon" href="/assets/brand/favicon-64.png" sizes="64x64" type="image/png">
 <link rel="apple-touch-icon" href="/assets/brand/favicon-180.png">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Source+Serif+4:opsz,wght@8..60,400;8..60,600;8..60,700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="preload" as="font" type="font/woff2" href="/assets/fonts/source-serif-4-latin.woff2" crossorigin>
+<link rel="preload" as="font" type="font/woff2" href="/assets/fonts/manrope-latin.woff2" crossorigin>
+<script>document.documentElement.classList.add("js")</script>
 <link rel="stylesheet" href="/css/style.css">
 <link rel="alternate" type="application/rss+xml" title="LEXSAS Insights" href="https://lexsas.com/feed.xml">
 <meta name="author" content="Asım Serdar Yılmaz">
@@ -217,15 +218,15 @@
     <nav class="nav" aria-label="Primary">
       <a href="/#work">Focus areas</a>
       <a href="/#approach">Approach</a>
-      <a href="/#experience">Experience</a>
+      <a href="/about.html">About</a>
       <a href="/insights.html" aria-current="page">Insights</a>
       <a href="/contact.html">Contact</a>
     </nav>
-    <a class="lang-toggle" href="/tr/yazilar/hukukta-yapay-zeka-kur-satin-al-yapilandir.html" aria-label="Türkçe sürüme geç">TR</a>
+    <a class="lang-toggle" href="/tr/yazilar/hukukta-yapay-zeka-kur-satin-al-yapilandir.html" lang="tr" hreflang="tr" aria-label="TR: Türkçe sürüme geç">TR</a>
   </div>
 </header>
 
-<main id="main-content">
+<main id="main-content" tabindex="-1"><article>
 
   <section class="article-hero shell">
     <span class="kicker">July 2026 &middot; Legal AI</span>
@@ -233,7 +234,7 @@
     <p class="article-lede">I have built legal AI tooling on AWS Bedrock inside a large platform company, and bought vendor tools too. The real choice is rarely build or buy. You can buy a finished product, adapt an enterprise platform to your workflow, or build your own. That middle path is configure, and most work belongs there.</p>
   </section>
 
-  <div class="shell"><article class="prose">
+  <div class="shell"><div class="prose">
       <p>Three questions decide it: how sensitive the data is, how specific the workflow is, and how much engineering the team can carry.</p>
       <p>Configure is the default. You still buy the platform; what you own is the workflow on top. Enterprise platforms let you wire custom workflows, retrieval, and guardrails onto a hosted model you do not own. For contract review and internal knowledge, this captures most of the value for far less maintenance.</p>
       <p>Buy for commodity tasks. Transcription, translation, and first-pass summarization are mature, well-served categories. Building them in-house means a year rebuilding what you could license this week.</p>
@@ -241,6 +242,8 @@
       <p>Bloomberg Law reported in 2026 that for roughly 67 percent of large law firms, new-technology spending stayed under 2 percent of the 2025 budget. It counts firms, not in-house teams, but the signal carries.</p>
       <p>Capacity decides the rest. ILTA's 2024 survey found generative AI use ranging from 20 percent at small firms to 74 percent at the largest. My read: that gap follows engineering capacity more than ambition.</p>
       <p>Match the tool to the workflow: configure first, buy the commodity, build only what you cannot safely hand to anyone else.</p>
+      <div class="article-end" aria-hidden="true"></div>
+      <p class="kicker article-dateline">Published 11 July 2026</p>
       <div class="article-sources">
         <p class="sources-title">Sources</p>
         <ul>
@@ -249,9 +252,8 @@
         </ul>
       </div>
 
-      <p class="article-related">Related: <a href="/#work">Legal tech and AI workflow automation</a></p>
       <p class="article-next"><a href="/insights/measuring-automation-pilots.html">Next: How to measure a legal automation pilot &rarr;</a></p>
-  </article></div>
+  </div></div></article>
 
   <nav class="article-nav shell" aria-label="More">
     <a class="u-link" href="/insights.html">&larr; All insights</a>

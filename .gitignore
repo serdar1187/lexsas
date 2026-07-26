@@ -15,3 +15,7 @@ Lexsas Kimi/
 _shots/
 _verify*.py
 linkedin/
+
+# Full older copy of the site with identical canonical URLs. Kept local only: committing it
+# would publish a duplicate-content shadow of every page on lexsas.com.
+.pre-restore-backup/
