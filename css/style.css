@@ -1244,7 +1244,11 @@ main, .site-footer { transition: opacity .3s ease; }
   filter: drop-shadow(0 3px 6px color-mix(in srgb, var(--ink) 10%, transparent));
 }
 .wf-port { fill: var(--paper); stroke: #9AA1A9; stroke-width: 2; }
-.wf-badge { fill: var(--red); stroke: var(--paper); stroke-width: 2; }
+/* The trigger badge is ink, not red. Two colour systems used to run in this drawing at
+   once, the node icons keyed by node and the cables keyed by quadrant, and they agreed
+   nowhere. The cables are the mark, so they keep the brand colours and everything else
+   in the canvas is grey or ink. One accent, in the one place that carries meaning. */
+.wf-badge { fill: var(--ink); stroke: var(--paper); stroke-width: 2; }
 .wf-stub {
   stroke: #B9BFC6;
   stroke-width: 1.8;
