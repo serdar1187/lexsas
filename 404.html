@@ -3,6 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="referrer" content="strict-origin-when-cross-origin">
 <meta name="theme-color" content="#FCFCFA">
 <title>Page not found &middot; LEXSAS</title>
 <meta name="description" content="That LEXSAS address does not exist, or the page moved after the link was written. The home page, the Insights archive and the contact page still work.">
@@ -69,20 +70,22 @@
   </section>
 
   <section class="page-section shell">
-    <dl class="contact-rows">
-      <div class="contact-row reveal">
-        <dt>Home</dt>
-        <dd><a href="/">lexsas.com</a></dd>
+    <nav aria-label="Routes that still work">
+    <dl class="contact-rows" role="list">
+      <div class="contact-row reveal" role="listitem">
+        <dt role="none">Home</dt>
+        <dd role="none"><a href="/">lexsas.com</a></dd>
       </div>
-      <div class="contact-row reveal" style="--d:.08s">
-        <dt>Insights</dt>
-        <dd><a href="/insights.html">Notes on law, regulation and AI</a></dd>
+      <div class="contact-row reveal" style="--d:.08s" role="listitem">
+        <dt role="none">Insights</dt>
+        <dd role="none"><a href="/insights.html">Notes on law, regulation and AI</a></dd>
       </div>
-      <div class="contact-row reveal" style="--d:.16s">
-        <dt>Contact</dt>
-        <dd><a href="/contact.html">Get in touch</a></dd>
+      <div class="contact-row reveal" style="--d:.16s" role="listitem">
+        <dt role="none">Contact</dt>
+        <dd role="none"><a href="/contact.html">Get in touch</a></dd>
       </div>
     </dl>
+    </nav>
     <p class="contact-note reveal" style="--d:.24s" lang="tr">Türkçe sürüm için <a href="/tr/">ana sayfaya geçin</a>.</p>
   </section>
 
@@ -103,7 +106,10 @@
     <p class="footer-disclaimer">This site is for general information only. It is not legal advice and does not create an attorney-client relationship. All views are personal and do not represent any current or former employer.</p>
     <div class="footer-meta">
       <span>&copy; 2026 LEXSAS · Istanbul</span>
-      <a class="u-link" href="https://www.linkedin.com/in/asimserdaryilmaz/">LinkedIn</a>
+      <a class="u-link" href="/insights.html">Insights</a>
+      <a class="u-link" href="/about.html">About</a>
+      <a class="u-link" href="/contact.html">Contact</a>
+      <a class="u-link" href="https://www.linkedin.com/in/asimserdaryilmaz/" rel="noreferrer">LinkedIn</a>
       <a class="u-link" href="#top">Back to top</a>
     </div>
   </div>

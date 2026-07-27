@@ -1,7 +1,7 @@
 /* ============================================================
    LEXSAS redesign concept ("Lexsas Kimi")
    Design tokens inherited from the LEXSAS brand system.
-   Motion: blur-staggered type, scroll-synced index, drawn mark.
+   Motion: staggered type, scroll-synced index, drawn mark.
 
    File order is base, then responsive, then print. Every media
    query lives in the responsive section at the foot of the file
@@ -194,6 +194,24 @@
   --rhythm: clamp(96px, 12vw, 160px);
   --ease-out: cubic-bezier(.22, .61, .36, 1);
   --ease-draw: cubic-bezier(.65, 0, .35, 1);
+
+  /* ---------- One header, one number ----------
+     The sticky bar is 73px tall (72px of content plus its hairline) and three
+     separate literals used to have to agree with it: 96px of scroll margin on
+     a section, 88px on a focusable element, 110px on the two sticky columns.
+     They were edited one at a time and drifted. Everything that has to clear
+     the header is now calculated from --header-h, and the header itself is
+     built from it, so the four cannot disagree.
+
+     The mobile values are measured, not guessed. Below 721px the bar wraps to
+     a brand row plus a nav row, 117px; below the width at which the nav itself
+     wraps it takes a third band, 161px. The Turkish nav wraps 28px earlier
+     because its labels are longer, which is why one of the two breakpoints is
+     scoped to the language rather than applied to both trees. See the foot of
+     the responsive section. */
+  --header-h: 73px;
+  --jump-offset: calc(var(--header-h) + 24px);
+  --stick-top: calc(var(--header-h) + 37px);
 }
 
 /* ---------- Base ---------- */
@@ -203,6 +221,12 @@
 html {
   scroll-behavior: smooth;
   -webkit-text-size-adjust: 100%;
+  /* The site is paper only, on purpose: the ink band is meant to be the single
+     reverse on it. Declaring the scheme stops a forced user-agent dark mode
+     from repainting form controls, scrollbars and the canvas underneath a
+     palette that has no dark half to hand it. This is not a dark theme and
+     must not become one. */
+  color-scheme: light;
 }
 
 body {
@@ -242,14 +266,16 @@ button { font-family: inherit; }
   margin-inline: auto;
 }
 
-section { scroll-margin-top: 96px; }
+section { scroll-margin-top: var(--jump-offset); }
 
 /* Tabbing backwards scrolls the focused element to the top of the viewport,
    where the sticky header would otherwise cover it: measured at up to 100
    percent of a source link on an article. Forward tabbing aligns to the bottom
-   and was never affected. Same reservation as the section rule above. */
+   and was never affected. It takes the same reservation as the section rule
+   above, because a landing is a landing and two numbers for it were how the
+   offsets drifted apart in the first place. */
 a, button, input, select, textarea, summary, [tabindex] {
-  scroll-margin-top: 88px;
+  scroll-margin-top: var(--jump-offset);
 }
 
 .skip-link {
@@ -296,10 +322,17 @@ a, button, input, select, textarea, summary, [tabindex] {
 .prose .article-dateline { margin: 0; letter-spacing: .19em; }
 
 /* Every mark on the ink band sits at one tint, which clears AA at .72rem
-   where the old .45 and .5 values did not. */
+   where the old .45 and .5 values did not. The tint is mixed from the paper
+   token rather than retyped as an rgba literal, so a palette change reaches it.
+   The solid declaration above it is the fallback: a browser without color-mix
+   drops the second line and gets full-strength paper, which is quieter than it
+   should be but never unreadable. */
 .kicker-dark,
 .principle-num,
-.pull cite { color: rgba(252, 252, 250, .55); }
+.pull cite {
+  color: var(--paper);
+  color: color-mix(in srgb, var(--paper) 55%, transparent);
+}
 
 .section-title {
   margin: 14px 0 0;
@@ -314,12 +347,20 @@ a, button, input, select, textarea, summary, [tabindex] {
 /* ---------- Ledes ----------
    One lead paragraph, three names. The hero, the inner-page and the article
    ledes were 0.32 and 0.8 pixels apart on three separate measures; they are one
-   rule now and the class names still work, so no markup changes. */
+   rule now and the class names still work, so no markup changes.
+
+   The family is the serif, which is the reading face. Set in the sans, an
+   article standfirst changed typeface between itself and the first paragraph
+   underneath it, so the reader crossed a family boundary inside one argument.
+   Keeping all three ledes in one rule is what stops that being fixed on
+   articles alone and reopening on the other two. The step down to the body is
+   made in size, 1.2rem against 1.08rem, not in typeface. */
 .lede,
 .page-lede,
 .article-lede {
   margin: 1.4rem 0 0;
   max-width: 58ch;
+  font-family: var(--serif);
   font-size: 1.2rem;
   line-height: 1.7;
   color: var(--ink);
@@ -397,17 +438,26 @@ a, button, input, select, textarea, summary, [tabindex] {
   position: sticky;
   top: 0;
   z-index: 60;
-  background: rgba(252, 252, 250, .86);
+  /* Glass mixed from the paper token, not from a second copy of its hex. The
+     opaque declaration above it is the fallback: without color-mix the bar is
+     solid paper, which loses the glass and keeps the header legible, so the
+     failure mode is a plainer header rather than a transparent one. */
+  background: var(--paper);
+  background: color-mix(in srgb, var(--paper) 86%, transparent);
   -webkit-backdrop-filter: blur(14px);
   backdrop-filter: blur(14px);
   border-bottom: var(--hairline);
 }
 
+/* The bar is built from the same token that everything clearing it is built
+   from, less its hairline. At the two mobile widths the wrapped content is
+   already a pixel taller than this floor, so it never stretches a wrapped
+   header; it only keeps the desktop bar and --header-h from drifting apart. */
 .header-inner {
   display: flex;
   align-items: center;
   gap: 2rem;
-  min-height: 72px;
+  min-height: calc(var(--header-h) - 1px);
   padding-block: .6rem;
 }
 
@@ -505,21 +555,23 @@ body.loaded .mark-x {
   text-wrap: balance;
 }
 
-/* word-split blur entrance (JS adds .split / .on) */
+/* Word-split entrance (JS adds .split / .on). Opacity and a short rise, and
+   nothing else: the words used to arrive through a 9px blur, which is the
+   house style of an agency template and, on the one headline the whole site
+   rests on, spent the boldness in the wrong place. The stagger stays, because
+   it is what makes the line read as a sentence assembling rather than a block
+   appearing. */
 .hero-title .hw { display: inline-block; }
 .hero-title.split .hw {
   opacity: 0;
   transform: translateY(.38em);
-  filter: blur(9px);
 }
 .hero-title.split.on .hw {
   opacity: 1;
   transform: none;
-  filter: blur(0);
   transition:
     opacity .7s ease var(--d, 0s),
-    transform .7s var(--ease-out) var(--d, 0s),
-    filter .7s ease var(--d, 0s);
+    transform .7s var(--ease-out) var(--d, 0s);
 }
 
 .hero-cta {
@@ -583,7 +635,7 @@ body.loaded .mark-x {
 
 .work-sticky {
   position: sticky;
-  top: 110px;
+  top: var(--stick-top);
   --acc: var(--blue);
 }
 
@@ -697,13 +749,16 @@ body.loaded .mark-x {
   gap: clamp(1.8rem, 3.5vw, 3rem);
 }
 
-/* the principle card already spends its accent on the 2px rule above it, so the
-   numeral inside it is set in the same paper tint as every other ink-band mark */
+/* The principle card already spends its accent on the 2px rule above it, so the
+   numeral inside it is set in the same paper tint as every other ink-band mark.
+   It carried a pointer-tracked 3D tilt as well, which is gone: it explained
+   nothing, it read as product polish on a brand whose argument is restraint,
+   and it never actually ran, because ".js .reveal.in { transform: none }"
+   outranks a bare .principle transform and every one of these cards is a
+   reveal. The handlers that fed it are gone from js/main.js with it. */
 .principle {
   border-top: 2px solid var(--pr-acc, var(--paper));
   padding-top: 22px;
-  transform: perspective(900px) rotateX(var(--rx, 0deg)) rotateY(var(--ry, 0deg));
-  transition: transform .3s ease;
 }
 .principle[data-accent="blue"]   { --pr-acc: var(--blue); }
 .principle[data-accent="yellow"] { --pr-acc: var(--yellow); }
@@ -724,7 +779,8 @@ body.loaded .mark-x {
   max-width: 62ch;
   font-size: .97rem;
   line-height: 1.66;
-  color: rgba(252, 252, 250, .64);
+  color: var(--paper);
+  color: color-mix(in srgb, var(--paper) 64%, transparent);
 }
 
 .pull {
@@ -1082,10 +1138,18 @@ html:not(.js) .faq-q { cursor: default; }
    that is blocked by an extension, 404s, is proxied away or is aborted mid-load
    therefore leaves the page readable instead of leaving thirty empty blocks. */
 
+/* The delay is capped rather than trusted. Pages hand out --d per item, and on
+   a fourteen-row index that reached .65s, which on top of a .8s fade left a row
+   that had been on screen for one and a half seconds still at opacity 0: it
+   reads as a page that has not finished loading, not as choreography. min()
+   takes whatever the page asked for or .2s, whichever is smaller, so the
+   stagger survives on the short groups it was written for and cannot run away
+   on the long ones. Long lists no longer stagger at all: js/main.js promotes
+   the reveal to the container and fades the block once. */
 .reveal {
   transition:
-    opacity .8s ease var(--d, 0s),
-    transform .8s var(--ease-out) var(--d, 0s);
+    opacity .8s ease min(var(--d, 0s), .2s),
+    transform .8s var(--ease-out) min(var(--d, 0s), .2s);
 }
 .js .reveal {
   opacity: 0;
@@ -1157,12 +1221,14 @@ main, .site-footer { transition: opacity .3s ease; }
   100% { stroke-dashoffset: 0; opacity: 0; }
 }
 
-/* Node chrome */
+/* Node chrome. The two greys are the borrowed canvas UI the scene is quoting
+   and are deliberately not brand tokens; the shadow is ink and is mixed from
+   the ink token, so it cannot drift from it. */
 .mw-box {
   fill: var(--paper);
   stroke: #D8DDE2;
   stroke-width: 1.5;
-  filter: drop-shadow(0 3px 6px rgba(34, 39, 44, .10));
+  filter: drop-shadow(0 3px 6px color-mix(in srgb, var(--ink) 10%, transparent));
 }
 .mw-port { fill: var(--paper); stroke: #9AA1A9; stroke-width: 2; }
 .mw-badge { fill: var(--red); stroke: var(--paper); stroke-width: 2; }
@@ -1311,13 +1377,16 @@ html:not(.js) .mw-scene { display: none; }
   gap: clamp(2rem, 5vw, 4.5rem);
   align-items: start;
 }
-.bio-portrait { position: sticky; top: 110px; }
+.bio-portrait { position: sticky; top: var(--stick-top); }
+/* No filter. The file itself is a monochrome duotone now, so a grayscale pass
+   over it had nothing left to desaturate and a 2 percent contrast nudge was
+   below the threshold of anything anyone could see; both only bought a
+   compositing layer on the largest image on the site. */
 .bio-portrait img {
   width: 100%;
   height: auto;
   display: block;
   border-radius: 6px;
-  filter: grayscale(.15) contrast(1.02);
 }
 .bio-portrait figcaption {
   margin-top: .8rem;
@@ -1415,7 +1484,19 @@ html:not(.js) .mw-scene { display: none; }
 /* Insights index: reuse .insight-row, full list */
 .insight-index { border-top: var(--hairline); }
 
-/* Contact */
+/* Contact.
+   The page carries a title, a mail link, four rows and a note, and on a tall
+   screen that left the whole of it above the fold with the giant footer
+   wordmark taking a third of the picture: the sign-off was leading the page.
+   Reserving a screen's worth of height for the content puts the wordmark back
+   below the fold where it belongs. Selected by what the page contains rather
+   than by a class the markup does not carry; a browser without :has simply
+   keeps today's layout, which is the fail-open direction. */
+main:has(.contact-rows) {
+  min-height: calc(100vh - var(--header-h));
+  min-height: calc(100svh - var(--header-h));
+}
+
 .contact-rows {
   border-top: var(--hairline);
   margin-top: clamp(1.5rem, 4vw, 2.5rem);
@@ -1429,13 +1510,26 @@ html:not(.js) .mw-scene { display: none; }
   border-bottom: var(--hairline);
 }
 .contact-row dt { font-weight: 800; }
-.contact-row dd { margin: 0; font-size: 1.05rem; color: var(--ink); }
-.contact-row dd a { color: var(--ink); text-decoration-color: rgba(34, 39, 44, .3); }
+/* A profile slug is one unbroken word and the value sits in a grid track, so
+   without this the track could not size below the longest URL and the page
+   went sideways. `anywhere` rather than `break-word` precisely because it is a
+   track: only `anywhere` reduces the min-content contribution that sizes it. */
+.contact-row dd {
+  margin: 0;
+  font-size: 1.05rem;
+  color: var(--ink);
+  overflow-wrap: anywhere;
+}
+.contact-row dd a {
+  color: var(--ink);
+  text-decoration-color: color-mix(in srgb, var(--ink) 30%, transparent);
+}
 
 /* Article pages */
 .article-hero {
   padding-top: clamp(56px, 9vh, 100px);
   padding-bottom: clamp(1.8rem, 4vw, 3rem);
+  max-width: 68ch;
 }
 /* the article kicker carries the publication date, so its figures are data */
 .article-hero .kicker {
@@ -1452,7 +1546,18 @@ html:not(.js) .mw-scene { display: none; }
   color: var(--ink);
   max-width: 24ch;
 }
-.prose { max-width: 68ch; padding-bottom: clamp(2.5rem, 6vw, 4rem); }
+/* The column is centred in the shell, and the article's hero and its foot
+   navigation are capped to the same 68 characters so that the three sit on one
+   axis. Left-aligned inside a 1320px shell, a 68ch measure put the whole
+   argument in the left third of a wide desktop with a field of nothing beside
+   it: 716px of empty paper at 1440 and 1276px at 2560. All three caps are read
+   in the same inherited sans at 1rem, so the columns are identical widths and
+   cannot drift apart. */
+.prose {
+  max-width: 68ch;
+  margin-inline: auto;
+  padding-bottom: clamp(2.5rem, 6vw, 4rem);
+}
 .prose p, .prose li {
   font-family: var(--serif);
   font-size: 1.08rem;
@@ -1477,7 +1582,11 @@ html:not(.js) .mw-scene { display: none; }
 }
 .prose ul, .prose ol { margin: 0 0 1.4em; padding-left: 1.2em; }
 .prose li { margin-bottom: .5em; }
-.prose a { color: var(--ink); text-decoration-color: rgba(34, 39, 44, .35); }
+.prose a {
+  color: var(--ink);
+  text-decoration-color: color-mix(in srgb, var(--ink) 35%, transparent);
+  overflow-wrap: anywhere;
+}
 .prose blockquote {
   margin: 2em 0;
   padding: .2em 0 .2em 1.4em;
@@ -1536,7 +1645,14 @@ html:not(.js) .mw-scene { display: none; }
   padding: 0;
   list-style: none;
 }
-.article-sources li { margin-bottom: .7em; }
+/* A citation is the one place on the site where the text may itself be an
+   address: a court PDF or a regulation permalink has no space to break on and
+   would have pushed a narrow page sideways. Print already breaks the printed
+   href; this is the same courtesy for the screen. */
+.article-sources li {
+  margin-bottom: .7em;
+  overflow-wrap: anywhere;
+}
 .article-sources li:last-child { margin-bottom: 0; }
 .article-sources a { color: var(--muted); text-decoration-color: currentColor; }
 .article-sources a:hover { color: var(--ink); }
@@ -1564,6 +1680,7 @@ html:not(.js) .mw-scene { display: none; }
   border-top: var(--hairline);
   padding-top: 1.6rem;
   margin-bottom: clamp(3rem, 7vw, 5rem);
+  max-width: 68ch;
 }
 
 /* ============================================================
@@ -1595,7 +1712,15 @@ html:not(.js) .mw-scene { display: none; }
 }
 
 @media (max-width: 720px) {
-  :root { --shell: min(100% - 2.5rem, 1320px); }
+  /* The bar wraps here, so the number every landing is measured against has to
+     wrap with it: brand row plus nav row, measured at 117px. Without this an
+     in-page jump still reserved the 73px desktop bar and put the target 44px
+     under the header, which is where #insights landed on a phone: its eyebrow
+     was the first thing in the section and it was simply not on screen. */
+  :root {
+    --shell: min(100% - 2.5rem, 1320px);
+    --header-h: 117px;
+  }
 
   /* Two defects in one layout. The nav used to scroll sideways with its
      scrollbar hidden, so on a 320px screen the last two routes sat off the edge
@@ -1624,21 +1749,67 @@ html:not(.js) .mw-scene { display: none; }
     padding-bottom: 0;
   }
   .nav a::after { bottom: 10px; }
-  /* The nav wraps to two rows below about 400px, and a toggle centred on the
+  /* The nav wraps to two rows on a narrow phone, and a toggle centred on the
      flex line landed between them at y=87 while the rows sat at 59.2 and
      103.2: tab left the last nav item and went back up the page. Aligning it
-     to the end of the line puts it on the nav's last row instead, and the
-     6.8px lift is half the difference between that 44px row and the 30.4px
-     pill, so it reads centred on the row it now belongs to. Nothing is
-     reordered: the markup order and the reading order finally agree. */
-  .lang-toggle { align-self: flex-end; margin-bottom: 6.8px; }
+     to the end of the line puts it on the nav's last row instead. The 6.8px
+     lift that used to sit here is gone with the reason for it: the pill is a
+     44px target now, the same height as the row it shares, so there is no
+     difference left to halve. Nothing is reordered: the markup order and the
+     reading order agree.
+
+     Thumb targets, in the same rule. The pill measured 30.4px and the
+     underline calls to action 25px, both well under the 44px floor, because
+     both had inherited a hover link's padding: a mouse only needs somewhere to
+     point. The type does not change; the box around it grows, symmetrically,
+     and the underline is re-anchored to the text rather than to the foot of
+     the new box, exactly as the nav links already do. Those are already 44px
+     and are not touched. */
+  .lang-toggle {
+    align-self: flex-end;
+    display: inline-flex;
+    align-items: center;
+    min-height: 44px;
+    padding-block: 0;
+  }
+  .u-link,
+  .article-next a {
+    min-height: 44px;
+    padding-block: 12px;
+  }
+  .u-link::after,
+  .article-next a::after { bottom: 8px; }
 
   .hero { padding-top: 48px; }
-  .hero-title { font-size: clamp(2.45rem, 11vw, 3.4rem); }
+  /* A 14ch measure is a desktop measure. Held at phone widths it stacked the
+     English headline into five very short lines before the reader reached the
+     lede; 18ch is the first cap that clears the shell at these sizes, so the
+     line breaks are decided by the words and by text-wrap: balance rather than
+     by a cap inherited from a two-column layout. */
+  .hero-title {
+    font-size: clamp(2.45rem, 11vw, 3.4rem);
+    max-width: 18ch;
+  }
 
   .work-num { font-size: 4.2rem; }
   .faq-q { font-size: 1.05rem; }
   .footer-meta { gap: 1.2rem; }
+}
+
+/* The nav takes a second row of its own below this, so the bar grows by one
+   44px row to 161px. Measured, at 2px steps, on both trees: English wraps at
+   485px and Turkish at 513px, because "Odak alanlari / Yaklasim / Hakkinda /
+   Yazilar / Iletisim" is the wider set. Two queries rather than one, so that
+   neither language reserves a row the other one needs: an English phone at
+   500px keeps 117px and a Turkish phone at the same width gets 161px, and
+   both land their jumps on the mark. Turkish takes a third nav row below
+   308px, which is narrower than any shipping phone and is left alone. */
+@media (max-width: 513px) {
+  html[lang="tr"] { --header-h: 161px; }
+}
+
+@media (max-width: 485px) {
+  :root { --header-h: 161px; }
 }
 
 /* ---------- Reduced motion ----------
@@ -1656,13 +1827,46 @@ html:not(.js) .mw-scene { display: none; }
     transition-delay: 0s !important;
   }
   .js .reveal { opacity: 1; transform: none; }
-  .hero-title.split .hw { opacity: 1; transform: none; filter: none; }
+  .hero-title.split .hw { opacity: 1; transform: none; }
   .js .mark-arc, .js .mark-x { stroke-dashoffset: 0; }
-  .principle { transform: none !important; }
   /* the focus-area accent still appears on hover, it just stops sliding down:
      the rule above has already collapsed its transition to nothing */
 
-  .mw-scene { display: none; }
+  /* ---------- The hero canvas, still ----------
+     The scene used to be display: none here, which meant the one reader who
+     had asked for less movement was the one reader who never saw what the
+     canvas says: four named steps, Intake, Review, Research, Compliance, with
+     sources, memory and tools hanging off the research node. That is an
+     argument, not an ornament, and withholding it from that reader in
+     particular is the wrong way round.
+
+     So reduced motion gets the composed frame instead of nothing. The
+     animations have to be cancelled rather than merely shortened: the global
+     rule above collapses them to .01ms, but they all carry forwards, so their
+     end state, which is the scene dissolved to opacity 0, would still win over
+     any static value written here. With them off, the finished state is
+     written out directly.
+
+     The mark steps aside for it, because the ring is drawn straight across the
+     node row and would overprint the diagram; the same mark is in the header
+     of every page, so nothing is lost. It is scoped to .js on purpose: with no
+     script the scene is already hidden by the rule near the mark definitions
+     and the drawn mark is all there is, so unscoping this would leave a
+     reader with both reduced motion and no scripting an empty square. */
+  .mw-scene,
+  .mw-scene * { animation: none !important; }
+  .mw-grid,
+  .mw-name,
+  .mw-sub,
+  .mw-slabel { opacity: 1; }
+  .mw-wire,
+  .mw-color { stroke-dashoffset: 0; opacity: 1; }
+  .mw-dash { opacity: 1; stroke-dashoffset: 0; }
+  .mw-pop,
+  .mw-snode,
+  .mw-node { opacity: 1; transform: none; }
+  .js .morph-mark { display: none; }
+
   .js .morph-arc, .js .morph-x { stroke-dashoffset: 0; }
 }
 
@@ -1725,7 +1929,7 @@ html:not(.js) .mw-scene { display: none; }
     opacity: 1 !important;
     transform: none !important;
   }
-  .hero-title.split .hw { opacity: 1; transform: none; filter: none; }
+  .hero-title.split .hw { opacity: 1; transform: none; }
   .faq-a { grid-template-rows: 1fr; }
   .faq-a-inner { overflow: visible; }
   /* Paper has no accordion, so the answers that are hidden from assistive
@@ -1733,7 +1937,7 @@ html:not(.js) .mw-scene { display: none; }
      .js prefix is not decoration: it is the specificity of the rule this has
      to outrank, exactly as in the reduced-motion block above. */
   .js .faq-a-inner { visibility: visible; }
-  .principle { transform: none; border-top-color: var(--ink); }
+  .principle { border-top-color: var(--ink); }
   .area::before { display: none; }
 
   /* The approach band is ink-on-paper reversed; unreverse it or it prints
@@ -1752,8 +1956,11 @@ html:not(.js) .mw-scene { display: none; }
   .area-num,
   .principle-num { color: #000; }
 
-  /* Body copy in the serif, measured for paper. The ledes are not in this list:
-     they keep their own family and tone, and their measure with it. */
+  /* Body copy in the serif, measured for paper. The ledes are not in this list
+     because they keep their own size and tone; they no longer keep their own
+     family, and this rule must not reintroduce the sans the screen rule just
+     dropped, or a printed standfirst would change typeface between itself and
+     the paragraph under it. Family is inherited from the serif set on body. */
   .body-copy,
   .bio-text p,
   .prose p,
@@ -1766,7 +1973,6 @@ html:not(.js) .mw-scene { display: none; }
   .lede,
   .page-lede,
   .article-lede {
-    font-family: var(--sans);
     font-size: 12pt;
     line-height: 1.5;
   }

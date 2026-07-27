@@ -138,6 +138,7 @@ AI Law, Policy and Governance, London School of Economics
 WIPO: E-Commerce and IP; Arbitration and Mediation; Trademarks and Designs; Copyright
 Intellectual and Industrial Property Rights Program, Ankara University
 Ankara Bar Association. Languages: Turkish (native), English (fluent).
+If any of this is close to a question you are working on, write to me: https://lexsas.com/contact.html
 
 ============================================================
 ## Insights (EN)  <https://lexsas.com/insights.html>
@@ -187,6 +188,8 @@ The average lawyer bills a fraction of the day. What workflow automation recover
 July 2026 - AI governance
 What generative AI actually changes for in-house legal teams
 Where generative AI earns its place in legal work, and where careful human judgment still has to sit.
+If one of these is close to a question on your desk, get in touch: https://lexsas.com/contact.html
+New pieces are also published to the RSS feed: https://lexsas.com/feed.xml
 
 ============================================================
 ## LinkedIn (EN) (personal LinkedIn post by the founder; opinion commentary, quoted verbatim)  <https://lexsas.com/linkedin.html>
@@ -210,6 +213,7 @@ Anthropic's J-lens can surface internal model patterns that never appear in the 
 2 July 2026
 AI access cutoffs and digital sovereignty
 When frontier models disappear from ordinary workflows, resilience depends on explicit AI policy, portability and open-weight fallbacks.
+If one of these is close to a question on your desk, get in touch: https://lexsas.com/contact.html
 
 ============================================================
 ## Contact (EN)  <https://lexsas.com/contact.html>
@@ -223,6 +227,7 @@ LinkedIn
 linkedin.com/in/asimserdaryilmaz
 Location
 Istanbul, Turkey
+What happens to your email: this site sets no cookies, runs no analytics and loads nothing from a third party, its fonts included. If you write, the address is used to reply and for nothing else.
 
 ============================================================
 ## Article: When an AI workflow fails: an incident protocol for legal teams  <https://lexsas.com/insights/ai-incident-response-legal-teams.html>
@@ -588,7 +593,7 @@ Talep karşılama, doküman ve bilgi iş akışları, araştırma ve uyum operas
 Yapay zeka yönetişimi ve regülasyon uyumu
 Gizlilik, fikri mülkiyet ve yönetişim güvencelerini araçların tasarımına baştan yerleştiriyorum. Sorumluluk, insan incelemesi ve belgeleme içeren, denetime dayanıklı çerçeveler kuruyorum.
 Hukuk ekiplerinde üretken yapay zekanın benimsenmesi
-Üretken yapay zeka için hukuk operasyonları stratejisi: nereden başlanacağı, kur ya da satın al kararı ve sorumlu benimsemenin gerçekte nasıl yürüdüğü. Şirket içinde AWS Bedrock üzerinde üretken yapay zeka hukuk aracının geliştirilmesinde yer aldım ve ardından gelen pilotları yürüttüm.
+Üretken yapay zeka için hukuk operasyonları stratejisi: nereden başlanacağı, geliştirme, satın alma ya da uyarlama kararı ve sorumlu benimsemenin gerçekte nasıl yürüdüğü. Şirket içinde AWS Bedrock üzerinde üretken yapay zeka hukuk aracının geliştirilmesinde yer aldım ve ardından gelen pilotları yürüttüm.
 Kişisel verilerin korunması ve veri egemenliği
 KVKK ve GDPR çerçevesinde sınır ötesi veri aktarımı ve veri yerelleştirme soruları; taahhütnameler ve regülatif beklenti değiştiğinde gereken pratik kontroller.
 E-ticaret ve platform regülasyonu
@@ -637,7 +642,7 @@ Hayır. LEXSAS hukuk teknolojileri, yapay zeka yönetişimi ve regülasyon strat
 İLETİŞİM
 Konuşalım.
 serdar@lexsas.com
-Yapay zeka yönetişimi, regüle dijital pazarlar ve hukuk operasyonları üzerine danışmanlık. Konuşma ve yönetim kurulu davetlerine de açığım, Türkçe ya da İngilizce. Yazarken, aklınızdaki iş akışını, ekibi ve zamanlamayı gizli bir ayrıntı paylaşmadan kısaca özetlemeniz yardımcı olur.
+Yapay zeka yönetişimi, düzenlemeye tabi dijital pazarlar ve hukuk operasyonları üzerine danışmanlık. Konuşma ve yönetim kurulu davetlerine de açığım, Türkçe ya da İngilizce. Yazarken, aklınızdaki iş akışını, ekibi ve zamanlamayı gizli bir ayrıntı paylaşmadan kısaca özetlemeniz yardımcı olur.
 
 ============================================================
 ## Hakkında (TR)  <https://lexsas.com/tr/hakkinda.html>
@@ -665,8 +670,8 @@ Talep karşılama, doküman ve bilgi iş akışları, araştırma ve uyum operas
 Gizlilik, fikri mülkiyet ve yönetişim güvencelerini araçların tasarımına baştan yerleştiriyorum; 20+ yıllık hukuk ve regülasyon liderliğini sorumlu yapay zeka benimsemesiyle birleştiriyorum.
 2026-günümüz
 Regülasyon Direktörü (Regulatory Affairs)
-Yüksek düzeyde regüle bir sektörde faaliyet gösteren küresel bir grup, İstanbul
-Kurumsal ilişkiler fonksiyonu içinde regülasyon gündemini fonksiyonel lider olarak yönetiyorum; en yoğun regüle tüketici sektörlerinden birinde.
+Yüksek düzeyde düzenlemeye tabi bir sektörde faaliyet gösteren küresel bir grup, İstanbul
+Kurumsal ilişkiler fonksiyonu içinde regülasyon gündemini fonksiyonel lider olarak yönetiyorum; en yoğun düzenlemeye tabi tüketici sektörlerinden birinde.
 Türkiye pazarı için regülasyon stratejisi, mevzuat izleme ve değişiklik analizi; kamu politikası ve kamu kurumlarıyla ilişkiler çalışmalarına destek veriyorum.
 Regülasyon operasyonlarına yapay zeka yönetişimi disiplini uyguluyorum: izleme, analiz ve kurumsal bilgi iş akışları, güvenceler baştan kurulu.
 2019-2026
@@ -686,7 +691,7 @@ Kamu politikası başkanı olarak şirketi düzenleyiciler ve sektör kuruluşla
 Bölgesel iş etiği sorumluluğu, üçüncü taraf durum tespiti ve iç soruşturmalar; geniş bir uyuşmazlık portföyünün ve pazaryeri fikri mülkiyet stratejisinin yönetimi.
 2008-2012
 Bölgesel Hukuk Müşaviri ve Şirket Sekreteri, Orta Doğu
-Yüksek düzeyde regüle bir sektörde faaliyet gösteren küresel bir grup, Dubai ve Lozan
+Yüksek düzeyde düzenlemeye tabi bir sektörde faaliyet gösteren küresel bir grup, Dubai ve Lozan
 Katı reklam yasakları ve Sağlık Bakanlığı düzenlemeleri altında 12 Orta Doğu pazarında ticari ekiplere danışmanlık.
 Pazara giriş ve dağıtım mimarisi: dağıtım, kilit müşteri ve ticari pazarlama düzenlemeleri, şablonlar ve kontroller.
 Yüksek riskli bir bölgede saha ekibi etiği ve üçüncü taraf uyumu için pratik kurallar ve eğitimler; marka koruma ve kaçak ticaret riskine karşı tedarik zinciri bütünlüğü.
@@ -706,9 +711,10 @@ Yönetici Eğitim Programı, Harvard Business School (2018-2019)
 Hukuk Lisansı, Ankara Üniversitesi Hukuk Fakültesi (1995-2001)
 Kurslar ve seminerler
 Yapay Zeka Hukuku, Politikası ve Yönetişimi, London School of Economics
-WIPO: E-Ticaret ve Fikri Mülkiyet İleri Kursu, Tahkim ve Arabuluculuk, Markalar ve Coğrafi İşaretler, Telif Hakları
+WIPO: E-Ticaret ve Fikri Mülkiyet İleri Kursu, Tahkim ve Arabuluculuk, Markalar ve Tasarımlar, Telif Hakları
 Fikri ve Sınai Mülkiyet Hakları Programı, Ankara Üniversitesi
 Ankara Barosu üyesi. Diller: Türkçe (ana dil), İngilizce (akıcı).
+Bunlardan biri elinizdeki soruya yakınsa bana yazın: https://lexsas.com/tr/iletisim.html
 
 ============================================================
 ## Yazılar (TR)  <https://lexsas.com/tr/yazilar.html>
@@ -758,6 +764,8 @@ Ortalama avukat günün küçük bir kısmını faturalandırabiliyor. Otomasyon
 Temmuz 2026 - Yapay zeka yönetişimi
 Hukuk ekiplerinde üretken yapay zeka: gerçekte ne değişiyor?
 Üretken yapay zekanın hukuk ekiplerinde neyi değiştirdiğini, neyi değiştirmediğini ve sorumlu yürütmenin nasıl kurulduğunu bir uygulayıcının gözünden anlatıyorum.
+Bunlardan biri masanızdaki soruya yakınsa iletişime geçin: https://lexsas.com/tr/iletisim.html
+Yeni yazılar ayrıca RSS akışına düşüyor: https://lexsas.com/tr/feed.xml
 
 ============================================================
 ## LinkedIn (TR) (personal LinkedIn post by the founder; opinion commentary, quoted verbatim)  <https://lexsas.com/tr/linkedin.html>
@@ -781,19 +789,21 @@ Anthropic'in J-lens aracı, model çıktısında hiç görünmeyen iç örüntü
 2 Temmuz 2026
 Yapay zeka erişim kesintileri ve dijital egemenlik
 Frontier modeller gündelik iş akışlarından çekildiğinde dayanıklılık; açık bir yapay zeka politikası, taşınabilirlik ve açık ağırlıklı yedeklere bağlıdır.
+Bunlardan biri masanızdaki soruya yakınsa iletişime geçin: https://lexsas.com/tr/iletisim.html
 
 ============================================================
 ## İletişim (TR)  <https://lexsas.com/tr/iletisim.html>
 ============================================================
 İLETİŞİM
 İletişime geçin
-Yapay zeka yönetişimi, regüle dijital pazarlar ve hukuk operasyonları üzerine danışmanlık sorularını memnuniyetle karşılıyorum. Konuşmacılık ile yönetim kurulu veya yapay zeka yönetişimi rolleri de görüşmeye açığım. İlk görüşme genellikle şu üç sonuçla kapanır: hangi iş akışıyla başlanacağı belirlenir, o akışın ihtiyaç duyduğu kontrollerin adı konur ve sonucun nasıl ölçüleceği üzerinde anlaşılır. Yazarken, aklınızdaki iş akışını, ekibi ve zamanlamayı gizli bir ayrıntı paylaşmadan kısaca özetlemeniz yardımcı olur. Bu, hukuki temsil değil, bilgilendirme amaçlı danışmanlıktır.
+Yapay zeka yönetişimi, düzenlemeye tabi dijital pazarlar ve hukuk operasyonları üzerine danışmanlık sorularını memnuniyetle karşılıyorum. Konuşmacılık ile yönetim kurulu veya yapay zeka yönetişimi rolleri de görüşmeye açığım. İlk görüşme genellikle şu üç sonuçla kapanır: hangi iş akışıyla başlanacağı belirlenir, o akışın ihtiyaç duyduğu kontrollerin adı konur ve sonucun nasıl ölçüleceği üzerinde anlaşılır. Yazarken, aklınızdaki iş akışını, ekibi ve zamanlamayı gizli bir ayrıntı paylaşmadan kısaca özetlemeniz yardımcı olur. Bu, hukuki temsil değil, bilgilendirme amaçlı danışmanlıktır.
 E-posta
 serdar@lexsas.com
 LinkedIn
 linkedin.com/in/asimserdaryilmaz
 Konum
 İstanbul, Türkiye
+E-posta adresinize ne oluyor: bu site çerez kullanmıyor, analitik çalıştırmıyor ve yazı tipleri dahil hiçbir şeyi üçüncü taraftan yüklemiyor. Yazdığınızda adresiniz yalnızca yanıt vermek için kullanılıyor, başka hiçbir amaçla değil.
 
 ============================================================
 ## Yazı: Yapay zeka iş akışı aksadığında: hukuk ekipleri için olay müdahale protokolü  <https://lexsas.com/tr/yazilar/hukuk-ekiplerinde-yapay-zeka-olay-mudahalesi.html>

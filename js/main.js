@@ -2,7 +2,7 @@
    LEXSAS redesign concept ("Lexsas Kimi")
    Vanilla JS: word-split hero entrance, scroll reveals,
    signature progress line, scroll-synced focus index,
-   FAQ accordion, subtle principle tilt. No dependencies.
+   FAQ accordion. No dependencies.
 
    Language switching is not done here. Every page ships a plain
    anchor to its twin, so the URL, the canonical and the hreflang
@@ -19,12 +19,11 @@ document.documentElement.classList.add("js");
   "use strict";
 
   const reducedMotion = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
-  const finePointer = window.matchMedia("(hover: hover) and (pointer: fine)").matches;
 
   const heroTitle = document.getElementById("heroTitle");
   const heroArt = document.getElementById("heroArt");
 
-  /* ---------- Hero title: word-split blur entrance ---------- */
+  /* ---------- Hero title: word-split entrance ---------- */
 
   function splitHeroTitle() {
     if (!heroTitle || reducedMotion) return;
@@ -71,6 +70,30 @@ document.documentElement.classList.add("js");
     },
     { threshold: [0.12, 0.5], rootMargin: "0px 0px -6% 0px" }
   );
+
+  /* A long list fades once, as a block, rather than row by row. Row by row, a
+     fourteen-row index handed its last row a .65s delay on top of a .8s fade,
+     so a row that had been on screen for a second and a half was still at
+     opacity 0 and the list read as still loading. Where a container holds four
+     or more revealing rows the reveal is promoted to the container and the
+     rows are handed back their own opacity, along with the per-row delay they
+     no longer need. Below four the stagger is short enough to be choreography
+     and is left alone; the cap in the stylesheet holds it at .2s either way.
+
+     Nothing here is load-bearing. Without this script the rows never had the
+     class taken away and were never hidden in the first place. */
+  document
+    .querySelectorAll(".insight-list, .insight-index, .faq-list, .timeline")
+    .forEach((group) => {
+      const rows = group.querySelectorAll(".reveal");
+      if (rows.length < 4) return;
+      rows.forEach((row) => {
+        row.classList.remove("reveal");
+        row.style.removeProperty("--d");
+      });
+      group.classList.add("reveal");
+    });
+
   document.querySelectorAll(".reveal").forEach((el) => revealIO.observe(el));
   if (heroArt) revealIO.observe(heroArt);
 
@@ -110,12 +133,12 @@ document.documentElement.classList.add("js");
   const workNum = document.getElementById("workNum");
   const workBar = document.getElementById("workBar");
   const areas = Array.from(document.querySelectorAll(".area"));
-  const accents = {
-    blue: "#2E7CF6",
-    red: "#E8503A",
-    yellow: "#F5B301",
-    green: "#2FA05A"
-  };
+  /* Read from the stylesheet, not retyped from it. These four hexes used to sit
+     here as literals, which made js/main.js a second, silent home for the brand
+     palette: an edit to css/style.css would have left the progress bar on the
+     old colours with nothing to show it had been missed. */
+  const rootStyle = getComputedStyle(document.documentElement);
+  const accent = (name) => rootStyle.getPropertyValue(`--${name}`).trim();
 
   if (areas.length && workSticky && workNum && workBar) {
     const workIO = new IntersectionObserver(
@@ -125,8 +148,8 @@ document.documentElement.classList.add("js");
           const area = entry.target;
           const idx = areas.indexOf(area);
           workNum.textContent = area.getAttribute("data-num");
-          const accent = accents[area.getAttribute("data-accent")];
-          if (accent) workSticky.style.setProperty("--acc", accent);
+          const acc = accent(area.getAttribute("data-accent"));
+          if (acc) workSticky.style.setProperty("--acc", acc);
           workBar.style.width = `${((idx + 1) / areas.length) * 100}%`;
         });
       },
@@ -163,24 +186,12 @@ document.documentElement.classList.add("js");
     });
   });
 
-  /* ---------- Principle tilt (desktop only) ---------- */
-
-  if (finePointer && !reducedMotion) {
-    document.querySelectorAll(".principle").forEach((card) => {
-      const MAX = 3.2;
-      card.addEventListener("mousemove", (e) => {
-        const rect = card.getBoundingClientRect();
-        const px = (e.clientX - rect.left) / rect.width - 0.5;
-        const py = (e.clientY - rect.top) / rect.height - 0.5;
-        card.style.setProperty("--ry", `${(px * MAX * 2).toFixed(2)}deg`);
-        card.style.setProperty("--rx", `${(-py * MAX * 2).toFixed(2)}deg`);
-      });
-      card.addEventListener("mouseleave", () => {
-        card.style.setProperty("--rx", "0deg");
-        card.style.setProperty("--ry", "0deg");
-      });
-    });
-  }
+  /* The desktop-only 3D tilt on the principle cards is gone. Two reasons, and
+     either would have been enough: it explained nothing, which on a brand whose
+     whole argument is restraint makes it a borrowed gesture, and it never ran,
+     because ".js .reveal.in { transform: none }" outranks the .principle rule
+     that consumed the --rx and --ry it was writing. It was a mousemove handler
+     on every card, feeding two custom properties nothing read. */
 
   /* ---------- Init ---------- */
 
