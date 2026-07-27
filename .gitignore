@@ -19,3 +19,11 @@ linkedin/
 # Full older copy of the site with identical canonical URLs. Kept local only: committing it
 # would publish a duplicate-content shadow of every page on lexsas.com.
 .pre-restore-backup/
+
+# Internal working files. They stay on disk and in the private tools repo, but
+# they must not be published: everything committed here becomes a public URL,
+# and the design spec names employers in a way the public pages deliberately do not.
+CLAUDE.md
+docs/
+content/
+assets/brand/README.txt

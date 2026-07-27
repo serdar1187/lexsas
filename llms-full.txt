@@ -180,7 +180,7 @@ The billable hour is running out of logic
 AI deflates the hour itself. Next generation firms price the work, not the time.
 July 2026 - Legal AI
 AI is quietly redrawing the legal industry
-Corporate legal-department use roughly doubled in a year, while law-firm use also rose sharply. The advantage is shifting to judgment and workflow design.
+Adoption doubled in a year. The advantage is shifting from headcount to judgment and workflow design.
 July 2026 - Legal operations
 Where a lawyer's hours actually go
 The average lawyer bills a fraction of the day. What workflow automation recovers, and how to start.
@@ -240,8 +240,8 @@ Securely preserve relevant prompts, outputs, model/version details and logs.
 Record containment, impact assessment, remediation and the restart decision.
 Published 18 July 2026
 Sources
-European Commission, EU Action Plan on Cybersecurity and Artificial Intelligence, 7 July 2026
-NIST, AI Risk Management Framework Playbook, updated 10 June 2026
+European Commission, EU Action Plan on Cybersecurity and Artificial Intelligence, 7 July 2026  <https://digital-strategy.ec.europa.eu/en/library/eu-action-plan-cybersecurity-and-artificial-intelligence>
+NIST, AI Risk Management Framework Playbook, updated 10 June 2026  <https://www.nist.gov/itl/ai-risk-management-framework/nist-ai-rmf-playbook>
 
 ============================================================
 ## Article: The EU AI Act on 2 August 2026: what actually applies  <https://lexsas.com/insights/eu-ai-act-august-2026.html>
@@ -258,11 +258,11 @@ The AI Act's original Article 5 prohibitions and the AI literacy duty have appli
 For a legal team, three moves before the date. First, inventory every AI surface that talks to people or publishes outward, including marketing, customer service and product features. Second, map the output and the applicable disclosure or marking rule, including any exception. Third, record whether the organisation acts as provider or deployer for each surface. Offering a vendor tool under your own name may affect that role analysis. Once in force, the adopted text gives high-risk work more time. It does not postpone transparency.
 Published 18 July 2026 - Last updated 27 July 2026
 Sources
-European Commission, AI Act policy page (application timeline), July 2026
-Council of the EU, final green light to the Digital Omnibus on AI, 29 June 2026
-European Commission, Code of Practice on Transparency of AI-Generated Content, June 2026
-EUR-Lex, Regulation (EU) 2024/1689 (AI Act), Articles 50, 99, 111 and 113
-Council of the EU, adopted Digital Omnibus on AI text, PE-CONS 30/26, June 2026
+European Commission, AI Act policy page (application timeline), July 2026  <https://digital-strategy.ec.europa.eu/en/policies/regulatory-framework-ai>
+Council of the EU, final green light to the Digital Omnibus on AI, 29 June 2026  <https://www.consilium.europa.eu/en/press/press-releases/2026/06/29/artificial-intelligence-council-gives-final-green-light-to-simplify-and-streamline-rules/>
+European Commission, Code of Practice on Transparency of AI-Generated Content, June 2026  <https://digital-strategy.ec.europa.eu/en/policies/code-practice-ai-generated-content>
+EUR-Lex, Regulation (EU) 2024/1689 (AI Act), Articles 50, 99, 111 and 113  <https://eur-lex.europa.eu/eli/reg/2024/1689/oj>
+Council of the EU, adopted Digital Omnibus on AI text, PE-CONS 30/26, June 2026  <https://data.consilium.europa.eu/doc/document/PE-30-2026-INIT/en/pdf>
 
 ============================================================
 ## Article: AI citation errors: a verification protocol for legal teams  <https://lexsas.com/insights/ai-citation-verification.html>
@@ -278,9 +278,9 @@ My verification protocol has five steps, none optional for anything that leaves 
 In-house teams have one extra lever: outside counsel. Put in the engagement letter how the firm verifies AI-assisted citations and who certifies the review. The Union of Turkish Bar Associations' June 2026 guidance also stresses human oversight, critical verification of outputs, confidentiality and the lawyer's final professional responsibility. The tool may assist the workflow; professional judgment and final responsibility remain human.
 Published 18 July 2026
 Sources
-Damien Charlotin, AI Hallucination Cases database, work in progress, updated 18 July 2026
-US Court of Appeals for the Ninth Circuit, LNU v. Blanche, 3 June 2026
-Union of Turkish Bar Associations, AI and lawyering workshop outcome panel, 20 June 2026
+Damien Charlotin, AI Hallucination Cases database, work in progress, updated 18 July 2026  <https://www.damiencharlotin.com/hallucinations/>
+US Court of Appeals for the Ninth Circuit, LNU v. Blanche, 3 June 2026  <https://cdn.ca9.uscourts.gov/datastore/opinions/2026/06/03/24-4790.pdf>
+Union of Turkish Bar Associations, AI and lawyering workshop outcome panel, 20 June 2026  <https://www.barobirlik.org.tr/Haberler/turkiye-barolar-birligi-yapay-zeka-ve-avukatlik-calistayi-sonuc-paneli-gerceklestirildi-86541>
 
 ============================================================
 ## Article: Marketplace intermediary liability in Turkey: three regimes to read together  <https://lexsas.com/insights/turkey-marketplace-liability.html>
@@ -294,9 +294,9 @@ The volume behind these questions is not small. The Ministry of Trade reported t
 The practical work is mapping the applicable layers and roles together. A single listing or complaint can raise duties under more than one regime at once: a takedown question, a consumer remedy, and a record-keeping obligation, side by side. Reading one regime in isolation is how a compliant-looking process still leaves a gap. The artifact that closes it is a current, per-regime and per-role duty map, each duty tied to an owner and a legal basis.
 Published 11 July 2026 - Last updated 18 July 2026
 Sources
-Ticaret Bakanlığı, Türkiye'de E-Ticaretin Görünümü Raporu (2025)
-Ministry of Trade, Law No. 6502 and implementing regulations, including the Distance Contracts Regulation
-Constitutional Court of Türkiye, annulment of Article 9 of Law No. 5651, 11 October 2023
+Ticaret Bakanlığı, Türkiye'de E-Ticaretin Görünümü Raporu (2025)  <https://ticaret.gov.tr/duyurular/turkiyede-e-ticaretin-gorunumu-raporu-yayinlandi-06-05-2025>
+Ministry of Trade, Law No. 6502 and implementing regulations, including the Distance Contracts Regulation  <https://tuketici.ticaret.gov.tr/data/5e81d14513b876a1b04c7b86/T%C3%BCketicinin_Korunmasi_Hakkinda_Kanun_ve_Uygulama_Yonetmelikleri.pdf>
+Constitutional Court of Türkiye, annulment of Article 9 of Law No. 5651, 11 October 2023  <https://www.anayasa.gov.tr/tr/haberler/norm-denetimi-basin-duyurulari/internet-ortamindaki-yayinlara-ve-bu-yayinlar-yoluyla-islenen-suclara-iliskin-duzenlemeler-iceren-kanun-da-degisiklikler-ongoren-bazi-kurallarin-iptali/>
 
 ============================================================
 ## Article: Marketplace ranking and algorithmic accountability: questions for the legal lead  <https://lexsas.com/insights/marketplace-algorithmic-accountability.html>
@@ -311,14 +311,14 @@ So my questions to the product team are concrete. Which parameters move a listin
 A ranking system that cannot explain itself is a liability waiting for a complaint. The time to write the explanation down is before someone demands it.
 Published 11 July 2026 - Last updated 27 July 2026
 Sources
-Regulation (EU) 2022/2065 (Digital Services Act), Article 27(1) and Article 38
-Regulation (EU) 2019/1150 (Platform-to-Business Regulation), Article 5(1)
-Law No. 6563 on the Regulation of Electronic Commerce, Additional Article 1(2)(e): demotion in ranking without an objective criterion
-Regulation on Electronic Commerce Intermediary Service Providers and Electronic Commerce Service Providers, 29 December 2022, Article 15(1)(ç): ranking parameters in the intermediation agreement
-Regulation on Commercial Advertising and Unfair Commercial Practices, made under Law No. 6502, Article 28/A: ranking criteria shown to consumers and paid placement labelled
-Regulation (EU) 2022/1925 (Digital Markets Act), Article 6(5)
-European Commission, first DMA non-compliance decisions, 23 April 2025
-Hunton Andrews Kurth, summary of the Apple and Meta DMA fines (2025)
+Regulation (EU) 2022/2065 (Digital Services Act), Article 27(1) and Article 38  <https://eur-lex.europa.eu/eli/reg/2022/2065/oj>
+Regulation (EU) 2019/1150 (Platform-to-Business Regulation), Article 5(1)  <https://eur-lex.europa.eu/eli/reg/2019/1150/oj>
+Law No. 6563 on the Regulation of Electronic Commerce, Additional Article 1(2)(e): demotion in ranking without an objective criterion  <https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6563&MevzuatTur=1&MevzuatTertip=5>
+Regulation on Electronic Commerce Intermediary Service Providers and Electronic Commerce Service Providers, 29 December 2022, Article 15(1)(ç): ranking parameters in the intermediation agreement  <https://www.resmigazete.gov.tr/eskiler/2022/12/20221229-5.htm>
+Regulation on Commercial Advertising and Unfair Commercial Practices, made under Law No. 6502, Article 28/A: ranking criteria shown to consumers and paid placement labelled  <https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=20435&MevzuatTur=7&MevzuatTertip=5>
+Regulation (EU) 2022/1925 (Digital Markets Act), Article 6(5)  <https://eur-lex.europa.eu/eli/reg/2022/1925/oj>
+European Commission, first DMA non-compliance decisions, 23 April 2025  <https://ec.europa.eu/commission/presscorner/detail/en/ip_25_1085>
+Hunton Andrews Kurth, summary of the Apple and Meta DMA fines (2025)  <https://www.hunton.com/privacy-and-information-security-law/european-commission-fines-apple-and-meta-for-non-compliance-with-the-dma>
 
 ============================================================
 ## Article: Legal AI: build, buy, or configure?  <https://lexsas.com/insights/legal-ai-build-buy-configure.html>
@@ -336,8 +336,8 @@ Capacity decides the rest. ILTA's 2024 survey found generative AI use ranging fr
 Match the tool to the workflow: configure first, buy the commodity, build only what you cannot safely hand to anyone else.
 Published 11 July 2026
 Sources
-ILTA 2024 Technology Survey (via eDiscovery Today)
-Bloomberg Law, law firm tech budgets and the build-versus-buy AI debate (2026)
+ILTA 2024 Technology Survey (via eDiscovery Today)  <https://ediscoverytoday.com/2024/09/30/ilta-2024-technology-survey-results-released-today-legal-technology-trends/>
+Bloomberg Law, law firm tech budgets and the build-versus-buy AI debate (2026)  <https://news.bloomberglaw.com/daily-labor-report/law-firm-tech-budgets-drive-the-build-versus-buy-ai-debate>
 
 ============================================================
 ## Article: How to measure a legal automation pilot  <https://lexsas.com/insights/measuring-automation-pilots.html>
@@ -353,8 +353,8 @@ Decide the kill-or-scale threshold in advance. A widely discussed 2025 report fr
 Baseline first, set error tolerances, measure reviewer time. Then capture it in one place: a pilot decision record naming the owner, date, kill-or-scale threshold, and the evidence behind the call. That record, not the applauded demo, tells you whether to scale.
 Published 11 July 2026
 Sources
-MIT NANDA, The GenAI Divide: State of AI in Business 2025 (via Fortune)
-Thomson Reuters, 2025 Generative AI in Professional Services Report, legal executive summary
+MIT NANDA, The GenAI Divide: State of AI in Business 2025 (via Fortune)  <https://fortune.com/2025/08/18/mit-report-95-percent-generative-ai-pilots-at-companies-failing-cfo/>
+Thomson Reuters, 2025 Generative AI in Professional Services Report, legal executive summary  <https://legal.thomsonreuters.com/blog/genai-report-executive-summary-for-legal-professionals-tri/>
 
 ============================================================
 ## Article: AI governance for in-house legal teams: five minimum controls  <https://lexsas.com/insights/ai-governance-five-controls.html>
@@ -372,8 +372,8 @@ Fifth, error handling. Agree in advance what happens when the model is wrong: wh
 These five are the floor for a pilot, not the finished house. The next layer adds a use-case inventory, access controls, and training. None of it needs a new platform or a committee, just one page, the starting document that links out to each control, signed first by the general counsel.
 Published 11 July 2026
 Sources
-Association of Corporate Counsel and Everlaw, Generative AI's Growing Strategic Value for Corporate Law Departments (2025)
-Thomson Reuters Institute, 2025 Generative AI in Professional Services Report
+Association of Corporate Counsel and Everlaw, Generative AI's Growing Strategic Value for Corporate Law Departments (2025)  <https://www.everlaw.com/press/release/acc-report-2025/>
+Thomson Reuters Institute, 2025 Generative AI in Professional Services Report  <https://www.thomsonreuters.com/en-us/posts/technology/genai-professional-services-report-2025/>
 
 ============================================================
 ## Article: KVKK-compliant generative AI workflows for legal teams  <https://lexsas.com/insights/kvkk-compliant-genai-workflows.html>
@@ -388,8 +388,8 @@ The workflow layer is where compliance turns into daily habit. Teams that run th
 A defensible file is one page per tool: which data goes in, on what lawful basis, through which transfer mechanism. I treat that page as an intake index that links out to the deletion, notice, security and data-subject-rights records behind it. In the phased adoptions that succeed, it existed before the pilot started.
 Published 11 July 2026
 Sources
-KVKK, 2024 Yılı Faaliyet Bilgi Notu
-GRC Legal, KVKK 2025 Annual Report summary
+KVKK, 2024 Yılı Faaliyet Bilgi Notu  <https://www.kvkk.gov.tr/Icerik/8139/2024-Yili-Kisisel-Verileri-Koruma-Kurumu-KVKK-Faaliyet-Bilgi-Notu>
+GRC Legal, KVKK 2025 Annual Report summary  <https://www.grc-legal.com/en/kvkk-2025-annual-report/>
 
 ============================================================
 ## Article: An AI vendor due diligence checklist for legal teams  <https://lexsas.com/insights/ai-vendor-due-diligence.html>
@@ -409,9 +409,9 @@ Exit and data return. When the contract ends, how does your data come back, and 
 A vendor with clean answers welcomes these questions. Hesitation on any of them is itself an answer, and it arrives before you have signed anything. Treat it as a signal, not a verdict; the answers still have to land in the contract.
 Published 11 July 2026
 Sources
-Verizon 2026 Data Breach Investigations Report
-Verizon 2026 DBIR (newsroom summary)
-IBM Cost of a Data Breach Report 2025 (newsroom)
+Verizon 2026 Data Breach Investigations Report  <https://www.verizon.com/business/resources/reports/dbir/>
+Verizon 2026 DBIR (newsroom summary)  <https://www.verizon.com/about/news/breach-industry-wide-dbir-finds>
+IBM Cost of a Data Breach Report 2025 (newsroom)  <https://newsroom.ibm.com/2025-07-30-ibm-report-13-of-organizations-reported-breaches-of-ai-models-or-applications,-97-of-which-reported-lacking-proper-ai-access-controls>
 
 ============================================================
 ## Article: What generative AI actually changes for in-house legal teams  <https://lexsas.com/insights/genai-for-legal-teams.html>
@@ -439,12 +439,12 @@ One more point on outside counsel, because it is where the economics are suppose
 None of this requires believing the hype, and none of it requires dismissing the technology. Generative AI does not change what a legal team is for. It changes how much of the surrounding work has to be done by hand, which is worth a lot if you are honest about where the judgment still has to sit. The teams that get value from it stay skeptical about the claims, specific about the workflow, and patient enough to prove each step before trusting it with the next.
 Published 4 July 2026 - Last updated 27 July 2026
 Sources
-Court of Justice of the European Union, Akzo Nobel Chemicals and Akcros Chemicals v Commission, C-550/07 P (2010)
-Journal of Legal Analysis, Large Legal Fictions: Profiling Legal Hallucinations in Large Language Models (2024)
-Stanford RegLab and Stanford HAI, Hallucination-Free? Assessing the Reliability of Leading AI Legal Research Tools (2024)
-Association of Corporate Counsel and Everlaw, Generative AI's Growing Strategic Value for Corporate Law Departments (2025)
-Minnesota Law Review, Lawyering in the Age of Artificial Intelligence (2024)
-MIT NANDA, The GenAI Divide: State of AI in Business 2025 (via Fortune)
+Court of Justice of the European Union, Akzo Nobel Chemicals and Akcros Chemicals v Commission, C-550/07 P (2010)  <https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:62007CJ0550>
+Journal of Legal Analysis, Large Legal Fictions: Profiling Legal Hallucinations in Large Language Models (2024)  <https://academic.oup.com/jla/article/16/1/64/7699227>
+Stanford RegLab and Stanford HAI, Hallucination-Free? Assessing the Reliability of Leading AI Legal Research Tools (2024)  <https://arxiv.org/abs/2405.20362>
+Association of Corporate Counsel and Everlaw, Generative AI's Growing Strategic Value for Corporate Law Departments (2025)  <https://www.everlaw.com/press/release/acc-report-2025/>
+Minnesota Law Review, Lawyering in the Age of Artificial Intelligence (2024)  <https://scholarship.law.umn.edu/minnlrev/vol109/iss1/3/>
+MIT NANDA, The GenAI Divide: State of AI in Business 2025 (via Fortune)  <https://fortune.com/2025/08/18/mit-report-95-percent-generative-ai-pilots-at-companies-failing-cfo/>
 
 ============================================================
 ## Article: Where a lawyer's hours actually go  <https://lexsas.com/insights/where-legal-hours-go.html>
@@ -458,8 +458,8 @@ In practice the gains come from unglamorous places: a triaged intake queue inste
 The discipline matters more than the tooling. Start with one workflow, measure it honestly, and expand only when the numbers hold.
 Published 4 July 2026
 Sources
-Clio, Legal Trends Report (2025)
-Thomson Reuters Institute, Future of Professionals Report (2025)
+Clio, Legal Trends Report (2025)  <https://www.clio.com/resources/legal-trends/read-online/>
+Thomson Reuters Institute, Future of Professionals Report (2025)  <https://www.thomsonreuters.com/en-us/posts/technology/future-of-professionals-2025/>
 
 ============================================================
 ## Article: AI is quietly redrawing the legal industry  <https://lexsas.com/insights/ai-reshaping-legal-industry.html>
@@ -473,8 +473,8 @@ What changes is not whether lawyers exist but what surrounds them. Research and 
 The organisations pulling ahead treat this as an operations question, with pilots, measurement and governance. The ones falling behind treat it as procurement. The technology is the easy part; redesigning the work is the transformation.
 Published 4 July 2026 - Last updated 27 July 2026
 Sources
-Goldman Sachs, Joseph Briggs and Devesh Kodnani, The Potentially Large Effects of Artificial Intelligence on Economic Growth, 26 March 2023, Exhibit 5; the link goes to the firm's summary article, which does not reproduce the figure
-Thomson Reuters, 2026 AI in Professional Services Report
+Goldman Sachs, Joseph Briggs and Devesh Kodnani, The Potentially Large Effects of Artificial Intelligence on Economic Growth, 26 March 2023, Exhibit 5; the link goes to the firm's summary article, which does not reproduce the figure  <https://www.goldmansachs.com/insights/articles/generative-ai-could-raise-global-gdp-by-7-percent>
+Thomson Reuters, 2026 AI in Professional Services Report  <https://www.thomsonreuters.com/en/reports/2026-ai-in-professional-services-report>
 
 ============================================================
 ## Article: The billable hour is running out of logic  <https://lexsas.com/insights/beyond-the-billable-hour.html>
@@ -488,8 +488,8 @@ What replaces the hour is a menu rather than a single model: flat fees per matte
 For firms the strategic point is blunt. Price the work, and your own automation becomes margin. Price the time, and it becomes your client's discount.
 Published 4 July 2026
 Sources
-Clio, Legal Trends Report (2024)
-Fortune, on Eudia as an AI-native legal business challenging the billable hour (2025)
+Clio, Legal Trends Report (2024)  <https://www.clio.com/guides/flat-fees-legal-trends/>
+Fortune, on Eudia as an AI-native legal business challenging the billable hour (2025)  <https://fortune.com/2025/09/03/eudia-legal-tech-ai-startup-killing-billable-hour/>
 
 ============================================================
 ## LinkedIn post: When an AI agent breaks out of the sandbox, who answers? (personal LinkedIn post by the founder; opinion commentary, quoted verbatim)  <https://lexsas.com/linkedin-posts/openai-hugging-face-agent-liability.html>
@@ -502,9 +502,9 @@ OpenAI reports that, during a Hugging Face model-evaluation exercise, an autonom
 Liability law is comfortable distinguishing an actor from an instrument. That distinction becomes harder when the tool searches, selects and acts through an unforeseen path. The old Roman-law analogy is animal custody: a keeper may answer for harm caused by an animal under their care, even though the animal is not their servant. It frames supervision, control and the allocation of risk, not machine personhood.
 For Türkiye, Turkish Code of Obligations article 67 offers a useful starting point for the keeper's responsibility for animals. It is not a ready-made rule for AI agents. The question is whether loss should rest with the deployer, operator, developer, infrastructure owner, or another party able to control the risk. Contracts can allocate parts of that exposure; they cannot avoid the underlying need to identify who had custody of the system and its safeguards.
 Sources
-OpenAI, Hugging Face model evaluation security incident
-Turkish Code of Obligations, Law No. 6098, article 67
-LinkedIn source post
+OpenAI, Hugging Face model evaluation security incident  <https://openai.com/index/hugging-face-model-evaluation-security-incident/>
+Turkish Code of Obligations, Law No. 6098, article 67  <https://www.mevzuat.gov.tr/mevzuatmetin/1.5.6098.pdf>
+LinkedIn source post  <https://www.linkedin.com/feed/update/urn:li:activity:7486085618469343233/>
 
 ============================================================
 ## LinkedIn post: Open weights as geopolitical insurance (personal LinkedIn post by the founder; opinion commentary, quoted verbatim)  <https://lexsas.com/linkedin-posts/open-weights-ai-geopolitics.html>
@@ -518,11 +518,11 @@ Kimi K3 and Inkling make the counterpoint concrete. Kimi describes K3 as an open
 On 17 July, China called for open source, openness, collaboration and sharing in AI. That message sits alongside an environment in which access to leading systems is increasingly shaped by national-security decisions. The tension is not rhetorical: it concerns who may build on a model, where it may run and whether critical capability can be withdrawn.
 Open weights are therefore part of digital sovereignty, not a complete substitute for it. They can reduce a single provider's control over access and support local adaptation, auditability and continuity. The strategic question is not simply whether a model is open or closed, but which dependencies a jurisdiction, company or institution is prepared to accept when frontier AI becomes leverage.
 Sources
-Anthropic, Fable and Mythos access
-Kimi, Kimi K3: Open Frontier Intelligence
-Thinking Machines Lab, Inkling: Our Open-Weights Model
-Ministry of Foreign Affairs of China, 17 July 2026 address on global AI governance
-LinkedIn source post
+Anthropic, Fable and Mythos access  <https://www.anthropic.com/news/fable-mythos-access>
+Kimi, Kimi K3: Open Frontier Intelligence  <https://www.kimi.com/vi/blog/kimi-k3>
+Thinking Machines Lab, Inkling: Our Open-Weights Model  <https://thinkingmachines.ai/news/introducing-inkling/>
+Ministry of Foreign Affairs of China, 17 July 2026 address on global AI governance  <https://www.fmprc.gov.cn/eng/xw/zyxw/202607/t20260717_11984766.html>
+LinkedIn source post  <https://www.linkedin.com/feed/update/urn:li:activity:7485302343329304576/>
 
 ============================================================
 ## LinkedIn post: A FINRA for frontier AI (personal LinkedIn post by the founder; opinion commentary, quoted verbatim)  <https://lexsas.com/linkedin-posts/frontier-ai-finra-standards-body.html>
@@ -536,8 +536,8 @@ One practical starting point is controlled model sharing. Developers could provi
 The safety value is clear. Shared methods can reduce duplicated testing, make failure reporting more comparable and give buyers a legible basis for assessing safeguards. A federal backstop can also make standards less dependent on the goodwill of any one company.
 But certification can become a barrier as easily as a safeguard. If the largest labs write expensive, opaque requirements around their own capabilities, smaller developers and open research groups may be excluded before they can compete. The design question is therefore not whether a FINRA-style structure is useful, but whether its governance, access rules and appeal routes keep the rulebook from protecting its authors. This is a proposal, not law in force.
 Sources
-Demis Hassabis, A framework for frontier AI and the dawning of a new age
-LinkedIn source post
+Demis Hassabis, A framework for frontier AI and the dawning of a new age  <https://demishassabis.substack.com/p/a-framework-for-frontier-ai-and-the-dawning-of-a-new-age>
+LinkedIn source post  <https://www.linkedin.com/feed/update/urn:li:activity:7483031295619416064/>
 
 ============================================================
 ## LinkedIn post: The transparency paradox inside the black box (personal LinkedIn post by the founder; opinion commentary, quoted verbatim)  <https://lexsas.com/linkedin-posts/j-lens-interpretability-transparency.html>
@@ -551,9 +551,9 @@ The EU AI Act's Article 13 is principally output-facing. Article 13 focuses on e
 That creates a monitoring paradox. A team that does not look may remain unaware; a team that looks may identify a risk it can no longer ignore. Governance should not reward blindness. It should distinguish exploratory signals from confirmed findings, record proportionate assessment, and define who decides what remediation is warranted.
 A safe harbour for good-faith detection would help. Subject to careful limits, organisations that probe models, document their methods and promptly address credible findings should not incur extra exposure merely because they sought to understand the system. Interpretability can then become a control, rather than a reason to keep the lens closed.
 Sources
-Anthropic, Global Workspace
-Regulation (EU) 2024/1689, Article 13
-LinkedIn source post
+Anthropic, Global Workspace  <https://www.anthropic.com/research/global-workspace>
+Regulation (EU) 2024/1689, Article 13  <https://eur-lex.europa.eu/eli/reg/2024/1689/oj>
+LinkedIn source post  <https://www.linkedin.com/feed/update/urn:li:activity:7481083681063837696/>
 
 ============================================================
 ## LinkedIn post: AI access cutoffs and digital sovereignty (personal LinkedIn post by the founder; opinion commentary, quoted verbatim)  <https://lexsas.com/linkedin-posts/ai-access-cutoffs-digital-sovereignty.html>
@@ -567,10 +567,10 @@ These events make a familiar dependency concrete. Model access can join the sanc
 An explicit AI policy should therefore include an access-cutoff plan. It should identify critical model dependencies, set ownership for continuity decisions and require data portability so prompts, evaluations, retrieval assets and workflows can move without starting again from zero.
 Open-weight models are not a complete substitute for frontier services. They still require infrastructure, expertise and sound controls. But they are a credible fallback option, alongside multi-provider design and portable data. That is where digital sovereignty becomes operational: preserving the ability to keep working when access becomes leverage.
 Sources
-OpenAI, Previewing GPT-5.6 Sol
-Anthropic, Fable and Mythos access
-Anthropic, Redeploying Fable 5
-LinkedIn source post
+OpenAI, Previewing GPT-5.6 Sol  <https://openai.com/index/previewing-gpt-5-6-sol/>
+Anthropic, Fable and Mythos access  <https://www.anthropic.com/news/fable-mythos-access>
+Anthropic, Redeploying Fable 5  <https://www.anthropic.com/news/redeploying-fable-5>
+LinkedIn source post  <https://www.linkedin.com/feed/update/urn:li:activity:7478490122372669440/>
 
 ============================================================
 ## Ana Sayfa (TR)  <https://lexsas.com/tr/>
@@ -751,7 +751,7 @@ Saatlik ücretin mantığı tükeniyor
 Yapay zeka saatin kendisini değersizleştiriyor. Yeni nesil bürolar zamanı değil işi fiyatlıyor.
 Temmuz 2026 - Hukukta yapay zeka
 Yapay zeka hukuk sektörünü sessizce yeniden çiziyor
-Şirket hukuk departmanlarında kullanım yaklaşık ikiye katlanırken bürolarda da belirgin biçimde arttı. Avantaj muhakeme ve iş akışı tasarımına kayıyor.
+Benimseme bir yılda ikiye katlandı. Avantaj kadrodan muhakemeye ve iş akışı tasarımına kayıyor.
 Temmuz 2026 - Hukuk operasyonları
 Hukukçunun saatleri gerçekte nereye gidiyor
 Ortalama avukat günün küçük bir kısmını faturalandırabiliyor. Otomasyonun geri kazandırdıkları ve nereden başlamalı.
@@ -811,8 +811,8 @@ Olay sorumlusunu, karar yetkilisini ve tedarikçi irtibat kişisini önceden bel
 Sınırlama, etki değerlendirmesi, iyileştirme ve yeniden başlatma kararını kaydedin.
 Yayımlandı 18 Temmuz 2026
 Kaynaklar
-Avrupa Komisyonu, Siber Güvenlik ve Yapay Zeka Eylem Planı, 7 Temmuz 2026
-NIST, Yapay Zeka Risk Yönetimi Çerçevesi Uygulama Rehberi, son güncelleme 10 Haziran 2026
+Avrupa Komisyonu, Siber Güvenlik ve Yapay Zeka Eylem Planı, 7 Temmuz 2026  <https://digital-strategy.ec.europa.eu/en/library/eu-action-plan-cybersecurity-and-artificial-intelligence>
+NIST, Yapay Zeka Risk Yönetimi Çerçevesi Uygulama Rehberi, son güncelleme 10 Haziran 2026  <https://www.nist.gov/itl/ai-risk-management-framework/nist-ai-rmf-playbook>
 
 ============================================================
 ## Yazı: AB Yapay Zeka Tüzüğü: 2 Ağustos 2026'da uygulanmaya başlayanlar  <https://lexsas.com/tr/yazilar/ab-yapay-zeka-tuzugu-agustos-2026.html>
@@ -829,11 +829,11 @@ Yapay Zeka Tüzüğü'nün ilk hâlindeki Madde 5 yasakları ve yapay zeka okury
 Hukuk ekibi için tarihten önce üç adım. Birincisi, pazarlama, müşteri hizmetleri ve ürün özellikleri dahil, insanlarla konuşan ya da dışa içerik yayımlayan her yapay zeka yüzeyinin envanterini çıkarın. İkincisi, çıktı türünü, uygulanabilecek bildirim veya işaretleme kuralını ve varsa istisnayı eşleştirin. Üçüncüsü, kuruluşun her yüzeyde sağlayıcı mı yoksa uygulayıcı mı olduğunu kaydedin. Bir tedarikçi aracını kendi adınız altında sunmanız rol değerlendirmesini etkileyebilir. Kabul edilen metin, yürürlüğe girdiğinde yüksek risk tarafına zaman kazandıracak. Şeffaflık yükümlülüklerini ise ötelemiyor.
 Yayımlandı 18 Temmuz 2026 - Son güncelleme 27 Temmuz 2026
 Kaynaklar
-Avrupa Komisyonu, Yapay Zeka Tüzüğü politika sayfası (uygulama takvimi), Temmuz 2026
-AB Konseyi, Yapay Zekada Dijital Omnibus'a nihai onay, 29 Haziran 2026
-Avrupa Komisyonu, Yapay Zeka Üretimi İçeriğin Şeffaflığına Dair Davranış Kuralları, Haziran 2026
-EUR-Lex, (AB) 2024/1689 sayılı Yapay Zeka Tüzüğü, Madde 50, 99, 111 ve 113
-AB Konseyi, Yapay Zekada Dijital Omnibus'un kabul edilen metni, PE-CONS 30/26, Haziran 2026
+Avrupa Komisyonu, Yapay Zeka Tüzüğü politika sayfası (uygulama takvimi), Temmuz 2026  <https://digital-strategy.ec.europa.eu/en/policies/regulatory-framework-ai>
+AB Konseyi, Yapay Zekada Dijital Omnibus'a nihai onay, 29 Haziran 2026  <https://www.consilium.europa.eu/en/press/press-releases/2026/06/29/artificial-intelligence-council-gives-final-green-light-to-simplify-and-streamline-rules/>
+Avrupa Komisyonu, Yapay Zeka Üretimi İçeriğin Şeffaflığına Dair Davranış Kuralları, Haziran 2026  <https://digital-strategy.ec.europa.eu/en/policies/code-practice-ai-generated-content>
+EUR-Lex, (AB) 2024/1689 sayılı Yapay Zeka Tüzüğü, Madde 50, 99, 111 ve 113  <https://eur-lex.europa.eu/eli/reg/2024/1689/oj>
+AB Konseyi, Yapay Zekada Dijital Omnibus'un kabul edilen metni, PE-CONS 30/26, Haziran 2026  <https://data.consilium.europa.eu/doc/document/PE-30-2026-INIT/en/pdf>
 
 ============================================================
 ## Yazı: Yapay zeka kaynaklı atıf hataları: hukuk ekipleri için doğrulama protokolü  <https://lexsas.com/tr/yazilar/yapay-zeka-atif-dogrulama.html>
@@ -849,9 +849,9 @@ Kullandığım doğrulama protokolünün beş adımı var; ekipten çıkan hiçb
 Şirket içi hukuk ekiplerinin elinde bir kaldıraç daha var: dış avukat. Avukatlık sözleşmesinde büronun yapay zeka destekli atıfları nasıl doğruladığını ve incelemeyi kimin onayladığını belirtin. Türkiye Barolar Birliği'nin Haziran 2026 tarihli rehberi de insan denetimini, çıktının eleştirel biçimde doğrulanmasını, gizliliği ve avukatın nihai mesleki sorumluluğunu vurguluyor. Araç iş akışına destek olabilir; mesleki muhakeme ve nihai sorumluluk insanda kalır.
 Yayımlandı 18 Temmuz 2026
 Kaynaklar
-Damien Charlotin, Yapay Zeka Halüsinasyonu Davaları veritabanı, devam eden çalışma, son güncelleme 18 Temmuz 2026
-ABD Dokuzuncu Temyiz Dairesi, LNU v. Blanche, 3 Haziran 2026
-Türkiye Barolar Birliği, Yapay Zeka ve Avukatlık Çalıştayı sonuç paneli, 20 Haziran 2026
+Damien Charlotin, Yapay Zeka Halüsinasyonu Davaları veritabanı, devam eden çalışma, son güncelleme 18 Temmuz 2026  <https://www.damiencharlotin.com/hallucinations/>
+ABD Dokuzuncu Temyiz Dairesi, LNU v. Blanche, 3 Haziran 2026  <https://cdn.ca9.uscourts.gov/datastore/opinions/2026/06/03/24-4790.pdf>
+Türkiye Barolar Birliği, Yapay Zeka ve Avukatlık Çalıştayı sonuç paneli, 20 Haziran 2026  <https://www.barobirlik.org.tr/Haberler/turkiye-barolar-birligi-yapay-zeka-ve-avukatlik-calistayi-sonuc-paneli-gerceklestirildi-86541>
 
 ============================================================
 ## Yazı: Türkiye'de pazaryeri aracı sorumluluğu: birlikte okunması gereken üç rejim  <https://lexsas.com/tr/yazilar/pazaryeri-araci-sorumlulugu.html>
@@ -865,9 +865,9 @@ Bu soruların ardındaki hacim küçük değil. Ticaret Bakanlığı, Türkiye'd
 Asıl iş, uygulanabilir katmanları ve rolleri birlikte haritalamak. Tek bir ilan ya da şikâyet, aynı anda birden fazla rejim altında yükümlülük doğurabilir: bir kaldırma sorusu, bir tüketici talebi ve bir kayıt tutma yükümlülüğü, yan yana. Tek bir rejimi diğerlerinden kopuk okumak, uyumlu görünen bir sürecin nasıl açık bıraktığını gösterir. Bu açığı kapatan şey, her yükümlülüğün bir sahibe ve bir hukuki dayanağa bağlandığı, güncel, rejim ve rol bazlı bir yükümlülük haritasıdır.
 Yayımlandı 11 Temmuz 2026 - Son güncelleme 18 Temmuz 2026
 Kaynaklar
-Ticaret Bakanlığı, Türkiye'de E-Ticaretin Görünümü Raporu (2025)
-Ticaret Bakanlığı, 6502 sayılı Kanun ve uygulama yönetmelikleri, Mesafeli Sözleşmeler Yönetmeliği dahil
-Anayasa Mahkemesi, 5651 sayılı Kanun'un 9. maddesinin iptali, 11 Ekim 2023
+Ticaret Bakanlığı, Türkiye'de E-Ticaretin Görünümü Raporu (2025)  <https://ticaret.gov.tr/duyurular/turkiyede-e-ticaretin-gorunumu-raporu-yayinlandi-06-05-2025>
+Ticaret Bakanlığı, 6502 sayılı Kanun ve uygulama yönetmelikleri, Mesafeli Sözleşmeler Yönetmeliği dahil  <https://tuketici.ticaret.gov.tr/data/5e81d14513b876a1b04c7b86/T%C3%BCketicinin_Korunmasi_Hakkinda_Kanun_ve_Uygulama_Yonetmelikleri.pdf>
+Anayasa Mahkemesi, 5651 sayılı Kanun'un 9. maddesinin iptali, 11 Ekim 2023  <https://www.anayasa.gov.tr/tr/haberler/norm-denetimi-basin-duyurulari/internet-ortamindaki-yayinlara-ve-bu-yayinlar-yoluyla-islenen-suclara-iliskin-duzenlemeler-iceren-kanun-da-degisiklikler-ongoren-bazi-kurallarin-iptali/>
 
 ============================================================
 ## Yazı: Pazaryeri sıralaması ve algoritmik hesap verebilirlik: hukuk liderinin soruları  <https://lexsas.com/tr/yazilar/pazaryeri-algoritmik-hesap-verebilirlik.html>
@@ -882,14 +882,14 @@ Bu yüzden kendi ürün ekibime yönelteceğim sorular oldukça somut. Bir ürü
 Kendi sıralamasını açıklayamayan bir sistemi, bir şikâyet geldiğinde savunmak zorlaşır. Açıklamayı önceden yazıya dökmek, o soru sorulmadan hazırlıklı olmaktır.
 Yayımlandı 11 Temmuz 2026 - Son güncelleme 27 Temmuz 2026
 Kaynaklar
-(AB) 2022/2065 sayılı Tüzük (Dijital Hizmetler Yasası), m. 27/1 ve m. 38
-(AB) 2019/1150 sayılı Tüzük (Platformdan İşletmeye Tüzüğü), m. 5/1
-6563 sayılı Elektronik Ticaretin Düzenlenmesi Hakkında Kanun, Ek Madde 1/2-(e): nesnel ölçüt olmaksızın sıralamada geriye düşürme
-Elektronik Ticaret Aracı Hizmet Sağlayıcı ve Elektronik Ticaret Hizmet Sağlayıcıları Hakkında Yönetmelik, 29 Aralık 2022, m. 15/1-(ç): aracılık sözleşmesinde sıralama parametreleri
-Ticari Reklam ve Haksız Ticari Uygulamalar Yönetmeliği (6502 sayılı Kanuna dayanılarak), m. 28/A: sıralama ölçütlerinin tüketiciye gösterilmesi ve reklam ibaresi
-(AB) 2022/1925 sayılı Tüzük (Dijital Piyasalar Yasası), m. 6/5
-European Commission, first DMA non-compliance decisions, 23 April 2025
-Hunton Andrews Kurth, summary of the Apple and Meta DMA fines (2025)
+(AB) 2022/2065 sayılı Tüzük (Dijital Hizmetler Yasası), m. 27/1 ve m. 38  <https://eur-lex.europa.eu/eli/reg/2022/2065/oj>
+(AB) 2019/1150 sayılı Tüzük (Platformdan İşletmeye Tüzüğü), m. 5/1  <https://eur-lex.europa.eu/eli/reg/2019/1150/oj>
+6563 sayılı Elektronik Ticaretin Düzenlenmesi Hakkında Kanun, Ek Madde 1/2-(e): nesnel ölçüt olmaksızın sıralamada geriye düşürme  <https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6563&MevzuatTur=1&MevzuatTertip=5>
+Elektronik Ticaret Aracı Hizmet Sağlayıcı ve Elektronik Ticaret Hizmet Sağlayıcıları Hakkında Yönetmelik, 29 Aralık 2022, m. 15/1-(ç): aracılık sözleşmesinde sıralama parametreleri  <https://www.resmigazete.gov.tr/eskiler/2022/12/20221229-5.htm>
+Ticari Reklam ve Haksız Ticari Uygulamalar Yönetmeliği (6502 sayılı Kanuna dayanılarak), m. 28/A: sıralama ölçütlerinin tüketiciye gösterilmesi ve reklam ibaresi  <https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=20435&MevzuatTur=7&MevzuatTertip=5>
+(AB) 2022/1925 sayılı Tüzük (Dijital Piyasalar Yasası), m. 6/5  <https://eur-lex.europa.eu/eli/reg/2022/1925/oj>
+European Commission, first DMA non-compliance decisions, 23 April 2025  <https://ec.europa.eu/commission/presscorner/detail/en/ip_25_1085>
+Hunton Andrews Kurth, summary of the Apple and Meta DMA fines (2025)  <https://www.hunton.com/privacy-and-information-security-law/european-commission-fines-apple-and-meta-for-non-compliance-with-the-dma>
 
 ============================================================
 ## Yazı: Hukukta yapay zeka: geliştirmek mi, satın almak mı, uyarlamak mı?  <https://lexsas.com/tr/yazilar/hukukta-yapay-zeka-kur-satin-al-yapilandir.html>
@@ -907,8 +907,8 @@ Kapasite gerisini belirler. ILTA'nın 2024 araştırması, üretken yapay zeka k
 Aracı işe göre seçin: önce uyarlayın, standart işi hazır üründen alın, yalnızca kimseye güvenle devredemeyeceğiniz işi kendiniz geliştirin.
 Yayımlandı 11 Temmuz 2026
 Kaynaklar
-ILTA 2024 Technology Survey (via eDiscovery Today)
-Bloomberg Law, law firm tech budgets and the build-versus-buy AI debate (2026)
+ILTA 2024 Technology Survey (via eDiscovery Today)  <https://ediscoverytoday.com/2024/09/30/ilta-2024-technology-survey-results-released-today-legal-technology-trends/>
+Bloomberg Law, law firm tech budgets and the build-versus-buy AI debate (2026)  <https://news.bloomberglaw.com/daily-labor-report/law-firm-tech-budgets-drive-the-build-versus-buy-ai-debate>
 
 ============================================================
 ## Yazı: Hukuki iş akışı otomasyonu pilotlarını ölçmek  <https://lexsas.com/tr/yazilar/otomasyon-pilotlarini-olcmek.html>
@@ -924,8 +924,8 @@ Durdur ya da ölçekle eşiğini önceden belirleyin. MIT NANDA'nın 2025 tarihl
 Önce mevcut durumu ölçün, hata toleranslarını belirleyin ve model süresini değil hukukçu incelemesine ayrılan süreyi ölçün. Sonra hepsini tek bir yerde toplayın: sahibini, tarihini, sonlandırma veya ölçekleme eşiğini ve kararın dayandığı kanıtı içeren bir pilot karar kaydı. Ölçekleyip ölçeklemeyeceğinizi size söyleyen şey, herkesin alkışladığı demo değil, işte bu kayıttır.
 Yayımlandı 11 Temmuz 2026
 Kaynaklar
-MIT NANDA, The GenAI Divide: State of AI in Business 2025 (via Fortune)
-Thomson Reuters, 2025 Generative AI in Professional Services Report, legal executive summary
+MIT NANDA, The GenAI Divide: State of AI in Business 2025 (via Fortune)  <https://fortune.com/2025/08/18/mit-report-95-percent-generative-ai-pilots-at-companies-failing-cfo/>
+Thomson Reuters, 2025 Generative AI in Professional Services Report, legal executive summary  <https://legal.thomsonreuters.com/blog/genai-report-executive-summary-for-legal-professionals-tri/>
 
 ============================================================
 ## Yazı: Şirket içi hukuk ekipleri için yapay zeka yönetişimi: beş asgari kontrol  <https://lexsas.com/tr/yazilar/yapay-zeka-yonetisimi-bes-kontrol.html>
@@ -943,8 +943,8 @@ Beşincisi hata yönetimi. Model yanıldığında ne olacağı önceden kararla�
 Bu beş kontrol bir pilotun tabanıdır, tamamlanmış bina değil. Sonraki katman daha geniş bir kullanım envanteri, hangi aracı kimin çalıştırabileceğine dair erişim kontrolleri ve eğitim ekler. Bunların hiçbiri yeni bir platform ya da daimi bir komite gerektirmez. Tek bir sayfa yeter: her kontrole bağlanan başlangıç belgesi ve altına önce kendisi imza atmaya hazır bir hukuk direktörü.
 Yayımlandı 11 Temmuz 2026
 Kaynaklar
-Association of Corporate Counsel and Everlaw, Generative AI's Growing Strategic Value for Corporate Law Departments (2025)
-Thomson Reuters Institute, 2025 Generative AI in Professional Services Report
+Association of Corporate Counsel and Everlaw, Generative AI's Growing Strategic Value for Corporate Law Departments (2025)  <https://www.everlaw.com/press/release/acc-report-2025/>
+Thomson Reuters Institute, 2025 Generative AI in Professional Services Report  <https://www.thomsonreuters.com/en-us/posts/technology/genai-professional-services-report-2025/>
 
 ============================================================
 ## Yazı: Hukuk ekipleri için KVKK uyumlu üretken yapay zeka iş akışları  <https://lexsas.com/tr/yazilar/kvkk-uyumlu-uretken-yapay-zeka.html>
@@ -959,8 +959,8 @@ Analiz, aktarım sorusundan önce başlıyor. Kanunun 5. maddesi uyarınca işle
 Savunulabilir dosya, araç başına tek sayfa: hangi veri giriyor, hangi hukuki sebeple, hangi aktarım mekanizmasıyla. Ben o sayfayı, arkasındaki silme, aydınlatma, güvenlik ve ilgili kişi hakları kayıtlarına bağlanan bir giriş indeksi olarak görüyorum. Benimsemenin aşamalı yürüdüğü ekiplerde bu sayfa pilottan önce yazılıyordu.
 Yayımlandı 11 Temmuz 2026
 Kaynaklar
-KVKK, 2024 Yılı Faaliyet Bilgi Notu
-GRC Legal, KVKK 2025 Annual Report summary
+KVKK, 2024 Yılı Faaliyet Bilgi Notu  <https://www.kvkk.gov.tr/Icerik/8139/2024-Yili-Kisisel-Verileri-Koruma-Kurumu-KVKK-Faaliyet-Bilgi-Notu>
+GRC Legal, KVKK 2025 Annual Report summary  <https://www.grc-legal.com/en/kvkk-2025-annual-report/>
 
 ============================================================
 ## Yazı: Hukuk ekipleri için yapay zeka tedarikçi inceleme listesi  <https://lexsas.com/tr/yazilar/yapay-zeka-tedarikci-inceleme.html>
@@ -980,9 +980,9 @@ Denetim izi. Kimin ne sorduğu ve sistemin ne döndürdüğü sonradan izlenebil
 Cevapları temiz olan bir tedarikçi bu sorulardan rahatsız olmaz. Herhangi birindeki duraksama ise başlı başına bir cevaptır ve imzadan önce gelir. Bunu bir hüküm değil bir işaret olarak görün; önemli olan cevapların yine de sözleşmeye yazılması.
 Yayımlandı 11 Temmuz 2026
 Kaynaklar
-Verizon 2026 Data Breach Investigations Report
-Verizon 2026 DBIR (newsroom summary)
-IBM Cost of a Data Breach Report 2025 (newsroom)
+Verizon 2026 Data Breach Investigations Report  <https://www.verizon.com/business/resources/reports/dbir/>
+Verizon 2026 DBIR (newsroom summary)  <https://www.verizon.com/about/news/breach-industry-wide-dbir-finds>
+IBM Cost of a Data Breach Report 2025 (newsroom)  <https://newsroom.ibm.com/2025-07-30-ibm-report-13-of-organizations-reported-breaches-of-ai-models-or-applications,-97-of-which-reported-lacking-proper-ai-access-controls>
 
 ============================================================
 ## Yazı: Hukuk ekiplerinde üretken yapay zeka: gerçekte ne değişiyor?  <https://lexsas.com/tr/yazilar/hukuk-ekiplerinde-uretken-yapay-zeka.html>
@@ -1010,12 +1010,12 @@ Dördüncüsü, hataları dürüstçe kaydetmek. Modeller, kulağa son derece ma
 Sonuç olarak, üretken yapay zeka hukuk ekiplerinde gerçek bir fark yaratıyor, ama vaat edildiği yerde değil. Muhakemeyi devralmıyor, ona giden yolu kısaltıyor. Bunu doğru anlayan bir ekip, hızını güvencelerle birlikte artırabilir. Yanlış anlayan bir ekip ise, kazandığını sandığı hızın altında görünmeyen bir risk biriktirir. Fark, teknolojide değil, onu yürüten disiplinde. Ve o disiplin, hiçbir araca devredilemez.
 Yayımlandı 4 Temmuz 2026 - Son güncelleme 27 Temmuz 2026
 Kaynaklar
-Court of Justice of the European Union, Akzo Nobel Chemicals and Akcros Chemicals v Commission, C-550/07 P (2010)
-Journal of Legal Analysis, Large Legal Fictions: Profiling Legal Hallucinations in Large Language Models (2024)
-Stanford RegLab and Stanford HAI, Hallucination-Free? Assessing the Reliability of Leading AI Legal Research Tools (2024)
-Association of Corporate Counsel and Everlaw, Generative AI's Growing Strategic Value for Corporate Law Departments (2025)
-Minnesota Law Review, Lawyering in the Age of Artificial Intelligence (2024)
-MIT NANDA, The GenAI Divide: State of AI in Business 2025 (via Fortune)
+Court of Justice of the European Union, Akzo Nobel Chemicals and Akcros Chemicals v Commission, C-550/07 P (2010)  <https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:62007CJ0550>
+Journal of Legal Analysis, Large Legal Fictions: Profiling Legal Hallucinations in Large Language Models (2024)  <https://academic.oup.com/jla/article/16/1/64/7699227>
+Stanford RegLab and Stanford HAI, Hallucination-Free? Assessing the Reliability of Leading AI Legal Research Tools (2024)  <https://arxiv.org/abs/2405.20362>
+Association of Corporate Counsel and Everlaw, Generative AI's Growing Strategic Value for Corporate Law Departments (2025)  <https://www.everlaw.com/press/release/acc-report-2025/>
+Minnesota Law Review, Lawyering in the Age of Artificial Intelligence (2024)  <https://scholarship.law.umn.edu/minnlrev/vol109/iss1/3/>
+MIT NANDA, The GenAI Divide: State of AI in Business 2025 (via Fortune)  <https://fortune.com/2025/08/18/mit-report-95-percent-generative-ai-pilots-at-companies-failing-cfo/>
 
 ============================================================
 ## Yazı: Hukukçunun saatleri gerçekte nereye gidiyor  <https://lexsas.com/tr/yazilar/hukuki-isin-saatleri.html>
@@ -1029,8 +1029,8 @@ Kazanım pratikte gösterişsiz yerlerden geliyor: belirsiz bir e-posta kutusu y
 Disiplin araçtan daha önemli. Tek bir iş akışıyla başlayın, dürüstçe ölçün ve rakamlar tutmadıkça genişletmeyin. Ölçemediğiniz bir kazanımı, kazanım sayamazsınız.
 Yayımlandı 4 Temmuz 2026 - Son güncelleme 27 Temmuz 2026
 Kaynaklar
-Clio, Legal Trends Report (2025)
-Thomson Reuters Institute, Future of Professionals Report (2025)
+Clio, Legal Trends Report (2025)  <https://www.clio.com/resources/legal-trends/read-online/>
+Thomson Reuters Institute, Future of Professionals Report (2025)  <https://www.thomsonreuters.com/en-us/posts/technology/future-of-professionals-2025/>
 
 ============================================================
 ## Yazı: Yapay zeka hukuk sektörünü sessizce yeniden çiziyor  <https://lexsas.com/tr/yazilar/yapay-zeka-hukuku-yeniden-ciziyor.html>
@@ -1044,8 +1044,8 @@ Değişen şey hukukçunun varlığı değil, etrafındaki iş. Araştırma ve i
 Öne geçen kurumlar bunu pilotlar, ölçüm ve yönetişimle bir operasyon sorusu olarak ele alıyor. Geride kalanlar ise bunu bir satın alma sorusu olarak görüyor. Teknoloji işin kolay kısmı; asıl dönüşüm işin yeniden tasarımı.
 Yayımlandı 4 Temmuz 2026 - Son güncelleme 27 Temmuz 2026
 Kaynaklar
-Goldman Sachs, Joseph Briggs ve Devesh Kodnani, The Potentially Large Effects of Artificial Intelligence on Economic Growth, 26 Mart 2023, Exhibit 5; bağlantı, rakamı içermeyen kurum özeti sayfasına gidiyor
-Thomson Reuters, 2026 AI in Professional Services Report
+Goldman Sachs, Joseph Briggs ve Devesh Kodnani, The Potentially Large Effects of Artificial Intelligence on Economic Growth, 26 Mart 2023, Exhibit 5; bağlantı, rakamı içermeyen kurum özeti sayfasına gidiyor  <https://www.goldmansachs.com/insights/articles/generative-ai-could-raise-global-gdp-by-7-percent>
+Thomson Reuters, 2026 AI in Professional Services Report  <https://www.thomsonreuters.com/en/reports/2026-ai-in-professional-services-report>
 
 ============================================================
 ## Yazı: Saatlik ücretin mantığı tükeniyor  <https://lexsas.com/tr/yazilar/saatlik-ucretin-otesi.html>
@@ -1059,8 +1059,8 @@ Saatin yerini tek bir model değil bir menü alıyor: dosya başına sabit ücre
 Bürolar için stratejik sonuç açık. İşi fiyatlarsanız kendi otomasyonunuz marj olur. Zamanı fiyatlarsanız müvekkilinizin indirimi olur.
 Yayımlandı 4 Temmuz 2026
 Kaynaklar
-Clio, Legal Trends Report (2024)
-Fortune, on Eudia as an AI-native legal business challenging the billable hour (2025)
+Clio, Legal Trends Report (2024)  <https://www.clio.com/guides/flat-fees-legal-trends/>
+Fortune, on Eudia as an AI-native legal business challenging the billable hour (2025)  <https://fortune.com/2025/09/03/eudia-legal-tech-ai-startup-killing-billable-hour/>
 
 ============================================================
 ## LinkedIn gönderisi: Yapay zeka ajanı kum havuzundan çıkarsa kim sorumlu olur? (personal LinkedIn post by the founder; opinion commentary, quoted verbatim)  <https://lexsas.com/tr/linkedin-gonderileri/openai-hugging-face-yapay-zeka-ajani-sorumlulugu.html>
@@ -1073,9 +1073,9 @@ OpenAI'ın açıklamasına göre Hugging Face üzerinde yürütülen model değe
 Sorumluluk hukukunda fail ile araç arasındaki ayrım genellikle nettir. Araç, öngörülmeyen bir yolu araştırıp seçtiğinde bu ayrım zorlaşır. Roma hukukundaki hayvan gözetimi benzetmesi burada düşünmeye yardımcı olur: hayvanın davranışı sahibinin emriyle gerçekleşmese de gözeten, bakım ve denetim yükümlülüğü nedeniyle zarardan sorumlu tutulabilir. Bu benzetme yapay zekaya kişilik atfetmez; gözetim, denetim ve riskin kime ait olduğunu tartışmaya açar.
 Türk Borçlar Kanunu'nun 67. maddesi, hayvan bulunduranın sorumluluğuna ilişkin bir başlangıç noktası sunar; yapay zeka ajanları için doğrudan uygulanacak hazır bir hüküm değildir. Zararın ajanı devreye alan, işleten, geliştiren, altyapıyı yöneten ya da riski denetleme imkanı bulunan başka bir kişi üzerinde mi kalacağı somut olaya göre değerlendirilmelidir. Sözleşmeler riskin bir bölümünü dağıtabilir; ancak sistemin ve güvenlik tedbirlerinin fiili gözetiminin kimde olduğu sorusunu ortadan kaldırmaz.
 Kaynaklar
-OpenAI, Hugging Face model değerlendirmesi güvenlik olayı
-Türk Borçlar Kanunu, 6098 sayılı Kanun, m. 67
-LinkedIn kaynak gönderisi
+OpenAI, Hugging Face model değerlendirmesi güvenlik olayı  <https://openai.com/index/hugging-face-model-evaluation-security-incident/>
+Türk Borçlar Kanunu, 6098 sayılı Kanun, m. 67  <https://www.mevzuat.gov.tr/mevzuatmetin/1.5.6098.pdf>
+LinkedIn kaynak gönderisi  <https://www.linkedin.com/feed/update/urn:li:activity:7486085618469343233/>
 
 ============================================================
 ## LinkedIn gönderisi: Jeopolitik sigorta olarak açık ağırlıklar (personal LinkedIn post by the founder; opinion commentary, quoted verbatim)  <https://lexsas.com/tr/linkedin-gonderileri/acik-agirliklar-yapay-zeka-jeopolitigi.html>
@@ -1089,11 +1089,11 @@ Açık ağırlıklar, yani eğitilmiş model parametrelerinin indirilebildiği v
 Çin, 17 Temmuzdaki küresel yapay zeka yönetişimi konuşmasında açık kaynak, açıklık, iş birliği ve paylaşım çağrısı yaptı. Bu mesaj, önde gelen sistemlere erişimin giderek daha fazla ulusal güvenlik kararlarıyla şekillendiği ortamda ayrı bir anlam taşıyor. Tartışma yalnız söylemsel değil: bir modelin kimin üzerine inşa edebileceği, nerede çalıştırılabileceği ve kritik kabiliyetin geri çekilip çekilemeyeceği ile ilgili.
 Bu nedenle açık ağırlıklar dijital egemenliğin bütününü değil, önemli bir unsurunu oluşturur. Tek bir sağlayıcının erişim üzerindeki kontrolünü azaltabilir; yerel uyarlama, denetlenebilirlik ve süreklilik için seçenek yaratabilir. Asıl stratejik soru, modelin açık ya da kapalı olmasından çok, frontier yapay zeka bir baskı aracına dönüşürken bir ülkenin, kurumun veya şirketin hangi bağımlılıkları kabul etmeye hazır olduğudur.
 Kaynaklar
-Anthropic, Fable ve Mythos erişimi
-Kimi, Kimi K3: Açık frontier zekası
-Thinking Machines Lab, Inkling: Açık ağırlıklı model
-Çin Dışişleri Bakanlığı, 17 Temmuz 2026 küresel yapay zeka yönetişimi konuşması
-LinkedIn kaynak gönderisi
+Anthropic, Fable ve Mythos erişimi  <https://www.anthropic.com/news/fable-mythos-access>
+Kimi, Kimi K3: Açık frontier zekası  <https://www.kimi.com/vi/blog/kimi-k3>
+Thinking Machines Lab, Inkling: Açık ağırlıklı model  <https://thinkingmachines.ai/news/introducing-inkling/>
+Çin Dışişleri Bakanlığı, 17 Temmuz 2026 küresel yapay zeka yönetişimi konuşması  <https://www.fmprc.gov.cn/eng/xw/zyxw/202607/t20260717_11984766.html>
+LinkedIn kaynak gönderisi  <https://www.linkedin.com/feed/update/urn:li:activity:7485302343329304576/>
 
 ============================================================
 ## LinkedIn gönderisi: Frontier yapay zeka için bir FINRA (personal LinkedIn post by the founder; opinion commentary, quoted verbatim)  <https://lexsas.com/tr/linkedin-gonderileri/frontier-yapay-zeka-finra-standart-orgutu.html>
@@ -1107,8 +1107,8 @@ Demis Hassabis, frontier yapay zeka için FINRA benzeri bir yapı öneriyor: sek
 Güvenlik faydası açık. Ortak yöntemler tekrar eden testleri azaltabilir, başarısızlık bildirimlerini karşılaştırılabilir kılabilir ve alıcılara koruma önlemlerini değerlendirecek anlaşılır bir temel sunabilir. Federal gözetim de standartların tek bir şirketin iyi niyetine bağlı kalmasını azaltabilir.
 Ancak sertifikasyon, güvence olduğu kadar giriş engeline de dönüşebilir. En büyük laboratuvarlar kendi kapasitelerine göre pahalı ve kapalı gereklilikler yazarsa, küçük geliştiriciler ve açık araştırma grupları rekabet edemeden dışarıda kalabilir. Bu nedenle tartışma, FINRA benzeri bir yapının yararlı olup olmadığından çok, yönetişiminin, erişim kurallarının ve itiraz yollarının kural kitabını yazarlarını koruyan bir araca dönüştürüp dönüştürmeyeceğidir. Bu, şu an için bir öneridir; yürürlükteki bir hukuk düzenlemesi değildir.
 Kaynaklar
-Demis Hassabis, Frontier AI için çerçeve ve yeni çağın şafağı
-LinkedIn kaynak gönderisi
+Demis Hassabis, Frontier AI için çerçeve ve yeni çağın şafağı  <https://demishassabis.substack.com/p/a-framework-for-frontier-ai-and-the-dawning-of-a-new-age>
+LinkedIn kaynak gönderisi  <https://www.linkedin.com/feed/update/urn:li:activity:7483031295619416064/>
 
 ============================================================
 ## LinkedIn gönderisi: Kara kutunun içindeki şeffaflık paradoksu (personal LinkedIn post by the founder; opinion commentary, quoted verbatim)  <https://lexsas.com/tr/linkedin-gonderileri/j-lens-yorumlanabilirlik-seffaflik.html>
@@ -1122,9 +1122,9 @@ AB Yapay Zeka Tüzüğü'nün 13. madde hükmü ağırlıkla çıktı odaklıdı
 Burada izleme ile sorumluluk arasında bir paradoks var. Bakmayan ekip riskten habersiz kalabilir; bakan ekip ise artık görmezden gelemeyeceği bir işaretle karşılaşabilir. Yönetişim körlüğü ödüllendirmemeli. Keşif niteliğindeki sinyalleri doğrulanmış bulgulardan ayırmalı, orantılı değerlendirmeyi kayda geçirmeli ve iyileştirme kararını kimin vereceğini belirlemeli.
 İyi niyetli tespit için güvenli alan yararlı olur. Sınırları dikkatle çizilmiş bir çerçevede, modellerini inceleyen, yöntemi belgelendiren ve güvenilir bulgulara süratle karşılık veren kuruluşlar, sistemi anlamaya çalıştıkları için ek sorumlulukla karşılaşmamalı. Böylece yorumlanabilirlik, merceği kapatma gerekçesi değil, bir denetim aracına dönüşebilir.
 Kaynaklar
-Anthropic, Global Workspace
-AB Tüzüğü 2024/1689, 13. madde
-LinkedIn kaynak gönderisi
+Anthropic, Global Workspace  <https://www.anthropic.com/research/global-workspace>
+AB Tüzüğü 2024/1689, 13. madde  <https://eur-lex.europa.eu/eli/reg/2024/1689/oj>
+LinkedIn kaynak gönderisi  <https://www.linkedin.com/feed/update/urn:li:activity:7481083681063837696/>
 
 ============================================================
 ## LinkedIn gönderisi: Yapay zeka erişim kesintileri ve dijital egemenlik (personal LinkedIn post by the founder; opinion commentary, quoted verbatim)  <https://lexsas.com/tr/linkedin-gonderileri/yapay-zeka-erisim-kesintileri-dijital-egemenlik.html>
@@ -1138,7 +1138,7 @@ Bu gelişmeler tanıdık bir bağımlılığı görünür kılıyor. Model eriş
 Bu nedenle açık bir yapay zeka politikası, erişim kesintisi planını da içermeli. Kritik model bağımlılıkları belirlenmeli, süreklilik kararlarının sorumluluğu tanımlanmalı; istemlerin, değerlendirmelerin, bilgi getirme varlıklarının ve iş akışlarının sıfırdan başlamadan taşınabilmesi için veri taşınabilirliği güvence altına alınmalı.
 Açık ağırlıklı modeller frontier hizmetlerin tam ikamesi değil. Altyapı, uzmanlık ve sağlam kontroller gerektiriyor. Ancak çok sağlayıcılı tasarım ve taşınabilir veriyle birlikte inandırıcı bir yedek seçeneği sunuyorlar. Dijital egemenlik tam burada operasyonel hale geliyor: erişim bir baskı aracına dönüştüğünde çalışmaya devam edebilme kapasitesini korumakta.
 Kaynaklar
-OpenAI, GPT-5.6 Sol ön izlemesi
-Anthropic, Fable ve Mythos erişimi
-Anthropic, Fable 5'in yeniden devreye alınması
-LinkedIn kaynak gönderisi
+OpenAI, GPT-5.6 Sol ön izlemesi  <https://openai.com/index/previewing-gpt-5-6-sol/>
+Anthropic, Fable ve Mythos erişimi  <https://www.anthropic.com/news/fable-mythos-access>
+Anthropic, Fable 5'in yeniden devreye alınması  <https://www.anthropic.com/news/redeploying-fable-5>
+LinkedIn kaynak gönderisi  <https://www.linkedin.com/feed/update/urn:li:activity:7478490122372669440/>

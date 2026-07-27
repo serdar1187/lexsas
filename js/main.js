@@ -141,6 +141,14 @@ document.documentElement.classList.add("js");
   faqItems.forEach((item) => {
     const btn = item.querySelector(".faq-q");
     if (!btn) return;
+    /* The static HTML ships no aria-expanded, because with no script the button
+       opens nothing and a control announcing "collapsed" over an answer that is
+       on screen would be stating the opposite of what the reader has. The state
+       is written here, at the moment the control becomes a control, and before
+       any handler exists, so there is no window in which it is announced
+       without one. It reads the class rather than assuming, so a page that
+       ever ships an answer open still announces itself correctly. */
+    btn.setAttribute("aria-expanded", item.classList.contains("open") ? "true" : "false");
     btn.addEventListener("click", () => {
       const isOpen = item.classList.contains("open");
       faqItems.forEach((other) => {

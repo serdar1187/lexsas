@@ -15,8 +15,21 @@
 
    Source Serif 4: variable, axes wght 200..900 and opsz 8..60.
    Manrope:        variable, axis wght 200..800.
-   Two woff2 subsets per family: latin and latin-ext. Turkish needs both,
-   ı, ü, ö, ç come from latin; İ, ş, Ş, ğ, Ğ come from latin-ext.
+   Two woff2 files per family: latin and latin-ext. Turkish needs both,
+   ı, ü, ö, ç come from latin; İ, ş, Ş, ğ come from latin-ext.
+
+   The two latin-ext files are cut to this site rather than shipped as the
+   Google Fonts slice. Every codepoint the Turkish tree actually renders was
+   read out of the rendered pages with text-transform applied, which matters:
+   .kicker is uppercase, so a Turkish eyebrow can produce a letter the source
+   HTML never contains. The measured answer is four characters, ğ İ Ş ş, and
+   the files now carry those plus Ğ, which uppercasing a g-breve would ask for.
+   Both variable axes survive the cut. Serif 100,772 to 7,156 bytes and sans
+   15,240 to 2,408, a Turkish page down from 263,518 to 156,973.
+
+   Each unicode-range is narrowed to what its file now holds, so the browser
+   cannot request one of them for a character it no longer has. Widening a
+   range again means re-cutting the file first: the two must always agree.
 
    Merged in from css/fonts.css so that only one stylesheet blocks the
    critical path. Keep the @font-face rules at the top of this file. */
@@ -28,7 +41,7 @@
   font-weight: 200 900;
   font-display: swap;
   src: url("/assets/fonts/source-serif-4-latin-ext.woff2") format("woff2");
-  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+  unicode-range: U+011E-011F, U+0130, U+015E-015F;
 }
 
 /* Source Serif 4, latin */
@@ -61,7 +74,7 @@
   font-weight: 200 800;
   font-display: swap;
   src: url("/assets/fonts/manrope-latin-ext.woff2") format("woff2");
-  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+  unicode-range: U+011E-011F, U+0130, U+015E-015F;
 }
 
 /* Manrope, latin */
@@ -97,6 +110,23 @@
    percent; Times is 52.1 and 73.8, out by 2 and 5. size-adjust then trues up
    the blocks that are capped in pixels rather than in ch.
 
+   The regular cut was 111 percent and left the fallback about 2 percent narrow
+   on body copy: measured against the real face a prose paragraph came out 1.4
+   to 3.1 percent short, and where a line was nearly full that bought a line
+   back, so the real face landed 32px taller. Swept in half-point steps with
+   the bold cut held still, 112.5 to 113.5 all land on the same best result and
+   113 is the middle of that plateau. The bold cut stays at 102: 104, 106 and
+   108 were measured and each of them broke the English article title, which
+   matches at 102. The overrides move with it, because both are divided by
+   size-adjust; the line box is the same absolute size as before.
+
+   One block cannot be fixed from here and is left alone. The English hero at
+   412px is capped at 14ch, and ch is the zero advance, so size-adjust scales
+   the text and the container by the same factor and the line count never
+   moves: it measured 47.1px short at 100, 102, 104, 106 and 108 percent alike.
+   That gap is a shape difference between Times and Source Serif on one line
+   that is 2px from wrapping, not a scale difference.
+
    Two cuts, because Source Serif 4 has a real 600 weight and Times reaches it
    by a separate bold face with its own proportions. If neither local face is
    installed the @font-face has no usable source, the family drops out of the
@@ -108,9 +138,9 @@
   font-style: normal;
   font-weight: 200 500;
   src: local("Times New Roman"), local("Times");
-  size-adjust: 111%;
-  ascent-override: 93.33%;
-  descent-override: 30.18%;
+  size-adjust: 113%;
+  ascent-override: 91.68%;
+  descent-override: 29.65%;
   line-gap-override: 0%;
 }
 
@@ -818,6 +848,12 @@ body.loaded .mark-x {
   margin-top: 6px;
   font-weight: 600;
 }
+/* The hover state is drawn, not tinted. Brand blue on paper measures 3.84:1,
+   and at 600 weight this title misses the large-text exemption below 1280px,
+   where clamp puts it at 20 to 23.98px: it needs 4.5:1 and fails. So the row
+   keeps ink at every state, 14.66:1, and says "link" with an underline that
+   fades in instead. text-decoration-color animates and, unlike a border or a
+   weight change, costs no layout, so a hover cannot reflow the list. */
 .insight-title {
   display: block;
   font-family: var(--serif);
@@ -825,7 +861,11 @@ body.loaded .mark-x {
   font-size: clamp(1.25rem, 2vw, 1.6rem);
   line-height: 1.25;
   letter-spacing: -.01em;
-  transition: color .3s ease;
+  text-decoration-line: underline;
+  text-decoration-thickness: 2px;
+  text-underline-offset: .14em;
+  text-decoration-color: transparent;
+  transition: text-decoration-color .3s ease;
 }
 .insight-summary {
   display: block;
@@ -840,10 +880,14 @@ body.loaded .mark-x {
   font-size: 1.35rem;
   line-height: 1;
   color: var(--ink);
-  transition: transform .3s var(--ease-out), color .3s ease;
+  transition: transform .3s var(--ease-out);
 }
-.insight-row:hover .insight-title { color: var(--blue); }
-.insight-row:hover .insight-arrow { transform: translateX(7px); color: var(--blue); }
+/* The arrow already travels 7px on hover; the travel is the whole signal now.
+   It is a 21.6px glyph at 400, which needs 4.5:1 wherever it is coloured. */
+.insight-row:hover .insight-title,
+.insight-row:focus-visible .insight-title { text-decoration-color: currentColor; }
+.insight-row:hover .insight-arrow,
+.insight-row:focus-visible .insight-arrow { transform: translateX(7px); }
 
 /* the archive link under a list, on the same idiom as .exp-body .u-link */
 .insights-foot { margin: 34px 0 0; }
@@ -875,9 +919,21 @@ body.loaded .mark-x {
   font-size: 1.18rem;
   line-height: 1.3;
   color: var(--ink);
-  transition: color .25s ease;
 }
-.faq-q:hover { color: var(--blue); }
+/* Same rule as the insight row, and this one failed at every width: the
+   question renders 18.88px at 600, one weight step below the 700 that would
+   earn the large-text exemption, so 3.84:1 was never enough. The underline is
+   set on the label span rather than on the button, because text-decoration
+   does not cross into a flex item, and it must not reach the icon. */
+.faq-q > span:not(.faq-icon) {
+  text-decoration-line: underline;
+  text-decoration-thickness: 2px;
+  text-underline-offset: .14em;
+  text-decoration-color: transparent;
+  transition: text-decoration-color .25s ease;
+}
+.faq-q:hover > span:not(.faq-icon),
+.faq-q:focus-visible > span:not(.faq-icon) { text-decoration-color: currentColor; }
 
 .faq-icon {
   position: relative;
@@ -910,6 +966,21 @@ body.loaded .mark-x {
   color: var(--muted);
 }
 .faq-item.open .faq-a { grid-template-rows: 1fr; }
+
+/* A 0fr row clips pixels and nothing else. Every collapsed answer stayed in the
+   accessibility tree, so the button announced itself collapsed and the answer
+   was read out immediately after it: five times over on both home pages.
+   visibility takes the answer out of the tree as well as out of the picture,
+   and it is gated on .js exactly like the collapse it has to agree with, so
+   with no script the answers stay open and reachable. visibility interpolates
+   in discrete steps and holds the visible end of a transition throughout, so
+   the answer joins the tree on the first frame of opening and leaves it only
+   once the collapse has finished, never mid-sweep. */
+.js .faq-a-inner {
+  visibility: hidden;
+  transition: visibility .45s var(--ease-out);
+}
+.js .faq-item.open .faq-a-inner { visibility: visible; }
 
 /* Only js/main.js ever opens an answer, so without it every answer would be
    sealed shut. Open them all and drop the control that promises otherwise. */
@@ -1553,7 +1624,14 @@ html:not(.js) .mw-scene { display: none; }
     padding-bottom: 0;
   }
   .nav a::after { bottom: 10px; }
-  .lang-toggle { align-self: center; }
+  /* The nav wraps to two rows below about 400px, and a toggle centred on the
+     flex line landed between them at y=87 while the rows sat at 59.2 and
+     103.2: tab left the last nav item and went back up the page. Aligning it
+     to the end of the line puts it on the nav's last row instead, and the
+     6.8px lift is half the difference between that 44px row and the 30.4px
+     pill, so it reads centred on the row it now belongs to. Nothing is
+     reordered: the markup order and the reading order finally agree. */
+  .lang-toggle { align-self: flex-end; margin-bottom: 6.8px; }
 
   .hero { padding-top: 48px; }
   .hero-title { font-size: clamp(2.45rem, 11vw, 3.4rem); }
@@ -1626,9 +1704,14 @@ html:not(.js) .mw-scene { display: none; }
 
   /* The mark draws itself by animation on screen; print it already drawn.
      Only the header and footer marks are reachable on paper: .morph-arc and
-     .morph-x live inside .hero-art, which is display:none above. */
+     .morph-x live inside .hero-art, which is display:none above.
+     The .js prefix is load-bearing here for the same reason as in the
+     reduced-motion block: the rule that winds the mark back is ".js .mark-arc",
+     so an unprefixed rule loses to it and the mark prints blank. */
   .mark-arc,
-  .mark-x {
+  .mark-x,
+  .js .mark-arc,
+  .js .mark-x {
     animation: none !important;
     stroke-dasharray: none;
     stroke-dashoffset: 0;
@@ -1645,6 +1728,11 @@ html:not(.js) .mw-scene { display: none; }
   .hero-title.split .hw { opacity: 1; transform: none; filter: none; }
   .faq-a { grid-template-rows: 1fr; }
   .faq-a-inner { overflow: visible; }
+  /* Paper has no accordion, so the answers that are hidden from assistive
+     technology on screen have to be handed back or all five print blank. The
+     .js prefix is not decoration: it is the specificity of the rule this has
+     to outrank, exactly as in the reduced-motion block above. */
+  .js .faq-a-inner { visibility: visible; }
   .principle { transform: none; border-top-color: var(--ink); }
   .area::before { display: none; }
 
