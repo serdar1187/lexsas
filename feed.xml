@@ -6,7 +6,39 @@
   <atom:link href="https://lexsas.com/feed.xml" rel="self" type="application/rss+xml"/>
   <description>Short practitioner notes on legal tech, AI governance, regulatory affairs and regulated digital markets, by Asim Serdar Yilmaz (LEXSAS).</description>
   <language>en</language>
-  <lastBuildDate>Sun, 26 Jul 2026 12:00:00 GMT</lastBuildDate>
+  <lastBuildDate>Mon, 27 Jul 2026 12:00:00 GMT</lastBuildDate>
+  <item>
+    <title>Marketplace compliance ops: one notice queue, set to the tightest clock</title>
+    <link>https://lexsas.com/insights/marketplace-compliance-ops.html</link>
+    <guid isPermaLink="true">https://lexsas.com/insights/marketplace-compliance-ops.html</guid>
+    <description>Turkey gives you forty-eight hours and the DSA sets the shape of the decision. Which queues you own, and who is on the rota.</description>
+    <pubDate>Mon, 27 Jul 2026 09:00:00 GMT</pubDate>
+    <category>insights-en</category>
+  </item>
+  <item>
+    <title>Prompt injection in legal workflows: a filter is not a control</title>
+    <link>https://lexsas.com/insights/prompt-injection-legal-workflows.html</link>
+    <guid isPermaLink="true">https://lexsas.com/insights/prompt-injection-legal-workflows.html</guid>
+    <description>A filter is a mitigation. The control is the capability set an agent holds while it reads a document nobody in your organisation wrote.</description>
+    <pubDate>Mon, 27 Jul 2026 09:00:00 GMT</pubDate>
+    <category>insights-en</category>
+  </item>
+  <item>
+    <title>Evaluating a live AI workflow: the release gate</title>
+    <link>https://lexsas.com/insights/evaluating-legal-ai-workflows.html</link>
+    <guid isPermaLink="true">https://lexsas.com/insights/evaluating-legal-ai-workflows.html</guid>
+    <description>A pilot is measured once. A live workflow is re-measured on every model, prompt, retrieval or connector change.</description>
+    <pubDate>Mon, 27 Jul 2026 09:00:00 GMT</pubDate>
+    <category>insights-en</category>
+  </item>
+  <item>
+    <title>Workflow automation lock-in: what you can export, what you rebuild</title>
+    <link>https://lexsas.com/insights/workflow-automation-lock-in.html</link>
+    <guid isPermaLink="true">https://lexsas.com/insights/workflow-automation-lock-in.html</guid>
+    <description>The Data Act gives you your data back, not your workflow. What the due diligence checklist should now ask for.</description>
+    <pubDate>Mon, 27 Jul 2026 09:00:00 GMT</pubDate>
+    <category>insights-en</category>
+  </item>
   <item>
     <title>When an AI agent breaks out of the sandbox, who answers?</title>
     <link>https://lexsas.com/linkedin-posts/openai-hugging-face-agent-liability.html</link>
@@ -22,14 +54,6 @@
     <description>June access restrictions, Kimi K3, Inkling and China's open-source message show why open weights increasingly matter for digital sovereignty.</description>
     <pubDate>Tue, 21 Jul 2026 09:00:00 GMT</pubDate>
     <category>linkedin-en</category>
-  </item>
-  <item>
-    <title>When an AI workflow fails: an incident protocol for legal teams</title>
-    <link>https://lexsas.com/insights/ai-incident-response-legal-teams.html</link>
-    <guid isPermaLink="true">https://lexsas.com/insights/ai-incident-response-legal-teams.html</guid>
-    <description>A short response path for ownership, evidence, containment and restart when an AI-assisted legal workflow goes wrong.</description>
-    <pubDate>Sat, 18 Jul 2026 12:00:00 GMT</pubDate>
-    <category>insights-en</category>
   </item>
   <item>
     <title>The EU AI Act on 2 August 2026: what actually applies</title>
@@ -136,28 +160,12 @@
     <category>insights-en</category>
   </item>
   <item>
-    <title>Where a lawyer's hours actually go</title>
-    <link>https://lexsas.com/insights/where-legal-hours-go.html</link>
-    <guid isPermaLink="true">https://lexsas.com/insights/where-legal-hours-go.html</guid>
-    <description>Most of a lawyer's day is not legal judgment. What legal workflow automation actually recovers, with the numbers behind it.</description>
-    <pubDate>Sat, 04 Jul 2026 12:00:00 GMT</pubDate>
-    <category>insights-en</category>
-  </item>
-  <item>
     <title>What generative AI actually changes for in-house legal teams</title>
     <link>https://lexsas.com/insights/genai-for-legal-teams.html</link>
     <guid isPermaLink="true">https://lexsas.com/insights/genai-for-legal-teams.html</guid>
     <description>A practitioner view on where generative AI helps in-house legal work, what stays human, and how to run it responsibly.</description>
     <pubDate>Sat, 04 Jul 2026 12:00:00 GMT</pubDate>
     <category>insights-en</category>
-  </item>
-  <item>
-    <title>AI access cutoffs and digital sovereignty</title>
-    <link>https://lexsas.com/linkedin-posts/ai-access-cutoffs-digital-sovereignty.html</link>
-    <guid isPermaLink="true">https://lexsas.com/linkedin-posts/ai-access-cutoffs-digital-sovereignty.html</guid>
-    <description>Frontier-model access can be withdrawn as leverage. AI policy, data portability and open-weight fallbacks are practical continuity controls.</description>
-    <pubDate>Thu, 02 Jul 2026 09:00:00 GMT</pubDate>
-    <category>linkedin-en</category>
   </item>
 </channel>
 </rss>

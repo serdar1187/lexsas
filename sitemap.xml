@@ -113,20 +113,6 @@
     <xhtml:link rel="alternate" hreflang="x-default" href="https://lexsas.com/linkedin-posts/j-lens-interpretability-transparency.html"/>
   </url>
   <url>
-    <loc>https://lexsas.com/linkedin-posts/ai-access-cutoffs-digital-sovereignty.html</loc>
-    <lastmod>2026-07-27</lastmod>
-    <xhtml:link rel="alternate" hreflang="en" href="https://lexsas.com/linkedin-posts/ai-access-cutoffs-digital-sovereignty.html"/>
-    <xhtml:link rel="alternate" hreflang="tr" href="https://lexsas.com/tr/linkedin-gonderileri/yapay-zeka-erisim-kesintileri-dijital-egemenlik.html"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://lexsas.com/linkedin-posts/ai-access-cutoffs-digital-sovereignty.html"/>
-  </url>
-  <url>
-    <loc>https://lexsas.com/tr/linkedin-gonderileri/yapay-zeka-erisim-kesintileri-dijital-egemenlik.html</loc>
-    <lastmod>2026-07-27</lastmod>
-    <xhtml:link rel="alternate" hreflang="en" href="https://lexsas.com/linkedin-posts/ai-access-cutoffs-digital-sovereignty.html"/>
-    <xhtml:link rel="alternate" hreflang="tr" href="https://lexsas.com/tr/linkedin-gonderileri/yapay-zeka-erisim-kesintileri-dijital-egemenlik.html"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://lexsas.com/linkedin-posts/ai-access-cutoffs-digital-sovereignty.html"/>
-  </url>
-  <url>
     <loc>https://lexsas.com/contact.html</loc>
     <lastmod>2026-07-27</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://lexsas.com/contact.html"/>
@@ -139,20 +125,6 @@
     <xhtml:link rel="alternate" hreflang="en" href="https://lexsas.com/contact.html"/>
     <xhtml:link rel="alternate" hreflang="tr" href="https://lexsas.com/tr/iletisim.html"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://lexsas.com/contact.html"/>
-  </url>
-  <url>
-    <loc>https://lexsas.com/insights/ai-incident-response-legal-teams.html</loc>
-    <lastmod>2026-07-27</lastmod>
-    <xhtml:link rel="alternate" hreflang="en" href="https://lexsas.com/insights/ai-incident-response-legal-teams.html"/>
-    <xhtml:link rel="alternate" hreflang="tr" href="https://lexsas.com/tr/yazilar/hukuk-ekiplerinde-yapay-zeka-olay-mudahalesi.html"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://lexsas.com/insights/ai-incident-response-legal-teams.html"/>
-  </url>
-  <url>
-    <loc>https://lexsas.com/tr/yazilar/hukuk-ekiplerinde-yapay-zeka-olay-mudahalesi.html</loc>
-    <lastmod>2026-07-27</lastmod>
-    <xhtml:link rel="alternate" hreflang="en" href="https://lexsas.com/insights/ai-incident-response-legal-teams.html"/>
-    <xhtml:link rel="alternate" hreflang="tr" href="https://lexsas.com/tr/yazilar/hukuk-ekiplerinde-yapay-zeka-olay-mudahalesi.html"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://lexsas.com/insights/ai-incident-response-legal-teams.html"/>
   </url>
   <url>
     <loc>https://lexsas.com/insights/eu-ai-act-august-2026.html</loc>
@@ -295,20 +267,6 @@
     <xhtml:link rel="alternate" hreflang="x-default" href="https://lexsas.com/insights/genai-for-legal-teams.html"/>
   </url>
   <url>
-    <loc>https://lexsas.com/insights/where-legal-hours-go.html</loc>
-    <lastmod>2026-07-27</lastmod>
-    <xhtml:link rel="alternate" hreflang="en" href="https://lexsas.com/insights/where-legal-hours-go.html"/>
-    <xhtml:link rel="alternate" hreflang="tr" href="https://lexsas.com/tr/yazilar/hukuki-isin-saatleri.html"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://lexsas.com/insights/where-legal-hours-go.html"/>
-  </url>
-  <url>
-    <loc>https://lexsas.com/tr/yazilar/hukuki-isin-saatleri.html</loc>
-    <lastmod>2026-07-27</lastmod>
-    <xhtml:link rel="alternate" hreflang="en" href="https://lexsas.com/insights/where-legal-hours-go.html"/>
-    <xhtml:link rel="alternate" hreflang="tr" href="https://lexsas.com/tr/yazilar/hukuki-isin-saatleri.html"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://lexsas.com/insights/where-legal-hours-go.html"/>
-  </url>
-  <url>
     <loc>https://lexsas.com/insights/ai-reshaping-legal-industry.html</loc>
     <lastmod>2026-07-27</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://lexsas.com/insights/ai-reshaping-legal-industry.html"/>
@@ -335,5 +293,61 @@
     <xhtml:link rel="alternate" hreflang="en" href="https://lexsas.com/insights/beyond-the-billable-hour.html"/>
     <xhtml:link rel="alternate" hreflang="tr" href="https://lexsas.com/tr/yazilar/saatlik-ucretin-otesi.html"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://lexsas.com/insights/beyond-the-billable-hour.html"/>
+  </url>
+  <url>
+    <loc>https://lexsas.com/insights/marketplace-compliance-ops.html</loc>
+    <lastmod>2026-07-27</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://lexsas.com/insights/marketplace-compliance-ops.html"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://lexsas.com/tr/yazilar/pazaryeri-uyum-operasyonu.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://lexsas.com/insights/marketplace-compliance-ops.html"/>
+  </url>
+  <url>
+    <loc>https://lexsas.com/tr/yazilar/pazaryeri-uyum-operasyonu.html</loc>
+    <lastmod>2026-07-27</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://lexsas.com/insights/marketplace-compliance-ops.html"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://lexsas.com/tr/yazilar/pazaryeri-uyum-operasyonu.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://lexsas.com/insights/marketplace-compliance-ops.html"/>
+  </url>
+  <url>
+    <loc>https://lexsas.com/insights/prompt-injection-legal-workflows.html</loc>
+    <lastmod>2026-07-27</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://lexsas.com/insights/prompt-injection-legal-workflows.html"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://lexsas.com/tr/yazilar/hukuki-is-akislarinda-prompt-injection.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://lexsas.com/insights/prompt-injection-legal-workflows.html"/>
+  </url>
+  <url>
+    <loc>https://lexsas.com/tr/yazilar/hukuki-is-akislarinda-prompt-injection.html</loc>
+    <lastmod>2026-07-27</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://lexsas.com/insights/prompt-injection-legal-workflows.html"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://lexsas.com/tr/yazilar/hukuki-is-akislarinda-prompt-injection.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://lexsas.com/insights/prompt-injection-legal-workflows.html"/>
+  </url>
+  <url>
+    <loc>https://lexsas.com/insights/evaluating-legal-ai-workflows.html</loc>
+    <lastmod>2026-07-27</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://lexsas.com/insights/evaluating-legal-ai-workflows.html"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://lexsas.com/tr/yazilar/hukuki-yapay-zeka-is-akislarini-degerlendirmek.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://lexsas.com/insights/evaluating-legal-ai-workflows.html"/>
+  </url>
+  <url>
+    <loc>https://lexsas.com/tr/yazilar/hukuki-yapay-zeka-is-akislarini-degerlendirmek.html</loc>
+    <lastmod>2026-07-27</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://lexsas.com/insights/evaluating-legal-ai-workflows.html"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://lexsas.com/tr/yazilar/hukuki-yapay-zeka-is-akislarini-degerlendirmek.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://lexsas.com/insights/evaluating-legal-ai-workflows.html"/>
+  </url>
+  <url>
+    <loc>https://lexsas.com/insights/workflow-automation-lock-in.html</loc>
+    <lastmod>2026-07-27</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://lexsas.com/insights/workflow-automation-lock-in.html"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://lexsas.com/tr/yazilar/is-akisi-otomasyonunda-tedarikci-bagimliligi.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://lexsas.com/insights/workflow-automation-lock-in.html"/>
+  </url>
+  <url>
+    <loc>https://lexsas.com/tr/yazilar/is-akisi-otomasyonunda-tedarikci-bagimliligi.html</loc>
+    <lastmod>2026-07-27</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://lexsas.com/insights/workflow-automation-lock-in.html"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://lexsas.com/tr/yazilar/is-akisi-otomasyonunda-tedarikci-bagimliligi.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://lexsas.com/insights/workflow-automation-lock-in.html"/>
   </url>
 </urlset>

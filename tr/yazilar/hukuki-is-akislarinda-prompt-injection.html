@@ -5,20 +5,21 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="referrer" content="strict-origin-when-cross-origin">
 <meta name="theme-color" content="#FCFCFA">
-<title>Hukuk ekipleri için yapay zeka tedarikçi inceleme listesi</title>
-<meta name="description" content="Bir hukuk ekibinin yapay zeka tedarikçisine imzadan önce sorması gereken altı soru: eğitim verisi, saklama, alt işleyiciler, tazmin, kayıt ve çıkış.">
-<link rel="canonical" href="https://lexsas.com/tr/yazilar/yapay-zeka-tedarikci-inceleme.html">
-<link rel="alternate" hreflang="en" href="https://lexsas.com/insights/ai-vendor-due-diligence.html">
-<link rel="alternate" hreflang="tr" href="https://lexsas.com/tr/yazilar/yapay-zeka-tedarikci-inceleme.html">
-<link rel="alternate" hreflang="x-default" href="https://lexsas.com/insights/ai-vendor-due-diligence.html">
-<meta property="og:title" content="Hukuk ekipleri için yapay zeka tedarikçi inceleme listesi">
-<meta property="og:description" content="Bir hukuk ekibinin yapay zeka tedarikçisine imzadan önce sorması gereken altı soru: eğitim verisi, saklama, alt işleyiciler, tazmin, kayıt ve çıkış.">
+<title>Hukuki iş akışlarında prompt injection: filtre bir kontrol değildir</title>
+<meta name="description" content="Filtre bir azaltıcı önlemdir, kontrol değildir. Hukukta yapay zeka pilotunda asıl karar yetki kümesidir: özel veri, güvenilmeyen içerik ve dışarı açılan kanal tek bir ajanda toplanmamalı.">
+<link rel="canonical" href="https://lexsas.com/tr/yazilar/hukuki-is-akislarinda-prompt-injection.html">
+<link rel="alternate" hreflang="en" href="https://lexsas.com/insights/prompt-injection-legal-workflows.html">
+<link rel="alternate" hreflang="tr" href="https://lexsas.com/tr/yazilar/hukuki-is-akislarinda-prompt-injection.html">
+<link rel="alternate" hreflang="x-default" href="https://lexsas.com/insights/prompt-injection-legal-workflows.html">
+<meta property="og:title" content="Hukuki iş akışlarında prompt injection: filtre bir kontrol değildir">
+<meta property="og:description" content="Filtre bir azaltıcı önlemdir, kontrol değildir. Hukukta yapay zeka pilotunda asıl karar yetki kümesidir: özel veri, güvenilmeyen içerik ve dışarı açılan kanal tek bir ajanda toplanmamalı.">
 <meta property="og:image" content="https://lexsas.com/assets/brand/og-card.png">
 <meta property="og:image:width" content="1200">
 <meta property="og:image:height" content="630">
 <meta property="og:image:alt" content="Açık zeminli kart üzerinde LEXSAS kelime markası ve dört renkli halka logosu; altında İngilizce Legal workflow automation and advisory satırı.">
 <meta property="og:type" content="article">
-<meta property="article:published_time" content="2026-07-11">
+<meta property="article:published_time" content="2026-07-27">
+<meta property="article:modified_time" content="2026-07-27">
 <link rel="icon" href="/assets/brand/favicon-32.png" sizes="32x32" type="image/png">
 <link rel="icon" href="/assets/brand/favicon-64.png" sizes="64x64" type="image/png">
 <link rel="apple-touch-icon" href="/assets/brand/favicon-180.png">
@@ -29,20 +30,23 @@
 <link rel="preload" as="font" type="font/woff2" href="/assets/fonts/manrope-latin-ext.woff2" crossorigin>
 <link rel="alternate" type="application/rss+xml" title="LEXSAS Yazılar" href="https://lexsas.com/tr/feed.xml">
 <meta name="author" content="Asım Serdar Yılmaz">
-<meta property="og:url" content="https://lexsas.com/tr/yazilar/yapay-zeka-tedarikci-inceleme.html">
+<meta property="og:url" content="https://lexsas.com/tr/yazilar/hukuki-is-akislarinda-prompt-injection.html">
 <meta property="og:site_name" content="LEXSAS">
 <meta property="og:locale" content="tr_TR">
 <meta property="og:locale:alternate" content="en_US">
 <meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:title" content="Hukuk ekipleri için yapay zeka tedarikçi inceleme listesi">
-<meta name="twitter:description" content="Bir hukuk ekibinin yapay zeka tedarikçisine imzadan önce sorması gereken altı soru: eğitim verisi, saklama, alt işleyiciler, tazmin, kayıt ve çıkış.">
+<meta name="twitter:title" content="Hukuki iş akışlarında prompt injection: filtre bir kontrol değildir">
+<meta name="twitter:description" content="Filtre bir azaltıcı önlemdir, kontrol değildir. Hukukta yapay zeka pilotunda asıl karar yetki kümesidir: özel veri, güvenilmeyen içerik ve dışarı açılan kanal tek bir ajanda toplanmamalı.">
 <meta name="twitter:image" content="https://lexsas.com/assets/brand/og-card.png">
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
   "@graph": [
     {
-      "@type": ["Organization","ProfessionalService"],
+      "@type": [
+        "Organization",
+        "ProfessionalService"
+      ],
       "@id": "https://lexsas.com/#organization",
       "name": "LEXSAS",
       "url": "https://lexsas.com/",
@@ -167,31 +171,34 @@
     },
     {
       "@type": "Article",
-      "@id": "https://lexsas.com/tr/yazilar/yapay-zeka-tedarikci-inceleme.html",
-      "url": "https://lexsas.com/tr/yazilar/yapay-zeka-tedarikci-inceleme.html",
-      "mainEntityOfPage": "https://lexsas.com/tr/yazilar/yapay-zeka-tedarikci-inceleme.html",
-      "name": "Hukuk ekipleri için yapay zeka tedarikçi inceleme listesi",
-      "description": "Bir hukuk ekibinin yapay zeka tedarikçisine imzadan önce sorması gereken altı soru: eğitim verisi, saklama, alt işleyiciler, tazmin, kayıt ve çıkış.",
+      "@id": "https://lexsas.com/tr/yazilar/hukuki-is-akislarinda-prompt-injection.html",
+      "url": "https://lexsas.com/tr/yazilar/hukuki-is-akislarinda-prompt-injection.html",
+      "mainEntityOfPage": "https://lexsas.com/tr/yazilar/hukuki-is-akislarinda-prompt-injection.html",
+      "name": "Hukuki iş akışlarında prompt injection: filtre bir kontrol değildir",
+      "description": "Filtre bir azaltıcı önlemdir, kontrol değildir. Hukukta yapay zeka pilotunda asıl karar yetki kümesidir: özel veri, güvenilmeyen içerik ve dışarı açılan kanal tek bir ajanda toplanmamalı.",
       "inLanguage": "tr",
       "translationOfWork": {
-        "@id": "https://lexsas.com/insights/ai-vendor-due-diligence.html"
+        "@id": "https://lexsas.com/insights/prompt-injection-legal-workflows.html"
       },
       "isPartOf": {
         "@id": "https://lexsas.com/#website"
       },
-      "headline": "Hukuk ekipleri için yapay zeka tedarikçi inceleme listesi",
+      "headline": "Hukuki iş akışlarında prompt injection: filtre bir kontrol değildir",
       "author": {
         "@id": "https://lexsas.com/#person"
       },
       "publisher": {
         "@id": "https://lexsas.com/#organization"
       },
-      "datePublished": "2026-07-11",
-      "dateModified": "2026-07-11",
+      "datePublished": "2026-07-27",
+      "dateModified": "2026-07-27",
       "citation": [
-        "https://www.verizon.com/business/resources/reports/dbir/",
-        "https://www.verizon.com/about/news/breach-industry-wide-dbir-finds",
-        "https://newsroom.ibm.com/2025-07-30-ibm-report-13-of-organizations-reported-breaches-of-ai-models-or-applications,-97-of-which-reported-lacking-proper-ai-access-controls"
+        "https://unit42.paloaltonetworks.com/ai-agent-prompt-injection/",
+        "https://nvd.nist.gov/vuln/detail/CVE-2025-32711",
+        "https://ai.meta.com/blog/practical-ai-agent-security/",
+        "https://simonwillison.net/2025/Jun/16/the-lethal-trifecta/",
+        "https://cheatsheetseries.owasp.org/cheatsheets/LLM_Prompt_Injection_Prevention_Cheat_Sheet.html",
+        "https://arxiv.org/abs/2506.08837"
       ],
       "image": "https://lexsas.com/assets/brand/og-card.png"
     }
@@ -224,36 +231,34 @@
       <a href="/tr/yazilar.html" aria-current="page">Yazılar</a>
       <a href="/tr/iletisim.html">İletişim</a>
     </nav>
-    <a class="lang-toggle" href="/insights/ai-vendor-due-diligence.html" lang="en" hreflang="en" aria-label="EN: Switch to English">EN</a>
+    <a class="lang-toggle" href="/insights/prompt-injection-legal-workflows.html" lang="en" hreflang="en" aria-label="EN: Switch to English">EN</a>
   </div>
 </header>
 
 <main id="main-content" tabindex="-1"><article>
-
   <section class="article-hero shell">
-    <span class="kicker">Temmuz 2026 &middot; Hukuk operasyonları</span>
-    <h1 class="article-title">Hukuk ekipleri için yapay zeka tedarikçi inceleme listesi</h1>
-    <p class="article-lede">Bu masanın iki tarafında da oturdum. Tedarikçi tarafında hukuk ekipleri için yapay zeka araçlarının geliştirilmesine katkı verdim; alıcı tarafında aynı tür araçların satın alınmasına onay verdim. İyi bir demo ile daha güvenli bir sözleşme arasındaki mesafeyi kısa bir soru listesi kapatıyor; cevapların yeri de sözleşmenin kendisidir: denetim hakları, ihlal bildirimi ve sorumluluk. Soruların çoğu tek bir toplantıda sorulabiliyor.</p>
+    <span class="kicker">Temmuz 2026 &middot; Yapay zeka yönetişimi</span>
+    <h1 class="article-title">Hukuki iş akışlarında prompt injection: filtre bir kontrol değildir</h1>
+    <p class="article-lede">Hukuk liderinin gerçekten cevaplayabileceği soru, tedarikçinin kötü niyetli istemleri süzüp süzmediği değil. Ajan, kuruluşunuzdan hiç kimsenin yazmadığı bir belgeyi okurken hangi araçlara ve hangi yazma yetkisine sahip? Asıl risk, tek oturumda buluşan üç yetkidir: özel veri, güvenilmeyen içerik, dışarı açılan bir kanal.</p>
   </section>
 
   <div class="shell"><div class="prose">
-      <p>Risk ölçülebilir durumda. Verizon'un 2026 Veri İhlali Araştırma Raporu'na göre üçüncü tarafların karıştığı ihlallerin payı yüzde 48'e yükseldi; bu oran yapay zeka tedarikçilerini değil, tüm üçüncü tarafları ölçer. IBM'in 2025 Cost of a Data Breach raporu ise ihlale uğrayan kurumların yaklaşık beşte birinin ihlalin gölge yapay zekayı içerdiğini bildirdiğini ekliyor; yoğun gölge yapay zeka kullananlarda ortalama ihlal maliyeti, az kullananlara göre yaklaşık 670 bin dolar daha yüksek çıkıyor; bu bir nedensellik değil, ilişkidir. İncelenmeden devreye alınan bir yapay zeka aracı, gizlilik kapsamındaki içeriğe alışılmadık ölçüde geniş erişimi olan bir üçüncü taraftır.</p>
-      <p>Benim listemde yerini hak eden altı soru var.</p>
-      <p>Eğitim verisinin kaynağı. Modelin eğitim verisi nereden geldi, tedarikçi bu veriyi kullanma hakkına sahip olduğunu gösterebiliyor mu?</p>
-      <p>Komutların saklanması ve yeniden kullanımı. Girdileriniz ve belgeleriniz saklanıyor mu, ne kadar süreyle, herhangi bir modelin eğitiminde kullanılıyor mu?</p>
-      <p>Alt işleyiciler ve barındırma bölgesi. Veriye başka kim dokunuyor, alt işleyici zincirinin kaç halkası boyunca, veri hangi ülkede duruyor ve silme yalnızca vaat mi ediliyor yoksa doğrulanabiliyor mu?</p>
-      <p>Fikri mülkiyet ihlali tazminatı. Bir çıktı başkasının hakkını ihlal ederse sorumluluğu kim üstleniyor?</p>
-      <p>Denetim izi. Kimin ne sorduğu ve sistemin ne döndürdüğü sonradan izlenebiliyor mu?</p>
-      <p>Çıkış ve verinin iadesi. Sözleşme sona erdiğinde veriniz hangi biçimde ve nasıl geri dönüyor?</p>
-      <p>Cevapları temiz olan bir tedarikçi bu sorulardan rahatsız olmaz. Herhangi birindeki duraksama ise başlı başına bir cevaptır ve imzadan önce gelir. Bunu bir hüküm değil bir işaret olarak görün; önemli olan cevapların yine de sözleşmeye yazılması.</p>
+      <p>Sözleşme inceleyen bir ajana karşı tarafın revize taslağı veriliyor. İşlem dosyası ajana açık, çünkü amacı bu; e-posta gönderebiliyor, çünkü ekip pilotta bunu istedi. Belgenin bir yerinde, beyaz yazıyla ya da bir görsel açıklamasında, hukukçuya değil makineye seslenen bir satır duruyor. Ajan o satırı uyguluyor: girdisinde, talimatı okuması istenen metinden ayıran hiçbir şey yok.</p>
+      <p>Bu artık bir gösteri değil. Palo Alto Networks'ün Unit 42 ekibi Mart 2026'da, geniş ölçekli telemetriye dayanarak, dolaylı prompt injection'ın fiilen kullanılır hâle geldiğini bildirdi: sistem isteminin dışarı çıkarılmasından yetkisiz işlemlere kadar. Örüntünün bir de CVE kaydı var: CVE-2025-32711, Microsoft 365 Copilot'ta yetkisiz bir saldırganın ağ üzerinden bilgi açığa çıkarmasına imkân veren bir yapay zeka komut enjeksiyonu.</p>
+      <p>İlk refleks, tedarikçiye filtrelerini sormak. Meta'nın 31 Ekim 2025'te yayımladığı Agents Rule of Two ise işe bunu kabul ederek başlıyor: prompt injection henüz güvenilir biçimde tespit edilip reddedilemiyor. Bu nedenle bir ajana tek oturumda üç özellikten en çok ikisini tanıyor: güvenilmeyen girdi işlemek, hassas sistemlere veya özel veriye erişmek, durumu değiştirmek ya da dışarıyla iletişim kurmak. Simon Willison aynı bileşimi Haziran 2025'te lethal trifecta diye adlandırmıştı. Filtre bir azaltıcı önlemdir. Kontrol, yetki kümesidir.</p>
+      <p>Hukuk lideri modeli yamalayamaz. Ama pilot başlamadan bir yetki kümesini reddedebilir ve hangi ayağın kaldırılacağını söyleyebilir. Genellikle üçüncüsü kalkar: ajan işlem dosyasını ve karşı tarafın taslağını okusun, adı belli bir kişinin açacağı taslak dışında hiçbir yere yazmasın. OWASP'ın prompt injection önleme rehberi de aynı yöne bakıyor: asgari yetki, araç çağrılarının kullanıcının kendi yetkisiyle doğrulanması, yüksek riskli işlemlerde insan gözetimi. Üç ayağın gerçekten gerektiği yerde ise Beurer-Kellner ve on üç ortak yazarı Haziran 2025'te, güvenilmeyen metni ayrıcalıklı eylemden uzak tutan altı mimari kalıp ortaya koydu; plan-then-execute ve dual LLM bunların arasında.</p>
+      <p>Beş asgari kontrol, bir ekibin modeli nasıl kullandığını düzenler. Hiçbiri, model bir yabancının yazdığı metni okurken nereye uzanabileceğini söylemez. O satırın yeri, tedarikçinin güvenlik sayfası değil, pilotun kendi çerçeve belgesidir.</p>
       <div class="article-end" aria-hidden="true"></div>
-      <p class="kicker article-dateline">Yayımlandı <time datetime="2026-07-11">11 Temmuz 2026</time></p>
+      <p class="kicker article-dateline">Yayım <time datetime="2026-07-27">27 Temmuz 2026</time></p>
       <div class="article-sources">
         <h2 class="sources-title">Kaynaklar</h2>
         <ul>
-          <li><a href="https://www.verizon.com/business/resources/reports/dbir/" rel="noreferrer">Verizon 2026 Data Breach Investigations Report</a></li>
-          <li><a href="https://www.verizon.com/about/news/breach-industry-wide-dbir-finds" rel="noreferrer">Verizon 2026 DBIR (newsroom summary)</a></li>
-          <li><a href="https://newsroom.ibm.com/2025-07-30-ibm-report-13-of-organizations-reported-breaches-of-ai-models-or-applications,-97-of-which-reported-lacking-proper-ai-access-controls" rel="noreferrer">IBM Cost of a Data Breach Report 2025 (newsroom)</a></li>
+          <li><a href="https://unit42.paloaltonetworks.com/ai-agent-prompt-injection/" rel="noreferrer">Palo Alto Networks Unit 42; Kaleli, Farooqi, Starov ve Mohamed, gerçek dünya telemetrisinde gözlemlenen dolaylı prompt injection, 3 Mart 2026</a></li>
+          <li><a href="https://nvd.nist.gov/vuln/detail/CVE-2025-32711" rel="noreferrer">NIST Ulusal Zafiyet Veritabanı, CVE-2025-32711, Microsoft 365 Copilot'ta yapay zeka komut enjeksiyonu, 11 Haziran 2025'te yayımlandı</a></li>
+          <li><a href="https://ai.meta.com/blog/practical-ai-agent-security/" rel="noreferrer">Meta AI, Agents Rule of Two: A Practical Approach to AI Agent Security, 31 Ekim 2025</a></li>
+          <li><a href="https://simonwillison.net/2025/Jun/16/the-lethal-trifecta/" rel="noreferrer">Simon Willison, The lethal trifecta for AI agents, 16 Haziran 2025</a></li>
+          <li><a href="https://cheatsheetseries.owasp.org/cheatsheets/LLM_Prompt_Injection_Prevention_Cheat_Sheet.html" rel="noreferrer">OWASP Cheat Sheet Series, LLM Prompt Injection Prevention Cheat Sheet</a></li>
+          <li><a href="https://arxiv.org/abs/2506.08837" rel="noreferrer">Beurer-Kellner ve on üç ortak yazarı, Design Patterns for Securing LLM Agents against Prompt Injections, arXiv:2506.08837, 10 Haziran 2025</a></li>
         </ul>
       </div>
 

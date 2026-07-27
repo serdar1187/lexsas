@@ -1164,166 +1164,334 @@ html:not(.js) .faq-q { cursor: default; }
 
 main, .site-footer { transition: opacity .3s ease; }
 
-/* ---------- Hero visual: n8n canvas metamorphosis ---------- */
+/* ---------- Hero visual: the workflow seals into the mark, then rests ----------
 
-.hv {
-  display: grid;
-  width: 100%;
-  height: 100%;
-  place-items: center;
-  position: relative;
+   A branch-and-merge canvas in the vernacular of an automation builder:
+   intake hands the matter to two parallel lanes, human review above and
+   machine research below, and both must merge at compliance before anything
+   leaves. The four cables are the four quarter-arcs of the LEXSAS ring, one
+   element each, so the workflow does not fade into the brand: the same wires
+   pull tight and close into the seal, the ink cross signs it, and then the
+   piece RELEASES back to the composed canvas and rests there, labels legible.
+   The seal is punctuation, not a destination: the page must not end on a
+   duplicate of the header mark, it must end on the argument.
+
+   Three acts from .play, which js/main.js adds when the canvas is
+   substantially in view:
+     .12 - 1.13  assemble: cards pop, labels rise, cables draw slack and gray
+     .88 - 1.60  the run: a pulse crosses each lane and paints its cable
+    1.45 - 3.80  seal, hold, release: scaffolding dissolves into the joints,
+                 the cables close into the ring, the cross signs it, the ring
+                 holds for a beat, then the cross lifts, the cables relax back
+                 onto the ports and the canvas returns, labels last. The
+                 release is not a rewind: it is slower and softer than the
+                 seal, and the cables come back in their brand colours, which
+                 the run earned and the rest state keeps.
+
+   One resting frame, three audiences. The markup carries the composed canvas,
+   so a page whose script never runs rests exactly where the animation rests:
+   reduced motion writes out the same frame. No scripting loses the motion,
+   never the content.
+
+   The seal geometry lives only inside keyframes as CSS d. The seal, hold and
+   release rules are gated behind @supports (d: path(...)): a browser without
+   CSS d support plays assemble and run, then simply stays on the composed
+   canvas, which is the resting frame anyway. */
+
+.wf-svg { width: min(100%, 480px); height: auto; }
+
+/* The wiring at rest: slack cubics plugged into the ports, wire weight, brand
+   colours on strokes only, referenced from the tokens, never retyped. DOM
+   order matches the brand mark (blue, red, yellow, green, cross) so the
+   colour joints overlap identically while sealed. The cross rests hidden:
+   it exists only while the ring is sealed. */
+.wf-cable {
+  fill: none;
+  stroke: var(--wf-c, var(--ink));
+  stroke-width: 3.5;
+  stroke-linecap: round;
+  stroke-dasharray: 1;
 }
-
-@keyframes flow-pop { to { transform: scale(1); } }
-
-/* --- n8n canvas metamorphosis (workflow becomes the mark) ---
-   The whole sequence runs 2.10s end to end, down from 5.50s: the mark, which is
-   the pay-off, used to land past four seconds and a reader in a hurry left
-   before it. It starts on .play, which js/main.js adds when the canvas is
-   substantially in view, so on a stacked layout the metaphor plays for someone
-   who has actually scrolled to it rather than finishing off-screen. */
-
-.morph-svg { width: min(100%, 480px); height: auto; }
-
-/* Dotted canvas backdrop */
-.mw-grid { opacity: 0; }
-.hero-art.play .mw-grid {
-  animation: mw-fade-life 1.55s ease .05s forwards;
-}
-@keyframes mw-fade-life {
-  0% { opacity: 0; }
-  10% { opacity: 1; }
-  86% { opacity: 1; }
-  100% { opacity: 0; }
-}
-
-/* Gray n8n wire, then LEXSAS gradient flowing over it */
-.mw-wire, .mw-color {
+.wf-c-blue { --wf-c: var(--blue); }
+.wf-c-red { --wf-c: var(--red); }
+.wf-c-yellow { --wf-c: var(--yellow); }
+.wf-c-green { --wf-c: var(--green); }
+.wf-x {
+  stroke: var(--ink);
+  stroke-width: 20;
+  stroke-linecap: round;
   stroke-dasharray: 1;
   stroke-dashoffset: 1;
 }
-.hero-art.play .mw-wire {
-  animation: mw-wire-life 1.55s linear .06s forwards;
-}
-@keyframes mw-wire-life {
-  0% { stroke-dashoffset: 1; opacity: 1; }
-  31% { stroke-dashoffset: 0; }
-  88% { opacity: 1; }
-  100% { stroke-dashoffset: 0; opacity: 0; }
-}
-.hero-art.play .mw-color {
-  animation: mw-color-life .85s linear .85s forwards;
-}
-@keyframes mw-color-life {
-  0% { stroke-dashoffset: 1; opacity: 1; }
-  55% { stroke-dashoffset: 0; }
-  85% { opacity: 1; }
-  100% { stroke-dashoffset: 0; opacity: 0; }
+
+/* Scripting winds the resting canvas back so the assembly can be performed:
+   wires gray and undrawn, chrome hidden. Every wound-back value is restored
+   either by a forwards keyframe or by the reduced-motion block below, and
+   the keyframe end states equal the base values, so the played-out page and
+   the never-played page cannot drift apart. */
+.js .wf-cable {
+  stroke: #C4CAD0;
+  stroke-dashoffset: 1;
 }
 
-/* Node chrome. The two greys are the borrowed canvas UI the scene is quoting
-   and are deliberately not brand tokens; the shadow is ink and is mixed from
-   the ink token, so it cannot drift from it. */
-.mw-box {
+/* Node chrome. The grays are the borrowed canvas UI the scene is quoting and
+   are deliberately not brand tokens; the shadow is mixed from the ink token,
+   so it cannot drift from it. */
+.wf-box {
   fill: var(--paper);
   stroke: #D8DDE2;
   stroke-width: 1.5;
   filter: drop-shadow(0 3px 6px color-mix(in srgb, var(--ink) 10%, transparent));
 }
-.mw-port { fill: var(--paper); stroke: #9AA1A9; stroke-width: 2; }
-.mw-badge { fill: var(--red); stroke: var(--paper); stroke-width: 2; }
+.wf-port { fill: var(--paper); stroke: #9AA1A9; stroke-width: 2; }
+.wf-badge { fill: var(--red); stroke: var(--paper); stroke-width: 2; }
+.wf-stub {
+  stroke: #B9BFC6;
+  stroke-width: 1.8;
+  stroke-dasharray: 4 5;
+}
+.wf-out { stroke: #C4CAD0; stroke-width: 2.5; stroke-linecap: round; }
+.wf-dot { fill: none; stroke: #9AA1A9; stroke-width: 2; }
 
-/* Entrance pop on inner group, migration on outer group */
-.mw-pop {
-  transform: scale(0);
-  transform-box: fill-box;
-  transform-origin: center;
-}
-.hero-art.play .mw-pop {
-  animation: flow-pop .3s var(--ease-out) forwards;
-  animation-delay: calc(.28s + var(--i) * .07s);
-}
-
-.mw-node {
-  transform-box: fill-box;
-  transform-origin: center;
-}
-.hero-art.play .mw-node {
-  animation: mw-migrate .38s cubic-bezier(.5, 0, .3, 1) forwards;
-  animation-delay: calc(1.3s + var(--i) * .03s);
-}
-@keyframes mw-migrate {
-  0% { transform: translate(0, 0) scale(1); opacity: 1; }
-  72% { opacity: 1; }
-  100% { transform: translate(var(--tx), var(--ty)) scale(.14); opacity: 0; }
-}
-
-/* Dashed sub-node connectors (marching dots) */
-.mw-dash { opacity: 0; }
-.hero-art.play .mw-dash {
-  animation: mw-dash-life .9s linear forwards;
-  animation-delay: calc(.48s + var(--i) * .04s);
-}
-@keyframes mw-dash-life {
-  0% { opacity: 0; stroke-dashoffset: 26; }
-  8% { opacity: 1; }
-  80% { opacity: 1; }
-  100% { opacity: 0; stroke-dashoffset: 0; }
-}
-
-/* Sub-nodes */
-.mw-snode {
+/* The run: one ink dash per lane segment, riding the same slack cubics the
+   cables use, so wire and pulse cannot disagree. Canvas-state prop only. */
+.wf-pulse {
+  fill: none;
+  stroke: var(--ink);
+  stroke-width: 3;
+  stroke-linecap: round;
+  stroke-dasharray: .14 1.86;
+  stroke-dashoffset: .14;
   opacity: 0;
-  transform: scale(.4);
+}
+
+/* Entrance pop on the inner group, dissolve and return on the outer group.
+   Each node's --tx/--ty is the vector from its card centre to the ring joint
+   it dissolves into. Transform plumbing lives in base; the wound-back values
+   live under .js so the resting markup needs no scripting to be composed. */
+.wf-pop {
   transform-box: fill-box;
   transform-origin: center;
 }
-.hero-art.play .mw-snode {
-  animation: mw-snode-life .85s var(--ease-out) forwards;
-  animation-delay: calc(.6s + var(--i) * .05s);
+.wf-node {
+  transform-box: fill-box;
+  transform-origin: center;
 }
-@keyframes mw-snode-life {
-  0% { opacity: 1; transform: scale(.4); }
-  14% { transform: scale(1); }
-  82% { opacity: 1; }
-  100% { opacity: 0; transform: scale(1); }
+.wf-snode {
+  transform-box: fill-box;
+  transform-origin: center;
 }
 
 /* Labels */
-.mw-name, .mw-sub, .mw-slabel {
+.wf-name, .wf-sub, .wf-slabel {
   font-family: var(--sans);
   text-transform: uppercase;
-  opacity: 0;
 }
-.mw-name { font-weight: 700; font-size: 13px; letter-spacing: .12em; fill: var(--ink); }
-.mw-sub { font-weight: 600; font-size: 10px; letter-spacing: .14em; fill: var(--muted); }
-.mw-slabel { font-weight: 600; font-size: 9.5px; letter-spacing: .12em; fill: var(--muted); }
-.hero-art.play .mw-name,
-.hero-art.play .mw-sub {
-  animation: mw-label-life 1.2s ease .3s forwards;
+.wf-name { font-weight: 700; font-size: 13px; letter-spacing: .12em; fill: var(--ink); }
+.wf-sub { font-weight: 600; font-size: 10px; letter-spacing: .14em; fill: var(--muted); }
+.wf-slabel { font-weight: 600; font-size: 9.5px; letter-spacing: .12em; fill: var(--muted); }
+
+/* The wind-back: with scripting on, the composed frame is dismantled so the
+   choreography can rebuild it. The reduced-motion block at the foot restores
+   every one of these, selector for selector, at the same specificity. */
+.js .wf-grid,
+.js .wf-stub,
+.js .wf-out,
+.js .wf-dot { opacity: 0; }
+.js .wf-pop { transform: scale(0); }
+.js .wf-snode { opacity: 0; transform: scale(.4); }
+.js .wf-name,
+.js .wf-sub,
+.js .wf-slabel { opacity: 0; transform: translateY(6px); }
+
+/* Choreography. Every .play rule carries animation properties only, so the
+   reduced-motion block at the foot can cancel the lot and write the composed
+   frame with plain declarations. Act one and act two are unguarded; act
+   three, everything that needs the d morph, sits in the @supports block
+   below and simply never runs where CSS d is unsupported. */
+.hero-art.play .wf-grid { animation: wf-fade-in .5s ease .05s forwards; }
+
+.hero-art.play .wf-pop {
+  animation: wf-pop-in .3s var(--ease-out) forwards;
+  animation-delay: calc(.12s + var(--i) * .07s);
 }
-.hero-art.play .mw-slabel {
-  animation: mw-label-life .8s ease .68s forwards;
+@keyframes wf-pop-in { to { transform: scale(1); } }
+
+.hero-art.play .wf-name,
+.hero-art.play .wf-sub {
+  animation: wf-fade-up .35s ease calc(.3s + var(--i) * .06s) forwards;
 }
-@keyframes mw-label-life {
-  0% { opacity: 0; transform: translateY(6px); }
-  9% { opacity: 1; transform: translateY(0); }
-  84% { opacity: 1; transform: none; }
-  100% { opacity: 0; }
+.hero-art.play .wf-slabel {
+  animation: wf-fade-up .35s ease calc(.62s + var(--i) * .06s) forwards;
+}
+@keyframes wf-fade-up { to { opacity: 1; transform: translateY(0); } }
+@keyframes wf-fade-out { to { opacity: 0; } }
+
+.hero-art.play .wf-stub { animation: wf-fade-in .3s ease .5s forwards; }
+.hero-art.play .wf-out,
+.hero-art.play .wf-dot { animation: wf-fade-in .3s ease .6s forwards; }
+@keyframes wf-fade-in { to { opacity: 1; } }
+
+.hero-art.play .wf-snode {
+  animation: wf-snode-in .3s var(--ease-out) calc(.55s + var(--i) * .06s) forwards;
+}
+@keyframes wf-snode-in { to { opacity: 1; transform: scale(1); } }
+
+/* Cables: draw out of the ports, then take their colour from the passing
+   run. Both start from the current computed state, so only the destinations
+   are written here, and the paint destination is the base resting colour. */
+.hero-art.play .wf-c-green {
+  animation:
+    wf-draw .45s cubic-bezier(.3, 0, .4, 1) .5s forwards,
+    wf-paint .3s ease .94s forwards;
+}
+.hero-art.play .wf-c-yellow {
+  animation:
+    wf-draw .45s cubic-bezier(.3, 0, .4, 1) .5s forwards,
+    wf-paint .3s ease 1.06s forwards;
+}
+.hero-art.play .wf-c-blue {
+  animation:
+    wf-draw .45s cubic-bezier(.3, 0, .4, 1) .68s forwards,
+    wf-paint .3s ease 1.18s forwards;
+}
+.hero-art.play .wf-c-red {
+  animation:
+    wf-draw .45s cubic-bezier(.3, 0, .4, 1) .68s forwards,
+    wf-paint .3s ease 1.3s forwards;
+}
+@keyframes wf-draw { to { stroke-dashoffset: 0; } }
+@keyframes wf-paint { to { stroke: var(--wf-c); } }
+
+.hero-art.play .wf-pulse {
+  animation: wf-pulse-run .24s linear forwards;
+  animation-delay: calc(.88s + var(--i) * .12s);
+}
+@keyframes wf-pulse-run {
+  0% { stroke-dashoffset: .14; opacity: 0; }
+  12% { opacity: 1; }
+  88% { opacity: 1; }
+  100% { stroke-dashoffset: -1; opacity: 0; }
 }
 
-/* Mark arcs sweep in from the corners where the nodes landed.
-   Same fail-open rule as the header mark: the arcs are only wound back once
-   scripting has announced itself, so a page whose script never runs shows the
-   finished frame, the drawn mark, rather than a blank or half-drawn canvas. */
-.morph-arc, .morph-x { stroke-dasharray: 1; }
-.js .morph-arc,
-.js .morph-x { stroke-dashoffset: 1; }
-html:not(.js) .mw-scene { display: none; }
-.hero-art.play .morph-arc,
-.hero-art.play .morph-x {
-  animation: mark-draw .35s var(--ease-draw) forwards;
-  animation-delay: calc(1.55s + var(--i) * .04s);
+/* Act three: seal, hold, release. Cycles rather than one-way trips: every
+   element that leaves for the seal comes back for the rest, and every 100%
+   frame equals the base resting value, so the fill can never disagree with
+   the markup. The release is deliberately not a rewind of the seal: the
+   cross lifts first, the ring relaxes more softly than it snapped shut, the
+   cables keep the colours the run gave them, and the labels return last so
+   the piece ends on the reading material. */
+@supports (d: path("M 0 0")) {
+  /* labels step aside for the seal, then return as the final beat */
+  .hero-art.play .wf-name,
+  .hero-art.play .wf-sub {
+    animation:
+      wf-fade-up .35s ease calc(.3s + var(--i) * .06s) forwards,
+      wf-fade-out .25s ease 1.32s forwards,
+      wf-fade-up .45s ease 3.35s forwards;
+  }
+  .hero-art.play .wf-slabel {
+    animation:
+      wf-fade-up .35s ease calc(.62s + var(--i) * .06s) forwards,
+      wf-fade-out .25s ease 1.32s forwards,
+      wf-fade-up .45s ease 3.35s forwards;
+  }
+  .hero-art.play .wf-stub {
+    animation:
+      wf-fade-in .3s ease .5s forwards,
+      wf-fade-out .25s ease 1.36s forwards,
+      wf-fade-in .35s ease 3.15s forwards;
+  }
+  .hero-art.play .wf-out,
+  .hero-art.play .wf-dot {
+    animation:
+      wf-fade-in .3s ease .6s forwards,
+      wf-fade-out .25s ease 1.36s forwards,
+      wf-fade-in .35s ease 3.15s forwards;
+  }
+  .hero-art.play .wf-snode {
+    animation:
+      wf-snode-in .3s var(--ease-out) calc(.55s + var(--i) * .06s) forwards,
+      wf-fade-out .25s ease 1.36s forwards,
+      wf-snode-in .35s ease 3.15s forwards;
+  }
+
+  /* cards dissolve into the joints they wired, wait out the hold, return */
+  .hero-art.play .wf-node {
+    animation: wf-node-cycle 2.3s linear forwards;
+    animation-delay: calc(1.42s + var(--i) * .03s);
+  }
+
+  /* the wires close into the ring, hold the mark, then relax onto the ports */
+  .hero-art.play .wf-c-green {
+    animation:
+      wf-draw .45s cubic-bezier(.3, 0, .4, 1) .5s forwards,
+      wf-paint .3s ease .94s forwards,
+      wf-seal-green 2.2s linear 1.45s forwards;
+  }
+  .hero-art.play .wf-c-yellow {
+    animation:
+      wf-draw .45s cubic-bezier(.3, 0, .4, 1) .5s forwards,
+      wf-paint .3s ease 1.06s forwards,
+      wf-seal-yellow 2.2s linear 1.45s forwards;
+  }
+  .hero-art.play .wf-c-blue {
+    animation:
+      wf-draw .45s cubic-bezier(.3, 0, .4, 1) .68s forwards,
+      wf-paint .3s ease 1.18s forwards,
+      wf-seal-blue 2.2s linear 1.45s forwards;
+  }
+  .hero-art.play .wf-c-red {
+    animation:
+      wf-draw .45s cubic-bezier(.3, 0, .4, 1) .68s forwards,
+      wf-paint .3s ease 1.3s forwards,
+      wf-seal-red 2.2s linear 1.45s forwards;
+  }
+
+  /* the cross signs while sealed, and is first to lift */
+  .hero-art.play .wf-x {
+    animation: wf-x-cycle 1.32s linear forwards;
+    animation-delay: calc(1.98s + var(--i) * .1s);
+  }
+}
+
+/* Segment timing lives on the keyframes: snap shut, hold, breathe out. */
+@keyframes wf-node-cycle {
+  0% { transform: translate(0, 0) scale(1); opacity: 1; animation-timing-function: cubic-bezier(.5, 0, .3, 1); }
+  11% { opacity: 1; }
+  15% { transform: translate(var(--tx), var(--ty)) scale(.12); opacity: 0; }
+  63% { transform: translate(var(--tx), var(--ty)) scale(.12); opacity: 0; animation-timing-function: cubic-bezier(.2, 0, .25, 1); }
+  100% { transform: translate(0, 0) scale(1); opacity: 1; }
+}
+@keyframes wf-seal-green {
+  0% { d: path("M 92 240 C 146 240 134 88 188 88"); stroke-width: 3.5; animation-timing-function: cubic-bezier(.55, 0, .25, 1); }
+  23% { d: path("M 122 240 C 122 174.8 174.8 122 240 122"); stroke-width: 20; }
+  68% { d: path("M 122 240 C 122 174.8 174.8 122 240 122"); stroke-width: 20; animation-timing-function: cubic-bezier(.3, 0, .25, 1); }
+  100% { d: path("M 92 240 C 146 240 134 88 188 88"); stroke-width: 3.5; }
+}
+@keyframes wf-seal-yellow {
+  0% { d: path("M 92 240 C 146 240 130 388 184 388"); stroke-width: 3.5; animation-timing-function: cubic-bezier(.55, 0, .25, 1); }
+  23% { d: path("M 122 240 C 122 305.2 174.8 358 240 358"); stroke-width: 20; }
+  68% { d: path("M 122 240 C 122 305.2 174.8 358 240 358"); stroke-width: 20; animation-timing-function: cubic-bezier(.3, 0, .25, 1); }
+  100% { d: path("M 92 240 C 146 240 130 388 184 388"); stroke-width: 3.5; }
+}
+@keyframes wf-seal-blue {
+  0% { d: path("M 244 88 C 302 88 328 226 386 226"); stroke-width: 3.5; animation-timing-function: cubic-bezier(.55, 0, .25, 1); }
+  23% { d: path("M 240 122 C 305.2 122 358 174.8 358 240"); stroke-width: 20; }
+  68% { d: path("M 240 122 C 305.2 122 358 174.8 358 240"); stroke-width: 20; animation-timing-function: cubic-bezier(.3, 0, .25, 1); }
+  100% { d: path("M 244 88 C 302 88 328 226 386 226"); stroke-width: 3.5; }
+}
+@keyframes wf-seal-red {
+  0% { d: path("M 240 388 C 298 388 328 254 386 254"); stroke-width: 3.5; animation-timing-function: cubic-bezier(.55, 0, .25, 1); }
+  23% { d: path("M 240 358 C 305.2 358 358 305.2 358 240"); stroke-width: 20; }
+  68% { d: path("M 240 358 C 305.2 358 358 305.2 358 240"); stroke-width: 20; animation-timing-function: cubic-bezier(.3, 0, .25, 1); }
+  100% { d: path("M 240 388 C 298 388 328 254 386 254"); stroke-width: 3.5; }
+}
+@keyframes wf-x-cycle {
+  0% { stroke-dashoffset: 1; animation-timing-function: var(--ease-draw); }
+  17% { stroke-dashoffset: 0; }
+  68% { stroke-dashoffset: 0; animation-timing-function: cubic-bezier(.55, 0, .45, 1); }
+  100% { stroke-dashoffset: 1; }
 }
 
 /* ---------- Inner pages (about, insights, contact, articles) ---------- */
@@ -1833,41 +2001,31 @@ main:has(.contact-rows) {
      the rule above has already collapsed its transition to nothing */
 
   /* ---------- The hero canvas, still ----------
-     The scene used to be display: none here, which meant the one reader who
-     had asked for less movement was the one reader who never saw what the
-     canvas says: four named steps, Intake, Review, Research, Compliance, with
-     sources, memory and tools hanging off the research node. That is an
-     argument, not an ornament, and withholding it from that reader in
-     particular is the wrong way round.
+     Reduced motion gets the composed frame instead of nothing: the full
+     canvas, cards, labels, sub-nodes, and the four cables drawn slack in
+     their brand colours at wire weight. Since the release landed, that is
+     also exactly where the animation itself comes to rest, and exactly what
+     the markup carries for a page without scripting: one resting frame for
+     all three audiences, so the drawings cannot drift apart.
 
-     So reduced motion gets the composed frame instead of nothing. The
-     animations have to be cancelled rather than merely shortened: the global
-     rule above collapses them to .01ms, but they all carry forwards, so their
-     end state, which is the scene dissolved to opacity 0, would still win over
-     any static value written here. With them off, the finished state is
-     written out directly.
-
-     The mark steps aside for it, because the ring is drawn straight across the
-     node row and would overprint the diagram; the same mark is in the header
-     of every page, so nothing is lost. It is scoped to .js on purpose: with no
-     script the scene is already hidden by the rule near the mark definitions
-     and the drawn mark is all there is, so unscoping this would leave a
-     reader with both reduced motion and no scripting an empty square. */
-  .mw-scene,
-  .mw-scene * { animation: none !important; }
-  .mw-grid,
-  .mw-name,
-  .mw-sub,
-  .mw-slabel { opacity: 1; }
-  .mw-wire,
-  .mw-color { stroke-dashoffset: 0; opacity: 1; }
-  .mw-dash { opacity: 1; stroke-dashoffset: 0; }
-  .mw-pop,
-  .mw-snode,
-  .mw-node { opacity: 1; transform: none; }
-  .js .morph-mark { display: none; }
-
-  .js .morph-arc, .js .morph-x { stroke-dashoffset: 0; }
+     The animations have to be cancelled rather than merely shortened: the
+     global rule above collapses them to .01ms, but they carry forwards, and
+     mid-cycle fills would fight the static frame. With them off, what needs
+     restoring is precisely what the .js wind-back rules dismantled, so every
+     selector here mirrors one there at the same specificity, and this block
+     wins on source order alone. The cross needs no rule: its resting state
+     in base is already hidden, and with the sign cycle dead it never draws. */
+  .wf-svg * { animation: none !important; }
+  .js .wf-grid,
+  .js .wf-stub,
+  .js .wf-out,
+  .js .wf-dot { opacity: 1; }
+  .js .wf-name,
+  .js .wf-sub,
+  .js .wf-slabel { opacity: 1; transform: none; }
+  .js .wf-pop { transform: scale(1); }
+  .js .wf-snode { opacity: 1; transform: none; }
+  .js .wf-cable { stroke-dashoffset: 0; stroke: var(--wf-c); }
 }
 
 /* ---------- Print ---------- */
@@ -1907,8 +2065,8 @@ main:has(.contact-rows) {
   }
 
   /* The mark draws itself by animation on screen; print it already drawn.
-     Only the header and footer marks are reachable on paper: .morph-arc and
-     .morph-x live inside .hero-art, which is display:none above.
+     Only the header and footer marks are reachable on paper: .wf-cable and
+     .wf-x live inside .hero-art, which is display:none above.
      The .js prefix is load-bearing here for the same reason as in the
      reduced-motion block: the rule that winds the mark back is ".js .mark-arc",
      so an unprefixed rule loses to it and the mark prints blank. */

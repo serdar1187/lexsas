@@ -6,7 +6,39 @@
   <atom:link href="https://lexsas.com/tr/feed.xml" rel="self" type="application/rss+xml"/>
   <description>Hukuk teknolojisi, yapay zeka yönetişimi, regülasyon ve düzenlemeye tabi dijital pazarlar üzerine kısa uygulama notları; Asım Serdar Yılmaz (LEXSAS).</description>
   <language>tr</language>
-  <lastBuildDate>Sun, 26 Jul 2026 12:00:00 GMT</lastBuildDate>
+  <lastBuildDate>Mon, 27 Jul 2026 12:00:00 GMT</lastBuildDate>
+  <item>
+    <title>Pazaryeri uyum operasyonu: tek bildirim kuyruğu, en sıkı süreye ayarlı</title>
+    <link>https://lexsas.com/tr/yazilar/pazaryeri-uyum-operasyonu.html</link>
+    <guid isPermaLink="true">https://lexsas.com/tr/yazilar/pazaryeri-uyum-operasyonu.html</guid>
+    <description>Türkiye size kırk sekiz saat veriyor, Dijital Hizmetler Yasası ise kararın biçimini belirliyor. Hangi kuyruklar sizin ve nöbette kim var.</description>
+    <pubDate>Mon, 27 Jul 2026 09:00:00 GMT</pubDate>
+    <category>insights-tr</category>
+  </item>
+  <item>
+    <title>Hukuki iş akışlarında prompt injection: filtre bir kontrol değildir</title>
+    <link>https://lexsas.com/tr/yazilar/hukuki-is-akislarinda-prompt-injection.html</link>
+    <guid isPermaLink="true">https://lexsas.com/tr/yazilar/hukuki-is-akislarinda-prompt-injection.html</guid>
+    <description>Filtre azaltıcı bir önlemdir. Kontrol, ajanın kuruluşunuzdan kimsenin yazmadığı bir belgeyi okurken elinde tuttuğu yetki kümesidir.</description>
+    <pubDate>Mon, 27 Jul 2026 09:00:00 GMT</pubDate>
+    <category>insights-tr</category>
+  </item>
+  <item>
+    <title>Canlı bir yapay zeka iş akışını değerlendirmek: değişiklik kapısı</title>
+    <link>https://lexsas.com/tr/yazilar/hukuki-yapay-zeka-is-akislarini-degerlendirmek.html</link>
+    <guid isPermaLink="true">https://lexsas.com/tr/yazilar/hukuki-yapay-zeka-is-akislarini-degerlendirmek.html</guid>
+    <description>Pilot bir kez ölçülür. Canlı bir iş akışı ise her model, istem, bilgi getirme veya entegrasyon değişikliğinde yeniden ölçülür.</description>
+    <pubDate>Mon, 27 Jul 2026 09:00:00 GMT</pubDate>
+    <category>insights-tr</category>
+  </item>
+  <item>
+    <title>İş akışı otomasyonunda tedarikçi bağımlılığı: ne dışa aktarılır, ne yeniden kurulur</title>
+    <link>https://lexsas.com/tr/yazilar/is-akisi-otomasyonunda-tedarikci-bagimliligi.html</link>
+    <guid isPermaLink="true">https://lexsas.com/tr/yazilar/is-akisi-otomasyonunda-tedarikci-bagimliligi.html</guid>
+    <description>Veri Tüzüğü verinizi geri veriyor, iş akışınızı değil. Tedarikçi inceleme listesinin artık ne sorması gerektiği.</description>
+    <pubDate>Mon, 27 Jul 2026 09:00:00 GMT</pubDate>
+    <category>insights-tr</category>
+  </item>
   <item>
     <title>Yapay zeka ajanı kum havuzundan çıkarsa kim sorumlu olur?</title>
     <link>https://lexsas.com/tr/linkedin-gonderileri/openai-hugging-face-yapay-zeka-ajani-sorumlulugu.html</link>
@@ -22,14 +54,6 @@
     <description>Haziran erişim kısıtları, Kimi K3, Inkling ve Çin'in açık kaynak mesajı, açık ağırlıkların dijital egemenlikte neden önem kazandığını gösteriyor.</description>
     <pubDate>Tue, 21 Jul 2026 09:00:00 GMT</pubDate>
     <category>linkedin-tr</category>
-  </item>
-  <item>
-    <title>Yapay zeka iş akışı aksadığında: hukuk ekipleri için olay müdahale protokolü</title>
-    <link>https://lexsas.com/tr/yazilar/hukuk-ekiplerinde-yapay-zeka-olay-mudahalesi.html</link>
-    <guid isPermaLink="true">https://lexsas.com/tr/yazilar/hukuk-ekiplerinde-yapay-zeka-olay-mudahalesi.html</guid>
-    <description>Yapay zeka destekli bir hukuk iş akışı aksadığında sorumluluğu, kayıtların korunmasını, sınırlamayı ve yeniden başlatmayı düzenleyen kısa bir müdahale protokolü.</description>
-    <pubDate>Sat, 18 Jul 2026 12:00:00 GMT</pubDate>
-    <category>insights-tr</category>
   </item>
   <item>
     <title>AB Yapay Zeka Tüzüğü: 2 Ağustos 2026'da uygulanmaya başlayanlar</title>
@@ -136,28 +160,12 @@
     <category>insights-tr</category>
   </item>
   <item>
-    <title>Hukukçunun saatleri gerçekte nereye gidiyor</title>
-    <link>https://lexsas.com/tr/yazilar/hukuki-isin-saatleri.html</link>
-    <guid isPermaLink="true">https://lexsas.com/tr/yazilar/hukuki-isin-saatleri.html</guid>
-    <description>Avukatın gününün çoğu hukuki muhakeme değil. Hukuki iş akışı otomasyonunun geri kazandırdıkları, rakamlarıyla.</description>
-    <pubDate>Sat, 04 Jul 2026 12:00:00 GMT</pubDate>
-    <category>insights-tr</category>
-  </item>
-  <item>
     <title>Hukuk ekiplerinde üretken yapay zeka: gerçekte ne değişiyor?</title>
     <link>https://lexsas.com/tr/yazilar/hukuk-ekiplerinde-uretken-yapay-zeka.html</link>
     <guid isPermaLink="true">https://lexsas.com/tr/yazilar/hukuk-ekiplerinde-uretken-yapay-zeka.html</guid>
     <description>Üretken yapay zekanın şirket içi hukuk ekiplerinde neyi değiştirdiği, neyi değiştirmediği ve sorumlu yürütmenin nasıl kurulduğu üzerine.</description>
     <pubDate>Sat, 04 Jul 2026 12:00:00 GMT</pubDate>
     <category>insights-tr</category>
-  </item>
-  <item>
-    <title>Yapay zeka erişim kesintileri ve dijital egemenlik</title>
-    <link>https://lexsas.com/tr/linkedin-gonderileri/yapay-zeka-erisim-kesintileri-dijital-egemenlik.html</link>
-    <guid isPermaLink="true">https://lexsas.com/tr/linkedin-gonderileri/yapay-zeka-erisim-kesintileri-dijital-egemenlik.html</guid>
-    <description>Frontier model erişiminin bir baskı aracına dönüşmesi, iş sürekliliği için yapay zeka politikası, veri taşınabilirliği ve açık ağırlıklı yedekleri zorunlu kılıyor.</description>
-    <pubDate>Thu, 02 Jul 2026 09:00:00 GMT</pubDate>
-    <category>linkedin-tr</category>
   </item>
 </channel>
 </rss>

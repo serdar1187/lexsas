@@ -33,8 +33,14 @@ English.
 - [Home](https://lexsas.com/): what LEXSAS does, focus areas, working principles, FAQ
 - [Asim Serdar Yilmaz | Legal and Regulatory Affairs Leader · LEXSAS](https://lexsas.com/about.html): full career history, board roles, education
 - [Insights](https://lexsas.com/insights.html): articles on law, regulation and AI
-- [When an AI workflow fails: an incident protocol for legal teams](https://lexsas.com/insights/ai-incident-response-legal-teams.html)
-- [Yapay zeka iş akışı aksadığında: hukuk ekipleri için olay müdahale protokolü](https://lexsas.com/tr/yazilar/hukuk-ekiplerinde-yapay-zeka-olay-mudahalesi.html)
+- [Marketplace compliance ops: one notice queue, set to the tightest clock](https://lexsas.com/insights/marketplace-compliance-ops.html)
+- [Pazaryeri uyum operasyonu: tek bildirim kuyruğu, en sıkı süreye ayarlı](https://lexsas.com/tr/yazilar/pazaryeri-uyum-operasyonu.html)
+- [Prompt injection in legal workflows: a filter is not a control](https://lexsas.com/insights/prompt-injection-legal-workflows.html)
+- [Hukuki iş akışlarında prompt injection: filtre bir kontrol değildir](https://lexsas.com/tr/yazilar/hukuki-is-akislarinda-prompt-injection.html)
+- [Evaluating a live AI workflow: the release gate](https://lexsas.com/insights/evaluating-legal-ai-workflows.html)
+- [Canlı bir yapay zeka iş akışını değerlendirmek: değişiklik kapısı](https://lexsas.com/tr/yazilar/hukuki-yapay-zeka-is-akislarini-degerlendirmek.html)
+- [Workflow automation lock-in: what you can export, what you rebuild](https://lexsas.com/insights/workflow-automation-lock-in.html)
+- [İş akışı otomasyonunda tedarikçi bağımlılığı: ne dışa aktarılır, ne yeniden kurulur](https://lexsas.com/tr/yazilar/is-akisi-otomasyonunda-tedarikci-bagimliligi.html)
 - [The EU AI Act on 2 August 2026: what actually applies](https://lexsas.com/insights/eu-ai-act-august-2026.html)
 - [AB Yapay Zeka Tüzüğü: 2 Ağustos 2026'da uygulanmaya başlayanlar](https://lexsas.com/tr/yazilar/ab-yapay-zeka-tuzugu-agustos-2026.html)
 - [AI citation errors: a verification protocol for legal teams](https://lexsas.com/insights/ai-citation-verification.html)
@@ -55,8 +61,6 @@ English.
 - [Hukuk ekipleri için yapay zeka tedarikçi inceleme listesi](https://lexsas.com/tr/yazilar/yapay-zeka-tedarikci-inceleme.html)
 - [What generative AI actually changes for in-house legal teams](https://lexsas.com/insights/genai-for-legal-teams.html)
 - [Hukuk ekiplerinde üretken yapay zeka: gerçekte ne değişiyor?](https://lexsas.com/tr/yazilar/hukuk-ekiplerinde-uretken-yapay-zeka.html)
-- [Where a lawyer's hours actually go](https://lexsas.com/insights/where-legal-hours-go.html)
-- [Hukukçunun saatleri gerçekte nereye gidiyor](https://lexsas.com/tr/yazilar/hukuki-isin-saatleri.html)
 - [AI is quietly redrawing the legal industry](https://lexsas.com/insights/ai-reshaping-legal-industry.html)
 - [Yapay zeka hukuk sektörünü sessizce yeniden çiziyor](https://lexsas.com/tr/yazilar/yapay-zeka-hukuku-yeniden-ciziyor.html)
 - [The billable hour is running out of logic](https://lexsas.com/insights/beyond-the-billable-hour.html)
@@ -72,8 +76,6 @@ English.
 - [Frontier yapay zeka için bir FINRA](https://lexsas.com/tr/linkedin-gonderileri/frontier-yapay-zeka-finra-standart-orgutu.html)
 - [The transparency paradox inside the black box](https://lexsas.com/linkedin-posts/j-lens-interpretability-transparency.html)
 - [Kara kutunun içindeki şeffaflık paradoksu](https://lexsas.com/tr/linkedin-gonderileri/j-lens-yorumlanabilirlik-seffaflik.html)
-- [AI access cutoffs and digital sovereignty](https://lexsas.com/linkedin-posts/ai-access-cutoffs-digital-sovereignty.html)
-- [Yapay zeka erişim kesintileri ve dijital egemenlik](https://lexsas.com/tr/linkedin-gonderileri/yapay-zeka-erisim-kesintileri-dijital-egemenlik.html)
 - Turkish versions: [Ana Sayfa](https://lexsas.com/tr/), [Asım Serdar Yılmaz | Hukuk ve Regülasyon Lideri · LEXSAS](https://lexsas.com/tr/hakkinda.html), [Yazılar](https://lexsas.com/tr/yazilar.html), [İletişim](https://lexsas.com/tr/iletisim.html)
 
 Full page-by-page content dump: https://lexsas.com/llms-full.txt
