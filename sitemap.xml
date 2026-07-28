@@ -350,4 +350,18 @@
     <xhtml:link rel="alternate" hreflang="tr" href="https://lexsas.com/tr/yazilar/is-akisi-otomasyonunda-tedarikci-bagimliligi.html"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://lexsas.com/insights/workflow-automation-lock-in.html"/>
   </url>
+  <url>
+    <loc>https://lexsas.com/insights/composing-agentic-legal-workflows.html</loc>
+    <lastmod>2026-07-28</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://lexsas.com/insights/composing-agentic-legal-workflows.html"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://lexsas.com/tr/yazilar/kendi-ajan-is-akisinizi-kurmak.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://lexsas.com/insights/composing-agentic-legal-workflows.html"/>
+  </url>
+  <url>
+    <loc>https://lexsas.com/tr/yazilar/kendi-ajan-is-akisinizi-kurmak.html</loc>
+    <lastmod>2026-07-28</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://lexsas.com/insights/composing-agentic-legal-workflows.html"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://lexsas.com/tr/yazilar/kendi-ajan-is-akisinizi-kurmak.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://lexsas.com/insights/composing-agentic-legal-workflows.html"/>
+  </url>
 </urlset>

@@ -480,6 +480,44 @@ Next: AI citation errors: a verification protocol for legal teams →
 Get in touch →
 
 ============================================================
+## Article: Composing your own agentic workflow: what the canvas gives a legal team  <https://lexsas.com/insights/composing-agentic-legal-workflows.html>
+============================================================
+
+July 2026 · AI regulation
+
+Composing your own agentic workflow: what the canvas gives a legal team
+
+The vendor’s roadmap stops being your constraint; your own discipline takes its place. That is the whole trade.
+
+Legal AI: build, buy, or configure?
+, published here earlier this month, decides which path fits a use case. It stops one question short. When the answer is configure, who draws the workflow? A bought legal product ships someone else's: its stages, its review points, its idea of where a lawyer belongs. Composing your own agentic workflow on a general-purpose canvas reverses that. The intake stage is your intake. The gate where a person signs sits where your risk actually is, not where a product manager guessed it would be.
+
+The canvas matters because it makes the mandate visible. Every tool the agent holds, every source it may read, every place it may write is a drawn connection that a lawyer can point at, question and remove. That is the control
+the prompt injection piece
+argues for, delivered by construction rather than by vendor assurance: Meta's Agents Rule of Two caps an agent at two of three risky properties in a session, and on a canvas that cap is something you can see.
+
+For an in-house team, the gain is fit and custody. The workflow mirrors the stages the team already runs instead of bending the team around a product, and the run history sits in your perimeter as a record you can show a regulator or the board. For a law firm, practice groups get matter workflows shaped to their own review depth, and the same records let partners price the work rather than defend the hours.
+
+The honest cost is ownership. A composed workflow is yours to maintain: every model, prompt or connector change needs
+a release gate
+, and the workflow definition joins the asset list you would take with you when you leave a platform. That is not a reason to buy someone else's workflow. It is the discipline that makes owning yours defensible.
+
+Published
+28 July 2026
+
+Sources
+
+Meta AI, Agents Rule of Two: A Practical Approach to AI Agent Security, 31 October 2025  https://ai.meta.com/blog/practical-ai-agent-security/
+
+Simon Willison, The lethal trifecta for AI agents, 16 June 2025  https://simonwillison.net/2025/Jun/16/the-lethal-trifecta/
+
+Next: How to measure a legal automation pilot →
+
+← All insights
+
+Get in touch →
+
+============================================================
 ## Article: Marketplace compliance ops: one notice queue, set to the tightest clock  <https://lexsas.com/insights/marketplace-compliance-ops.html>
 ============================================================
 
@@ -769,21 +807,41 @@ Get in touch →
 ============================================================
 ## Article: Legal AI: build, buy, or configure?  <https://lexsas.com/insights/legal-ai-build-buy-configure.html>
 ============================================================
-Insights
-July 2026 - Legal AI
+
+July 2026 · Legal AI
+
 Legal AI: build, buy, or configure?
+
 I have built legal AI tooling on AWS Bedrock inside a large platform company, and bought vendor tools too. The real choice is rarely build or buy. You can buy a finished product, adapt an enterprise platform to your workflow, or build your own. That middle path is configure, and most work belongs there.
+
 Three questions decide it: how sensitive the data is, how specific the workflow is, and how much engineering the team can carry.
+
 Configure is the default. You still buy the platform; what you own is the workflow on top. Enterprise platforms let you wire custom workflows, retrieval, and guardrails onto a hosted model you do not own. For contract review and internal knowledge, this captures most of the value for far less maintenance.
+
 Buy for commodity tasks. Transcription, translation, and first-pass summarization are mature, well-served categories. Building them in-house means a year rebuilding what you could license this week.
+
 Build only for workflows that are both sensitive and differentiating. Building does not remove third parties: our own Bedrock tooling still runs on cloud infrastructure. It is the right call when off-the-shelf terms cannot meet your requirements on data use, retention, residency, and audit, and the workflow itself sets you apart. You still carry the full lifecycle burden.
+
 Bloomberg Law reported in 2026 that for roughly 67 percent of large law firms, new-technology spending stayed under 2 percent of the 2025 budget. It counts firms, not in-house teams, but the signal carries.
+
 Capacity decides the rest. ILTA's 2024 survey found generative AI use ranging from 20 percent at small firms to 74 percent at the largest. My read: that gap follows engineering capacity more than ambition.
+
 Match the tool to the workflow: configure first, buy the commodity, build only what you cannot safely hand to anyone else.
-Published 11 July 2026
+
+Published
+11 July 2026
+
 Sources
-ILTA 2024 Technology Survey (via eDiscovery Today)  <https://ediscoverytoday.com/2024/09/30/ilta-2024-technology-survey-results-released-today-legal-technology-trends/>
-Bloomberg Law, law firm tech budgets and the build-versus-buy AI debate (2026)  <https://news.bloomberglaw.com/daily-labor-report/law-firm-tech-budgets-drive-the-build-versus-buy-ai-debate>
+
+ILTA 2024 Technology Survey (via eDiscovery Today)  https://ediscoverytoday.com/2024/09/30/ilta-2024-technology-survey-results-released-today-legal-technology-trends/
+
+Bloomberg Law, law firm tech budgets and the build-versus-buy AI debate (2026)  https://news.bloomberglaw.com/daily-labor-report/law-firm-tech-budgets-drive-the-build-versus-buy-ai-debate
+
+Next: Composing your own agentic workflow: what the canvas gives a legal team →
+
+← All insights
+
+Get in touch →
 
 ============================================================
 ## Article: How to measure a legal automation pilot  <https://lexsas.com/insights/measuring-automation-pilots.html>
@@ -1622,6 +1680,45 @@ Sonraki yazı: Yapay zeka kaynaklı atıf hataları: hukuk ekipleri için doğru
 İletişime geç →
 
 ============================================================
+## Yazı: Kendi ajan iş akışınızı kurmak: tuval hukuk ekibine ne kazandırır  <https://lexsas.com/tr/yazilar/kendi-ajan-is-akisinizi-kurmak.html>
+============================================================
+
+July 2026 · AI regulation
+
+Kendi ajan iş akışınızı kurmak: tuval hukuk ekibine ne kazandırır
+
+Bir ürün yol haritası sizin kısıtınız olmaktan çıkar; yerine kendi disiplininiz geçer. Değişim bu kadar.
+
+Bu ay yayımlanan
+Hukukta yapay zeka: geliştirmek mi, satın almak mı, uyarlamak mı?
+hangi yolun hangi işe uyduğuna karar veriyor; bir soru eksik bırakıyor. Cevap uyarlamaksa, iş akışını kim çiziyor? Satın alınan hukuk ürünü başkasının akışını getirir: onun aşamaları, onun inceleme noktaları, hukukçunun nerede duracağına dair onun varsayımı. Genel amaçlı bir tuval üzerinde kendi ajan iş akışınızı kurmak bunu tersine çevirir. Talep aşaması sizin talebinizdir; insanın imza attığı kapı, bir ürün yöneticisinin tahmin ettiği yerde değil, riskinizin gerçekte durduğu yerde durur.
+
+Tuvalin önemi, yetki kümesini görünür kılmasında. Ajanın tuttuğu her araç, okuyabildiği her kaynak, yazabildiği her yer; bir hukukçunun işaret edip sorgulayabileceği ve kaldırabileceği çizili bir bağlantıdır.
+Prompt injection yazısının
+savunduğu kontrol tam olarak budur ve tedarikçi güvencesiyle değil, kuruluş biçimiyle gelir: Meta'nın Agents Rule of Two yaklaşımı bir ajana tek oturumda üç riskli özellikten en çok ikisini tanır; tuvalde bu sınır gözle görülür.
+
+Şirket içi ekip için kazanç, uyum ve mülkiyettir. İş akışı, ekibi bir ürünün etrafına bükmek yerine ekibin zaten yürüttüğü aşamaları yansıtır; çalıştırma geçmişi sizin çevrenizde durur ve denetçiye ya da yönetim kuruluna gösterebileceğiniz bir kayda dönüşür. Hukuk bürosunda her çalışma grubu, kendi inceleme derinliğine göre biçilmiş dosya akışları kurar; aynı kayıtlar ortakların saatleri savunmak yerine işi fiyatlamasını sağlar.
+
+Dürüst bedel, sahipliktir. Kurduğunuz iş akışının bakımı size aittir: her model, istem ya da bağlantı değişikliği
+bir değişiklik kapısından
+geçer ve iş akışı tanımı, bir platformdan ayrılırken yanınıza alacağınız varlık listesine girer. Bu, başkasının iş akışını satın almak için bir neden değil; kendi akışınıza sahip olmayı savunulabilir kılan disiplinin ta kendisidir.
+
+Yayım
+28 Temmuz 2026
+
+Sources
+
+Meta AI, Agents Rule of Two: A Practical Approach to AI Agent Security, 31 Ekim 2025  https://ai.meta.com/blog/practical-ai-agent-security/
+
+Simon Willison, The lethal trifecta for AI agents, 16 Haziran 2025  https://simonwillison.net/2025/Jun/16/the-lethal-trifecta/
+
+Sonraki yazı: Hukuki iş akışı otomasyonu pilotlarını ölçmek →
+
+← All insights
+
+Get in touch →
+
+============================================================
 ## Yazı: Pazaryeri uyum operasyonu: tek bildirim kuyruğu, en sıkı süreye ayarlı  <https://lexsas.com/tr/yazilar/pazaryeri-uyum-operasyonu.html>
 ============================================================
 
@@ -1913,21 +2010,41 @@ Sonraki yazı: Hukukta yapay zeka: geliştirmek mi, satın almak mı, uyarlamak 
 ============================================================
 ## Yazı: Hukukta yapay zeka: geliştirmek mi, satın almak mı, uyarlamak mı?  <https://lexsas.com/tr/yazilar/hukukta-yapay-zeka-kur-satin-al-yapilandir.html>
 ============================================================
-Yazılar
-Temmuz 2026 - Hukukta yapay zeka
+
+Temmuz 2026 · Hukukta yapay zeka
+
 Hukukta yapay zeka: geliştirmek mi, satın almak mı, uyarlamak mı?
+
 Büyük bir platform şirketinde AWS Bedrock üzerinde hukuk için yapay zeka aracı geliştirdim; aynı ekip için tedarikçi araçları da aldım. Asıl seçim çoğu zaman geliştirmek ya da satın almak değildir. Bitmiş bir ürünü satın alabilir, kurumsal bir platformu kendi iş akışınıza uyarlayabilir ya da kendi çözümünüzü geliştirebilirsiniz. Bu orta yol, benim uyarlamak dediğim yoldur ve işlerin çoğu buraya girer.
+
 Üç soru kararı belirler: veri ne kadar hassas, iş akışı ne kadar özgün ve ekip ne kadar mühendislik yükü taşıyabilir.
+
 Uyarlamak varsayılan yoldur. Bu yolda platformu yine de satın alırsınız; sahip olduğunuz şey, onun üzerine oluşturduğunuz iş akışıdır. Kurumsal platformlar artık, modeli sahiplenmeden, barındırılan bir modelin üzerine özel iş akışları, kurum içi bilgiye erişim ve koruma katmanları eklemenize izin veriyor. Sözleşme incelemesi ve kurum içi bilgi için bu, çok daha az bakımla değerin büyük kısmını verir.
+
 Standart işleri hazır ürünlerle çözün. Deşifre, çeviri, ilk taslak özetleme: bunlar olgunlaşmış, iyi hizmet verilen kategoriler. Bunları kurum içinde geliştirmek, bu hafta lisanslayabileceğiniz bir şeyi yeniden yapmak için bir yıl harcamak demektir.
+
 Yalnızca hem hassas hem de sizi farklılaştıran dar iş akışları için kendi çözümünüzü geliştirin. Geliştirmek üçüncü tarafları ortadan kaldırmaz: bizim Bedrock aracımız da bulut altyapısı üzerinde çalışıyor. Geliştirmek, hazır ürünlerin koşulları veri kullanımı, saklama, yerleşim (residency) ve denetim gereksinimlerinizi karşılayamadığında ve iş akışı sizi farklılaştırdığında doğru tercihtir. Yaşam döngüsünün tüm yükünü yine siz taşırsınız.
+
 Bloomberg Law 2026'da, büyük hukuk firmalarının yaklaşık yüzde 67'sinde yeni teknolojiye ayrılan harcamanın 2025 bütçesinin yüzde 2'sinin altında kaldığını bildirdi. Bu rakam kurum içi ekipleri değil firmaları ölçüyor, ama işaret açık.
+
 Kapasite gerisini belirler. ILTA'nın 2024 araştırması, üretken yapay zeka kullanımının küçük firmalarda yüzde 20'den en büyüklerde yüzde 74'e uzandığını buldu. Benim okumam: bu fark, hevesten çok mühendislik kapasitesini izliyor.
+
 Aracı işe göre seçin: önce uyarlayın, standart işi hazır üründen alın, yalnızca kimseye güvenle devredemeyeceğiniz işi kendiniz geliştirin.
-Yayımlandı 11 Temmuz 2026
+
+Yayımlandı
+11 Temmuz 2026
+
 Kaynaklar
-ILTA 2024 Technology Survey (via eDiscovery Today)  <https://ediscoverytoday.com/2024/09/30/ilta-2024-technology-survey-results-released-today-legal-technology-trends/>
-Bloomberg Law, law firm tech budgets and the build-versus-buy AI debate (2026)  <https://news.bloomberglaw.com/daily-labor-report/law-firm-tech-budgets-drive-the-build-versus-buy-ai-debate>
+
+ILTA 2024 Technology Survey (via eDiscovery Today)  https://ediscoverytoday.com/2024/09/30/ilta-2024-technology-survey-results-released-today-legal-technology-trends/
+
+Bloomberg Law, law firm tech budgets and the build-versus-buy AI debate (2026)  https://news.bloomberglaw.com/daily-labor-report/law-firm-tech-budgets-drive-the-build-versus-buy-ai-debate
+
+Sonraki yazı: Kendi ajan iş akışınızı kurmak: tuval hukuk ekibine ne kazandırır →
+
+← Tüm yazılar
+
+İletişime geç →
 
 ============================================================
 ## Yazı: Hukuki iş akışı otomasyonu pilotlarını ölçmek  <https://lexsas.com/tr/yazilar/otomasyon-pilotlarini-olcmek.html>

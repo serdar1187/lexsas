@@ -33,6 +33,8 @@ English.
 - [Home](https://lexsas.com/): what LEXSAS does, focus areas, legal workflow management and agent design, FAQ
 - [Asim Serdar Yilmaz | Legal and Regulatory Affairs Leader · LEXSAS](https://lexsas.com/about.html): full career history, board roles, education, working principles
 - [Insights](https://lexsas.com/insights.html): articles on law, regulation and AI
+- [Composing your own agentic workflow: what the canvas gives a legal team](https://lexsas.com/insights/composing-agentic-legal-workflows.html)
+- [Kendi ajan iş akışınızı kurmak: tuval hukuk ekibine ne kazandırır](https://lexsas.com/tr/yazilar/kendi-ajan-is-akisinizi-kurmak.html)
 - [Marketplace compliance ops: one notice queue, set to the tightest clock](https://lexsas.com/insights/marketplace-compliance-ops.html)
 - [Pazaryeri uyum operasyonu: tek bildirim kuyruğu, en sıkı süreye ayarlı](https://lexsas.com/tr/yazilar/pazaryeri-uyum-operasyonu.html)
 - [Prompt injection in legal workflows: a filter is not a control](https://lexsas.com/insights/prompt-injection-legal-workflows.html)

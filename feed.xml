@@ -6,7 +6,15 @@
   <atom:link href="https://lexsas.com/feed.xml" rel="self" type="application/rss+xml"/>
   <description>Short practitioner notes on legal tech, AI governance, regulatory affairs and regulated digital markets, by Asim Serdar Yilmaz (LEXSAS).</description>
   <language>en</language>
-  <lastBuildDate>Mon, 27 Jul 2026 12:00:00 GMT</lastBuildDate>
+  <lastBuildDate>Tue, 28 Jul 2026 09:00:00 GMT</lastBuildDate>
+  <item>
+    <title>Composing your own agentic workflow: what the canvas gives a legal team</title>
+    <link>https://lexsas.com/insights/composing-agentic-legal-workflows.html</link>
+    <guid isPermaLink="true">https://lexsas.com/insights/composing-agentic-legal-workflows.html</guid>
+    <description>A bought legal product ships someone else&#x27;s workflow. Composing your own agentic workflow puts the stages, the mandate and the records in the legal team&#x27;s hands.</description>
+    <pubDate>Tue, 28 Jul 2026 09:00:00 GMT</pubDate>
+    <category>insights-en</category>
+  </item>
   <item>
     <title>Marketplace compliance ops: one notice queue, set to the tightest clock</title>
     <link>https://lexsas.com/insights/marketplace-compliance-ops.html</link>
