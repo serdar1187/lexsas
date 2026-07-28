@@ -4,141 +4,342 @@
 ============================================================
 ## Home (EN)  <https://lexsas.com/>
 ============================================================
+
 AI LEGAL TECH
+
 Legal workflow automation, with the guardrails built in
+
 LEXSAS is the AI legal-tech venture I founded in 2026. I design and advise on tools that take the manual work out of legal and regulatory operations, from intake and document workflows to research and compliance, with privacy, IP and governance guardrails in place from the start.
+
 Get in touch
+
+→
+
 Explore focus areas
+
+lexsas
+
+ISTANBUL · EN / TR
+
 FOCUS AREAS
+
 Six areas, one operating standard
+
+01
+
+/ 06
+
 From intake automation to digital market governance, every engagement ends with controls the team can actually run.
+
+01
+
 Legal tech and AI workflow automation
+
 Designing and advising on AI-enabled tooling for legal work: intake, document and knowledge workflows, research and compliance operations. The aim is fewer manual steps without a lower standard of review.
+
+02
+
 AI governance and regulatory compliance
+
 Privacy, IP and governance guardrails that ship with the tool rather than after it, alongside model oversight, human review and documentation. I work on the line between what a policy says and what a team can actually operate.
+
+03
+
 GenAI adoption for legal teams
+
 Legal operations strategy for generative AI: where to start, what to build versus buy, and how responsible adoption actually happens. I have co-developed GenAI legal tooling in-house on AWS Bedrock and run the pilots that followed.
+
+04
+
 Data protection and data sovereignty
+
 Cross-border data transfer and localisation questions under KVKK and GDPR, including undertakings and the practical controls needed when regulatory expectations change.
+
+05
+
 E-commerce and platform regulation
+
 Marketplace and platform rules across consumer protection, advertising, intermediary liability and payments touchpoints. This includes licensing perimeter questions and the controls that keep a platform compliant at scale.
+
+06
+
 Competition and digital markets
+
 Governance, controls and strategy advisory for digital markets, covering parity clauses, ranking practices, pricing algorithms and bundling, with the decision records that show how each was set and who can change it.
+
 APPROACH
-How I work
-Practitioner, not vendor
-I have built and run these tools inside a legal team, not sold them. Advice starts from what a workflow actually looks like, not from a product roadmap.
-Guardrails that enable speed
-Well-designed controls let a team move quickly while protecting the business over the long term.
-Measurable pilots, human review
-Every AI deployment should begin as a pilot with a defined measure of success and a person owning the output. If it cannot show what it changed, it has not earned a wider rollout.
-“The useful answer is rarely a flat yes or no; it is yes, if.”
-Asim Serdar Yilmaz, Founder
+
+Legal workflow management and agent design
+
+01
+
+Legal workflow management
+
+Intake, document, research and compliance work runs on named stages with an owner, a clock and a record at each one. The managed workflow is what a regulator, a client or a board can be shown afterwards: who touched what, when, under which control.
+
+02
+
+Workflow agent design
+
+An agent gets a mandate the way a new team member does: which tools it may hold, what it may read, where a person signs. The capability set is decided before the pilot starts and re-evaluated on every model, prompt or connector change.
+
+03
+
+What in-house teams and law firms gain
+
+In-house, the hours spent on routine intake and first-pass review drop while every output keeps a named reviewer, so the record defends itself. For law firms, matters move faster without diluting review, and the same records carry the pricing conversation beyond the hour.
+
 LATEST INSIGHTS
+
 Notes on law, regulation and AI
+
 July 2026
-When an AI workflow fails: an incident protocol for legal teams
-A short response path for ownership, evidence, containment and restart when an AI-assisted legal workflow goes wrong.
+
+Prompt injection in legal workflows: a filter is not a control
+
+A filter is a mitigation. The control is the capability set an agent holds while it reads a document nobody in your organisation wrote.
+
+→
+
 July 2026
+
 The EU AI Act on 2 August 2026: what actually applies
-The adopted Digital Omnibus sets new high-risk application dates in 2027 and 2028; as of 18 July 2026 it awaited publication and entry into force. Article 50 duties become applicable on 2 August.
+
+Regulation (EU) 2026/1744, the Digital Omnibus on AI, entered into force on 27 July and moves the high-risk dates to 2027 and 2028. Article 50 duties still apply from 2 August.
+
+→
+
 July 2026
+
 AI citation errors: a verification protocol for legal teams
+
 An independent database listed more than 1,770 cases as of 18 July 2026 in which courts or tribunals addressed generative-AI hallucinations or, in some entries, alleged AI use. A five-step verification protocol.
+
+→
+
+All insights
+
+→
+
 LINKEDIN POSTS
+
 Notes from LinkedIn on AI, law and regulation
+
 23 July 2026
+
 When an AI agent breaks out of the sandbox, who answers?
+
+→
+
 21 July 2026
+
 Open weights as geopolitical insurance
+
+→
+
+All LinkedIn posts
+
+→
+
 FAQ
+
 Common questions
+
 What does LEXSAS do?
+
 LEXSAS is an AI legal-tech venture focused on legal workflow automation and advisory. It designs AI-enabled tooling for legal and regulatory teams, from intake and document workflows to research and compliance operations, and advises on responsible adoption with privacy, IP and governance guardrails built in.
+
 Which areas does the advisory work cover?
+
 Legal technology and AI governance, regulatory affairs and corporate affairs in regulated digital markets, e-commerce and platform regulation, data protection under KVKK and GDPR, and competition questions in digital markets. The work is grounded in more than 20 years of legal and regulatory experience, most of it in-house, across global technology, consumer and marketplace businesses.
+
 Who is behind LEXSAS?
+
 Asim Serdar Yilmaz, founder of LEXSAS and a senior legal and regulatory affairs leader with more than 20 years of experience, most of it in-house, following private practice at White & Case.
+
 Do you work in English and Turkish?
+
 Yes. Advisory, writing and speaking are available in both languages, from Istanbul and remotely.
+
 Is this legal representation?
+
 No. LEXSAS provides informational consultancy on legal technology, AI governance and regulatory strategy. It is not a law firm and does not provide legal representation.
+
 CONTACT
+
 Let’s talk.
+
 serdar@lexsas.com
+
 Advisory on AI governance, regulated digital markets and legal operations. Speaking and board conversations are welcome, in English or Turkish. When you write, a short outline of the workflow, team and timing you have in mind helps, without any confidential detail.
 
 ============================================================
 ## About (EN)  <https://lexsas.com/about.html>
 ============================================================
-Page title: Asim Serdar Yilmaz | Legal and Regulatory Affairs Leader · LEXSAS
-ABOUT
+
+About
+
 Asim Serdar Yilmaz: a career built inside regulated markets
+
 20+ years in legal and regulatory work
-Amazon, eBay, White & Case
+
+Amazon · eBay · White & Case
+
 Statutory Board Director
+
 Ankara Bar
+
+Istanbul · EN / TR
+
 I am Asim Serdar Yilmaz, a senior legal and regulatory affairs leader based in Istanbul. Across more than 20 years of legal and regulatory work, most of it in-house, I have advised global technology, consumer and regulated businesses across Turkey and the Middle East, in retail and marketplace, streaming and media, advertising, payments, data and IP. My work tends to sit where a business wants to move quickly and a regulator wants to move carefully.
+
 I started in private practice at White & Case in Ankara, on cross-border M&A, privatisations and IP in regulated sectors. From there I moved in-house: first into a strict, high-scrutiny compliance environment at a global group in a highly regulated industry across the Middle East, then into e-commerce at eBay's Turkey and MENA business, and from 2019 to 2026 as Legal Director for Amazon Turkey. In 2026 I moved from legal into regulatory affairs, and today I lead the regulatory agenda within the corporate affairs function of a global group in a highly regulated industry.
+
 The thread through all of it is regulated markets. I have spent years turning regulatory ambiguity into paths a business can actually take, and building what I think of as "yes, if" guardrails: controls that let a team move at speed while protecting the enterprise over the long term. Much of that has meant sitting across the table from competition authorities, data protection regulators, media regulators and ministries.
+
 The other current chapter is LEXSAS, the AI legal-tech venture I founded in 2026, focused on legal workflow automation and advisory. It blends what the career built in layers: legal directorship, regulatory affairs, corporate affairs and public policy, now paired with hands-on AI governance. It grew out of years of building generative AI tooling for legal work, on AWS Bedrock among other platforms, and of seeing where adoption succeeds and where it quietly fails. This site is where I write about that intersection of law, regulation and AI, as informational consultancy rather than legal representation.
+
 EXPERIENCE
+
 More than twenty years across the table from regulators
+
 Those years include statutory board roles and leading legal functions through investigations, licensing questions and market entry. What I say about AI stands on this practitioner ground.
+
 Career
+
 2026 to present
+
 Founder
+
 LEXSAS, Istanbul
+
 An AI legal-tech venture focused on legal workflow automation and advisory for legal and regulatory teams.
+
 Designs and advises on AI-enabled tooling across the legal workflow: intake, document and knowledge management, research and compliance operations.
+
 Builds privacy, IP and governance guardrails into every tool from the start, pairing 20+ years of legal and regulatory leadership, most of it in-house, with responsible AI adoption.
+
 2026 to present
+
 Regulatory Affairs Director
+
 A global group in a highly regulated consumer industry, Istanbul
+
 Leads the regulatory agenda within the corporate affairs function, as functional lead in one of the most heavily regulated consumer sectors.
+
 Regulatory strategy, horizon scanning and regulatory-change analysis for the Turkish market, supporting public policy and government relations work.
+
 Applies AI governance discipline to regulatory operations: monitoring, analysis and institutional knowledge workflows, with guardrails built in.
+
 2019 to 2026
+
 Legal Director, Technology, E-Commerce and Media; Board Director
+
 Amazon Turkey, Istanbul
+
 End-to-end retail and marketplace counsel: commercial contracting, consumer law, advertising, product compliance, supply chain, payments, privacy and disputes.
+
 Regulatory representation before RTUK, the Turkish Competition Authority, the Ministry of Trade, the Ministry of Industry and Technology, the KVKK Authority and the Central Bank, including representation in a Ministry of Trade investigation.
+
 Led the response to a KVKK order on cross-border data transfers: prepared and executed a Data Transfer Undertaking approved by the KVKK Authority.
+
 Competition and digital markets strategy on parity and MFN, ranking and Buy Box practices, and algorithmic accountability, including leading the Turkey defense strategy on a pricing-algorithms investigation before the Turkish Competition Authority.
+
 Statutory Board Director for multiple Amazon entities in Turkey, including Prime Video Turkey and Project Kuiper, under Turkish company law. Co-developed GenAI legal tooling on AWS Bedrock to streamline intake and knowledge workflows and reduce outside counsel dependency.
+
 2012 to 2019
+
 Head of Legal and Business Ethics Officer, Middle East and North Africa
+
 eBay Turkey (GittiGidiyor), Istanbul
+
 Regional legal leadership for e-commerce marketplace operations across Turkey and MENA: consumer protection, advertising, payments, IP and commercial transactions.
+
 Head of Public Policy, representing the company before regulators and industry bodies, including the TOBB E-Commerce Assembly.
+
 Payments and fintech: designed and secured regulator approval for a commercial agent exemption model enabling marketplace payment collection and seller payouts without a full payment institution license.
+
 Regional Business Ethics Officer under the FCPA and UK Bribery Act: Code of Conduct training, third-party due diligence and internal investigations.
+
 2008 to 2012
+
 Regional Legal Counsel and Company Secretary, Middle East; Legal Counsel, Global Functions
+
 A global group in a highly regulated industry, Dubai and Lausanne
+
 Advised commercial teams across 12 Middle East markets under strict advertising bans and Ministry of Health regulations.
+
 Route-to-market and distribution architecture: distribution, key account and trade marketing arrangements, with templates and controls.
+
 Company Secretary for regional entities, coordinating external counsel across 12 jurisdictions.
+
 Global anti-corruption governance from the Lausanne headquarters, including executive risk reporting under the FCPA and UK Bribery Act.
+
 2005 to 2008
+
 Associate
+
 White & Case LLP, Ankara
+
 Cross-border M&A and privatisations in regulated sectors including telecoms, energy and banking.
+
 IP work: trademark clearance, prosecution, cancellations and oppositions, licensing and NDAs.
+
 Regulated industries advisory across energy and infrastructure, environmental and administrative law.
+
 Disputes and labor matters before Turkish courts.
+
 Board and governance
+
 Between 2019 and 2026 I served as a Statutory Board Director and authorised representative for multiple Amazon entities in Turkey, including Prime Video Turkey and Project Kuiper, under Turkish company law. Earlier I was a Deputy Board Member of the e-Commerce Commercial Enterprises Association. These roles carried director duties and liability under the Turkish Commercial Code.
+
 Education
+
 Executive Education Program, Harvard Business School (2018-2019)
+
 MSc, Internet Business, Mercy College, New York (2002-2004)
+
 BA in Law, Ankara University School of Law (1995-2001)
+
 Courses and seminars
+
 AI Law, Policy and Governance, London School of Economics
+
 WIPO: E-Commerce and IP; Arbitration and Mediation; Trademarks and Designs; Copyright
+
 Intellectual and Industrial Property Rights Program, Ankara University
+
 Ankara Bar Association. Languages: Turkish (native), English (fluent).
-If any of this is close to a question you are working on, write to me: https://lexsas.com/contact.html
+
+If any of this is close to a question you are working on,
+write to me
+.
+
+APPROACH
+
+How I work
+
+01
+
+Practitioner, not vendor
+
+I have built and run these tools inside a legal team, not sold them. Advice starts from what a workflow actually looks like, not from a product roadmap.
+
+02
+
+Guardrails that enable speed
+
+Well-designed controls let a team move quickly while protecting the business over the long term.
+
+03
+
+Measurable pilots, human review
+
+Every AI deployment should begin as a pilot with a defined measure of success and a person owning the output. If it cannot show what it changed, it has not earned a wider rollout.
+
+“The useful answer is rarely a flat yes or no; it is yes, if.”
+
+Asim Serdar Yilmaz, Founder
 
 ============================================================
 ## Insights (EN)  <https://lexsas.com/insights.html>
@@ -945,141 +1146,342 @@ Get in touch →
 ============================================================
 ## Ana Sayfa (TR)  <https://lexsas.com/tr/>
 ============================================================
+
 YAPAY ZEKA LEGAL-TECH GİRİŞİMİ
+
 Hukuki işi hızlandıran yapay zeka, güvenceler baştan kurulu
+
 LEXSAS'ı 2026'da, hukuki ve regülatif işi hızlandıran yapay zeka destekli araçlar tasarlamak ve bu konuda danışmanlık vermek için kurdum. Talep karşılama, doküman ve bilgi iş akışları, araştırma ve uyum operasyonları üzerine çalışıyorum; gizlilik, fikri mülkiyet ve yönetişim güvencelerini baştan kuruyorum.
+
 İletişime geçin
+
+→
+
 Çalışma alanları
+
+lexsas
+
+ISTANBUL · EN / TR
+
 ÇALIŞMA ALANLARI
+
 Altı alan, tek çalışma standardı
+
+01
+
+/ 06
+
 Talep otomasyonundan dijital pazar yönetişimine kadar her çalışma, ekibin gerçekten işletebileceği kontrollerle tamamlanıyor.
+
+01
+
 Hukuk teknolojisi ve yapay zeka iş akışı otomasyonu
+
 Talep karşılama, doküman ve bilgi iş akışları, araştırma ve uyum operasyonlarını hızlandıran yapay zeka destekli araçlar tasarlıyorum. Tekrar eden işi sadeleştirip hukukçunun zamanını gerçekten muhakeme isteyen işlere ayırmayı hedefliyorum.
+
+02
+
 Yapay zeka yönetişimi ve regülasyon uyumu
+
 Gizlilik, fikri mülkiyet ve yönetişim güvencelerini araçların tasarımına baştan yerleştiriyorum. Sorumluluk, insan incelemesi ve belgeleme içeren, denetime dayanıklı çerçeveler kuruyorum.
+
+03
+
 Hukuk ekiplerinde üretken yapay zekanın benimsenmesi
+
 Üretken yapay zeka için hukuk operasyonları stratejisi: nereden başlanacağı, geliştirme, satın alma ya da uyarlama kararı ve sorumlu benimsemenin gerçekte nasıl yürüdüğü. Şirket içinde AWS Bedrock üzerinde üretken yapay zeka hukuk aracının geliştirilmesinde yer aldım ve ardından gelen pilotları yürüttüm.
+
+04
+
 Kişisel verilerin korunması ve veri egemenliği
+
 KVKK ve GDPR çerçevesinde sınır ötesi veri aktarımı ve veri yerelleştirme soruları; taahhütnameler ve regülatif beklenti değiştiğinde gereken pratik kontroller.
+
+05
+
 E-ticaret ve platform regülasyonu
+
 Tüketici hukuku, reklam, aracı sorumluluğu ve ödeme temas noktaları boyunca pazaryeri ve platform kuralları; 5651 sayılı Kanun kapsamındaki bildirim ve kaldırma süreçleri dahil. Hangi faaliyetin lisans gerektirdiği sorusu ve ölçekte uyumu ayakta tutan kontroller de bu alanın parçası.
+
+06
+
 Rekabet ve dijital pazarlar
+
 Dijital pazarlarda yönetişim, kontrol ve strateji danışmanlığı; fiyat paritesi hükümleri, sıralama uygulamaları, fiyatlandırma algoritmaları ve ürün paketleme başlıklarında, her birinin nasıl belirlendiğini ve kimin değiştirebileceğini gösteren karar kayıtlarıyla birlikte.
+
 YAKLAŞIM
-Nasıl çalışıyorum
-Ürün satışı değil, uygulama deneyimi
-Bir ürünü pazarlamak için değil, hukuk işinin içinden konuşuyorum. Neyin gerçekten işe yaradığını, hangi kısayolun sonradan risk biriktirdiğini uygulama deneyimiyle ayırt ediyorum.
-Hızı mümkün kılan güvenceler
-İyi tasarlanmış güvenceler işi yavaşlatmak yerine güvenli biçimde hızlandırabilir.
-Ölçülebilir pilotlar, insan incelemesi
-Bir çözümün işe yarayıp yaramadığı hislerle değil, ölçülebilir pilotlarla anlaşılır. Aracın hiçbir çıktısı, bir hukukçunun incelemesinden geçmeden dışa çıkmaz.
-“Faydalı cevap çoğu zaman düz bir evet ya da hayır değildir; evet, şu koşulla.”
-Asım Serdar Yılmaz, Kurucu
+
+Hukuki iş akışı yönetimi ve ajan tasarımı
+
+01
+
+Hukuki iş akışı yönetimi
+
+Talep, doküman, araştırma ve uyum işi; her birinde sahibi, süresi ve kaydı belli aşamalarda yürür. Yönetilen iş akışı, sonrasında bir denetçiye, müvekkile ya da yönetim kuruluna gösterilebilen şeydir: kim, neye, ne zaman, hangi kontrol altında dokundu.
+
+02
+
+İş akışı ajanı tasarımı
+
+Ajana görev tanımı, ekibe yeni katılan birine verilir gibi verilir: hangi araçları tutabilir, neyi okuyabilir, nerede bir insan imza atar. Yetki kümesi pilot başlamadan belirlenir; her model, istem ya da bağlantı değişikliğinde yeniden değerlendirilir.
+
+03
+
+Şirket içi ekiplere ve hukuk bürolarına katkısı
+
+Şirket içinde rutin talep karşılama ve ilk incelemeye giden saatler azalırken her çıktının adı belli bir incelemecisi kalır; kayıt kendini savunur. Hukuk bürolarında dosyalar inceleme sulandırılmadan hızlanır ve aynı kayıtlar, fiyat konuşmasını saatin ötesine taşır.
+
 SON YAZILAR
+
 Hukuk, regülasyon ve yapay zeka üzerine notlar
+
 Temmuz 2026
-Yapay zeka iş akışı aksadığında: hukuk ekipleri için olay müdahale protokolü
-Yapay zeka destekli bir hukuk iş akışı aksadığında sorumluluğu, kayıtların korunmasını, sınırlamayı ve yeniden başlatmayı düzenleyen kısa bir müdahale protokolü.
+
+Hukuki iş akışlarında prompt injection: filtre bir kontrol değildir
+
+Filtre azaltıcı bir önlemdir. Kontrol, ajanın kuruluşunuzdan kimsenin yazmadığı bir belgeyi okurken elinde tuttuğu yetki kümesidir.
+
+→
+
 Temmuz 2026
+
 AB Yapay Zeka Tüzüğü: 2 Ağustos 2026'da uygulanmaya başlayanlar
-Kabul edilen Dijital Omnibus, yüksek riskli sistemler için 2027 ve 2028'de yeni uygulama tarihleri belirliyor; 18 Temmuz 2026 itibarıyla yayımlanmayı ve yürürlüğe girmeyi bekliyor. Madde 50 yükümlülükleri 2 Ağustos'ta uygulanmaya başlıyor.
+
+(AB) 2026/1744 sayılı Yapay Zekada Dijital Omnibus 27 Temmuz'da yürürlüğe girdi ve yüksek risk tarihlerini 2027 ile 2028'e taşıdı. Madde 50 yükümlülükleri 2 Ağustos'tan itibaren uygulanmaya devam ediyor.
+
+→
+
 Temmuz 2026
+
 Yapay zeka kaynaklı atıf hataları: hukuk ekipleri için doğrulama protokolü
+
 Bağımsız bir veritabanı, 18 Temmuz 2026 itibarıyla mahkemelerin ya da diğer yargı mercilerinin üretken yapay zeka halüsinasyonlarını veya bazı kayıtlarda yalnızca ileri sürülen yapay zeka kullanımını ele aldığı 1.770'ten fazla vakayı listeliyordu. Beş adımlık doğrulama protokolü.
+
+→
+
+Tüm yazılar
+
+→
+
 LINKEDIN GÖNDERİLERİ
+
 LinkedIn'den yapay zeka, hukuk ve regülasyon notları
+
 23 Temmuz 2026
+
 Yapay zeka ajanı kum havuzundan çıkarsa kim sorumlu olur?
+
+→
+
 21 Temmuz 2026
+
 Jeopolitik sigorta olarak açık ağırlıklar
+
+→
+
+Tüm LinkedIn gönderileri
+
+→
+
 SSS
+
 Sık sorulan sorular
+
 LEXSAS ne yapar?
+
 LEXSAS, hukuki iş akışı otomasyonu ve danışmanlığa odaklanan bir yapay zeka hukuk teknolojisi girişimidir. Hukuk ve regülasyon ekipleri için talep karşılamadan doküman ve bilgi iş akışlarına, araştırmadan uyum operasyonlarına uzanan yapay zeka destekli araçlar tasarlar; gizlilik, fikri mülkiyet ve yönetişim güvenceleri baştan kuruludur.
+
 Danışmanlık hangi alanları kapsıyor?
+
 Hukuk teknolojileri ve yapay zeka yönetişimi, düzenlemeye tabi dijital pazarlarda regülasyon ve kurumsal ilişkiler, e-ticaret ve platform regülasyonu, KVKK ve GDPR kapsamında veri koruma ile dijital pazarlarda rekabet soruları. Bu çalışmalar, 20 yılı aşkın hukuk ve regülasyon deneyimine dayanıyor; bu sürenin çoğu küresel teknoloji, tüketici ve pazaryeri şirketlerinde, şirket içinde geçti.
+
 LEXSAS'ın arkasında kim var?
+
 LEXSAS'ın kurucusu Asım Serdar Yılmaz, White & Case'te başlayan kariyerinde Amazon ve eBay dahil küresel şirketlerde 20 yılı aşkın hukuk ve regülasyon deneyimi edindi; bu sürenin çoğu şirket içinde geçti.
+
 Hangi dillerde çalışıyorsunuz?
+
 Türkçe ve İngilizce. Danışmanlık, yazı ve konuşmacılık İstanbul'dan ve uzaktan yürütülüyor.
+
 Bu bir avukatlık hizmeti mi?
+
 Hayır. LEXSAS hukuk teknolojileri, yapay zeka yönetişimi ve regülasyon stratejisi üzerine bilgilendirme amaçlı danışmanlık sunar; bir hukuk bürosu değildir ve hukuki temsil hizmeti vermez.
+
 İLETİŞİM
+
 Konuşalım.
+
 serdar@lexsas.com
+
 Yapay zeka yönetişimi, düzenlemeye tabi dijital pazarlar ve hukuk operasyonları üzerine danışmanlık. Konuşma ve yönetim kurulu davetlerine de açığım, Türkçe ya da İngilizce. Yazarken, aklınızdaki iş akışını, ekibi ve zamanlamayı gizli bir ayrıntı paylaşmadan kısaca özetlemeniz yardımcı olur.
 
 ============================================================
 ## Hakkında (TR)  <https://lexsas.com/tr/hakkinda.html>
 ============================================================
-Page title: Asım Serdar Yılmaz | Hukuk ve Regülasyon Lideri · LEXSAS
-HAKKINDA
+
+Hakkında
+
 Asım Serdar Yılmaz: düzenlemeye tabi pazarların içinden gelen bir kariyer
+
 20+ yıl hukuk ve regülasyon deneyimi
-Amazon, eBay, White & Case
+
+Amazon · eBay · White & Case
+
 Yönetim kurulu üyeliği ve yetkili temsilcilik
+
 Ankara Barosu
+
+Istanbul · EN / TR
+
 Yirmi yılı aşkın süredir Türkiye ve Orta Doğu'da küresel teknoloji, tüketici ve düzenlemeye tabi sektörlerdeki şirketlere hukuk danışmanlığı veriyorum; bu sürenin çoğu şirket içinde geçti. Alanım perakende, e-ticaret ve pazaryeri, dijital yayıncılık ve içerik, reklam, ödemeler, veri ve yapay zeka ile fikri mülkiyeti kapsıyor. İşim çoğu zaman işletmenin hızla ilerlemek istediği, düzenleyicinin ise temkinli davrandığı kesişim noktasında yer alıyor.
+
 Kariyerim Ankara'da White & Case bünyesinde, düzenlemeye tabi sektörlerdeki sınır ötesi birleşme, devralma ve özelleştirme çalışmalarıyla başladı. Yüksek düzeyde düzenlemeye tabi bir sektörde faaliyet gösteren küresel bir grupta Orta Doğu ve küresel merkez rollerinde katı reklam yasakları altında ticari ekiplere danışmanlık verdim. eBay Türkiye'de Orta Doğu ve Kuzey Afrika bölgesinin hukuk liderliğini yürüttüm. 2019-2026 arasında Amazon Türkiye'de Hukuk Direktörü olarak görev yaptım. 2026'da hukuktan regülasyona geçtim; bugün yüksek düzeyde düzenlemeye tabi bir sektördeki küresel bir grubun kurumsal ilişkiler fonksiyonu içinde regülasyon gündemini yönetiyorum.
+
 Çalışmalarımın ortak ekseni düzenlemeye tabi pazarlar oldu. Rekabet, tüketici koruma, ödemeler, veri koruma, aracı sorumluluğu ve kurumsal yönetişim gibi alanlarda, düzenleyici belirsizliği işletmenin ilerleyebileceği somut yollara çevirmeye odaklandım. Rekabet Kurumu, KVKK, Ticaret Bakanlığı, RTÜK ve TCMB gibi kurumlar önünde temsil bu işin sürekli parçası oldu.
+
 Son yıllarda odağım yapay zeka yönetişimi ve hukuk teknolojisine kaydı. Amazon'da AWS Bedrock üzerinde üretken yapay zeka destekli hukuk araçlarının geliştirilmesine katkı verdim, talep karşılama ve bilgi erişimi süreçlerini sadeleştiren, dış avukat bağımlılığını azaltmayı hedefleyen çözümler üzerinde çalıştım. 2026'da bu deneyimi bağımsız bir zemine taşıyarak LEXSAS'ı kurdum: hukuki ve regülatif işi hızlandıran, güvenceleri baştan kurulu yapay zeka araçları tasarlayan ve bu konuda danışmanlık veren bir girişim. LEXSAS, kariyerin katman katman biriktirdiklerini tek çatıda birleştiriyor: hukuk direktörlüğü, regülasyon, kurumsal ilişkiler ve kamu politikası, artık uygulamalı yapay zeka yönetişimiyle yan yana.
+
 DENEYİM
+
 Düzenlemeye tabi pazarlarda yirmi yılı aşkın deneyim
+
 Bu süre boyunca Türk şirketler hukuku kapsamında yönetim kurulu üyeliği görevleri üstlendim; soruşturmalar, lisans soruları ve pazara giriş süreçlerinde hukuk fonksiyonlarına liderlik ettim. Yapay zeka üzerine söylediklerim bu uygulama zeminine dayanıyor.
+
 Kariyer
+
 2026-günümüz
+
 Kurucu
+
 LEXSAS, İstanbul
+
 Hukuki iş akışı otomasyonuna ve danışmanlığa odaklı bir yapay zeka hukuk teknolojisi girişimi kurdum; hukuki ve regülatif işi hızlandırmak temel amaç.
+
 Talep karşılama, doküman ve bilgi iş akışları, araştırma ve uyum operasyonları için yapay zeka destekli araçlar tasarlıyor ve bu konuda danışmanlık veriyorum.
+
 Gizlilik, fikri mülkiyet ve yönetişim güvencelerini araçların tasarımına baştan yerleştiriyorum; 20+ yıllık hukuk ve regülasyon liderliğini sorumlu yapay zeka benimsemesiyle birleştiriyorum.
+
 2026-günümüz
+
 Regülasyon Direktörü (Regulatory Affairs)
+
 Yüksek düzeyde düzenlemeye tabi bir sektörde faaliyet gösteren küresel bir grup, İstanbul
+
 Kurumsal ilişkiler fonksiyonu içinde regülasyon gündemini fonksiyonel lider olarak yönetiyorum; en yoğun düzenlemeye tabi tüketici sektörlerinden birinde.
+
 Türkiye pazarı için regülasyon stratejisi, mevzuat izleme ve değişiklik analizi; kamu politikası ve kamu kurumlarıyla ilişkiler çalışmalarına destek veriyorum.
+
 Regülasyon operasyonlarına yapay zeka yönetişimi disiplini uyguluyorum: izleme, analiz ve kurumsal bilgi iş akışları, güvenceler baştan kurulu.
+
 2019-2026
+
 Hukuk Direktörü ve Yönetim Kurulu Üyesi
+
 Amazon Türkiye, İstanbul
+
 Perakende ve pazaryeri için uçtan uca hukuk danışmanlığı: ticari sözleşmeler, tüketici hukuku, reklam ve promosyon, ürün uyumu, tedarik zinciri, ödemeler, mahremiyet ve uyuşmazlıklar.
+
 Düzenleyici kurumlar nezdinde şirketi temsil ettim: RTÜK, Rekabet Kurumu, Ticaret Bakanlığı, Sanayi ve Teknoloji Bakanlığı, KVKK Kurumu ve Türkiye Cumhuriyet Merkez Bankası; teslimat taahhüdüne ilişkin bir Ticaret Bakanlığı incelemesindeki temsil de buna dahil.
+
 Sınır ötesi veri aktarımına ilişkin bir KVKK kararına yanıt olarak, KVKK Kurumu tarafından onaylanan bir Veri Aktarım Taahhütnamesi hazırladım ve imzaladım.
+
 Fiyatlama algoritmaları üzerine yürütülen bir Rekabet Kurumu incelemesinde Türkiye savunma stratejisini yönettim; savunma, algoritmik bağımsızlığa dayanan teknik ve iktisadi bir anlatı üzerine kuruluydu.
+
 Prime Video Türkiye ve Project Kuiper dahil birden çok Amazon tüzel kişiliği için Türk şirketler hukuku kapsamında yönetim kurulu üyeliği görevlerini yürüttüm; AWS Bedrock üzerinde üretken yapay zeka destekli hukuk araçlarının geliştirilmesine katkı verdim.
+
 2012-2019
+
 Hukuk Başkanı ve İş Etiği Sorumlusu, Orta Doğu ve Kuzey Afrika
+
 eBay Türkiye (GittiGidiyor), İstanbul
+
 Türkiye ve MENA bölgesinde pazaryeri operasyonları için bölgesel hukuk liderliği: tüketici koruma, reklam, ödemeler, fikri mülkiyet ve ticari işlemler.
+
 Tam ödeme kuruluşu lisansı almadan ödeme toplama ve satıcı ödemesi yapmayı sağlayan bir muafiyet modelini BDDK onayıyla kurdum.
+
 Kamu politikası başkanı olarak şirketi düzenleyiciler ve sektör kuruluşları önünde temsil ettim, TOBB E-Ticaret Meclisi dahil; banka ve ödeme kuruluşu iş birlikleri ile satıcı ödemelerinde BDDK ve TCMB çerçevesinde danışmanlık verdim.
+
 Bölgesel iş etiği sorumluluğu, üçüncü taraf durum tespiti ve iç soruşturmalar; geniş bir uyuşmazlık portföyünün ve pazaryeri fikri mülkiyet stratejisinin yönetimi.
+
 2008-2012
+
 Bölgesel Hukuk Müşaviri ve Şirket Sekreteri, Orta Doğu
+
 Yüksek düzeyde düzenlemeye tabi bir sektörde faaliyet gösteren küresel bir grup, Dubai ve Lozan
+
 Katı reklam yasakları ve Sağlık Bakanlığı düzenlemeleri altında 12 Orta Doğu pazarında ticari ekiplere danışmanlık.
+
 Pazara giriş ve dağıtım mimarisi: dağıtım, kilit müşteri ve ticari pazarlama düzenlemeleri, şablonlar ve kontroller.
+
 Yüksek riskli bir bölgede saha ekibi etiği ve üçüncü taraf uyumu için pratik kurallar ve eğitimler; marka koruma ve kaçak ticaret riskine karşı tedarik zinciri bütünlüğü.
+
 Ürdün'de bir devralmanın hukuk iş akışının yönetimi; bölgesel tüzel kişilikler için şirket sekreterliği ve merkez rolünde küresel yolsuzlukla mücadele yönetişimi.
+
 2005-2008
+
 Avukat
+
 White & Case LLP Ankara (Çakmak Avukatlık Bürosu)
+
 Düzenlemeye tabi sektörlerde sınır ötesi birleşme, devralma ve özelleştirmeler: telekomünikasyon, enerji ve bankacılık; Telsim özelleştirmesi dahil.
+
 Fikri mülkiyet: marka araştırması, tescil, iptal ve itiraz süreçleri, lisanslama ve gizlilik sözleşmeleri.
+
 Düzenlemeye tabi sektörler danışmanlığı: enerji ve altyapı (petrol, gaz, madencilik), çevre ve idare hukuku.
+
 Uyuşmazlıklar ve iş hukuku: iş sözleşmeleri, ticari ve iş uyuşmazlıklarının Türk mahkemeleri önünde takibi.
+
 Yönetim kurulu ve kurumsal yönetişim
+
 2019-2026 arasında Türk şirketler hukuku kapsamında, Prime Video Türkiye ve Project Kuiper dahil olmak üzere birden çok Amazon tüzel kişiliği için yönetim kurulu üyeliği ve yetkili temsilcilik görevlerini yürüttüm. Bu roller kurul sorumluluğu, yetki yönetimi ve kurumsal yönetişim disiplinini kapsıyordu. Daha önce Elektronik Ticaret İşletmecileri Derneği'nde yardımcı yönetim kurulu üyeliği görevini üstlendim.
+
 Eğitim
+
 Yönetici Eğitim Programı, Harvard Business School (2018-2019)
+
 İnternet İşletmeciliği Yüksek Lisansı, Mercy College, New York (2002-2004)
+
 Hukuk Lisansı, Ankara Üniversitesi Hukuk Fakültesi (1995-2001)
+
 Kurslar ve seminerler
+
 Yapay Zeka Hukuku, Politikası ve Yönetişimi, London School of Economics
+
 WIPO: E-Ticaret ve Fikri Mülkiyet İleri Kursu, Tahkim ve Arabuluculuk, Markalar ve Tasarımlar, Telif Hakları
+
 Fikri ve Sınai Mülkiyet Hakları Programı, Ankara Üniversitesi
+
 Ankara Barosu üyesi. Diller: Türkçe (ana dil), İngilizce (akıcı).
-Bunlardan biri elinizdeki soruya yakınsa bana yazın: https://lexsas.com/tr/iletisim.html
+
+Bunlardan biri elinizdeki soruya yakınsa,
+bana yazın
+.
+
+YAKLAŞIM
+
+Nasıl çalışıyorum
+
+01
+
+Ürün satışı değil, uygulama deneyimi
+
+Bir ürünü pazarlamak için değil, hukuk işinin içinden konuşuyorum. Neyin gerçekten işe yaradığını, hangi kısayolun sonradan risk biriktirdiğini uygulama deneyimiyle ayırt ediyorum.
+
+02
+
+Hızı mümkün kılan güvenceler
+
+İyi tasarlanmış güvenceler işi yavaşlatmak yerine güvenli biçimde hızlandırabilir.
+
+03
+
+Ölçülebilir pilotlar, insan incelemesi
+
+Bir çözümün işe yarayıp yaramadığı hislerle değil, ölçülebilir pilotlarla anlaşılır. Aracın hiçbir çıktısı, bir hukukçunun incelemesinden geçmeden dışa çıkmaz.
+
+“Faydalı cevap çoğu zaman düz bir evet ya da hayır değildir; evet, şu koşulla.”
+
+Asım Serdar Yılmaz, Kurucu
 
 ============================================================
 ## Yazılar (TR)  <https://lexsas.com/tr/yazilar.html>
