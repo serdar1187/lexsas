@@ -51,25 +51,31 @@ document.documentElement.classList.add("js");
      layout it sits below the fold. On a desktop load the canvas is already in
      view at the first callback, so it starts at once. */
 
-  const revealIO = new IntersectionObserver(
-    (entries) => {
-      entries.forEach((entry) => {
-        if (!entry.isIntersecting) return;
-        if (entry.target === heroArt) {
-          const root = entry.rootBounds;
-          const enough =
-            entry.intersectionRatio >= 0.5 ||
-            (root && root.height > 0 && entry.intersectionRect.height >= root.height * 0.5);
-          if (!enough) return;
-          entry.target.classList.add("play");
-        } else {
-          entry.target.classList.add("in");
-        }
-        revealIO.unobserve(entry.target);
-      });
-    },
-    { threshold: [0.12, 0.5], rootMargin: "0px 0px -6% 0px" }
-  );
+  /* The .js class above is what hides a reveal, so a browser that gets this
+     far without IntersectionObserver must not be left with hidden content:
+     everything is shown at once instead of on scroll. */
+  const hasRevealIO = "IntersectionObserver" in window;
+  const revealIO = hasRevealIO
+    ? new IntersectionObserver(
+        (entries) => {
+          entries.forEach((entry) => {
+            if (!entry.isIntersecting) return;
+            if (entry.target === heroArt) {
+              const root = entry.rootBounds;
+              const enough =
+                entry.intersectionRatio >= 0.5 ||
+                (root && root.height > 0 && entry.intersectionRect.height >= root.height * 0.5);
+              if (!enough) return;
+              entry.target.classList.add("play");
+            } else {
+              entry.target.classList.add("in");
+            }
+            revealIO.unobserve(entry.target);
+          });
+        },
+        { threshold: [0.12, 0.5], rootMargin: "0px 0px -6% 0px" }
+      )
+    : null;
 
   /* A long list fades once, as a block, rather than row by row. Row by row, a
      fourteen-row index handed its last row a .65s delay on top of a .8s fade,
@@ -94,8 +100,13 @@ document.documentElement.classList.add("js");
       group.classList.add("reveal");
     });
 
-  document.querySelectorAll(".reveal").forEach((el) => revealIO.observe(el));
-  if (heroArt) revealIO.observe(heroArt);
+  if (revealIO) {
+    document.querySelectorAll(".reveal").forEach((el) => revealIO.observe(el));
+    if (heroArt) revealIO.observe(heroArt);
+  } else {
+    document.querySelectorAll(".reveal").forEach((el) => el.classList.add("in"));
+    if (heroArt) heroArt.classList.add("play");
+  }
 
   /* ---------- Signature progress line ---------- */
 

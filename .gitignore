@@ -27,3 +27,6 @@ CLAUDE.md
 docs/
 content/
 assets/brand/README.txt
+
+# Claude Code workspace config (local only)
+.claude/

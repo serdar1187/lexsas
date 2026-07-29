@@ -193,16 +193,18 @@
 </head>
 <body id="top">
 <a class="skip-link" href="#main-content">Skip to content</a>
+
+<div class="progress-line" aria-hidden="true"><span id="progressBar"></span></div>
 <header class="site-header">
   <div class="shell header-inner">
     <a class="brand" href="/" aria-label="LEXSAS home">
       <svg class="brand-mark" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 96 96" aria-hidden="true">
-        <path d="M 48 14 A 34 34 0 0 1 82 48" fill="none" stroke="#2E7CF6" stroke-width="9" stroke-linecap="round"></path>
-        <path d="M 82 48 A 34 34 0 0 1 48 82" fill="none" stroke="#E8503A" stroke-width="9" stroke-linecap="round"></path>
-        <path d="M 48 82 A 34 34 0 0 1 14 48" fill="none" stroke="#F5B301" stroke-width="9" stroke-linecap="round"></path>
-        <path d="M 14 48 A 34 34 0 0 1 48 14" fill="none" stroke="#2FA05A" stroke-width="9" stroke-linecap="round"></path>
-        <line x1="36" y1="36" x2="60" y2="60" stroke="#22272C" stroke-width="9" stroke-linecap="round"></line>
-        <line x1="60" y1="36" x2="36" y2="60" stroke="#22272C" stroke-width="9" stroke-linecap="round"></line>
+        <path class="mark-arc" style="--i:0" d="M 48 14 A 34 34 0 0 1 82 48" fill="none" stroke="#2E7CF6" stroke-width="9" stroke-linecap="round" pathLength="1"></path>
+        <path class="mark-arc" style="--i:1" d="M 82 48 A 34 34 0 0 1 48 82" fill="none" stroke="#E8503A" stroke-width="9" stroke-linecap="round" pathLength="1"></path>
+        <path class="mark-arc" style="--i:2" d="M 48 82 A 34 34 0 0 1 14 48" fill="none" stroke="#F5B301" stroke-width="9" stroke-linecap="round" pathLength="1"></path>
+        <path class="mark-arc" style="--i:3" d="M 14 48 A 34 34 0 0 1 48 14" fill="none" stroke="#2FA05A" stroke-width="9" stroke-linecap="round" pathLength="1"></path>
+        <line class="mark-x" style="--i:4" x1="36" y1="36" x2="60" y2="60" stroke="#22272C" stroke-width="9" stroke-linecap="round" pathLength="1"></line>
+        <line class="mark-x" style="--i:5" x1="60" y1="36" x2="36" y2="60" stroke="#22272C" stroke-width="9" stroke-linecap="round" pathLength="1"></line>
       </svg>
       <span class="brand-word">lexsas</span>
     </a>
@@ -221,28 +223,28 @@
   <section class="page-hero shell">
     <span class="kicker">LINKEDIN</span>
     <h1 class="page-title">LinkedIn posts</h1>
-    <p class="page-lede">LinkedIn is where I react while a question is still moving: a filing, an incident or a proposal that deserves a practitioner's second look, written the week it lands and argued in a few hundred words. The pieces under <a href="/insights.html">Insights</a> are the slower work, researched and sourced against the record.</p>
+    <p class="page-lede">LinkedIn is where I react while a question is still moving: a filing, an incident or a proposal that deserves a practitioner's second look, written the week it lands and argued in a few hundred words. The pieces under <a class="u-link" href="/insights.html">Insights</a> are the slower work, researched and sourced against the record.</p>
   </section>
 
   <section class="page-section shell">
     <h2 class="page-heading reveal">Every post, newest first</h2>
-    <ul class="insight-list" style="list-style:none;margin-bottom:0;padding:0">
-      <li><a class="insight-row" href="/linkedin-posts/openai-hugging-face-agent-liability.html">
+    <ul class="insight-index">
+      <li><a class="insight-row reveal" href="/linkedin-posts/openai-hugging-face-agent-liability.html">
         <span class="insight-date">23 July 2026</span>
         <span class="insight-main"><span class="insight-title" role="heading" aria-level="3">When an AI agent breaks out of the sandbox, who answers?</span><span class="insight-summary">OpenAI's Hugging Face incident raises a question current liability rules were not written to answer: who bears the loss when an autonomous agent finds and exploits the path?</span></span>
         <span class="insight-arrow" aria-hidden="true">&rarr;</span>
       </a></li>
-      <li><a class="insight-row" href="/linkedin-posts/open-weights-ai-geopolitics.html">
+      <li><a class="insight-row reveal" style="--d:0.05s" href="/linkedin-posts/open-weights-ai-geopolitics.html">
         <span class="insight-date">21 July 2026</span>
         <span class="insight-main"><span class="insight-title" role="heading" aria-level="3">Open weights as geopolitical insurance</span><span class="insight-summary">Export controls, Kimi K3, Inkling and China's open-source message point to the same strategic question: what happens when access to frontier AI becomes leverage?</span></span>
         <span class="insight-arrow" aria-hidden="true">&rarr;</span>
       </a></li>
-      <li><a class="insight-row" href="/linkedin-posts/frontier-ai-finra-standards-body.html">
+      <li><a class="insight-row reveal" style="--d:0.1s" href="/linkedin-posts/frontier-ai-finra-standards-body.html">
         <span class="insight-date">15 July 2026</span>
         <span class="insight-main"><span class="insight-title" role="heading" aria-level="3">A FINRA for frontier AI</span><span class="insight-summary">Demis Hassabis proposes an industry-funded, federally overseen standards body. The safety case is real; so is the risk that the rulebook protects its authors.</span></span>
         <span class="insight-arrow" aria-hidden="true">&rarr;</span>
       </a></li>
-      <li><a class="insight-row" href="/linkedin-posts/j-lens-interpretability-transparency.html">
+      <li><a class="insight-row reveal" style="--d:0.15s" href="/linkedin-posts/j-lens-interpretability-transparency.html">
         <span class="insight-date">9 July 2026</span>
         <span class="insight-main"><span class="insight-title" role="heading" aria-level="3">The transparency paradox inside the black box</span><span class="insight-summary">Anthropic's J-lens can surface internal model patterns that never appear in the output. Governance now has to decide whether looking creates responsibility.</span></span>
         <span class="insight-arrow" aria-hidden="true">&rarr;</span>
@@ -277,5 +279,6 @@
   </div>
   <div class="footer-wordmark" aria-hidden="true">lexsas</div>
 </footer>
+<script src="/js/main.js" defer></script>
 </body>
 </html>

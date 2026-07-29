@@ -195,16 +195,18 @@
 </head>
 <body id="top">
 <a class="skip-link" href="#main-content">İçeriğe atla</a>
+
+<div class="progress-line" aria-hidden="true"><span id="progressBar"></span></div>
 <header class="site-header">
   <div class="shell header-inner">
     <a class="brand" href="/tr/" aria-label="LEXSAS ana sayfa">
       <svg class="brand-mark" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 96 96" aria-hidden="true">
-        <path d="M 48 14 A 34 34 0 0 1 82 48" fill="none" stroke="#2E7CF6" stroke-width="9" stroke-linecap="round"></path>
-        <path d="M 82 48 A 34 34 0 0 1 48 82" fill="none" stroke="#E8503A" stroke-width="9" stroke-linecap="round"></path>
-        <path d="M 48 82 A 34 34 0 0 1 14 48" fill="none" stroke="#F5B301" stroke-width="9" stroke-linecap="round"></path>
-        <path d="M 14 48 A 34 34 0 0 1 48 14" fill="none" stroke="#2FA05A" stroke-width="9" stroke-linecap="round"></path>
-        <line x1="36" y1="36" x2="60" y2="60" stroke="#22272C" stroke-width="9" stroke-linecap="round"></line>
-        <line x1="60" y1="36" x2="36" y2="60" stroke="#22272C" stroke-width="9" stroke-linecap="round"></line>
+        <path class="mark-arc" style="--i:0" d="M 48 14 A 34 34 0 0 1 82 48" fill="none" stroke="#2E7CF6" stroke-width="9" stroke-linecap="round" pathLength="1"></path>
+        <path class="mark-arc" style="--i:1" d="M 82 48 A 34 34 0 0 1 48 82" fill="none" stroke="#E8503A" stroke-width="9" stroke-linecap="round" pathLength="1"></path>
+        <path class="mark-arc" style="--i:2" d="M 48 82 A 34 34 0 0 1 14 48" fill="none" stroke="#F5B301" stroke-width="9" stroke-linecap="round" pathLength="1"></path>
+        <path class="mark-arc" style="--i:3" d="M 14 48 A 34 34 0 0 1 48 14" fill="none" stroke="#2FA05A" stroke-width="9" stroke-linecap="round" pathLength="1"></path>
+        <line class="mark-x" style="--i:4" x1="36" y1="36" x2="60" y2="60" stroke="#22272C" stroke-width="9" stroke-linecap="round" pathLength="1"></line>
+        <line class="mark-x" style="--i:5" x1="60" y1="36" x2="36" y2="60" stroke="#22272C" stroke-width="9" stroke-linecap="round" pathLength="1"></line>
       </svg>
       <span class="brand-word">lexsas</span>
     </a>
@@ -223,28 +225,28 @@
   <section class="page-hero shell">
     <span class="kicker">LINKEDIN</span>
     <h1 class="page-title">LinkedIn gönderileri</h1>
-    <p class="page-lede">LinkedIn, bir konu henüz hareket hâlindeyken tepki verdiğim yer: yeni bir düzenleme, bir olay ya da uygulamacıyı ikinci kez düşündüren bir öneri; gündeme düştüğü hafta ve birkaç yüz kelimeyle. <a href="/tr/yazilar.html">Yazılar</a> bölümündeki metinler daha yavaş iş: araştırılmış ve kaynağı gösterilmiş.</p>
+    <p class="page-lede">LinkedIn, bir konu henüz hareket hâlindeyken tepki verdiğim yer: yeni bir düzenleme, bir olay ya da uygulamacıyı ikinci kez düşündüren bir öneri; gündeme düştüğü hafta ve birkaç yüz kelimeyle. <a class="u-link" href="/tr/yazilar.html">Yazılar</a> bölümündeki metinler daha yavaş iş: araştırılmış ve kaynağı gösterilmiş.</p>
   </section>
 
   <section class="page-section shell">
     <h2 class="page-heading reveal">Tüm gönderiler, en yeniden eskiye</h2>
-    <ul class="insight-list" style="list-style:none;margin-bottom:0;padding:0">
-      <li><a class="insight-row" href="/tr/linkedin-gonderileri/openai-hugging-face-yapay-zeka-ajani-sorumlulugu.html">
+    <ul class="insight-index">
+      <li><a class="insight-row reveal" href="/tr/linkedin-gonderileri/openai-hugging-face-yapay-zeka-ajani-sorumlulugu.html">
         <span class="insight-date">23 Temmuz 2026</span>
         <span class="insight-main"><span class="insight-title" role="heading" aria-level="3">Yapay zeka ajanı kum havuzundan çıkarsa kim sorumlu olur?</span><span class="insight-summary">OpenAI'ın Hugging Face olayı, mevcut sorumluluk kurallarının doğrudan yanıtlamadığı bir soruyu gündeme getiriyor: özerk bir ajan yolu bulup kullandığında zararı kim üstlenir?</span></span>
         <span class="insight-arrow" aria-hidden="true">&rarr;</span>
       </a></li>
-      <li><a class="insight-row" href="/tr/linkedin-gonderileri/acik-agirliklar-yapay-zeka-jeopolitigi.html">
+      <li><a class="insight-row reveal" style="--d:0.05s" href="/tr/linkedin-gonderileri/acik-agirliklar-yapay-zeka-jeopolitigi.html">
         <span class="insight-date">21 Temmuz 2026</span>
         <span class="insight-main"><span class="insight-title" role="heading" aria-level="3">Jeopolitik sigorta olarak açık ağırlıklar</span><span class="insight-summary">İhracat kontrolleri, Kimi K3, Inkling ve Çin'in açık kaynak mesajı aynı stratejik soruya işaret ediyor: frontier yapay zekaya erişim bir baskı aracına dönüştüğünde ne olur?</span></span>
         <span class="insight-arrow" aria-hidden="true">&rarr;</span>
       </a></li>
-      <li><a class="insight-row" href="/tr/linkedin-gonderileri/frontier-yapay-zeka-finra-standart-orgutu.html">
+      <li><a class="insight-row reveal" style="--d:0.1s" href="/tr/linkedin-gonderileri/frontier-yapay-zeka-finra-standart-orgutu.html">
         <span class="insight-date">15 Temmuz 2026</span>
         <span class="insight-main"><span class="insight-title" role="heading" aria-level="3">Frontier yapay zeka için bir FINRA</span><span class="insight-summary">Demis Hassabis, sektörün finanse ettiği ve federal gözetim altında çalışan bir standart örgütü öneriyor. Güvenlik gerekçesi gerçek; kuralları yazanları koruma riski de öyle.</span></span>
         <span class="insight-arrow" aria-hidden="true">&rarr;</span>
       </a></li>
-      <li><a class="insight-row" href="/tr/linkedin-gonderileri/j-lens-yorumlanabilirlik-seffaflik.html">
+      <li><a class="insight-row reveal" style="--d:0.15s" href="/tr/linkedin-gonderileri/j-lens-yorumlanabilirlik-seffaflik.html">
         <span class="insight-date">9 Temmuz 2026</span>
         <span class="insight-main"><span class="insight-title" role="heading" aria-level="3">Kara kutunun içindeki şeffaflık paradoksu</span><span class="insight-summary">Anthropic'in J-lens aracı, model çıktısında hiç görünmeyen iç örüntüleri yüzeye çıkarabiliyor. Yönetişim artık bakmanın sorumluluk doğurup doğurmadığına da karar vermeli.</span></span>
         <span class="insight-arrow" aria-hidden="true">&rarr;</span>
@@ -279,5 +281,6 @@
   </div>
   <div class="footer-wordmark" aria-hidden="true">lexsas</div>
 </footer>
+<script src="/js/main.js" defer></script>
 </body>
 </html>

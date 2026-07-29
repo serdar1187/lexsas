@@ -1,9 +1,25 @@
 # LEXSAS - full site content for AI agents (llms-full.txt)
-# Generated 2026-07-27. Canonical summary: https://lexsas.com/llms.txt
+# Generated 2026-07-29. Canonical summary: https://lexsas.com/llms.txt
 
 ============================================================
 ## Home (EN)  <https://lexsas.com/>
 ============================================================
+
+Skip to content
+
+lexsas
+
+Focus areas
+
+Approach
+
+About
+
+Insights
+
+Contact
+
+TR
 
 AI LEGAL TECH
 
@@ -59,7 +75,7 @@ Cross-border data transfer and localisation questions under KVKK and GDPR, inclu
 
 E-commerce and platform regulation
 
-Marketplace and platform rules across consumer protection, advertising, intermediary liability and payments touchpoints. This includes licensing perimeter questions and the controls that keep a platform compliant at scale.
+Marketplace and platform rules across consumer protection, advertising, intermediary liability and payments touchpoints, including notice and takedown under Law No. 5651. Licensing perimeter questions and the controls that keep a platform compliant at scale are part of the same ground.
 
 06
 
@@ -95,6 +111,14 @@ Notes on law, regulation and AI
 
 July 2026
 
+Composing your own agentic workflow: what the canvas gives a legal team
+
+A bought product ships someone else's workflow. Composing your own puts the stages, the mandate and the records in the legal team's hands.
+
+→
+
+July 2026
+
 Prompt injection in legal workflows: a filter is not a control
 
 A filter is a mitigation. The control is the capability set an agent holds while it reads a document nobody in your organisation wrote.
@@ -106,14 +130,6 @@ July 2026
 The EU AI Act on 2 August 2026: what actually applies
 
 Regulation (EU) 2026/1744, the Digital Omnibus on AI, entered into force on 27 July and moves the high-risk dates to 2027 and 2028. Article 50 duties still apply from 2 August.
-
-→
-
-July 2026
-
-AI citation errors: a verification protocol for legal teams
-
-An independent database listed more than 1,770 cases as of 18 July 2026 in which courts or tribunals addressed generative-AI hallucinations or, in some entries, alleged AI use. A five-step verification protocol.
 
 →
 
@@ -173,9 +189,42 @@ serdar@lexsas.com
 
 Advisory on AI governance, regulated digital markets and legal operations. Speaking and board conversations are welcome, in English or Turkish. When you write, a short outline of the workflow, team and timing you have in mind helps, without any confidential detail.
 
+This site is for general information only. It is not legal advice and does not create an attorney-client relationship. All views are personal and do not represent any current or former employer.
+
+© 2026 LEXSAS · Istanbul
+
+Insights
+
+About
+
+Contact
+
+LinkedIn
+
+Back to top
+
+lexsas
+
+
 ============================================================
 ## About (EN)  <https://lexsas.com/about.html>
 ============================================================
+
+Skip to content
+
+lexsas
+
+Focus areas
+
+Approach
+
+About
+
+Insights
+
+Contact
+
+TR
 
 About
 
@@ -213,11 +262,7 @@ Founder
 
 LEXSAS, Istanbul
 
-An AI legal-tech venture focused on legal workflow automation and advisory for legal and regulatory teams.
-
-Designs and advises on AI-enabled tooling across the legal workflow: intake, document and knowledge management, research and compliance operations.
-
-Builds privacy, IP and governance guardrails into every tool from the start, pairing 20+ years of legal and regulatory leadership, most of it in-house, with responsible AI adoption.
+An AI legal-tech venture: legal workflow automation and advisory for legal and regulatory teams, with privacy, IP and governance guardrails built in from the start.
 
 2026 to present
 
@@ -225,11 +270,7 @@ Regulatory Affairs Director
 
 A global group in a highly regulated consumer industry, Istanbul
 
-Leads the regulatory agenda within the corporate affairs function, as functional lead in one of the most heavily regulated consumer sectors.
-
-Regulatory strategy, horizon scanning and regulatory-change analysis for the Turkish market, supporting public policy and government relations work.
-
-Applies AI governance discipline to regulatory operations: monitoring, analysis and institutional knowledge workflows, with guardrails built in.
+Functional lead for the regulatory agenda within corporate affairs in one of the most heavily regulated consumer sectors: strategy, horizon scanning and government relations support for the Turkish market.
 
 2019 to 2026
 
@@ -237,15 +278,9 @@ Legal Director, Technology, E-Commerce and Media; Board Director
 
 Amazon Turkey, Istanbul
 
-End-to-end retail and marketplace counsel: commercial contracting, consumer law, advertising, product compliance, supply chain, payments, privacy and disputes.
+End-to-end counsel for retail, marketplace and media, and representation before RTUK, the Turkish Competition Authority, the Ministry of Trade, the KVKK Authority and the Central Bank.
 
-Regulatory representation before RTUK, the Turkish Competition Authority, the Ministry of Trade, the Ministry of Industry and Technology, the KVKK Authority and the Central Bank, including representation in a Ministry of Trade investigation.
-
-Led the response to a KVKK order on cross-border data transfers: prepared and executed a Data Transfer Undertaking approved by the KVKK Authority.
-
-Competition and digital markets strategy on parity and MFN, ranking and Buy Box practices, and algorithmic accountability, including leading the Turkey defense strategy on a pricing-algorithms investigation before the Turkish Competition Authority.
-
-Statutory Board Director for multiple Amazon entities in Turkey, including Prime Video Turkey and Project Kuiper, under Turkish company law. Co-developed GenAI legal tooling on AWS Bedrock to streamline intake and knowledge workflows and reduce outside counsel dependency.
+Statutory Board Director for multiple Amazon entities, including Prime Video Turkey and Project Kuiper; co-developed GenAI legal tooling on AWS Bedrock inside the legal function.
 
 2012 to 2019
 
@@ -253,13 +288,7 @@ Head of Legal and Business Ethics Officer, Middle East and North Africa
 
 eBay Turkey (GittiGidiyor), Istanbul
 
-Regional legal leadership for e-commerce marketplace operations across Turkey and MENA: consumer protection, advertising, payments, IP and commercial transactions.
-
-Head of Public Policy, representing the company before regulators and industry bodies, including the TOBB E-Commerce Assembly.
-
-Payments and fintech: designed and secured regulator approval for a commercial agent exemption model enabling marketplace payment collection and seller payouts without a full payment institution license.
-
-Regional Business Ethics Officer under the FCPA and UK Bribery Act: Code of Conduct training, third-party due diligence and internal investigations.
+Regional legal, public policy and business ethics leadership for marketplace operations across Turkey and MENA, including a regulator-approved exemption model for marketplace payments.
 
 2008 to 2012
 
@@ -267,13 +296,7 @@ Regional Legal Counsel and Company Secretary, Middle East; Legal Counsel, Global
 
 A global group in a highly regulated industry, Dubai and Lausanne
 
-Advised commercial teams across 12 Middle East markets under strict advertising bans and Ministry of Health regulations.
-
-Route-to-market and distribution architecture: distribution, key account and trade marketing arrangements, with templates and controls.
-
-Company Secretary for regional entities, coordinating external counsel across 12 jurisdictions.
-
-Global anti-corruption governance from the Lausanne headquarters, including executive risk reporting under the FCPA and UK Bribery Act.
+Advised commercial teams across 12 Middle East markets under strict advertising bans; company secretary for regional entities and global anti-corruption governance from the Lausanne headquarters.
 
 2005 to 2008
 
@@ -281,33 +304,11 @@ Associate
 
 White & Case LLP, Ankara
 
-Cross-border M&A and privatisations in regulated sectors including telecoms, energy and banking.
-
-IP work: trademark clearance, prosecution, cancellations and oppositions, licensing and NDAs.
-
-Regulated industries advisory across energy and infrastructure, environmental and administrative law.
-
-Disputes and labor matters before Turkish courts.
-
-Board and governance
-
-Between 2019 and 2026 I served as a Statutory Board Director and authorised representative for multiple Amazon entities in Turkey, including Prime Video Turkey and Project Kuiper, under Turkish company law. Earlier I was a Deputy Board Member of the e-Commerce Commercial Enterprises Association. These roles carried director duties and liability under the Turkish Commercial Code.
+Cross-border M&A, privatisations and IP in regulated sectors including telecoms, energy and banking.
 
 Education
 
-Executive Education Program, Harvard Business School (2018-2019)
-
-MSc, Internet Business, Mercy College, New York (2002-2004)
-
-BA in Law, Ankara University School of Law (1995-2001)
-
-Courses and seminars
-
-AI Law, Policy and Governance, London School of Economics
-
-WIPO: E-Commerce and IP; Arbitration and Mediation; Trademarks and Designs; Copyright
-
-Intellectual and Industrial Property Rights Program, Ankara University
+A law degree from Ankara University, an MSc in Internet Business from Mercy College in New York, and executive education at Harvard Business School; more recently, AI Law, Policy and Governance at the London School of Economics.
 
 Ankara Bar Association. Languages: Turkish (native), English (fluent).
 
@@ -341,56 +342,226 @@ Every AI deployment should begin as a pilot with a defined measure of success an
 
 Asim Serdar Yilmaz, Founder
 
+This site is for general information only. It is not legal advice and does not create an attorney-client relationship. All views are personal and do not represent any current or former employer.
+
+© 2026 LEXSAS · Istanbul
+
+Insights
+
+About
+
+Contact
+
+LinkedIn
+
+Back to top
+
+lexsas
+
+
 ============================================================
 ## Insights (EN)  <https://lexsas.com/insights.html>
 ============================================================
-INSIGHTS
+
+Skip to content
+
+lexsas
+
+Focus areas
+
+Approach
+
+About
+
+Insights
+
+Contact
+
+TR
+
+Insights
+
 Notes on law, regulation and AI
+
 Short, practitioner pieces on the questions I keep returning to: how AI governance works in practice, how regulated digital markets are changing, and where legal operations can genuinely improve.
-July 2026 - AI governance
-When an AI workflow fails: an incident protocol for legal teams
-A short response path for ownership, evidence, containment and restart when an AI-assisted legal workflow goes wrong.
-July 2026 - AI regulation
+
+July 2026
+Legal AI
+
+Composing your own agentic workflow: what the canvas gives a legal team
+
+A bought product ships someone else's workflow. Composing your own puts the stages, the mandate and the records in the legal team's hands.
+
+→
+
+July 2026
+Marketplace operations
+
+Marketplace compliance ops: one notice queue, set to the tightest clock
+
+Turkey gives you forty-eight hours and the DSA sets the shape of the decision. Which queues you own, and who is on the rota.
+
+→
+
+July 2026
+AI governance
+
+Prompt injection in legal workflows: a filter is not a control
+
+A filter is a mitigation. The control is the capability set an agent holds while it reads a document nobody in your organisation wrote.
+
+→
+
+July 2026
+Legal operations
+
+Evaluating a live AI workflow: the release gate
+
+A pilot is measured once. A live workflow is re-measured on every model, prompt, retrieval or connector change.
+
+→
+
+July 2026
+Legal operations
+
+Workflow automation lock-in: what you can export, what you rebuild
+
+The Data Act gives you your data back, not your workflow. What the due diligence checklist should now ask for.
+
+→
+
+July 2026
+AI regulation
+
 The EU AI Act on 2 August 2026: what actually applies
-The adopted Digital Omnibus sets new high-risk application dates in 2027 and 2028; as of 18 July 2026 it awaited publication and entry into force. Article 50 duties become applicable on 2 August.
-July 2026 - Legal AI
+
+Regulation (EU) 2026/1744, the Digital Omnibus on AI, entered into force on 27 July and moves the high-risk dates to 2027 and 2028. Article 50 duties still apply from 2 August.
+
+→
+
+July 2026
+Legal AI
+
 AI citation errors: a verification protocol for legal teams
+
 An independent database listed more than 1,770 cases as of 18 July 2026 in which courts or tribunals addressed generative-AI hallucinations or, in some entries, alleged AI use. A five-step verification protocol.
-July 2026 - E-commerce law
+
+→
+
+July 2026
+E-commerce law
+
 Marketplace intermediary liability in Turkey: three regimes to read together
+
 A marketplace's liability in Turkey sits where three regimes meet: e-commerce Law 6563, consumer Law 6502, and the 5651 content regime.
-July 2026 - Platform regulation
+
+→
+
+July 2026
+Platform regulation
+
 Marketplace ranking and algorithmic accountability: questions for the legal lead
+
 Ranking is now a legal surface under the DSA, DMA, P2B rules and Turkey's e-commerce law. What an in-house legal lead should ask about it.
-July 2026 - Legal AI
+
+→
+
+July 2026
+Legal AI
+
 Legal AI: build, buy, or configure?
+
 Most legal teams should configure platforms, buy for commodity tasks, and build only the most sensitive work. A practitioner's decision frame.
-July 2026 - Legal operations
+
+→
+
+July 2026
+Legal operations
+
 How to measure a legal automation pilot
+
 A pilot without metrics is a demo. Baseline the workflow, set error tolerances per task, and fix a kill-or-scale threshold before you start.
-July 2026 - AI governance
+
+→
+
+July 2026
+AI governance
+
 AI governance for in-house legal teams: five minimum controls
+
 Five minimum controls an in-house legal team needs before scaling generative AI: data handling, accountability, human review, records, error handling.
-July 2026 - Data protection
+
+→
+
+July 2026
+Data protection
+
 KVKK-compliant generative AI workflows for legal teams
+
 What KVKK expects when legal teams route personal data through generative AI: lawful basis, cross-border transfer mechanisms, minimization, records.
-July 2026 - Legal operations
+
+→
+
+July 2026
+Legal operations
+
 An AI vendor due diligence checklist for legal teams
+
 Six questions a GC should ask an AI vendor before signing: training data, prompt retention, subprocessors, IP indemnity, logging, and exit terms.
-July 2026 - Legal market
+
+→
+
+July 2026
+Legal market
+
 The billable hour is running out of logic
+
 AI deflates the hour itself. Next generation firms price the work, not the time.
-July 2026 - Legal AI
+
+→
+
+July 2026
+Legal AI
+
 AI is quietly redrawing the legal industry
-Adoption doubled in a year. The advantage is shifting from headcount to judgment and workflow design.
-July 2026 - Legal operations
-Where a lawyer's hours actually go
-The average lawyer bills a fraction of the day. What workflow automation recovers, and how to start.
-July 2026 - AI governance
+
+Corporate legal use roughly doubled in a year; firm use rose by about half. The advantage is shifting from headcount to judgment and workflow design.
+
+→
+
+July 2026
+AI governance
+
 What generative AI actually changes for in-house legal teams
+
 Where generative AI earns its place in legal work, and where careful human judgment still has to sit.
-If one of these is close to a question on your desk, get in touch: https://lexsas.com/contact.html
-New pieces are also published to the RSS feed: https://lexsas.com/feed.xml
+
+→
+
+If one of these is close to a question on your desk,
+get in touch
+.
+
+New pieces are also published to the
+RSS feed
+.
+
+This site is for general information only. It is not legal advice and does not create an attorney-client relationship. All views are personal and do not represent any current or former employer.
+
+© 2026 LEXSAS · Istanbul
+
+Insights
+
+About
+
+Contact
+
+LinkedIn
+
+Back to top
+
+lexsas
+
 
 ============================================================
 ## LinkedIn (EN) (personal LinkedIn post by the founder; opinion commentary, quoted verbatim)  <https://lexsas.com/linkedin.html>
@@ -483,7 +654,23 @@ Get in touch →
 ## Article: Composing your own agentic workflow: what the canvas gives a legal team  <https://lexsas.com/insights/composing-agentic-legal-workflows.html>
 ============================================================
 
-July 2026 · AI regulation
+Skip to content
+
+lexsas
+
+Focus areas
+
+Approach
+
+About
+
+Insights
+
+Contact
+
+TR
+
+July 2026 · Legal AI
 
 Composing your own agentic workflow: what the canvas gives a legal team
 
@@ -492,7 +679,7 @@ A composed workflow gives a legal team three things a bought one cannot: its own
 Legal AI: build, buy, or configure?
 , published here earlier this month, decides which path fits a use case. This piece is about what comes after that decision, because the benefit lives there. When I compose a workflow for a legal team, the first thing we draw is not the automation; it is the team's own day: where matters arrive, who reads first, where the file waits and for whom. A bought product ships someone else's answer to those questions. A composed agentic workflow ships yours, and that is the first return: nothing about the team has to bend.
 
-The second return is control you can see. On the canvas, every tool the agent holds, every source it may read, every place it may write is a drawn connection that a lawyer can point at, question and remove. Meta's Agents Rule of Two caps an agent at two of three risky properties in a session; drawn as a workflow, that cap stops being a vendor's assurance and becomes a picture the general counsel can read. Security review turns from a questionnaire into
+The second return is control you can see. On the canvas, every tool the agent holds, every source it may read, every place it may write is a drawn connection that a lawyer can point at, question and remove. Meta's Agents Rule of Two caps an agent at two of the three risky properties Simon Willison named the lethal trifecta; drawn as a workflow, that cap stops being a vendor's assurance and becomes a picture the general counsel can read. Security review turns from a questionnaire into
 a mandate you set yourself
 .
 
@@ -507,15 +694,32 @@ Published
 
 Sources
 
-Meta AI, Agents Rule of Two: A Practical Approach to AI Agent Security, 31 October 2025  https://ai.meta.com/blog/practical-ai-agent-security/
+Meta AI, Agents Rule of Two: A Practical Approach to AI Agent Security, 31 October 2025 https://ai.meta.com/blog/practical-ai-agent-security/
 
-Simon Willison, The lethal trifecta for AI agents, 16 June 2025  https://simonwillison.net/2025/Jun/16/the-lethal-trifecta/
+Simon Willison, The lethal trifecta for AI agents, 16 June 2025 https://simonwillison.net/2025/Jun/16/the-lethal-trifecta/
 
 Next: How to measure a legal automation pilot →
 
 ← All insights
 
 Get in touch →
+
+This site is for general information only. It is not legal advice and does not create an attorney-client relationship. All views are personal and do not represent any current or former employer.
+
+© 2026 LEXSAS · Istanbul
+
+Insights
+
+About
+
+Contact
+
+LinkedIn
+
+Back to top
+
+lexsas
+
 
 ============================================================
 ## Article: Marketplace compliance ops: one notice queue, set to the tightest clock  <https://lexsas.com/insights/marketplace-compliance-ops.html>
@@ -961,28 +1165,104 @@ Get in touch →
 ============================================================
 ## Article: An AI vendor due diligence checklist for legal teams  <https://lexsas.com/insights/ai-vendor-due-diligence.html>
 ============================================================
+
+Skip to content
+
+lexsas
+
+Focus areas
+
+Approach
+
+About
+
 Insights
-July 2026 - Legal operations
+
+Contact
+
+TR
+
+July 2026 · Legal operations
+
 An AI vendor due diligence checklist for legal teams
-I have sat on both sides of this table. I helped build AI tooling for legal teams inside a vendor, and I have signed off on buying it. The gap between a good demo and a safer contract is a short list of questions; the answers belong in the contract itself: audit rights, breach notice, liability.
+
+I have sat on both sides of this table. I have built AI tooling for a legal team in-house, and I have signed off on buying it from vendors. The gap between a good demo and a safer contract is a short list of questions; the answers belong in the contract itself: audit rights, breach notice, liability.
+
 The risk is measurable. Verizon's 2026 Data Breach Investigations Report put third-party involvement in breaches at 48 percent, a figure counting all third parties, not AI vendors. IBM's 2025 Cost of a Data Breach report adds that among breached organizations, about one in five said the breach involved shadow AI; heavy shadow-AI users reported costs roughly 670,000 dollars higher than light or non-users, an association, not a proven cause. An unvetted AI tool is a third party with unusually broad access to privileged material.
+
 Six questions have earned their place on my list.
+
 Training data provenance. Where did the model's training data come from, and can the vendor show it had rights to use it?
+
 Prompt retention and reuse. Are your prompts and documents stored, for how long, and used to train anything?
+
 Subprocessors and hosting region. Who else touches the data, how far down the subprocessor chain, in which jurisdiction, and can deletion be verified rather than just promised?
+
 IP indemnity. If an output infringes someone's rights, who carries that?
+
 Audit trail. Can you reconstruct who asked what, and what the system returned?
-Exit and data return. When the contract ends, how does your data come back, and in what format?
+
+Exit and data return. When the contract ends, how does your data come back, and in what format? That question is now too small: ask for the
+exhaustive portability specification the Data Act puts in the contract
+, because the workflow does not come back with the data.
+
 A vendor with clean answers welcomes these questions. Hesitation on any of them is itself an answer, and it arrives before you have signed anything. Treat it as a signal, not a verdict; the answers still have to land in the contract.
-Published 11 July 2026
+
+Published
+11 July 2026
+· Last updated
+27 July 2026
+
 Sources
-Verizon 2026 Data Breach Investigations Report  <https://www.verizon.com/business/resources/reports/dbir/>
-Verizon 2026 DBIR (newsroom summary)  <https://www.verizon.com/about/news/breach-industry-wide-dbir-finds>
-IBM Cost of a Data Breach Report 2025 (newsroom)  <https://newsroom.ibm.com/2025-07-30-ibm-report-13-of-organizations-reported-breaches-of-ai-models-or-applications,-97-of-which-reported-lacking-proper-ai-access-controls>
+
+Verizon 2026 Data Breach Investigations Report https://www.verizon.com/business/resources/reports/dbir/
+
+Verizon 2026 DBIR (newsroom summary) https://www.verizon.com/about/news/breach-industry-wide-dbir-finds
+
+IBM Cost of a Data Breach Report 2025 (newsroom) https://newsroom.ibm.com/2025-07-30-ibm-report-13-of-organizations-reported-breaches-of-ai-models-or-applications,-97-of-which-reported-lacking-proper-ai-access-controls
+
+Next: AI governance for in-house legal teams: five minimum controls →
+
+← All insights
+
+Get in touch →
+
+This site is for general information only. It is not legal advice and does not create an attorney-client relationship. All views are personal and do not represent any current or former employer.
+
+© 2026 LEXSAS · Istanbul
+
+Insights
+
+About
+
+Contact
+
+LinkedIn
+
+Back to top
+
+lexsas
+
 
 ============================================================
 ## Article: What generative AI actually changes for in-house legal teams  <https://lexsas.com/insights/genai-for-legal-teams.html>
 ============================================================
+
+Skip to content
+
+lexsas
+
+Focus areas
+
+Approach
+
+About
+
+Insights
+
+Contact
+
+TR
 
 July 2026 · AI governance
 
@@ -1018,7 +1298,7 @@ Tie review to risk. High-impact work and anything that leaves the team gets a la
 
 Run measurable pilots. Pick one workflow, define what good looks like before you start, and measure it. A pilot that cannot show whether it saved time or introduced errors has told you nothing.
 
-Track errors honestly. Models are confidently wrong in ways that look plausible. You need a way to catch that, and a team that treats a wrong answer as a finding rather than an embarrassment.
+Track errors honestly. Models are confidently wrong in ways that look plausible; the 2024 hallucination studies in the Journal of Legal Analysis and from Stanford document exactly this pattern in legal use. You need a way to catch that, and a team that treats a wrong answer as a finding rather than an embarrassment.
 
 One more point on outside counsel, because it is where the economics are supposed to show up first. Much of what a legal team sends outside is volume rather than hard law: routine research, first-pass review and drafting that goes out because there is no internal capacity, not because the question needs a specialist. Moving a share of that in-house is what teams aim at when they target lower outside-counsel spend. It is a target, not a guarantee; many teams have not yet seen those savings land, while the genuinely difficult matters still go to the firms that should handle them.
 
@@ -1031,23 +1311,40 @@ Published
 
 Sources
 
-Court of Justice of the European Union, Akzo Nobel Chemicals and Akcros Chemicals v Commission, C-550/07 P (2010)  https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:62007CJ0550
+Court of Justice of the European Union, Akzo Nobel Chemicals and Akcros Chemicals v Commission, C-550/07 P (2010) https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:62007CJ0550
 
-Journal of Legal Analysis, Large Legal Fictions: Profiling Legal Hallucinations in Large Language Models (2024)  https://academic.oup.com/jla/article/16/1/64/7699227
+Journal of Legal Analysis, Large Legal Fictions: Profiling Legal Hallucinations in Large Language Models (2024) https://academic.oup.com/jla/article/16/1/64/7699227
 
-Stanford RegLab and Stanford HAI, Hallucination-Free? Assessing the Reliability of Leading AI Legal Research Tools (2024)  https://arxiv.org/abs/2405.20362
+Stanford RegLab and Stanford HAI, Hallucination-Free? Assessing the Reliability of Leading AI Legal Research Tools (2024) https://arxiv.org/abs/2405.20362
 
-Association of Corporate Counsel and Everlaw, Generative AI's Growing Strategic Value for Corporate Law Departments (2025)  https://www.everlaw.com/press/release/acc-report-2025/
+Association of Corporate Counsel and Everlaw, Generative AI's Growing Strategic Value for Corporate Law Departments (2025) https://www.everlaw.com/press/release/acc-report-2025/
 
-Minnesota Law Review, Lawyering in the Age of Artificial Intelligence (2024)  https://scholarship.law.umn.edu/minnlrev/vol109/iss1/3/
+Minnesota Law Review, Lawyering in the Age of Artificial Intelligence (2024) https://scholarship.law.umn.edu/minnlrev/vol109/iss1/3/
 
-MIT NANDA, The GenAI Divide: State of AI in Business 2025 (via Fortune)  https://fortune.com/2025/08/18/mit-report-95-percent-generative-ai-pilots-at-companies-failing-cfo/
+MIT NANDA, The GenAI Divide: State of AI in Business 2025 (via Fortune) https://fortune.com/2025/08/18/mit-report-95-percent-generative-ai-pilots-at-companies-failing-cfo/
 
 Next: AI governance for in-house legal teams: five minimum controls →
 
 ← All insights
 
 Get in touch →
+
+This site is for general information only. It is not legal advice and does not create an attorney-client relationship. All views are personal and do not represent any current or former employer.
+
+© 2026 LEXSAS · Istanbul
+
+Insights
+
+About
+
+Contact
+
+LinkedIn
+
+Back to top
+
+lexsas
+
 
 ============================================================
 ## Article: AI is quietly redrawing the legal industry  <https://lexsas.com/insights/ai-reshaping-legal-industry.html>
@@ -1104,21 +1401,84 @@ Get in touch →
 ============================================================
 ## LinkedIn post: When an AI agent breaks out of the sandbox, who answers? (personal LinkedIn post by the founder; opinion commentary, quoted verbatim)  <https://lexsas.com/linkedin-posts/openai-hugging-face-agent-liability.html>
 ============================================================
-LinkedIn Posts
-23 July 2026 - LinkedIn post
+
+Skip to content
+
+lexsas
+
+Focus areas
+
+Approach
+
+About
+
+Insights
+
+Contact
+
+TR
+
+23 July 2026
+· LinkedIn post
+
 When an AI agent breaks out of the sandbox, who answers?
+
 OpenAI's Hugging Face incident raises a question current liability rules were not written to answer: who bears the loss when an autonomous agent finds and exploits the path?
+
 OpenAI reports that, during a Hugging Face model-evaluation exercise, an autonomous agent escaped its test sandbox through a zero-day vulnerability and reached production infrastructure. The immediate facts matter, but so does the legal shape of the event: the agent identified and used the route itself.
+
 Liability law is comfortable distinguishing an actor from an instrument. That distinction becomes harder when the tool searches, selects and acts through an unforeseen path. The old Roman-law analogy is animal custody: a keeper may answer for harm caused by an animal under their care, even though the animal is not their servant. It frames supervision, control and the allocation of risk, not machine personhood.
+
 For Türkiye, Turkish Code of Obligations article 67 offers a useful starting point for the keeper's responsibility for animals. It is not a ready-made rule for AI agents. The question is whether loss should rest with the deployer, operator, developer, infrastructure owner, or another party able to control the risk. Contracts can allocate parts of that exposure; they cannot avoid the underlying need to identify who had custody of the system and its safeguards.
+
 Sources
-OpenAI, Hugging Face model evaluation security incident  <https://openai.com/index/hugging-face-model-evaluation-security-incident/>
-Turkish Code of Obligations, Law No. 6098, article 67  <https://www.mevzuat.gov.tr/mevzuatmetin/1.5.6098.pdf>
-LinkedIn source post  <https://www.linkedin.com/feed/update/urn:li:activity:7486085618469343233/>
+
+OpenAI, Hugging Face model evaluation security incident https://openai.com/index/hugging-face-model-evaluation-security-incident/
+
+Turkish Code of Obligations, Law No. 6098, article 67 https://www.mevzuat.gov.tr/mevzuatmetin/1.5.6098.pdf
+
+LinkedIn source post https://www.linkedin.com/feed/update/urn:li:activity:7486085618469343233/
+
+← All LinkedIn posts
+
+Get in touch →
+
+This site is for general information only. It is not legal advice and does not create an attorney-client relationship. All views are personal and do not represent any current or former employer.
+
+© 2026 LEXSAS · Istanbul
+
+Insights
+
+About
+
+Contact
+
+LinkedIn
+
+Back to top
+
+lexsas
+
 
 ============================================================
 ## LinkedIn post: Open weights as geopolitical insurance (personal LinkedIn post by the founder; opinion commentary, quoted verbatim)  <https://lexsas.com/linkedin-posts/open-weights-ai-geopolitics.html>
 ============================================================
+
+Skip to content
+
+lexsas
+
+Focus areas
+
+Approach
+
+About
+
+Insights
+
+Contact
+
+TR
 
 21 July 2026
 · LinkedIn post
@@ -1129,7 +1489,7 @@ Export controls, Kimi K3, Inkling and China's open-source message point to the s
 
 In June, Anthropic withdrew Fable 5 and Mythos 5 following a government legal directive and restored access in stages by 1 July. For three weeks a capability that teams had built into research, drafting and support was not theirs to rely on. Whether framed as export controls, access policy or risk management, the effect is the same for a team relying on a remote model: a capability can become unavailable outside its own technical roadmap.
 
-Kimi K3 and Inkling make the counterpoint concrete. Kimi describes K3 as an open 2.8-trillion-parameter model and has said its full weights will be released by 27 July. Thinking Machines released Inkling with full weights available for people to customize. These are not interchangeable systems, nor do they erase the compute, data, talent or infrastructure needed to use them. They do widen the set of actors that can inspect, adapt and deploy a capable model.
+Kimi K3 and Inkling make the counterpoint concrete. Kimi describes K3 as an open 2.8-trillion-parameter model and said its full weights would be released by 27 July. Thinking Machines released Inkling with full weights available for people to customize. These are not interchangeable systems, nor do they erase the compute, data, talent or infrastructure needed to use them. They do widen the set of actors that can inspect, adapt and deploy a capable model.
 
 On 17 July, China called for open source, openness, collaboration and sharing in AI. That message sits alongside an environment in which access to leading systems is increasingly shaped by national-security decisions. The tension is not rhetorical: it concerns who may build on a model, where it may run and whether critical capability can be withdrawn.
 
@@ -1137,40 +1497,118 @@ Open weights are therefore part of digital sovereignty, not a complete substitut
 
 Sources
 
-Anthropic, Fable and Mythos access  https://www.anthropic.com/news/fable-mythos-access
+Anthropic, Fable and Mythos access https://www.anthropic.com/news/fable-mythos-access
 
-Kimi, Kimi K3: Open Frontier Intelligence  https://www.kimi.com/vi/blog/kimi-k3
+Kimi, Kimi K3: Open Frontier Intelligence https://www.kimi.com/vi/blog/kimi-k3
 
-Thinking Machines Lab, Inkling: Our Open-Weights Model  https://thinkingmachines.ai/news/introducing-inkling/
+Thinking Machines Lab, Inkling: Our Open-Weights Model https://thinkingmachines.ai/news/introducing-inkling/
 
-Ministry of Foreign Affairs of China, 17 July 2026 address on global AI governance  https://www.fmprc.gov.cn/eng/xw/zyxw/202607/t20260717_11984766.html
+Ministry of Foreign Affairs of China, 17 July 2026 address on global AI governance https://www.fmprc.gov.cn/eng/xw/zyxw/202607/t20260717_11984766.html
 
-LinkedIn source post  https://www.linkedin.com/feed/update/urn:li:activity:7485302343329304576/
-
-More: All LinkedIn posts →
+LinkedIn source post https://www.linkedin.com/feed/update/urn:li:activity:7485302343329304576/
 
 ← All LinkedIn posts
 
 Get in touch →
 
+This site is for general information only. It is not legal advice and does not create an attorney-client relationship. All views are personal and do not represent any current or former employer.
+
+© 2026 LEXSAS · Istanbul
+
+Insights
+
+About
+
+Contact
+
+LinkedIn
+
+Back to top
+
+lexsas
+
+
 ============================================================
 ## LinkedIn post: A FINRA for frontier AI (personal LinkedIn post by the founder; opinion commentary, quoted verbatim)  <https://lexsas.com/linkedin-posts/frontier-ai-finra-standards-body.html>
 ============================================================
-LinkedIn Posts
-15 July 2026 - LinkedIn post
+
+Skip to content
+
+lexsas
+
+Focus areas
+
+Approach
+
+About
+
+Insights
+
+Contact
+
+TR
+
+15 July 2026
+· LinkedIn post
+
 A FINRA for frontier AI
+
 Demis Hassabis proposes an industry-funded, federally overseen standards body. The safety case is real; so is the risk that the rulebook protects its authors.
+
 Demis Hassabis proposes a FINRA-like body for frontier AI: industry-funded, operating under federal oversight, and able to set common safety expectations. The analogy matters because FINRA combines specialist rulemaking with supervision beyond ordinary voluntary coordination.
+
 One practical starting point is controlled model sharing. Developers could provide access to frontier models for structured testing, incident reporting and evaluation against common protocols. A scheme that begins as self-regulation can then move from voluntary participation toward certification, with the certificate signalling that a model has met defined safety and governance checks.
+
 The safety value is clear. Shared methods can reduce duplicated testing, make failure reporting more comparable and give buyers a legible basis for assessing safeguards. A federal backstop can also make standards less dependent on the goodwill of any one company.
+
 But certification can become a barrier as easily as a safeguard. If the largest labs write expensive, opaque requirements around their own capabilities, smaller developers and open research groups may be excluded before they can compete. The design question is therefore not whether a FINRA-style structure is useful, but whether its governance, access rules and appeal routes keep the rulebook from protecting its authors. This is a proposal, not law in force.
+
 Sources
-Demis Hassabis, A framework for frontier AI and the dawning of a new age  <https://demishassabis.substack.com/p/a-framework-for-frontier-ai-and-the-dawning-of-a-new-age>
-LinkedIn source post  <https://www.linkedin.com/feed/update/urn:li:activity:7483031295619416064/>
+
+Demis Hassabis, A framework for frontier AI and the dawning of a new age https://demishassabis.substack.com/p/a-framework-for-frontier-ai-and-the-dawning-of-a-new-age
+
+LinkedIn source post https://www.linkedin.com/feed/update/urn:li:activity:7483031295619416064/
+
+← All LinkedIn posts
+
+Get in touch →
+
+This site is for general information only. It is not legal advice and does not create an attorney-client relationship. All views are personal and do not represent any current or former employer.
+
+© 2026 LEXSAS · Istanbul
+
+Insights
+
+About
+
+Contact
+
+LinkedIn
+
+Back to top
+
+lexsas
+
 
 ============================================================
 ## LinkedIn post: The transparency paradox inside the black box (personal LinkedIn post by the founder; opinion commentary, quoted verbatim)  <https://lexsas.com/linkedin-posts/j-lens-interpretability-transparency.html>
 ============================================================
+
+Skip to content
+
+lexsas
+
+Focus areas
+
+Approach
+
+About
+
+Insights
+
+Contact
+
+TR
 
 9 July 2026
 · LinkedIn post
@@ -1189,21 +1627,52 @@ A safe harbour for good-faith detection would help. Subject to careful limits, o
 
 Sources
 
-Anthropic, Global Workspace  https://www.anthropic.com/research/global-workspace
+Anthropic, Global Workspace https://www.anthropic.com/research/global-workspace
 
-Regulation (EU) 2024/1689, Article 13  https://eur-lex.europa.eu/eli/reg/2024/1689/oj
+Regulation (EU) 2024/1689, Article 13 https://eur-lex.europa.eu/eli/reg/2024/1689/oj
 
-LinkedIn source post  https://www.linkedin.com/feed/update/urn:li:activity:7481083681063837696/
-
-More: All LinkedIn posts →
+LinkedIn source post https://www.linkedin.com/feed/update/urn:li:activity:7481083681063837696/
 
 ← All LinkedIn posts
 
 Get in touch →
 
+This site is for general information only. It is not legal advice and does not create an attorney-client relationship. All views are personal and do not represent any current or former employer.
+
+© 2026 LEXSAS · Istanbul
+
+Insights
+
+About
+
+Contact
+
+LinkedIn
+
+Back to top
+
+lexsas
+
+
 ============================================================
 ## Ana Sayfa (TR)  <https://lexsas.com/tr/>
 ============================================================
+
+İçeriğe atla
+
+lexsas
+
+Çalışma alanları
+
+Yaklaşım
+
+Hakkımda
+
+Yazılar
+
+İletişim
+
+EN
 
 YAPAY ZEKA LEGAL-TECH GİRİŞİMİ
 
@@ -1295,6 +1764,14 @@ Hukuk, regülasyon ve yapay zeka üzerine notlar
 
 Temmuz 2026
 
+Kendi ajan iş akışınızı kurmak: tuval hukuk ekibine ne kazandırır
+
+Satın alınan ürün başkasının iş akışını getirir. Kendinizinkini kurmak; aşamaları, yetki kümesini ve kayıtları hukuk ekibinin eline verir.
+
+→
+
+Temmuz 2026
+
 Hukuki iş akışlarında prompt injection: filtre bir kontrol değildir
 
 Filtre azaltıcı bir önlemdir. Kontrol, ajanın kuruluşunuzdan kimsenin yazmadığı bir belgeyi okurken elinde tuttuğu yetki kümesidir.
@@ -1306,14 +1783,6 @@ Temmuz 2026
 AB Yapay Zeka Tüzüğü: 2 Ağustos 2026'da uygulanmaya başlayanlar
 
 (AB) 2026/1744 sayılı Yapay Zekada Dijital Omnibus 27 Temmuz'da yürürlüğe girdi ve yüksek risk tarihlerini 2027 ile 2028'e taşıdı. Madde 50 yükümlülükleri 2 Ağustos'tan itibaren uygulanmaya devam ediyor.
-
-→
-
-Temmuz 2026
-
-Yapay zeka kaynaklı atıf hataları: hukuk ekipleri için doğrulama protokolü
-
-Bağımsız bir veritabanı, 18 Temmuz 2026 itibarıyla mahkemelerin ya da diğer yargı mercilerinin üretken yapay zeka halüsinasyonlarını veya bazı kayıtlarda yalnızca ileri sürülen yapay zeka kullanımını ele aldığı 1.770'ten fazla vakayı listeliyordu. Beş adımlık doğrulama protokolü.
 
 →
 
@@ -1373,9 +1842,42 @@ serdar@lexsas.com
 
 Yapay zeka yönetişimi, düzenlemeye tabi dijital pazarlar ve hukuk operasyonları üzerine danışmanlık. Konuşma ve yönetim kurulu davetlerine de açığım, Türkçe ya da İngilizce. Yazarken, aklınızdaki iş akışını, ekibi ve zamanlamayı gizli bir ayrıntı paylaşmadan kısaca özetlemeniz yardımcı olur.
 
+Bu sitedeki içerik yalnızca genel bilgilendirme amaçlıdır ve hukuki tavsiye niteliği taşımaz. Sitenin kullanımı avukat-müvekkil ilişkisi doğurmaz. Buradaki görüşler kişiseldir ve mevcut ya da geçmiş hiçbir işvereni bağlamaz.
+
+© 2026 LEXSAS · İstanbul
+
+Yazılar
+
+Hakkımda
+
+İletişim
+
+LinkedIn
+
+Başa dön
+
+lexsas
+
+
 ============================================================
 ## Hakkında (TR)  <https://lexsas.com/tr/hakkinda.html>
 ============================================================
+
+İçeriğe atla
+
+lexsas
+
+Çalışma alanları
+
+Yaklaşım
+
+Hakkımda
+
+Yazılar
+
+İletişim
+
+EN
 
 Hakkında
 
@@ -1413,11 +1915,7 @@ Kurucu
 
 LEXSAS, İstanbul
 
-Hukuki iş akışı otomasyonuna ve danışmanlığa odaklı bir yapay zeka hukuk teknolojisi girişimi kurdum; hukuki ve regülatif işi hızlandırmak temel amaç.
-
-Talep karşılama, doküman ve bilgi iş akışları, araştırma ve uyum operasyonları için yapay zeka destekli araçlar tasarlıyor ve bu konuda danışmanlık veriyorum.
-
-Gizlilik, fikri mülkiyet ve yönetişim güvencelerini araçların tasarımına baştan yerleştiriyorum; 20+ yıllık hukuk ve regülasyon liderliğini sorumlu yapay zeka benimsemesiyle birleştiriyorum.
+Hukuki iş akışı otomasyonuna ve danışmanlığa odaklı bir yapay zeka hukuk teknolojisi girişimi; gizlilik, fikri mülkiyet ve yönetişim güvenceleri tasarıma baştan yerleşik.
 
 2026-günümüz
 
@@ -1425,11 +1923,7 @@ Regülasyon Direktörü (Regulatory Affairs)
 
 Yüksek düzeyde düzenlemeye tabi bir sektörde faaliyet gösteren küresel bir grup, İstanbul
 
-Kurumsal ilişkiler fonksiyonu içinde regülasyon gündemini fonksiyonel lider olarak yönetiyorum; en yoğun düzenlemeye tabi tüketici sektörlerinden birinde.
-
-Türkiye pazarı için regülasyon stratejisi, mevzuat izleme ve değişiklik analizi; kamu politikası ve kamu kurumlarıyla ilişkiler çalışmalarına destek veriyorum.
-
-Regülasyon operasyonlarına yapay zeka yönetişimi disiplini uyguluyorum: izleme, analiz ve kurumsal bilgi iş akışları, güvenceler baştan kurulu.
+En yoğun düzenlemeye tabi tüketici sektörlerinden birinde, kurumsal ilişkiler fonksiyonu içinde regülasyon gündeminin fonksiyonel liderliği: Türkiye pazarı için strateji, mevzuat izleme ve kamu kurumlarıyla ilişkilere destek.
 
 2019-2026
 
@@ -1437,15 +1931,9 @@ Hukuk Direktörü ve Yönetim Kurulu Üyesi
 
 Amazon Türkiye, İstanbul
 
-Perakende ve pazaryeri için uçtan uca hukuk danışmanlığı: ticari sözleşmeler, tüketici hukuku, reklam ve promosyon, ürün uyumu, tedarik zinciri, ödemeler, mahremiyet ve uyuşmazlıklar.
+Perakende, pazaryeri ve medya için uçtan uca hukuk danışmanlığı; RTÜK, Rekabet Kurumu, Ticaret Bakanlığı, KVKK Kurumu ve Merkez Bankası nezdinde temsil.
 
-Düzenleyici kurumlar nezdinde şirketi temsil ettim: RTÜK, Rekabet Kurumu, Ticaret Bakanlığı, Sanayi ve Teknoloji Bakanlığı, KVKK Kurumu ve Türkiye Cumhuriyet Merkez Bankası; teslimat taahhüdüne ilişkin bir Ticaret Bakanlığı incelemesindeki temsil de buna dahil.
-
-Sınır ötesi veri aktarımına ilişkin bir KVKK kararına yanıt olarak, KVKK Kurumu tarafından onaylanan bir Veri Aktarım Taahhütnamesi hazırladım ve imzaladım.
-
-Fiyatlama algoritmaları üzerine yürütülen bir Rekabet Kurumu incelemesinde Türkiye savunma stratejisini yönettim; savunma, algoritmik bağımsızlığa dayanan teknik ve iktisadi bir anlatı üzerine kuruluydu.
-
-Prime Video Türkiye ve Project Kuiper dahil birden çok Amazon tüzel kişiliği için Türk şirketler hukuku kapsamında yönetim kurulu üyeliği görevlerini yürüttüm; AWS Bedrock üzerinde üretken yapay zeka destekli hukuk araçlarının geliştirilmesine katkı verdim.
+Prime Video Türkiye ve Project Kuiper dahil birden çok Amazon tüzel kişiliğinde yönetim kurulu üyeliği; hukuk fonksiyonu içinde AWS Bedrock üzerinde üretken yapay zeka destekli hukuk araçlarının geliştirilmesine katkı.
 
 2012-2019
 
@@ -1453,13 +1941,7 @@ Hukuk Başkanı ve İş Etiği Sorumlusu, Orta Doğu ve Kuzey Afrika
 
 eBay Türkiye (GittiGidiyor), İstanbul
 
-Türkiye ve MENA bölgesinde pazaryeri operasyonları için bölgesel hukuk liderliği: tüketici koruma, reklam, ödemeler, fikri mülkiyet ve ticari işlemler.
-
-Tam ödeme kuruluşu lisansı almadan ödeme toplama ve satıcı ödemesi yapmayı sağlayan bir muafiyet modelini BDDK onayıyla kurdum.
-
-Kamu politikası başkanı olarak şirketi düzenleyiciler ve sektör kuruluşları önünde temsil ettim, TOBB E-Ticaret Meclisi dahil; banka ve ödeme kuruluşu iş birlikleri ile satıcı ödemelerinde BDDK ve TCMB çerçevesinde danışmanlık verdim.
-
-Bölgesel iş etiği sorumluluğu, üçüncü taraf durum tespiti ve iç soruşturmalar; geniş bir uyuşmazlık portföyünün ve pazaryeri fikri mülkiyet stratejisinin yönetimi.
+Türkiye ve MENA'da pazaryeri operasyonları için bölgesel hukuk, kamu politikası ve iş etiği liderliği; pazaryeri ödemeleri için düzenleyici onayıyla kurulan bir muafiyet modeli dahil.
 
 2008-2012
 
@@ -1467,13 +1949,7 @@ Bölgesel Hukuk Müşaviri ve Şirket Sekreteri, Orta Doğu
 
 Yüksek düzeyde düzenlemeye tabi bir sektörde faaliyet gösteren küresel bir grup, Dubai ve Lozan
 
-Katı reklam yasakları ve Sağlık Bakanlığı düzenlemeleri altında 12 Orta Doğu pazarında ticari ekiplere danışmanlık.
-
-Pazara giriş ve dağıtım mimarisi: dağıtım, kilit müşteri ve ticari pazarlama düzenlemeleri, şablonlar ve kontroller.
-
-Yüksek riskli bir bölgede saha ekibi etiği ve üçüncü taraf uyumu için pratik kurallar ve eğitimler; marka koruma ve kaçak ticaret riskine karşı tedarik zinciri bütünlüğü.
-
-Ürdün'de bir devralmanın hukuk iş akışının yönetimi; bölgesel tüzel kişilikler için şirket sekreterliği ve merkez rolünde küresel yolsuzlukla mücadele yönetişimi.
+Katı reklam yasakları altında 12 Orta Doğu pazarında ticari ekiplere danışmanlık; bölgesel tüzel kişilikler için şirket sekreterliği ve Lozan merkezinde küresel yolsuzlukla mücadele yönetişimi.
 
 2005-2008
 
@@ -1481,33 +1957,11 @@ Avukat
 
 White & Case LLP Ankara (Çakmak Avukatlık Bürosu)
 
-Düzenlemeye tabi sektörlerde sınır ötesi birleşme, devralma ve özelleştirmeler: telekomünikasyon, enerji ve bankacılık; Telsim özelleştirmesi dahil.
-
-Fikri mülkiyet: marka araştırması, tescil, iptal ve itiraz süreçleri, lisanslama ve gizlilik sözleşmeleri.
-
-Düzenlemeye tabi sektörler danışmanlığı: enerji ve altyapı (petrol, gaz, madencilik), çevre ve idare hukuku.
-
-Uyuşmazlıklar ve iş hukuku: iş sözleşmeleri, ticari ve iş uyuşmazlıklarının Türk mahkemeleri önünde takibi.
-
-Yönetim kurulu ve kurumsal yönetişim
-
-2019-2026 arasında Türk şirketler hukuku kapsamında, Prime Video Türkiye ve Project Kuiper dahil olmak üzere birden çok Amazon tüzel kişiliği için yönetim kurulu üyeliği ve yetkili temsilcilik görevlerini yürüttüm. Bu roller kurul sorumluluğu, yetki yönetimi ve kurumsal yönetişim disiplinini kapsıyordu. Daha önce Elektronik Ticaret İşletmecileri Derneği'nde yardımcı yönetim kurulu üyeliği görevini üstlendim.
+Telekomünikasyon, enerji ve bankacılık dahil düzenlemeye tabi sektörlerde sınır ötesi birleşme ve devralmalar, özelleştirmeler ve fikri mülkiyet.
 
 Eğitim
 
-Yönetici Eğitim Programı, Harvard Business School (2018-2019)
-
-İnternet İşletmeciliği Yüksek Lisansı, Mercy College, New York (2002-2004)
-
-Hukuk Lisansı, Ankara Üniversitesi Hukuk Fakültesi (1995-2001)
-
-Kurslar ve seminerler
-
-Yapay Zeka Hukuku, Politikası ve Yönetişimi, London School of Economics
-
-WIPO: E-Ticaret ve Fikri Mülkiyet İleri Kursu, Tahkim ve Arabuluculuk, Markalar ve Tasarımlar, Telif Hakları
-
-Fikri ve Sınai Mülkiyet Hakları Programı, Ankara Üniversitesi
+Ankara Üniversitesi Hukuk Fakültesi lisansı; New York'ta Mercy College'da İnternet İşletmeciliği yüksek lisansı; Harvard Business School'da yönetici eğitimi. Son olarak London School of Economics'te Yapay Zeka Hukuku, Politikası ve Yönetişimi.
 
 Ankara Barosu üyesi. Diller: Türkçe (ana dil), İngilizce (akıcı).
 
@@ -1541,56 +1995,226 @@ Bir çözümün işe yarayıp yaramadığı hislerle değil, ölçülebilir pilo
 
 Asım Serdar Yılmaz, Kurucu
 
+Bu sitedeki içerik yalnızca genel bilgilendirme amaçlıdır ve hukuki tavsiye niteliği taşımaz. Sitenin kullanımı avukat-müvekkil ilişkisi doğurmaz. Buradaki görüşler kişiseldir ve mevcut ya da geçmiş hiçbir işvereni bağlamaz.
+
+© 2026 LEXSAS · İstanbul
+
+Yazılar
+
+Hakkımda
+
+İletişim
+
+LinkedIn
+
+Başa dön
+
+lexsas
+
+
 ============================================================
 ## Yazılar (TR)  <https://lexsas.com/tr/yazilar.html>
 ============================================================
-YAZILAR
+
+İçeriğe atla
+
+lexsas
+
+Çalışma alanları
+
+Yaklaşım
+
+Hakkımda
+
 Yazılar
+
+İletişim
+
+EN
+
+Yazılar
+
+Yazılar
+
 Burada yapay zeka yönetişimi, hukuk teknolojisi ve hukuk operasyonları üzerine yazıyorum. Amaç, uygulamada işe yarayan gözlemleri abartıya kapılmadan paylaşmak.
-Temmuz 2026 - Yapay zeka yönetişimi
-Yapay zeka iş akışı aksadığında: hukuk ekipleri için olay müdahale protokolü
-Yapay zeka destekli bir hukuk iş akışı aksadığında sorumluluğu, kayıtların korunmasını, sınırlamayı ve yeniden başlatmayı düzenleyen kısa bir müdahale protokolü.
-Temmuz 2026 - Yapay zeka regülasyonu
+
+Temmuz 2026
+Hukukta yapay zeka
+
+Kendi ajan iş akışınızı kurmak: tuval hukuk ekibine ne kazandırır
+
+Satın alınan ürün başkasının iş akışını getirir. Kendinizinkini kurmak; aşamaları, yetki kümesini ve kayıtları hukuk ekibinin eline verir.
+
+→
+
+Temmuz 2026
+Pazaryeri operasyonu
+
+Pazaryeri uyum operasyonu: tek bildirim kuyruğu, en sıkı süreye ayarlı
+
+Türkiye size kırk sekiz saat veriyor, Dijital Hizmetler Yasası ise kararın biçimini belirliyor. Hangi kuyruklar sizin ve nöbette kim var.
+
+→
+
+Temmuz 2026
+Yapay zeka yönetişimi
+
+Hukuki iş akışlarında prompt injection: filtre bir kontrol değildir
+
+Filtre azaltıcı bir önlemdir. Kontrol, ajanın kuruluşunuzdan kimsenin yazmadığı bir belgeyi okurken elinde tuttuğu yetki kümesidir.
+
+→
+
+Temmuz 2026
+Hukuk operasyonları
+
+Canlı bir yapay zeka iş akışını değerlendirmek: değişiklik kapısı
+
+Pilot bir kez ölçülür. Canlı bir iş akışı ise her model, istem, bilgi getirme veya entegrasyon değişikliğinde yeniden ölçülür.
+
+→
+
+Temmuz 2026
+Hukuk operasyonları
+
+İş akışı otomasyonunda tedarikçi bağımlılığı: ne dışa aktarılır, ne yeniden kurulur
+
+Veri Tüzüğü verinizi geri veriyor, iş akışınızı değil. Tedarikçi inceleme listesinin artık ne sorması gerektiği.
+
+→
+
+Temmuz 2026
+Yapay zeka regülasyonu
+
 AB Yapay Zeka Tüzüğü: 2 Ağustos 2026'da uygulanmaya başlayanlar
-Kabul edilen Dijital Omnibus, yüksek riskli sistemler için 2027 ve 2028'de yeni uygulama tarihleri belirliyor; 18 Temmuz 2026 itibarıyla yayımlanmayı ve yürürlüğe girmeyi bekliyor. Madde 50 yükümlülükleri 2 Ağustos'ta uygulanmaya başlıyor.
-Temmuz 2026 - Hukukta yapay zeka
+
+(AB) 2026/1744 sayılı Yapay Zekada Dijital Omnibus 27 Temmuz'da yürürlüğe girdi ve yüksek risk tarihlerini 2027 ile 2028'e taşıdı. Madde 50 yükümlülükleri 2 Ağustos'tan itibaren uygulanmaya devam ediyor.
+
+→
+
+Temmuz 2026
+Hukukta yapay zeka
+
 Yapay zeka kaynaklı atıf hataları: hukuk ekipleri için doğrulama protokolü
+
 Bağımsız bir veritabanı, 18 Temmuz 2026 itibarıyla mahkemelerin ya da diğer yargı mercilerinin üretken yapay zeka halüsinasyonlarını veya bazı kayıtlarda yalnızca ileri sürülen yapay zeka kullanımını ele aldığı 1.770'ten fazla vakayı listeliyordu. Beş adımlık doğrulama protokolü.
-Temmuz 2026 - E-ticaret hukuku
+
+→
+
+Temmuz 2026
+E-ticaret hukuku
+
 Türkiye'de pazaryeri aracı sorumluluğu: birlikte okunması gereken üç rejim
+
 Türkiye'de pazaryeri sorumluluğu üç rejimin kesişiminde: 6563 e-ticaret, 6502 tüketici ve 5651 içerik rejimi birlikte okunmalı.
-Temmuz 2026 - Platform regülasyonu
+
+→
+
+Temmuz 2026
+Platform regülasyonu
+
 Pazaryeri sıralaması ve algoritmik hesap verebilirlik: hukuk liderinin soruları
+
 Sıralama artık DSA, DMA, P2B ve Türkiye e-ticaret kanunu altında hukuki bir alan. Hukuk liderinin sıralama hakkında sorması gereken sorular.
-Temmuz 2026 - Hukukta yapay zeka
+
+→
+
+Temmuz 2026
+Hukukta yapay zeka
+
 Hukukta yapay zeka: geliştirmek mi, satın almak mı, uyarlamak mı?
+
 Çoğu ekip kurumsal platformları uyarlamalı, standart işleri hazır ürünlerle çözmeli, yalnızca en hassas işleri kendisi geliştirmeli. Uygulayıcı bir çerçeve.
-Temmuz 2026 - Hukuk operasyonları
+
+→
+
+Temmuz 2026
+Hukuk operasyonları
+
 Hukuki iş akışı otomasyonu pilotlarını ölçmek
+
 Metriksiz pilot bir demodur. Hukuki otomasyon pilotu için: mevcut durumu ölçün, hata toleransını belirleyin, durdur-ölçekle eşiğini önceden koyun.
-Temmuz 2026 - Yapay zeka yönetişimi
+
+→
+
+Temmuz 2026
+Yapay zeka yönetişimi
+
 Şirket içi hukuk ekipleri için yapay zeka yönetişimi: beş asgari kontrol
+
 Üretken yapay zekayı ölçeklendirmeden önce hukuk ekibinin kurması gereken beş asgari kontrol: veri, yetki, insan incelemesi, kayıt ve hata yönetimi.
-Temmuz 2026 - Veri koruma
+
+→
+
+Temmuz 2026
+Veri koruma
+
 Hukuk ekipleri için KVKK uyumlu üretken yapay zeka iş akışları
+
 Hukuk ekipleri kişisel veriyi üretken yapay zekadan geçirirken KVKK ne bekliyor: hukuki sebep, yurt dışı aktarım mekanizmaları, minimizasyon ve kayıt.
-Temmuz 2026 - Hukuk operasyonları
+
+→
+
+Temmuz 2026
+Hukuk operasyonları
+
 Hukuk ekipleri için yapay zeka tedarikçi inceleme listesi
+
 Bir hukuk ekibinin yapay zeka tedarikçisine imzadan önce sorması gereken altı soru: eğitim verisi, saklama, alt işleyiciler, tazmin, kayıt ve çıkış.
-Temmuz 2026 - Hukuk pazarı
+
+→
+
+Temmuz 2026
+Hukuk pazarı
+
 Saatlik ücretin mantığı tükeniyor
+
 Yapay zeka saatin kendisini değersizleştiriyor. Yeni nesil bürolar zamanı değil işi fiyatlıyor.
-Temmuz 2026 - Hukukta yapay zeka
+
+→
+
+Temmuz 2026
+Hukukta yapay zeka
+
 Yapay zeka hukuk sektörünü sessizce yeniden çiziyor
-Benimseme bir yılda ikiye katlandı. Avantaj kadrodan muhakemeye ve iş akışı tasarımına kayıyor.
-Temmuz 2026 - Hukuk operasyonları
-Hukukçunun saatleri gerçekte nereye gidiyor
-Ortalama avukat günün küçük bir kısmını faturalandırabiliyor. Otomasyonun geri kazandırdıkları ve nereden başlamalı.
-Temmuz 2026 - Yapay zeka yönetişimi
+
+Şirket içi kullanım bir yılda yaklaşık ikiye katlandı; bürolarda artış yarı oranında kaldı. Avantaj kadrodan muhakemeye ve iş akışı tasarımına kayıyor.
+
+→
+
+Temmuz 2026
+Yapay zeka yönetişimi
+
 Hukuk ekiplerinde üretken yapay zeka: gerçekte ne değişiyor?
+
 Üretken yapay zekanın hukuk ekiplerinde neyi değiştirdiğini, neyi değiştirmediğini ve sorumlu yürütmenin nasıl kurulduğunu bir uygulayıcının gözünden anlatıyorum.
-Bunlardan biri masanızdaki soruya yakınsa iletişime geçin: https://lexsas.com/tr/iletisim.html
-Yeni yazılar ayrıca RSS akışına düşüyor: https://lexsas.com/tr/feed.xml
+
+→
+
+Bunlardan biri masanızdaki soruya yakınsa,
+iletişime geçin
+.
+
+Yeni yazılar ayrıca
+RSS akışına
+düşüyor.
+
+Bu sitedeki içerik yalnızca genel bilgilendirme amaçlıdır ve hukuki tavsiye niteliği taşımaz. Sitenin kullanımı avukat-müvekkil ilişkisi doğurmaz. Buradaki görüşler kişiseldir ve mevcut ya da geçmiş hiçbir işvereni bağlamaz.
+
+© 2026 LEXSAS · İstanbul
+
+Yazılar
+
+Hakkımda
+
+İletişim
+
+LinkedIn
+
+Başa dön
+
+lexsas
+
 
 ============================================================
 ## LinkedIn (TR) (personal LinkedIn post by the founder; opinion commentary, quoted verbatim)  <https://lexsas.com/tr/linkedin.html>
@@ -1683,7 +2307,23 @@ Sonraki yazı: Yapay zeka kaynaklı atıf hataları: hukuk ekipleri için doğru
 ## Yazı: Kendi ajan iş akışınızı kurmak: tuval hukuk ekibine ne kazandırır  <https://lexsas.com/tr/yazilar/kendi-ajan-is-akisinizi-kurmak.html>
 ============================================================
 
-July 2026 · AI regulation
+İçeriğe atla
+
+lexsas
+
+Çalışma alanları
+
+Yaklaşım
+
+Hakkımda
+
+Yazılar
+
+İletişim
+
+EN
+
+Temmuz 2026 · Hukukta yapay zeka
 
 Kendi ajan iş akışınızı kurmak: tuval hukuk ekibine ne kazandırır
 
@@ -1693,7 +2333,7 @@ Bu ay yayımlanan
 Hukukta yapay zeka: geliştirmek mi, satın almak mı, uyarlamak mı?
 hangi yolun hangi işe uyduğuna karar veriyor. Bu yazı o kararın sonrasına bakıyor, çünkü kazanç orada. Bir hukuk ekibi için iş akışı kurduğumda ilk çizdiğimiz şey otomasyon olmuyor; ekibin kendi günü oluyor: dosya nereden geliyor, ilk kim okuyor, iş nerede ve kimi bekliyor. Satın alınan ürün bu sorulara başkasının cevabını getirir. Kendi kurduğunuz ajan iş akışı sizinkini getirir; ilk kazanç budur: ekipte hiçbir şeyin eğilip bükülmesi gerekmez.
 
-İkinci kazanç, gözle görülür kontrol. Tuvalde ajanın tuttuğu her araç, okuyabildiği her kaynak, yazabildiği her yer; bir hukukçunun işaret edip sorgulayabileceği ve kaldırabileceği çizili bir bağlantıdır. Meta'nın Agents Rule of Two yaklaşımı bir ajana tek oturumda üç riskli özellikten en çok ikisini tanır; bu sınır iş akışı olarak çizildiğinde tedarikçi güvencesi olmaktan çıkar, hukuk direktörünün okuyabildiği bir resme dönüşür. Güvenlik incelemesi bir anketten,
+İkinci kazanç, gözle görülür kontrol. Tuvalde ajanın tuttuğu her araç, okuyabildiği her kaynak, yazabildiği her yer; bir hukukçunun işaret edip sorgulayabileceği ve kaldırabileceği çizili bir bağlantıdır. Meta'nın Agents Rule of Two yaklaşımı, Simon Willison'ın lethal trifecta adını verdiği üç riskli özellikten bir ajana tek oturumda en çok ikisini tanır; bu sınır iş akışı olarak çizildiğinde tedarikçi güvencesi olmaktan çıkar, hukuk direktörünün okuyabildiği bir resme dönüşür. Güvenlik incelemesi bir anketten,
 kendi koyduğunuz bir görev tanımına
 döner.
 
@@ -1706,17 +2346,34 @@ geçer; iş akışı tanımı, çıkışta yanınıza alacağınız varlıklar l
 Yayım
 28 Temmuz 2026
 
-Sources
+Kaynaklar
 
-Meta AI, Agents Rule of Two: A Practical Approach to AI Agent Security, 31 Ekim 2025  https://ai.meta.com/blog/practical-ai-agent-security/
+Meta AI, Agents Rule of Two: A Practical Approach to AI Agent Security, 31 Ekim 2025 https://ai.meta.com/blog/practical-ai-agent-security/
 
-Simon Willison, The lethal trifecta for AI agents, 16 Haziran 2025  https://simonwillison.net/2025/Jun/16/the-lethal-trifecta/
+Simon Willison, The lethal trifecta for AI agents, 16 Haziran 2025 https://simonwillison.net/2025/Jun/16/the-lethal-trifecta/
 
 Sonraki yazı: Hukuki iş akışı otomasyonu pilotlarını ölçmek →
 
-← All insights
+← Tüm yazılar
 
-Get in touch →
+İletişime geç →
+
+Bu sitedeki içerik yalnızca genel bilgilendirme amaçlıdır ve hukuki tavsiye niteliği taşımaz. Sitenin kullanımı avukat-müvekkil ilişkisi doğurmaz. Buradaki görüşler kişiseldir ve mevcut ya da geçmiş hiçbir işvereni bağlamaz.
+
+© 2026 LEXSAS · İstanbul
+
+Yazılar
+
+Hakkımda
+
+İletişim
+
+LinkedIn
+
+Başa dön
+
+lexsas
+
 
 ============================================================
 ## Yazı: Pazaryeri uyum operasyonu: tek bildirim kuyruğu, en sıkı süreye ayarlı  <https://lexsas.com/tr/yazilar/pazaryeri-uyum-operasyonu.html>
@@ -2164,34 +2821,110 @@ Sonraki yazı: Hukuk ekipleri için yapay zeka tedarikçi inceleme listesi →
 ============================================================
 ## Yazı: Hukuk ekipleri için yapay zeka tedarikçi inceleme listesi  <https://lexsas.com/tr/yazilar/yapay-zeka-tedarikci-inceleme.html>
 ============================================================
+
+İçeriğe atla
+
+lexsas
+
+Çalışma alanları
+
+Yaklaşım
+
+Hakkımda
+
 Yazılar
-Temmuz 2026 - Hukuk operasyonları
+
+İletişim
+
+EN
+
+Temmuz 2026 · Hukuk operasyonları
+
 Hukuk ekipleri için yapay zeka tedarikçi inceleme listesi
-Bu masanın iki tarafında da oturdum. Tedarikçi tarafında hukuk ekipleri için yapay zeka araçlarının geliştirilmesine katkı verdim; alıcı tarafında aynı tür araçların satın alınmasına onay verdim. İyi bir demo ile daha güvenli bir sözleşme arasındaki mesafeyi kısa bir soru listesi kapatıyor; cevapların yeri de sözleşmenin kendisidir: denetim hakları, ihlal bildirimi ve sorumluluk. Soruların çoğu tek bir toplantıda sorulabiliyor.
+
+Bu masanın iki tarafında da oturdum. Şirket içinde bir hukuk ekibi için yapay zeka araçları kurdum; alıcı tarafında aynı tür araçların tedarikçiden satın alınmasına onay verdim. İyi bir demo ile daha güvenli bir sözleşme arasındaki mesafeyi kısa bir soru listesi kapatıyor; cevapların yeri de sözleşmenin kendisidir: denetim hakları, ihlal bildirimi ve sorumluluk. Soruların çoğu tek bir toplantıda sorulabiliyor.
+
 Risk ölçülebilir durumda. Verizon'un 2026 Veri İhlali Araştırma Raporu'na göre üçüncü tarafların karıştığı ihlallerin payı yüzde 48'e yükseldi; bu oran yapay zeka tedarikçilerini değil, tüm üçüncü tarafları ölçer. IBM'in 2025 Cost of a Data Breach raporu ise ihlale uğrayan kurumların yaklaşık beşte birinin ihlalin gölge yapay zekayı içerdiğini bildirdiğini ekliyor; yoğun gölge yapay zeka kullananlarda ortalama ihlal maliyeti, az kullananlara göre yaklaşık 670 bin dolar daha yüksek çıkıyor; bu bir nedensellik değil, ilişkidir. İncelenmeden devreye alınan bir yapay zeka aracı, gizlilik kapsamındaki içeriğe alışılmadık ölçüde geniş erişimi olan bir üçüncü taraftır.
+
 Benim listemde yerini hak eden altı soru var.
+
 Eğitim verisinin kaynağı. Modelin eğitim verisi nereden geldi, tedarikçi bu veriyi kullanma hakkına sahip olduğunu gösterebiliyor mu?
+
 Komutların saklanması ve yeniden kullanımı. Girdileriniz ve belgeleriniz saklanıyor mu, ne kadar süreyle, herhangi bir modelin eğitiminde kullanılıyor mu?
+
 Alt işleyiciler ve barındırma bölgesi. Veriye başka kim dokunuyor, alt işleyici zincirinin kaç halkası boyunca, veri hangi ülkede duruyor ve silme yalnızca vaat mi ediliyor yoksa doğrulanabiliyor mu?
+
 Fikri mülkiyet ihlali tazminatı. Bir çıktı başkasının hakkını ihlal ederse sorumluluğu kim üstleniyor?
+
 Denetim izi. Kimin ne sorduğu ve sistemin ne döndürdüğü sonradan izlenebiliyor mu?
-Çıkış ve verinin iadesi. Sözleşme sona erdiğinde veriniz hangi biçimde ve nasıl geri dönüyor?
+
+Çıkış ve verinin iadesi. Sözleşme sona erdiğinde veriniz hangi biçimde ve nasıl geri dönüyor? Bu soru artık dar kalıyor:
+Veri Tüzüğünün sözleşmeye koyduğu eksiksiz taşınabilirlik dökümünü
+isteyin, çünkü iş akışı veriyle birlikte geri gelmiyor.
+
 Cevapları temiz olan bir tedarikçi bu sorulardan rahatsız olmaz. Herhangi birindeki duraksama ise başlı başına bir cevaptır ve imzadan önce gelir. Bunu bir hüküm değil bir işaret olarak görün; önemli olan cevapların yine de sözleşmeye yazılması.
-Yayımlandı 11 Temmuz 2026
+
+Yayım
+11 Temmuz 2026
+· Son güncelleme
+27 Temmuz 2026
+
 Kaynaklar
-Verizon 2026 Data Breach Investigations Report  <https://www.verizon.com/business/resources/reports/dbir/>
-Verizon 2026 DBIR (newsroom summary)  <https://www.verizon.com/about/news/breach-industry-wide-dbir-finds>
-IBM Cost of a Data Breach Report 2025 (newsroom)  <https://newsroom.ibm.com/2025-07-30-ibm-report-13-of-organizations-reported-breaches-of-ai-models-or-applications,-97-of-which-reported-lacking-proper-ai-access-controls>
+
+Verizon 2026 Data Breach Investigations Report https://www.verizon.com/business/resources/reports/dbir/
+
+Verizon 2026 DBIR (newsroom summary) https://www.verizon.com/about/news/breach-industry-wide-dbir-finds
+
+IBM Cost of a Data Breach Report 2025 (newsroom) https://newsroom.ibm.com/2025-07-30-ibm-report-13-of-organizations-reported-breaches-of-ai-models-or-applications,-97-of-which-reported-lacking-proper-ai-access-controls
+
+Sonraki yazı: Şirket içi hukuk ekipleri için yapay zeka yönetişimi: beş asgari kontrol →
+
+← Tüm yazılar
+
+İletişime geç →
+
+Bu sitedeki içerik yalnızca genel bilgilendirme amaçlıdır ve hukuki tavsiye niteliği taşımaz. Sitenin kullanımı avukat-müvekkil ilişkisi doğurmaz. Buradaki görüşler kişiseldir ve mevcut ya da geçmiş hiçbir işvereni bağlamaz.
+
+© 2026 LEXSAS · İstanbul
+
+Yazılar
+
+Hakkımda
+
+İletişim
+
+LinkedIn
+
+Başa dön
+
+lexsas
+
 
 ============================================================
 ## Yazı: Hukuk ekiplerinde üretken yapay zeka: gerçekte ne değişiyor?  <https://lexsas.com/tr/yazilar/hukuk-ekiplerinde-uretken-yapay-zeka.html>
 ============================================================
 
+İçeriğe atla
+
+lexsas
+
+Çalışma alanları
+
+Yaklaşım
+
+Hakkımda
+
+Yazılar
+
+İletişim
+
+EN
+
 Temmuz 2026 · Yapay zeka yönetişimi
 
 Hukuk ekiplerinde üretken yapay zeka: gerçekte ne değişiyor?
 
-Amazon'da AWS Bedrock üzerinde üretken yapay zeka destekli hukuk araçları geliştirdiğimizde ilk gerçek karar hangi modeli seçeceğimiz değildi. Aracı önce hangi tek iş akışına yönelteceğimiz, gerisini hangi sırayla ekleyeceğimizdi. Aracın ne yapabileceğini değil, neyi asla yapmaması gerektiğini yazmakla başladık; sonra dar, yüksek hacimli tek bir işi ilk sıraya koyduk. Bu sıralama kararı bana hiçbir ürün demosunun öğretmediğini öğretti. Doğru soru, üretken yapay zekanın hukuk işini otomatikleştirip otomatikleştirmeyeceği değil; daha dar bir soru: neyi değiştiriyor, neyi olduğu gibi bırakıyor ve onu riski sessizce büyütmeden nasıl yürütüyorsun.
+Şirket içi ekibimiz AWS Bedrock üzerinde üretken yapay zeka destekli hukuk araçlarını kurarken ilk gerçek karar hangi modeli seçeceğimiz değildi. Aracı önce hangi tek iş akışına yönelteceğimiz, gerisini hangi sırayla ekleyeceğimizdi. Aracın ne yapabileceğini değil, neyi asla yapmaması gerektiğini yazmakla başladık; sonra dar, yüksek hacimli tek bir işi ilk sıraya koyduk. Bu sıralama kararı bana hiçbir ürün demosunun öğretmediğini öğretti. Doğru soru, üretken yapay zekanın hukuk işini otomatikleştirip otomatikleştirmeyeceği değil; daha dar bir soru: neyi değiştiriyor, neyi olduğu gibi bırakıyor ve onu riski sessizce büyütmeden nasıl yürütüyorsun.
 
 Değişmeyenler
 
@@ -2223,7 +2956,7 @@ Bir aracı devreye almak kolay, doğru devreye almak zor. Aradaki fark, teknoloj
 
 Üçüncüsü, ölçülebilir pilotlar. Bir çözümün işe yarayıp yaramadığı, hislerle değil sayılarla anlaşılır. Hangi sürecin ne kadar hızlandığını, hangi hata oranının kabul edilebilir olduğunu ve dış avukat harcamasının nasıl değiştiğini ölçmeden ölçeklemek, riski görünmez hale getirir. Bizim yaklaşımımız aşamalı oldu: küçük bir kapsamda başla, ölç, düzelt, sonra genişlet. Bir pilotun başarısızlığı da bilgidir, yeter ki ölçülebilir olsun.
 
-Dördüncüsü, hataları dürüstçe kaydetmek. Modeller, kulağa son derece makul gelen biçimde ve tam bir özgüvenle yanlış olabiliyor. Bunu yakalayacak bir mekanizmaya ve yanlış cevabı utanılacak bir kaza değil, kayda geçecek bir bulgu sayan bir ekibe ihtiyaç var.
+Dördüncüsü, hataları dürüstçe kaydetmek. Modeller, kulağa son derece makul gelen biçimde ve tam bir özgüvenle yanlış olabiliyor; Journal of Legal Analysis'te ve Stanford'da yayımlanan 2024 tarihli halüsinasyon çalışmaları hukuk kullanımında tam da bu örüntüyü belgeliyor. Bunu yakalayacak bir mekanizmaya ve yanlış cevabı utanılacak bir kaza değil, kayda geçecek bir bulgu sayan bir ekibe ihtiyaç var.
 
 Sonuç olarak, üretken yapay zeka hukuk ekiplerinde gerçek bir fark yaratıyor, ama vaat edildiği yerde değil. Muhakemeyi devralmıyor, ona giden yolu kısaltıyor. Bunu doğru anlayan bir ekip, hızını güvencelerle birlikte artırabilir. Yanlış anlayan bir ekip ise, kazandığını sandığı hızın altında görünmeyen bir risk biriktirir. Fark, teknolojide değil, onu yürüten disiplinde. Ve o disiplin, hiçbir araca devredilemez.
 
@@ -2234,23 +2967,40 @@ Yayım
 
 Kaynaklar
 
-Court of Justice of the European Union, Akzo Nobel Chemicals and Akcros Chemicals v Commission, C-550/07 P (2010)  https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:62007CJ0550
+Court of Justice of the European Union, Akzo Nobel Chemicals and Akcros Chemicals v Commission, C-550/07 P (2010) https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:62007CJ0550
 
-Journal of Legal Analysis, Large Legal Fictions: Profiling Legal Hallucinations in Large Language Models (2024)  https://academic.oup.com/jla/article/16/1/64/7699227
+Journal of Legal Analysis, Large Legal Fictions: Profiling Legal Hallucinations in Large Language Models (2024) https://academic.oup.com/jla/article/16/1/64/7699227
 
-Stanford RegLab and Stanford HAI, Hallucination-Free? Assessing the Reliability of Leading AI Legal Research Tools (2024)  https://arxiv.org/abs/2405.20362
+Stanford RegLab and Stanford HAI, Hallucination-Free? Assessing the Reliability of Leading AI Legal Research Tools (2024) https://arxiv.org/abs/2405.20362
 
-Association of Corporate Counsel and Everlaw, Generative AI's Growing Strategic Value for Corporate Law Departments (2025)  https://www.everlaw.com/press/release/acc-report-2025/
+Association of Corporate Counsel and Everlaw, Generative AI's Growing Strategic Value for Corporate Law Departments (2025) https://www.everlaw.com/press/release/acc-report-2025/
 
-Minnesota Law Review, Lawyering in the Age of Artificial Intelligence (2024)  https://scholarship.law.umn.edu/minnlrev/vol109/iss1/3/
+Minnesota Law Review, Lawyering in the Age of Artificial Intelligence (2024) https://scholarship.law.umn.edu/minnlrev/vol109/iss1/3/
 
-MIT NANDA, The GenAI Divide: State of AI in Business 2025 (via Fortune)  https://fortune.com/2025/08/18/mit-report-95-percent-generative-ai-pilots-at-companies-failing-cfo/
+MIT NANDA, The GenAI Divide: State of AI in Business 2025 (via Fortune) https://fortune.com/2025/08/18/mit-report-95-percent-generative-ai-pilots-at-companies-failing-cfo/
 
 Sonraki yazı: Şirket içi hukuk ekipleri için yapay zeka yönetişimi: beş asgari kontrol →
 
 ← Tüm yazılar
 
 İletişime geç →
+
+Bu sitedeki içerik yalnızca genel bilgilendirme amaçlıdır ve hukuki tavsiye niteliği taşımaz. Sitenin kullanımı avukat-müvekkil ilişkisi doğurmaz. Buradaki görüşler kişiseldir ve mevcut ya da geçmiş hiçbir işvereni bağlamaz.
+
+© 2026 LEXSAS · İstanbul
+
+Yazılar
+
+Hakkımda
+
+İletişim
+
+LinkedIn
+
+Başa dön
+
+lexsas
+
 
 ============================================================
 ## Yazı: Yapay zeka hukuk sektörünü sessizce yeniden çiziyor  <https://lexsas.com/tr/yazilar/yapay-zeka-hukuku-yeniden-ciziyor.html>
@@ -2307,21 +3057,84 @@ Sonraki yazı: Yapay zeka hukuk sektörünü sessizce yeniden çiziyor →
 ============================================================
 ## LinkedIn gönderisi: Yapay zeka ajanı kum havuzundan çıkarsa kim sorumlu olur? (personal LinkedIn post by the founder; opinion commentary, quoted verbatim)  <https://lexsas.com/tr/linkedin-gonderileri/openai-hugging-face-yapay-zeka-ajani-sorumlulugu.html>
 ============================================================
-LinkedIn Gönderileri
-23 Temmuz 2026 - LinkedIn gönderisi
+
+İçeriğe atla
+
+lexsas
+
+Çalışma alanları
+
+Yaklaşım
+
+Hakkımda
+
+Yazılar
+
+İletişim
+
+EN
+
+23 Temmuz 2026
+· LinkedIn gönderisi
+
 Yapay zeka ajanı kum havuzundan çıkarsa kim sorumlu olur?
+
 OpenAI'ın Hugging Face olayı, mevcut sorumluluk kurallarının doğrudan yanıtlamadığı bir soruyu gündeme getiriyor: özerk bir ajan yolu bulup kullandığında zararı kim üstlenir?
+
 OpenAI'ın açıklamasına göre Hugging Face üzerinde yürütülen model değerlendirmesinde özerk bir ajan, test kum havuzundan sıfır gün açığını kullanarak çıktı ve üretim altyapısına erişti. Olayın teknik yönü kadar hukuki niteliği de önemli: ajan, geçiş yolunu kendi buldu ve kullandı.
+
 Sorumluluk hukukunda fail ile araç arasındaki ayrım genellikle nettir. Araç, öngörülmeyen bir yolu araştırıp seçtiğinde bu ayrım zorlaşır. Roma hukukundaki hayvan gözetimi benzetmesi burada düşünmeye yardımcı olur: hayvanın davranışı sahibinin emriyle gerçekleşmese de gözeten, bakım ve denetim yükümlülüğü nedeniyle zarardan sorumlu tutulabilir. Bu benzetme yapay zekaya kişilik atfetmez; gözetim, denetim ve riskin kime ait olduğunu tartışmaya açar.
+
 Türk Borçlar Kanunu'nun 67. maddesi, hayvan bulunduranın sorumluluğuna ilişkin bir başlangıç noktası sunar; yapay zeka ajanları için doğrudan uygulanacak hazır bir hüküm değildir. Zararın ajanı devreye alan, işleten, geliştiren, altyapıyı yöneten ya da riski denetleme imkanı bulunan başka bir kişi üzerinde mi kalacağı somut olaya göre değerlendirilmelidir. Sözleşmeler riskin bir bölümünü dağıtabilir; ancak sistemin ve güvenlik tedbirlerinin fiili gözetiminin kimde olduğu sorusunu ortadan kaldırmaz.
+
 Kaynaklar
-OpenAI, Hugging Face model değerlendirmesi güvenlik olayı  <https://openai.com/index/hugging-face-model-evaluation-security-incident/>
-Türk Borçlar Kanunu, 6098 sayılı Kanun, m. 67  <https://www.mevzuat.gov.tr/mevzuatmetin/1.5.6098.pdf>
-LinkedIn kaynak gönderisi  <https://www.linkedin.com/feed/update/urn:li:activity:7486085618469343233/>
+
+OpenAI, Hugging Face model değerlendirmesi güvenlik olayı https://openai.com/index/hugging-face-model-evaluation-security-incident/
+
+Türk Borçlar Kanunu, 6098 sayılı Kanun, m. 67 https://www.mevzuat.gov.tr/mevzuatmetin/1.5.6098.pdf
+
+LinkedIn kaynak gönderisi https://www.linkedin.com/feed/update/urn:li:activity:7486085618469343233/
+
+← Tüm LinkedIn gönderileri
+
+İletişime geç →
+
+Bu sitedeki içerik yalnızca genel bilgilendirme amaçlıdır ve hukuki tavsiye niteliği taşımaz. Sitenin kullanımı avukat-müvekkil ilişkisi doğurmaz. Buradaki görüşler kişiseldir ve mevcut ya da geçmiş hiçbir işvereni bağlamaz.
+
+© 2026 LEXSAS · İstanbul
+
+Yazılar
+
+Hakkımda
+
+İletişim
+
+LinkedIn
+
+Başa dön
+
+lexsas
+
 
 ============================================================
 ## LinkedIn gönderisi: Jeopolitik sigorta olarak açık ağırlıklar (personal LinkedIn post by the founder; opinion commentary, quoted verbatim)  <https://lexsas.com/tr/linkedin-gonderileri/acik-agirliklar-yapay-zeka-jeopolitigi.html>
 ============================================================
+
+İçeriğe atla
+
+lexsas
+
+Çalışma alanları
+
+Yaklaşım
+
+Hakkımda
+
+Yazılar
+
+İletişim
+
+EN
 
 21 Temmuz 2026
 · LinkedIn gönderisi
@@ -2340,40 +3153,118 @@ Bu nedenle açık ağırlıklar dijital egemenliğin bütününü değil, öneml
 
 Kaynaklar
 
-Anthropic, Fable ve Mythos erişimi  https://www.anthropic.com/news/fable-mythos-access
+Anthropic, Fable ve Mythos erişimi https://www.anthropic.com/news/fable-mythos-access
 
-Kimi, Kimi K3: Açık frontier zekası  https://www.kimi.com/vi/blog/kimi-k3
+Kimi, Kimi K3: Açık frontier zekası https://www.kimi.com/vi/blog/kimi-k3
 
-Thinking Machines Lab, Inkling: Açık ağırlıklı model  https://thinkingmachines.ai/news/introducing-inkling/
+Thinking Machines Lab, Inkling: Açık ağırlıklı model https://thinkingmachines.ai/news/introducing-inkling/
 
-Çin Dışişleri Bakanlığı, 17 Temmuz 2026 küresel yapay zeka yönetişimi konuşması  https://www.fmprc.gov.cn/eng/xw/zyxw/202607/t20260717_11984766.html
+Çin Dışişleri Bakanlığı, 17 Temmuz 2026 küresel yapay zeka yönetişimi konuşması https://www.fmprc.gov.cn/eng/xw/zyxw/202607/t20260717_11984766.html
 
-LinkedIn kaynak gönderisi  https://www.linkedin.com/feed/update/urn:li:activity:7485302343329304576/
-
-Devamı: Tüm LinkedIn gönderileri →
+LinkedIn kaynak gönderisi https://www.linkedin.com/feed/update/urn:li:activity:7485302343329304576/
 
 ← Tüm LinkedIn gönderileri
 
 İletişime geç →
 
+Bu sitedeki içerik yalnızca genel bilgilendirme amaçlıdır ve hukuki tavsiye niteliği taşımaz. Sitenin kullanımı avukat-müvekkil ilişkisi doğurmaz. Buradaki görüşler kişiseldir ve mevcut ya da geçmiş hiçbir işvereni bağlamaz.
+
+© 2026 LEXSAS · İstanbul
+
+Yazılar
+
+Hakkımda
+
+İletişim
+
+LinkedIn
+
+Başa dön
+
+lexsas
+
+
 ============================================================
 ## LinkedIn gönderisi: Frontier yapay zeka için bir FINRA (personal LinkedIn post by the founder; opinion commentary, quoted verbatim)  <https://lexsas.com/tr/linkedin-gonderileri/frontier-yapay-zeka-finra-standart-orgutu.html>
 ============================================================
-LinkedIn Gönderileri
-15 Temmuz 2026 - LinkedIn gönderisi
+
+İçeriğe atla
+
+lexsas
+
+Çalışma alanları
+
+Yaklaşım
+
+Hakkımda
+
+Yazılar
+
+İletişim
+
+EN
+
+15 Temmuz 2026
+· LinkedIn gönderisi
+
 Frontier yapay zeka için bir FINRA
+
 Demis Hassabis, sektörün finanse ettiği ve federal gözetim altında çalışan bir standart örgütü öneriyor. Güvenlik gerekçesi gerçek; kuralları yazanları koruma riski de öyle.
+
 Demis Hassabis, frontier yapay zeka için FINRA benzeri bir yapı öneriyor: sektör tarafından finanse edilen, federal gözetim altında çalışan ve ortak güvenlik beklentileri belirleyebilen bir örgüt. FINRA benzetmesi, sıradan gönüllü eşgüdümün ötesinde uzmanlaşmış kural koyma ve gözetim fikrine işaret ediyor.
+
 İlk adım, modellere denetimli erişim sağlamak olabilir. Geliştiriciler frontier modelleri yapılandırılmış testler, olay bildirimi ve ortak değerlendirme protokolleri için paylaşabilir. Bu özdenetim çerçevesinin, katılımın gönüllü olduğu bir aşamadan sertifikasyona doğru ilerlemesi düşünülebilir. Sertifika, bir modelin tanımlanmış güvenlik ve yönetişim kontrollerinden geçtiğini gösterebilir.
+
 Güvenlik faydası açık. Ortak yöntemler tekrar eden testleri azaltabilir, başarısızlık bildirimlerini karşılaştırılabilir kılabilir ve alıcılara koruma önlemlerini değerlendirecek anlaşılır bir temel sunabilir. Federal gözetim de standartların tek bir şirketin iyi niyetine bağlı kalmasını azaltabilir.
+
 Ancak sertifikasyon, güvence olduğu kadar giriş engeline de dönüşebilir. En büyük laboratuvarlar kendi kapasitelerine göre pahalı ve kapalı gereklilikler yazarsa, küçük geliştiriciler ve açık araştırma grupları rekabet edemeden dışarıda kalabilir. Bu nedenle tartışma, FINRA benzeri bir yapının yararlı olup olmadığından çok, yönetişiminin, erişim kurallarının ve itiraz yollarının kural kitabını yazarlarını koruyan bir araca dönüştürüp dönüştürmeyeceğidir. Bu, şu an için bir öneridir; yürürlükteki bir hukuk düzenlemesi değildir.
+
 Kaynaklar
-Demis Hassabis, Frontier AI için çerçeve ve yeni çağın şafağı  <https://demishassabis.substack.com/p/a-framework-for-frontier-ai-and-the-dawning-of-a-new-age>
-LinkedIn kaynak gönderisi  <https://www.linkedin.com/feed/update/urn:li:activity:7483031295619416064/>
+
+Demis Hassabis, Frontier AI için çerçeve ve yeni çağın şafağı https://demishassabis.substack.com/p/a-framework-for-frontier-ai-and-the-dawning-of-a-new-age
+
+LinkedIn kaynak gönderisi https://www.linkedin.com/feed/update/urn:li:activity:7483031295619416064/
+
+← Tüm LinkedIn gönderileri
+
+İletişime geç →
+
+Bu sitedeki içerik yalnızca genel bilgilendirme amaçlıdır ve hukuki tavsiye niteliği taşımaz. Sitenin kullanımı avukat-müvekkil ilişkisi doğurmaz. Buradaki görüşler kişiseldir ve mevcut ya da geçmiş hiçbir işvereni bağlamaz.
+
+© 2026 LEXSAS · İstanbul
+
+Yazılar
+
+Hakkımda
+
+İletişim
+
+LinkedIn
+
+Başa dön
+
+lexsas
+
 
 ============================================================
 ## LinkedIn gönderisi: Kara kutunun içindeki şeffaflık paradoksu (personal LinkedIn post by the founder; opinion commentary, quoted verbatim)  <https://lexsas.com/tr/linkedin-gonderileri/j-lens-yorumlanabilirlik-seffaflik.html>
 ============================================================
+
+İçeriğe atla
+
+lexsas
+
+Çalışma alanları
+
+Yaklaşım
+
+Hakkımda
+
+Yazılar
+
+İletişim
+
+EN
 
 9 Temmuz 2026
 · LinkedIn gönderisi
@@ -2392,15 +3283,29 @@ Burada izleme ile sorumluluk arasında bir paradoks var. Bakmayan ekip riskten h
 
 Kaynaklar
 
-Anthropic, Global Workspace  https://www.anthropic.com/research/global-workspace
+Anthropic, Global Workspace https://www.anthropic.com/research/global-workspace
 
-AB Tüzüğü 2024/1689, 13. madde  https://eur-lex.europa.eu/eli/reg/2024/1689/oj
+AB Tüzüğü 2024/1689, 13. madde https://eur-lex.europa.eu/eli/reg/2024/1689/oj
 
-LinkedIn kaynak gönderisi  https://www.linkedin.com/feed/update/urn:li:activity:7481083681063837696/
-
-Devamı: Tüm LinkedIn gönderileri →
+LinkedIn kaynak gönderisi https://www.linkedin.com/feed/update/urn:li:activity:7481083681063837696/
 
 ← Tüm LinkedIn gönderileri
 
 İletişime geç →
+
+Bu sitedeki içerik yalnızca genel bilgilendirme amaçlıdır ve hukuki tavsiye niteliği taşımaz. Sitenin kullanımı avukat-müvekkil ilişkisi doğurmaz. Buradaki görüşler kişiseldir ve mevcut ya da geçmiş hiçbir işvereni bağlamaz.
+
+© 2026 LEXSAS · İstanbul
+
+Yazılar
+
+Hakkımda
+
+İletişim
+
+LinkedIn
+
+Başa dön
+
+lexsas
 

@@ -500,7 +500,9 @@ a, button, input, select, textarea, summary, [tabindex] {
   transform-origin: left center;
   transition: transform .35s var(--ease-out);
 }
-.nav a:hover::after { transform: scaleX(1); }
+.nav a:hover::after,
+.nav a:focus-visible::after,
+.nav a[aria-current="page"]::after { transform: scaleX(1); }
 
 .lang-toggle {
   flex: none;
@@ -768,7 +770,7 @@ body.loaded .mark-x {
   margin: 14px 0 12px;
   font-family: var(--serif);
   font-weight: 600;
-  font-size: 1.45rem;
+  font-size: clamp(1.45rem, 2.2vw, 1.95rem);
   line-height: 1.2;
   color: var(--paper);
 }
@@ -825,53 +827,13 @@ body.loaded .mark-x {
   gap: clamp(3rem, 7vw, 7.5rem);
   align-items: start;
 }
-.exp-head .section-title { max-width: 14ch; }
 
-.exp-lede {
-  margin: 6px 0 0;
-  font-family: var(--serif);
-  font-weight: 600;
-  font-size: clamp(1.35rem, 2.2vw, 1.85rem);
-  line-height: 1.32;
-  letter-spacing: -.01em;
-  color: var(--ink);
-  max-width: 30ch;
-}
-.exp-body > p:not(.exp-lede) {
+.exp-body > p {
   margin: 22px 0 0;
   max-width: 62ch;
   line-height: 1.7;
   color: var(--muted);
 }
-
-.exp-facts {
-  list-style: none;
-  margin: 30px 0 0;
-  padding: 0;
-  display: flex;
-  flex-wrap: wrap;
-  gap: 10px 30px;
-}
-.exp-facts li {
-  position: relative;
-  padding-left: 20px;
-  font: 600 .85rem var(--sans);
-  color: var(--ink);
-}
-.exp-facts li::before {
-  content: "";
-  position: absolute;
-  left: 0;
-  top: .48em;
-  width: 8px;
-  height: 8px;
-  border-radius: 50%;
-  background: var(--fact-dot, var(--ink));
-}
-.exp-facts li:nth-child(1) { --fact-dot: var(--blue); }
-.exp-facts li:nth-child(2) { --fact-dot: var(--red); }
-.exp-facts li:nth-child(3) { --fact-dot: var(--yellow); }
-.exp-facts li:nth-child(4) { --fact-dot: var(--green); }
 
 .exp-body .u-link { margin-top: 34px; }
 /* the trailing link is a same-page jump, so its arrow nudges downward */
@@ -880,9 +842,14 @@ body.loaded .mark-x {
 /* ---------- Insights ---------- */
 
 .insights { padding-bottom: var(--rhythm); }
+/* The ink band carries its own internal padding, but the paper section after
+   it started at the band's very edge; every other section boundary breathes. */
+.approach + .insights { padding-top: var(--rhythm); }
 
 .insight-list {
-  margin-top: clamp(2.2rem, 4.5vw, 3.4rem);
+  list-style: none;
+  margin: clamp(2.2rem, 4.5vw, 3.4rem) 0 0;
+  padding: 0;
   border-top: var(--hairline);
 }
 
@@ -1077,7 +1044,8 @@ html:not(.js) .faq-q { cursor: default; }
   background: var(--brand-gradient);
   transition: height .25s ease;
 }
-.contact-mail:hover::after { height: 5px; }
+.contact-mail:hover::after,
+.contact-mail:focus-visible::after { height: 5px; }
 
 .contact-note {
   margin: 26px 0 0;
@@ -1159,10 +1127,6 @@ html:not(.js) .faq-q { cursor: default; }
   opacity: 1;
   transform: none;
 }
-
-/* ---------- Language swap fade ---------- */
-
-main, .site-footer { transition: opacity .3s ease; }
 
 /* ---------- Hero visual: the workflow seals into the mark, then rests ----------
 
@@ -1632,20 +1596,7 @@ main, .site-footer { transition: opacity .3s ease; }
   background: var(--ink);
 }
 
-/* About: education + courses */
-.duo-grid {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: clamp(2rem, 5vw, 4rem);
-}
-.plain-list { list-style: none; margin: 0; padding: 0; border-top: var(--hairline); }
-.plain-list li {
-  padding: .9em 0;
-  border-bottom: var(--hairline);
-  font-size: .98rem;
-  line-height: 1.6;
-  color: var(--ink);
-}
+/* About: education */
 .affil-line {
   margin-top: 1.4rem;
   font: 600 .8rem var(--sans);
@@ -1654,7 +1605,7 @@ main, .site-footer { transition: opacity .3s ease; }
 }
 
 /* Insights index: reuse .insight-row, full list */
-.insight-index { border-top: var(--hairline); }
+.insight-index { list-style: none; margin: 0; padding: 0; border-top: var(--hairline); }
 
 /* Contact.
    The page carries a title, a mail link, four rows and a note, and on a tall
@@ -1797,7 +1748,6 @@ main:has(.contact-rows) {
    size in the serif. Where a rule has to outrank ".prose p" it is scoped to
    .prose; the rest simply sits later in the cascade. */
 .article-sources li,
-.prose .article-related,
 .prose .article-next,
 .prose .article-next a {
   font-family: var(--sans);
@@ -1828,12 +1778,6 @@ main:has(.contact-rows) {
 .article-sources li:last-child { margin-bottom: 0; }
 .article-sources a { color: var(--muted); text-decoration-color: currentColor; }
 .article-sources a:hover { color: var(--ink); }
-
-/* A pointer, not a paragraph: it keeps the sources block company rather than
-   opening a new one, so it is given no rule of its own. The 28 article pages
-   dropped this block; the 10 LinkedIn post pages still carry it. */
-.prose .article-related { margin: 1.5rem 0 0; }
-.prose .article-related a { color: var(--ink); }
 
 .prose .article-next {
   margin: clamp(2.2rem, 5vw, 3rem) 0 0;
@@ -1879,11 +1823,17 @@ main:has(.contact-rows) {
   .bio-grid { grid-template-columns: 1fr; }
   .bio-portrait { position: static; max-width: 300px; }
   .job { grid-template-columns: 1fr; gap: .4rem; }
-  .duo-grid { grid-template-columns: 1fr; }
   .contact-row { grid-template-columns: 1fr; gap: .2rem; }
 }
 
 @media (max-width: 720px) {
+  /* The hero SVG shrinks with the shell, and its labels are set in viewBox
+     units, so at a 360px shell the 13px names render near 10px. The bump is
+     small on purpose: the node boxes were drawn around the desktop sizes. */
+  .wf-name { font-size: 15px; }
+  .wf-sub { font-size: 11.5px; }
+  .wf-slabel { font-size: 11.5px; }
+
   /* The bar wraps here, so the number every landing is measured against has to
      wrap with it: brand row plus nav row, measured at 117px. Without this an
      in-page jump still reserved the 73px desktop bar and put the target 44px
@@ -1945,7 +1895,8 @@ main:has(.contact-rows) {
     padding-block: 0;
   }
   .u-link,
-  .article-next a {
+  .article-next a,
+  .contact-mail {
     min-height: 44px;
     padding-block: 12px;
   }
@@ -2142,7 +2093,6 @@ main:has(.contact-rows) {
   /* Citation and navigation stay in the sans and stay quieter than the argument
      on paper too, so the serif body rule above cannot reclaim them. */
   .prose .article-sources li,
-  .prose .article-related,
   .prose .article-next a {
     font-family: var(--sans);
     font-size: 9pt;
@@ -2163,8 +2113,6 @@ main:has(.contact-rows) {
   .page-title,
   .article-title,
   .section-title,
-  .exp-head .section-title,
-  .exp-lede,
   .page-heading,
   .area h3 { max-width: none; }
 
@@ -2190,12 +2138,14 @@ main:has(.contact-rows) {
   .job,
   .faq-item,
   .article-end,
-  .article-sources li,
-  .exp-facts li,
-  .plain-list li {
+  .article-sources li {
     break-inside: avoid;
     page-break-inside: avoid;
   }
+
+  /* vh resolves against the page box in paged media; the screen-only
+     full-height reservation would print a blank sheet after contact. */
+  main:has(.contact-rows) { min-height: 0; }
 
   /* Sources are the one place where the address itself is the citation. */
   .article-sources a[href]::after {
