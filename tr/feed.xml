@@ -6,7 +6,15 @@
   <atom:link href="https://lexsas.com/tr/feed.xml" rel="self" type="application/rss+xml"/>
   <description>Hukuk teknolojisi, yapay zeka yönetişimi, regülasyon ve düzenlemeye tabi dijital pazarlar üzerine kısa uygulama notları; Asım Serdar Yılmaz (LEXSAS).</description>
   <language>tr</language>
-  <lastBuildDate>Wed, 29 Jul 2026 09:00:00 GMT</lastBuildDate>
+  <lastBuildDate>Wed, 29 Jul 2026 10:30:00 GMT</lastBuildDate>
+  <item>
+    <title>Ajanı kim bulunduruyor? Yapay zeka pilotu için bulundurma hükümleri</title>
+    <link>https://lexsas.com/tr/yazilar/ajani-kim-bulunduruyor.html</link>
+    <guid isPermaLink="true">https://lexsas.com/tr/yazilar/ajani-kim-bulunduruyor.html</guid>
+    <description>Eski bir bulundurma kuralı, şartname dili olarak: adı konmuş bir bulunduran, kanıtlanabilir özen ve ajanı ürküten için rücu izi.</description>
+    <pubDate>Wed, 29 Jul 2026 10:30:00 GMT</pubDate>
+    <category>insights-tr</category>
+  </item>
   <item>
     <title>KVKK standart sözleşmeleri: ilk tam yılın 2.497 bildirimi</title>
     <link>https://lexsas.com/tr/yazilar/kvkk-standart-sozlesmelerde-ilk-yil.html</link>

@@ -111,17 +111,17 @@ Notes on law, regulation and AI
 
 July 2026
 
-KVKK standard contracts: what the first full year's 2,497 notifications say
+Who keeps the agent? Custody clauses for an AI pilot
 
-The five-day filing was never the hard part. The Authority now holds a register of transfers, and it has started reading it.
+An old custody rule, read as charter language: a named keeper, care you can prove, and a recourse trail for whatever startled the agent.
 
 →
 
 July 2026
 
-Composing your own agentic workflow: what the canvas gives a legal team
+KVKK standard contracts: what the first full year's 2,497 notifications say
 
-A bought product ships someone else's workflow. Composing your own puts the stages, the mandate and the records in the legal team's hands.
+The five-day filing was never the hard part. The Authority now holds a register of transfers, and it has started reading it.
 
 →
 
@@ -384,6 +384,15 @@ Insights
 Notes on law, regulation and AI
 
 Short, practitioner pieces on the questions I keep returning to: how AI governance works in practice, how regulated digital markets are changing, and where legal operations can genuinely improve.
+
+July 2026
+Legal AI
+
+Who keeps the agent? Custody clauses for an AI pilot
+
+An old custody rule, read as charter language: a named keeper, care you can prove, and a recourse trail for whatever startled the agent.
+
+→
 
 July 2026
 Data protection
@@ -660,6 +669,80 @@ Next: AI citation errors: a verification protocol for legal teams →
 Get in touch →
 
 ============================================================
+## Article: Who keeps the agent? Custody clauses for an AI pilot  <https://lexsas.com/insights/who-keeps-the-agent.html>
+============================================================
+
+Skip to content
+
+lexsas
+
+Focus areas
+
+Approach
+
+About
+
+Insights
+
+Contact
+
+TR
+
+July 2026 · Legal AI
+
+Who keeps the agent? Custody clauses for an AI pilot
+
+Turkish law has long answered who pays when a kept creature causes harm. That rule will not decide an agent case by itself; the useful question is whether your pilot charter names the keeper before an incident does.
+
+When an autonomous agent escaped its OpenAI test sandbox through a zero-day and reached production infrastructure, in
+my note on the incident
+I reached for an old rule. Under Article 67 of the Turkish Code of Obligations, whoever takes on an animal's care and management, permanently or temporarily, answers for its harm unless they prove the care needed to prevent it; if another person, or another's animal, startled it, the keeper still answers to the victim, and recourse against the one who startled it is preserved. An analogy, not doctrine; where its conditions are met, Article 71's strict liability for significantly dangerous enterprises may sit closer. As charter language, though, it earns its keep.
+
+It puts three questions in front of any agent pilot, to be answered in writing. Who has care and management: a named person per stage, not a vendor logo. What shows the care that would prevent the harm: the capability set,
+the release gate
+and the run logs can carry that proof, kept before anything goes wrong rather than reconstructed after. Who startled the agent:
+a poisoned document that steers it
+is the modern spooking, and records of it are what let you identify whoever was behind it; any recourse then needs its own contractual or statutory footing.
+
+In the EU, the instrument left standing is product liability: the revised Product Liability Directive counts software, AI systems included, within its product definition and applies to products placed on the market after 9 December 2026, while the separate AI liability proposal was withdrawn in October 2025. Turkish statute has no agent-specific rule yet; a charter allocates what contract can allocate, and the rest stays where the statutes put it.
+
+None of this waits for legislation. Name the keeper, the care standard and the records behind any recourse claim at the start, and decide who holds the leash before an incident decides for you.
+
+Published
+29 July 2026
+
+Sources
+
+Turkish Code of Obligations, Law No. 6098, Official Gazette 4 February 2011, No. 27836, Articles 67 and 71 https://www.resmigazete.gov.tr/eskiler/2011/02/20110204-1.htm
+
+Directive (EU) 2024/2853 on liability for defective products, Articles 2 and 4 https://eur-lex.europa.eu/eli/dir/2024/2853/oj/eng
+
+European Parliament Legislative Train, AI liability directive: withdrawn https://www.europarl.europa.eu/legislative-train/theme-a-europe-fit-for-the-digital-age/file-ai-liability-directive
+
+Next: Composing your own agentic workflow: what the canvas gives a legal team →
+
+← All insights
+
+Get in touch →
+
+This site is for general information only. It is not legal advice and does not create an attorney-client relationship. All views are personal and do not represent any current or former employer.
+
+© 2026 LEXSAS · Istanbul
+
+Insights
+
+About
+
+Contact
+
+LinkedIn
+
+Back to top
+
+lexsas
+
+
+============================================================
 ## Article: KVKK standard contracts: what the first full year's 2,497 notifications say  <https://lexsas.com/insights/kvkk-standard-contracts-year-one.html>
 ============================================================
 
@@ -849,6 +932,22 @@ Get in touch →
 ## Article: Prompt injection in legal workflows: a filter is not a control  <https://lexsas.com/insights/prompt-injection-legal-workflows.html>
 ============================================================
 
+Skip to content
+
+lexsas
+
+Focus areas
+
+Approach
+
+About
+
+Insights
+
+Contact
+
+TR
+
 July 2026 · AI governance
 
 Prompt injection in legal workflows: a filter is not a control
@@ -863,30 +962,49 @@ The reflex is to ask the vendor about its filters. Meta's Agents Rule of Two, pu
 
 A legal lead cannot patch a model. They can refuse a capability set before the pilot starts, and name the leg that goes. Usually it is the third: let the agent read the deal folder and the counterparty's draft, and write nowhere but into a document a named person opens. OWASP's prompt injection prevention guidance runs the same way, minimal permissions, tool calls validated against the user's own, human oversight on high-risk operations. Where all three legs are genuinely required, Beurer-Kellner and thirteen co-authors set out six architectures in June 2025, plan-then-execute and dual LLM among them, that keep untrusted text away from privileged action.
 
-Five minimum controls govern how a team uses a model. None of them says what the model may reach while it reads something a stranger wrote. That line belongs in the pilot charter, not on the vendor's security page.
+Five minimum controls govern how a team uses a model. None of them says what the model may reach while it reads something a stranger wrote. When an agent escaped its sandbox during an OpenAI evaluation, I asked here
+who bears the loss
+. This is the half of that question a legal lead can answer in advance. The line belongs in the pilot charter, not on the vendor's security page.
 
 Published
 27 July 2026
 
 Sources
 
-Palo Alto Networks Unit 42, Kaleli, Farooqi, Starov and Mohamed, indirect prompt injection observed in real-world telemetry, 3 March 2026  https://unit42.paloaltonetworks.com/ai-agent-prompt-injection/
+Palo Alto Networks Unit 42, Kaleli, Farooqi, Starov and Mohamed, indirect prompt injection observed in real-world telemetry, 3 March 2026 https://unit42.paloaltonetworks.com/ai-agent-prompt-injection/
 
-NIST National Vulnerability Database, CVE-2025-32711, AI command injection in Microsoft 365 Copilot, published 11 June 2025  https://nvd.nist.gov/vuln/detail/CVE-2025-32711
+NIST National Vulnerability Database, CVE-2025-32711, AI command injection in Microsoft 365 Copilot, published 11 June 2025 https://nvd.nist.gov/vuln/detail/CVE-2025-32711
 
-Meta AI, Agents Rule of Two: A Practical Approach to AI Agent Security, 31 October 2025  https://ai.meta.com/blog/practical-ai-agent-security/
+Meta AI, Agents Rule of Two: A Practical Approach to AI Agent Security, 31 October 2025 https://ai.meta.com/blog/practical-ai-agent-security/
 
-Simon Willison, The lethal trifecta for AI agents, 16 June 2025  https://simonwillison.net/2025/Jun/16/the-lethal-trifecta/
+Simon Willison, The lethal trifecta for AI agents, 16 June 2025 https://simonwillison.net/2025/Jun/16/the-lethal-trifecta/
 
-OWASP Cheat Sheet Series, LLM Prompt Injection Prevention Cheat Sheet  https://cheatsheetseries.owasp.org/cheatsheets/LLM_Prompt_Injection_Prevention_Cheat_Sheet.html
+OWASP Cheat Sheet Series, LLM Prompt Injection Prevention Cheat Sheet https://cheatsheetseries.owasp.org/cheatsheets/LLM_Prompt_Injection_Prevention_Cheat_Sheet.html
 
-Beurer-Kellner and thirteen co-authors, Design Patterns for Securing LLM Agents against Prompt Injections, arXiv:2506.08837, 10 June 2025  https://arxiv.org/abs/2506.08837
+Beurer-Kellner and thirteen co-authors, Design Patterns for Securing LLM Agents against Prompt Injections, arXiv:2506.08837, 10 June 2025 https://arxiv.org/abs/2506.08837
 
-Next: AI governance for in-house legal teams: five minimum controls →
+Next: Who keeps the agent? Custody clauses for an AI pilot →
 
 ← All insights
 
 Get in touch →
+
+This site is for general information only. It is not legal advice and does not create an attorney-client relationship. All views are personal and do not represent any current or former employer.
+
+© 2026 LEXSAS · Istanbul
+
+Insights
+
+About
+
+Contact
+
+LinkedIn
+
+Back to top
+
+lexsas
+
 
 ============================================================
 ## Article: Evaluating a live AI workflow: the release gate  <https://lexsas.com/insights/evaluating-legal-ai-workflows.html>
@@ -1882,17 +2000,17 @@ Hukuk, regülasyon ve yapay zeka üzerine notlar
 
 Temmuz 2026
 
-KVKK standart sözleşmeleri: ilk tam yılın 2.497 bildirimi
+Ajanı kim bulunduruyor? Yapay zeka pilotu için bulundurma hükümleri
 
-Zor kısım hiçbir zaman beş günlük bildirim değildi. Kurum artık bir aktarım sicili tutuyor ve onu okumaya başladı.
+Eski bir bulundurma kuralı, şartname dili olarak: adı konmuş bir bulunduran, kanıtlanabilir özen ve ajanı ürküten için rücu izi.
 
 →
 
 Temmuz 2026
 
-Kendi ajan iş akışınızı kurmak: tuval hukuk ekibine ne kazandırır
+KVKK standart sözleşmeleri: ilk tam yılın 2.497 bildirimi
 
-Satın alınan ürün başkasının iş akışını getirir. Kendinizinkini kurmak; aşamaları, yetki kümesini ve kayıtları hukuk ekibinin eline verir.
+Zor kısım hiçbir zaman beş günlük bildirim değildi. Kurum artık bir aktarım sicili tutuyor ve onu okumaya başladı.
 
 →
 
@@ -2155,6 +2273,15 @@ Yazılar
 Yazılar
 
 Burada yapay zeka yönetişimi, hukuk teknolojisi ve hukuk operasyonları üzerine yazıyorum. Amaç, uygulamada işe yarayan gözlemleri abartıya kapılmadan paylaşmak.
+
+Temmuz 2026
+Hukukta yapay zeka
+
+Ajanı kim bulunduruyor? Yapay zeka pilotu için bulundurma hükümleri
+
+Eski bir bulundurma kuralı, şartname dili olarak: adı konmuş bir bulunduran, kanıtlanabilir özen ve ajanı ürküten için rücu izi.
+
+→
 
 Temmuz 2026
 Veri koruma
@@ -2431,6 +2558,80 @@ Sonraki yazı: Yapay zeka kaynaklı atıf hataları: hukuk ekipleri için doğru
 İletişime geç →
 
 ============================================================
+## Yazı: Ajanı kim bulunduruyor? Yapay zeka pilotu için bulundurma hükümleri  <https://lexsas.com/tr/yazilar/ajani-kim-bulunduruyor.html>
+============================================================
+
+İçeriğe atla
+
+lexsas
+
+Çalışma alanları
+
+Yaklaşım
+
+Hakkımda
+
+Yazılar
+
+İletişim
+
+EN
+
+Temmuz 2026 · Hukukta yapay zeka
+
+Ajanı kim bulunduruyor? Yapay zeka pilotu için bulundurma hükümleri
+
+Türk hukuku, bakılan bir canlının verdiği zararı kimin ödeyeceğini uzun süredir biliyor. O kural bir ajan davasını tek başına çözmez; asıl soru, pilot protokolünüzün bulunduranı bir olaydan önce belirleyip belirlemediği.
+
+Özerk bir ajan, OpenAI'ın test kum havuzundan bir sıfır gün açığını kullanarak çıkıp üretim altyapısına ulaştığında,
+olaya ilişkin notumda
+eski bir kurala uzanmıştım. Türk Borçlar Kanunu'nun 67. maddesine göre bir hayvanın bakımını ve yönetimini sürekli veya geçici olarak üstlenen, gerekli özeni gösterdiğini ispat etmedikçe hayvanın verdiği zararı gideriyor; hayvanı bir başkası ya da başkasına ait bir hayvan ürkütmüşse bulunduran zarar görene karşı yine sorumlu, ürkütene rücu hakkı ise saklı. Bu bir analoji, yerleşik doktrin değil; koşulları gerçekleşirse, önemli ölçüde tehlike arz eden işletmelere ilişkin 71. maddedeki tehlike sorumluluğu daha yakın bir karşılık olabilir. Ama protokol dili olarak analoji hakkını veriyor.
+
+Bu analoji, her yapay zeka pilotunda yazılı olarak yanıtlanması gereken üç soruyu ekibin önüne koyuyor. Bakım ve yönetim kimde: aşama başına adı yazılı bir kişi, tedarikçi logosu değil. Zararı önleyecek özen neyle gösterilir: yetki kümesi,
+değişiklik kapısı
+ve çalışma kayıtları bu ispatta kullanılabilir; bir şey ters gittikten sonra değil, öncesinden tutulur. Ajanı kim ürküttü:
+ajanı yönlendiren zehirli bir belge
+ürkütmenin bugünkü hâli; kayıtlar arkasındakini teşhis etmeyi mümkün kılar, rücu ise ayrıca sözleşmesel ya da kanuni bir dayanak ister.
+
+AB'de ayakta kalan araç ürün sorumluluğu: yenilenen Ürün Sorumluluğu Direktifi, yapay zeka sistemleri dahil yazılımı ürün tanımına alıyor ve 9 Aralık 2026'dan sonra piyasaya sürülen ürünlere uygulanacak; ayrı yapay zeka sorumluluk direktifi önerisi ise Ekim 2025'te geri çekildi. Türk kanunlarında ajanlara özgü bir hüküm henüz yok; protokol, sözleşmeyle dağıtılabileni dağıtır, kalanı kanunların koyduğu yerde durur.
+
+Bunların hiçbiri yasa beklemez. Bulunduranı, özen standardını ve olası bir rücunun dayanacağı kayıtları baştan belirleyin; tasmanın kimin elinde olduğuna, bir olay sizin yerinize karar vermeden siz karar verin.
+
+Yayım
+29 Temmuz 2026
+
+Kaynaklar
+
+6098 sayılı Türk Borçlar Kanunu, Resmî Gazete 4 Şubat 2011, Sayı 27836, madde 67 ve 71 https://www.resmigazete.gov.tr/eskiler/2011/02/20110204-1.htm
+
+Kusurlu ürün sorumluluğuna ilişkin (AB) 2024/2853 sayılı Direktif, madde 2 ve 4 https://eur-lex.europa.eu/eli/dir/2024/2853/oj/eng
+
+Avrupa Parlamentosu Legislative Train, yapay zeka sorumluluk direktifi: geri çekildi https://www.europarl.europa.eu/legislative-train/theme-a-europe-fit-for-the-digital-age/file-ai-liability-directive
+
+Sonraki yazı: Kendi ajan iş akışınızı kurmak: tuval hukuk ekibine ne kazandırır →
+
+← Tüm yazılar
+
+İletişime geç →
+
+Bu sitedeki içerik yalnızca genel bilgilendirme amaçlıdır ve hukuki tavsiye niteliği taşımaz. Sitenin kullanımı avukat-müvekkil ilişkisi doğurmaz. Buradaki görüşler kişiseldir ve mevcut ya da geçmiş hiçbir işvereni bağlamaz.
+
+© 2026 LEXSAS · İstanbul
+
+Yazılar
+
+Hakkımda
+
+İletişim
+
+LinkedIn
+
+Başa dön
+
+lexsas
+
+
+============================================================
 ## Yazı: KVKK standart sözleşmeleri: ilk tam yılın 2.497 bildirimi  <https://lexsas.com/tr/yazilar/kvkk-standart-sozlesmelerde-ilk-yil.html>
 ============================================================
 
@@ -2621,6 +2822,22 @@ Sonraki yazı: Pazaryeri sıralaması ve algoritmik hesap verebilirlik: hukuk li
 ## Yazı: Hukuki iş akışlarında prompt injection: filtre bir kontrol değildir  <https://lexsas.com/tr/yazilar/hukuki-is-akislarinda-prompt-injection.html>
 ============================================================
 
+İçeriğe atla
+
+lexsas
+
+Çalışma alanları
+
+Yaklaşım
+
+Hakkımda
+
+Yazılar
+
+İletişim
+
+EN
+
 Temmuz 2026 · Yapay zeka yönetişimi
 
 Hukuki iş akışlarında prompt injection: filtre bir kontrol değildir
@@ -2635,30 +2852,49 @@ Bu artık bir gösteri değil. Palo Alto Networks'ün Unit 42 ekibi Mart 2026'da
 
 Hukuk lideri modeli yamalayamaz. Ama pilot başlamadan bir yetki kümesini reddedebilir ve hangi ayağın kaldırılacağını söyleyebilir. Genellikle üçüncüsü kalkar: ajan işlem dosyasını ve karşı tarafın taslağını okusun, adı belli bir kişinin açacağı taslak dışında hiçbir yere yazmasın. OWASP'ın prompt injection önleme rehberi de aynı yöne bakıyor: asgari yetki, araç çağrılarının kullanıcının kendi yetkisiyle doğrulanması, yüksek riskli işlemlerde insan gözetimi. Üç ayağın gerçekten gerektiği yerde ise Beurer-Kellner ve on üç ortak yazarı Haziran 2025'te, güvenilmeyen metni ayrıcalıklı eylemden uzak tutan altı mimari kalıp ortaya koydu; plan-then-execute ve dual LLM bunların arasında.
 
-Beş asgari kontrol, bir ekibin modeli nasıl kullandığını düzenler. Hiçbiri, model bir yabancının yazdığı metni okurken nereye uzanabileceğini söylemez. O satırın yeri, tedarikçinin güvenlik sayfası değil, pilotun kendi çerçeve belgesidir.
+Beş asgari kontrol, bir ekibin modeli nasıl kullandığını düzenler. Hiçbiri, model bir yabancının yazdığı metni okurken nereye uzanabileceğini söylemez. Bir ajan OpenAI değerlendirmesinde kum havuzundan çıktığında burada
+zararı kimin üstleneceğini
+sormuştum. Bu, o sorunun hukuk liderinin önceden cevaplayabildiği yarısı. O satırın yeri, tedarikçinin güvenlik sayfası değil, pilotun kendi çerçeve belgesidir.
 
 Yayım
 27 Temmuz 2026
 
 Kaynaklar
 
-Palo Alto Networks Unit 42; Kaleli, Farooqi, Starov ve Mohamed, gerçek dünya telemetrisinde gözlemlenen dolaylı prompt injection, 3 Mart 2026  https://unit42.paloaltonetworks.com/ai-agent-prompt-injection/
+Palo Alto Networks Unit 42; Kaleli, Farooqi, Starov ve Mohamed, gerçek dünya telemetrisinde gözlemlenen dolaylı prompt injection, 3 Mart 2026 https://unit42.paloaltonetworks.com/ai-agent-prompt-injection/
 
-NIST Ulusal Zafiyet Veritabanı, CVE-2025-32711, Microsoft 365 Copilot'ta yapay zeka komut enjeksiyonu, 11 Haziran 2025'te yayımlandı  https://nvd.nist.gov/vuln/detail/CVE-2025-32711
+NIST Ulusal Zafiyet Veritabanı, CVE-2025-32711, Microsoft 365 Copilot'ta yapay zeka komut enjeksiyonu, 11 Haziran 2025'te yayımlandı https://nvd.nist.gov/vuln/detail/CVE-2025-32711
 
-Meta AI, Agents Rule of Two: A Practical Approach to AI Agent Security, 31 Ekim 2025  https://ai.meta.com/blog/practical-ai-agent-security/
+Meta AI, Agents Rule of Two: A Practical Approach to AI Agent Security, 31 Ekim 2025 https://ai.meta.com/blog/practical-ai-agent-security/
 
-Simon Willison, The lethal trifecta for AI agents, 16 Haziran 2025  https://simonwillison.net/2025/Jun/16/the-lethal-trifecta/
+Simon Willison, The lethal trifecta for AI agents, 16 Haziran 2025 https://simonwillison.net/2025/Jun/16/the-lethal-trifecta/
 
-OWASP Cheat Sheet Series, LLM Prompt Injection Prevention Cheat Sheet  https://cheatsheetseries.owasp.org/cheatsheets/LLM_Prompt_Injection_Prevention_Cheat_Sheet.html
+OWASP Cheat Sheet Series, LLM Prompt Injection Prevention Cheat Sheet https://cheatsheetseries.owasp.org/cheatsheets/LLM_Prompt_Injection_Prevention_Cheat_Sheet.html
 
-Beurer-Kellner ve on üç ortak yazarı, Design Patterns for Securing LLM Agents against Prompt Injections, arXiv:2506.08837, 10 Haziran 2025  https://arxiv.org/abs/2506.08837
+Beurer-Kellner ve on üç ortak yazarı, Design Patterns for Securing LLM Agents against Prompt Injections, arXiv:2506.08837, 10 Haziran 2025 https://arxiv.org/abs/2506.08837
 
-Sonraki yazı: Şirket içi hukuk ekipleri için yapay zeka yönetişimi: beş asgari kontrol →
+Sonraki yazı: Ajanı kim bulunduruyor? Yapay zeka pilotu için bulundurma hükümleri →
 
 ← Tüm yazılar
 
 İletişime geç →
+
+Bu sitedeki içerik yalnızca genel bilgilendirme amaçlıdır ve hukuki tavsiye niteliği taşımaz. Sitenin kullanımı avukat-müvekkil ilişkisi doğurmaz. Buradaki görüşler kişiseldir ve mevcut ya da geçmiş hiçbir işvereni bağlamaz.
+
+© 2026 LEXSAS · İstanbul
+
+Yazılar
+
+Hakkımda
+
+İletişim
+
+LinkedIn
+
+Başa dön
+
+lexsas
+
 
 ============================================================
 ## Yazı: Canlı bir yapay zeka iş akışını değerlendirmek: değişiklik kapısı  <https://lexsas.com/tr/yazilar/hukuki-yapay-zeka-is-akislarini-degerlendirmek.html>

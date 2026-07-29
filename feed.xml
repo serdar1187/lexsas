@@ -6,7 +6,15 @@
   <atom:link href="https://lexsas.com/feed.xml" rel="self" type="application/rss+xml"/>
   <description>Short practitioner notes on legal tech, AI governance, regulatory affairs and regulated digital markets, by Asim Serdar Yilmaz (LEXSAS).</description>
   <language>en</language>
-  <lastBuildDate>Wed, 29 Jul 2026 09:00:00 GMT</lastBuildDate>
+  <lastBuildDate>Wed, 29 Jul 2026 10:30:00 GMT</lastBuildDate>
+  <item>
+    <title>Who keeps the agent? Custody clauses for an AI pilot</title>
+    <link>https://lexsas.com/insights/who-keeps-the-agent.html</link>
+    <guid isPermaLink="true">https://lexsas.com/insights/who-keeps-the-agent.html</guid>
+    <description>An old custody rule, read as charter language: a named keeper, care you can prove, and a recourse trail for whatever startled the agent.</description>
+    <pubDate>Wed, 29 Jul 2026 10:30:00 GMT</pubDate>
+    <category>insights-en</category>
+  </item>
   <item>
     <title>KVKK standard contracts: what the first full year's 2,497 notifications say</title>
     <link>https://lexsas.com/insights/kvkk-standard-contracts-year-one.html</link>
