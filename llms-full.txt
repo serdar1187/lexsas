@@ -111,17 +111,17 @@ Notes on law, regulation and AI
 
 July 2026
 
-Composing your own agentic workflow: what the canvas gives a legal team
+KVKK standard contracts: what the first full year's 2,497 notifications say
 
-A bought product ships someone else's workflow. Composing your own puts the stages, the mandate and the records in the legal team's hands.
+The five-day filing was never the hard part. The Authority now holds a register of transfers, and it has started reading it.
 
 →
 
 July 2026
 
-Prompt injection in legal workflows: a filter is not a control
+Composing your own agentic workflow: what the canvas gives a legal team
 
-A filter is a mitigation. The control is the capability set an agent holds while it reads a document nobody in your organisation wrote.
+A bought product ships someone else's workflow. Composing your own puts the stages, the mandate and the records in the legal team's hands.
 
 →
 
@@ -384,6 +384,15 @@ Insights
 Notes on law, regulation and AI
 
 Short, practitioner pieces on the questions I keep returning to: how AI governance works in practice, how regulated digital markets are changing, and where legal operations can genuinely improve.
+
+July 2026
+Data protection
+
+KVKK standard contracts: what the first full year's 2,497 notifications say
+
+The five-day filing was never the hard part. The Authority now holds a register of transfers, and it has started reading it.
+
+→
 
 July 2026
 Legal AI
@@ -649,6 +658,80 @@ Next: AI citation errors: a verification protocol for legal teams →
 ← All insights
 
 Get in touch →
+
+============================================================
+## Article: KVKK standard contracts: what the first full year's 2,497 notifications say  <https://lexsas.com/insights/kvkk-standard-contracts-year-one.html>
+============================================================
+
+Skip to content
+
+lexsas
+
+Focus areas
+
+Approach
+
+About
+
+Insights
+
+Contact
+
+TR
+
+July 2026 · Data protection
+
+KVKK standard contracts: what the first full year's 2,497 notifications say
+
+The rebuilt transfer regime has its first full-year numbers: thousands of contracts on file, and the Authority has begun examining them. The five-day filing was never the hard part; the register it feeds is.
+
+Law No. 7499 rewrote Article 9 of the Turkish data protection law in 2024. Where no adequacy decision exists, Article 9(4)(c) opens the route the numbers say teams actually take: the Board's standard contracts, signed with the text unchanged and notified within five business days of the last signature; since October 2024 the filing can be made through the Authority's online module. Missing the filing carries an administrative fine of 50,000 to 1,000,000 lira in the 2024 text, and the fine can be imposed on the data processor as well as the controller.
+The transfer analysis itself
+stays where it always was; what changed is that the safeguard now leaves a record.
+
+The Authority counted 1,345 notifications in 2024, when the new regime ran for seven months, against three approved undertakings. The 2025 activity report, summarized by GRC Legal, counts 2,497 for the first full calendar year, and records the Authority opening ex officio examinations on 70 notifications, concluding 21 and fining three of them 150,000 lira in total. The fines are small. I read them differently: every notified contract is now a data point the Board can query, and it has started querying.
+
+The file I ask a legal team to show me is short. A transfer inventory listing each vendor and the mechanism it relies on. A signature log, because the five-day clock runs from the last signature, not from yours. The notification receipt. And a change note whenever parties or data scope move, so the team sees that the contract on file no longer describes the transfer that actually runs, before anyone else does.
+
+Two years in, the pattern is familiar from other filing regimes: the duty looks clerical until the Authority starts reading its own register. Better to ask in a quiet week whether your notifications would survive that reading than to learn the answer during an examination.
+
+Published
+29 July 2026
+
+Sources
+
+Law No. 7499, Official Gazette 12 March 2024, No. 32487, Articles 34 and 35 https://www.resmigazete.gov.tr/eskiler/2024/03/20240312-1.htm
+
+Regulation on the Transfer of Personal Data Abroad, Official Gazette 10 July 2024, No. 32598, Article 14 https://www.resmigazete.gov.tr/eskiler/2024/07/20240710-2.htm
+
+KVKK, Standard Contract Notification Module announcement, Board decision 2024/1793 of 17 October 2024 https://www.kvkk.gov.tr/Icerik/8043/Standart-Sozlesme-Bildirim-Modulu-Hakkinda-Kamuoyu-Duyurusu
+
+KVKK, 2024 Yılı Faaliyet Bilgi Notu https://www.kvkk.gov.tr/Icerik/8139/2024-Yili-Kisisel-Verileri-Koruma-Kurumu-KVKK-Faaliyet-Bilgi-Notu
+
+GRC Legal, KVKK 2025 Annual Report summary https://www.grc-legal.com/en/kvkk-2025-annual-report/
+
+Next: KVKK-compliant generative AI workflows for legal teams →
+
+← All insights
+
+Get in touch →
+
+This site is for general information only. It is not legal advice and does not create an attorney-client relationship. All views are personal and do not represent any current or former employer.
+
+© 2026 LEXSAS · Istanbul
+
+Insights
+
+About
+
+Contact
+
+LinkedIn
+
+Back to top
+
+lexsas
+
 
 ============================================================
 ## Article: Composing your own agentic workflow: what the canvas gives a legal team  <https://lexsas.com/insights/composing-agentic-legal-workflows.html>
@@ -1088,11 +1171,27 @@ Get in touch →
 ## Article: AI governance for in-house legal teams: five minimum controls  <https://lexsas.com/insights/ai-governance-five-controls.html>
 ============================================================
 
+Skip to content
+
+lexsas
+
+Focus areas
+
+Approach
+
+About
+
+Insights
+
+Contact
+
+TR
+
 July 2026 · AI governance
 
 AI governance for in-house legal teams: five minimum controls
 
-The adoption numbers no longer leave room for a wait-and-see posture. In the Association of Corporate Counsel's 2025 survey, US in-house respondents using generative AI rose from 23 to 52 percent in a year. Thomson Reuters' 2025 professional services report found, separately, that across industries 52 percent had no policy on generative AI at work. The same number, two different populations: US in-house adoption and cross-industry policy absence, together a tool outrunning its guardrails.
+A team that has been running generative AI for six months asks to scale it, and nobody in the room can say what the rules are. That is the ordinary case, not the bad one. Use among US in-house respondents went from 23 to 52 percent in a year in the Association of Corporate Counsel's 2025 survey, while Thomson Reuters' 2025 report found 52 percent of organisations across industries still had no policy at all. The gap between those two surveys is where this starts.
 
 Before I let a team scale, I ask for five controls on one page.
 
@@ -1106,7 +1205,9 @@ Fourth, logging and records. Log the metadata and review trail: which tool, whic
 
 Fifth, error handling, and here the instinctive order is backwards. When an AI-assisted output fails, the first three moves are to roll it back, clear the session and rotate the key; each destroys the record you will need to explain what happened. Preserve first: the prompt and the output you chose not to retain by default, the model version, the logs. Then contain. And name, on the same page, who may switch the workflow off and who tells the business.
 
-These five are the floor for a pilot, not the finished house. None of it needs a new platform or a committee: one page, linking out to each control, signed first by the general counsel.
+These five are the floor for a pilot, not the finished house. None of it needs a new platform or a committee: one page, linking out to each control, signed first by the general counsel. What none of the five settles is
+what an agent may reach while it reads a document a stranger wrote
+.
 
 Published
 11 July 2026
@@ -1115,15 +1216,32 @@ Published
 
 Sources
 
-Association of Corporate Counsel and Everlaw, Generative AI's Growing Strategic Value for Corporate Law Departments (2025)  https://www.everlaw.com/press/release/acc-report-2025/
+Association of Corporate Counsel and Everlaw, Generative AI's Growing Strategic Value for Corporate Law Departments (2025) https://www.everlaw.com/press/release/acc-report-2025/
 
-Thomson Reuters Institute, 2025 Generative AI in Professional Services Report  https://www.thomsonreuters.com/en-us/posts/technology/genai-professional-services-report-2025/
+Thomson Reuters Institute, 2025 Generative AI in Professional Services Report https://www.thomsonreuters.com/en-us/posts/technology/genai-professional-services-report-2025/
 
-Next: KVKK-compliant generative AI workflows for legal teams →
+Next: KVKK standard contracts: what the first full year's 2,497 notifications say →
 
 ← All insights
 
 Get in touch →
+
+This site is for general information only. It is not legal advice and does not create an attorney-client relationship. All views are personal and do not represent any current or former employer.
+
+© 2026 LEXSAS · Istanbul
+
+Insights
+
+About
+
+Contact
+
+LinkedIn
+
+Back to top
+
+lexsas
+
 
 ============================================================
 ## Article: KVKK-compliant generative AI workflows for legal teams  <https://lexsas.com/insights/kvkk-compliant-genai-workflows.html>
@@ -1764,17 +1882,17 @@ Hukuk, regülasyon ve yapay zeka üzerine notlar
 
 Temmuz 2026
 
-Kendi ajan iş akışınızı kurmak: tuval hukuk ekibine ne kazandırır
+KVKK standart sözleşmeleri: ilk tam yılın 2.497 bildirimi
 
-Satın alınan ürün başkasının iş akışını getirir. Kendinizinkini kurmak; aşamaları, yetki kümesini ve kayıtları hukuk ekibinin eline verir.
+Zor kısım hiçbir zaman beş günlük bildirim değildi. Kurum artık bir aktarım sicili tutuyor ve onu okumaya başladı.
 
 →
 
 Temmuz 2026
 
-Hukuki iş akışlarında prompt injection: filtre bir kontrol değildir
+Kendi ajan iş akışınızı kurmak: tuval hukuk ekibine ne kazandırır
 
-Filtre azaltıcı bir önlemdir. Kontrol, ajanın kuruluşunuzdan kimsenin yazmadığı bir belgeyi okurken elinde tuttuğu yetki kümesidir.
+Satın alınan ürün başkasının iş akışını getirir. Kendinizinkini kurmak; aşamaları, yetki kümesini ve kayıtları hukuk ekibinin eline verir.
 
 →
 
@@ -2037,6 +2155,15 @@ Yazılar
 Yazılar
 
 Burada yapay zeka yönetişimi, hukuk teknolojisi ve hukuk operasyonları üzerine yazıyorum. Amaç, uygulamada işe yarayan gözlemleri abartıya kapılmadan paylaşmak.
+
+Temmuz 2026
+Veri koruma
+
+KVKK standart sözleşmeleri: ilk tam yılın 2.497 bildirimi
+
+Zor kısım hiçbir zaman beş günlük bildirim değildi. Kurum artık bir aktarım sicili tutuyor ve onu okumaya başladı.
+
+→
 
 Temmuz 2026
 Hukukta yapay zeka
@@ -2302,6 +2429,80 @@ Sonraki yazı: Yapay zeka kaynaklı atıf hataları: hukuk ekipleri için doğru
 ← Tüm yazılar
 
 İletişime geç →
+
+============================================================
+## Yazı: KVKK standart sözleşmeleri: ilk tam yılın 2.497 bildirimi  <https://lexsas.com/tr/yazilar/kvkk-standart-sozlesmelerde-ilk-yil.html>
+============================================================
+
+İçeriğe atla
+
+lexsas
+
+Çalışma alanları
+
+Yaklaşım
+
+Hakkımda
+
+Yazılar
+
+İletişim
+
+EN
+
+Temmuz 2026 · Veri koruma
+
+KVKK standart sözleşmeleri: ilk tam yılın 2.497 bildirimi
+
+Yeniden kurulan aktarım rejiminin ilk tam yıl rakamları belli: Kurumun elinde binlerce sözleşme var ve resen incelemeler başladı. Zor kısım hiçbir zaman beş iş günlük bildirim değildi; asıl mesele o bildirimin beslediği sicil.
+
+7499 sayılı Kanun, 9. maddeyi 2024'te yeniden yazdı. Yeterlilik kararı bulunmayan hallerde 9. maddenin dördüncü fıkrasının (c) bendi, rakamlara bakılırsa ekiplerin fiilen kullandığı yolu açıyor: Kurulun standart sözleşmeleri. Metin değiştirilmeden imzalanır; imzaların tamamlanmasından itibaren beş iş günü içinde Kuruma bildirilir; Ekim 2024'ten beri bildirim Kurumun çevrimiçi modülü üzerinden de yapılabiliyor. Bildirimi atlamanın idari para cezası 2024 metninde 50.000 ile 1.000.000 lira arasında ve ceza veri sorumlusunun yanı sıra veri işleyene de uygulanabiliyor.
+Aktarım analizinin kendisi
+olduğu yerde duruyor; değişen şu: uygun güvence artık arkasında kayıt bırakıyor.
+
+Kurum, yeni rejimin yedi ay işlediği 2024'te 1.345 bildirim saydı; aynı yıl onaylanan taahhütname sayısı üç. GRC Legal'in özetlediği 2025 faaliyet raporu, ilk tam takvim yılı için 2.497 bildirim veriyor; aynı rapor Kurumun 70 bildirim hakkında resen inceleme açtığını, 21'ini sonuçlandırdığını ve üçüne toplam 150.000 lira ceza kestiğini kaydediyor. Cezalar küçük. Ben başka bir şey okuyorum: bildirilen her sözleşme artık Kurulun sorgulayabileceği bir kayıt ve Kurul sorgulamaya başladı.
+
+Bir hukuk ekibinden görmek istediğim dosya kısa. Her tedarikçiyi ve dayandığı aktarım mekanizmasını gösteren bir envanter. Bir imza günlüğü; çünkü beş iş günlük süre sizin imzanızdan değil, son imzadan işliyor. Bildirim alındısı. Ve taraflar ya da veri kapsamı değiştiğinde düşülen bir değişiklik notu; böylece dosyadaki sözleşmenin fiilen yürüyen aktarımı artık anlatmadığını, başkası fark etmeden önce ekip görür.
+
+İki yılın sonunda örüntü, başka bildirim rejimlerinden tanıdık: yükümlülük, Kurum kendi sicilini okumaya başlayana kadar kırtasiye işi gibi görünür. Bildirimlerinizin bu okumaya dayanıp dayanamayacağını sakin bir haftada sormak, cevabı bir inceleme sırasında öğrenmekten iyidir.
+
+Yayım
+29 Temmuz 2026
+
+Kaynaklar
+
+7499 sayılı Kanun, Resmî Gazete 12 Mart 2024, Sayı 32487, madde 34 ve 35 https://www.resmigazete.gov.tr/eskiler/2024/03/20240312-1.htm
+
+Kişisel Verilerin Yurt Dışına Aktarılmasına İlişkin Usul ve Esaslar Hakkında Yönetmelik, Resmî Gazete 10 Temmuz 2024, Sayı 32598, madde 14 https://www.resmigazete.gov.tr/eskiler/2024/07/20240710-2.htm
+
+KVKK, Standart Sözleşme Bildirim Modülü Hakkında Kamuoyu Duyurusu, 17 Ekim 2024 tarihli ve 2024/1793 sayılı Kurul kararı https://www.kvkk.gov.tr/Icerik/8043/Standart-Sozlesme-Bildirim-Modulu-Hakkinda-Kamuoyu-Duyurusu
+
+KVKK, 2024 Yılı Faaliyet Bilgi Notu https://www.kvkk.gov.tr/Icerik/8139/2024-Yili-Kisisel-Verileri-Koruma-Kurumu-KVKK-Faaliyet-Bilgi-Notu
+
+GRC Legal, KVKK 2025 Yılı Faaliyet Raporu özeti https://www.grc-legal.com/en/kvkk-2025-annual-report/
+
+Sonraki yazı: Hukuk ekipleri için KVKK uyumlu üretken yapay zeka iş akışları →
+
+← Tüm yazılar
+
+İletişime geç →
+
+Bu sitedeki içerik yalnızca genel bilgilendirme amaçlıdır ve hukuki tavsiye niteliği taşımaz. Sitenin kullanımı avukat-müvekkil ilişkisi doğurmaz. Buradaki görüşler kişiseldir ve mevcut ya da geçmiş hiçbir işvereni bağlamaz.
+
+© 2026 LEXSAS · İstanbul
+
+Yazılar
+
+Hakkımda
+
+İletişim
+
+LinkedIn
+
+Başa dön
+
+lexsas
+
 
 ============================================================
 ## Yazı: Kendi ajan iş akışınızı kurmak: tuval hukuk ekibine ne kazandırır  <https://lexsas.com/tr/yazilar/kendi-ajan-is-akisinizi-kurmak.html>
@@ -2744,11 +2945,27 @@ Sonraki yazı: Saatlik ücretin mantığı tükeniyor →
 ## Yazı: Şirket içi hukuk ekipleri için yapay zeka yönetişimi: beş asgari kontrol  <https://lexsas.com/tr/yazilar/yapay-zeka-yonetisimi-bes-kontrol.html>
 ============================================================
 
+İçeriğe atla
+
+lexsas
+
+Çalışma alanları
+
+Yaklaşım
+
+Hakkımda
+
+Yazılar
+
+İletişim
+
+EN
+
 Temmuz 2026 · Yapay zeka yönetişimi
 
 Şirket içi hukuk ekipleri için yapay zeka yönetişimi: beş asgari kontrol
 
-Benimseme rakamları bekle-gör tavrına artık alan bırakmıyor. Association of Corporate Counsel'ın 2025 anketinde, şirket içi hukukçular arasında üretken yapay zekayı fiilen kullanan ABD'li katılımcıların oranı bir yılda yüzde 23'ten 52'ye çıktı. Thomson Reuters'ın 2025 raporu ise sektörler genelinde katılımcıların yüzde 52'sinin kurumlarında üretken yapay zekaya dair bir politika bulunmadığını buldu. Aynı sayı iki farklı kümeyi ölçüyor: biri ABD'de şirket içi benimseme, diğeri sektörler arası politika yokluğu; birlikte okunduğunda araç güvencelerini geride bırakıyor.
+Altı aydır üretken yapay zeka kullanan bir ekip bunu yaygınlaştırmak istiyor ve odadaki kimse kuralların ne olduğunu söyleyemiyor. Bu istisna değil, olağan hâl. Association of Corporate Counsel'ın 2025 anketinde ABD'li şirket içi katılımcılar arasında kullanım bir yılda yüzde 23'ten 52'ye çıkarken, Thomson Reuters'ın 2025 raporu sektörler genelinde kurumların yüzde 52'sinde hâlâ hiçbir politika bulunmadığını buldu. İşe, bu iki anketin arasındaki boşluktan başlıyorum.
 
 Bir ekibin bu teknolojiyi yaygınlaştırmasına onay vermeden önce tek sayfada beş kontrol isterim.
 
@@ -2762,24 +2979,43 @@ Dördüncüsü kayıt. Üstveriyi ve inceleme izini tutun: hangi araç, hangi s�
 
 Beşincisi hata yönetimi; burada içgüdüsel sıra terstir. Yapay zeka destekli bir çıktının hatalı olduğu anlaşıldığında ilk üç refleks iş akışını geri almak, oturumu temizlemek ve erişim anahtarını yenilemektir; her biri, sonradan ne olduğunu anlatmak için ihtiyaç duyacağınız kaydı yok eder. Önce koruyun: varsayılan olarak saklamadığınız komutu ve çıktıyı, model sürümünü, log kayıtlarını. Sınırlama ondan sonra gelir. Aynı sayfada, iş akışını durdurmaya kimin yetkili olduğunu ve durumu işin sahibine kimin bildireceğini de yazın.
 
-Bu beş kontrol bir pilotun tabanıdır, tamamlanmış bina değil. Hiçbiri yeni bir platform ya da daimi bir komite gerektirmez: her kontrole bağlanan tek bir sayfa ve altına önce kendisi imza atmaya hazır bir hukuk direktörü yeter.
+Bu beş kontrol bir pilotun tabanıdır, tamamlanmış bina değil. Hiçbiri yeni bir platform ya da daimi bir komite gerektirmez: her kontrole bağlanan tek bir sayfa ve altına önce kendisi imza atmaya hazır bir hukuk direktörü yeter. Beşinin de çözmediği soru şu:
+bir ajan, yabancının yazdığı bir belgeyi okurken nereye uzanabilir
+.
 
-Yayımlandı
+Yayım
 11 Temmuz 2026
 · Son güncelleme
 27 Temmuz 2026
 
 Kaynaklar
 
-Association of Corporate Counsel and Everlaw, Generative AI's Growing Strategic Value for Corporate Law Departments (2025)  https://www.everlaw.com/press/release/acc-report-2025/
+Association of Corporate Counsel and Everlaw, Generative AI's Growing Strategic Value for Corporate Law Departments (2025) https://www.everlaw.com/press/release/acc-report-2025/
 
-Thomson Reuters Institute, 2025 Generative AI in Professional Services Report  https://www.thomsonreuters.com/en-us/posts/technology/genai-professional-services-report-2025/
+Thomson Reuters Institute, 2025 Generative AI in Professional Services Report https://www.thomsonreuters.com/en-us/posts/technology/genai-professional-services-report-2025/
 
-Sonraki yazı: Hukuk ekipleri için KVKK uyumlu üretken yapay zeka iş akışları →
+Sonraki yazı: KVKK standart sözleşmeleri: ilk tam yılın 2.497 bildirimi →
 
 ← Tüm yazılar
 
 İletişime geç →
+
+Bu sitedeki içerik yalnızca genel bilgilendirme amaçlıdır ve hukuki tavsiye niteliği taşımaz. Sitenin kullanımı avukat-müvekkil ilişkisi doğurmaz. Buradaki görüşler kişiseldir ve mevcut ya da geçmiş hiçbir işvereni bağlamaz.
+
+© 2026 LEXSAS · İstanbul
+
+Yazılar
+
+Hakkımda
+
+İletişim
+
+LinkedIn
+
+Başa dön
+
+lexsas
+
 
 ============================================================
 ## Yazı: Hukuk ekipleri için KVKK uyumlu üretken yapay zeka iş akışları  <https://lexsas.com/tr/yazilar/kvkk-uyumlu-uretken-yapay-zeka.html>

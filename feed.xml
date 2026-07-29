@@ -6,7 +6,15 @@
   <atom:link href="https://lexsas.com/feed.xml" rel="self" type="application/rss+xml"/>
   <description>Short practitioner notes on legal tech, AI governance, regulatory affairs and regulated digital markets, by Asim Serdar Yilmaz (LEXSAS).</description>
   <language>en</language>
-  <lastBuildDate>Tue, 28 Jul 2026 09:00:00 GMT</lastBuildDate>
+  <lastBuildDate>Wed, 29 Jul 2026 09:00:00 GMT</lastBuildDate>
+  <item>
+    <title>KVKK standard contracts: what the first full year's 2,497 notifications say</title>
+    <link>https://lexsas.com/insights/kvkk-standard-contracts-year-one.html</link>
+    <guid isPermaLink="true">https://lexsas.com/insights/kvkk-standard-contracts-year-one.html</guid>
+    <description>The five-day filing was never the hard part. The Authority now holds a register of transfers, and it has started reading it.</description>
+    <pubDate>Wed, 29 Jul 2026 09:00:00 GMT</pubDate>
+    <category>insights-en</category>
+  </item>
   <item>
     <title>Composing your own agentic workflow: what the canvas gives a legal team</title>
     <link>https://lexsas.com/insights/composing-agentic-legal-workflows.html</link>
