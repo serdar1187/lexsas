@@ -487,20 +487,20 @@ July 2026 · AI regulation
 
 Composing your own agentic workflow: what the canvas gives a legal team
 
-The vendor’s roadmap stops being your constraint; your own discipline takes its place. That is the whole trade.
+A composed workflow gives a legal team three things a bought one cannot: its own stages, a mandate it can read, and records it owns. The fourth thing it demands is discipline.
 
 Legal AI: build, buy, or configure?
-, published here earlier this month, decides which path fits a use case. It stops one question short. When the answer is configure, who draws the workflow? A bought legal product ships someone else's: its stages, its review points, its idea of where a lawyer belongs. Composing your own agentic workflow on a general-purpose canvas reverses that. The intake stage is your intake. The gate where a person signs sits where your risk actually is, not where a product manager guessed it would be.
+, published here earlier this month, decides which path fits a use case. This piece is about what comes after that decision, because the benefit lives there. When I compose a workflow for a legal team, the first thing we draw is not the automation; it is the team's own day: where matters arrive, who reads first, where the file waits and for whom. A bought product ships someone else's answer to those questions. A composed agentic workflow ships yours, and that is the first return: nothing about the team has to bend.
 
-The canvas matters because it makes the mandate visible. Every tool the agent holds, every source it may read, every place it may write is a drawn connection that a lawyer can point at, question and remove. That is the control
-the prompt injection piece
-argues for, delivered by construction rather than by vendor assurance: Meta's Agents Rule of Two caps an agent at two of three risky properties in a session, and on a canvas that cap is something you can see.
+The second return is control you can see. On the canvas, every tool the agent holds, every source it may read, every place it may write is a drawn connection that a lawyer can point at, question and remove. Meta's Agents Rule of Two caps an agent at two of three risky properties in a session; drawn as a workflow, that cap stops being a vendor's assurance and becomes a picture the general counsel can read. Security review turns from a questionnaire into
+a mandate you set yourself
+.
 
-For an in-house team, the gain is fit and custody. The workflow mirrors the stages the team already runs instead of bending the team around a product, and the run history sits in your perimeter as a record you can show a regulator or the board. For a law firm, practice groups get matter workflows shaped to their own review depth, and the same records let partners price the work rather than defend the hours.
+For an in-house team the return shows up in three places. Hours: routine intake and first-pass review run themselves to the gate where a person signs. Custody: the run history stays in your perimeter, a record you can show a regulator or the board without asking anyone's permission. Speed of change: a stage gets redrawn in a day, not in a vendor's release cycle. A law firm adds a fourth: each practice group gets a workflow shaped to its own review depth, and the same records let partners price the work rather than defend the hours.
 
-The honest cost is ownership. A composed workflow is yours to maintain: every model, prompt or connector change needs
+None of it is free. A composed workflow is owned, and owned means maintained: every model, prompt or connector change passes
 a release gate
-, and the workflow definition joins the asset list you would take with you when you leave a platform. That is not a reason to buy someone else's workflow. It is the discipline that makes owning yours defensible.
+, and the workflow definition joins the assets you would take with you on exit. That is also the honest test of the road itself: the teams that gain most from owning the canvas are the ones prepared to own the discipline. Which side of that line a team stands on is worth a conversation before it is worth a pilot.
 
 Published
 28 July 2026
@@ -1687,21 +1687,21 @@ July 2026 · AI regulation
 
 Kendi ajan iş akışınızı kurmak: tuval hukuk ekibine ne kazandırır
 
-Bir ürün yol haritası sizin kısıtınız olmaktan çıkar; yerine kendi disiplininiz geçer. Değişim bu kadar.
+Kurulan iş akışı hukuk ekibine, satın alınanın veremeyeceği üç şey verir: kendi aşamaları, okuyabildiği bir yetki kümesi ve sahibi olduğu kayıtlar. İstediği dördüncü şey ise disiplindir.
 
 Bu ay yayımlanan
 Hukukta yapay zeka: geliştirmek mi, satın almak mı, uyarlamak mı?
-hangi yolun hangi işe uyduğuna karar veriyor; bir soru eksik bırakıyor. Cevap uyarlamaksa, iş akışını kim çiziyor? Satın alınan hukuk ürünü başkasının akışını getirir: onun aşamaları, onun inceleme noktaları, hukukçunun nerede duracağına dair onun varsayımı. Genel amaçlı bir tuval üzerinde kendi ajan iş akışınızı kurmak bunu tersine çevirir. Talep aşaması sizin talebinizdir; insanın imza attığı kapı, bir ürün yöneticisinin tahmin ettiği yerde değil, riskinizin gerçekte durduğu yerde durur.
+hangi yolun hangi işe uyduğuna karar veriyor. Bu yazı o kararın sonrasına bakıyor, çünkü kazanç orada. Bir hukuk ekibi için iş akışı kurduğumda ilk çizdiğimiz şey otomasyon olmuyor; ekibin kendi günü oluyor: dosya nereden geliyor, ilk kim okuyor, iş nerede ve kimi bekliyor. Satın alınan ürün bu sorulara başkasının cevabını getirir. Kendi kurduğunuz ajan iş akışı sizinkini getirir; ilk kazanç budur: ekipte hiçbir şeyin eğilip bükülmesi gerekmez.
 
-Tuvalin önemi, yetki kümesini görünür kılmasında. Ajanın tuttuğu her araç, okuyabildiği her kaynak, yazabildiği her yer; bir hukukçunun işaret edip sorgulayabileceği ve kaldırabileceği çizili bir bağlantıdır.
-Prompt injection yazısının
-savunduğu kontrol tam olarak budur ve tedarikçi güvencesiyle değil, kuruluş biçimiyle gelir: Meta'nın Agents Rule of Two yaklaşımı bir ajana tek oturumda üç riskli özellikten en çok ikisini tanır; tuvalde bu sınır gözle görülür.
+İkinci kazanç, gözle görülür kontrol. Tuvalde ajanın tuttuğu her araç, okuyabildiği her kaynak, yazabildiği her yer; bir hukukçunun işaret edip sorgulayabileceği ve kaldırabileceği çizili bir bağlantıdır. Meta'nın Agents Rule of Two yaklaşımı bir ajana tek oturumda üç riskli özellikten en çok ikisini tanır; bu sınır iş akışı olarak çizildiğinde tedarikçi güvencesi olmaktan çıkar, hukuk direktörünün okuyabildiği bir resme dönüşür. Güvenlik incelemesi bir anketten,
+kendi koyduğunuz bir görev tanımına
+döner.
 
-Şirket içi ekip için kazanç, uyum ve mülkiyettir. İş akışı, ekibi bir ürünün etrafına bükmek yerine ekibin zaten yürüttüğü aşamaları yansıtır; çalıştırma geçmişi sizin çevrenizde durur ve denetçiye ya da yönetim kuruluna gösterebileceğiniz bir kayda dönüşür. Hukuk bürosunda her çalışma grubu, kendi inceleme derinliğine göre biçilmiş dosya akışları kurar; aynı kayıtlar ortakların saatleri savunmak yerine işi fiyatlamasını sağlar.
+Şirket içi ekipte kazanç üç yerde görünür. Saatlerde: rutin talep karşılama ve ilk inceleme, insanın imza attığı kapıya kadar kendi kendine yürür. Mülkiyette: çalıştırma geçmişi sizin çevrenizde kalır; denetçiye ya da yönetim kuruluna kimseden izin istemeden gösterebileceğiniz bir kayıttır. Değişim hızında: bir aşama tedarikçinin sürüm takviminde değil, bir günde yeniden çizilir. Hukuk bürosu buna bir dördüncüsünü ekler: her çalışma grubu kendi inceleme derinliğine göre biçilmiş bir akış kurar ve aynı kayıtlar, ortakların saatleri savunmak yerine işi fiyatlamasını sağlar.
 
-Dürüst bedel, sahipliktir. Kurduğunuz iş akışının bakımı size aittir: her model, istem ya da bağlantı değişikliği
+Hiçbiri bedava değil. Kurulan iş akışı sahiplidir ve sahiplik bakım demektir: her model, istem ya da bağlantı değişikliği
 bir değişiklik kapısından
-geçer ve iş akışı tanımı, bir platformdan ayrılırken yanınıza alacağınız varlık listesine girer. Bu, başkasının iş akışını satın almak için bir neden değil; kendi akışınıza sahip olmayı savunulabilir kılan disiplinin ta kendisidir.
+geçer; iş akışı tanımı, çıkışta yanınıza alacağınız varlıklar listesine girer. Yolun dürüst sınavı da budur: tuvale sahip olmaktan en çok kazananlar, disipline de sahip çıkmaya hazır ekiplerdir. Bir ekibin bu çizginin hangi tarafında durduğu, pilottan önce bir konuşmayı hak eder.
 
 Yayım
 28 Temmuz 2026
