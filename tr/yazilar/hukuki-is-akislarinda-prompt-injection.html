@@ -19,7 +19,7 @@
 <meta property="og:image:alt" content="Açık zeminli kart üzerinde LEXSAS kelime markası ve dört renkli halka logosu; altında İngilizce Legal workflow automation and advisory satırı.">
 <meta property="og:type" content="article">
 <meta property="article:published_time" content="2026-07-27">
-<meta property="article:modified_time" content="2026-07-27">
+<meta property="article:modified_time" content="2026-07-30">
 <link rel="icon" href="/assets/brand/favicon-32.png" sizes="32x32" type="image/png">
 <link rel="icon" href="/assets/brand/favicon-64.png" sizes="64x64" type="image/png">
 <link rel="apple-touch-icon" href="/assets/brand/favicon-180.png">
@@ -191,7 +191,7 @@
         "@id": "https://lexsas.com/#organization"
       },
       "datePublished": "2026-07-27",
-      "dateModified": "2026-07-27",
+      "dateModified": "2026-07-30",
       "citation": [
         "https://unit42.paloaltonetworks.com/ai-agent-prompt-injection/",
         "https://nvd.nist.gov/vuln/detail/CVE-2025-32711",
@@ -244,12 +244,12 @@
 
   <div class="shell"><div class="prose">
       <p>Sözleşme inceleyen bir ajana karşı tarafın revize taslağı veriliyor. İşlem dosyası ajana açık, çünkü amacı bu; e-posta gönderebiliyor, çünkü ekip pilotta bunu istedi. Belgenin bir yerinde, beyaz yazıyla ya da bir görsel açıklamasında, hukukçuya değil makineye seslenen bir satır duruyor. Ajan o satırı uyguluyor: girdisinde, talimatı okuması istenen metinden ayıran hiçbir şey yok.</p>
-      <p>Bu artık bir gösteri değil. Palo Alto Networks'ün Unit 42 ekibi Mart 2026'da, geniş ölçekli telemetriye dayanarak, dolaylı prompt injection'ın fiilen kullanılır hâle geldiğini bildirdi: sistem isteminin dışarı çıkarılmasından yetkisiz işlemlere kadar. Örüntünün bir de CVE kaydı var: CVE-2025-32711, Microsoft 365 Copilot'ta yetkisiz bir saldırganın ağ üzerinden bilgi açığa çıkarmasına imkân veren bir yapay zeka komut enjeksiyonu.</p>
+      <p>Bu artık laboratuvar denemesi değil. Palo Alto Networks'ün Unit 42 ekibi Mart 2026'da, geniş ölçekli telemetriye dayanarak, dolaylı prompt injection'ın fiilen kullanılır hâle geldiğini bildirdi: sistem isteminin dışarı çıkarılmasından yetkisiz işlemlere kadar. Örüntünün bir de CVE kaydı var: CVE-2025-32711, Microsoft 365 Copilot'ta yetkisiz bir saldırganın ağ üzerinden bilgi açığa çıkarmasına imkân veren bir yapay zeka komut enjeksiyonu.</p>
       <p>İlk refleks, tedarikçiye filtrelerini sormak. Meta'nın 31 Ekim 2025'te yayımladığı Agents Rule of Two ise işe bunu kabul ederek başlıyor: prompt injection henüz güvenilir biçimde tespit edilip reddedilemiyor. Bu nedenle bir ajana tek oturumda üç özellikten en çok ikisini tanıyor: güvenilmeyen girdi işlemek, hassas sistemlere veya özel veriye erişmek, durumu değiştirmek ya da dışarıyla iletişim kurmak. Simon Willison aynı bileşimi Haziran 2025'te lethal trifecta diye adlandırmıştı. Filtre bir azaltıcı önlemdir. Kontrol, yetki kümesidir.</p>
       <p>Hukuk lideri modeli yamalayamaz. Ama pilot başlamadan bir yetki kümesini reddedebilir ve hangi ayağın kaldırılacağını söyleyebilir. Genellikle üçüncüsü kalkar: ajan işlem dosyasını ve karşı tarafın taslağını okusun, adı belli bir kişinin açacağı taslak dışında hiçbir yere yazmasın. OWASP'ın prompt injection önleme rehberi de aynı yöne bakıyor: asgari yetki, araç çağrılarının kullanıcının kendi yetkisiyle doğrulanması, yüksek riskli işlemlerde insan gözetimi. Üç ayağın gerçekten gerektiği yerde ise Beurer-Kellner ve on üç ortak yazarı Haziran 2025'te, güvenilmeyen metni ayrıcalıklı eylemden uzak tutan altı mimari kalıp ortaya koydu; plan-then-execute ve dual LLM bunların arasında.</p>
       <p>Beş asgari kontrol, bir ekibin modeli nasıl kullandığını düzenler. Hiçbiri, model bir yabancının yazdığı metni okurken nereye uzanabileceğini söylemez. Bir ajan OpenAI değerlendirmesinde kum havuzundan çıktığında burada <a href="/tr/linkedin-gonderileri/openai-hugging-face-yapay-zeka-ajani-sorumlulugu.html">zararı kimin üstleneceğini</a> sormuştum. Bu, o sorunun hukuk liderinin önceden cevaplayabildiği yarısı. O satırın yeri, tedarikçinin güvenlik sayfası değil, pilotun kendi çerçeve belgesidir.</p>
       <div class="article-end" aria-hidden="true"></div>
-      <p class="kicker article-dateline">Yayım <time datetime="2026-07-27">27 Temmuz 2026</time></p>
+      <p class="kicker article-dateline">Yayım <time datetime="2026-07-27">27 Temmuz 2026</time> &middot; Son güncelleme <time datetime="2026-07-30">30 Temmuz 2026</time></p>
       <div class="article-sources">
         <h2 class="sources-title">Kaynaklar</h2>
         <ul>

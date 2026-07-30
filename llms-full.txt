@@ -1,5 +1,5 @@
 # LEXSAS - full site content for AI agents (llms-full.txt)
-# Generated 2026-07-29. Canonical summary: https://lexsas.com/llms.txt
+# Generated 2026-07-30. Canonical summary: https://lexsas.com/llms.txt
 
 ============================================================
 ## Home (EN)  <https://lexsas.com/>
@@ -45,7 +45,7 @@ Six areas, one operating standard
 
 / 06
 
-From intake automation to digital market governance, every engagement ends with controls the team can actually run.
+From intake automation to digital market governance, every engagement ends with controls the team can run day to day.
 
 01
 
@@ -234,19 +234,19 @@ Asim Serdar Yilmaz: a career built inside regulated markets
 
 Amazon · eBay · White & Case
 
-Statutory Board Director
+Statutory Board Director and Authorised Representative
 
 Ankara Bar
 
 Istanbul · EN / TR
 
-I am Asim Serdar Yilmaz, a senior legal and regulatory affairs leader based in Istanbul. Across more than 20 years of legal and regulatory work, most of it in-house, I have advised global technology, consumer and regulated businesses across Turkey and the Middle East, in retail and marketplace, streaming and media, advertising, payments, data and IP. My work tends to sit where a business wants to move quickly and a regulator wants to move carefully.
+I am Asim Serdar Yilmaz, a senior legal and regulatory affairs leader based in Istanbul. Across more than 20 years of legal and regulatory work, most of it in-house, I have advised global technology, consumer and regulated businesses across Turkey and the Middle East: retail and marketplace, streaming and media, advertising, payments, data and IP. My work tends to sit where a business wants to move quickly and a regulator wants to move carefully.
 
 I started in private practice at White & Case in Ankara, on cross-border M&A, privatisations and IP in regulated sectors. From there I moved in-house: first into a strict, high-scrutiny compliance environment at a global group in a highly regulated industry across the Middle East, then into e-commerce at eBay's Turkey and MENA business, and from 2019 to 2026 as Legal Director for Amazon Turkey. In 2026 I moved from legal into regulatory affairs, and today I lead the regulatory agenda within the corporate affairs function of a global group in a highly regulated industry.
 
 The thread through all of it is regulated markets. I have spent years turning regulatory ambiguity into paths a business can actually take, and building what I think of as "yes, if" guardrails: controls that let a team move at speed while protecting the enterprise over the long term. Much of that has meant sitting across the table from competition authorities, data protection regulators, media regulators and ministries.
 
-The other current chapter is LEXSAS, the AI legal-tech venture I founded in 2026, focused on legal workflow automation and advisory. It blends what the career built in layers: legal directorship, regulatory affairs, corporate affairs and public policy, now paired with hands-on AI governance. It grew out of years of building generative AI tooling for legal work, on AWS Bedrock among other platforms, and of seeing where adoption succeeds and where it quietly fails. This site is where I write about that intersection of law, regulation and AI, as informational consultancy rather than legal representation.
+The other current chapter is LEXSAS, the AI legal-tech venture I founded in 2026, focused on legal workflow automation and advisory. It blends legal directorship, regulatory affairs, corporate affairs and public policy, now paired with hands-on AI governance. It grew out of years of building generative AI tooling for legal work, on AWS Bedrock among other platforms, and of seeing where adoption succeeds and where it quietly fails. This site is where I write about that intersection of law, regulation and AI, as informational consultancy rather than legal representation.
 
 EXPERIENCE
 
@@ -324,7 +324,7 @@ How I work
 
 Practitioner, not vendor
 
-I have built and run these tools inside a legal team, not sold them. Advice starts from what a workflow actually looks like, not from a product roadmap.
+I have built and run these tools inside a legal team, not sold them. Advice starts from the workflow as it runs, not from a product roadmap.
 
 02
 
@@ -853,10 +853,12 @@ For an in-house team the return shows up in three places. Hours: routine intake 
 
 None of it is free. A composed workflow is owned, and owned means maintained: every model, prompt or connector change passes
 a release gate
-, and the workflow definition joins the assets you would take with you on exit. That is also the honest test of the road itself: the teams that gain most from owning the canvas are the ones prepared to own the discipline. Which side of that line a team stands on is worth a conversation before it is worth a pilot.
+, and the workflow definition joins the assets you would take with you on exit. That is also the test of the road itself: the teams that gain most from owning the canvas are the ones prepared to own the discipline. Which side of that line a team stands on is worth a conversation before it is worth a pilot.
 
 Published
 28 July 2026
+· Last updated
+30 July 2026
 
 Sources
 
@@ -891,42 +893,81 @@ lexsas
 ## Article: Marketplace compliance ops: one notice queue, set to the tightest clock  <https://lexsas.com/insights/marketplace-compliance-ops.html>
 ============================================================
 
+Skip to content
+
+lexsas
+
+Focus areas
+
+Approach
+
+About
+
+Insights
+
+Contact
+
+TR
+
 July 2026 · Marketplace operations
 
 Marketplace compliance ops: one notice queue, set to the tightest clock
 
-A takedown notice lands at 17:40 on a Friday, in Turkish, in a shared support inbox. Nobody opens it until Monday, and by then the forty-eight hours have run out. Marketplace regulation stopped being a duty map some time ago. It is now a question of which workflows you own and who is on the rota.
+A takedown notice lands at 17:40 on a Friday, in Turkish, in a shared support inbox. Nobody opens it until Monday, and by then the forty-eight hours have run out. A duty map tells you what you owe, and
+this site argues for keeping one
+. It does not tell you who was on the rota.
 
 The clock is Turkish. Under the Regulation on Electronic Commerce Intermediary Service Providers, published on 29 December 2022 and made under Law No. 6563, an intermediary that becomes aware content is unlawful must take it down without delay and within forty-eight hours, and tell the seller and the relevant public authority why (Article 10(2)). An intellectual property complaint runs on the same forty-eight hours, and the notice to the seller has to set out how to object (Article 12(3)). Where the objection is clearly made out on the documents filed, the listing goes back up within twenty-four hours (Article 14(1)). The provision that catches teams out is Article 10(3): awareness is deemed. A ministry notification or a notified court decision starts the clock whether or not anyone has opened the email.
 
-The Digital Services Act sets the shape rather than the hour. Providers of hosting services owe a statement of reasons for each restriction they impose (Article 17(1)). Providers of online platforms must run an internal complaint-handling system that stays open for at least six months after the decision (Article 20(1)), and the decision on that complaint has to be taken under the supervision of appropriately qualified staff, not solely by automated means (Article 20(6)). Those platform duties spare micro and small enterprises unless the platform is designated very large (Articles 19 and 33); the statement of reasons carries no such carve-out. And under Article 24(5), every statement of reasons goes to the Commission's public, machine-readable database.
+The Digital Services Act sets the shape rather than the hour. Providers of hosting services owe a statement of reasons wherever they restrict a listing on the ground that it is illegal or breaches their terms (Article 17(1)). Providers of online platforms must run an internal complaint-handling system that stays open for at least six months after the decision (Article 20(1)), and the decision on that complaint has to be taken under the supervision of appropriately qualified staff, not solely by automated means (Article 20(6)). Those platform duties spare micro and small enterprises unless the platform is designated very large (Articles 19 and 33); the statement of reasons carries no such carve-out. And if you are an online platform rather than a bare hosting service, Article 24(5) sends those statements of reasons to the Commission's public, machine-readable database, unless you are a micro or small enterprise that has not been designated very large.
 
 So run one queue and set it to the tightest clock in your footprint. The objection is that this binds every other market to a Turkish deadline. It does. It is still cheaper than two queues, because the expensive part is not the timer, it is the reason taxonomy, and Article 24(5) publishes yours. Write reason codes tied to a legal ground, and let free text be an annex to the decision rather than the decision itself. Automate intake, deduplication, evidence assembly and the countdown. Do not automate the call.
 
 The seller gate takes the same treatment. Article 30(2) of the DSA asks for best efforts to assess whether the trader's information is reliable and complete. It binds platforms that let consumers conclude distance contracts with traders, and it spares micro and small enterprises unless the platform is designated very large (Article 29). Freshfields is right that the defensible artifact is a written record of what your best efforts were. Turkey draws a harder edge. The intermediary verifies the seller's identifying information against the relevant institutions' openly accessible electronic systems, or failing that against documents from the seller; it may not provide intermediary services to a seller it has not verified; and it re-checks that information in the first three months of every calendar year, allowing at most three business days to correct it (Article 6(3)). That makes the gate an annual job with a due date, not a box ticked at sign-up.
 
-It is also where evidence comes from. When the Commission fined Temu 200 million euro on 28 May 2026, the finding was that its risk assessment rested on general information about the e-commerce sector rather than specific evidence about its own service. That systemic-risk duty binds platforms designated as very large; the habit of holding evidence about your own service should not wait for designation. Ranking parameters deserve the same discipline: a dated change record with a named owner. None of this is a policy question. It is a rota, a taxonomy and a calendar entry, and the Friday inbox is where you find out whether you have all three.
+It is also where evidence comes from. When the Commission fined Temu 200 million euro on 28 May 2026, the finding was that its risk assessment rested on general information about the e-commerce sector rather than specific evidence about its own service. That systemic-risk duty binds platforms designated as very large; the habit of holding evidence about your own service should not wait for designation. Ranking parameters deserve the same discipline, and
+the questions to ask about them
+are their own subject: here, only the artifact matters, a dated change record with a named owner. This is not a policy question. It is a rota, a taxonomy and a calendar entry, and the Friday inbox is where you find out whether you have all three.
 
 Published
 27 July 2026
+· Last updated
+30 July 2026
 
 Sources
 
-Regulation on Electronic Commerce Intermediary Service Providers and Electronic Commerce Service Providers, 29 December 2022, made under Law No. 6563: Article 6(3) seller verification, Article 10(2) and (3) unlawful content, Article 12(3) complaint, Article 14(1) restoration  https://www.resmigazete.gov.tr/eskiler/2022/12/20221229-5.htm
+Regulation on Electronic Commerce Intermediary Service Providers and Electronic Commerce Service Providers, 29 December 2022, made under Law No. 6563: Article 6(3) seller verification, Article 10(2) and (3) unlawful content, Article 12(3) complaint, Article 14(1) restoration https://www.resmigazete.gov.tr/eskiler/2022/12/20221229-5.htm
 
-Regulation (EU) 2022/2065 (Digital Services Act), Articles 17(1), 19, 20(1) and 20(6), 24(5), 29, 30(2) and 33  https://eur-lex.europa.eu/eli/reg/2022/2065/oj
+Regulation (EU) 2022/2065 (Digital Services Act), Articles 17(1), 19, 20(1) and 20(6), 24(5), 29, 30(2) and 33 https://eur-lex.europa.eu/eli/reg/2022/2065/oj
 
-European Commission, DSA Transparency Database: questions and answers  https://digital-strategy.ec.europa.eu/en/faqs/dsa-transparency-database-questions-and-answers
+European Commission, DSA Transparency Database: questions and answers https://digital-strategy.ec.europa.eu/en/faqs/dsa-transparency-database-questions-and-answers
 
-Freshfields, DSA decoded #9: the DSA and online marketplaces, 5 December 2025  https://www.freshfields.com/en/our-thinking/blogs/technology-quotient/dsa-decoded-9-the-dsa-and-online-marketplaces-102lx12
+Freshfields, DSA decoded #9: the DSA and online marketplaces, 5 December 2025 https://www.freshfields.com/en/our-thinking/blogs/technology-quotient/dsa-decoded-9-the-dsa-and-online-marketplaces-102lx12
 
-European Commission, Commission fines Temu 200 million euro for breaching the Digital Services Act, 28 May 2026  https://digital-strategy.ec.europa.eu/en/news/commission-fines-temu-eu200-million-breaching-digital-services-act
+European Commission, Commission fines Temu 200 million euro for breaching the Digital Services Act, 28 May 2026 https://digital-strategy.ec.europa.eu/en/news/commission-fines-temu-eu200-million-breaching-digital-services-act
 
 Next: Marketplace ranking and algorithmic accountability: questions for the legal lead →
 
 ← All insights
 
 Get in touch →
+
+This site is for general information only. It is not legal advice and does not create an attorney-client relationship. All views are personal and do not represent any current or former employer.
+
+© 2026 LEXSAS · Istanbul
+
+Insights
+
+About
+
+Contact
+
+LinkedIn
+
+Back to top
+
+lexsas
+
 
 ============================================================
 ## Article: Prompt injection in legal workflows: a filter is not a control  <https://lexsas.com/insights/prompt-injection-legal-workflows.html>
@@ -1010,6 +1051,22 @@ lexsas
 ## Article: Evaluating a live AI workflow: the release gate  <https://lexsas.com/insights/evaluating-legal-ai-workflows.html>
 ============================================================
 
+Skip to content
+
+lexsas
+
+Focus areas
+
+Approach
+
+About
+
+Insights
+
+Contact
+
+TR
+
 July 2026 · Legal operations
 
 Evaluating a live AI workflow: the release gate
@@ -1025,20 +1082,22 @@ So gate the change, not the workflow. Build a golden set from your own matters, 
 
 Two positions worth disagreeing with. A set that passes at 100 percent for three months is not a safe workflow, it is a stale set; feed it the failures the sampling found. And a vendor's own evaluation is not a gate: the first preregistered study of commercial legal research tools, by Magesh, Surani, Dahl, Suzgun, Manning and Ho (Journal of Empirical Legal Studies, 2025), found the LexisNexis and Thomson Reuters tools then in market hallucinated between 17 and 33 percent of the time, against provider claims the authors call overstated.
 
-None of this is novel engineering. The voluntary NIST AI Risk Management Framework already files change management inside its post-deployment monitoring subcategory, MANAGE 4.1. What legal teams lack is not the concept but the owner: someone whose sign-off the change needs, and a version number on the set that let it pass.
+The engineering here is not novel. The voluntary NIST AI Risk Management Framework already files change management inside its post-deployment monitoring subcategory, MANAGE 4.1. What legal teams lack is not the concept but the owner: someone whose sign-off the change needs, and a version number on the set that let it pass.
 
 Published
 27 July 2026
+· Last updated
+30 July 2026
 
 Sources
 
-Lingjiao Chen, Matei Zaharia and James Zou, How Is ChatGPT's Behavior Changing over Time?, arXiv, revised October 2023  https://arxiv.org/abs/2307.09009
+Lingjiao Chen, Matei Zaharia and James Zou, How Is ChatGPT's Behavior Changing over Time?, arXiv, revised October 2023 https://arxiv.org/abs/2307.09009
 
-Andrew Ng, The Batch, issue 297, DeepLearning.AI, 16 April 2025, on starting an eval set with about five examples  https://www.deeplearning.ai/the-batch/issue-297/
+Andrew Ng, The Batch, issue 297, DeepLearning.AI, 16 April 2025, on starting an eval set with about five examples https://www.deeplearning.ai/the-batch/issue-297/
 
-Magesh, Surani, Dahl, Suzgun, Manning and Ho, Hallucination-Free? Assessing the Reliability of Leading AI Legal Research Tools, Journal of Empirical Legal Studies, 2025  https://dho.stanford.edu/wp-content/uploads/Legal_RAG_Hallucinations.pdf
+Magesh, Surani, Dahl, Suzgun, Manning and Ho, Hallucination-Free? Assessing the Reliability of Leading AI Legal Research Tools, Journal of Empirical Legal Studies, 2025 https://dho.stanford.edu/wp-content/uploads/Legal_RAG_Hallucinations.pdf
 
-NIST, AI Risk Management Framework Playbook, MANAGE 4.1 on post-deployment monitoring plans  https://airc.nist.gov/AI_RMF_Knowledge_Base/Playbook/Manage
+NIST, AI Risk Management Framework Playbook, MANAGE 4.1 on post-deployment monitoring plans https://airc.nist.gov/AI_RMF_Knowledge_Base/Playbook/Manage
 
 Next: AI governance for in-house legal teams: five minimum controls →
 
@@ -1046,9 +1105,42 @@ Next: AI governance for in-house legal teams: five minimum controls →
 
 Get in touch →
 
+This site is for general information only. It is not legal advice and does not create an attorney-client relationship. All views are personal and do not represent any current or former employer.
+
+© 2026 LEXSAS · Istanbul
+
+Insights
+
+About
+
+Contact
+
+LinkedIn
+
+Back to top
+
+lexsas
+
+
 ============================================================
 ## Article: Workflow automation lock-in: what you can export, what you rebuild  <https://lexsas.com/insights/workflow-automation-lock-in.html>
 ============================================================
+
+Skip to content
+
+lexsas
+
+Focus areas
+
+Approach
+
+About
+
+Insights
+
+Contact
+
+TR
 
 July 2026 · Legal operations
 
@@ -1059,28 +1151,47 @@ The intake pilot has run a quarter and it works, so the ops lead wants it on thr
 An AI vendor due diligence checklist for legal teams
 , published here on 11 July, closes on exit and data return: when the contract ends, how does your data come back, and in what format. Since 12 September 2025 that question has been too small.
 
-The EU Data Act, Regulation (EU) 2023/2854, has applied since that date to providers of data processing services, a class its recital 81 reads as covering IaaS, PaaS and SaaS alike. Article 25 puts the exit in the contract: a notice period capped at two months, a transitional period capped at 30 calendar days unless the provider proves that is technically unfeasible, at least 30 further days to retrieve, and an exhaustive specification of every category of data and digital asset that can be ported. Switching charges fall away on 12 January 2027 (Article 29). These duties bind providers serving customers in the Union (Article 1(3)(f)); elsewhere the same terms are things you negotiate, not rights you hold.
+The EU Data Act, Regulation (EU) 2023/2854, has applied since that date to providers of data processing services, a class its recital 81 reads as covering IaaS, PaaS and SaaS alike. Article 25 puts the exit in the contract: a notice period capped at two months, a transitional period capped at 30 calendar days, and where that is technically unfeasible a justified notice within 14 working days naming an alternative period that cannot exceed seven months, at least 30 further days to retrieve, and an exhaustive specification of every category of data and digital asset that can be ported. Switching charges fall away on 12 January 2027 (Article 29). These duties bind providers serving customers in the Union (Article 1(3)(f)); elsewhere the same terms are things you negotiate, not rights you hold.
 
-Then the limit, which is the real subject. Functional equivalence, re-establishing a minimum level of functionality after the move, is owed only by infrastructure providers (Article 30(1)). A workflow platform owes open interfaces and, while interoperability standards for its service type remain unpublished, an export of exportable data on request in a structured, commonly used, machine-readable format (Article 30(2) and (5)). Exportable data stops where the provider's intellectual property and trade secrets begin (Article 2(38)), and a digital asset travels only where you may use it independently of the contract you are leaving (Article 2(32)). Workflow definitions, prompt and policy assets, evaluation sets, connector mappings and run history are a different asset class from your documents. The Commission's non-binding Data Act FAQs, version 1.4 of 22 January 2026, say it at question 58b: no source provider is responsible for helping you rebuild your service in the destination environment.
+Then the limit, which is the real subject. Functional equivalence, re-establishing a minimum level of functionality after the move, is something only infrastructure providers have to take reasonable measures to facilitate, and even then only for features both services offer (Article 30(1), recital 86). A workflow platform owes open interfaces and, while interoperability standards for its service type remain unpublished, an export of exportable data on request in a structured, commonly used, machine-readable format (Article 30(2) and (5)). Exportable data stops where the provider's intellectual property and trade secrets begin (Article 2(38)), and a digital asset travels only where you may use it independently of the contract you are leaving (Article 2(32)). Workflow definitions, prompt and policy assets, evaluation sets, connector mappings and run history are a different asset class from your documents. The Commission's non-binding Data Act FAQs, version 1.4 of 22 January 2026, say it at question 58b: no source provider is responsible for helping you rebuild your service in the destination environment.
 
-So rehearse the exit once, on one live workflow, while the platform is not yet load bearing. Take the export the contract promises, stand the workflow up elsewhere with the vendor's help withdrawn, and log what you had to rebuild by hand. That log, not the demo, is what the scale decision needs. Ask for the Article 25(2)(e) specification before signature. Then read Article 31: a platform whose main features were custom-built for you, and not sold at broad commercial scale, falls outside some of these duties, the end of switching charges among them.
+So rehearse the exit once, on one live workflow, while the platform is not yet load bearing. Take the export the contract promises, stand the workflow up elsewhere with the vendor's help withdrawn, and log what you had to rebuild by hand. Take that log into the scale decision; the demo stays in the meeting room. Ask for the Article 25(2)(e) specification before signature. Then read Article 31: a platform whose majority of main features was custom-built for your needs, or whose components were all developed for you, and which is not offered at broad commercial scale, falls outside some of these duties, the end of switching charges among them.
 
 Published
 27 July 2026
+· Last updated
+30 July 2026
 
 Sources
 
-EUR-Lex, Regulation (EU) 2023/2854 (EU Data Act), Articles 1(3), 2(32), 2(37), 2(38), 25, 29, 30, 31 and 50, and recitals 81, 86 and 92  https://eur-lex.europa.eu/eli/reg/2023/2854/oj/eng
+EUR-Lex, Regulation (EU) 2023/2854 (EU Data Act), Articles 1(3), 2(32), 2(37), 2(38), 25, 29, 30, 31 and 50, and recitals 81, 86 and 92 https://eur-lex.europa.eu/eli/reg/2023/2854/oj/eng
 
-European Commission, Data Act policy page (entry into application, 12 September 2025)  https://digital-strategy.ec.europa.eu/en/policies/data-act
+European Commission, Data Act policy page (entry into application, 12 September 2025) https://digital-strategy.ec.europa.eu/en/policies/data-act
 
-European Commission, Data Act Frequently Asked Questions, version 1.4, 22 January 2026, questions 53 and 58b (non-binding)  https://digital-strategy.ec.europa.eu/en/library/commission-publishes-frequently-asked-questions-about-data-act
+European Commission, Data Act Frequently Asked Questions, version 1.4, 22 January 2026, questions 53 and 58b (non-binding) https://digital-strategy.ec.europa.eu/en/library/commission-publishes-frequently-asked-questions-about-data-act
 
 Next: An AI vendor due diligence checklist for legal teams →
 
 ← All insights
 
 Get in touch →
+
+This site is for general information only. It is not legal advice and does not create an attorney-client relationship. All views are personal and do not represent any current or former employer.
+
+© 2026 LEXSAS · Istanbul
+
+Insights
+
+About
+
+Contact
+
+LinkedIn
+
+Back to top
+
+lexsas
+
 
 ============================================================
 ## Article: AI citation errors: a verification protocol for legal teams  <https://lexsas.com/insights/ai-citation-verification.html>
@@ -1129,11 +1240,27 @@ Get in touch →
 ## Article: Marketplace intermediary liability in Turkey: three regimes to read together  <https://lexsas.com/insights/turkey-marketplace-liability.html>
 ============================================================
 
+Skip to content
+
+lexsas
+
+Focus areas
+
+Approach
+
+About
+
+Insights
+
+Contact
+
+TR
+
 July 2026 · E-commerce law
 
 Marketplace intermediary liability in Turkey: three regimes to read together
 
-I spent years running legal and regulatory work for online marketplaces in Turkey, and the question that came up most was deceptively simple. When a third party sells something on our platform, what are we on the hook for? The honest answer is that no single statute holds it. Three regimes provide a useful starting map, but not an exhaustive one: product-specific rules, payments, advertising, data protection and other frameworks may add further layers. The platform's role and conduct still have to be mapped in each.
+For years I ran legal and regulatory work for online marketplaces in Turkey; one question came up more than any other, and it sounds deceptively simple. When a third party sells something on our platform, what are we on the hook for? No single statute holds the answer. Three regimes provide a useful starting map, but not an exhaustive one: product-specific rules, payments, advertising, data protection and other frameworks may add further layers. The platform's role and conduct still have to be mapped in each.
 
 The first is the E-Commerce Law, No. 6563. Its 2022 amendments introduced tiered obligations for electronic commerce intermediary service providers, with additional duties at higher statutory thresholds. The second is the consumer framework under Law No. 6502 and the Distance Contracts Regulation. It allocates duties by role; it neither turns every seller or supplier duty automatically into a platform duty nor leaves an intermediary service provider with none. Pre-contract information, order, payment, refund and complaint processes should be mapped to the function each actor actually performs. The third is the internet content regime under Law No. 5651. The Constitutional Court annulled Article 9 in its 11 October 2023 decision; the annulment took effect in October 2024. That change is another reason a platform needs a current, combined map rather than a static reading of one statute.
 
@@ -1144,23 +1271,40 @@ The practical work is mapping the applicable layers and roles together. A single
 Published
 11 July 2026
 · Last updated
-27 July 2026
+30 July 2026
 
 Sources
 
-Law No. 6563 on the Regulation of Electronic Commerce, Official Gazette 5 November 2014, No. 29166, as amended in 2022  https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6563&MevzuatTur=1&MevzuatTertip=5
+Law No. 6563 on the Regulation of Electronic Commerce, Official Gazette 5 November 2014, No. 29166, as amended in 2022 https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6563&MevzuatTur=1&MevzuatTertip=5
 
-Ticaret Bakanlığı, Türkiye'de E-Ticaretin Görünümü Raporu (2025)  https://ticaret.gov.tr/duyurular/turkiyede-e-ticaretin-gorunumu-raporu-yayinlandi-06-05-2025
+Ticaret Bakanlığı, Türkiye'de E-Ticaretin Görünümü Raporu (2025) https://ticaret.gov.tr/duyurular/turkiyede-e-ticaretin-gorunumu-raporu-yayinlandi-06-05-2025
 
-Ministry of Trade, Law No. 6502 and implementing regulations, including the Distance Contracts Regulation  https://tuketici.ticaret.gov.tr/data/5e81d14513b876a1b04c7b86/T%C3%BCketicinin_Korunmasi_Hakkinda_Kanun_ve_Uygulama_Yonetmelikleri.pdf
+Ministry of Trade, Law No. 6502 and implementing regulations, including the Distance Contracts Regulation https://tuketici.ticaret.gov.tr/data/5e81d14513b876a1b04c7b86/T%C3%BCketicinin_Korunmasi_Hakkinda_Kanun_ve_Uygulama_Yonetmelikleri.pdf
 
-Constitutional Court of Türkiye, annulment of Article 9 of Law No. 5651, 11 October 2023  https://www.anayasa.gov.tr/tr/haberler/norm-denetimi-basin-duyurulari/internet-ortamindaki-yayinlara-ve-bu-yayinlar-yoluyla-islenen-suclara-iliskin-duzenlemeler-iceren-kanun-da-degisiklikler-ongoren-bazi-kurallarin-iptali/
+Constitutional Court of Türkiye, annulment of Article 9 of Law No. 5651, 11 October 2023 https://www.anayasa.gov.tr/tr/haberler/norm-denetimi-basin-duyurulari/internet-ortamindaki-yayinlara-ve-bu-yayinlar-yoluyla-islenen-suclara-iliskin-duzenlemeler-iceren-kanun-da-degisiklikler-ongoren-bazi-kurallarin-iptali/
 
 Next: Marketplace ranking and algorithmic accountability: questions for the legal lead →
 
 ← All insights
 
 Get in touch →
+
+This site is for general information only. It is not legal advice and does not create an attorney-client relationship. All views are personal and do not represent any current or former employer.
+
+© 2026 LEXSAS · Istanbul
+
+Insights
+
+About
+
+Contact
+
+LinkedIn
+
+Back to top
+
+lexsas
+
 
 ============================================================
 ## Article: Marketplace ranking and algorithmic accountability: questions for the legal lead  <https://lexsas.com/insights/marketplace-algorithmic-accountability.html>
@@ -1213,11 +1357,27 @@ Get in touch →
 ## Article: Legal AI: build, buy, or configure?  <https://lexsas.com/insights/legal-ai-build-buy-configure.html>
 ============================================================
 
+Skip to content
+
+lexsas
+
+Focus areas
+
+Approach
+
+About
+
+Insights
+
+Contact
+
+TR
+
 July 2026 · Legal AI
 
 Legal AI: build, buy, or configure?
 
-I have built legal AI tooling on AWS Bedrock inside a large platform company, and bought vendor tools too. The real choice is rarely build or buy. You can buy a finished product, adapt an enterprise platform to your workflow, or build your own. That middle path is configure, and most work belongs there.
+I have built legal AI tooling on AWS Bedrock inside a large platform company, and bought vendor tools too. The choice is rarely build or buy. You can buy a finished product, adapt an enterprise platform to your workflow, or build your own. That middle path is configure, and most work belongs there.
 
 Three questions decide it: how sensitive the data is, how specific the workflow is, and how much engineering the team can carry.
 
@@ -1235,18 +1395,37 @@ Match the tool to the workflow: configure first, buy the commodity, build only w
 
 Published
 11 July 2026
+· Last updated
+30 July 2026
 
 Sources
 
-ILTA 2024 Technology Survey (via eDiscovery Today)  https://ediscoverytoday.com/2024/09/30/ilta-2024-technology-survey-results-released-today-legal-technology-trends/
+ILTA 2024 Technology Survey (via eDiscovery Today) https://ediscoverytoday.com/2024/09/30/ilta-2024-technology-survey-results-released-today-legal-technology-trends/
 
-Bloomberg Law, law firm tech budgets and the build-versus-buy AI debate (2026)  https://news.bloomberglaw.com/daily-labor-report/law-firm-tech-budgets-drive-the-build-versus-buy-ai-debate
+Bloomberg Law, law firm tech budgets and the build-versus-buy AI debate (2026) https://news.bloomberglaw.com/daily-labor-report/law-firm-tech-budgets-drive-the-build-versus-buy-ai-debate
 
 Next: Composing your own agentic workflow: what the canvas gives a legal team →
 
 ← All insights
 
 Get in touch →
+
+This site is for general information only. It is not legal advice and does not create an attorney-client relationship. All views are personal and do not represent any current or former employer.
+
+© 2026 LEXSAS · Istanbul
+
+Insights
+
+About
+
+Contact
+
+LinkedIn
+
+Back to top
+
+lexsas
+
 
 ============================================================
 ## Article: How to measure a legal automation pilot  <https://lexsas.com/insights/measuring-automation-pilots.html>
@@ -1520,7 +1699,7 @@ What does change is the work that surrounds those decisions, and there is a grea
 
 The first is intake. A large share of an in-house team's time goes to routing questions, restating them clearly, and gathering the facts needed to answer. A well-scoped model can triage a request, ask for the missing pieces, and hand the lawyer a clean brief instead of a vague email. That does not decide anything. It removes the friction before the deciding starts.
 
-The second is knowledge retrieval. In-house teams sit on years of prior advice, playbooks and precedent that are hard to search when they are needed. Retrieval over that material, done carefully, means a lawyer can find how the team handled a similar question two years ago in seconds rather than hours. The value is not a generated answer. It is fast access to the team's own reasoning.
+The second is knowledge retrieval. In-house teams sit on years of prior advice, playbooks and precedent that are hard to search when they are needed. Retrieval over that material, done carefully, means a lawyer can find how the team handled a similar question two years ago in seconds rather than hours. What you gain is fast access to the team's own reasoning.
 
 The third is first drafts. Standard clauses, routine responses, summaries of long filings and initial cuts of internal memos are all work where a model can produce a serviceable starting point. The lawyer then edits, corrects and takes ownership. When we built generative AI tooling on AWS Bedrock, the first-phase target was a meaningful, measured reduction in manual workload on exactly this kind of task, together with less routine dependence on outside counsel. The point was never to remove the lawyer. It was to move the lawyer's time toward the work that needs a lawyer.
 
@@ -1538,12 +1717,12 @@ Track errors honestly. Models are confidently wrong in ways that look plausible;
 
 One more point on outside counsel, because it is where the economics are supposed to show up first. Much of what a legal team sends outside is volume rather than hard law: routine research, first-pass review and drafting that goes out because there is no internal capacity, not because the question needs a specialist. Moving a share of that in-house is what teams aim at when they target lower outside-counsel spend. It is a target, not a guarantee; many teams have not yet seen those savings land, while the genuinely difficult matters still go to the firms that should handle them.
 
-None of this requires believing the hype, and none of it requires dismissing the technology. Generative AI does not change what a legal team is for. It changes how much of the surrounding work has to be done by hand, which is worth a lot if you are honest about where the judgment still has to sit. The teams that get value from it stay skeptical about the claims, specific about the workflow, and patient enough to prove each step before trusting it with the next.
+You do not have to believe the hype to use this well, and you do not have to dismiss the technology to stay careful. Generative AI does not change what a legal team is for. It changes how much of the surrounding work has to be done by hand, which is worth a lot if you are honest about where the judgment still has to sit. The teams that get value from it stay skeptical about the claims, specific about the workflow, and patient enough to prove each step before trusting it with the next.
 
 Published
 4 July 2026
 · Last updated
-27 July 2026
+30 July 2026
 
 Sources
 
@@ -1585,17 +1764,68 @@ lexsas
 ============================================================
 ## Article: AI is quietly redrawing the legal industry  <https://lexsas.com/insights/ai-reshaping-legal-industry.html>
 ============================================================
+
+Skip to content
+
+lexsas
+
+Focus areas
+
+Approach
+
+About
+
 Insights
-July 2026 - Legal AI
+
+Contact
+
+TR
+
+July 2026 · Legal AI
+
 AI is quietly redrawing the legal industry
-Legal work sits near the top of most AI exposure charts. In The Potentially Large Effects of Artificial Intelligence on Economic Growth, published on 26 March 2023, the Goldman Sachs economists Joseph Briggs and Devesh Kodnani put US legal work at 44 percent exposure to AI-driven automation, second only to administrative occupations at 46 percent. Three years on, that estimate reads less like a provocation and more like a project plan.
+
+Legal work sits near the top of most AI exposure charts. In The Potentially Large Effects of Artificial Intelligence on Economic Growth, published on 26 March 2023, the Goldman Sachs economists Joseph Briggs and Devesh Kodnani put US legal work at 44 percent exposure to AI-driven automation, second only to administrative occupations at 46 percent. That is an exposure measure: how much of the work is open to automation, not how much has actually been automated. Three years on, that estimate reads less like a provocation and more like a project plan.
+
 Adoption has caught up. Thomson Reuters reports generative AI use at 41 percent of law firms and 47 percent of corporate legal departments. Law firm use rose from 28 percent, up by about half; corporate departments moved from 23 percent, roughly doubling. The report frames this as adoption reaching critical mass rather than early experimentation. In a single budget cycle the tools moved from pilot to plumbing.
-What changes is not whether lawyers exist but what surrounds them. Research and first drafts can reduce from days to hours. Knowledge that lived in inboxes becomes retrievable. Models that lean on many juniors billing many hours come under pressure. The differentiator shifts from headcount to judgment, and to the quality of the workflows and guardrails around the tools. None of this removes the need for a lawyer; it changes where a lawyer's time is worth spending.
+
+What changes is not whether lawyers exist but what surrounds them. Research and first drafts can reduce from days to hours. Knowledge that lived in inboxes becomes retrievable. Models that lean on many juniors billing many hours come under pressure. The differentiator shifts from headcount to judgment, and to the quality of the workflows and guardrails around the tools. The need for a lawyer stays; what changes is where that time is worth spending.
+
 The organisations pulling ahead treat this as an operations question, with pilots, measurement and governance. The ones falling behind treat it as procurement. The technology is the easy part; redesigning the work is the transformation.
-Published 4 July 2026 - Last updated 27 July 2026
+
+Published
+4 July 2026
+· Last updated
+30 July 2026
+
 Sources
-Goldman Sachs, Joseph Briggs and Devesh Kodnani, The Potentially Large Effects of Artificial Intelligence on Economic Growth, 26 March 2023, Exhibit 5; the link goes to the firm's summary article, which does not reproduce the figure  <https://www.goldmansachs.com/insights/articles/generative-ai-could-raise-global-gdp-by-7-percent>
-Thomson Reuters, 2026 AI in Professional Services Report  <https://www.thomsonreuters.com/en/reports/2026-ai-in-professional-services-report>
+
+Goldman Sachs, Joseph Briggs and Devesh Kodnani, The Potentially Large Effects of Artificial Intelligence on Economic Growth, 26 March 2023, Exhibit 5; the link goes to the firm's summary article, which does not reproduce the figure https://www.goldmansachs.com/insights/articles/generative-ai-could-raise-global-gdp-by-7-percent
+
+Thomson Reuters, 2026 AI in Professional Services Report https://www.thomsonreuters.com/en/reports/2026-ai-in-professional-services-report
+
+Next: The billable hour is running out of logic →
+
+← All insights
+
+Get in touch →
+
+This site is for general information only. It is not legal advice and does not create an attorney-client relationship. All views are personal and do not represent any current or former employer.
+
+© 2026 LEXSAS · Istanbul
+
+Insights
+
+About
+
+Contact
+
+LinkedIn
+
+Back to top
+
+lexsas
+
 
 ============================================================
 ## Article: The billable hour is running out of logic  <https://lexsas.com/insights/beyond-the-billable-hour.html>
@@ -1924,7 +2154,7 @@ LEXSAS'ı 2026'da, hukuki ve regülatif işi hızlandıran yapay zeka destekli a
 
 lexsas
 
-ISTANBUL · EN / TR
+İSTANBUL · EN / TR
 
 ÇALIŞMA ALANLARI
 
@@ -1946,13 +2176,13 @@ Talep karşılama, doküman ve bilgi iş akışları, araştırma ve uyum operas
 
 Yapay zeka yönetişimi ve regülasyon uyumu
 
-Gizlilik, fikri mülkiyet ve yönetişim güvencelerini araçların tasarımına baştan yerleştiriyorum. Sorumluluk, insan incelemesi ve belgeleme içeren, denetime dayanıklı çerçeveler kuruyorum.
+Gizlilik, fikri mülkiyet ve yönetişim güvencelerini araçların tasarımına baştan yerleştiriyorum. Model gözetimi, insan incelemesi ve belgelemeyi içeren, denetime dayanıklı çerçeveler kuruyorum.
 
 03
 
 Hukuk ekiplerinde üretken yapay zekanın benimsenmesi
 
-Üretken yapay zeka için hukuk operasyonları stratejisi: nereden başlanacağı, geliştirme, satın alma ya da uyarlama kararı ve sorumlu benimsemenin gerçekte nasıl yürüdüğü. Şirket içinde AWS Bedrock üzerinde üretken yapay zeka hukuk aracının geliştirilmesinde yer aldım ve ardından gelen pilotları yürüttüm.
+Üretken yapay zeka için hukuk operasyonları stratejisi: nereden başlanacağı, geliştirme, satın alma ya da uyarlama kararı ve sorumlu benimsemenin gerçekte nasıl yürüdüğü. Şirket içinde AWS Bedrock üzerinde üretken yapay zeka hukuk aracını birlikte geliştirdim ve ardından gelen pilotları yürüttüm.
 
 04
 
@@ -1964,7 +2194,7 @@ KVKK ve GDPR çerçevesinde sınır ötesi veri aktarımı ve veri yerelleştirm
 
 E-ticaret ve platform regülasyonu
 
-Tüketici hukuku, reklam, aracı sorumluluğu ve ödeme temas noktaları boyunca pazaryeri ve platform kuralları; 5651 sayılı Kanun kapsamındaki bildirim ve kaldırma süreçleri dahil. Hangi faaliyetin lisans gerektirdiği sorusu ve ölçekte uyumu ayakta tutan kontroller de bu alanın parçası.
+Tüketici hukuku, reklam, aracı sorumluluğu ve ödeme temas noktaları boyunca pazaryeri ve platform kuralları; 5651 sayılı Kanun kapsamındaki uyar-kaldır süreçleri dahil. Hangi faaliyetin lisans gerektirdiği sorusu ve ölçekte uyumu ayakta tutan kontroller de bu alanın parçası.
 
 06
 
@@ -1986,13 +2216,13 @@ Talep, doküman, araştırma ve uyum; her biri sahibi, süresi ve kaydı belli a
 
 İş akışı ajanı tasarımı
 
-Ajan görev tanımını, ekibe yeni katılan biri gibi alır: hangi araçları tutabilir, neyi okuyabilir, nerede bir insan imza atar. Bu yetki kümesi pilot başlamadan sabitlenir, her model, istem ya da bağlantı değişikliğinde yeniden denetlenir ve hiçbir zaman işin gerektirdiğinden geniş olmaz.
+Ajana, ekibe yeni katılan birine yazılır gibi bir görev tanımı yazılır: hangi araçları kullanabilir, neyi okuyabilir, nerede bir insanın imzası gerekir. Bu yetki kümesi pilot başlamadan sabitlenir, her model, istem ya da bağlantı değişikliğinde yeniden denetlenir ve hiçbir zaman işin gerektirdiğinden geniş olmaz.
 
 03
 
 Şirket içi ekiplere ve hukuk bürolarına katkısı
 
-Şirket içi ekipte rutin talep karşılama ve ilk incelemeye giden saatler azalır; her çıktının adı belli bir incelemecisi kalır ve kayıt kendini savunur. Hukuk bürosunda dosyalar inceleme sulandırılmadan hızlanır; aynı kayıtlar, saatleri değil işi fiyatlamanızı sağlar.
+Şirket içi ekipte rutin talep karşılama ve ilk incelemeye giden saatler azalır; her çıktıyı adı belli bir hukukçu inceler ve kayıt, sorulduğunda yeter. Hukuk bürosunda dosyalar incelemeden ödün verilmeden hızlanır; aynı kayıtlar, saatleri değil işi fiyatlamanızı sağlar.
 
 SON YAZILAR
 
@@ -2002,7 +2232,7 @@ Temmuz 2026
 
 Ajanı kim bulunduruyor? Yapay zeka pilotu için bulundurma hükümleri
 
-Eski bir bulundurma kuralı, şartname dili olarak: adı konmuş bir bulunduran, kanıtlanabilir özen ve ajanı ürküten için rücu izi.
+Eski bir bulundurma kuralı, pilot protokolü dili olarak: adı konmuş bir bulunduran, kanıtlanabilir özen ve ajanı ürküten için rücu izi.
 
 →
 
@@ -2010,7 +2240,7 @@ Temmuz 2026
 
 KVKK standart sözleşmeleri: ilk tam yılın 2.497 bildirimi
 
-Zor kısım hiçbir zaman beş günlük bildirim değildi. Kurum artık bir aktarım sicili tutuyor ve onu okumaya başladı.
+Zor kısım hiçbir zaman beş iş günlük bildirim değildi. Kurum artık bir aktarım sicili tutuyor ve Kurul onu okumaya başladı.
 
 →
 
@@ -2127,7 +2357,7 @@ Yönetim kurulu üyeliği ve yetkili temsilcilik
 
 Ankara Barosu
 
-Istanbul · EN / TR
+İstanbul · EN / TR
 
 Yirmi yılı aşkın süredir Türkiye ve Orta Doğu'da küresel teknoloji, tüketici ve düzenlemeye tabi sektörlerdeki şirketlere hukuk danışmanlığı veriyorum; bu sürenin çoğu şirket içinde geçti. Alanım perakende, e-ticaret ve pazaryeri, dijital yayıncılık ve içerik, reklam, ödemeler, veri ve yapay zeka ile fikri mülkiyeti kapsıyor. İşim çoğu zaman işletmenin hızla ilerlemek istediği, düzenleyicinin ise temkinli davrandığı kesişim noktasında yer alıyor.
 
@@ -2135,7 +2365,7 @@ Kariyerim Ankara'da White & Case bünyesinde, düzenlemeye tabi sektörlerdeki s
 
 Çalışmalarımın ortak ekseni düzenlemeye tabi pazarlar oldu. Rekabet, tüketici koruma, ödemeler, veri koruma, aracı sorumluluğu ve kurumsal yönetişim gibi alanlarda, düzenleyici belirsizliği işletmenin ilerleyebileceği somut yollara çevirmeye odaklandım. Rekabet Kurumu, KVKK, Ticaret Bakanlığı, RTÜK ve TCMB gibi kurumlar önünde temsil bu işin sürekli parçası oldu.
 
-Son yıllarda odağım yapay zeka yönetişimi ve hukuk teknolojisine kaydı. Amazon'da AWS Bedrock üzerinde üretken yapay zeka destekli hukuk araçlarının geliştirilmesine katkı verdim, talep karşılama ve bilgi erişimi süreçlerini sadeleştiren, dış avukat bağımlılığını azaltmayı hedefleyen çözümler üzerinde çalıştım. 2026'da bu deneyimi bağımsız bir zemine taşıyarak LEXSAS'ı kurdum: hukuki ve regülatif işi hızlandıran, güvenceleri baştan kurulu yapay zeka araçları tasarlayan ve bu konuda danışmanlık veren bir girişim. LEXSAS, kariyerin katman katman biriktirdiklerini tek çatıda birleştiriyor: hukuk direktörlüğü, regülasyon, kurumsal ilişkiler ve kamu politikası, artık uygulamalı yapay zeka yönetişimiyle yan yana.
+Son yıllarda odağım yapay zeka yönetişimi ve hukuk teknolojisine kaydı. Amazon'da AWS Bedrock üzerinde üretken yapay zeka destekli hukuk araçlarının geliştirilmesine katkı verdim, talep karşılama ve bilgi erişimi süreçlerini sadeleştiren, dış avukat bağımlılığını azaltmayı hedefleyen çözümler üzerinde çalıştım. 2026'da bu deneyimi bağımsız bir zemine taşıyarak LEXSAS'ı kurdum: hukuki ve regülatif işi hızlandıran, güvenceleri baştan kurulu yapay zeka araçları tasarlayan ve bu konuda danışmanlık veren bir girişim. LEXSAS, yirmi yılda ayrı ayrı yürüttüğüm işleri tek çatı altında birleştiriyor: hukuk direktörlüğü, regülasyon, kurumsal ilişkiler ve kamu politikası, artık uygulamalı yapay zeka yönetişimiyle yan yana.
 
 DENEYİM
 
@@ -2167,7 +2397,7 @@ Hukuk Direktörü ve Yönetim Kurulu Üyesi
 
 Amazon Türkiye, İstanbul
 
-Perakende, pazaryeri ve medya için uçtan uca hukuk danışmanlığı; RTÜK, Rekabet Kurumu, Ticaret Bakanlığı, KVKK Kurumu ve Merkez Bankası nezdinde temsil.
+Perakende, pazaryeri ve medya için uçtan uca hukuk danışmanlığı; RTÜK, Rekabet Kurumu, Ticaret Bakanlığı, Kişisel Verileri Koruma Kurumu ve Merkez Bankası nezdinde temsil.
 
 Prime Video Türkiye ve Project Kuiper dahil birden çok Amazon tüzel kişiliğinde yönetim kurulu üyeliği; hukuk fonksiyonu içinde AWS Bedrock üzerinde üretken yapay zeka destekli hukuk araçlarının geliştirilmesine katkı.
 
@@ -2225,7 +2455,7 @@ Hızı mümkün kılan güvenceler
 
 Ölçülebilir pilotlar, insan incelemesi
 
-Bir çözümün işe yarayıp yaramadığı hislerle değil, ölçülebilir pilotlarla anlaşılır. Aracın hiçbir çıktısı, bir hukukçunun incelemesinden geçmeden dışa çıkmaz.
+Her yapay zeka kurulumu, başarı ölçüsü tanımlanmış ve çıktısının sahibi belli bir pilotla başlamalı; hiçbir çıktı bir hukukçunun incelemesinden geçmeden dışarı çıkmaz. Neyi değiştirdiğini gösteremeyen araç, daha geniş kullanım hakkını kazanmamıştır.
 
 “Faydalı cevap çoğu zaman düz bir evet ya da hayır değildir; evet, şu koşulla.”
 
@@ -2272,14 +2502,14 @@ Yazılar
 
 Yazılar
 
-Burada yapay zeka yönetişimi, hukuk teknolojisi ve hukuk operasyonları üzerine yazıyorum. Amaç, uygulamada işe yarayan gözlemleri abartıya kapılmadan paylaşmak.
+Burada yapay zeka yönetişimi, hukuk teknolojisi, düzenlemeye tabi dijital pazarlar ve hukuk operasyonları üzerine yazıyorum. Amaç, uygulamada işe yarayan gözlemleri abartıya kapılmadan paylaşmak.
 
 Temmuz 2026
 Hukukta yapay zeka
 
 Ajanı kim bulunduruyor? Yapay zeka pilotu için bulundurma hükümleri
 
-Eski bir bulundurma kuralı, şartname dili olarak: adı konmuş bir bulunduran, kanıtlanabilir özen ve ajanı ürküten için rücu izi.
+Eski bir bulundurma kuralı, pilot protokolü dili olarak: adı konmuş bir bulunduran, kanıtlanabilir özen ve ajanı ürküten için rücu izi.
 
 →
 
@@ -2288,7 +2518,7 @@ Veri koruma
 
 KVKK standart sözleşmeleri: ilk tam yılın 2.497 bildirimi
 
-Zor kısım hiçbir zaman beş günlük bildirim değildi. Kurum artık bir aktarım sicili tutuyor ve onu okumaya başladı.
+Zor kısım hiçbir zaman beş iş günlük bildirim değildi. Kurum artık bir aktarım sicili tutuyor ve Kurul onu okumaya başladı.
 
 →
 
@@ -2396,7 +2626,7 @@ Yapay zeka yönetişimi
 
 Şirket içi hukuk ekipleri için yapay zeka yönetişimi: beş asgari kontrol
 
-Üretken yapay zekayı ölçeklendirmeden önce hukuk ekibinin kurması gereken beş asgari kontrol: veri, yetki, insan incelemesi, kayıt ve hata yönetimi.
+Üretken yapay zekayı ölçeklendirmeden önce hukuk ekibinin kurması gereken beş asgari kontrol: veri, hesap verebilirlik, insan incelemesi, kayıt ve hata yönetimi.
 
 →
 
@@ -2445,7 +2675,7 @@ Hukuk ekiplerinde üretken yapay zeka: gerçekte ne değişiyor?
 
 →
 
-Bunlardan biri masanızdaki soruya yakınsa,
+Bunlardan biri gündeminizdeki soruya yakınsa,
 iletişime geçin
 .
 
@@ -2473,89 +2703,224 @@ lexsas
 ============================================================
 ## LinkedIn (TR) (personal LinkedIn post by the founder; opinion commentary, quoted verbatim)  <https://lexsas.com/tr/linkedin.html>
 ============================================================
+
+İçeriğe atla
+
+lexsas
+
+Çalışma alanları
+
+Yaklaşım
+
+Hakkımda
+
+Yazılar
+
+İletişim
+
+EN
+
 LINKEDIN
+
 LinkedIn gönderileri
-LinkedIn, bir konu henüz hareket hâlindeyken tepki verdiğim yer: yeni bir düzenleme, bir olay ya da uygulamacıyı ikinci kez düşündüren bir öneri; gündeme düştüğü hafta ve birkaç yüz kelimeyle. Yazılar bölümündeki metinler daha yavaş iş: araştırılmış ve kaynağı gösterilmiş.
+
+LinkedIn, bir konu henüz hareket hâlindeyken tepki verdiğim yer: yeni bir düzenleme, bir olay ya da uygulamacıyı ikinci kez düşündüren bir öneri; gündeme düştüğü hafta ve birkaç yüz kelimeyle.
+Yazılar
+bölümündeki metinler daha yavaş iş: araştırılmış ve kaynağı gösterilmiş.
+
 Tüm gönderiler, en yeniden eskiye
+
 23 Temmuz 2026
+
 Yapay zeka ajanı kum havuzundan çıkarsa kim sorumlu olur?
+
 OpenAI'ın Hugging Face olayı, mevcut sorumluluk kurallarının doğrudan yanıtlamadığı bir soruyu gündeme getiriyor: özerk bir ajan yolu bulup kullandığında zararı kim üstlenir?
+
+→
+
 21 Temmuz 2026
+
 Jeopolitik sigorta olarak açık ağırlıklar
+
 İhracat kontrolleri, Kimi K3, Inkling ve Çin'in açık kaynak mesajı aynı stratejik soruya işaret ediyor: frontier yapay zekaya erişim bir baskı aracına dönüştüğünde ne olur?
+
+→
+
 15 Temmuz 2026
+
 Frontier yapay zeka için bir FINRA
+
 Demis Hassabis, sektörün finanse ettiği ve federal gözetim altında çalışan bir standart örgütü öneriyor. Güvenlik gerekçesi gerçek; kuralları yazanları koruma riski de öyle.
+
+→
+
 9 Temmuz 2026
+
 Kara kutunun içindeki şeffaflık paradoksu
+
 Anthropic'in J-lens aracı, model çıktısında hiç görünmeyen iç örüntüleri yüzeye çıkarabiliyor. Yönetişim artık bakmanın sorumluluk doğurup doğurmadığına da karar vermeli.
-2 Temmuz 2026
-Yapay zeka erişim kesintileri ve dijital egemenlik
-Frontier modeller gündelik iş akışlarından çekildiğinde dayanıklılık; açık bir yapay zeka politikası, taşınabilirlik ve açık ağırlıklı yedeklere bağlıdır.
-Bunlardan biri masanızdaki soruya yakınsa iletişime geçin: https://lexsas.com/tr/iletisim.html
+
+→
+
+Bunlardan biri gündeminizdeki soruya yakınsa,
+iletişime geçin
+.
+
+Bu sitedeki içerik yalnızca genel bilgilendirme amaçlıdır ve hukuki tavsiye niteliği taşımaz. Sitenin kullanımı avukat-müvekkil ilişkisi doğurmaz. Buradaki görüşler kişiseldir ve mevcut ya da geçmiş hiçbir işvereni bağlamaz.
+
+© 2026 LEXSAS · İstanbul
+
+Yazılar
+
+Hakkımda
+
+İletişim
+
+LinkedIn
+
+Başa dön
+
+lexsas
+
 
 ============================================================
 ## İletişim (TR)  <https://lexsas.com/tr/iletisim.html>
 ============================================================
-İLETİŞİM
+
+İçeriğe atla
+
+lexsas
+
+Çalışma alanları
+
+Yaklaşım
+
+Hakkımda
+
+Yazılar
+
+İletişim
+
+EN
+
+İletişim
+
 İletişime geçin
-Yapay zeka yönetişimi, düzenlemeye tabi dijital pazarlar ve hukuk operasyonları üzerine danışmanlık sorularını memnuniyetle karşılıyorum. Konuşmacılık ile yönetim kurulu veya yapay zeka yönetişimi rolleri de görüşmeye açığım. İlk görüşme genellikle şu üç sonuçla kapanır: hangi iş akışıyla başlanacağı belirlenir, o akışın ihtiyaç duyduğu kontrollerin adı konur ve sonucun nasıl ölçüleceği üzerinde anlaşılır. Yazarken, aklınızdaki iş akışını, ekibi ve zamanlamayı gizli bir ayrıntı paylaşmadan kısaca özetlemeniz yardımcı olur. Bu, hukuki temsil değil, bilgilendirme amaçlı danışmanlıktır.
-E-posta
+
+Yapay zeka yönetişimi, düzenlemeye tabi dijital pazarlar ve hukuk operasyonları üzerine danışmanlık sorularını memnuniyetle karşılıyorum. Konuşmacı davetlerine, yönetim kurulu ve yapay zeka yönetişimi rollerine de açığım. İlk görüşmede genellikle üç şey netleşir: hangi iş akışıyla başlanacağı, o akışın hangi kontrolleri gerektirdiği ve sonucun nasıl ölçüleceği. Yazarken, aklınızdaki iş akışını, ekibi ve zamanlamayı gizli bir ayrıntı paylaşmadan kısaca özetlemeniz yardımcı olur.
+
 serdar@lexsas.com
+
 LinkedIn
+
 linkedin.com/in/asimserdaryilmaz
+
 Konum
+
 İstanbul, Türkiye
+
+Bu, hukuki temsil değil, bilgilendirme amaçlı danışmanlıktır.
+
 E-posta adresinize ne oluyor: bu site çerez kullanmıyor, analitik çalıştırmıyor ve yazı tipleri dahil hiçbir şeyi üçüncü taraftan yüklemiyor. Yazdığınızda adresiniz yalnızca yanıt vermek için kullanılıyor, başka hiçbir amaçla değil.
+
+Bu sitedeki içerik yalnızca genel bilgilendirme amaçlıdır ve hukuki tavsiye niteliği taşımaz. Sitenin kullanımı avukat-müvekkil ilişkisi doğurmaz. Buradaki görüşler kişiseldir ve mevcut ya da geçmiş hiçbir işvereni bağlamaz.
+
+© 2026 LEXSAS · İstanbul
+
+Yazılar
+
+Hakkımda
+
+İletişim
+
+LinkedIn
+
+Başa dön
+
+lexsas
+
 
 ============================================================
 ## Yazı: AB Yapay Zeka Tüzüğü: 2 Ağustos 2026'da uygulanmaya başlayanlar  <https://lexsas.com/tr/yazilar/ab-yapay-zeka-tuzugu-agustos-2026.html>
 ============================================================
 
+İçeriğe atla
+
+lexsas
+
+Çalışma alanları
+
+Yaklaşım
+
+Hakkımda
+
+Yazılar
+
+İletişim
+
+EN
+
 Temmuz 2026 · Yapay zeka regülasyonu
 
 AB Yapay Zeka Tüzüğü: 2 Ağustos 2026'da uygulanmaya başlayanlar
 
-Yüksek riskli yükümlülüklerin tarihi bugün itibarıyla ötelendi; Madde 50'deki şeffaflık yükümlülükleri ötelenmedi. 2 Ağustos 2026'dan itibaren sağlayıcı, karşısındaki kişiye bir makineyle konuştuğunu söylemeye ve modellerinin ürettiği içeriği işaretlemeye devam edecek; kullanıcı kuruluş ise deepfake içerik ile kamuoyunu ilgilendiren metinlerden sorumlu olacak.
+Yüksek riskli yükümlülüklerin tarihi bugün itibarıyla ötelendi; Madde 50'deki şeffaflık yükümlülükleri ötelenmedi. 2 Ağustos 2026'dan itibaren sağlayıcı, karşısındaki kişiye bir makineyle konuştuğunu söylemeye ve modellerinin ürettiği içeriği işaretlemeye devam edecek; uygulayıcı ise deepfake içerik ile kamuoyunu ilgilendiren metinlerden sorumlu olacak.
 
 İki yıldır her yapay zeka uyum planı 2 Ağustos 2026 tarihine göre kuruluyordu. Avrupa Parlamentosu'nun 16 Haziran'da, Konsey'in 29 Haziran'da kabul ettiği Dijital Omnibus, Ek III kapsamındaki yüksek riskli sistem yükümlülükleri için 2 Aralık 2027'yi, düzenlemeye tabi ürünlere gömülü yapay zeka yükümlülükleri için 2 Ağustos 2028'i belirliyor. O metin artık yürürlükte: 8 Temmuz 2026 tarihli (AB) 2026/1744 sayılı Tüzük 24 Temmuz 2026'da AB Resmî Gazetesi'nde yayımlandı ve kendi 46 numaralı gerekçesi uyarınca, ivedilikle, yayımı izleyen üçüncü gün, yani 27 Temmuz 2026'da yürürlüğe girdi. Yeni yüksek risk tarihleri, ötelemek için yazıldıkları tarihe altı gün kala yürürlüğe girmiş oldu.
 
-Yaygın yanlış okuma, bunu bir mola sanmak. Madde 50 ötelenmedi. 2 Ağustos 2026'dan itibaren doğrudan gerçek kişilerle etkileşim kurması amaçlanan yapay zeka sistemlerinin sağlayıcıları, etkileşim açıkça anlaşılmıyorsa kişiyi bilgilendirmeli. Genel amaçlı yapay zeka sistemleri dahil olmak üzere sentetik ses, görüntü, video veya metin üreten yapay zeka sistemlerinin sağlayıcıları, çıktıları makine tarafından okunabilir ve yapay olarak üretilmiş veya değiştirilmiş olarak tespit edilebilir biçimde işaretlemeli. Bu işaretleme görevi teknik uygulanabilirlik, içeriğin özellikleri ve sınırlamaları, uygulama maliyeti ve genel kabul gören teknik düzeyle sınırlıdır; standart düzenlemeye yardımcı işlevlere, uygulayıcının girdisini veya girdinin anlamını esaslı biçimde değiştirmeyen sistemlere ve kanunen yetkilendirilmiş belirli kolluk kullanımlarına uygulanmaz. Uygulayıcılar ise Tüzüğün kapsam ve istisnelerine tabi olarak deepfake içerikleri ve kamu yararına ilişkin belirli metinleri açıklamalı.
+Bunu genel bir öteleme sanmak, yaygın bir yanlış okuma. Madde 50 ötelenmedi. 2 Ağustos 2026'dan itibaren doğrudan gerçek kişilerle etkileşim kurması amaçlanan yapay zeka sistemlerinin sağlayıcıları, etkileşim açıkça anlaşılmıyorsa kişiyi bilgilendirmeli. Genel amaçlı yapay zeka sistemleri dahil olmak üzere sentetik ses, görüntü, video veya metin üreten yapay zeka sistemlerinin sağlayıcıları, çıktıları makine tarafından okunabilir ve yapay olarak üretilmiş veya değiştirilmiş olarak tespit edilebilir biçimde işaretlemeli. Bu işaretleme görevi teknik uygulanabilirlik, içeriğin özellikleri ve sınırlamaları, uygulama maliyeti ve genel kabul gören teknik düzeyle sınırlıdır; standart düzenlemeye yardımcı işlevlere, uygulayıcının girdisini veya girdinin anlamını esaslı biçimde değiştirmeyen sistemlere ve kanunen yetkilendirilmiş belirli kolluk kullanımlarına uygulanmaz. Uygulayıcılar ise Tüzüğün kapsam ve istisnelerine tabi olarak deepfake içerikleri ve kamu yararına ilişkin belirli metinleri açıklamalı.
 
 Yükümlülük yalnızca yapay zeka kullanılıp kullanılmadığına değil, kuruluşun rolüne ve çıktının türüne bağlı. Komisyonun 10 Haziran 2026'da yayımladığı gönüllü işaretleme ve etiketleme Davranış Kuralları, belirli Madde 50 yükümlülüklerine uyumu destekleyebilir. Tüzüğün veya kullanım alanına özgü değerlendirmenin yerini almaz.
 
-Madde 50 yükümlülükleri 2 Ağustos 2026'da uygulanabilir hâle geliyor. İhlaller, 15 milyon avroya veya işletmeler bakımından dünya çapındaki toplam yıllık cironun yüzde 3'üne kadar, bunlardan yüksek olanı esas alınarak idari para cezasına konu olabilir; KOBİ'lerde iki tavanın düşük olanı uygulanır. Cezayı yetkili mahkemenin mi yoksa başka bir merciin mi vereceği ulusal hukuka bağlıdır. Aralık ayındaki iki geçiş hükmünün kapsamı daha dardır: genel amaçlı yapay zeka sistemleri dahil olmak üzere sentetik içerik üreten ve 2 Ağustos 2026'dan önce piyasaya sunulmuş yapay zeka sistemlerinin sağlayıcıları, Madde 50(2)'ye uyum için 2 Aralık 2026'ya kadar süreye sahiptir; rıza dışı mahrem materyal ve çocukların cinsel istismar materyaliyle bağlantılı belirli sağlayıcı ve uygulayıcı davranışlarına ilişkin yasaklar da 2 Aralık 2026'dan itibaren uygulanır.
+Madde 50 yükümlülükleri 2 Ağustos 2026'da uygulanabilir hâle geliyor. İhlaller, 15 milyon euroya veya işletmeler bakımından dünya çapındaki toplam yıllık cironun yüzde 3'üne kadar, bunlardan yüksek olanı esas alınarak idari para cezasına konu olabilir; KOBİ'lerde iki tavanın düşük olanı uygulanır. Cezayı yetkili mahkemenin mi yoksa başka bir merciin mi vereceği ulusal hukuka bağlıdır. Aralık ayındaki iki geçiş hükmünün kapsamı daha dardır: genel amaçlı yapay zeka sistemleri dahil olmak üzere sentetik içerik üreten ve 2 Ağustos 2026'dan önce piyasaya sunulmuş yapay zeka sistemlerinin sağlayıcıları, Madde 50(2)'ye uyum için 2 Aralık 2026'ya kadar süreye sahiptir; rıza dışı mahrem materyal ve çocukların cinsel istismar materyaliyle bağlantılı belirli sağlayıcı ve uygulayıcı davranışlarına ilişkin yasaklar da 2 Aralık 2026'dan itibaren uygulanır.
 
 Yapay Zeka Tüzüğü'nün ilk hâlindeki Madde 5 yasakları ve yapay zeka okuryazarlığı yükümlülüğü Şubat 2025'ten beri uygulanıyor. Bölüm V, genel amaçlı yapay zeka modelleri için Ağustos 2025'ten beri uygulanmakla birlikte, 2 Ağustos 2025'ten önce piyasaya sunulan modellerin sağlayıcılarının uyum süresi 2 Ağustos 2027'ye kadar devam ediyor. Gönüllü Genel Amaçlı Yapay Zeka Davranış Kuralları, sağlayıcıların uyumu göstermesine yardımcı olabilir.
 
-Hukuk ekibi için tarihten önce üç adım. Birincisi, pazarlama, müşteri hizmetleri ve ürün özellikleri dahil, insanlarla konuşan ya da dışa içerik yayımlayan her yapay zeka yüzeyinin envanterini çıkarın. İkincisi, çıktı türünü, uygulanabilecek bildirim veya işaretleme kuralını ve varsa istisnayı eşleştirin. Üçüncüsü, kuruluşun her yüzeyde sağlayıcı mı yoksa uygulayıcı mı olduğunu kaydedin. Bir tedarikçi aracını kendi adınız altında sunmanız rol değerlendirmesini etkileyebilir. Değişiklik düzenlemesi yüksek risk tarafına zaman kazandırıyor. Şeffaflık yükümlülüklerini ise ötelemiyor.
+Hukuk ekibi için tarihten önce üç adım. Birincisi, pazarlama, müşteri hizmetleri ve ürün özellikleri dahil, insanlarla konuşan ya da dışa içerik yayımlayan her yapay zeka yüzeyinin envanterini çıkarın. İkincisi, çıktı türünü, uygulanabilecek bildirim veya işaretleme kuralını ve varsa istisnayı eşleştirin. Üçüncüsü, kuruluşun her yüzeyde sağlayıcı mı yoksa uygulayıcı mı olduğunu kaydedin. Bir tedarikçi aracını kendi adınız altında sunmanız rol değerlendirmesini etkileyebilir.
 
 Yayım
 18 Temmuz 2026
 · Son güncelleme
-27 Temmuz 2026
+30 Temmuz 2026
 
 Kaynaklar
 
-Avrupa Komisyonu, Yapay Zeka Tüzüğü politika sayfası (uygulama takvimi), Temmuz 2026  https://digital-strategy.ec.europa.eu/en/policies/regulatory-framework-ai
+Avrupa Komisyonu, Yapay Zeka Tüzüğü politika sayfası (uygulama takvimi), Temmuz 2026 https://digital-strategy.ec.europa.eu/en/policies/regulatory-framework-ai
 
-AB Konseyi, Yapay Zekada Dijital Omnibus'a nihai onay, 29 Haziran 2026  https://www.consilium.europa.eu/en/press/press-releases/2026/06/29/artificial-intelligence-council-gives-final-green-light-to-simplify-and-streamline-rules/
+AB Konseyi, Yapay Zekada Dijital Omnibus'a nihai onay, 29 Haziran 2026 https://www.consilium.europa.eu/en/press/press-releases/2026/06/29/artificial-intelligence-council-gives-final-green-light-to-simplify-and-streamline-rules/
 
-Avrupa Komisyonu, Yapay Zeka Üretimi İçeriğin Şeffaflığına Dair Davranış Kuralları, Haziran 2026  https://digital-strategy.ec.europa.eu/en/policies/code-practice-ai-generated-content
+Avrupa Komisyonu, Yapay Zeka Üretimi İçeriğin Şeffaflığına Dair Davranış Kuralları, Haziran 2026 https://digital-strategy.ec.europa.eu/en/policies/code-practice-ai-generated-content
 
-EUR-Lex, (AB) 2024/1689 sayılı Yapay Zeka Tüzüğü, Madde 50, 99, 111 ve 113  https://eur-lex.europa.eu/eli/reg/2024/1689/oj
+EUR-Lex, (AB) 2024/1689 sayılı Yapay Zeka Tüzüğü, Madde 50, 99, 111 ve 113 https://eur-lex.europa.eu/eli/reg/2024/1689/oj
 
-EUR-Lex, 8 Temmuz 2026 tarihli (AB) 2026/1744 sayılı Tüzük (Yapay Zekada Dijital Omnibus), 24 Temmuz 2026'da yayımlandı, yürürlüğe girişe ilişkin 46 numaralı gerekçe  https://eur-lex.europa.eu/eli/reg/2026/1744/oj/eng
+EUR-Lex, 8 Temmuz 2026 tarihli (AB) 2026/1744 sayılı Tüzük (Yapay Zekada Dijital Omnibus), 24 Temmuz 2026'da yayımlandı, yürürlüğe girişe ilişkin 46 numaralı gerekçe https://eur-lex.europa.eu/eli/reg/2026/1744/oj/eng
 
-Avrupa Komisyonu, Genel Amaçlı Yapay Zeka Davranış Kuralları, 10 Temmuz 2025'te yayımlandı  https://digital-strategy.ec.europa.eu/en/policies/contents-code-gpai
+Avrupa Komisyonu, Genel Amaçlı Yapay Zeka Davranış Kuralları, 10 Temmuz 2025'te yayımlandı https://digital-strategy.ec.europa.eu/en/policies/contents-code-gpai
 
-AB Konseyi, Yapay Zekada Dijital Omnibus'un kabul edilen metni, PE-CONS 30/26, Haziran 2026  https://data.consilium.europa.eu/doc/document/PE-30-2026-INIT/en/pdf
+AB Konseyi, Yapay Zekada Dijital Omnibus'un kabul edilen metni, PE-CONS 30/26, Haziran 2026 https://data.consilium.europa.eu/doc/document/PE-30-2026-INIT/en/pdf
 
 Sonraki yazı: Yapay zeka kaynaklı atıf hataları: hukuk ekipleri için doğrulama protokolü →
 
 ← Tüm yazılar
 
 İletişime geç →
+
+Bu sitedeki içerik yalnızca genel bilgilendirme amaçlıdır ve hukuki tavsiye niteliği taşımaz. Sitenin kullanımı avukat-müvekkil ilişkisi doğurmaz. Buradaki görüşler kişiseldir ve mevcut ya da geçmiş hiçbir işvereni bağlamaz.
+
+© 2026 LEXSAS · İstanbul
+
+Yazılar
+
+Hakkımda
+
+İletişim
+
+LinkedIn
+
+Başa dön
+
+lexsas
+
 
 ============================================================
 ## Yazı: Ajanı kim bulunduruyor? Yapay zeka pilotu için bulundurma hükümleri  <https://lexsas.com/tr/yazilar/ajani-kim-bulunduruyor.html>
@@ -2655,7 +3020,7 @@ Temmuz 2026 · Veri koruma
 
 KVKK standart sözleşmeleri: ilk tam yılın 2.497 bildirimi
 
-Yeniden kurulan aktarım rejiminin ilk tam yıl rakamları belli: Kurumun elinde binlerce sözleşme var ve resen incelemeler başladı. Zor kısım hiçbir zaman beş iş günlük bildirim değildi; asıl mesele o bildirimin beslediği sicil.
+Yeniden kurulan aktarım rejiminin ilk tam yıl rakamları belli: Kurumun elinde binlerce sözleşme var ve resen incelemeler başladı. Zor kısım hiçbir zaman beş iş günlük bildirim değildi; asıl mesele o bildirimlerin oluşturduğu sicil.
 
 7499 sayılı Kanun, 9. maddeyi 2024'te yeniden yazdı. Yeterlilik kararı bulunmayan hallerde 9. maddenin dördüncü fıkrasının (c) bendi, rakamlara bakılırsa ekiplerin fiilen kullandığı yolu açıyor: Kurulun standart sözleşmeleri. Metin değiştirilmeden imzalanır; imzaların tamamlanmasından itibaren beş iş günü içinde Kuruma bildirilir; Ekim 2024'ten beri bildirim Kurumun çevrimiçi modülü üzerinden de yapılabiliyor. Bildirimi atlamanın idari para cezası 2024 metninde 50.000 ile 1.000.000 lira arasında ve ceza veri sorumlusunun yanı sıra veri işleyene de uygulanabiliyor.
 Aktarım analizinin kendisi
@@ -2665,10 +3030,12 @@ Kurum, yeni rejimin yedi ay işlediği 2024'te 1.345 bildirim saydı; aynı yıl
 
 Bir hukuk ekibinden görmek istediğim dosya kısa. Her tedarikçiyi ve dayandığı aktarım mekanizmasını gösteren bir envanter. Bir imza günlüğü; çünkü beş iş günlük süre sizin imzanızdan değil, son imzadan işliyor. Bildirim alındısı. Ve taraflar ya da veri kapsamı değiştiğinde düşülen bir değişiklik notu; böylece dosyadaki sözleşmenin fiilen yürüyen aktarımı artık anlatmadığını, başkası fark etmeden önce ekip görür.
 
-İki yılın sonunda örüntü, başka bildirim rejimlerinden tanıdık: yükümlülük, Kurum kendi sicilini okumaya başlayana kadar kırtasiye işi gibi görünür. Bildirimlerinizin bu okumaya dayanıp dayanamayacağını sakin bir haftada sormak, cevabı bir inceleme sırasında öğrenmekten iyidir.
+İki yılın sonunda örüntü, başka bildirim rejimlerinden tanıdık geliyor: yükümlülük, Kurum kendi sicilini okumaya başlayana kadar kırtasiye işi gibi görünür. Bildirimlerinizin bu okumaya dayanıp dayanamayacağını sakin bir haftada sormak, cevabı bir inceleme sırasında öğrenmekten iyidir.
 
 Yayım
 29 Temmuz 2026
+· Son güncelleme
+30 Temmuz 2026
 
 Kaynaklar
 
@@ -2733,20 +3100,22 @@ Kurulan iş akışı hukuk ekibine, satın alınanın veremeyeceği üç şey ve
 
 Bu ay yayımlanan
 Hukukta yapay zeka: geliştirmek mi, satın almak mı, uyarlamak mı?
-hangi yolun hangi işe uyduğuna karar veriyor. Bu yazı o kararın sonrasına bakıyor, çünkü kazanç orada. Bir hukuk ekibi için iş akışı kurduğumda ilk çizdiğimiz şey otomasyon olmuyor; ekibin kendi günü oluyor: dosya nereden geliyor, ilk kim okuyor, iş nerede ve kimi bekliyor. Satın alınan ürün bu sorulara başkasının cevabını getirir. Kendi kurduğunuz ajan iş akışı sizinkini getirir; ilk kazanç budur: ekipte hiçbir şeyin eğilip bükülmesi gerekmez.
+hangi yolun hangi işe uyduğuna karar veriyor. Bu yazı o kararın sonrasına bakıyor, çünkü kazanç orada. Bir hukuk ekibi için iş akışı kurduğumda ilk çizdiğimiz şey otomasyon olmuyor; ekibin kendi günü oluyor: dosya nereden geliyor, ilk kim okuyor, iş nerede ve kimi bekliyor. Satın alınan ürün bu sorulara başkasının cevabını getirir. Kendi kurduğunuz ajan iş akışı sizinkini getirir; ilk kazanç budur: ekip kendi düzenini bozmak zorunda kalmaz.
 
 İkinci kazanç, gözle görülür kontrol. Tuvalde ajanın tuttuğu her araç, okuyabildiği her kaynak, yazabildiği her yer; bir hukukçunun işaret edip sorgulayabileceği ve kaldırabileceği çizili bir bağlantıdır. Meta'nın Agents Rule of Two yaklaşımı, Simon Willison'ın lethal trifecta adını verdiği üç riskli özellikten bir ajana tek oturumda en çok ikisini tanır; bu sınır iş akışı olarak çizildiğinde tedarikçi güvencesi olmaktan çıkar, hukuk direktörünün okuyabildiği bir resme dönüşür. Güvenlik incelemesi bir anketten,
 kendi koyduğunuz bir görev tanımına
 döner.
 
-Şirket içi ekipte kazanç üç yerde görünür. Saatlerde: rutin talep karşılama ve ilk inceleme, insanın imza attığı kapıya kadar kendi kendine yürür. Mülkiyette: çalıştırma geçmişi sizin çevrenizde kalır; denetçiye ya da yönetim kuruluna kimseden izin istemeden gösterebileceğiniz bir kayıttır. Değişim hızında: bir aşama tedarikçinin sürüm takviminde değil, bir günde yeniden çizilir. Hukuk bürosu buna bir dördüncüsünü ekler: her çalışma grubu kendi inceleme derinliğine göre biçilmiş bir akış kurar ve aynı kayıtlar, ortakların saatleri savunmak yerine işi fiyatlamasını sağlar.
+Şirket içi ekipte kazanç üç yerde görünür. Saatlerde: rutin talep karşılama ve ilk inceleme, insanın imza attığı kapıya kadar kendi kendine yürür. Muhafazada: çalıştırma geçmişi sizin çevrenizde kalır; denetçiye ya da yönetim kuruluna kimseden izin istemeden gösterebileceğiniz bir kayıttır. Değişim hızında: bir aşama tedarikçinin sürüm takviminde değil, bir günde yeniden çizilir. Hukuk bürosu buna bir dördüncüsünü ekler: her çalışma grubu kendi inceleme derinliğine göre biçilmiş bir akış kurar ve aynı kayıtlar, ortakların saatleri savunmak yerine işi fiyatlamasını sağlar.
 
 Hiçbiri bedava değil. Kurulan iş akışı sahiplidir ve sahiplik bakım demektir: her model, istem ya da bağlantı değişikliği
 bir değişiklik kapısından
-geçer; iş akışı tanımı, çıkışta yanınıza alacağınız varlıklar listesine girer. Yolun dürüst sınavı da budur: tuvale sahip olmaktan en çok kazananlar, disipline de sahip çıkmaya hazır ekiplerdir. Bir ekibin bu çizginin hangi tarafında durduğu, pilottan önce bir konuşmayı hak eder.
+geçer; iş akışı tanımı, çıkışta yanınıza alacağınız varlıklar listesine girer. Yolun dürüst sınavı da budur: tuvale sahip olmaktan en çok kazananlar, disipline de sahip çıkmaya hazır ekiplerdir. Bir ekibin bu çizginin hangi tarafında durduğu, pilottan önce konuşulmayı hak eder.
 
 Yayım
 28 Temmuz 2026
+· Son güncelleme
+30 Temmuz 2026
 
 Kaynaklar
 
@@ -2781,42 +3150,81 @@ lexsas
 ## Yazı: Pazaryeri uyum operasyonu: tek bildirim kuyruğu, en sıkı süreye ayarlı  <https://lexsas.com/tr/yazilar/pazaryeri-uyum-operasyonu.html>
 ============================================================
 
+İçeriğe atla
+
+lexsas
+
+Çalışma alanları
+
+Yaklaşım
+
+Hakkımda
+
+Yazılar
+
+İletişim
+
+EN
+
 Temmuz 2026 · Pazaryeri operasyonu
 
 Pazaryeri uyum operasyonu: tek bildirim kuyruğu, en sıkı süreye ayarlı
 
-Yayımdan kaldırma talebi cuma günü 17.40'ta, Türkçe olarak, ortak bir destek kutusuna düşüyor. Pazartesiye kadar kimse açmıyor; açıldığında kırk sekiz saat çoktan dolmuş oluyor. Pazaryeri düzenlemeleri bir yükümlülük haritası olmaktan çıkalı çok oldu. Artık soru şu: hangi iş akışları sizde ve nöbet kimde?
+Yayımdan kaldırma talebi cuma günü 17.40'ta, Türkçe olarak, ortak bir destek kutusuna düşüyor. Pazartesiye kadar kimse açmıyor; açıldığında kırk sekiz saat çoktan dolmuş oluyor. Bir yükümlülük haritası neyi borçlandığınızı söyler,
+bu sitede de böyle bir harita savunuluyor
+. Nöbette kimin olduğunu söylemez. Artık soru şu: hangi iş akışları sizde ve nöbet kimde?
 
 Süreyi Türkiye belirliyor. 6563 sayılı Kanuna dayanılarak çıkarılan ve 29 Aralık 2022'de yayımlanan Elektronik Ticaret Aracı Hizmet Sağlayıcı ve Elektronik Ticaret Hizmet Sağlayıcıları Hakkında Yönetmeliğe göre aracı hizmet sağlayıcı, içeriğin hukuka aykırı olduğundan haberdar olduğunda kırk sekiz saati geçmemek üzere gecikmeksizin içeriği yayımdan kaldırıyor ve durumu gerekçesiyle birlikte hem satıcıya hem ilgili kamu kurumuna bildiriyor (m. 10/2). Fikri ve sınai mülkiyet hakkı ihlaline dayanan şikâyet de aynı kırk sekiz saatte işliyor; satıcıya yapılan bildirimde itiraz yöntemlerinin gösterilmesi gerekiyor (m. 12/3). İtirazın haklılığı sunulan belgelerden açıkça anlaşılıyorsa ürün en geç yirmi dört saat içinde yeniden yayımlanıyor (m. 14/1). Ekipleri asıl zorlayan hüküm m. 10/3: haberdar olma karineye bağlanmış. Bakanlık bildirimi ya da kendisine bildirilen bir yargı kararı, kimse e-postayı açmasa da süreyi başlatıyor.
 
-Dijital Hizmetler Yasası ise saati değil, kararın biçimini belirliyor. Barındırma hizmeti sağlayıcıları uyguladıkları her kısıtlama için gerekçe bildirimi vermek zorunda (m. 17/1). Çevrimiçi platform sağlayıcıları, karardan sonra en az altı ay açık kalan bir iç şikâyet inceleme sistemi işletmek zorunda (m. 20/1); şikâyet üzerine verilen karar ise yalnızca otomatik yöntemlerle değil, yeterli nitelikteki personelin gözetiminde alınmak zorunda (m. 20/6). Bu platform yükümlülükleri, platform çok büyük çevrimiçi platform olarak belirlenmiş değilse mikro ve küçük işletmeleri kapsam dışında bırakıyor (m. 19 ve m. 33); gerekçe bildiriminde ise böyle bir istisna yok. Üstelik m. 24/5 uyarınca bu gerekçe bildirimlerinin tamamı Komisyonun kamuya açık, makine tarafından okunabilir veri tabanına gidiyor.
+Dijital Hizmetler Yasası ise saati değil, kararın biçimini belirliyor. Barındırma hizmeti sağlayıcıları, bir içeriği hukuka aykırı olduğu ya da şartlarına aykırı düştüğü gerekçesiyle kısıtladıklarında gerekçe bildirimi vermek zorunda (m. 17/1). Çevrimiçi platform sağlayıcıları, karardan sonra en az altı ay açık kalan bir iç şikâyet inceleme sistemi işletmek zorunda (m. 20/1); şikâyet üzerine verilen karar ise yalnızca otomatik yöntemlerle değil, yeterli nitelikteki personelin gözetiminde alınmak zorunda (m. 20/6). Bu platform yükümlülükleri, platform çok büyük çevrimiçi platform olarak belirlenmiş değilse mikro ve küçük işletmeleri kapsam dışında bırakıyor (m. 19 ve m. 33); gerekçe bildiriminde ise böyle bir istisna yok. Salt barındırma hizmeti değil de çevrimiçi platform iseniz, m. 24/5 bu gerekçe bildirimlerini Komisyonun kamuya açık, makine tarafından okunabilir veri tabanına gönderiyor; çok büyük olarak belirlenmemiş mikro ve küçük işletmeler bunun dışında.
 
-Bu yüzden tek bir kuyruk kurun ve faaliyet gösterdiğiniz ülkeler içindeki en sıkı süreye ayarlayın. İtiraz açık: bu, diğer bütün pazarları Türkiye'deki süreye bağlar. Bağlıyor, doğru. Yine de iki ayrı kuyruktan ucuza geliyor; çünkü pahalı olan kısım sayaç değil, gerekçe sınıflandırması ve m. 24/5 sizinkini yayımlıyor. Gerekçe kodlarını bir hukuki dayanağa bağlayın; serbest metin kararın kendisi değil, eki olsun. Başvurunun alınmasını, mükerrer kayıtların ayıklanmasını, delil derlemesini ve süre takibini otomatikleştirin. Kararı otomatikleştirmeyin.
+Bu yüzden tek bir kuyruk kurun ve faaliyet gösterdiğiniz ülkeler içindeki en sıkı süreye ayarlayın. Akla gelen itiraz şu: bu, diğer bütün pazarları Türkiye'deki süreye bağlar. Doğru, bağlıyor. Yine de iki ayrı kuyruktan ucuza geliyor; çünkü pahalı olan kısım sayaç değil, gerekçe sınıflandırması ve m. 24/5 sizinkini yayımlıyor. Gerekçe kodlarını bir hukuki dayanağa bağlayın; serbest metin kararın kendisi değil, eki olsun. Başvurunun alınmasını, mükerrer kayıtların ayıklanmasını, delil derlemesini ve süre takibini otomatikleştirin. Kararı otomatikleştirmeyin.
 
-Satıcı kapısı da aynı mantıkla kurulur. Tüzüğün 30/2 maddesi, satıcıya ait bilgilerin güvenilir ve eksiksiz olup olmadığının değerlendirilmesi için azami gayret gösterilmesini istiyor. Bu yükümlülük, tüketicilerin satıcılarla mesafeli sözleşme kurmasına imkân veren platformları bağlıyor ve platform çok büyük olarak belirlenmiş değilse mikro ve küçük işletmeleri kapsam dışında bırakıyor (m. 29). Freshfields'in vurgusu yerinde: savunulabilir olan şey, azami gayretle neyin kastedildiğinin yazılı kaydı. Türkiye çizgiyi daha keskin çekiyor. Aracı hizmet sağlayıcı, satıcının tanıtıcı bilgilerini ilgili kurumların erişime açık elektronik sistemlerinden, bu mümkün değilse satıcıdan aldığı belgeler üzerinden doğruluyor; doğrulamadığı satıcıya aracılık hizmeti sunamıyor; her takvim yılının ilk üç ayında bu bilgilerin doğruluğunu yeniden kontrol ediyor ve güncel değilse en fazla üç iş günü süre veriyor (m. 6/3). Yani bu kapı, satıcı kaydında bir kez işaretlenen kutu değil; takvimde tarihi olan yıllık bir iş.
+Satıcı kapısı da aynı mantıkla kurulur. Tüzüğün 30/2 maddesi, satıcıya ait bilgilerin güvenilir ve eksiksiz olup olmadığının değerlendirilmesi için azami gayret gösterilmesini istiyor. Bu yükümlülük, tüketicilerin satıcılarla mesafeli sözleşme kurmasına imkân veren platformları bağlıyor ve platform çok büyük olarak belirlenmiş değilse mikro ve küçük işletmeleri kapsam dışında bırakıyor (m. 29). Freshfields'in vurgusu yerinde: savunulabilir olan, azami gayret kapsamında fiilen ne yaptığınızın yazılı kaydıdır. Türkiye sınırı daha net çiziyor. Aracı hizmet sağlayıcı, satıcının tanıtıcı bilgilerini ilgili kurumların erişime açık elektronik sistemlerinden, bu mümkün değilse satıcıdan aldığı belgeler üzerinden doğruluyor; doğrulamadığı satıcıya aracılık hizmeti sunamıyor; her takvim yılının ilk üç ayında bu bilgilerin doğruluğunu yeniden kontrol ediyor ve güncel değilse en fazla üç iş günü süre veriyor (m. 6/3). Yani bu kapı, satıcı kaydında bir kez işaretlenen kutu değil; takvimde tarihi olan yıllık bir iş.
 
-Kanıtın geldiği yer de burası. Komisyon 28 Mayıs 2026'da Temu'ya 200 milyon euro ceza keserken, risk değerlendirmesinin kendi hizmetine ilişkin somut kanıta değil, e-ticaret sektörüne dair genel bilgiye dayandığını tespit etti. Bu sistemik risk yükümlülüğü çok büyük olarak belirlenen platformları bağlıyor; kendi hizmetine dair kanıt tutma alışkanlığının ise böyle bir belirlemeyi beklemesi gerekmiyor. Sıralama parametreleri de aynı disiplini istiyor: tarihli bir değişiklik kaydı ve adı belli bir sahip. Bunların hiçbiri politika sorusu değil. Bir nöbet listesi, bir sınıflandırma ve takvime düşülmüş bir kayıt; üçünün de elinizde olup olmadığını cuma akşamı gelen bildirimde öğreniyorsunuz.
+Kanıtın geldiği yer de burası. Komisyon 28 Mayıs 2026'da Temu'ya 200 milyon euro ceza keserken, risk değerlendirmesinin kendi hizmetine ilişkin somut kanıta değil, e-ticaret sektörüne dair genel bilgiye dayandığını tespit etti. Bu sistemik risk yükümlülüğü çok büyük olarak belirlenen platformları bağlıyor; kendi hizmetine dair kanıt tutma alışkanlığının ise böyle bir belirlemeyi beklemesi gerekmiyor. Sıralama parametreleri de aynı disiplini istiyor;
+bunlara dair sorular
+başlı başına bir konu, burada yalnız artefakt önemli: tarihli bir değişiklik kaydı ve adı belli bir sahip. Bunların hiçbiri politika sorusu değil. Bir nöbet listesi, bir sınıflandırma ve takvime düşülmüş bir kayıt; üçünün de elinizde olup olmadığını cuma akşamı gelen bildirimde öğreniyorsunuz.
 
 Yayım
 27 Temmuz 2026
+· Son güncelleme
+30 Temmuz 2026
 
 Kaynaklar
 
-Elektronik Ticaret Aracı Hizmet Sağlayıcı ve Elektronik Ticaret Hizmet Sağlayıcıları Hakkında Yönetmelik, 29 Aralık 2022 (6563 sayılı Kanuna dayanılarak): m. 6/3 satıcı bilgilerinin doğrulanması, m. 10/2 ve m. 10/3 hukuka aykırı içerik, m. 12/3 şikâyet başvurusu, m. 14/1 yeniden yayımlama  https://www.resmigazete.gov.tr/eskiler/2022/12/20221229-5.htm
+Elektronik Ticaret Aracı Hizmet Sağlayıcı ve Elektronik Ticaret Hizmet Sağlayıcıları Hakkında Yönetmelik, 29 Aralık 2022 (6563 sayılı Kanuna dayanılarak): m. 6/3 satıcı bilgilerinin doğrulanması, m. 10/2 ve m. 10/3 hukuka aykırı içerik, m. 12/3 şikâyet başvurusu, m. 14/1 yeniden yayımlama https://www.resmigazete.gov.tr/eskiler/2022/12/20221229-5.htm
 
-(AB) 2022/2065 sayılı Tüzük (Dijital Hizmetler Yasası), m. 17/1, m. 19, m. 20/1 ve m. 20/6, m. 24/5, m. 29, m. 30/2 ve m. 33  https://eur-lex.europa.eu/eli/reg/2022/2065/oj
+(AB) 2022/2065 sayılı Tüzük (Dijital Hizmetler Yasası), m. 17/1, m. 19, m. 20/1 ve m. 20/6, m. 24/5, m. 29, m. 30/2 ve m. 33 https://eur-lex.europa.eu/eli/reg/2022/2065/oj
 
-European Commission, DSA Transparency Database: questions and answers  https://digital-strategy.ec.europa.eu/en/faqs/dsa-transparency-database-questions-and-answers
+European Commission, DSA Transparency Database: questions and answers https://digital-strategy.ec.europa.eu/en/faqs/dsa-transparency-database-questions-and-answers
 
-Freshfields, DSA decoded #9: the DSA and online marketplaces, 5 Aralık 2025  https://www.freshfields.com/en/our-thinking/blogs/technology-quotient/dsa-decoded-9-the-dsa-and-online-marketplaces-102lx12
+Freshfields, DSA decoded #9: the DSA and online marketplaces, 5 Aralık 2025 https://www.freshfields.com/en/our-thinking/blogs/technology-quotient/dsa-decoded-9-the-dsa-and-online-marketplaces-102lx12
 
-European Commission, Commission fines Temu 200 million euro for breaching the Digital Services Act, 28 Mayıs 2026  https://digital-strategy.ec.europa.eu/en/news/commission-fines-temu-eu200-million-breaching-digital-services-act
+European Commission, Commission fines Temu 200 million euro for breaching the Digital Services Act, 28 Mayıs 2026 https://digital-strategy.ec.europa.eu/en/news/commission-fines-temu-eu200-million-breaching-digital-services-act
 
 Sonraki yazı: Pazaryeri sıralaması ve algoritmik hesap verebilirlik: hukuk liderinin soruları →
 
 ← Tüm yazılar
 
 İletişime geç →
+
+Bu sitedeki içerik yalnızca genel bilgilendirme amaçlıdır ve hukuki tavsiye niteliği taşımaz. Sitenin kullanımı avukat-müvekkil ilişkisi doğurmaz. Buradaki görüşler kişiseldir ve mevcut ya da geçmiş hiçbir işvereni bağlamaz.
+
+© 2026 LEXSAS · İstanbul
+
+Yazılar
+
+Hakkımda
+
+İletişim
+
+LinkedIn
+
+Başa dön
+
+lexsas
+
 
 ============================================================
 ## Yazı: Hukuki iş akışlarında prompt injection: filtre bir kontrol değildir  <https://lexsas.com/tr/yazilar/hukuki-is-akislarinda-prompt-injection.html>
@@ -2846,7 +3254,7 @@ Hukuk liderinin gerçekten cevaplayabileceği soru, tedarikçinin kötü niyetli
 
 Sözleşme inceleyen bir ajana karşı tarafın revize taslağı veriliyor. İşlem dosyası ajana açık, çünkü amacı bu; e-posta gönderebiliyor, çünkü ekip pilotta bunu istedi. Belgenin bir yerinde, beyaz yazıyla ya da bir görsel açıklamasında, hukukçuya değil makineye seslenen bir satır duruyor. Ajan o satırı uyguluyor: girdisinde, talimatı okuması istenen metinden ayıran hiçbir şey yok.
 
-Bu artık bir gösteri değil. Palo Alto Networks'ün Unit 42 ekibi Mart 2026'da, geniş ölçekli telemetriye dayanarak, dolaylı prompt injection'ın fiilen kullanılır hâle geldiğini bildirdi: sistem isteminin dışarı çıkarılmasından yetkisiz işlemlere kadar. Örüntünün bir de CVE kaydı var: CVE-2025-32711, Microsoft 365 Copilot'ta yetkisiz bir saldırganın ağ üzerinden bilgi açığa çıkarmasına imkân veren bir yapay zeka komut enjeksiyonu.
+Bu artık laboratuvar denemesi değil. Palo Alto Networks'ün Unit 42 ekibi Mart 2026'da, geniş ölçekli telemetriye dayanarak, dolaylı prompt injection'ın fiilen kullanılır hâle geldiğini bildirdi: sistem isteminin dışarı çıkarılmasından yetkisiz işlemlere kadar. Örüntünün bir de CVE kaydı var: CVE-2025-32711, Microsoft 365 Copilot'ta yetkisiz bir saldırganın ağ üzerinden bilgi açığa çıkarmasına imkân veren bir yapay zeka komut enjeksiyonu.
 
 İlk refleks, tedarikçiye filtrelerini sormak. Meta'nın 31 Ekim 2025'te yayımladığı Agents Rule of Two ise işe bunu kabul ederek başlıyor: prompt injection henüz güvenilir biçimde tespit edilip reddedilemiyor. Bu nedenle bir ajana tek oturumda üç özellikten en çok ikisini tanıyor: güvenilmeyen girdi işlemek, hassas sistemlere veya özel veriye erişmek, durumu değiştirmek ya da dışarıyla iletişim kurmak. Simon Willison aynı bileşimi Haziran 2025'te lethal trifecta diye adlandırmıştı. Filtre bir azaltıcı önlemdir. Kontrol, yetki kümesidir.
 
@@ -2858,6 +3266,8 @@ sormuştum. Bu, o sorunun hukuk liderinin önceden cevaplayabildiği yarısı. O
 
 Yayım
 27 Temmuz 2026
+· Son güncelleme
+30 Temmuz 2026
 
 Kaynaklar
 
@@ -2900,6 +3310,22 @@ lexsas
 ## Yazı: Canlı bir yapay zeka iş akışını değerlendirmek: değişiklik kapısı  <https://lexsas.com/tr/yazilar/hukuki-yapay-zeka-is-akislarini-degerlendirmek.html>
 ============================================================
 
+İçeriğe atla
+
+lexsas
+
+Çalışma alanları
+
+Yaklaşım
+
+Hakkımda
+
+Yazılar
+
+İletişim
+
+EN
+
 Temmuz 2026 · Hukuk operasyonları
 
 Canlı bir yapay zeka iş akışını değerlendirmek: değişiklik kapısı
@@ -2910,26 +3336,28 @@ Bu sitede bu ay yayımlanan
 Hukuki iş akışı otomasyonu pilotlarını ölçmek
 tek bir soruyu bir kez yanıtlıyor: bu iş işe yaradı mı. Mevcut durumun ölçümü, her hata sınıfı için tolerans, baştan yazılmış bir durdur ya da ölçekle eşiği. O yazı, işin devreye alındığı yerde duruyor. Canlı bir iş akışı ise birkaç haftada bir başka soru sorar: bu hâlâ onayladığımız iş akışı mı. Aradaki boşluğa kimsenin duyurmadığı her model sürümü, her istem düzenlemesi, her bilgi getirme kaynağı güncellemesi ve her entegrasyon yükseltmesi giriyor.
 
-Zemin kendiliğinden kayıyor. Lingjiao Chen, Matei Zaharia ve James Zou, GPT-4'ün Mart 2023 ve Haziran 2023 sürümlerini karşılaştırdı: asal sayıyı bileşik sayıdan ayırma işinde doğruluk yüzde 84'ten yüzde 51'e indi. Hizmetin adı ise hiç değişmedi.
+Altınızdaki model, siz fark etmeden değişiyor. Lingjiao Chen, Matei Zaharia ve James Zou, GPT-4'ün Mart 2023 ve Haziran 2023 sürümlerini karşılaştırdı: asal sayıyı bileşik sayıdan ayırma işinde doğruluk yüzde 84'ten yüzde 51'e indi. Hizmetin adı ise hiç değişmedi.
 
 Bu yüzden kapıyı iş akışına değil, değişikliğe kurun. Kendi dosyalarınızdan bir referans küme oluşturun; doğru yanıtı, o işi zaten yapacak olan hukukçu kaydetsin. Andrew Ng haklı: zamanla büyüyen beş örnek, hiç devreye giremeyen eksiksiz bir kümeden iyidir. Kümeyi her model, istem, bilgi getirme veya entegrasyon değişikliğinde çalıştırın ve durdurma yetkisi tanıyın: pilotta tanımladığınız kritik hata sınıfında en ufak bir kayma varsa değişiklik yayına çıkmaz. Devreye aldıktan sonra örneklem de alın, çünkü kapı yalnızca kümedeki durumları görür. Adı belli tek bir hukukçu, sabit sayıda canlı çıktı, her hafta.
 
-Tartışılmaya değer iki görüş. Üç aydır yüzde 100 geçen bir küme güvenli bir iş akışının değil, bayatlamış bir kümenin işaretidir; örneklemin bulduğu hataları o kümeye ekleyin. İkincisi, tedarikçinin kendi değerlendirmesi kapı yerine geçmez: ticari hukuki araştırma araçları üzerine yapılan ilk ön kayıtlı çalışma, o dönemde piyasada olan LexisNexis ve Thomson Reuters araçlarının yüzde 17 ile yüzde 33 arasında halüsinasyon ürettiğini buldu; sağlayıcıların iddialarını da abartılı buldu (Magesh, Surani, Dahl, Suzgun, Manning ve Ho, Journal of Empirical Legal Studies, 2025).
+Tartışılmaya değer iki görüş var. Birincisi: üç aydır yüzde 100 geçen bir küme güvenli bir iş akışının değil, bayatlamış bir kümenin işaretidir; örneklemin bulduğu hataları o kümeye ekleyin. İkincisi, tedarikçinin kendi değerlendirmesi kapı yerine geçmez: ticari hukuki araştırma araçları üzerine yapılan ilk ön kayıtlı çalışma, o dönemde piyasada olan LexisNexis ve Thomson Reuters araçlarının yüzde 17 ile yüzde 33 arasında halüsinasyon ürettiğini buldu; sağlayıcıların iddialarını da abartılı buldu (Magesh, Surani, Dahl, Suzgun, Manning ve Ho, Journal of Empirical Legal Studies, 2025).
 
 Bunların hiçbiri yeni bir mühendislik buluşu değil. Gönüllü NIST Yapay Zeka Risk Yönetimi Çerçevesi, değişiklik yönetimini zaten devreye alma sonrası izleme başlığının, MANAGE 4.1'in içine koyuyor. Hukuk ekiplerinde eksik olan kavram değil, sahip: değişikliğin imzasını beklediği bir kişi ve o değişikliği geçiren kümenin sürüm numarası.
 
 Yayım
 27 Temmuz 2026
+· Son güncelleme
+30 Temmuz 2026
 
 Kaynaklar
 
-Lingjiao Chen, Matei Zaharia ve James Zou, How Is ChatGPT's Behavior Changing over Time?, arXiv, Ekim 2023'te güncellendi  https://arxiv.org/abs/2307.09009
+Lingjiao Chen, Matei Zaharia ve James Zou, How Is ChatGPT's Behavior Changing over Time?, arXiv, Ekim 2023'te güncellendi https://arxiv.org/abs/2307.09009
 
-Andrew Ng, The Batch, sayı 297, DeepLearning.AI, 16 Nisan 2025; değerlendirme kümesine yaklaşık beş örnekle başlamak üzerine  https://www.deeplearning.ai/the-batch/issue-297/
+Andrew Ng, The Batch, sayı 297, DeepLearning.AI, 16 Nisan 2025; değerlendirme kümesine yaklaşık beş örnekle başlamak üzerine https://www.deeplearning.ai/the-batch/issue-297/
 
-Magesh, Surani, Dahl, Suzgun, Manning ve Ho, Hallucination-Free? Assessing the Reliability of Leading AI Legal Research Tools, Journal of Empirical Legal Studies, 2025  https://dho.stanford.edu/wp-content/uploads/Legal_RAG_Hallucinations.pdf
+Magesh, Surani, Dahl, Suzgun, Manning ve Ho, Hallucination-Free? Assessing the Reliability of Leading AI Legal Research Tools, Journal of Empirical Legal Studies, 2025 https://dho.stanford.edu/wp-content/uploads/Legal_RAG_Hallucinations.pdf
 
-NIST, Yapay Zeka Risk Yönetimi Çerçevesi Uygulama Rehberi, devreye alma sonrası izleme planlarına ilişkin MANAGE 4.1  https://airc.nist.gov/AI_RMF_Knowledge_Base/Playbook/Manage
+NIST, Yapay Zeka Risk Yönetimi Çerçevesi Uygulama Rehberi, devreye alma sonrası izleme planlarına ilişkin MANAGE 4.1 https://airc.nist.gov/AI_RMF_Knowledge_Base/Playbook/Manage
 
 Sonraki yazı: Şirket içi hukuk ekipleri için yapay zeka yönetişimi: beş asgari kontrol →
 
@@ -2937,9 +3365,42 @@ Sonraki yazı: Şirket içi hukuk ekipleri için yapay zeka yönetişimi: beş a
 
 İletişime geç →
 
+Bu sitedeki içerik yalnızca genel bilgilendirme amaçlıdır ve hukuki tavsiye niteliği taşımaz. Sitenin kullanımı avukat-müvekkil ilişkisi doğurmaz. Buradaki görüşler kişiseldir ve mevcut ya da geçmiş hiçbir işvereni bağlamaz.
+
+© 2026 LEXSAS · İstanbul
+
+Yazılar
+
+Hakkımda
+
+İletişim
+
+LinkedIn
+
+Başa dön
+
+lexsas
+
+
 ============================================================
 ## Yazı: İş akışı otomasyonunda tedarikçi bağımlılığı: ne dışa aktarılır, ne yeniden kurulur  <https://lexsas.com/tr/yazilar/is-akisi-otomasyonunda-tedarikci-bagimliligi.html>
 ============================================================
+
+İçeriğe atla
+
+lexsas
+
+Çalışma alanları
+
+Yaklaşım
+
+Hakkımda
+
+Yazılar
+
+İletişim
+
+EN
 
 Temmuz 2026 · Hukuk operasyonları
 
@@ -2951,22 +3412,24 @@ Sözleşme taleplerini sınıflandıran pilot akış bir çeyrektir çalışıyo
 Hukuk ekipleri için yapay zeka tedarikçi inceleme listesi
 , çıkış ve veri iadesiyle kapanıyor: sözleşme bittiğinde verileriniz hangi biçimde geri geliyor. 12 Eylül 2025'ten bu yana bu soru fazla dar kalıyor.
 
-AB Veri Tüzüğü, yani (AB) 2023/2854 sayılı Tüzük, o tarihten itibaren veri işleme hizmeti sağlayıcılarına uygulanıyor; 81 numaralı gerekçe bu kavramı IaaS, PaaS ve SaaS'ı birlikte kapsayacak biçimde okuyor. Madde 25 çıkışı sözleşmenin içine taşıyor: en çok iki aylık bildirim süresi, sağlayıcı teknik imkânsızlığı ispatlamadıkça en çok 30 takvim günlük geçiş süresi, verileri geri almak için en az 30 gün daha ve taşınabilecek her veri ile dijital varlık kategorisinin eksiksiz dökümü. Geçiş ücretleri 12 Ocak 2027'de tamamen kalkıyor (Madde 29). Bu yükümlülükler, Birlik'teki müşterilere hizmet veren sağlayıcıları bağlıyor (Madde 1(3)(f)); dışarıda aynı maddeler hak değil, pazarlık konusu.
+AB Veri Tüzüğü, yani (AB) 2023/2854 sayılı Tüzük, o tarihten itibaren veri işleme hizmeti sağlayıcılarına uygulanıyor; 81 numaralı gerekçe bu kavramı IaaS, PaaS ve SaaS'ı birlikte kapsayacak biçimde okuyor. Madde 25 çıkışı sözleşmenin içine taşıyor: en çok iki aylık bildirim süresi, en çok 30 takvim günlük geçiş süresi ve bu teknik olarak mümkün değilse 14 iş günü içinde gerekçeli bildirim ile yedi ayı aşamayacak bir alternatif süre, verileri geri almak için en az 30 gün daha ve taşınabilecek her veri ile dijital varlık kategorisinin eksiksiz dökümü. Geçiş ücretleri 12 Ocak 2027'de tamamen kalkıyor (Madde 29). Bu yükümlülükler, Birlik'teki müşterilere hizmet veren sağlayıcıları bağlıyor (Madde 1(3)(f)); dışarıda aynı maddeler hak değil, pazarlık konusu.
 
-Sınır ise asıl mesele. İşlevsel eşdeğerlik, yani geçişten sonra asgari bir işlevsellik düzeyinin yeniden kurulması, sadece altyapı sağlayıcılarının yükümlülüğü (Madde 30(1)). Bir iş akışı platformunun borcu, açık arayüzler ve, kendi hizmet türü için birlikte çalışabilirlik standartları yayımlanmadığı sürece, talep hâlinde dışa aktarılabilir verinin yapılandırılmış, yaygın kullanılan ve makine tarafından okunabilir bir biçimde verilmesidir (Madde 30(2) ve (5)). Dışa aktarılabilir veri, sağlayıcının fikri mülkiyet hakları ve ticari sırlarının başladığı yerde biter (Madde 2(38)); bir dijital varlık ise ancak terk ettiğiniz sözleşmeden bağımsız olarak kullanma hakkınız varsa taşınır (Madde 2(32)). İş akışı tanımları, istem ve politika varlıkları, değerlendirme setleri, konnektör eşlemeleri ve çalıştırma kayıtları, belgelerinizle aynı varlık sınıfında değil. Komisyonun bağlayıcı olmayan Veri Tüzüğü SSS metni, 22 Ocak 2026 tarihli 1.4 sürümü, 58b numaralı soruda bunu açıkça söylüyor: hiçbir kaynak sağlayıcı, hizmetinizi yeni ortamda yeniden kurmanıza yardım etmekle yükümlü değil.
+Bu sınırı bilmek, provanın kendisi kadar önemli. İşlevsel eşdeğerliği, yani geçişten sonra asgari bir işlevsellik düzeyinin yeniden kurulmasını, yalnız altyapı sağlayıcıları kolaylaştırmak için makul tedbirleri almakla yükümlü; o da iki hizmetin ortak sunduğu özellikler bakımından (Madde 30(1), gerekçe 86). Bir iş akışı platformunun borcu, açık arayüzler ve, kendi hizmet türü için birlikte çalışabilirlik standartları yayımlanmadığı sürece, talep hâlinde dışa aktarılabilir verinin yapılandırılmış, yaygın kullanılan ve makine tarafından okunabilir bir biçimde verilmesidir (Madde 30(2) ve (5)). Dışa aktarılabilir veri, sağlayıcının fikri mülkiyet hakları ve ticari sırlarının başladığı yerde biter (Madde 2(38)); bir dijital varlık ise ancak terk ettiğiniz sözleşmeden bağımsız olarak kullanma hakkınız varsa taşınır (Madde 2(32)). İş akışı tanımları, istem ve politika varlıkları, değerlendirme setleri, konnektör eşlemeleri ve çalıştırma kayıtları, belgelerinizle aynı varlık sınıfında değil. Komisyonun bağlayıcı olmayan Veri Tüzüğü SSS metni, 22 Ocak 2026 tarihli 1.4 sürümü, 58b numaralı soruda bunu açıkça söylüyor: hiçbir kaynak sağlayıcı, hizmetinizi yeni ortamda yeniden kurmanıza yardım etmekle yükümlü değil.
 
-O hâlde çıkışı bir kez prova edin: canlı tek bir akış üzerinde, platform henüz taşıyıcı hâle gelmeden. Sözleşmenin vaat ettiği çıktıyı alın, akışı tedarikçinin desteği olmadan başka bir yerde ayağa kaldırın ve elle yeniden kurmak zorunda kaldığınız her şeyi kaydedin. Yaygınlaştırma kararının ihtiyaç duyduğu sayı, demo değil, o kayıttır. Madde 25(2)(e) dökümünü imzadan önce isteyin. Sonra Madde 31'i okuyun: ana özelliklerinin çoğu size özel geliştirilmiş ve geniş ticari ölçekte satılmayan bir platform, bu yükümlülüklerin bir kısmının dışında kalır; geçiş ücretlerinin kalkması da bunlara dahil.
+O hâlde çıkışı bir kez prova edin: canlı tek bir akış üzerinde, platform vazgeçilmez hâle gelmeden. Sözleşmenin vaat ettiği çıktıyı alın, akışı tedarikçinin desteği olmadan başka bir yerde ayağa kaldırın ve elle yeniden kurmak zorunda kaldığınız her şeyi kaydedin. Yaygınlaştırma kararını o kayıtla verin; demo toplantı odasında kalsın. Madde 25(2)(e) dökümünü imzadan önce isteyin. Sonra Madde 31'i okuyun: ana özelliklerinin çoğu size özel geliştirilmiş ya da bileşenlerinin tamamı sizin için geliştirilmiş ve geniş ticari ölçekte satılmayan bir platform, bu yükümlülüklerin bir kısmının dışında kalır; geçiş ücretlerinin kalkması da bunlara dahil.
 
-Yayımlandı
+Yayım
 27 Temmuz 2026
+· Son güncelleme
+30 Temmuz 2026
 
 Kaynaklar
 
-EUR-Lex, (AB) 2023/2854 sayılı Tüzük (AB Veri Tüzüğü), Madde 1(3), 2(32), 2(37), 2(38), 25, 29, 30, 31 ve 50 ile 81, 86 ve 92 numaralı gerekçeler  https://eur-lex.europa.eu/eli/reg/2023/2854/oj/eng
+EUR-Lex, (AB) 2023/2854 sayılı Tüzük (AB Veri Tüzüğü), Madde 1(3), 2(32), 2(37), 2(38), 25, 29, 30, 31 ve 50 ile 81, 86 ve 92 numaralı gerekçeler https://eur-lex.europa.eu/eli/reg/2023/2854/oj/eng
 
-Avrupa Komisyonu, Veri Tüzüğü politika sayfası (12 Eylül 2025'te uygulanmaya başlaması)  https://digital-strategy.ec.europa.eu/en/policies/data-act
+Avrupa Komisyonu, Veri Tüzüğü politika sayfası (12 Eylül 2025'te uygulanmaya başlaması) https://digital-strategy.ec.europa.eu/en/policies/data-act
 
-Avrupa Komisyonu, Veri Tüzüğü Sıkça Sorulan Sorular, 1.4 sürümü, 22 Ocak 2026, 53 ve 58b numaralı sorular (bağlayıcı değil)  https://digital-strategy.ec.europa.eu/en/library/commission-publishes-frequently-asked-questions-about-data-act
+Avrupa Komisyonu, Veri Tüzüğü Sıkça Sorulan Sorular, 1.4 sürümü, 22 Ocak 2026, 53 ve 58b numaralı sorular (bağlayıcı değil) https://digital-strategy.ec.europa.eu/en/library/commission-publishes-frequently-asked-questions-about-data-act
 
 Sonraki yazı: Hukuk ekipleri için yapay zeka tedarikçi inceleme listesi →
 
@@ -2974,9 +3437,42 @@ Sonraki yazı: Hukuk ekipleri için yapay zeka tedarikçi inceleme listesi →
 
 İletişime geç →
 
+Bu sitedeki içerik yalnızca genel bilgilendirme amaçlıdır ve hukuki tavsiye niteliği taşımaz. Sitenin kullanımı avukat-müvekkil ilişkisi doğurmaz. Buradaki görüşler kişiseldir ve mevcut ya da geçmiş hiçbir işvereni bağlamaz.
+
+© 2026 LEXSAS · İstanbul
+
+Yazılar
+
+Hakkımda
+
+İletişim
+
+LinkedIn
+
+Başa dön
+
+lexsas
+
+
 ============================================================
 ## Yazı: Yapay zeka kaynaklı atıf hataları: hukuk ekipleri için doğrulama protokolü  <https://lexsas.com/tr/yazilar/yapay-zeka-atif-dogrulama.html>
 ============================================================
+
+İçeriğe atla
+
+lexsas
+
+Çalışma alanları
+
+Yaklaşım
+
+Hakkımda
+
+Yazılar
+
+İletişim
+
+EN
 
 Temmuz 2026 · Hukukta yapay zeka
 
@@ -2986,30 +3482,28 @@ Bağımsız bir veritabanında, 18 Temmuz 2026 itibarıyla mahkemelerin veya di�
 
 Damien Charlotin'in bağımsız, kamuya açık ve güncellenmeye devam eden veritabanı, 18 Temmuz 2026 itibarıyla mahkemelerin ya da diğer yargı mercilerinin üretken yapay zeka halüsinasyonlarını veya bazı kayıtlarda yalnızca ileri sürülen yapay zeka kullanımını ele aldığı dünya genelinde 1.770'ten fazla hukuki vaka tespit etmişti. Proje ilgili yargı kararlarını izliyor; ancak resmî bir mahkeme sicili değil ve bu sayı eksiksiz bir yargı toplamı olarak okunmamalı. Yine de ölçek, operasyonel ihtiyacı açıkça gösteriyor: yapay zeka destekli hukuki metin ekipten çıkmadan önce doğrulama kaydı oluşturulmalı.
 
-Birincil bir karar, bu sorumluluğun nasıl uygulandığını gösteriyor. Dokuzuncu Temyiz Dairesi, 3 Haziran 2026 tarihli
+Birincil kaynaktan bir karar, bu sorumluluğun nasıl uygulandığını gösteriyor. ABD Dokuzuncu Bölge Temyiz Mahkemesi, 3 Haziran 2026 tarihli
 LNU v. Blanche
-kararında iki avukatın daire nezdinde avukatlık yapmasını altı ay süreyle durdurdu, her birine 2.500 dolar yaptırım uyguladı ve iki yıl boyunca gelecekteki başvurularında yapay zeka kullanımına ilişkin beyan ve doğrulama sunmalarını istedi. Mahkeme, ilgili yükümlülüklerin yapay zekanın araştırma veya taslak için kullanıldığı anda değil, denetlenmemiş metin imzalanıp sunulduğunda ihlal edildiğini belirtti.
+kararında iki avukatı bu mahkemede avukatlık yapmaktan altı ay süreyle men etti, her birine 2.500 dolar yaptırım uyguladı ve iki yıl boyunca gelecekteki başvurularında yapay zeka kullanımına ilişkin beyan ve doğrulama sunmalarını istedi. Mahkeme, ilgili yükümlülüklerin yapay zekanın araştırma veya taslak için kullanıldığı anda değil, denetlenmemiş metin imzalanıp sunulduğunda ihlal edildiğini belirtti.
 
 Buradan çıkan sonuç, yapay zekaya karşı genel bir uyarıdan daha dar ve daha kullanışlı. Ekip; hangi kaynağın açıldığını, hangi alıntının karşılaştırıldığını, hangi hukuki önermenin sınandığını ve nihai metnin sorumluluğunu kimin üstlendiğini gösterebilmelidir.
 
-Kullandığım doğrulama protokolünün beş adımı var; ekipten çıkan hiçbir metin için isteğe bağlı değil. Bir, her atfı resmi künye veya veritabanından açın; ilk yapay zekanın verdiği kararın var olup olmadığını asla ikinci bir yapay zekaya sormayın. İki, her alıntıyı karar metniyle kelime kelime karşılaştırın. Üç, önermeyi sınayın: karar, taslakta ileri sürüldüğünü gerçekten söylüyor olmalı. Dört, geçerliliği sınayın: kaynak hâlâ yürürlükteki hukuk olmalı. Beş, metin dışarı çıkmadan önce doğrulama notunu ismi belli bir kişi imzalasın. Aynı beş adım mahkeme dilekçeleriyle sınırlı değil; müvekkil bilgi notları ve danışmanlık metinleri için de geçerli.
+Kullandığım doğrulama protokolünün beş adımı var; ekipten çıkan hiçbir metin için isteğe bağlı değil. Bir, her atfı kararın resmî olarak yayımlandığı kaynaktan veya güvenilir bir hukuk veri tabanından açın; ilk yapay zekanın verdiği kararın var olup olmadığını asla ikinci bir yapay zekaya sormayın. İki, her alıntıyı karar metniyle kelime kelime karşılaştırın. Üç, önermeyi sınayın: karar, taslakta ileri sürüldüğünü gerçekten söylüyor olmalı. Dört, geçerliliği sınayın: dayandığınız karar hâlen geçerliliğini koruyor olmalı. Beş, metin dışarı çıkmadan önce doğrulama notunu ismi belli bir kişi imzalasın. Aynı beş adım mahkeme dilekçeleriyle sınırlı değil; müvekkil bilgi notları ve danışmanlık metinleri için de geçerli.
 
 Şirket içi hukuk ekiplerinin elinde bir kaldıraç daha var: dış avukat. Avukatlık sözleşmesinde büronun yapay zeka destekli atıfları nasıl doğruladığını ve incelemeyi kimin onayladığını belirtin. Türkiye Barolar Birliği'nin Haziran 2026 tarihli rehberi de insan denetimini, çıktının eleştirel biçimde doğrulanmasını, gizliliği ve avukatın nihai mesleki sorumluluğunu vurguluyor. Araç iş akışına destek olabilir; mesleki muhakeme ve nihai sorumluluk insanda kalır.
 
 Yayım
 18 Temmuz 2026
 · Son güncelleme
-27 Temmuz 2026
+30 Temmuz 2026
 
 Kaynaklar
 
-Damien Charlotin, Yapay Zeka Halüsinasyonu Davaları veritabanı, devam eden çalışma, son güncelleme 18 Temmuz 2026  https://www.damiencharlotin.com/hallucinations/
+Damien Charlotin, Yapay Zeka Halüsinasyonu Davaları veritabanı, devam eden çalışma, son güncelleme 18 Temmuz 2026 https://www.damiencharlotin.com/hallucinations/
 
-ABD Dokuzuncu Temyiz Dairesi,
-LNU v. Blanche
-, 3 Haziran 2026  https://cdn.ca9.uscourts.gov/datastore/opinions/2026/06/03/24-4790.pdf
+ABD ABD Dokuzuncu Bölge Temyiz Mahkemesi, LNU v. Blanche, 3 Haziran 2026 https://cdn.ca9.uscourts.gov/datastore/opinions/2026/06/03/24-4790.pdf
 
-Türkiye Barolar Birliği, Yapay Zeka ve Avukatlık Çalıştayı sonuç paneli, 20 Haziran 2026  https://www.barobirlik.org.tr/Haberler/turkiye-barolar-birligi-yapay-zeka-ve-avukatlik-calistayi-sonuc-paneli-gerceklestirildi-86541
+Türkiye Barolar Birliği, Yapay Zeka ve Avukatlık Çalıştayı sonuç paneli, 20 Haziran 2026 https://www.barobirlik.org.tr/Haberler/turkiye-barolar-birligi-yapay-zeka-ve-avukatlik-calistayi-sonuc-paneli-gerceklestirildi-86541
 
 Sonraki yazı: Türkiye'de pazaryeri aracı sorumluluğu: birlikte okunması gereken üç rejim →
 
@@ -3017,9 +3511,42 @@ Sonraki yazı: Türkiye'de pazaryeri aracı sorumluluğu: birlikte okunması ger
 
 İletişime geç →
 
+Bu sitedeki içerik yalnızca genel bilgilendirme amaçlıdır ve hukuki tavsiye niteliği taşımaz. Sitenin kullanımı avukat-müvekkil ilişkisi doğurmaz. Buradaki görüşler kişiseldir ve mevcut ya da geçmiş hiçbir işvereni bağlamaz.
+
+© 2026 LEXSAS · İstanbul
+
+Yazılar
+
+Hakkımda
+
+İletişim
+
+LinkedIn
+
+Başa dön
+
+lexsas
+
+
 ============================================================
 ## Yazı: Türkiye'de pazaryeri aracı sorumluluğu: birlikte okunması gereken üç rejim  <https://lexsas.com/tr/yazilar/pazaryeri-araci-sorumlulugu.html>
 ============================================================
+
+İçeriğe atla
+
+lexsas
+
+Çalışma alanları
+
+Yaklaşım
+
+Hakkımda
+
+Yazılar
+
+İletişim
+
+EN
 
 Temmuz 2026 · E-ticaret hukuku
 
@@ -3029,24 +3556,24 @@ Yıllarca Türkiye'de çevrimiçi pazaryerlerinin hukuk ve regülasyon işini y�
 
 Birincisi, 6563 sayılı Elektronik Ticaret Kanunu. 2022 değişiklikleri, elektronik ticaret aracı hizmet sağlayıcıları için kademeli yükümlülükler getirdi; belirli yasal eşikler aşıldıkça ek yükümlülükler doğuyor. İkincisi, 6502 sayılı Tüketicinin Korunması Hakkında Kanun ile Mesafeli Sözleşmeler Yönetmeliği. Bu çerçeve yükümlülükleri role göre dağıtır; satıcı veya sağlayıcıya ait her yükümlülüğü otomatik olarak platforma yüklemediği gibi aracı hizmet sağlayıcıyı da yükümlülüksüz bırakmaz. Sözleşme öncesi bilgilendirme ile sipariş, ödeme, iade ve şikâyet süreçlerindeki görevler, her aktörün somut işlevine göre eşleştirilmelidir. Üçüncüsü, 5651 sayılı internet içerik rejimi. Anayasa Mahkemesi 11 Ekim 2023 tarihli kararıyla 9. maddeyi iptal etti; iptal Ekim 2024'te yürürlüğe girdi. Bu değişiklik, tek bir kanunun değişmez kabul edilen yorumuyla yetinmek yerine güncel ve birleşik bir yükümlülük haritası kurulmasının bir başka nedenidir.
 
-Bu soruların ardındaki hacim küçük değil. Ticaret Bakanlığı, Türkiye'de toplam e-ticaret hacmini 2024'te yıllık yüzde 61,7 artışla 3 trilyon lira olarak açıkladı (ticaret.gov.tr). Daha fazla satıcı ve daha fazla ilan, üç rejimin tek bir işlemde buluştuğu daha fazla an demek.
+Bu soruların ardındaki hacim küçük değil. Ticaret Bakanlığı, Türkiye'de toplam e-ticaret hacmini 2024'te yıllık yüzde 61,7 artışla 3 trilyon lira olarak açıkladı. Daha fazla satıcı ve daha fazla ilan, üç rejimin tek bir işlemde buluştuğu daha fazla an demek.
 
-Asıl iş, uygulanabilir katmanları ve rolleri birlikte haritalamak. Tek bir ilan ya da şikâyet, aynı anda birden fazla rejim altında yükümlülük doğurabilir: bir kaldırma sorusu, bir tüketici talebi ve bir kayıt tutma yükümlülüğü, yan yana. Tek bir rejimi diğerlerinden kopuk okumak, uyumlu görünen bir sürecin nasıl açık bıraktığını gösterir. Bu açığı kapatan şey, her yükümlülüğün bir sahibe ve bir hukuki dayanağa bağlandığı, güncel, rejim ve rol bazlı bir yükümlülük haritasıdır.
+İş, uygulanabilir katmanları ve rolleri birlikte haritalamak. Tek bir ilan ya da şikâyet, aynı anda birden fazla rejim altında yükümlülük doğurabilir: bir kaldırma sorusu, bir tüketici başvuru yolu ve bir kayıt tutma yükümlülüğü, yan yana. Tek bir rejimi diğerlerinden kopuk okumak, uyumlu görünen bir süreçte açık bırakır. Bu açığı kapatan şey, her yükümlülüğün bir sahibe ve bir hukuki dayanağa bağlandığı, güncel, rejim ve rol bazlı bir yükümlülük haritasıdır.
 
 Yayım
 11 Temmuz 2026
 · Son güncelleme
-27 Temmuz 2026
+30 Temmuz 2026
 
 Kaynaklar
 
-6563 sayılı Elektronik Ticaretin Düzenlenmesi Hakkında Kanun, Resmî Gazete 5 Kasım 2014, Sayı 29166, 2022 değişiklikleriyle  https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6563&MevzuatTur=1&MevzuatTertip=5
+6563 sayılı Elektronik Ticaretin Düzenlenmesi Hakkında Kanun, Resmî Gazete 5 Kasım 2014, Sayı 29166, 2022 değişiklikleriyle https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6563&MevzuatTur=1&MevzuatTertip=5
 
-Ticaret Bakanlığı, Türkiye'de E-Ticaretin Görünümü Raporu (2025)  https://ticaret.gov.tr/duyurular/turkiyede-e-ticaretin-gorunumu-raporu-yayinlandi-06-05-2025
+Ticaret Bakanlığı, Türkiye'de E-Ticaretin Görünümü Raporu (2025) https://ticaret.gov.tr/duyurular/turkiyede-e-ticaretin-gorunumu-raporu-yayinlandi-06-05-2025
 
-Ticaret Bakanlığı, 6502 sayılı Kanun ve uygulama yönetmelikleri, Mesafeli Sözleşmeler Yönetmeliği dahil  https://tuketici.ticaret.gov.tr/data/5e81d14513b876a1b04c7b86/T%C3%BCketicinin_Korunmasi_Hakkinda_Kanun_ve_Uygulama_Yonetmelikleri.pdf
+Ticaret Bakanlığı, 6502 sayılı Kanun ve uygulama yönetmelikleri, Mesafeli Sözleşmeler Yönetmeliği dahil https://tuketici.ticaret.gov.tr/data/5e81d14513b876a1b04c7b86/T%C3%BCketicinin_Korunmasi_Hakkinda_Kanun_ve_Uygulama_Yonetmelikleri.pdf
 
-Anayasa Mahkemesi, 5651 sayılı Kanun'un 9. maddesinin iptali, 11 Ekim 2023  https://www.anayasa.gov.tr/tr/haberler/norm-denetimi-basin-duyurulari/internet-ortamindaki-yayinlara-ve-bu-yayinlar-yoluyla-islenen-suclara-iliskin-duzenlemeler-iceren-kanun-da-degisiklikler-ongoren-bazi-kurallarin-iptali/
+Anayasa Mahkemesi, 5651 sayılı Kanun'un 9. maddesinin iptali, 11 Ekim 2023 https://www.anayasa.gov.tr/tr/haberler/norm-denetimi-basin-duyurulari/internet-ortamindaki-yayinlara-ve-bu-yayinlar-yoluyla-islenen-suclara-iliskin-duzenlemeler-iceren-kanun-da-degisiklikler-ongoren-bazi-kurallarin-iptali/
 
 Sonraki yazı: Pazaryeri sıralaması ve algoritmik hesap verebilirlik: hukuk liderinin soruları →
 
@@ -3054,9 +3581,42 @@ Sonraki yazı: Pazaryeri sıralaması ve algoritmik hesap verebilirlik: hukuk li
 
 İletişime geç →
 
+Bu sitedeki içerik yalnızca genel bilgilendirme amaçlıdır ve hukuki tavsiye niteliği taşımaz. Sitenin kullanımı avukat-müvekkil ilişkisi doğurmaz. Buradaki görüşler kişiseldir ve mevcut ya da geçmiş hiçbir işvereni bağlamaz.
+
+© 2026 LEXSAS · İstanbul
+
+Yazılar
+
+Hakkımda
+
+İletişim
+
+LinkedIn
+
+Başa dön
+
+lexsas
+
+
 ============================================================
 ## Yazı: Pazaryeri sıralaması ve algoritmik hesap verebilirlik: hukuk liderinin soruları  <https://lexsas.com/tr/yazilar/pazaryeri-algoritmik-hesap-verebilirlik.html>
 ============================================================
+
+İçeriğe atla
+
+lexsas
+
+Çalışma alanları
+
+Yaklaşım
+
+Hakkımda
+
+Yazılar
+
+İletişim
+
+EN
 
 Temmuz 2026 · Platform regülasyonu
 
@@ -3066,34 +3626,36 @@ Birkaç yıl platform tarafında, sıralama sistemlerini kuran ve ayarlayan ekip
 
 Üç ayrı hukuk düzeni, sıralamayı belgelenmesi gereken bir hukuki alan hâline getirdi. AB Dijital Hizmetler Yasası, öneri sistemi kullanan her çevrimiçi platformun bu sistemin temel parametrelerini şartlar ve koşullarında belirtmesini istiyor; yalnız çok büyük platformlara ise ayrıca, profil çıkarmaya dayanmayan en az bir seçenek sunma yükümlülüğü getiriyor. Platformdan İşletmeye (P2B) Tüzüğü, çevrimiçi aracılık hizmetleri için temel sıralama parametrelerinin şartlar ve koşullarda belirtilmesini zorunlu kılıyor. Türkiye aynı alanı tek bir metinle değil, ayrı ayrı düzenlemelerle karşılıyor. Elektronik Ticaret Kanunu sıralama bakımından yalnızca, nesnel bir ölçüte dayanmadan satıcının sıralamada geriye düşürülmesini yasaklıyor. Sıralama parametrelerini açıklama yükümlülüğü Aralık 2022 tarihli uygulama yönetmeliğinde yer alıyor ve kamuya değil, aracılık sözleşmesi üzerinden satıcıya karşı doğuyor. Tüketiciye sıralamanın hangi ölçütlere göre kurulduğunu gösterme ve reklama dayanan sıralama sonuçlarını reklam olarak işaretleme yükümlülüğü ise tüketicinin korunması mevzuatına dayanan reklam yönetmeliğinden geliyor.
 
-Yaptırım soyut bir tehdit değil. Avrupa Komisyonu, 23 Nisan 2025'te Dijital Piyasalar Yasası kapsamındaki ilk ihlal kararlarını açıkladı; Apple'a yönlendirmeyi engelleyen (anti-steering) kısıtlamaları nedeniyle 500 milyon euro, Meta'ya "onayla ya da öde" modeli nedeniyle 200 milyon euro ceza kesti. Kararların hiçbiri sıralamayla ilgili değildi; ancak gatekeeper olarak belirlenen platformlar bakımından DMA, sıralamada, dizinlemede ve taramada kendi hizmetini kayırmayı ayrıca ve başlı başına bir ihlal sayıyor.
+Yaptırım soyut bir tehdit değil. Avrupa Komisyonu, 23 Nisan 2025'te Dijital Piyasalar Yasası kapsamındaki ilk ihlal kararlarını açıkladı; Apple'a yönlendirmeyi engelleyen (anti-steering) kısıtlamaları nedeniyle 500 milyon euro, Meta'ya "onayla ya da öde" modeli nedeniyle 200 milyon euro ceza kesti. Kararların hiçbiri sıralamayla ilgili değildi; ancak geçit bekçisi (gatekeeper) olarak belirlenen platformlar bakımından DMA, sıralamada, dizinlemede ve taramada kendi hizmetini kayırmayı ayrıca ve başlı başına bir ihlal sayıyor.
 
 Bu yüzden kendi ürün ekibime yönelteceğim sorular oldukça somut. Bir ürünü listede yukarı ya da aşağı taşıyan parametreler hangileri ve bunları açıkça ifade edebiliyor muyuz? Kendi ürünlerimiz bu kurgunun neresinde yer alıyor? Ağırlıklandırmayı kim değiştirebiliyor ve bu değişiklik kayıt altına alınıyor mu? Kanun temel parametreleri istiyor; iyi yönetişim ise bir adım öteye geçip karar kaydı tutuyor. Bir ticari kullanıcı ya da düzenleyici, bir rakibin neden üstte çıktığını sorduğunda, hafızaya değil kayda dayanarak yanıt verebiliyor muyuz?
 
-Kendi sıralamasını açıklayamayan bir sistemi, bir şikâyet geldiğinde savunmak zorlaşır. Açıklamayı önceden yazıya dökmek, o soru sorulmadan hazırlıklı olmaktır.
+Kendi sıralamasını açıklayamayan bir sistem, şikâyet bekleyen bir sorumluluktur. Açıklamayı önceden yazıya dökmek, o soru sorulmadan hazırlıklı olmaktır; o açıklamayı taşıyan değişiklik kaydının yeri de
+bildirimlerinizle aynı kuyruktur
+.
 
 Yayım
 11 Temmuz 2026
 · Son güncelleme
-27 Temmuz 2026
+30 Temmuz 2026
 
 Kaynaklar
 
-(AB) 2022/2065 sayılı Tüzük (Dijital Hizmetler Yasası), m. 27/1 ve m. 38  https://eur-lex.europa.eu/eli/reg/2022/2065/oj
+(AB) 2022/2065 sayılı Tüzük (Dijital Hizmetler Yasası), m. 27/1 ve m. 38 https://eur-lex.europa.eu/eli/reg/2022/2065/oj
 
-(AB) 2019/1150 sayılı Tüzük (Platformdan İşletmeye Tüzüğü), m. 5/1  https://eur-lex.europa.eu/eli/reg/2019/1150/oj
+(AB) 2019/1150 sayılı Tüzük (Platformdan İşletmeye Tüzüğü), m. 5/1 https://eur-lex.europa.eu/eli/reg/2019/1150/oj
 
-6563 sayılı Elektronik Ticaretin Düzenlenmesi Hakkında Kanun, Ek Madde 1/2-(e): nesnel ölçüt olmaksızın sıralamada geriye düşürme  https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6563&MevzuatTur=1&MevzuatTertip=5
+6563 sayılı Elektronik Ticaretin Düzenlenmesi Hakkında Kanun, Ek Madde 1/2-(e): nesnel ölçüt olmaksızın sıralamada geriye düşürme https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6563&MevzuatTur=1&MevzuatTertip=5
 
-Elektronik Ticaret Aracı Hizmet Sağlayıcı ve Elektronik Ticaret Hizmet Sağlayıcıları Hakkında Yönetmelik, 29 Aralık 2022, m. 15/1-(ç): aracılık sözleşmesinde sıralama parametreleri  https://www.resmigazete.gov.tr/eskiler/2022/12/20221229-5.htm
+Elektronik Ticaret Aracı Hizmet Sağlayıcı ve Elektronik Ticaret Hizmet Sağlayıcıları Hakkında Yönetmelik, 29 Aralık 2022, m. 15/1-(ç): aracılık sözleşmesinde sıralama parametreleri https://www.resmigazete.gov.tr/eskiler/2022/12/20221229-5.htm
 
-Ticari Reklam ve Haksız Ticari Uygulamalar Yönetmeliği (6502 sayılı Kanuna dayanılarak), m. 28/A: sıralama ölçütlerinin tüketiciye gösterilmesi ve reklam ibaresi  https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=20435&MevzuatTur=7&MevzuatTertip=5
+Ticari Reklam ve Haksız Ticari Uygulamalar Yönetmeliği (6502 sayılı Kanuna dayanılarak), m. 28/A: sıralama ölçütlerinin tüketiciye gösterilmesi ve reklam ibaresi https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=20435&MevzuatTur=7&MevzuatTertip=5
 
-(AB) 2022/1925 sayılı Tüzük (Dijital Piyasalar Yasası), m. 6/5  https://eur-lex.europa.eu/eli/reg/2022/1925/oj
+(AB) 2022/1925 sayılı Tüzük (Dijital Piyasalar Yasası), m. 6/5 https://eur-lex.europa.eu/eli/reg/2022/1925/oj
 
-European Commission, first DMA non-compliance decisions, 23 April 2025  https://ec.europa.eu/commission/presscorner/detail/en/ip_25_1085
+European Commission, first DMA non-compliance decisions, 23 April 2025 https://ec.europa.eu/commission/presscorner/detail/en/ip_25_1085
 
-Hunton Andrews Kurth, summary of the Apple and Meta DMA fines (2025)  https://www.hunton.com/privacy-and-information-security-law/european-commission-fines-apple-and-meta-for-non-compliance-with-the-dma
+Hunton Andrews Kurth, summary of the Apple and Meta DMA fines (2025) https://www.hunton.com/privacy-and-information-security-law/european-commission-fines-apple-and-meta-for-non-compliance-with-the-dma
 
 Sonraki yazı: Hukukta yapay zeka: geliştirmek mi, satın almak mı, uyarlamak mı? →
 
@@ -3101,15 +3663,48 @@ Sonraki yazı: Hukukta yapay zeka: geliştirmek mi, satın almak mı, uyarlamak 
 
 İletişime geç →
 
+Bu sitedeki içerik yalnızca genel bilgilendirme amaçlıdır ve hukuki tavsiye niteliği taşımaz. Sitenin kullanımı avukat-müvekkil ilişkisi doğurmaz. Buradaki görüşler kişiseldir ve mevcut ya da geçmiş hiçbir işvereni bağlamaz.
+
+© 2026 LEXSAS · İstanbul
+
+Yazılar
+
+Hakkımda
+
+İletişim
+
+LinkedIn
+
+Başa dön
+
+lexsas
+
+
 ============================================================
 ## Yazı: Hukukta yapay zeka: geliştirmek mi, satın almak mı, uyarlamak mı?  <https://lexsas.com/tr/yazilar/hukukta-yapay-zeka-kur-satin-al-yapilandir.html>
 ============================================================
+
+İçeriğe atla
+
+lexsas
+
+Çalışma alanları
+
+Yaklaşım
+
+Hakkımda
+
+Yazılar
+
+İletişim
+
+EN
 
 Temmuz 2026 · Hukukta yapay zeka
 
 Hukukta yapay zeka: geliştirmek mi, satın almak mı, uyarlamak mı?
 
-Büyük bir platform şirketinde AWS Bedrock üzerinde hukuk için yapay zeka aracı geliştirdim; aynı ekip için tedarikçi araçları da aldım. Asıl seçim çoğu zaman geliştirmek ya da satın almak değildir. Bitmiş bir ürünü satın alabilir, kurumsal bir platformu kendi iş akışınıza uyarlayabilir ya da kendi çözümünüzü geliştirebilirsiniz. Bu orta yol, benim uyarlamak dediğim yoldur ve işlerin çoğu buraya girer.
+Büyük bir platform şirketinde AWS Bedrock üzerinde hukuk için yapay zeka aracı geliştirdim; aynı ekip için tedarikçi araçları da aldım. Seçim çoğu zaman geliştirmek ya da satın almak değildir. Bitmiş bir ürünü satın alabilir, kurumsal bir platformu kendi iş akışınıza uyarlayabilir ya da kendi çözümünüzü geliştirebilirsiniz. Bu orta yol, benim uyarlamak dediğim yoldur ve işlerin çoğu buraya girer.
 
 Üç soru kararı belirler: veri ne kadar hassas, iş akışı ne kadar özgün ve ekip ne kadar mühendislik yükü taşıyabilir.
 
@@ -3130,9 +3725,9 @@ Yayımlandı
 
 Kaynaklar
 
-ILTA 2024 Technology Survey (via eDiscovery Today)  https://ediscoverytoday.com/2024/09/30/ilta-2024-technology-survey-results-released-today-legal-technology-trends/
+ILTA 2024 Technology Survey (via eDiscovery Today) https://ediscoverytoday.com/2024/09/30/ilta-2024-technology-survey-results-released-today-legal-technology-trends/
 
-Bloomberg Law, law firm tech budgets and the build-versus-buy AI debate (2026)  https://news.bloomberglaw.com/daily-labor-report/law-firm-tech-budgets-drive-the-build-versus-buy-ai-debate
+Bloomberg Law, law firm tech budgets and the build-versus-buy AI debate (2026) https://news.bloomberglaw.com/daily-labor-report/law-firm-tech-budgets-drive-the-build-versus-buy-ai-debate
 
 Sonraki yazı: Kendi ajan iş akışınızı kurmak: tuval hukuk ekibine ne kazandırır →
 
@@ -3140,17 +3735,50 @@ Sonraki yazı: Kendi ajan iş akışınızı kurmak: tuval hukuk ekibine ne kaza
 
 İletişime geç →
 
+Bu sitedeki içerik yalnızca genel bilgilendirme amaçlıdır ve hukuki tavsiye niteliği taşımaz. Sitenin kullanımı avukat-müvekkil ilişkisi doğurmaz. Buradaki görüşler kişiseldir ve mevcut ya da geçmiş hiçbir işvereni bağlamaz.
+
+© 2026 LEXSAS · İstanbul
+
+Yazılar
+
+Hakkımda
+
+İletişim
+
+LinkedIn
+
+Başa dön
+
+lexsas
+
+
 ============================================================
 ## Yazı: Hukuki iş akışı otomasyonu pilotlarını ölçmek  <https://lexsas.com/tr/yazilar/otomasyon-pilotlarini-olcmek.html>
 ============================================================
+
+İçeriğe atla
+
+lexsas
+
+Çalışma alanları
+
+Yaklaşım
+
+Hakkımda
+
+Yazılar
+
+İletişim
+
+EN
 
 Temmuz 2026 · Hukuk operasyonları
 
 Hukuki iş akışı otomasyonu pilotlarını ölçmek
 
-Metriksiz bir pilot, bir demodan ibarettir. Toplantı odasında etkileyici görünür, herkes başını sallar, üç ay sonra kimse işe yarayıp yaramadığını söyleyemez. Büyük bir şirketin hukuk ekibinde bu pilotlardan yeterince yürüttüm; ölçüm planının araçtan daha önemli olduğunu biliyorum.
+Metriksiz bir pilot, bir demodan ibarettir. Toplantı odasında etkileyici görünür, herkes başını sallar, üç ay sonra kimse işe yarayıp yaramadığını söyleyemez. Büyük bir şirketin hukuk ekibinde bu pilotların yeterince içinde bulundum; ölçüm planının araçtan daha önemli olduğunu biliyorum.
 
-İşe, model iş akışına dokunmadan önce mevcut durumu ölçerek başlayın. Süreyi baştan sona tutun. İşin kaç kez el değiştirdiğini kaydedin: kaç kişi ilgileniyor ve kaç kez elden ele geçiyor. Dış harcamayı toplayın: dış avukat saatleri, dosya başı ücretler. Süre, el değiştirme sayısı ve dış harcamayı asgari başlangıç ölçütü olarak alın; doğruluk, yeniden çalışma ve hataların ağırlığı gibi kalite ölçütleri de tam bunların yanında durmalı.
+İşe, model iş akışına dokunmadan önce mevcut durumu ölçerek başlayın. Süreyi baştan sona tutun. İşin kaç kişinin elinden geçtiğini ve kaç kez devredildiğini kaydedin. Dış harcamayı toplayın: dış avukat saatleri, dosya başı ücretler. Süre, el değiştirme sayısı ve dış harcamayı asgari başlangıç ölçütü olarak alın; doğruluk, yeniden çalışma ve hataların ağırlığı gibi kalite ölçütleri de tam bunların yanında durmalı.
 
 Sonra her işin üretebileceği hata türlerini tanımlayın. Ben bunları üçe ayırıyorum: hukuki sonucu değiştiren kritik hatalar, ciddi düzeltme gerektiren esaslı hatalar ve yalnızca biçime ilişkin şekli hatalar. Toleransı her sınıf için belirleyin; kritik sınıfta tolerans sıfırdır. Bu eşikleri, çıktıyı görmeden, pilottan önce yazın.
 
@@ -3158,24 +3786,43 @@ Model süresini değil, inceleme süresini ölçün. Model saniyeler içinde yan
 
 Durdur ya da ölçekle eşiğini önceden belirleyin. MIT NANDA'nın 2025 tarihli ve çokça tartışılan The GenAI Divide raporu, kurumsal üretken yapay zeka pilotlarının yüzde 95'inin kâr-zarar üzerinde ölçülebilir bir etki göstermediğini buldu. Thomson Reuters ise 2025 raporunda, ankete katılan hukukçuların yalnızca yüzde 20'sinin yapay zekanın getirisini ölçtüğünü tespit etti. Ölçmüyorsanız, bu ayrımın hangi tarafında olduğunuzu bilemezsiniz.
 
-Önce mevcut durumu ölçün, hata toleranslarını belirleyin ve model süresini değil hukukçu incelemesine ayrılan süreyi ölçün. Sonra hepsini tek bir yerde toplayın: sahibini, tarihini, sonlandırma veya ölçekleme eşiğini ve kararın dayandığı kanıtı içeren bir pilot karar kaydı. Ölçekleyip ölçeklemeyeceğinizi size söyleyen şey, herkesin alkışladığı demo değil, işte bu kayıttır.
+Önce mevcut durumu ölçün, hata toleranslarını belirleyin ve model süresini değil hukukçu incelemesine ayrılan süreyi ölçün. Sonra hepsini tek bir yerde toplayın: sahibini, tarihini, sonlandırma veya ölçekleme eşiğini ve kararın dayandığı kanıtı içeren bir pilot karar kaydı. Ölçekleyip ölçeklemeyeceğinizi size söyleyen şey, herkesin alkışladığı demo değil, işte bu kayıttır. Bu kayıt soruyu bir kez cevaplar;
+canlı bir iş akışı ise her değişiklikte yeniden sorar
+.
 
 Yayım
 11 Temmuz 2026
 · Son güncelleme
-27 Temmuz 2026
+30 Temmuz 2026
 
 Kaynaklar
 
-MIT NANDA, The GenAI Divide: State of AI in Business 2025 (via Fortune)  https://fortune.com/2025/08/18/mit-report-95-percent-generative-ai-pilots-at-companies-failing-cfo/
+MIT NANDA, The GenAI Divide: State of AI in Business 2025 (via Fortune) https://fortune.com/2025/08/18/mit-report-95-percent-generative-ai-pilots-at-companies-failing-cfo/
 
-Thomson Reuters, 2025 Generative AI in Professional Services Report, legal executive summary  https://legal.thomsonreuters.com/blog/genai-report-executive-summary-for-legal-professionals-tri/
+Thomson Reuters, 2025 Generative AI in Professional Services Report, legal executive summary https://legal.thomsonreuters.com/blog/genai-report-executive-summary-for-legal-professionals-tri/
 
 Sonraki yazı: Saatlik ücretin mantığı tükeniyor →
 
 ← Tüm yazılar
 
 İletişime geç →
+
+Bu sitedeki içerik yalnızca genel bilgilendirme amaçlıdır ve hukuki tavsiye niteliği taşımaz. Sitenin kullanımı avukat-müvekkil ilişkisi doğurmaz. Buradaki görüşler kişiseldir ve mevcut ya da geçmiş hiçbir işvereni bağlamaz.
+
+© 2026 LEXSAS · İstanbul
+
+Yazılar
+
+Hakkımda
+
+İletişim
+
+LinkedIn
+
+Başa dön
+
+lexsas
+
 
 ============================================================
 ## Yazı: Şirket içi hukuk ekipleri için yapay zeka yönetişimi: beş asgari kontrol  <https://lexsas.com/tr/yazilar/yapay-zeka-yonetisimi-bes-kontrol.html>
@@ -3205,9 +3852,9 @@ Altı aydır üretken yapay zeka kullanan bir ekip bunu yaygınlaştırmak istiy
 
 Bir ekibin bu teknolojiyi yaygınlaştırmasına onay vermeden önce tek sayfada beş kontrol isterim.
 
-Birincisi veri. Hangi bilginin bir komut penceresine girebileceği baştan yazılır. Müvekkil bilgisi, kişisel veri ve gizlilik kapsamındaki içerik için ayrı ayrı kural gerekir; hepsi kimse bir sohbet penceresi açmadan kararlaştırılır.
+Birincisi veri. Hangi bilginin bir istem penceresine girebileceği baştan yazılır. Müvekkil bilgisi, kişisel veri ve avukat-müvekkil gizliliği kapsamındaki içerik için ayrı ayrı kural gerekir; hepsi kimse bir sohbet penceresi açmadan kararlaştırılır.
 
-İkincisi yetki ve hesap verebilirlik. Yapay zeka destekli her çıktının adı konmuş bir sahibi olur. Taslağı model yazar, altına imzayı hukukçu atar ve sorulduğunda o cevap verir.
+İkincisi yetki ve hesap verebilirlik. Yapay zeka destekli her çıktının sahibi tek tek yazılır. Taslağı model yazar, altına imzayı hukukçu atar ve sorulduğunda o cevap verir.
 
 Üçüncüsü insan incelemesi. İncelemenin derinliğini çıktının etkisine ve geri döndürülebilirliğine bağlarım; ekipten çıkıp çıkmadığına değil. Etkisi yüksek ya da geri alması zor olan her ürün, reddetme yetkisi olan bir hukukçunun süzgecinden geçer; sonradan yapılan örneklem kontrolü bu çıtayı karşılamaz.
 
@@ -3222,7 +3869,7 @@ bir ajan, yabancının yazdığı bir belgeyi okurken nereye uzanabilir
 Yayım
 11 Temmuz 2026
 · Son güncelleme
-27 Temmuz 2026
+30 Temmuz 2026
 
 Kaynaklar
 
@@ -3257,38 +3904,71 @@ lexsas
 ## Yazı: Hukuk ekipleri için KVKK uyumlu üretken yapay zeka iş akışları  <https://lexsas.com/tr/yazilar/kvkk-uyumlu-uretken-yapay-zeka.html>
 ============================================================
 
+İçeriğe atla
+
+lexsas
+
+Çalışma alanları
+
+Yaklaşım
+
+Hakkımda
+
+Yazılar
+
+İletişim
+
+EN
+
 Temmuz 2026 · Veri koruma
 
 Hukuk ekipleri için KVKK uyumlu üretken yapay zeka iş akışları
 
 Hukuk ekiplerinin kullandığı üretken yapay zeka araçları çoğunlukla Türkiye dışında barındırılıyor. Bunun bir yurt dışı aktarımı doğurup doğurmadığı ayrıntıya bağlı: aracın nerede barındırıldığına, personelin ona uzaktan erişip erişmediğine ve arkasında hangi alt işleyicilerin durduğuna. Bir istem kişisel veri içerdiği anda ekip o veriyi işlemeye başlıyor; tipik bir SaaS kurulumunda ayrıca yurt dışına aktarıyor.
 
-Analiz, aktarım sorusundan önce başlıyor. Kanunun 5. maddesi uyarınca işleme için bir hukuki sebep gerekiyor. Meşru menfaat, iç verimlilik amaçlı kullanımların çoğunu karşılıyor ama kendiliğinden değil; yazılı bir denge testi istiyor ve 6. maddedeki özel nitelikli veriler kendi hukuki sebebini gerektiriyor. Ben bu denge belgesini dosyanın çapası olarak görüyorum.
+Analiz, aktarım sorusundan önce başlıyor. Kanunun 5. maddesi uyarınca işleme için bir hukuki sebep gerekiyor. Meşru menfaat, iç verimlilik amaçlı kullanımların çoğunu karşılıyor ama kendiliğinden değil; yazılı bir denge testi istiyor ve 6. maddedeki özel nitelikli veriler kendi hukuki sebebini gerektiriyor. Bu denge testini dosyanın dayanak belgesi sayıyorum.
 
-2024'te değişen 9. madde, yurt dışı aktarım rejimini yeniden kurdu. Yeterlilik kararı yoksa aktarım uygun güvencelere dayanıyor: son imzadan itibaren beş iş günü içinde Kuruma bildirilen standart sözleşmeler, bağlayıcı şirket kuralları veya Kurul onaylı taahhütname; her biri ilgili kişinin dava edilebilir haklarını koruması koşuluyla. Kurumun 2024 faaliyet bilgi notunda o yıl için 1.345 standart sözleşme bildirimi yer alıyor; GRC Legal'in aktardığı 2025 faaliyet raporu rakamı ise 2.497. 2024 yeni rejimin kısmi bir yılı olduğu için bu sayıları temiz bir yıllık artış oranı değil, dönem işaretleri olarak okuyorum.
+2024'te değişen 9. madde, yurt dışı aktarım rejimini yeniden kurdu. Yeterlilik kararı yoksa aktarım uygun güvencelere dayanıyor: son imzadan itibaren beş iş günü içinde Kuruma bildirilen standart sözleşmeler, bağlayıcı şirket kuralları veya Kurul onaylı taahhütname; her biri, ilgili kişinin haklarını kullanma ve etkili kanun yollarına başvurma imkânının bulunması koşuluyla. Kurumun 2024 faaliyet bilgi notunda o yıl için 1.345 standart sözleşme bildirimi yer alıyor; GRC Legal'in aktardığı 2025 faaliyet raporu rakamı ise 2.497. 2024 yeni rejimin kısmi bir yılı olduğu için bu sayıları temiz bir yıllık artış oranı değil, dönem işaretleri olarak okuyorum.
 
-İş akışı katmanı, uyumun günlük alışkanlığa dönüştüğü yer. Bu işi iyi yürüten ekipler, kimliğin sonuca katkısı olmadığı yerlerde istemlerden tanımlayıcıları ayıklıyor; müşteri girdileriyle model eğitimini sözleşmeyle dışlayan kurumsal planları tercih ediyor; kayıtları da hizalı tutuyor: veri envanteri, tedarikçi sözleşmesi, denge testi, aktarım mekanizması, saklama süreleri.
+İş akışı katmanı, uyumun günlük alışkanlığa dönüştüğü yer. Bu işi iyi yürüten ekipler, kimliğin sonuca katkısı olmadığı yerlerde istemlerden tanımlayıcıları ayıklıyor; müşteri girdileriyle model eğitimini sözleşmeyle dışlayan kurumsal planları tercih ediyor; kayıtları da birbiriyle tutarlı tutuyor: veri envanteri, tedarikçi sözleşmesi, denge testi, aktarım mekanizması, saklama süreleri.
 
 Savunulabilir dosya, araç başına tek sayfa: hangi veri giriyor, hangi hukuki sebeple, hangi aktarım mekanizmasıyla. Ben o sayfayı, arkasındaki silme, aydınlatma, güvenlik ve ilgili kişi hakları kayıtlarına bağlanan bir giriş indeksi olarak görüyorum. Benimsemenin aşamalı yürüdüğü ekiplerde bu sayfa pilottan önce yazılıyordu.
 
 Yayım
 11 Temmuz 2026
 · Son güncelleme
-27 Temmuz 2026
+30 Temmuz 2026
 
 Kaynaklar
 
-6698 sayılı Kişisel Verilerin Korunması Kanunu, Resmî Gazete 7 Nisan 2016, Sayı 29677, m. 5, 6 ve 9; m. 9, 2024 değişikliğiyle  https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6698&MevzuatTur=1&MevzuatTertip=5
+6698 sayılı Kişisel Verilerin Korunması Kanunu, Resmî Gazete 7 Nisan 2016, Sayı 29677, m. 5, 6 ve 9; m. 9, 2024 değişikliğiyle https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6698&MevzuatTur=1&MevzuatTertip=5
 
-KVKK, 2024 Yılı Faaliyet Bilgi Notu  https://www.kvkk.gov.tr/Icerik/8139/2024-Yili-Kisisel-Verileri-Koruma-Kurumu-KVKK-Faaliyet-Bilgi-Notu
+KVKK, 2024 Yılı Faaliyet Bilgi Notu https://www.kvkk.gov.tr/Icerik/8139/2024-Yili-Kisisel-Verileri-Koruma-Kurumu-KVKK-Faaliyet-Bilgi-Notu
 
-GRC Legal, KVKK 2025 Annual Report summary  https://www.grc-legal.com/en/kvkk-2025-annual-report/
+GRC Legal, KVKK 2025 Annual Report summary https://www.grc-legal.com/en/kvkk-2025-annual-report/
 
 Sonraki yazı: Hukuk ekipleri için yapay zeka tedarikçi inceleme listesi →
 
 ← Tüm yazılar
 
 İletişime geç →
+
+Bu sitedeki içerik yalnızca genel bilgilendirme amaçlıdır ve hukuki tavsiye niteliği taşımaz. Sitenin kullanımı avukat-müvekkil ilişkisi doğurmaz. Buradaki görüşler kişiseldir ve mevcut ya da geçmiş hiçbir işvereni bağlamaz.
+
+© 2026 LEXSAS · İstanbul
+
+Yazılar
+
+Hakkımda
+
+İletişim
+
+LinkedIn
+
+Başa dön
+
+lexsas
+
 
 ============================================================
 ## Yazı: Hukuk ekipleri için yapay zeka tedarikçi inceleme listesi  <https://lexsas.com/tr/yazilar/yapay-zeka-tedarikci-inceleme.html>
@@ -3314,9 +3994,9 @@ Temmuz 2026 · Hukuk operasyonları
 
 Hukuk ekipleri için yapay zeka tedarikçi inceleme listesi
 
-Bu masanın iki tarafında da oturdum. Şirket içinde bir hukuk ekibi için yapay zeka araçları kurdum; alıcı tarafında aynı tür araçların tedarikçiden satın alınmasına onay verdim. İyi bir demo ile daha güvenli bir sözleşme arasındaki mesafeyi kısa bir soru listesi kapatıyor; cevapların yeri de sözleşmenin kendisidir: denetim hakları, ihlal bildirimi ve sorumluluk. Soruların çoğu tek bir toplantıda sorulabiliyor.
+Bu masanın iki tarafında da oturdum. Şirket içinde bir hukuk ekibi için yapay zeka araçları kurdum; alıcı tarafında aynı tür araçların tedarikçiden satın alınmasına onay verdim. İyi bir demo ile daha güvenli bir sözleşme arasındaki mesafeyi kısa bir soru listesi kapatıyor; cevapların yeri de sözleşmenin kendisidir: denetim hakları, ihlal bildirimi ve sorumluluk.
 
-Risk ölçülebilir durumda. Verizon'un 2026 Veri İhlali Araştırma Raporu'na göre üçüncü tarafların karıştığı ihlallerin payı yüzde 48'e yükseldi; bu oran yapay zeka tedarikçilerini değil, tüm üçüncü tarafları ölçer. IBM'in 2025 Cost of a Data Breach raporu ise ihlale uğrayan kurumların yaklaşık beşte birinin ihlalin gölge yapay zekayı içerdiğini bildirdiğini ekliyor; yoğun gölge yapay zeka kullananlarda ortalama ihlal maliyeti, az kullananlara göre yaklaşık 670 bin dolar daha yüksek çıkıyor; bu bir nedensellik değil, ilişkidir. İncelenmeden devreye alınan bir yapay zeka aracı, gizlilik kapsamındaki içeriğe alışılmadık ölçüde geniş erişimi olan bir üçüncü taraftır.
+Risk ölçülebilir durumda. Verizon'un 2026 Veri İhlali Araştırma Raporu'na göre üçüncü tarafların karıştığı ihlallerin payını yüzde 48 olarak veriyor; bu oran yapay zeka tedarikçilerini değil, tüm üçüncü tarafları ölçer. IBM'in 2025 Cost of a Data Breach raporu ise ihlale uğrayan kurumların yaklaşık beşte birinin ihlalin gölge yapay zekayı içerdiğini bildirdiğini ekliyor; yoğun gölge yapay zeka kullananlarda ortalama ihlal maliyeti, az kullananlara göre yaklaşık 670 bin dolar daha yüksek çıkıyor; bu bir nedensellik değil, ilişkidir. İncelenmeden devreye alınan bir yapay zeka aracı, avukat-müvekkil gizliliği kapsamındaki içeriğe alışılmadık ölçüde geniş erişimi olan bir üçüncü taraftır.
 
 Benim listemde yerini hak eden altı soru var.
 
@@ -3339,7 +4019,7 @@ Cevapları temiz olan bir tedarikçi bu sorulardan rahatsız olmaz. Herhangi bir
 Yayım
 11 Temmuz 2026
 · Son güncelleme
-27 Temmuz 2026
+30 Temmuz 2026
 
 Kaynaklar
 
@@ -3402,13 +4082,13 @@ Değişmeyenler
 
 Hukuki muhakeme değişmiyor. Bir sözleşmenin riskini tartmak, bir düzenleyici kararın işletme için ne anlama geldiğini görmek, bir belirsizlik karşısında sorumluluğu kimin taşıyacağına karar vermek. Bunların hepsi bağlam, sezgi ve hesap verebilirlik isteyen işler. Bir model olası bir cümle üretebilir, ama o cümlenin arkasında durmaz. Arkasında duran, imzayı atan kişidir. Bir düzenleyiciyle görüşmede masaya oturan da, bir yönetim kuruluna sonucu anlatan da bir insandır.
 
-Gizlilik ve muhakemenin insana ait kalması da değişmiyor: şirket içi hukukta güven, sır saklama ve çıkar çatışması kuralları bir araç devreye girdi diye gevşemiyor. Üstelik gizliliğin hukuken nereye kadar uzandığı yargı çevresine bağlı; şirket içi yazışmalar her yerde koruma altında değil, Avrupa Komisyonu'nun yürüttüğü bir rekabet soruşturmasında hiç ayrıcalıklı sayılmıyor. Yanlış yapılandırılmış bir sistem, hassas malzemeyi hiç bulunmaması gereken yerlere taşıyarak bu riski büyütür. Bu yüzden ben, bir aracın ne yaptığına bakmadan önce neyi asla yapmaması gerektiğini tanımlamayı tercih ediyorum.
+Gizlilik ve muhakemenin insana ait kalması da değişmiyor: şirket içi hukukta güven, sır saklama ve çıkar çatışması kuralları bir araç devreye girdi diye gevşemiyor. Üstelik gizliliğin hukuken nereye kadar uzandığı yargı çevresine bağlı; şirket içi yazışmalar her yerde koruma altında değil, Avrupa Komisyonu'nun yürüttüğü bir rekabet soruşturmasında avukat-müvekkil gizliliği korumasından hiç yararlanmıyor. Yanlış yapılandırılmış bir sistem, hassas malzemeyi hiç bulunmaması gereken yerlere taşıyarak bu riski büyütür. Bu yüzden ben, bir aracın ne yaptığına bakmadan önce neyi asla yapmaması gerektiğini tanımlamayı tercih ediyorum.
 
 Bunu açıkça söylemekte yarar var, çünkü ürün demolarında gözden kaçan nokta tam burası. Bir düzenleyici "çıktıyı araç üretti" cevabını kabul etmiyor; bir yönetim kurulu da kabul etmiyor. Sorumluluk hukukçuda kalıyor. Bu gerçek, sonraki bütün tasarım kararlarını belirlemeli: soru bu araçları kullanıp kullanmamak değil, hesap veren insanı gölgelemek yerine ona destek olacak biçimde nereye yerleştireceğimiz.
 
 Gerçekte değişenler
 
-Değişen şey, işin ilk kısmı. Muhakemenin kendisi değil, muhakemeye giden yol. Üç yerde somut fark görüyorum, ve üçü de günlük işin en çok zaman yiyen kısımlarına denk geliyor.
+Değişen şey, işin ilk kısmı. Muhakemenin kendisi değil, muhakemeye giden yol. Üç yerde somut fark görüyorum ve üçü de günlük işin en çok zaman yiyen kısımlarına denk geliyor.
 
 Talep karşılama. Şirket içi hukuk ekiplerine gelen taleplerin çoğu tekrar eden, sınıflandırılabilir taleplerdir. Bir aracın bu talepleri doğru ekibe yönlendirmesi, standart olanları şablona bağlaması ve gerçekten bir hukukçu gerektireni öne çıkarması, günün önemli bir kısmını geri kazandırıyor. Böylece hukukçunun zamanı, gerçekten muhakeme isteyen işlere kayıyor.
 
@@ -3422,7 +4102,7 @@ Sorumlu yürütme
 
 Bir aracı devreye almak kolay, doğru devreye almak zor. Aradaki fark, teknolojinin kendisinde değil, onu çevreleyen disiplinde. Deneyimim dört ilke etrafında toplanıyor.
 
-İlki, güvenceler. Bir modelin neye erişebileceği, hangi çıktının insan onayı olmadan kullanılamayacağı ve hangi verinin araca hiç verilmeyeceği baştan tanımlanmalı. Mahremiyet, gizlilik ve veri egemenliği gereklerini sonradan eklemeye çalışmak işe yaramıyor. Bunlar tasarımın içinde, en baştan olmalı. Sonradan yamanmış bir güvence, çoğu zaman hiç olmamasından daha yanıltıcıdır.
+İlki, güvenceler. Bir modelin neye erişebileceği, hangi çıktının insan onayı olmadan kullanılamayacağı ve hangi verinin araca hiç verilmeyeceği baştan tanımlanmalı. Mahremiyet, gizlilik ve veri egemenliği gereklerini sonradan eklemeye çalışmak işe yaramıyor. Bunlar tasarımın içinde, en baştan olmalı.
 
 İkincisi, insan incelemesi. Yüksek etkili veya ekip dışına çıkan çıktılar bir hukukçunun onayından geçmeli; düşük riskli, ekip içi adımlar daha hafif bir denetimle yürüyebilir. Bu inceleme bir formalite değil, ama sorumluluğun tamamı da değil: hesap verebilirlik tasarımın, yapılandırmanın ve onayın tümüne yayılıyor, tek bir ana değil. İşleyişi riske ve geri dönülebilirliğe göre ayarlamak, hem gereksiz yükü hem de görünmeyen riski azaltıyor.
 
@@ -3430,12 +4110,12 @@ Bir aracı devreye almak kolay, doğru devreye almak zor. Aradaki fark, teknoloj
 
 Dördüncüsü, hataları dürüstçe kaydetmek. Modeller, kulağa son derece makul gelen biçimde ve tam bir özgüvenle yanlış olabiliyor; Journal of Legal Analysis'te ve Stanford'da yayımlanan 2024 tarihli halüsinasyon çalışmaları hukuk kullanımında tam da bu örüntüyü belgeliyor. Bunu yakalayacak bir mekanizmaya ve yanlış cevabı utanılacak bir kaza değil, kayda geçecek bir bulgu sayan bir ekibe ihtiyaç var.
 
-Sonuç olarak, üretken yapay zeka hukuk ekiplerinde gerçek bir fark yaratıyor, ama vaat edildiği yerde değil. Muhakemeyi devralmıyor, ona giden yolu kısaltıyor. Bunu doğru anlayan bir ekip, hızını güvencelerle birlikte artırabilir. Yanlış anlayan bir ekip ise, kazandığını sandığı hızın altında görünmeyen bir risk biriktirir. Fark, teknolojide değil, onu yürüten disiplinde. Ve o disiplin, hiçbir araca devredilemez.
+Sonuç olarak, üretken yapay zeka hukuk ekiplerinde gerçek bir fark yaratıyor, ama vaat edildiği yerde değil. Muhakemeyi devralmıyor, ona giden yolu kısaltıyor. Bunu doğru anlayan bir ekip, hızını güvencelerle birlikte artırabilir. Yanlış anlayan bir ekip ise, kazandığını sandığı hızın altında görünmeyen bir risk biriktirir. Fark teknolojide değil, onu yürüten disiplinde; o disiplini de hiçbir araca devredemezsiniz.
 
 Yayım
 4 Temmuz 2026
 · Son güncelleme
-27 Temmuz 2026
+30 Temmuz 2026
 
 Kaynaklar
 
@@ -3477,31 +4157,98 @@ lexsas
 ============================================================
 ## Yazı: Yapay zeka hukuk sektörünü sessizce yeniden çiziyor  <https://lexsas.com/tr/yazilar/yapay-zeka-hukuku-yeniden-ciziyor.html>
 ============================================================
+
+İçeriğe atla
+
+lexsas
+
+Çalışma alanları
+
+Yaklaşım
+
+Hakkımda
+
 Yazılar
-Temmuz 2026 - Hukukta yapay zeka
+
+İletişim
+
+EN
+
+Temmuz 2026 · Hukukta yapay zeka
+
 Yapay zeka hukuk sektörünü sessizce yeniden çiziyor
-Hukuk işi, yapay zekaya maruziyet tablolarının çoğunda üst sıralarda. Goldman Sachs ekonomistleri Joseph Briggs ve Devesh Kodnani, 26 Mart 2023 tarihli The Potentially Large Effects of Artificial Intelligence on Economic Growth başlıklı raporlarında ABD'de hukuk işlerinin yüzde 44'ünü yapay zeka destekli otomasyona açık buldu; bu oran yalnızca yüzde 46 ile idari işlerin gerisinde kalıyor. Bu bir maruziyet ölçüsü; işin ne kadarının fiilen otomatikleştiğini değil, ne kadarının açık olduğunu gösteriyor. Üç yıl sonra bu tahmin bir kışkırtmadan çok bir proje planı gibi okunuyor.
-Kullanım da hızla arttı. Thomson Reuters, üretken yapay zeka kullanımını hukuk bürolarında yüzde 41, şirket hukuk departmanlarında yüzde 47 olarak raporluyor. Büro kullanımı yüzde 28'den geldi, yaklaşık yarı oranında artışla; departmanlar ise yüzde 23'ten gelerek kabaca ikiye katlandı. İki katına yakın sıçrama şirket departmanlarında; büro tarafındaki artış daha ölçülü. Rapor bunu erken denemelerden çok kritik eşiğe ulaşan bir benimseme olarak tanımlıyor. Araçlar tek bir bütçe döneminde pilottan altyapıya geçti.
-Değişen şey hukukçunun varlığı değil, etrafındaki iş. Araştırma ve ilk taslaklar günlerden saatlere inebiliyor. E-posta kutularında yaşayan bilgi aranabilir hale geliyor. Çok sayıda kıdemsiz avukatın çok saat faturalandırmasına dayanan modeller baskı altına giriyor. Fark yaratan unsur kadro büyüklüğünden muhakemeye, araçların etrafındaki iş akışı ve güvencelerin kalitesine kayıyor. Bu, hukukçuya olan ihtiyacı ortadan kaldırmıyor; onun zamanının nereye değeceğini değiştiriyor.
+
+Hukuk işi, yapay zekaya maruziyet tablolarının çoğunda üst sıralarda. Goldman Sachs ekonomistleri Joseph Briggs ve Devesh Kodnani, 26 Mart 2023 tarihli The Potentially Large Effects of Artificial Intelligence on Economic Growth başlıklı raporlarında ABD'de hukuk işlerinin yüzde 44'ünü yapay zeka destekli otomasyona açık buldu; bu oran yalnızca yüzde 46 ile idari işlerin gerisinde kalıyor. Bu bir maruziyet ölçüsü; işin ne kadarının fiilen otomatikleştiğini değil, ne kadarının açık olduğunu gösteriyor. Üç yıl sonra bu tahmin bir kışkırtmadan çok bir proje planına benziyor.
+
+Kullanım da hızla arttı. Thomson Reuters, üretken yapay zeka kullanımını hukuk bürolarında yüzde 41, şirket hukuk departmanlarında yüzde 47 olarak raporluyor. Büro kullanımı yüzde 28'den geldi, yaklaşık yarı oranında artışla; departmanlar ise yüzde 23'ten gelerek kabaca ikiye katlandı. Rapor bunu erken denemelerden çok kritik eşiğe ulaşan bir benimseme olarak tanımlıyor. Araçlar tek bir bütçe döneminde pilottan altyapıya geçti.
+
+Değişen şey hukukçunun varlığı değil, etrafındaki iş. Araştırma ve ilk taslaklar günlerden saatlere inebiliyor. E-posta kutularında gömülü kalan bilgi aranabilir hâle geliyor. Çok sayıda kıdemsiz avukatın çok saat faturalandırmasına dayanan modeller baskı altına giriyor. Fark yaratan unsur kadro büyüklüğünden muhakemeye, araçların etrafındaki iş akışı ve güvencelerin kalitesine kayıyor. Bu, hukukçuya olan ihtiyacı ortadan kaldırmıyor; onun zamanının nereye değeceğini değiştiriyor.
+
 Öne geçen kurumlar bunu pilotlar, ölçüm ve yönetişimle bir operasyon sorusu olarak ele alıyor. Geride kalanlar ise bunu bir satın alma sorusu olarak görüyor. Teknoloji işin kolay kısmı; asıl dönüşüm işin yeniden tasarımı.
-Yayımlandı 4 Temmuz 2026 - Son güncelleme 27 Temmuz 2026
+
+Yayımlandı
+4 Temmuz 2026
+· Son güncelleme
+30 Temmuz 2026
+
 Kaynaklar
-Goldman Sachs, Joseph Briggs ve Devesh Kodnani, The Potentially Large Effects of Artificial Intelligence on Economic Growth, 26 Mart 2023, Exhibit 5; bağlantı, rakamı içermeyen kurum özeti sayfasına gidiyor  <https://www.goldmansachs.com/insights/articles/generative-ai-could-raise-global-gdp-by-7-percent>
-Thomson Reuters, 2026 AI in Professional Services Report  <https://www.thomsonreuters.com/en/reports/2026-ai-in-professional-services-report>
+
+Goldman Sachs, Joseph Briggs ve Devesh Kodnani, The Potentially Large Effects of Artificial Intelligence on Economic Growth, 26 Mart 2023, Exhibit 5; bağlantı, rakamı içermeyen kurum özeti sayfasına gidiyor https://www.goldmansachs.com/insights/articles/generative-ai-could-raise-global-gdp-by-7-percent
+
+Thomson Reuters, 2026 AI in Professional Services Report https://www.thomsonreuters.com/en/reports/2026-ai-in-professional-services-report
+
+Sonraki yazı: Saatlik ücretin mantığı tükeniyor →
+
+← Tüm yazılar
+
+İletişime geç →
+
+Bu sitedeki içerik yalnızca genel bilgilendirme amaçlıdır ve hukuki tavsiye niteliği taşımaz. Sitenin kullanımı avukat-müvekkil ilişkisi doğurmaz. Buradaki görüşler kişiseldir ve mevcut ya da geçmiş hiçbir işvereni bağlamaz.
+
+© 2026 LEXSAS · İstanbul
+
+Yazılar
+
+Hakkımda
+
+İletişim
+
+LinkedIn
+
+Başa dön
+
+lexsas
+
 
 ============================================================
 ## Yazı: Saatlik ücretin mantığı tükeniyor  <https://lexsas.com/tr/yazilar/saatlik-ucretin-otesi.html>
 ============================================================
 
+İçeriğe atla
+
+lexsas
+
+Çalışma alanları
+
+Yaklaşım
+
+Hakkımda
+
+Yazılar
+
+İletişim
+
+EN
+
 Temmuz 2026 · Hukuk pazarı
 
 Saatlik ücretin mantığı tükeniyor
 
-Saatlik ücret, üretken yapay zeka gelmeden çok önce zaten bir kurguydu. Clio'nun 2025 Legal Trends raporuna göre ortalama kullanım oranı yüzde 38: sekiz saatlik günde kabaca üç saatlik faturalandırılabilir iş. Realizasyon oranı uygulandığında gerçekte faturaya yansıyan yaklaşık 2,6 saate iniyor. Bürolar günün üçte birini satıp fiyatı günün tamamı üzerinden kuruyordu. Yapay zeka bu açığı yaratmadı; açığı görmezden gelen bir fiyatlamayı sürdürülemez kılıyor.
+Saatlik ücret, üretken yapay zeka gelmeden çok önce zaten bir kurguydu. Clio'nun 2025 Legal Trends raporuna göre ortalama kullanım oranı (utilization) yüzde 38: sekiz saatlik günde kabaca üç saatlik faturalandırılabilir iş. Tahsil oranı (realization) uygulandığında gerçekte faturaya yansıyan yaklaşık 2,6 saate iniyor. Bürolar günün üçte birini satıp fiyatı günün tamamı üzerinden kuruyordu. Yapay zeka bu açığı yaratmadı; açığı görmezden gelen bir fiyatlamayı sürdürülemez kılıyor.
 
 Bu model, önceki teknoloji dalgalarını atlattı; çünkü verimlilik ile gelir ters yönlere çekiyordu: hızlanan avukat daha az kazanıyordu, dolayısıyla çalışılan gün ile faturalanan gün arasındaki farka kimse uzun uzun bakmıyordu. Clio'nun 2024 Legal Trends raporu, ABD'de büroların saatle faturalandırdığı işin yaklaşık yüzde 74'ünün otomasyona açık olduğunu modelliyor; en açık kısım rutin ve belge yoğun iş. Bu, gerçekleşmiş bir otomasyonun ölçümü değil, açığa çıkan potansiyelin tahmini.
 
-Müvekkiller tarafını çoktan seçti. Clio'nun yaklaşık bin ABD'li yetişkinle yaptığı tüketici anketinde yüzde 71'i, işleyen bir taksimetreyi izlemek yerine dosyanın tamamı için sabit ücret ödemeyi tercih ettiğini söylüyor. Gözlenmiş bir davranış değil, beyan edilmiş bir tercih; yine de yönü tek. En görünürü Eudia olmak üzere, yapay zeka odaklı yeni hukuk işletmeleri doğrudan saatlik faturalandırmanın karşısına konumlanıyor.
+Müvekkiller tarafını çoktan seçti. Clio'nun 2024 Legal Trends raporunda aktarılan, yaklaşık bin ABD'li yetişkinle yapılan tüketici anketinde katılımcıların yüzde 71'i, işleyen bir taksimetreyi izlemek yerine dosyanın tamamı için sabit ücret ödemeyi tercih ettiğini söylüyor. Gözlenmiş bir davranış değil, beyan edilmiş bir tercih; yine de yönü tek. En görünürü Eudia olmak üzere, yapay zeka odaklı yeni hukuk işletmeleri doğrudan saatlik faturalandırmanın karşısına konumlanıyor.
 
 Saatin yerini tek bir model değil bir menü alıyor: dosya başına sabit ücret, süreklilik gerektiren danışmanlıkta abonelik, değere dayalı fiyatlama. Ortak eksen şu: müvekkil bir sonucu satın alıyor. Verimlilik kazancını kimin elinde tutacağı ise kendiliğinden belli değil; ücret kuralları, yargı çevresi ve iş ilişkisinin koşulları, kazancın daha iyi iş akışını kuran büroda mı kaldığını yoksa müvekkile mi döndüğünü belirliyor.
 
@@ -3510,21 +4257,38 @@ Saatin yerini tek bir model değil bir menü alıyor: dosya başına sabit ücre
 Yayımlandı
 4 Temmuz 2026
 · Son güncelleme
-27 Temmuz 2026
+30 Temmuz 2026
 
 Kaynaklar
 
-Clio, Legal Trends Report (2025)  https://www.clio.com/resources/legal-trends/read-online/
+Clio, Legal Trends Report (2025) https://www.clio.com/resources/legal-trends/read-online/
 
-Clio, Legal Trends Report (2024)  https://www.clio.com/guides/flat-fees-legal-trends/
+Clio, Legal Trends Report (2024) https://www.clio.com/guides/flat-fees-legal-trends/
 
-Fortune, on Eudia as an AI-native legal business challenging the billable hour (2025)  https://fortune.com/2025/09/03/eudia-legal-tech-ai-startup-killing-billable-hour/
+Fortune, on Eudia as an AI-native legal business challenging the billable hour (2025) https://fortune.com/2025/09/03/eudia-legal-tech-ai-startup-killing-billable-hour/
 
 Sonraki yazı: Yapay zeka hukuk sektörünü sessizce yeniden çiziyor →
 
 ← Tüm yazılar
 
 İletişime geç →
+
+Bu sitedeki içerik yalnızca genel bilgilendirme amaçlıdır ve hukuki tavsiye niteliği taşımaz. Sitenin kullanımı avukat-müvekkil ilişkisi doğurmaz. Buradaki görüşler kişiseldir ve mevcut ya da geçmiş hiçbir işvereni bağlamaz.
+
+© 2026 LEXSAS · İstanbul
+
+Yazılar
+
+Hakkımda
+
+İletişim
+
+LinkedIn
+
+Başa dön
+
+lexsas
+
 
 ============================================================
 ## LinkedIn gönderisi: Yapay zeka ajanı kum havuzundan çıkarsa kim sorumlu olur? (personal LinkedIn post by the founder; opinion commentary, quoted verbatim)  <https://lexsas.com/tr/linkedin-gonderileri/openai-hugging-face-yapay-zeka-ajani-sorumlulugu.html>
@@ -3557,7 +4321,7 @@ OpenAI'ın açıklamasına göre Hugging Face üzerinde yürütülen model değe
 
 Sorumluluk hukukunda fail ile araç arasındaki ayrım genellikle nettir. Araç, öngörülmeyen bir yolu araştırıp seçtiğinde bu ayrım zorlaşır. Roma hukukundaki hayvan gözetimi benzetmesi burada düşünmeye yardımcı olur: hayvanın davranışı sahibinin emriyle gerçekleşmese de gözeten, bakım ve denetim yükümlülüğü nedeniyle zarardan sorumlu tutulabilir. Bu benzetme yapay zekaya kişilik atfetmez; gözetim, denetim ve riskin kime ait olduğunu tartışmaya açar.
 
-Türk Borçlar Kanunu'nun 67. maddesi, hayvan bulunduranın sorumluluğuna ilişkin bir başlangıç noktası sunar; yapay zeka ajanları için doğrudan uygulanacak hazır bir hüküm değildir. Zararın ajanı devreye alan, işleten, geliştiren, altyapıyı yöneten ya da riski denetleme imkanı bulunan başka bir kişi üzerinde mi kalacağı somut olaya göre değerlendirilmelidir. Sözleşmeler riskin bir bölümünü dağıtabilir; ancak sistemin ve güvenlik tedbirlerinin fiili gözetiminin kimde olduğu sorusunu ortadan kaldırmaz.
+Türk Borçlar Kanunu'nun 67. maddesi, hayvan bulunduranın sorumluluğuna ilişkin bir başlangıç noktası sunar; yapay zeka ajanları için doğrudan uygulanacak hazır bir hüküm değildir. Zararın ajanı devreye alan, işleten, geliştiren, altyapıyı yöneten ya da riski denetleme imkânı bulunan başka bir kişi üzerinde mi kalacağı somut olaya göre değerlendirilmelidir. Sözleşmeler riskin bir bölümünü dağıtabilir; ancak sistemin ve güvenlik tedbirlerinin fiili gözetiminin kimde olduğu sorusunu ortadan kaldırmaz.
 
 Kaynaklar
 
@@ -3615,11 +4379,11 @@ Jeopolitik sigorta olarak açık ağırlıklar
 
 İhracat kontrolleri, Kimi K3, Inkling ve Çin'in açık kaynak mesajı aynı stratejik soruya işaret ediyor: frontier yapay zekaya erişim bir baskı aracına dönüştüğünde ne olur?
 
-Anthropic, Haziran ayında bir kamu otoritesinin hukuki talimatı üzerine Fable 5 ve Mythos 5 erişimini kaldırdı, 1 Temmuza kadar da kademeli olarak geri açtı. Üç hafta boyunca, ekiplerin araştırmaya, taslak yazımına ve destek süreçlerine gömdüğü bir kabiliyet onların elinde değildi. Konu ihracat kontrolü, erişim politikası ya da risk yönetimi olarak adlandırılsın, uzaktaki bir modele dayanan ekipler için sonuç aynı: kritik bir kabiliyet, kendi teknik takvimlerinin dışında erişilemez hale gelebilir.
+Anthropic, Haziran ayında bir kamu otoritesinin hukuki talimatı üzerine Fable 5 ve Mythos 5 erişimini kaldırdı, 1 Temmuz'a kadar da kademeli olarak geri açtı. Üç hafta boyunca, ekiplerin araştırmaya, taslak yazımına ve destek süreçlerine gömdüğü bir kabiliyet onların elinde değildi. Konu ihracat kontrolü, erişim politikası ya da risk yönetimi olarak adlandırılsın, uzaktaki bir modele dayanan ekipler için sonuç aynı: kritik bir kabiliyet, kendi teknik takvimlerinin dışında erişilemez hâle gelebilir.
 
-Açık ağırlıklar, yani eğitilmiş model parametrelerinin indirilebildiği ve uyarlanabildiği modeller, bu bağımlılığa başka bir seçenek sunuyor. Kimi K3, açık 2,8 trilyon parametreli bir model olarak tanıtıldı ve tam ağırlıklarının 27 Temmuzda yayımlanacağı açıklandı. Thinking Machines de Inkling'i, kullanıcıların özelleştirebilmesi için tam ağırlıklarıyla yayımladı. Bu sistemler birbirinin yerine geçmez; onları çalıştırmak için gereken hesaplama gücü, veri, insan kaynağı ve altyapı ihtiyacını da ortadan kaldırmaz. Ancak daha çok aktöre modeli inceleme, uyarlama ve kendi ortamında çalıştırma imkanı verir.
+Açık ağırlıklar, yani eğitilmiş model parametrelerinin indirilebildiği ve uyarlanabildiği modeller, bu bağımlılığa başka bir seçenek sunuyor. Kimi K3, açık 2,8 trilyon parametreli bir model olarak tanıtıldı ve tam ağırlıklarının 27 Temmuz'da yayımlanacağı açıklandı. Thinking Machines de Inkling'i, kullanıcıların özelleştirebilmesi için tam ağırlıklarıyla yayımladı. Bu sistemler birbirinin yerine geçmez; onları çalıştırmak için gereken hesaplama gücü, veri, insan kaynağı ve altyapı ihtiyacını da ortadan kaldırmaz. Ancak daha çok aktöre modeli inceleme, uyarlama ve kendi ortamında çalıştırma imkânı verir.
 
-Çin, 17 Temmuzdaki küresel yapay zeka yönetişimi konuşmasında açık kaynak, açıklık, iş birliği ve paylaşım çağrısı yaptı. Bu mesaj, önde gelen sistemlere erişimin giderek daha fazla ulusal güvenlik kararlarıyla şekillendiği ortamda ayrı bir anlam taşıyor. Tartışma yalnız söylemsel değil: bir modelin kimin üzerine inşa edebileceği, nerede çalıştırılabileceği ve kritik kabiliyetin geri çekilip çekilemeyeceği ile ilgili.
+Çin, 17 Temmuz'daki küresel yapay zeka yönetişimi konuşmasında açık kaynak, açıklık, iş birliği ve paylaşım çağrısı yaptı. Bu mesaj, önde gelen sistemlere erişimin giderek daha fazla ulusal güvenlik kararlarıyla şekillendiği ortamda ayrı bir anlam taşıyor. Tartışma yalnız söylemsel değil: bir modelin kimin üzerine inşa edebileceği, nerede çalıştırılabileceği ve kritik kabiliyetin geri çekilip çekilemeyeceği ile ilgili.
 
 Bu nedenle açık ağırlıklar dijital egemenliğin bütününü değil, önemli bir unsurunu oluşturur. Tek bir sağlayıcının erişim üzerindeki kontrolünü azaltabilir; yerel uyarlama, denetlenebilirlik ve süreklilik için seçenek yaratabilir. Asıl stratejik soru, modelin açık ya da kapalı olmasından çok, frontier yapay zeka bir baskı aracına dönüşürken bir ülkenin, kurumun veya şirketin hangi bağımlılıkları kabul etmeye hazır olduğudur.
 
@@ -3689,7 +4453,7 @@ Demis Hassabis, frontier yapay zeka için FINRA benzeri bir yapı öneriyor: sek
 
 Güvenlik faydası açık. Ortak yöntemler tekrar eden testleri azaltabilir, başarısızlık bildirimlerini karşılaştırılabilir kılabilir ve alıcılara koruma önlemlerini değerlendirecek anlaşılır bir temel sunabilir. Federal gözetim de standartların tek bir şirketin iyi niyetine bağlı kalmasını azaltabilir.
 
-Ancak sertifikasyon, güvence olduğu kadar giriş engeline de dönüşebilir. En büyük laboratuvarlar kendi kapasitelerine göre pahalı ve kapalı gereklilikler yazarsa, küçük geliştiriciler ve açık araştırma grupları rekabet edemeden dışarıda kalabilir. Bu nedenle tartışma, FINRA benzeri bir yapının yararlı olup olmadığından çok, yönetişiminin, erişim kurallarının ve itiraz yollarının kural kitabını yazarlarını koruyan bir araca dönüştürüp dönüştürmeyeceğidir. Bu, şu an için bir öneridir; yürürlükteki bir hukuk düzenlemesi değildir.
+Ancak sertifikasyon, güvence olduğu kadar giriş engeline de dönüşebilir. En büyük laboratuvarlar kendi kapasitelerine göre pahalı ve kapalı gereklilikler yazarsa, küçük geliştiriciler ve açık araştırma grupları rekabet edemeden dışarıda kalabilir. Bu nedenle tartışma, FINRA benzeri bir yapının yararlı olup olmadığından çok, yönetişiminin, erişim kurallarının ve itiraz yollarının kural kitabını yazanları koruyan bir araca dönüştürüp dönüştürmeyeceğidir. Bu, şu an için bir öneridir; yürürlükteki bir hukuk düzenlemesi değildir.
 
 Kaynaklar
 
@@ -3747,11 +4511,11 @@ Anthropic'in J-lens aracı, model çıktısında hiç görünmeyen iç örüntü
 
 Anthropic'in global workspace araştırması, model katmanları arasındaki örüntüleri bağlayabilen ortak bir temsil alanı olan J-space'i anlatıyor. J-lens bu alanı incelemeye yarıyor. Ortaya çıkan şey düşüncenin dökümü değil; yanıtta hiç görünmeyebilecek iç özelliklere ilişkin kanıt.
 
-AB Yapay Zeka Tüzüğü'nün 13. maddesi yüksek riskli sistemin sağlayıcısına yöneliktir ve istediği şey belgeseldir: kullanılabilecek kadar şeffaf tasarlanmış bir sistem ve yanında, doğruluğunu, bilinen sınırlarını, öngörülebilir risklerini ve gerektirdiği insan gözetimini yazan bir kullanım talimatı. J-lens ise farklı bir katmanda çalışır: bunların hiçbirinde görünmeyen iç örüntüleri yüzeye çıkarabilir. Talimat borcu her hâlükârda duruyor, mesele de bu. Modelin içine bakmanın yeni bir yolu, o modelin ne işe yaradığını kağıt üzerinde söyleme yükümlülüğünü ortadan kaldırmıyor.
+AB Yapay Zeka Tüzüğü'nün 13. maddesi yüksek riskli sistemin sağlayıcısına yöneliktir ve istediği şey belgeye dayanır: kullanılabilecek kadar şeffaf tasarlanmış bir sistem ve yanında, doğruluğunu, bilinen sınırlarını, öngörülebilir risklerini ve gerektirdiği insan gözetimini yazan bir kullanım talimatı. J-lens ise farklı bir katmanda çalışır: bunların hiçbirinde görünmeyen iç örüntüleri yüzeye çıkarabilir. Talimat borcu her hâlükârda duruyor, mesele de bu. Modelin içine bakmanın yeni bir yolu, o modelin ne işe yaradığını kâğıt üzerinde söyleme yükümlülüğünü ortadan kaldırmıyor.
 
 Burada izleme ile sorumluluk arasında bir paradoks var. Bakmayan ekip riskten habersiz kalabilir; bakan ekip ise artık görmezden gelemeyeceği bir işaretle karşılaşabilir. Yönetişim körlüğü ödüllendirmemeli. Keşif niteliğindeki sinyalleri doğrulanmış bulgulardan ayırmalı, orantılı değerlendirmeyi kayda geçirmeli ve iyileştirme kararını kimin vereceğini belirlemeli.
 
-İyi niyetli tespit için güvenli alan yararlı olur. Sınırları dikkatle çizilmiş bir çerçevede, modellerini inceleyen, yöntemi belgelendiren ve güvenilir bulgulara süratle karşılık veren kuruluşlar, sistemi anlamaya çalıştıkları için ek sorumlulukla karşılaşmamalı. Böylece yorumlanabilirlik, merceği kapatma gerekçesi değil, bir denetim aracına dönüşebilir.
+İyi niyetli tespit için bir güvenli liman yararlı olur. Sınırları dikkatle çizilmiş bir çerçevede, modellerini inceleyen, yöntemi belgelendiren ve güvenilir bulgulara süratle karşılık veren kuruluşlar, sistemi anlamaya çalıştıkları için ek sorumlulukla karşılaşmamalı. Böylece yorumlanabilirlik, merceği kapatma gerekçesi değil, bir denetim aracına dönüşebilir.
 
 Kaynaklar
 
