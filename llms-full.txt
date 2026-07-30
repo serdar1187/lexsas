@@ -2525,7 +2525,7 @@ Zor kısım hiçbir zaman beş iş günlük bildirim değildi. Kurum artık bir 
 Temmuz 2026
 Hukukta yapay zeka
 
-Kendi ajan iş akışınızı kurmak: tuval hukuk ekibine ne kazandırır
+Kendi ajan iş akışınızı kurmak: tasarım ekranı hukuk ekibine ne kazandırır
 
 Satın alınan ürün başkasının iş akışını getirir. Kendinizinkini kurmak; aşamaları, yetki kümesini ve kayıtları hukuk ekibinin eline verir.
 
@@ -2973,7 +2973,7 @@ Kusurlu ürün sorumluluğuna ilişkin (AB) 2024/2853 sayılı Direktif, madde 2
 
 Avrupa Parlamentosu Legislative Train, yapay zeka sorumluluk direktifi: geri çekildi https://www.europarl.europa.eu/legislative-train/theme-a-europe-fit-for-the-digital-age/file-ai-liability-directive
 
-Sonraki yazı: Kendi ajan iş akışınızı kurmak: tuval hukuk ekibine ne kazandırır →
+Sonraki yazı: Kendi ajan iş akışınızı kurmak: tasarım ekranı hukuk ekibine ne kazandırır →
 
 ← Tüm yazılar
 
@@ -3073,7 +3073,7 @@ lexsas
 
 
 ============================================================
-## Yazı: Kendi ajan iş akışınızı kurmak: tuval hukuk ekibine ne kazandırır  <https://lexsas.com/tr/yazilar/kendi-ajan-is-akisinizi-kurmak.html>
+## Yazı: Kendi ajan iş akışınızı kurmak: tasarım ekranı hukuk ekibine ne kazandırır  <https://lexsas.com/tr/yazilar/kendi-ajan-is-akisinizi-kurmak.html>
 ============================================================
 
 İçeriğe atla
@@ -3094,7 +3094,7 @@ EN
 
 Temmuz 2026 · Hukukta yapay zeka
 
-Kendi ajan iş akışınızı kurmak: tuval hukuk ekibine ne kazandırır
+Kendi ajan iş akışınızı kurmak: tasarım ekranı hukuk ekibine ne kazandırır
 
 Kurulan iş akışı hukuk ekibine, satın alınanın veremeyeceği üç şey verir: kendi aşamaları, okuyabildiği bir yetki kümesi ve sahibi olduğu kayıtlar. İstediği dördüncü şey ise disiplindir.
 
@@ -3102,7 +3102,7 @@ Bu ay yayımlanan
 Hukukta yapay zeka: geliştirmek mi, satın almak mı, uyarlamak mı?
 hangi yolun hangi işe uyduğuna karar veriyor. Bu yazı o kararın sonrasına bakıyor, çünkü kazanç orada. Bir hukuk ekibi için iş akışı kurduğumda ilk çizdiğimiz şey otomasyon olmuyor; ekibin kendi günü oluyor: dosya nereden geliyor, ilk kim okuyor, iş nerede ve kimi bekliyor. Satın alınan ürün bu sorulara başkasının cevabını getirir. Kendi kurduğunuz ajan iş akışı sizinkini getirir; ilk kazanç budur: ekip kendi düzenini bozmak zorunda kalmaz.
 
-İkinci kazanç, gözle görülür kontrol. Tuvalde ajanın tuttuğu her araç, okuyabildiği her kaynak, yazabildiği her yer; bir hukukçunun işaret edip sorgulayabileceği ve kaldırabileceği çizili bir bağlantıdır. Meta'nın Agents Rule of Two yaklaşımı, Simon Willison'ın lethal trifecta adını verdiği üç riskli özellikten bir ajana tek oturumda en çok ikisini tanır; bu sınır iş akışı olarak çizildiğinde tedarikçi güvencesi olmaktan çıkar, hukuk direktörünün okuyabildiği bir resme dönüşür. Güvenlik incelemesi bir anketten,
+İkinci kazanç, gözle görülür kontrol. Akışın çizildiği tasarım ekranında (canvas) ajanın kullandığı her araç, okuyabildiği her kaynak, yazabildiği her yer; bir hukukçunun işaret edip sorgulayabileceği ve kaldırabileceği çizili bir bağlantıdır. Meta'nın Agents Rule of Two yaklaşımı, Simon Willison'ın lethal trifecta adını verdiği üç riskli özellikten bir ajana tek oturumda en çok ikisini tanır; bu sınır iş akışı olarak çizildiğinde tedarikçi güvencesi olmaktan çıkar, hukuk direktörünün okuyabildiği bir resme dönüşür. Güvenlik incelemesi bir anketten,
 kendi koyduğunuz bir görev tanımına
 döner.
 
@@ -3110,7 +3110,7 @@ döner.
 
 Hiçbiri bedava değil. Kurulan iş akışı sahiplidir ve sahiplik bakım demektir: her model, istem ya da bağlantı değişikliği
 bir değişiklik kapısından
-geçer; iş akışı tanımı, çıkışta yanınıza alacağınız varlıklar listesine girer. Yolun dürüst sınavı da budur: tuvale sahip olmaktan en çok kazananlar, disipline de sahip çıkmaya hazır ekiplerdir. Bir ekibin bu çizginin hangi tarafında durduğu, pilottan önce konuşulmayı hak eder.
+geçer; iş akışı tanımı, çıkışta yanınıza alacağınız varlıklar listesine girer. Yolun dürüst sınavı da budur: bu ekrana sahip olmaktan en çok kazananlar, disipline de sahip çıkmaya hazır ekiplerdir. Bir ekibin bu çizginin hangi tarafında durduğu, pilottan önce konuşulmayı hak eder.
 
 Yayım
 28 Temmuz 2026
@@ -3729,7 +3729,7 @@ ILTA 2024 Technology Survey (via eDiscovery Today) https://ediscoverytoday.com/2
 
 Bloomberg Law, law firm tech budgets and the build-versus-buy AI debate (2026) https://news.bloomberglaw.com/daily-labor-report/law-firm-tech-budgets-drive-the-build-versus-buy-ai-debate
 
-Sonraki yazı: Kendi ajan iş akışınızı kurmak: tuval hukuk ekibine ne kazandırır →
+Sonraki yazı: Kendi ajan iş akışınızı kurmak: tasarım ekranı hukuk ekibine ne kazandırır →
 
 ← Tüm yazılar
 

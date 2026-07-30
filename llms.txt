@@ -38,7 +38,7 @@ English.
 - [KVKK standard contracts: what the first full year's 2,497 notifications say](https://lexsas.com/insights/kvkk-standard-contracts-year-one.html)
 - [KVKK standart sözleşmeleri: ilk tam yılın 2.497 bildirimi](https://lexsas.com/tr/yazilar/kvkk-standart-sozlesmelerde-ilk-yil.html)
 - [Composing your own agentic workflow: what the canvas gives a legal team](https://lexsas.com/insights/composing-agentic-legal-workflows.html)
-- [Kendi ajan iş akışınızı kurmak: tuval hukuk ekibine ne kazandırır](https://lexsas.com/tr/yazilar/kendi-ajan-is-akisinizi-kurmak.html)
+- [Kendi ajan iş akışınızı kurmak: tasarım ekranı hukuk ekibine ne kazandırır](https://lexsas.com/tr/yazilar/kendi-ajan-is-akisinizi-kurmak.html)
 - [Marketplace compliance ops: one notice queue, set to the tightest clock](https://lexsas.com/insights/marketplace-compliance-ops.html)
 - [Pazaryeri uyum operasyonu: tek bildirim kuyruğu, en sıkı süreye ayarlı](https://lexsas.com/tr/yazilar/pazaryeri-uyum-operasyonu.html)
 - [Prompt injection in legal workflows: a filter is not a control](https://lexsas.com/insights/prompt-injection-legal-workflows.html)
