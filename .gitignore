@@ -30,3 +30,6 @@ assets/brand/README.txt
 
 # Claude Code workspace config (local only)
 .claude/
+
+# AI-generated concept images, local archive only (never published)
+concept-gorseller/
