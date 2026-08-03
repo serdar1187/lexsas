@@ -1651,7 +1651,7 @@ main:has(.contact-rows) {
 /* Article covers use the same commissioned illustration in both language
    editions. The frame stays neutral so the artwork carries the topic colour. */
 .article-cover {
-  max-width: 1120px;
+  max-width: 880px;
   margin-top: 0;
   margin-bottom: clamp(2.25rem, 5vw, 4.5rem);
 }
