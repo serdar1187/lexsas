@@ -1648,6 +1648,21 @@ main:has(.contact-rows) {
   text-decoration-color: color-mix(in srgb, var(--ink) 30%, transparent);
 }
 
+/* Article covers use the same commissioned illustration in both language
+   editions. The frame stays neutral so the artwork carries the topic colour. */
+.article-cover {
+  max-width: 1120px;
+  margin-top: 0;
+  margin-bottom: clamp(2.25rem, 5vw, 4.5rem);
+}
+.article-cover img {
+  width: 100%;
+  border: var(--hairline);
+  border-radius: 18px;
+  background: #F4F0E8;
+  box-shadow: 0 18px 60px rgb(34 39 44 / .08);
+}
+
 /* Article pages */
 .article-hero {
   padding-top: clamp(56px, 9vh, 100px);
