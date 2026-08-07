@@ -343,10 +343,15 @@ a, button, input, select, textarea, summary, [tabindex] {
    `anywhere` lets min-content shrink. At normal sizes the words fit, so
    nothing breaks that did not have to.
 
-   On the elements rather than on a list of classes, because the list missed
-   four of the ten heading kinds the site actually ships, including
-   .article-title and .sources-title, which are the two most common. */
-h1, h2, h3, h4, h5, h6 { overflow-wrap: anywhere; }
+   On body rather than on a list of selectors, because the list kept missing
+   things. It started as six heading classes, which turned out to cover six of
+   the ten heading kinds the site ships; widening it to the elements then left
+   ordinary prose overflowing at 320px: a FAQ question, an area paragraph, a
+   job's bullet, an article title and an article paragraph, all the same
+   defect one layer down. overflow-wrap inherits, so one declaration reaches
+   every text node, and `anywhere` shrinking min-content is also what lets the
+   flex and grid items above them stop holding their tracks open. */
+body { overflow-wrap: anywhere; }
 
 .section-title {
   margin: 14px 0 0;
