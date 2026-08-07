@@ -462,11 +462,16 @@ body { overflow-wrap: anywhere; }
   z-index: 60;
   /* The narrow-header rules below are duplicated under a container query so
      that the switch also happens on text zoom. A viewport query cannot see it:
-     at 200% on a 768px tablet this bar wanted 1133px of a 640px shell and
-     pushed every page sideways by 429px, 484px on the Turkish pages. Measured
-     in a browser: with the threshold in em, the container query fires at 720px
-     when the root is 16px, 1080px at 24px and 1440px at 32px, so nothing about
-     today's desktop header changes. */
+     at 200% on a 768px tablet this bar pushed every page sideways by 429px,
+     and by 484px on the Turkish pages.
+
+     The threshold is the measured point where the one-row bar stops fitting,
+     not a round number. Binary search over container width puts it at 33.3 to
+     34.5em in English and 35.1 to 36.4em in Turkish, whose nav labels run
+     longer, across root font sizes of 16, 20, 24 and 32px; 37em covers the
+     worst of those with a little headroom. It was 45em first, and that sent a
+     reader at 125% text zoom on a 1024px laptop to the phone header while the
+     desktop row still fitted inside 928px. */
   container-type: inline-size;
   container-name: site-header;
   /* Glass mixed from the paper token, not from a second copy of its hex. The
@@ -599,7 +604,7 @@ body.loaded .mark-x {
    appearing. */
 /* inline-block makes each word an atomic box, so the rule above cannot reach
    inside it. The split version needs the same permission. */
-.hero-title .hw { display: inline-block; overflow-wrap: anywhere; }
+.hero-title .hw { display: inline-block; }
 .hero-title.split .hw {
   opacity: 0;
   transform: translateY(.38em);
@@ -1085,9 +1090,6 @@ html:not(.js) .faq-q { -webkit-text-fill-color: var(--ink); opacity: 1; }
   color: var(--ink);
   text-decoration: none;
   padding-bottom: 8px;
-  /* An address is one unbreakable token: at 200% text zoom
-     serdar@lexsas.com measured 373px inside a 295px column. */
-  overflow-wrap: anywhere;
 }
 .contact-mail::after {
   content: "";
@@ -2001,7 +2003,7 @@ main:has(.contact-rows) {
    wraps while that variable keeps its desktop value, so an in-page jump lands
    short. That is a smaller fault than the sideways scroll it replaces, and it
    is written down here rather than left to be rediscovered. */
-@container site-header (max-width: 45em) {
+@container site-header (max-width: 37em) {
   .header-inner { flex-wrap: wrap; gap: .9rem 1.2rem; padding-block: .8rem; }
   .brand { flex: 1 1 100%; }
   .nav {
