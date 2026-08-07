@@ -334,6 +334,21 @@ a, button, input, select, textarea, summary, [tabindex] {
   color: color-mix(in srgb, var(--paper) 55%, transparent);
 }
 
+/* Every display heading is sized in rem through clamp(), so it grows with a
+   reader's text-zoom setting while the column it sits in does not. At 200% on
+   a 375px phone a single word outgrew the column and pushed the whole page
+   sideways: "Konuşalım." wanted 443px of a 295px column, and the English
+   approach heading 339px. `anywhere` rather than `break-word` because the
+   column was being held open by the word's min-content width, and only
+   `anywhere` lets min-content shrink. At normal sizes the words fit, so
+   nothing breaks that did not have to. */
+.hero-title,
+.section-title,
+.contact-title,
+.page-heading,
+.principle h3,
+.area h3 { overflow-wrap: anywhere; }
+
 .section-title {
   margin: 14px 0 0;
   font-family: var(--serif);
@@ -556,6 +571,9 @@ body.loaded .mark-x {
   font-size: clamp(2.7rem, 5.9vw, 5.15rem);
   line-height: 1.04;
   letter-spacing: -.021em;
+  /* The measure is in ch, which grows with the text, so it stops capping at
+     exactly the size where it would be needed. The grouped rule above is what
+     lets the words break instead. */
   max-width: 13ch;
   text-wrap: balance;
 }
@@ -566,7 +584,9 @@ body.loaded .mark-x {
    rests on, spent the boldness in the wrong place. The stagger stays, because
    it is what makes the line read as a sentence assembling rather than a block
    appearing. */
-.hero-title .hw { display: inline-block; }
+/* inline-block makes each word an atomic box, so the rule above cannot reach
+   inside it. The split version needs the same permission. */
+.hero-title .hw { display: inline-block; overflow-wrap: anywhere; }
 .hero-title.split .hw {
   opacity: 0;
   transform: translateY(.38em);
@@ -1041,6 +1061,9 @@ html:not(.js) .faq-q { -webkit-text-fill-color: var(--ink); opacity: 1; }
   color: var(--ink);
   text-decoration: none;
   padding-bottom: 8px;
+  /* An address is one unbreakable token: at 200% text zoom
+     serdar@lexsas.com measured 373px inside a 295px column. */
+  overflow-wrap: anywhere;
 }
 .contact-mail::after {
   content: "";
