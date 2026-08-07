@@ -183,6 +183,13 @@ document.documentElement.classList.add("js");
        without one. It reads the class rather than assuming, so a page that
        ever ships an answer open still announces itself correctly. */
     btn.setAttribute("aria-expanded", item.classList.contains("open") ? "true" : "false");
+    /* The static HTML ships these buttons disabled for the same reason. With
+       no script the CSS opens every answer and hides the icon, but a plain
+       button still takes a tab stop and still announces as an operable
+       control, so a keyboard or screen reader user met five buttons that did
+       nothing. Disabled keeps them out of the tab order and honest about it;
+       the attribute comes off here, in the same breath as aria-expanded. */
+    btn.removeAttribute("disabled");
     btn.addEventListener("click", () => {
       const isOpen = item.classList.contains("open");
       faqItems.forEach((other) => {

@@ -1014,6 +1014,10 @@ body.loaded .mark-x {
 html:not(.js) .faq-a { grid-template-rows: 1fr; }
 html:not(.js) .faq-icon { display: none; }
 html:not(.js) .faq-q { cursor: default; }
+/* These buttons ship disabled and js/main.js removes the attribute. This is
+   the only state where it survives, and Safari greys a disabled control
+   through -webkit-text-fill-color, which `color` alone does not override. */
+html:not(.js) .faq-q { -webkit-text-fill-color: var(--ink); opacity: 1; }
 
 /* ---------- Contact ---------- */
 
