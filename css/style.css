@@ -341,13 +341,12 @@ a, button, input, select, textarea, summary, [tabindex] {
    approach heading 339px. `anywhere` rather than `break-word` because the
    column was being held open by the word's min-content width, and only
    `anywhere` lets min-content shrink. At normal sizes the words fit, so
-   nothing breaks that did not have to. */
-.hero-title,
-.section-title,
-.contact-title,
-.page-heading,
-.principle h3,
-.area h3 { overflow-wrap: anywhere; }
+   nothing breaks that did not have to.
+
+   On the elements rather than on a list of classes, because the list missed
+   four of the ten heading kinds the site actually ships, including
+   .article-title and .sources-title, which are the two most common. */
+h1, h2, h3, h4, h5, h6 { overflow-wrap: anywhere; }
 
 .section-title {
   margin: 14px 0 0;
@@ -456,6 +455,15 @@ a, button, input, select, textarea, summary, [tabindex] {
   position: sticky;
   top: 0;
   z-index: 60;
+  /* The narrow-header rules below are duplicated under a container query so
+     that the switch also happens on text zoom. A viewport query cannot see it:
+     at 200% on a 768px tablet this bar wanted 1133px of a 640px shell and
+     pushed every page sideways by 429px, 484px on the Turkish pages. Measured
+     in a browser: with the threshold in em, the container query fires at 720px
+     when the root is 16px, 1080px at 24px and 1440px at 32px, so nothing about
+     today's desktop header changes. */
+  container-type: inline-size;
+  container-name: site-header;
   /* Glass mixed from the paper token, not from a second copy of its hex. The
      opaque declaration above it is the fallback: without color-mix the bar is
      solid paper, which loses the glass and keeps the header legible, so the
@@ -626,6 +634,13 @@ body.loaded .mark-x {
   font: 600 .84rem var(--sans);
   letter-spacing: .02em;
   color: var(--ink);
+  /* A grid item's automatic minimum is its longest word, so at 200% text zoom
+     the four equal tracks stopped shrinking and the about pages went sideways,
+     by 21px in English and 72px in Turkish. Resetting the item's minimum is
+     surgical where changing the track definition was not: auto-fit left two
+     collapsed tracks and their gaps at 1280px and above. */
+  min-width: 0;
+  overflow-wrap: anywhere;
 }
 
 /* ---------- Giant wordmark band ---------- */
@@ -1963,6 +1978,43 @@ main:has(.contact-rows) {
   .work-num { font-size: 4.2rem; }
   .faq-q { font-size: 1.05rem; }
   .footer-meta { gap: 1.2rem; }
+}
+
+/* The same narrow header, switched on the bar's own width measured in em, so a
+   reader who doubles the text gets the wrapped layout that a 720px viewport
+   query would never give them. Deliberately a copy rather than a shared rule:
+   the media query has to stay for browsers without container queries, where
+   keeping today's layout is the safe direction to fail in.
+
+   One thing this cannot reach: --header-h lives on :root, and a container
+   query only styles descendants of its container. Under text zoom the bar
+   wraps while that variable keeps its desktop value, so an in-page jump lands
+   short. That is a smaller fault than the sideways scroll it replaces, and it
+   is written down here rather than left to be rediscovered. */
+@container site-header (max-width: 45em) {
+  .header-inner { flex-wrap: wrap; gap: .9rem 1.2rem; padding-block: .8rem; }
+  .brand { flex: 1 1 100%; }
+  .nav {
+    flex: 1 1 0;
+    min-width: 0;
+    flex-wrap: wrap;
+    gap: 0 1.2rem;
+    padding-top: 2px;
+  }
+  .nav a {
+    display: inline-flex;
+    align-items: center;
+    min-height: 44px;
+    padding-bottom: 0;
+  }
+  .nav a::after { bottom: 10px; }
+  .lang-toggle {
+    align-self: flex-end;
+    display: inline-flex;
+    align-items: center;
+    min-height: 44px;
+    padding-block: 0;
+  }
 }
 
 /* The nav takes a second row of its own below this, so the bar grows by one
