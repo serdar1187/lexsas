@@ -645,7 +645,6 @@ body.loaded .mark-x {
      surgical where changing the track definition was not: auto-fit left two
      collapsed tracks and their gaps at 1280px and above. */
   min-width: 0;
-  overflow-wrap: anywhere;
 }
 
 /* ---------- Giant wordmark band ---------- */
@@ -656,6 +655,11 @@ body.loaded .mark-x {
   text-align: center;
 }
 .wordmark {
+  /* The mark is the brand, not copy: it may be clipped by the band's
+     overflow, but it may never be hyphenated. Body hands down
+     overflow-wrap: anywhere, and at a 320px viewport with 200% text that
+     split it into "lex" and "sas". */
+  overflow-wrap: normal;
   margin-top: clamp(2.5rem, 6vw, 4.5rem);
   font-family: var(--serif);
   font-weight: 600;
@@ -1134,6 +1138,7 @@ html:not(.js) .faq-q { -webkit-text-fill-color: var(--ink); opacity: 1; }
 }
 
 .footer-wordmark {
+  overflow-wrap: normal;  /* same reason as .wordmark above */
   font-family: var(--serif);
   font-weight: 600;
   font-size: clamp(4rem, 18.5vw, 17rem);
