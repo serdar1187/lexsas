@@ -411,8 +411,11 @@ a, button, input, select, textarea, summary, [tabindex] {
 
 .u-link-strong { font-size: 1rem; }
 .u-link-muted { color: var(--muted); }
+/* The arrow answers focus as well as hover, the way .insight-arrow already
+   does below. A keyboard reader was getting the underline and not the nudge. */
 .u-arrow { transition: transform .3s var(--ease-out); }
-.u-link:hover .u-arrow { transform: translateX(5px); }
+.u-link:hover .u-arrow,
+.u-link:focus-visible .u-arrow { transform: translateX(5px); }
 
 /* ---------- Scroll progress (the signature line, alive) ---------- */
 
@@ -837,7 +840,8 @@ body.loaded .mark-x {
 
 .exp-body .u-link { margin-top: 34px; }
 /* the trailing link is a same-page jump, so its arrow nudges downward */
-.exp-body .u-link:hover .u-arrow { transform: translateY(4px); }
+.exp-body .u-link:hover .u-arrow,
+.exp-body .u-link:focus-visible .u-arrow { transform: translateY(4px); }
 
 /* ---------- Insights ---------- */
 
