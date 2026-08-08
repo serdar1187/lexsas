@@ -210,8 +210,26 @@
      scoped to the language rather than applied to both trees. See the foot of
      the responsive section. */
   --header-h: 73px;
-  --jump-offset: calc(var(--header-h) + 24px);
-  --stick-top: calc(var(--header-h) + 37px);
+
+  /* Two variables, because the bar both reads a height and has one.
+     --header-h is the input: it sizes .header-inner, and the media queries
+     below set it per breakpoint. --header-h-live is the output, what the bar
+     actually measures, and it is what everything that has to clear the bar
+     reads.
+
+     They part company under text zoom. The container query wraps the bar to
+     two or three rows, but a container query can only style descendants of its
+     container, and these live on :root, so no CSS can carry the new height
+     out. js/main.js measures the bar and writes --header-h-live here. Without
+     that script the fallback below keeps today's behaviour exactly, so the
+     script stays an enhancement rather than something the layout needs.
+
+     Writing to a separate variable is what keeps this from oscillating: if the
+     measured height fed --header-h, it would resize the bar it just
+     measured. */
+  --header-h-live: var(--header-h);
+  --jump-offset: calc(var(--header-h-live) + 24px);
+  --stick-top: calc(var(--header-h-live) + 37px);
 }
 
 /* ---------- Base ---------- */
@@ -1674,8 +1692,8 @@ html:not(.js) .faq-q { -webkit-text-fill-color: var(--ink); opacity: 1; }
    than by a class the markup does not carry; a browser without :has simply
    keeps today's layout, which is the fail-open direction. */
 main:has(.contact-rows) {
-  min-height: calc(100vh - var(--header-h));
-  min-height: calc(100svh - var(--header-h));
+  min-height: calc(100vh - var(--header-h-live));
+  min-height: calc(100svh - var(--header-h-live));
 }
 
 .contact-rows {
@@ -1998,11 +2016,9 @@ main:has(.contact-rows) {
    the media query has to stay for browsers without container queries, where
    keeping today's layout is the safe direction to fail in.
 
-   One thing this cannot reach: --header-h lives on :root, and a container
-   query only styles descendants of its container. Under text zoom the bar
-   wraps while that variable keeps its desktop value, so an in-page jump lands
-   short. That is a smaller fault than the sideways scroll it replaces, and it
-   is written down here rather than left to be rediscovered. */
+   This cannot reach --header-h, which lives on :root while a container query
+   only styles descendants of its container. That is why js/main.js measures
+   the wrapped bar and writes --header-h-live instead; see the root block. */
 @container site-header (max-width: 37em) {
   .header-inner { flex-wrap: wrap; gap: .9rem 1.2rem; padding-block: .8rem; }
   .brand { flex: 1 1 100%; }

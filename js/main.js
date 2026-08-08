@@ -108,6 +108,47 @@ document.documentElement.classList.add("js");
     if (heroArt) heroArt.classList.add("play");
   }
 
+  /* ---------- Live header height ----------
+     Everything that has to clear the sticky bar reads --header-h-live: the
+     scroll margin on a section and on a focusable element, the top of the two
+     sticky columns, and the first screen's min-height. The stylesheet can only
+     guess that number from viewport breakpoints, and a reader who turns text
+     up moves the bar without moving the viewport: at 200% on a 768px tablet
+     the bar is 224px where the stylesheet still says 73px, so an in-page jump
+     landed 151px under it.
+
+     The container query that wraps the bar cannot fix this itself, because it
+     only styles descendants of the bar and these custom properties live on
+     :root. So the measurement happens here and is written up to :root.
+
+     Not load-bearing: with this script blocked, --header-h-live falls back to
+     --header-h and every offset is exactly what it was before this existed. */
+
+  const siteHeader = document.querySelector(".site-header");
+
+  if (siteHeader) {
+    const writeHeaderHeight = () => {
+      const measured = Math.round(siteHeader.getBoundingClientRect().height);
+      /* A hidden or not-yet-laid-out bar measures 0, and writing that would
+         put every jump target under a bar that is about to reappear. */
+      if (measured > 0) {
+        document.documentElement.style.setProperty("--header-h-live", `${measured}px`);
+      }
+    };
+
+    if (typeof ResizeObserver === "function") {
+      /* The bar rewraps on a resize, a rotation, a font load and a text-zoom
+         change, and only the first two of those fire a window event. */
+      new ResizeObserver(writeHeaderHeight).observe(siteHeader);
+    } else {
+      window.addEventListener("resize", writeHeaderHeight, { passive: true });
+    }
+    if (document.fonts && document.fonts.ready) {
+      document.fonts.ready.then(writeHeaderHeight);
+    }
+    writeHeaderHeight();
+  }
+
   /* ---------- Signature progress line ---------- */
 
   const progressBar = document.getElementById("progressBar");
